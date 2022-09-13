@@ -1,0 +1,123 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/css/font-awesome.min.css">
+<link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/MyCv/templates/1223/css/styles.css?v=1641452725381">
+<link rel="stylesheet" id="cv-font-size-css" href="https://i-vn.joboko.com/MyCv/templates/1223/font-sizes/font_normal.css?v=1641452725379">
+<link rel="stylesheet" id="cv-spacing-css" href="https://i-vn.joboko.com/MyCv/templates/1223/spacing/spacing_normal.css?v=1641452725379">
+<link rel="stylesheet" id="cv-font" href="https://i-vn.joboko.com/MyCv/templates/1223/fonts/default.css?v=1641452725379">
+<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn.joboko.com/MyCv/templates/1223/colors/7f3f98.css?v=1641452725379">
+
+
+<!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
+<div id="form-cv" data-x-name="parrent">
+    <!-- “page=1” và class=”page” -->
+    <div page='1' class="page page--background">
+        <div class="page__inner">
+            <div class="full-width">
+                <div data-x-name="col-parrent" data-x-col="1" class="full-width__left">
+                    <div class="height-curent">
+                        <div data-x-name="item" data-x-id="info">
+                            <div class="info-detail">
+                                <div class="info-detail__item" data-x-rel="tel">
+                                    <div class="p regular inline-block" contenteditable="true" data-x-id="tel">
+                                        0123456789</div>
+                                    <div class="info-detail__item-icon">
+                                        <i class="p fa fa-volume-control-phone"></i>
+                                    </div>
+                                </div>
+                                <div class="info-detail__item" data-x-rel="email">
+                                    <div class="p regular inline-block" contenteditable="true" data-x-id="email">
+                                        hotro.goodcv@gmail.com</div>
+                                    <div class="info-detail__item-icon">
+                                        <i class="p fa fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="info-detail__item" data-x-rel="web">
+                                    <div class="p regular inline-block" contenteditable="true" data-x-id="web">
+                                        fb.com/jobokofanpage</div>
+                                    <div class="info-detail__item-icon">
+                                        <i class="p fa fa-facebook-official"></i>
+                                    </div>
+                                </div>
+                                <div class="info-detail__item" data-x-rel="add">
+                                    <div class="p regular inline-block" contenteditable="true" data-x-id="add">139 Nghĩa
+                                        Đô, Cầu Giấy, Hà Nội</div>
+                                    <div class="info-detail__item-icon">
+                                        <i class="p fa fa-map-marker"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-main" data-x-name="item" data-x-id="info">
+                            <div class="info-main__title">
+                                <div class="h1 uppercase semi-bold" contenteditable="true" data-x-id="name">Trần Thảo
+                                    Trang</div>
+                            </div>
+                            <div class="info-main__text inline-block">
+                                <div class="h2 uppercase regular" contenteditable="true" data-x-id="job">Nhân viên kinh
+                                    doanh</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-x-name="col-parrent" data-x-col="2" class="full-width__right">
+                    <div class="height-curent">
+                        <div class="avatar" data-x-name="item" data-x-id="info">
+                            <img data-x-id="ava" style="display:none" src="https://i-vn.joboko.com/Upload/images/avatars/no_avatar.jpg"
+                                alt="" />
+                            <img data-x-id="ava_vertical" src="https://i-vn.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div data-x-name="col-parrent" data-x-col="3" class="full-width__full">
+                    <div class="height-curent">
+                       
+                            <div class="target">
+                                <div data-x-name="item" data-x-id="subject">
+                                    <div class="text-center h2">Thư ứng tuyển <div contenteditable="true" data-x-id="tit">[Vị trí ứng tuyển]</div>
+                                    </div>
+                                    <div class="p regular" contenteditable="true" data-x-id="date">Ngày 31 tháng 12 năm 2021</div>
+                                </div>
+                                <div data-x-name="item" data-x-id="content">
+                                    <div class="p regular" contenteditable="true" data-x-id="body">
+                                        Thông qua …, tôi được biết Quý Công ty đang cần tuyển vị trí [Tên vị trí công việc] Tôi mong muốn
+                                        được thử sức mình trong môi trường làm việc hết sức năng động của Quý Công ty.
+                                        Với trình độ và kinh
+                                        nghiệm hiện có, tôi tự tin có thể đảm nhiệm tốt vai trò này tại công ty [Tên công ty].
+                                        Như đã đề cập trong hồ sơ đính kèm, tôi có nhiều kinh nghiệm làm việc với các
+                                        công ty … ở vị trí …. Vị
+                                        trí này đã cho tôi…. [bạn viết ra những kinh nghiệm nổi trội phù hợp với vị trí ứng tuyển] với thành tích
+                                        [bạn nêu thành tích tốt nhất bạn có được]. Ngoài ra, tôi còn có kinh nghiệm về …
+                                        trong suốt thời gian
+                                        làm việc với công ty …. – chuyên kinh doanh các mặt hàng … Là một trong nhiều
+                                        sinh viên tốt nghiệp
+                                        hàng đầu của trường Đại Học …, tôi hoàn toàn tự tin với vốn kiến thức về lĩnh
+                                        vực … của mình
+                                        Thêm vào đó, tôi có một năm kinh nghiệm làm việc cho một công ty kinh doanh … ở
+                                        vị trí … sau khi tốt
+                                        nghiệp. Tôi tin rằng đó là những nền tảng quý báu có thể giúp tôi hiểu rõ và đáp
+                                        ứng tốt nhu cầu
+                                        khách hàng của Quý Công ty.
+                                        Cám ơn ông/bà đã dành thời gian quý báu để xem xét thư xin việc này. Tôi rất
+                                        mong ông/bà có thể
+                                        sắp xếp một cuộc phỏng vấn trực tiếp gần đây nhất để tôi có thể trình bày rõ hơn
+                                        về bản thân cũng
+                                        như tìm hiểu thêm các yêu cầu chi tiết cho vị trí [Tên vị trí công việc] của
+                                        [Tên công ty].
+                                        Ngày 31 tháng 12 năm 2021
+                                        Thưa ông/bà [Tên],
+                                        Trân trọng. Xin cảm ơn!
+                                        Nguyễn Văn A
+                                    </div>
+                                </div>
+                            </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

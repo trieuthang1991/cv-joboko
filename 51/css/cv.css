@@ -1,0 +1,245 @@
+#page-cv{
+	width: 1072px;
+	float: left;
+}
+#form-cv{
+	float: left;
+	background: #fafafa;
+	position: relative;
+	font-size: 15px;
+	line-height: 24px;
+	color:#000000;
+	border: solid 1px #1b1b1b;
+}
+#form-cv *{box-sizing:border-box !important}
+#form-cv .h3{
+    font-size:14px
+}
+#form-cv p{
+	margin-top: 0;
+	margin-bottom: 12px
+}
+#sortable .cvo-block{
+	margin-bottom: 15px
+}
+h1{
+	color:#fff;
+}
+#cv-main{
+	width: 100%;
+	display: table;
+	margin:10px auto;
+}
+#cv-top{	
+	min-height: 200px;
+	width: 100%;
+	color: #fff;		
+	position: relative;	
+}
+#cv-content{
+	width: 93.5%;
+	height: auto;
+	display: block;
+	position: relative;
+	margin-left: 35px;
+    top:-110px
+}
+#cv-content .cvo-block {
+    position: relative;
+    padding: 5px 10px;
+}
+#cv-right{
+	width: 93.5%;
+	height: auto;
+	display: block;
+	/*background: #fafafa;*/
+	position: relative;
+	padding-right: 10px;
+	margin-left: 35px;
+    top:-110px
+}
+#cv-right .ctbx {
+	padding-bottom: 0;
+	margin:0;
+}
+.skill{
+	margin-top: 15px
+}
+
+#cv-top h1{
+	font-size: 26px;    
+    font-weight: 500;
+    text-transform: capitalize;       
+    color:#1b1b1b;
+    margin-bottom: 5px
+}
+#cv-top h2{
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 0;
+	text-transform: uppercase;
+	color: #353434
+}
+.box-01 p{	
+	
+}
+.box-01{
+	margin:auto;	
+	overflow: hidden;	
+	padding: 10px;
+	padding-top: 50px;
+	width: 61%;
+	margin-bottom: 30px;
+}
+#cv-content .ir{
+	
+}
+#cv-content p{
+	margin-bottom: 5px
+}
+#cv-content .ir a{
+	color: #2ebb2f
+}
+#cv-right .h3, #cv-content .head{
+	font-size: 18px;
+	text-transform: uppercase;
+    color: #1b1b1b;    
+    font-weight: 600;
+    border-bottom: 2px solid #000000;
+    margin-top: 0
+}
+
+#cv-content h3{	
+	font-weight: normal;
+    font-size: 14px;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height:24px
+}
+
+#cv-content .h3{
+	color:#333;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 0;
+    line-height:24px
+}
+#cv-content span[contenteditable]{
+	display: inline-block;
+	background: #fafafa;
+	padding-right: 8px;
+	margin-bottom: 1px;
+}
+
+#cv-right .h3:first-child{
+	margin-top: 0
+}
+.ctbx{
+	margin-bottom: 15px;
+	position: relative;display: table;
+    width: 100%;
+}
+.ctbx .r5 .h3{
+	text-transform: uppercase;
+}
+.ctbx:hover {
+	box-shadow: 0 0 1px #999;
+}
+.ctbx:hover .fieldgroup_controls{
+	display: block;
+}
+[cvo-form-field] {
+    cursor: text;
+}
+#cvo-profile-avatar-wraper{
+	float: right;
+	border:3px solid #1b1b1b;	
+	margin-top: 20px;
+	padding:0;
+	margin-right: 34px;text-align:center
+}
+#cvo-profile-avatar-wraper #cvo-profile-avatar{
+	padding: 0;
+	border:0;
+	display: table;
+	width: 180px;
+	height: 180px	
+}
+#line-seperate {
+    height: 25px;
+    background-color: #e3ecec;
+}
+.bar-exp span {
+    display: block;
+    height: 8px;
+    background: #1b1b1b;
+}
+.bar-exp{
+	background: #cecece;
+	width: 50%;
+	margin-top: 8px;
+    margin-bottom:12px;display: inline-block;
+    float: right;
+}
+.bar-value-exp{
+	width: 50%
+}
+.skill-name{
+	float: left;
+}
+.icoweb label{
+	width: 35%;
+	margin-right: 0;
+	float: left;
+}
+#cv-right .icoweb span{
+	display: block;
+}
+#cv-right .icoweb i.fa{
+	width: 19px;
+    height: 19px;
+    text-align: center;
+    line-height: 17px;
+    color: #494949;
+    vertical-align: top;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-right: 3px;float:left
+}
+.icoweb{
+	width: 50%;
+	float: left;
+	margin-bottom: 5px !important;
+	font-size: 15px;
+}
+#cv-content .cvo-block{
+
+}
+.box-contact{
+    width: 69%;
+    /*position: absolute !important;
+    top: -110px;*/
+    left: 24px;
+}
+.block{padding: 0 10px;}
+.cvo-skillrate-value[value="1"]{width:20%}
+.cvo-skillrate-value[value="2"]{width:40%}
+.cvo-skillrate-value[value="3"]{width:60%}
+.cvo-skillrate-value[value="4"]{width:80%}
+.cvo-skillrate-value[value="5"]{width:100%}
+em[contenteditable]{display:inline-block}
+span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
+span.exp-date{float:right}
+#cvo-profile{z-index:100}
+@media screen and (max-width: 790px) {
+    #cv-top{width:100%;text-align:center;float:none}
+    #cvo-profile-avatar-wraper{float:none;margin:0}
+    #cvo-profile-avatar-wraper img{margin:0 auto}
+    #cv-top h1,#cv-top h2{float:none;width:90%;margin:10px auto}
+    #cv-right{width:100%;min-height:100px;float:none;margin-left:0;padding-right:0;top:0}
+    #cv-content{width:100%;float:none;min-height:100px;float:none;margin-left:0;top:0}
+    .box-contact{position:relative !important;top:0;width:90%}
+    .icoweb{width:100%}
+    .box-01{padding-top:0;margin-bottom:0}
+}

@@ -1,0 +1,6 @@
+@media print {
+    .bottom:has(div.bottom__item.x_hide) {
+        display: none;
+    }
+
+}

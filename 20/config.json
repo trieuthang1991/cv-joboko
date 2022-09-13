@@ -1,0 +1,11 @@
+﻿{
+  "langs": [ "vi","en"],
+  "colors": [ "6a6a71","168dc7","568a3c"],
+  "fonts": {
+    "default":"Times New Roman",
+    "arial": "Arial",
+    "roboto":"Roboto"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

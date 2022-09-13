@@ -1,0 +1,25 @@
+#block02{
+	background: #85adad;
+}
+#block02 span[contenteditable],#block02 em[contenteditable]{
+	background: #85adad;
+}
+
+#block01{
+	background: #53c68c;
+}
+#block01 span[contenteditable],#block01 em[contenteditable]{
+	background: #53c68c;
+}
+
+#form-cv{
+	border: solid 1px #cc0000;
+}
+
+#cv-right .h3, #cv-content .head{
+    color: #cc0000;
+}
+
+.bar-exp span {
+    background: #cc0000;
+}

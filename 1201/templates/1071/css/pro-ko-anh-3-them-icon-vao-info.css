@@ -1,0 +1,413 @@
+.cv-main {
+    margin: auto;
+    background: #fff;
+    font-family: Constantia;
+    font-size: 14px;
+}
+
+.cv-main::after {
+    content: none
+}
+
+.row::before{
+    content: none
+}
+
+.no-pad {
+    padding: 0px;
+}
+
+.no-margin{
+    margin: 0
+}
+
+
+.header-row {
+    color: #2f2f2f;
+    text-align: center;
+    margin: 0 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #311919
+}
+
+.header-row #me-name {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#me-name [data-x-id="name"] {
+    text-transform: capitalize;
+}
+
+#me-name [data-x-id="job"] {
+    font-size: 23px;
+    text-transform: capitalize;
+}
+
+#me-name span {
+    display: block
+}
+
+.header-row #head-contact, .header-row #head-add {
+    font-size: 20px
+}
+
+#head-contact span {
+    display: inline-block;
+}
+
+#head-add span {
+    display: block
+}
+
+/* body */
+.content-row {
+    margin: 0 40px;
+}
+
+#profile, #tar {
+    display: flex;
+}
+
+#profile .title, #tar .title {
+    width: 44%;
+    display: flex;
+}
+
+#profile [data-x-name="list-item"], #tar [data-x-name="list-item"] {
+    flex: 1;
+    width: 56%
+}
+
+#profile [data-x-name="list-item"] p, #tar [data-x-name="list-item"] p{
+    width: 100%
+}
+
+.title i {
+    color: #311919;
+}
+
+.title-head {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.field-bound {
+    padding: 15px 0 25px 0;
+    border-bottom: 2px solid #311919;
+}
+
+.field-bound:last-child {
+    border-bottom: none !important
+}
+
+.sub-div {
+    padding-top: 25px;
+    display: flex;
+    position: relative;
+}
+.sub-div-name {
+    padding-top: 10px;
+    display: flex;
+    position: relative;
+}
+.div-right {
+    flex: 1
+}
+.page{
+    position: relative;
+}
+#activity .div-right {
+    flex: 1;
+}
+
+
+
+.div-left {
+    width: 25%
+}
+.c-info{
+    margin-left: 25%
+}
+
+.year-tag span {
+    display: inline-block;
+}
+
+.div-right .subdiv-tit {
+    font-weight: bold;
+    display: block;
+}
+
+.div-right [data-x-id="des"] {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#contacts .contact-div {
+    display: flex;
+}
+
+#contacts .c-info i {
+    font-weight: 400;
+    font-size: 17px;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+#contacts .c-info span {
+    display: inline-block
+}
+
+#contacts .c-info i::before {
+    margin-right: 30px;
+    font-weight: 900;
+}
+
+#skills #content {
+    display: flex;
+    position: relative;
+}
+
+#skills .div-right {
+    width: 66%
+}
+
+#skills .sub-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 23px;
+    display: inline-grid;
+    width: 45%;
+}
+
+#skills .skill-sub-bound {
+    display: flex;
+    justify-content: space-between
+}
+
+
+.div-right-skill {
+    margin-right: 10px;
+}
+
+.div-right-skill, .div-right-lev {
+    display: inline-block;
+    width: 50%;
+    margin-left: 0 !important;
+}
+
+#skills .div-right [data-x-id="des"] {
+    margin-top: 0;
+}
+
+#reference [data-x-id="name"] {
+    width: 66%
+}
+/* page 2 */
+.margin-top-20 .content-row .others-info {
+    padding-top: 25px;
+    width: 100%;
+}
+
+.page:last-child #cv-watermark{
+    position: absolute;
+    display: block !important;
+    bottom: 10px;
+    right: 10px;
+}
+
+#cv-watermark a:after{
+    content: "Joboko.com";
+}
+.others-info {   
+    width: 100%;
+} 
+/* RESPONSIVE */
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* -------------TABLET PORTRAIT--------- */
+@media screen and (max-width: 780px) {
+    .div-right-lev {
+        left: 115px;
+    }
+    #profile .title {
+        width: 33%
+    }
+    .title-head {
+        font-size: 18px;
+        margin-left: 15px
+    }
+    .div-left {
+        width: 35%;
+    }
+}
+
+/* -----------------MOBILE---------------- */
+@media screen and (max-width: 680px) {
+    .cv-main {
+        font-size: 12px
+    }
+    .header-row {
+        padding-bottom: 30px
+    }
+    .header-row #me-name {
+        font-size: 30px
+    }
+    .header-row #head-contact {
+        font-size: 18px
+    }
+    .title-head {
+        font-size: 18px;
+        margin-left: 15px
+    }
+    .div-left {
+        width: 33%;
+    }
+    .div-right-lev {
+        left: 100px;
+    }
+    .field-bound {
+        padding-bottom: 30px
+    }
+    .sub-div {
+        padding-top: 25px
+    }
+    #contacts .c-info i {
+        font-size: 15px;
+    }
+    #profile .title {
+        width: 40%
+    }
+}
+
+
+/* -----------------SMALL MOBILE---------------- */
+@media screen and (max-width: 470px) {
+    .cv-main {
+        font-size: 10px;
+    }
+    .header-row {
+        padding-bottom: 20px
+    }
+    .header-row #me-name {
+        font-size: 28px
+    }
+    .header-row #head-contact, .header-row #head-website {
+        font-size: 13px
+    }
+    #profile .title {
+        width: 40%
+    }
+    .title-head {
+        font-size: 14px;
+        margin-left: 7px;
+    }
+    .sub-div ,.sub-div-name {
+        flex-wrap: wrap;
+    }
+    .div-left {
+        width: 100%;
+    }
+    .content-row{
+        margin: 0 10%;
+    }
+    .c-info {
+        margin-left: 0;
+    }
+    #skills .div-left, #contacts .div-left {
+        width: 0%
+    }
+    
+    #skills .sub-div{
+        width: 100%;
+    }
+    #skills .skill-sub-bound {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .div-right-lev {
+        
+        width: auto;
+       
+    }
+    .div-right-skill {
+        
+        width: 50%;
+       
+    }
+    .field-bound {
+        padding-bottom: 15px
+    }
+    .sub-div {
+        padding-top: 18px
+    }
+    #contacts .c-info i {
+        font-size: 11px
+    }
+    .div-right-lev {
+        left: 80px;
+    }
+}
+
+
+/* -----------------SMALLER MOBILE---------------- */
+@media screen and (max-width: 360px) {	
+    .cv-main {
+        font-size: 8px;
+    }
+    .header-row {
+        padding-bottom: 10px
+    }
+    .header-row #me-name {
+        font-size: 20px
+    }
+    #profile .title {
+        width: 40%
+    }
+    .title-head {
+        font-size: 10px;
+        margin-left: 3px;
+    }
+   
+    .field-bound {
+        padding-bottom: 15px;
+        padding-top: 10px
+    }
+    .sub-div {
+        padding-top: 18px
+    }
+    #contacts .c-info i {
+        font-size: 11px
+    }
+    .div-right-skill {
+        margin-right: 45px
+    }
+}
+
+[data-x-bullet]:before{
+    content: "\f111";
+    font-family: FontAwesome;
+    margin-right: 2px;
+    font-size: 7.45px;
+    margin-left: 1px;
+}
+
+[contenteditable]:focus  {
+    outline: 1pt dashed #77a5cc !important;
+    cursor: text;
+}
+
+
+[contentEditable=true]:empty{
+	outline: 1pt dashed #fc4b08 !important;
+}

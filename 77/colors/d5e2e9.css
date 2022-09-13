@@ -1,0 +1,11 @@
+.footer-row {
+    background: #d5e2e9;
+}
+
+.details-heading::after {
+    color: #d5e2e9;
+}
+.header-row {
+    background: url(/MyCV/templates/77/images/bg_default.jpg) no-repeat;
+    background-size: 100% 100%;
+}

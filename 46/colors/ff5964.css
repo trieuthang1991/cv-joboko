@@ -1,0 +1,16 @@
+.box-name{
+	background: #ff5964;
+}
+
+.cv-left .h3, .cv-content .head{
+    color: #ff5964;
+}
+.cv-content .h3{
+	color:#ff5964
+}
+.bar-exp span {
+    background: #ff5964;
+}
+#cv-box-ava img{
+	border:4px solid #ff99a0;
+}

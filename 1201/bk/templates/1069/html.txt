@@ -1,0 +1,238 @@
+﻿<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap">
+<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1069/css/cv-css.css?v=24">
+<link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1069/font-sizes/font_normal.css?v=23">
+<link rel="stylesheet" id="cv-font" href="/MyCv/templates/1069/fonts/default.css?v=23">
+<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1069/colors/00000.css?v=23">
+
+<link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1069/spacing/spacing_normal.css?v=33">
+
+<div id="form-cv" data-x-name="parrent">
+	<div page='1' class="page pageCV">
+		<div data-x-name="col-parrent" data-x-col="1">
+			<div class="height-curent ">
+				<div data-x-name="content" class="height_content">
+					<div data-x-name="item" data-x-id="info" class="itemInfo">
+						<img data-x-id="ava" style="display:none" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+						<img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg"
+							alt="" />
+						<div class="icoweb txt-name" data-x-rel="name">
+							<span data-x-id="name" contenteditable="true" class="nameInfo">Họ và tên</span>
+						</div>
+						<div data-x-rel="job" class="icoweb txt-job">
+							<div data-x-id="job" contenteditable="true" class="jobInfo">Vị trí c</div>
+						</div>
+						<div data-x-rel="add" class="icoweb">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+							<div data-x-id="add" contenteditable="true" class="addInfo txt-content">Địa chỉ</div>
+						</div>
+						<div class="info_special">
+							<div data-x-rel="tel" class="icoweb">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<div data-x-id="tel" contenteditable="true" class="telInfo txt-content">số điện thoại</div>
+							</div>
+							<div data-x-rel="email" class="icoweb">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<div data-x-id="email" contenteditable="true" class="telInfo txt-content">email</div>
+							</div>
+						</div>
+					</div>
+					<div data-x-name="group-item">
+						<div data-x-name="item" data-x-id="edu" class="itemGroup itemEdu">
+							<div data-x-name="head" class="tit-item" class="titItem">
+								<div class="icon_tit">
+									<i class="fa fa-graduation-cap fa-BeforeTit" aria-hidden="true"></i>
+									<h2 data-x-id="tit" contenteditable="true" class="titItem">Học vấn</h2>
+								</div>
+								<span class="border_tit"></span>
+							</div>
+							<div data-x-name="list-item" class="listItem">
+								<div data-x-name="sub-item" class="subItem">
+									<div class="sub_NameTime">
+										<div data-x-id="name" contenteditable="true" class="subName txt1">Cao đẳng sư phạm
+											ninh thuận</div>
+										<div class="sub_time">
+											<span data-x-id="start" contenteditable="true">10/2010</span><span
+												class="space_time">-</span><span data-x-id="end"
+												contenteditable="true">05/2014</span>
+										</div>
+									</div>
+									<div data-x-id="cat" contenteditable="true" class="text-pos txt4">Chuyên ngành: Tiếng anh
+									</div>
+									<div data-x-id="des" contenteditable="true" class="subDes txt-content">Tốt nghiệp loại TB/K
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-x-name="item" data-x-id="exp" class="itemGroup itemExp">
+							<div data-x-name="head" class="tit-item">
+								<div class="icon_tit">
+									<i class="fa fa-briefcase fa-BeforeTit" aria-hidden="true"></i>
+									<h2 data-x-id="tit" contenteditable="true" class="titItem">Kinh nghiệm làm việc</h2>
+								</div>
+								<span class="border_tit"></span>
+							</div>
+							<div data-x-name="list-item" class="listItem">
+								<div data-x-name="sub-item" class="subItem">
+									<div class="sub_NameTime">
+										<div data-x-id="name" contenteditable="true" class="subName txt1">Công ty 1</div>
+										<div class="sub_time">
+											<span data-x-id="start" contenteditable="true">10/2010</span><span
+												class="space_time">-</span><span data-x-id="end"
+												contenteditable="true">05/2014</span>
+										</div>
+									</div>
+									<div data-x-id="pos" contenteditable="true" class="text-pos txt4">Nhân viên kinh doanh
+									</div>
+									<div data-x-id="des" contenteditable="true" data-x-bullet="-" class="des_special txt-content">Mô
+										tả 1</div>
+								</div>
+							
+							</div>
+						</div>
+						<div data-x-name="item" data-x-id="act" class="itemGroup itemAct">
+							<div data-x-name="head" class="tit-item">
+								<div class="icon_tit">
+									<i class="fa fa-cog fa-BeforeTit" aria-hidden="true"></i>
+									<h2 data-x-id="tit" contenteditable="true" class="titItem">Hoạt động</h2>
+								</div>
+								<span class="border_tit"></span>
+							</div>
+							<div data-x-name="list-item" class="listItem">
+								<div data-x-name="sub-item" class="subItem">
+									<div class="sub_NameTime">
+										<div data-x-id="name" contenteditable="true" class="subName txt1">Công ty 1</div>
+										<div class="sub_time">
+											<span data-x-id="start" contenteditable="true">10/2010</span><span
+												class="space_time">-</span><span data-x-id="end"
+												contenteditable="true">05/2014</span>
+										</div>
+									</div>
+									<div data-x-id="pos" contenteditable="true" class="text-pos txt4">Nhân viên kinh doanh
+									</div>
+									<div data-x-id="des" contenteditable="true" data-x-bullet="-" class="des_special txt-content">Mô
+										tả 1</div>
+								</div>
+							</div>
+						</div>
+						<div data-x-name="item" data-x-id="skill" class="itemGroup itemSkill">
+							<div data-x-name="head" class="tit-item">
+								<div class="icon_tit">
+									<i class="fa fa-book fa-BeforeTit" aria-hidden="true"></i>
+									<h2 data-x-id="tit" contenteditable="true" class="titItem">Các kỹ năng</h2>
+								</div>
+								<span class="border_tit"></span>
+							</div>
+							<div data-x-name="list-item" class="listItem">
+								<div data-x-name="sub-item" class="subItem">
+									<div data-x-id="name" contenteditable="true" class="sub_name txt-content">Tin học văn phòng
+									</div>
+									<div data-x-id="des" contenteditable="true" class="subDes txt-content">- Mô tả 1</div>
+								</div>
+							
+							</div>
+						</div>
+						<div data-x-name="item" data-x-id="tar" class="itemGroup itemTar">
+							<div data-x-name="head" class="tit-item">
+								<div class="icon_tit">
+									<i class="fa fa-hourglass-start fa-BeforeTit" aria-hidden="true"></i>
+									<h2 data-x-id="tit" contenteditable="true" class="titItem">Mục tiêu nghề nghiệp</h2>
+								</div>
+								<span class="border_tit"></span>
+							</div>
+							<div data-x-name="list-item" class="listItem">
+								<div data-x-id="name" contenteditable="true" data-x-bullet="-" class="des_special txt-content">Mục
+									tiêu 1</div>
+							</div>
+						</div>
+						<div data-x-name="item" data-x-id="ref" class="itemGroup itemref">
+							<div data-x-name="head" class="tit-item">
+								<div class="icon_tit">
+									<i class="fa fa-users fa-BeforeTit" aria-hidden="true"></i>
+									<h2 data-x-id="tit" contenteditable="true" class="titItem">Người tham chiếu</h2>
+								</div>
+								<span class="border_tit"></span>
+							</div>
+							<div data-x-name="list-item" class="listItem">
+								<div data-x-name="sub-item" class="subItem">
+									<div data-x-id="name" contenteditable="true" data-x-bullet="-" class="des_special txt-content">
+										Người tham chiếu</div>
+								</div>
+							
+							</div>
+						</div>
+						<div data-x-name="item" data-x-id="award" class="itemGroup itemaward">
+							<div data-x-name="head" class="tit-item">
+								<div class="icon_tit">
+									<i class="fa fa-calendar fa-BeforeTit" aria-hidden="true"></i>
+									<h2 data-x-id="tit" contenteditable="true" class="titItem">Giải thưởng</h2>
+								</div>
+								<span class="border_tit"></span>
+							</div>
+							<div data-x-name="list-item" class="listItem">
+								<div data-x-name="sub-item" class="subItem">
+									<div data-x-id="name" contenteditable="true" class="nameAward txt-content">Thành tích 1</div>
+									<div data-x-id="time" contenteditable="true" class="timeAward txt-content">2015</div>
+								</div>
+							
+							</div>
+						</div>
+						<div data-x-name="item" data-x-id="cer" class="itemGroup itemaward">
+							<div data-x-name="head" class="tit-item">
+								<div class="icon_tit">
+									<i class="fa fa-trophy fa-BeforeTit" aria-hidden="true"></i>
+									<h2 data-x-id="tit" contenteditable="true" class="titItem">Thành tích</h2>
+								</div>
+								<span class="border_tit"></span>
+							</div>
+							<div data-x-name="list-item" class="listItem">
+								<div data-x-name="sub-item" class="subItem">
+									<div data-x-id="name" contenteditable="true" class="nameAward txt-content">Thành tích 1</div>
+									<div data-x-id="time" contenteditable="true" class="timeAward txt-content">2015</div>
+								</div>
+								
+							</div>
+						</div>
+						<div data-x-name="item" data-x-id="more" class="itemGroup itemref">
+							<div data-x-name="head" class="tit-item">
+								<div class="icon_tit">
+									<i class="fa fa-sticky-note fa-BeforeTit" aria-hidden="true"></i>
+									<h2 data-x-id="tit" contenteditable="true" class="titItem">Thông tin khác</h2>
+								</div>
+								<span class="border_tit"></span>
+							</div>
+							<div data-x-name="list-item" class="listItem">
+								<div data-x-id="name" contenteditable="true" data-x-bullet="-" class="des_special txt-content">abc
+								</div>
+							</div>
+						</div>
+						<div data-x-name="item" data-x-id="hob" class="itemGroup itemref">
+							<div data-x-name="head" class="tit-item">
+								<div class="icon_tit">
+									<i class="fa fa-times-circle-o fa-BeforeTit" aria-hidden="true"></i>
+									<h2 data-x-id="tit" contenteditable="true" class="titItem">Sở thích</h2>
+								</div>
+								<span class="border_tit"></span>
+							</div>
+							<div data-x-name="list-item" class="listItem">
+								<div data-x-name="sub-item" class="subItem">
+									<div data-x-id="name" contenteditable="true" data-x-bullet="-" class="des_special txt-content">
+										Người tham chiếu</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+	</div>
+</div>
+<div id="page" class="page pageCV" style="display: none">
+	<div data-x-name="col-parrent" data-x-col="1">
+		<div class="height-curent ">
+			<div data-x-name="content" class="height_content"></div>
+		</div>
+	</div>
+	<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+</div>

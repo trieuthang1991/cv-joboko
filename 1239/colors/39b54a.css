@@ -1,0 +1,9 @@
+#cv-document .page{background:linear-gradient(to right,#39b54a,#39b54a) no-repeat left bottom/100% 2em,#fff;color:#000}
+#cv-document .two-up{border-bottom-color:#bbbdbf}
+#cv-document .two-up::before{background-image:linear-gradient(135deg,#000 50%,transparent 0)}
+#cv-document .two-up::after{background-color:#39b54a}
+#cv-document .heading::after{background-color:#231f20}
+#cv-document .info-main{color:#fff}
+#cv-document .info-main::before{background-color:#39b54a}
+#cv-document .info-detail__item-icon{border-color:#fff;background-color:#009444;color:#fff}
+#cv-document .job-position{color:#414042}

@@ -1,0 +1,257 @@
+body.page-preview, body.page-view, body.page-viewdemo {
+    background: url(/images3/bg-cv/1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+*{box-sizing:border-box;}
+.pageCV{
+	background: #fff;
+	color: #000;
+}
+.height_content{
+	padding: 50px 30px;
+}
+.itemInfo {
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+.info_special {
+	display: flex;
+	justify-content: center;
+}
+.itemInfo .icoweb{
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+.itemInfo .jobInfo {
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 500;
+	font-style: italic;
+	text-transform: capitalize;
+}
+.addInfo{
+	font-weight: 100;
+}
+
+.itemInfo .icoweb i {
+	margin: auto 0;
+    padding-right: 10px;
+}
+.info_special .icoweb .telInfo {
+	margin-right: 20px;
+}
+.itemInfo .icoweb .nameInfo {
+	font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 40px;
+}
+.itemGroup {
+	margin: 20px 0 0;
+}
+.tit-item {
+	margin-bottom: 14px;
+	display: flex;
+}
+
+.tit-item .titItem{
+	font-size: 25px;
+    text-transform: uppercase;
+    line-height: 29px;
+    padding-bottom: 5px;
+}
+.tit-item .border_tit {
+	flex-grow: 1;
+	margin-bottom: 2px;
+	border-bottom: 2px solid #7a7a7a;
+}
+.tit-item .titItem img {
+	width: 32px;
+	height: auto;
+	padding-right: 10px;
+}
+.subItem{
+	padding: 0 0 14px;
+	border-bottom: 1px solid #ccc;
+	max-width: 100%;
+	margin-bottom: 14px;
+	
+}
+.subItem:last-child{
+	border-bottom: none;
+	padding: 0;
+}
+.sub_NameTime {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 7px;
+	
+}
+.sub_NameTime .subName{
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 600;
+	width: 80%;
+	max-width: 80%;	
+}
+.sub_NameTime .sub_time{
+	flex-grow: 1;
+	max-width: 20%;
+	display: flex;
+	justify-content: flex-end;
+}
+.sub_NameTime .sub_time .space_time{
+	padding: 0 5px;
+}
+.text-pos {
+	font-style:italic;
+	margin-bottom: 8px;	
+}
+.des_special:before {
+	content: "-";
+	padding-right: 5px;
+}
+.itemSkill .subItem{
+	display: flex;
+	padding-top: unset;
+	padding-bottom: 5px;
+	border: none;
+}
+.itemSkill .subItem .sub_name {
+	width: 40%;
+	max-width: 40%;
+}
+.itemSkill .subItem .subDes {
+	flex-grow: 1;
+	max-width: 60%;
+}
+.itemaward .subItem{
+	display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.itemaward .subItem .nameAward{
+	max-width: 90%;
+	width: 90%;
+}
+.itemaward .subItem [data-x-id="time"]{
+	max-width: 10%;
+}
+.icon_tit {
+	display: flex;
+	width: auto;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+.fa-BeforeTit {
+	font-size: 20px;
+    margin-right: 15px;
+    padding-top: 2px;
+}
+/*---------------------------RESPONSIVE--------------------------------*/
+
+@media screen and (max-width: 1024px) {
+
+}
+/* -------------TABLET PORTRAIT--------- */
+@media screen and (max-width: 780px) {
+}
+/* -----------------MOBILE---------------- */
+@media screen and (max-width: 680px) {
+	.itemInfo .icoweb .nameInfo {
+    	font-size: 40px;
+    	line-height: 45px;
+    }
+    .tit-item .titItem {
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+	.sub_NameTime .subName {
+		max-width: 70%;
+		width: 70%;
+	    font-size: 17px;
+	    line-height: 17px;
+	    font-weight: 600;
+	}
+	.sub_NameTime .sub_time{
+		max-width: 30%;
+		width: 30%;
+	}
+}
+.page:last-child #cv-watermark{
+    display: block !important;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#cv-watermark a:after{
+    content: "Joboko.com";
+}
+
+/* -----------------SMALL MOBILE---------------- */
+@media screen and (max-width: 470px) {
+	.itemInfo .icoweb .nameInfo {
+    	font-size: 35px;
+    	line-height: 40px;
+    }
+    .tit-item .titItem {
+	    font-size: 18px;
+	    line-height: 22px;
+	}
+	.sub_NameTime {
+		display: inline-block;
+	}
+	.sub_NameTime .subName {
+		width: unset;
+		max-width: unset;
+	    font-size: 15px;
+	    line-height: 15px;
+	    font-weight: 600;
+	    margin-bottom: 10px;
+	}
+	.sub_NameTime .sub_time{
+		max-width: unset;
+		width: unset;
+		justify-content: flex-start;
+	}
+	.info_special {
+		display: inline-block;
+		width: 100%;
+		max-width: 100%;
+    	margin: auto;
+	}
+	.info_special .telInfo{
+		margin-right: unset;
+		margin-bottom: 5px;
+	}
+	.itemSkill .subItem {
+		display: inline-block;
+		width: 100%;
+		max-width: 100%;
+	}
+	.itemSkill .subItem .subDes{
+		width: 100%;
+		max-width: 100%;
+	}
+	.itemSkill .subItem .sub_name{
+		width: 100%;
+		max-width: 100%;
+	}
+}
+/* -----------------iphone 6/7/8 plus ---------------- */
+@media screen and (max-width: 414px) {
+	
+}
+/* -----------------iphone 6/7/8/X ---------------- */
+@media screen and (max-width: 375px) {
+}
+/* -----------------SMALLER MOBILE---------------- */
+@media screen and (max-width: 360px) {	
+}

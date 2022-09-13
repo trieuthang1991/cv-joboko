@@ -1,0 +1,17 @@
+#cv-document .page{background-color:#fff;color:#000}
+#cv-document .page__inner{background:linear-gradient(to right,#f5f5f5 22.6em,#fff 0)}
+@media screen and (max-width:767px){
+#cv-document .page__inner{background:#fff}
+}
+#cv-document .full-width__background{background-color:#f5f5f5}
+@media screen and (max-width:767px){
+#cv-document .full-width__background{background-color:transparent}
+}
+#cv-document .full-width__background>span{background-color:#fff}
+#cv-document .full-width__background>span>span{background-color:#ef4136}
+#cv-document .full-width__right::before{background-color:#ef4136}
+#cv-document .avatar{background-color:#fff}
+#cv-document .info-main{color:#292928}
+#cv-document .info-main::after,#cv-document .info-main::before{color:#000}
+#cv-document .heading,#cv-document .info-detail{color:#292928}
+#cv-document .datetime{color:#414042}

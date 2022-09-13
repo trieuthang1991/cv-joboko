@@ -1,0 +1,8 @@
+#cv-document .page{color:#000;background:linear-gradient(to right,#f15a29,#f15a29) no-repeat left bottom/100% 2em,#fff}
+#cv-document .heading{color:#f15a29}
+#cv-document .info-main::before{background-color:#d1d3d4}
+#cv-document .info-main__wrapper{background-color:#fff}
+#cv-document .info-main__title{color:#f15a29}
+#cv-document .info-detail{border-top:1px solid rgba(34,100,176,.5)}
+#cv-document .info-detail__item::after{background-color:#f15a29}
+#cv-document .info-detail__item-icon{color:#f15a29;background-color:#f4f4f4}

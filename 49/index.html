@@ -1,0 +1,1616 @@
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  type="text/css"
+/>
+<style>
+  #form-cv {
+    font-family: "Roboto", sans-serif;
+  }
+  #form-cv {
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    color: #494949;
+    border: solid 1px #c1c1c1;
+  }
+  #cv-main {
+    display: table;
+  }
+  #cv-left {
+    padding: 10px 5px;
+    width: 35%;
+    display: table-cell;
+    background: #2f3a40 !important;
+    position: relative;
+    color: white;
+  }
+  #cv-content {
+    width: 64%;
+    display: table-cell;
+    position: relative;
+    padding: 10px 0 10px 5px;
+    background: #fff;
+    border-left: 3px solid #fff;
+  }
+
+  .editor-container .pages {
+    margin-right: 20px;
+  }
+
+  .page-container {
+    position: relative;
+  }
+
+  .section .section-badge {
+    background: #f8ca04;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 10px;
+    left: 280px;
+    cursor: pointer;
+  }
+
+  [contenteditable="true"]:empty:before {
+    content: attr(content-placeholder);
+    color: #9197a3;
+    font-weight: 100;
+  }
+
+  .content-user-profile .empty-field {
+    outline: 1px dashed gray;
+  }
+</style>
+<body>
+  <div id="form-cv">
+    <div id="cv-main">
+      <div class="page page-0 row">
+        <div class="side cv-left">
+          <div class="content-user-profile side">
+            <div class="section-badge-header"></div>
+            <div id="cvo-profile" data-x-name="item" data-x-id="info">
+              <div class="header ">
+                <div
+                  id="cv-profile-fullname"
+                  data-x-id="name"
+                  class="input-field name  font-size-1 user-name  empty-field  "
+                  contenteditable="true"
+                >
+                  Thắng Văn Triệu
+                </div>
+                <div class="avatar-container">
+                  <div class="avatar-group">
+                    <div class="avatar-img-container">
+                      <img
+                        id="cvo-profile-avatar"
+                        cvo-form-field="true"
+                        data-x-id="ava"
+                        class="avatar uploaded"
+                        src="https://d1hlp2khpgx7qe.cloudfront.net/confidential/99694fdf76659ffa7bc3084fb3039f5c"
+                        alt="avatar"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="cv-profile-job"
+                  contenteditable="true"
+                  data-x-id="job"
+                  class="input-field title  font-size-5 user-title  empty-field  "
+                  contenteditable="true"
+                ></div>
+                <div class="section-contacts">
+                  <div
+                    class="content-field content-contacts index-0 last-index section "
+                  >
+                    <div class="">
+                      <div class="section-name profile-section">
+                        <span
+                          class="profile-section-header font-size-2"
+                          contenteditable="true"
+                          >Liên hệ</span
+                        >
+                      </div>
+                      <div class="contacts-sections">
+                        <div class="sub-section ">
+                          <div class="">
+                            <div class="header-field-group">
+                              <i
+                                class="fa fa-birthday-cake header-field-icon text-primary"
+                              ></i>
+                              <h4
+                                data-x-rel="dob"
+                                class="input-field focus-able date_of_birth  header-field-input font-size-4 empty-field  "
+                                contenteditable="true"
+                              ></h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sub-section ">
+                          <div class="">
+                            <div class="header-field-group">
+                              <i
+                                class="fa fa-envelope header-field-icon text-primary"
+                              ></i>
+                              <h4
+                                data-x-rel="email"
+                                class="input-field focus-able email  header-field-input font-size-4 empty-field  "
+                                contenteditable="true"
+                              >
+                                trieuvan_thang@yahoo.com.vn
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sub-section ">
+                          <div class="">
+                            <div class="header-field-group">
+                              <i
+                                class="fa fa-map-marker header-field-icon text-primary"
+                              ></i>
+                              <h4
+                                data-x-rel="add"
+                                class="input-field focus-able address  header-field-input font-size-4 empty-field  "
+                                contenteditable="true"
+                              ></h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sub-section ">
+                          <div class="">
+                            <div class="header-field-group">
+                              <i
+                                class="fa fa-phone header-field-icon text-primary"
+                              ></i>
+                              <h4
+                                data-x-rel="tel"
+                                class="input-field focus-able phone  header-field-input font-size-4 empty-field  "
+                                contenteditable="true"
+                              ></h4>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sub-section ">
+                          <div class="">
+                            <div class="header-field-group">
+                              <i
+                                class="fa fa-globe header-field-icon text-primary"
+                              ></i>
+                              <h4
+                                data-x-rel="web"
+                                class="input-field focus-able website  header-field-input font-size-4 empty-field  "
+                                contenteditable="true"
+                              ></h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="box02"
+                  class="block cvo-block ui-sortable-handle"
+                  data-x-name="item"
+                  data-x-id="tar"
+                >
+                  <p class="h3">
+                    <span
+                      id="cv-boxtitle"
+                      cv-form-field="true"
+                      contenteditable="true"
+                      class="box-title"
+                      data-x-id="tit"
+                      >Mục tiêu nghề nghiệp</span
+                    ><i class="fa fa-bookmark"></i>
+                  </p>
+                  <div
+                    class="box-content"
+                    data-x-id="name"
+                    contenteditable="true"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main cv-content">
+          <div class="column-0">
+            <div data-x-name="group-item">
+              <div
+                class="content-field content-skills index-0 last-index section editable "
+                data-x-name="item"
+                data-x-id="skill"
+              >
+                <div>
+                  <div class="section-name">
+                    <i class="fa fa-rocket bg-primary"></i>
+                    <h2
+                      data-x-id="tit"
+                      class="section-header font-size-2"
+                      contenteditable="true"
+                    >
+                      Kỹ năng
+                    </h2>
+                  </div>
+                  <div class="skills-sections" data-x-name="list-item">
+                    <div class="sub-section " data-x-name="sub-item">
+                      <div class="content-skill">
+                        <h4
+                          data-x-id="name"
+                          class="input-field focus-able name  skill-name details-field-input font-size-5 empty-field  "
+                          contenteditable="true"
+                        ></h4>
+                        <div class="cv-progress-bar skill-level empty-warning">
+                          <div
+                            class="cv-progress-bar-flow bg-primary level-inactive  editable"
+                          ></div>
+                          <div
+                            class="cv-progress-bar-flow bg-primary level-inactive  editable"
+                          ></div>
+                          <div
+                            class="cv-progress-bar-flow bg-primary level-inactive  editable"
+                          ></div>
+                          <div
+                            class="cv-progress-bar-flow bg-primary level-inactive  editable"
+                          ></div>
+                          <div
+                            class="cv-progress-bar-flow bg-primary level-inactive  editable"
+                          ></div>
+                          <div
+                            class="cv-progress-bar-flow bg-primary level-inactive  editable"
+                          ></div>
+                          <div
+                            class="cv-progress-bar-flow bg-primary level-inactive  editable"
+                          ></div>
+                          <div
+                            class="cv-progress-bar-flow bg-primary level-inactive  editable"
+                          ></div>
+                          <div
+                            class="cv-progress-bar-flow bg-primary level-inactive  editable"
+                          ></div>
+                          <div
+                            class="cv-progress-bar-flow bg-primary level-inactive  editable"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="content-field content-experiences index-0 last-index section editable "
+                data-x-name="item"
+                data-x-id="exp"
+              >
+                <div class="section-name">
+                  <i class="fa fa-briefcase bg-primary"></i>
+                  <h2
+                    class="section-header font-size-2"
+                    data-x-id="tit"
+                    contenteditable="true"
+                  >
+                    Kinh nghiệm làm việc
+                  </h2>
+                </div>
+                <div class="experiences-sections" data-x-name="list-item">
+                  <div class="sub-section " data-x-name="sub-item">
+                    <div class="">
+                      <div class="content-main">
+                        <div class="experience-company-period">
+                          <div class="experience-period">
+                            <div
+                              data-x-id="start"
+                              class="input-field from  experience-from details-field-input font-size-5 empty-field  "
+                              contenteditable="true"
+                            ></div>
+                            <div class="duration-hyphen font-size-5">-</div>
+                            <div
+                              data-x-id="end"
+                              class="input-field to  experience-to details-field-input font-size-5 empty-field  "
+                              contenteditable="true"
+                            ></div>
+                          </div>
+                        </div>
+                        <div class="experience-info">
+                          <h4
+                            content-placeholder="Chức vụ"
+                            data-x-id="pos"
+                            class="input-field title  experience-title text-primary font-size-3 empty-field  "
+                            contenteditable="true"
+                          ></h4>
+                          <div style="display: inline-flex;">
+                            <h4 class="at font-size-4">tại</h4>
+                            <h4
+                              content-placeholder="Tên công ty"
+                              data-x-id="name"
+                              class="input-field company  experience-company font-size-4 empty-field  "
+                              contenteditable="true"
+                            ></h4>
+                          </div>
+                          <div>
+                            <div
+                              class="details-wrapper js-text-field text-field empty-field experience-details details-field-input font-size-5  "
+                              data-x-id="des"
+                              contenteditable="true"
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="content-field content-educations index-0 last-index section editable " data-x-name="item" data-x-id="edu">
+                <div >
+                  <div class="section-name">
+                    <i class="fa fa-graduation-cap bg-primary"></i>
+                    <h2
+                      class="section-header font-size-2"
+                      contenteditable="true" data-x-id="tit"
+                    >
+                      Học vấn
+                    </h2>
+                  </div>
+                  <div class="educations-sections" data-x-name="list-item">
+                    <div class="sub-section " data-x-name="sub-item">
+                      <div class="">
+                        <div class="content-main">
+                          <div class="education-school-period">
+                            <div class="education-period">
+                              <div
+                              data-x-id="start"
+                                class="input-field from  education-from details-field-input font-size-5 empty-field  "
+                                contenteditable="true"
+                              ></div>
+                              <div class="duration-hyphen font-size-5">-</div>
+                              <div
+                              data-x-id="end"
+                                class="input-field to  education-to details-field-input font-size-5 empty-field  "
+                                contenteditable="true"
+                              ></div>
+                            </div>
+                          </div>
+                          
+                          <div class="education-info" >
+                            <h4
+                            data-x-id="cat" 
+                              class="input-field major  education-major text-primary font-size-3 empty-field  "
+                              contenteditable="true"
+                            ></h4>
+                            <div style="display: inline-flex;">
+                              <h4 class="at font-size-4">tại</h4>
+                              <h4
+                              data-x-id="name"
+                                class="input-field school  education-school  font-size-4 empty-field  "
+                                contenteditable="true"
+                              ></h4>
+                            </div>
+                            <div>
+                              <div
+                                class="details-wrapper js-text-field text-field empty-field education-details details-field-input font-size-5  "
+                                data-x-id="des"
+                                contenteditable="true"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-x-name="item" data-x-id="cer" class="content-field content-certificates index-0 last-index section editable ">
+                <div class="">
+                  <div class="section-name ">
+                    <i class="fa fa-certificate bg-primary"></i>
+                    <h2
+                      class="section-header font-size-2"
+                      contenteditable="true" data-x-id="tit"
+                    >
+                      Chứng chỉ
+                    </h2>
+                  </div>
+                  <div class="certificates-sections" data-x-name="list-item">
+                    <div class="sub-section " data-x-name="sub-item">
+                      <div class="">
+                        <div class="content-certificate">
+                          <div class="cert-info">
+                            <h4
+                            data-x-id="name"
+                              class="input-field name  cert-name text-primary font-size-3 empty-field  "
+                              contenteditable="true"
+                            ></h4>
+                            <div class="cert-received-date-group font-size-3">
+                              <h4 class="parentheses">(</h4>
+                              <h4
+                              data-x-id="time"
+                                class="input-field received_date  cert-received-date empty-field  "
+                                contenteditable="true"
+                              ></h4>
+                              <h4 class="parentheses">)</h4>
+                            </div>
+                          </div>
+                          <div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="content-field content-awards index-0 last-index section editable " data-x-id="award" data-x-name="item">
+                <div class="">
+                  <div class="section-name ">
+                    <i class="fa fa-trophy bg-primary"></i>
+                    <h2 data-x-id="tit"
+                      class="section-header font-size-2"
+                      contenteditable="true"
+                    >
+                      Giải thưởng
+                    </h2>
+                  </div>
+                  <div class="awards-sections" data-x-name="list-item">
+                    <div class="sub-section " data-x-name="sub-item">
+                      <div class="">
+                        <div class="content-main">
+                          <div class="award-organization-period">
+                            <div class="award-period">
+                              <div
+                              data-x-id="time"
+                                class="input-field received_date  award-from details-field-input font-size-5 empty-field  "
+                                contenteditable="true"
+                              ></div>
+                            </div>
+                          </div>
+                          <div class="award-info">
+                            <h4 data-x-id="name"
+                              class="input-field organization  award-organization text-primary font-size-4 empty-field  "
+                              contenteditable="true"
+                            ></h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="content-field content-references index-0 last-index section editable " data-x-id="ref" data-x-name="item" >
+                <div class="">
+                  <div class="section-name ">
+                    <i class="fa fa-male bg-primary "></i>
+                    <h2 data-x-id="tit" 
+                      class="section-header font-size-2"
+                      contenteditable="true"
+                    >
+                      Người tham chiếu
+                    </h2>
+                  </div>
+                  <div class="references-sections" data-x-name="list-item">
+                    <div class="sub-section " data-x-name="sub-item">
+                      <div class="">
+                        <div class="content-reference" data-x-id="name" contenteditable="true">
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div  class="content-field content-organizations index-0 last-index section editable " data-x-id="act" data-x-name="item" >
+                <div class="">
+                  <div class="section-name ">
+                    <i class="fa fa-star bg-primary"></i>
+                    <h2 data-x-id="tit"
+                      class="section-header font-size-2"
+                      contenteditable="true"
+                    >
+                      Hoạt động
+                    </h2>
+                  </div>
+                  <div class="organizations-sections" data-x-name="list-item">
+                    <div class="sub-section " data-x-name="sub-item">
+                      <div class="">
+                        <div class="content-main">
+                          <div class="organization-name-period">
+                            <div class="organization-period">
+                              <div
+                              data-x-id="start"
+                                class="input-field from  organization-from details-field-input font-size-5 empty-field  "
+                                contenteditable="true"
+                              ></div>
+                              <div class="duration-hyphen font-size-5">-</div>
+                              <div
+                              data-x-id="end"
+                                class="input-field to  organization-to details-field-input font-size-5 empty-field  "
+                                contenteditable="true"
+                              ></div>
+                            </div>
+                          </div>
+                          <div class="organization-info">
+                            <h4
+                            data-x-id="pos"
+                              class="input-field title  organization-title font-size-3 empty-field  "
+                              contenteditable="true"
+                            ></h4>
+                            <div style="display: inline-flex;">
+                              <h4 class="at font-size-4">tại</h4>
+                              <h4
+                              data-x-id="name"
+                                class="input-field organization  organization-name text-primary font-size-4 empty-field  "
+                                contenteditable="true"
+                              ></h4>
+                            </div>
+                            <div>
+                              <div
+                                class="details-wrapper js-text-field text-field empty-field organization-details details-field-input font-size-5  "
+                                data-x-id="des"
+                                contenteditable="true"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+              <div
+                class="content-field content-interests index-0 last-index section editable " data-x-name="item" data-x-id="more"
+              >
+                <div class="">
+                  <div class="section-name ">
+                    <i class="fa fa-gratipay bg-primary"></i>
+                    <h2 data-x-id="tit"
+                      class="section-header font-size-2"
+                      contenteditable="true"
+                    >
+                      Điều quan tâm
+                    </h2>
+                  </div>
+                  <div class="interests-sections">
+                    <div class="sub-section ">
+                      <div class="">
+                        <div class="content-main">
+                          <h4 
+                          data-x-id="name"
+                            class="input-field focus-able name  interest-name bg-primary font-size-5 empty-field  "
+                            contenteditable="true"
+                          ></h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style scoped="">
+    .editor-text-font-size.text-small.line-small .font-size-1 {
+      font-size: 32px;
+      line-height: 36.8px;
+    }
+
+    .editor-text-font-size.text-small.line-small .font-size-2 {
+      font-size: 20px;
+      line-height: 23px;
+    }
+
+    .editor-text-font-size.text-small.line-small .font-size-3 {
+      font-size: 14px;
+      line-height: 16.1px;
+    }
+
+    .editor-text-font-size.text-small.line-small .font-size-4 {
+      font-size: 12px;
+      line-height: 13.8px;
+    }
+
+    .editor-text-font-size.text-small.line-small .font-size-5 {
+      font-size: 12px;
+      line-height: 13.8px;
+    }
+
+    .editor-text-font-size.text-small.line-medium .font-size-1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+
+    .editor-text-font-size.text-small.line-medium .font-size-2 {
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    .editor-text-font-size.text-small.line-medium .font-size-3 {
+      font-size: 14px;
+      line-height: 17.5px;
+    }
+
+    .editor-text-font-size.text-small.line-medium .font-size-4 {
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    .editor-text-font-size.text-small.line-medium .font-size-5 {
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    .editor-text-font-size.text-small.line-large .font-size-1 {
+      font-size: 32px;
+      line-height: 48px;
+    }
+
+    .editor-text-font-size.text-small.line-large .font-size-2 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .editor-text-font-size.text-small.line-large .font-size-3 {
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    .editor-text-font-size.text-small.line-large .font-size-4 {
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .editor-text-font-size.text-small.line-large .font-size-5 {
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .editor-text-font-size.text-medium.line-small .font-size-1 {
+      font-size: 33px;
+      line-height: 37.95px;
+    }
+
+    .editor-text-font-size.text-medium.line-small .font-size-2 {
+      font-size: 21px;
+      line-height: 24.15px;
+    }
+
+    .editor-text-font-size.text-medium.line-small .font-size-3 {
+      font-size: 15px;
+      line-height: 17.25px;
+    }
+
+    .editor-text-font-size.text-medium.line-small .font-size-4 {
+      font-size: 13px;
+      line-height: 14.95px;
+    }
+
+    .editor-text-font-size.text-medium.line-small .font-size-5 {
+      font-size: 13px;
+      line-height: 14.95px;
+    }
+
+    .editor-text-font-size.text-medium.line-medium .font-size-1 {
+      font-size: 33px;
+      line-height: 41.25px;
+    }
+
+    .editor-text-font-size.text-medium.line-medium .font-size-2 {
+      font-size: 21px;
+      line-height: 26.25px;
+    }
+
+    .editor-text-font-size.text-medium.line-medium .font-size-3 {
+      font-size: 15px;
+      line-height: 18.75px;
+    }
+
+    .editor-text-font-size.text-medium.line-medium .font-size-4 {
+      font-size: 13px;
+      line-height: 16.25px;
+    }
+
+    .editor-text-font-size.text-medium.line-medium .font-size-5 {
+      font-size: 13px;
+      line-height: 16.25px;
+    }
+
+    .editor-text-font-size.text-medium.line-large .font-size-1 {
+      font-size: 33px;
+      line-height: 49.5px;
+    }
+
+    .editor-text-font-size.text-medium.line-large .font-size-2 {
+      font-size: 21px;
+      line-height: 31.5px;
+    }
+
+    .editor-text-font-size.text-medium.line-large .font-size-3 {
+      font-size: 15px;
+      line-height: 22.5px;
+    }
+
+    .editor-text-font-size.text-medium.line-large .font-size-4 {
+      font-size: 13px;
+      line-height: 19.5px;
+    }
+
+    .editor-text-font-size.text-medium.line-large .font-size-5 {
+      font-size: 13px;
+      line-height: 19.5px;
+    }
+
+    .editor-text-font-size.text-large.line-small .font-size-1 {
+      font-size: 34px;
+      line-height: 39.1px;
+    }
+
+    .editor-text-font-size.text-large.line-small .font-size-2 {
+      font-size: 22px;
+      line-height: 25.3px;
+    }
+
+    .editor-text-font-size.text-large.line-small .font-size-3 {
+      font-size: 16px;
+      line-height: 18.4px;
+    }
+
+    .editor-text-font-size.text-large.line-small .font-size-4 {
+      font-size: 14px;
+      line-height: 16.1px;
+    }
+
+    .editor-text-font-size.text-large.line-small .font-size-5 {
+      font-size: 14px;
+      line-height: 16.1px;
+    }
+
+    .editor-text-font-size.text-large.line-medium .font-size-1 {
+      font-size: 34px;
+      line-height: 42.5px;
+    }
+
+    .editor-text-font-size.text-large.line-medium .font-size-2 {
+      font-size: 22px;
+      line-height: 27.5px;
+    }
+
+    .editor-text-font-size.text-large.line-medium .font-size-3 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .editor-text-font-size.text-large.line-medium .font-size-4 {
+      font-size: 14px;
+      line-height: 17.5px;
+    }
+
+    .editor-text-font-size.text-large.line-medium .font-size-5 {
+      font-size: 14px;
+      line-height: 17.5px;
+    }
+
+    .editor-text-font-size.text-large.line-large .font-size-1 {
+      font-size: 34px;
+      line-height: 51px;
+    }
+
+    .editor-text-font-size.text-large.line-large .font-size-2 {
+      font-size: 22px;
+      line-height: 33px;
+    }
+
+    .editor-text-font-size.text-large.line-large .font-size-3 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .editor-text-font-size.text-large.line-large .font-size-4 {
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    .editor-text-font-size.text-large.line-large .font-size-5 {
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    .editor-text-font-family.arial {
+      font-family: "Arial";
+    }
+
+    .editor-text-font-family.calibri {
+      font-family: "Calibri";
+    }
+
+    .editor-text-font-family.roboto {
+      font-family: "Roboto", sans-serif;
+    }
+
+    .editor-text-font-family.times-new-roman {
+      font-family: "Times New Roman";
+    }
+
+    .page {
+      cursor: text;
+      display: flex;
+      flex: 1;
+      position: relative;
+      -webkit-tap-highlight-color: initial;
+      white-space: normal;
+      width: 210mm;
+      /* height: 297mm; */
+      background-color: #fff;
+    }
+
+    .page .footer-page {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-family: "Montserrat";
+      color: #909395;
+    }
+
+    .page .footer-page .hyphen {
+      margin: 0 10px;
+    }
+
+    .page .footer-page .hyphen.dismiss {
+      display: none;
+    }
+
+    .text-font-family-option {
+      margin-left: 5px;
+    }
+
+    .section {
+      position: relative;
+    }
+
+    .section.index-1 .section-header,
+    .section.index-2 .section-header,
+    .section.index-3 .section-header,
+    .section.index-4 .section-header,
+    .section.index-5 .section-header {
+      display: none;
+    }
+
+    .content-field[visible="false"] {
+      display: none;
+    }
+
+    .text-field {
+      white-space: pre-wrap;
+    }
+
+    .input-field,
+    .select-field,
+    .text-field {
+      word-wrap: break-word;
+    }
+
+    .input-field[contenteditable="false"]:empty:after,
+    .select-field[contenteditable="false"]:empty:after,
+    .text-field[contenteditable="false"]:empty:after {
+      content: "\00a0";
+    }
+
+    .cv-progress-bar-flow {
+      background-color: #f8ca04;
+      color: #f8ca04;
+    }
+
+    .cv-progress-bar-flow.level-inactive:not(.high-light) {
+      background-color: #ededed !important;
+      color: #ededed !important;
+    }
+
+    .bg-primary {
+      background-color: #36bdd0 !important;
+    }
+
+    .bg-opaque-primary {
+      background-color: rgba(54, 189, 208, 0.12890625) !important;
+    }
+
+    .bg-secondary {
+      background-color: undefined !important;
+    }
+
+    .text-primary {
+      color: #36bdd0 !important;
+    }
+
+    .text-secondary {
+      color: undefined !important;
+    }
+
+    .input-field {
+      min-width: 29px;
+    }
+
+    .page.row {
+      flex-direction: row;
+    }
+
+    .page.column {
+      flex-direction: column;
+    }
+
+    .page .main {
+      display: flex;
+      flex: 3;
+      flex-direction: row;
+    }
+
+    .page .column-0,
+    .page .column-1,
+    .page .column-2 {
+      flex: 1;
+    }
+
+    .page .section {
+      flex: 1;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .container .side {
+      background-color: #252525;
+      width: 200px;
+    }
+
+    .container .main {
+      padding: 0 2px;
+      width: 594px;
+    }
+
+    .page .section:last-child {
+      padding-bottom: 10px;
+    }
+
+    .page-0 .side {
+      width: 85mm;
+    }
+
+    .page-1 .side,
+    .page-2 .side,
+    .page-3 .side,
+    .page-4 .side,
+    .page-5 .side,
+    .page-6 .side,
+    .page-7 .side,
+    .page-8 .side,
+    .page-9 .side {
+      opacity: 0.129;
+    }
+
+    .page-1 .connected-line-group,
+    .page-2 .connected-line-group,
+    .page-3 .connected-line-group,
+    .page-4 .connected-line-group,
+    .page-5 .connected-line-group,
+    .page-6 .connected-line-group,
+    .page-7 .connected-line-group,
+    .page-8 .connected-line-group,
+    .page-9 .connected-line-group {
+      flex-grow: 0;
+    }
+
+    .section:not(.index-0) .fa-graduation-cap,
+    .section:not(.index-0) .fa-briefcase,
+    .section:not(.index-0) .fa-rocket,
+    .section:not(.index-0) .fa-star,
+    .section:not(.index-0) .fa-male,
+    .section:not(.index-0) .fa-certificate,
+    .section:not(.index-0) .fa-file-text-o,
+    .section:not(.index-0) .fa-language,
+    .section:not(.index-0) .fa-gratipay,
+    .section:not(.index-0) .fa-trophy {
+      display: none;
+    }
+
+    .skill-name {
+      margin: 0 0 0 0;
+    }
+
+    .experience-title,
+    .experience-company,
+    .education-school,
+    .education-major,
+    .organization-name,
+    .organization-title,
+    .project-name,
+    .award-organization,
+    .award-title,
+    .language,
+    .cert-name,
+    .reference-name,
+    h4.parentheses,
+    .cert-received-date {
+      margin-top: 0;
+      margin-bottom: 0;
+      text-transform: uppercase;
+      font-weight: bold !important;
+    }
+
+    .experience-company,
+    .education-school,
+    .organization-name,
+    .award-organization {
+      font-style: italic;
+      text-transform: none !important;
+    }
+
+    .project-info {
+      width: 670px;
+    }
+
+    .page .section:first-child {
+      padding-top: 20px;
+    }
+
+    .section-header {
+      display: flex;
+      color: #000 !important;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 15px 0 10px 5px;
+    }
+
+    .content-field {
+      padding: 10px 15px;
+    }
+
+    .content-field .sub-section {
+      padding: 5px 0 5px 5px;
+    }
+
+    .skill-name.details-field-input {
+      margin-bottom: 10px;
+    }
+
+    .cv-progress-bar {
+      height: 20px;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+    }
+
+    .cv-progress-bar.skill-level {
+      background-color: transparent !important;
+    }
+
+    .cv-progress-bar-flow {
+      height: 100%;
+      width: 20px;
+      -webkit-clip-path: polygon(
+        75% 0%,
+        100% 50%,
+        75% 100%,
+        0% 100%,
+        25% 50%,
+        0% 0%
+      );
+      clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    }
+
+    .page-container .header {
+      background-color: white;
+      display: flex;
+      height: 297mm;
+    }
+
+    .section-name {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 3px;
+    }
+
+    .fa-graduation-cap,
+    .fa-briefcase,
+    .fa-rocket,
+    .fa-star,
+    .fa-male,
+    .fa-certificate,
+    .fa-file-text-o,
+    .fa-language,
+    .fa-gratipay,
+    .fa-trophy {
+      color: white;
+      margin-top: 5px;
+      padding: 10px 12px;
+      -webkit-clip-path: circle(40.6% at 50% 50%);
+      clip-path: circle(40.6% at 50% 50%);
+    }
+
+    .profile-section {
+      border-bottom: 1px solid black;
+      margin-bottom: 5px;
+    }
+
+    .main .section-name {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .section-header,
+    .profile-section-header,
+    .socials-section-header {
+      font-weight: bold;
+      color: black;
+    }
+
+    .header {
+      color: white;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header .about-me,
+    .header .section-contacts,
+    .header .content-socials {
+      color: black;
+      padding: 0px 20px 0 20px;
+      margin-top: 20px;
+    }
+
+    .about-me {
+      margin: 20px 0px 15px 0px !important;
+    }
+
+    .header .content-socials {
+      margin-top: 0;
+    }
+
+    .detail-group {
+      display: flex;
+    }
+
+    .reference-detail {
+      margin: 0;
+      font-weight: normal;
+    }
+
+    .detail-name {
+      margin: 0 5px 0 0;
+    }
+
+    .socials-section-header {
+      color: #fff;
+    }
+
+    .socials-sections .sub-section {
+      padding: 0;
+    }
+
+    .profile-section-header,
+    .socials-section-header {
+      display: flex;
+      text-transform: uppercase;
+      margin: 10px 0 5px 0;
+    }
+
+    .header-field-group {
+      display: flex;
+      border-bottom: 1px solid black;
+    }
+
+    .header-field-group .header-field-input {
+      margin: 10px 0 10px 15px;
+      max-width: 180px;
+      font-weight: normal;
+    }
+
+    .about-me .header-field-input {
+      font-style: italic;
+    }
+
+    .about-me-input {
+      font-style: italic;
+    }
+
+    .about-me-input:before,
+    .about-me-input:after {
+      content: '"';
+    }
+
+    .header-field-group .header-field-icon {
+      align-self: center;
+      font-size: 16px;
+      width: 30px;
+      border-right: 1px solid black;
+      margin-left: 15px;
+    }
+
+    .header-field-group1 {
+      display: flex;
+    }
+
+    .header-field-group1 .header-field-input1 {
+      margin: 10px 0 10px 0px;
+      max-width: 180px;
+      font-weight: normal;
+    }
+
+    .header-field-group1 .header-field-icon1 {
+      align-self: center;
+      font-size: 25px;
+      width: 30px;
+      margin-left: 15px;
+    }
+
+    .header-field-input {
+      color: black;
+    }
+
+    .details-field-input {
+      color: #000;
+    }
+
+    .avatar-container {
+      background-image: url(./image/back-01.png);
+      background-size: 370px 320px;
+      background-repeat: no-repeat;
+      background-position: -30px -30px;
+      display: flex;
+      max-height: 60%;
+      padding: 0px 20px;
+      flex-direction: column;
+      vertical-align: middle;
+    }
+
+    .avatar {
+      padding: 30px;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+    }
+
+    .avatar-action-modal {
+      width: 270px;
+      height: 270px;
+    }
+
+    .user-title {
+      letter-spacing: 2px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 20px;
+      line-height: 20px !important;
+      color: #373741 !important;
+      font-weight: bold;
+    }
+
+    .user-name {
+      margin: 30px auto 0px auto;
+      text-align: center;
+      font-weight: 700;
+      font-size: 35px !important;
+      line-height: 45px !important;
+      color: #373741 !important;
+    }
+
+    .content-main,
+    .content-award,
+    .content-organization {
+      display: flex;
+      margin-top: 10px;
+    }
+
+    .experience-company-period,
+    .education-school-period {
+      width: 60px;
+    }
+
+    .organization-name-period,
+    .award-organization-period {
+      width: 80px;
+    }
+
+    .project-name-period {
+      width: 80px;
+    }
+
+    .education-school,
+    .organization-name,
+    .project-name,
+    .cert-name,
+    .award-organization {
+      text-transform: uppercase;
+    }
+
+    .page-0 .experience-info,
+    .page-0 .education-info,
+    .page-0 .award-info,
+    .page-0 .organization-info,
+    .page-0 .project-info {
+      width: 355px;
+    }
+
+    .award-info {
+      width: 250px;
+    }
+
+    .organization-info {
+      width: 670px;
+    }
+
+    .page-0 .content-reference,
+    .page-0 .content-certificate,
+    .page-0 .content-language {
+      width: 435px;
+    }
+
+    .content-reference,
+    .content-certificate,
+    .content-language {
+      margin-top: 5px;
+    }
+
+    .experience-title,
+    .education-major,
+    .organization-title,
+    .award-title {
+      font-weight: normal;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .experience-details,
+    .education-details,
+    .award-details,
+    .organization-details {
+      margin-top: 5px;
+    }
+
+    .content-education {
+      display: flex;
+    }
+
+    .education-period,
+    .experience-period,
+    .award-period,
+    .project-period,
+    .organization-period {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1px;
+      align-items: center;
+    }
+
+    .duration-hyphen1 {
+      margin: 2px 5px 0px 20px;
+    }
+
+    .connected-line-group {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      margin-right: 13px;
+    }
+
+    .line-start-point {
+      width: 8px;
+      background: black;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .line-period {
+      flex-grow: 1;
+      width: 2px;
+      margin: 0px 0px 0px 3px;
+      opacity: 0.5;
+      background-color: #49454d;
+    }
+
+    .skills-sections {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    .content-skill {
+      display: flex;
+    }
+
+    .content-skill .cv-progress-bar {
+      max-width: 200px;
+      align-self: center;
+      margin-left: 10px;
+    }
+
+    .content-skill .cv-progress-bar-flow {
+      width: 15px;
+      height: 12px;
+    }
+
+    .content-skill .skill-name {
+      width: 225px;
+    }
+
+    .references-sections {
+      margin-top: 5px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .reference-info {
+      width: 350px;
+      display: flex;
+      flex-wrap: wrap;
+      color: rgba(74, 74, 74, 0.7);
+    }
+
+    .reference-separator {
+      margin: 0 5px;
+    }
+
+    .content-project {
+      display: flex;
+      margin-top: 10px;
+    }
+
+    .languages-sections {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 5px;
+    }
+
+    .content-language {
+      width: 365px;
+    }
+
+    .interests-sections {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .interest-name {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #f8ca04;
+      border-radius: 20px;
+      color: #fff;
+      margin: 0px 0;
+    }
+
+    .certificates-sections {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 5px;
+    }
+
+    .awards-sections {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 5px;
+    }
+
+    .certificates-sections .sub-section {
+      width: 365px;
+    }
+
+    .page-0 .awards-sections .sub-section {
+      width: 430px;
+    }
+
+    .experience-company-period .experience-period,
+    .education-school-period .education-period,
+    .organization-name-period .organization-period,
+    .project-name-period .project-period,
+    .award-organization-period .award-period {
+      color: #838485;
+    }
+
+    .cert-received-date-group {
+      display: flex;
+      color: #838485;
+      font-style: italic;
+      margin-left: 5px;
+    }
+
+    .cert-info {
+      display: flex;
+      margin-bottom: 3px;
+    }
+
+    .at {
+      margin: 0 5px 0 0;
+      font-weight: 400 !important;
+    }
+
+    h4.parentheses,
+    .cert-received-date {
+      font-style: italic;
+      font-weight: normal;
+    }
+
+    .experience-from,
+    .education-from,
+    .organization-from,
+    .project-from,
+    .award-from,
+    .experience-to,
+    .education-to,
+    .organization-to,
+    .project-to,
+    .project-name {
+      font-weight: bold;
+      color: #373741 !important;
+    }
+
+    .projects-sections {
+      margin-top: 5px;
+    }
+
+    .language {
+      margin-bottom: 3px;
+    }
+
+    .skills-sections .sub-section {
+      width: 360px;
+    }
+
+    .page-0 .skills-sections .sub-section {
+      width: auto;
+    }
+
+    .reference-title {
+      align-self: flex-end;
+    }
+
+    .section:not(.index-0) .section-name {
+      border: none;
+    }
+
+    .page .footer-page {
+      bottom: 0px;
+      right: 5px;
+    }
+
+    .content-contacts {
+      padding: 0px !important;
+    }
+
+    .content-contacts .sub-section {
+      padding: 0 !important;
+    }
+  </style>
+</body>

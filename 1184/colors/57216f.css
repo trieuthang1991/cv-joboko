@@ -1,0 +1,33 @@
+#cv-document .page--background{background:linear-gradient(to bottom,#2882c1,#662c81,#e4087e,#f7941d,#009444) no-repeat right top/5.2em 100%,url(../images/bg-02.png) no-repeat left bottom,#fff;color:#292929}
+#cv-document .heading__icon>span{border-color:#b5c8f7;background:linear-gradient(to left,#57216f,#5271f9);color:#fff}
+#cv-document .heading__icon::before{background-color:#fff}
+#cv-document .heading__title{color:#58286f}
+#cv-document .heading__title::before{box-shadow:0 2px 0 #58286f;background:linear-gradient(to right,#edf0fd,#ede8f0)}
+#cv-document .heading-02{border-color:#e6eeff;background:linear-gradient(to left,#57216f,#5271f9);color:#fff}
+#cv-document .two-up__right::before{border-left-color:#3b3987}
+#cv-document .cvo-skillrate>span{border-color:#524cc5;background-color:#bbf}
+#cv-document .cvo-skillrate[value="1"]>span:nth-child(-n+2){background-color:#524cc5}
+#cv-document .cvo-skillrate[value="2"]>span:nth-child(-n+4){background-color:#524cc5}
+#cv-document .cvo-skillrate[value="3"]>span:nth-child(-n+6){background-color:#524cc5}
+#cv-document .cvo-skillrate[value="4"]>span:nth-child(-n+8){background-color:#524cc5}
+#cv-document .cvo-skillrate[value="5"]>span{background-color:#524cc5}
+#cv-document .cvo-skillrate-radial::before{background-color:#fff}
+#cv-document .cvo-skillrate-radial::after{color:#292929}
+#cv-document .cvo-skillrate-radial[value="1"]{background:linear-gradient(18deg,#5271f9 50%,transparent 50%),linear-gradient(90deg,#57216f 50%,#5271f9 50%)}
+#cv-document .cvo-skillrate-radial[value="2"]{background:linear-gradient(-54deg,#5271f9 50%,transparent 50%),linear-gradient(90deg,#57216f 50%,#5271f9 50%)}
+#cv-document .cvo-skillrate-radial[value="3"]{background:linear-gradient(90deg,#57216f 50%,transparent 50%),linear-gradient(54deg,#57216f 50%,#5271f9 50%)}
+#cv-document .cvo-skillrate-radial[value="4"]{background:linear-gradient(90deg,#57216f 50%,transparent 50%),linear-gradient(-18deg,#57216f 50%,#5271f9 50%)}
+#cv-document .cvo-skillrate-radial[value="5"]{background:linear-gradient(90deg,#57216f 50%,transparent 50%),linear-gradient(-90deg,#57216f 50%,#57216f 50%)}
+#cv-document .cvo-skillrate-progress>span{border-color:#524cc5}
+#cv-document .cvo-skillrate-progress>span::before{background:linear-gradient(to left,#57216f,#5271f9)}
+#cv-document .avatar::before{background-color:#fff}
+#cv-document .avatar__wrapper{background:linear-gradient(to right,#2882c1,#662c81,#e4087e,#f7941d,#009444) no-repeat}
+#cv-document .avatar__wrapper::before{background-color:#fff}
+#cv-document .info-main{text-shadow:0 1px #58286f;color:#fff}
+#cv-document .info-main::before{background:linear-gradient(to left,#57216f,#5271f9)}
+#cv-document .info-detail__item-icon{box-shadow:0 .8em .5em rgba(0,0,0,.75);border-color:#fff;background:linear-gradient(to left,#57216f,#5271f9);color:#fff}
+#cv-document .target{border-color:#3b3987}
+#cv-document .experience__item-wrap{border-bottom-color:#3b3987}
+#cv-document .skill-ta__item{border-bottom-color:#3b3987}
+#cv-document .action__item-date,#cv-document .education__item-date{border-bottom-color:#3b3987}
+#cv-document .hobby__item::before{background-color:#524cc5}

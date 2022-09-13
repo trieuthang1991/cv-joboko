@@ -1,0 +1,253 @@
+.row{margin-left:0 !important;margin-right:0 !important}
+.cvo-document .cvo-page {
+    padding: 0;
+    position: relative
+}
+
+.cvo-document .cvo-subpage {
+    padding: 10mm 7mm;
+    font-family: arial, 'sans-serif'
+}
+
+#cvo-body {
+    color: #494949;
+    font-size: 15px
+}
+
+.cvo-block {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 3mm;
+    padding-right: 3mm
+}
+
+.cvo-block .row:last-child {
+    margin-bottom: 0
+}
+
+#cvo-header {
+    text-align: center;
+    margin-bottom: 35px
+}
+
+#cvo-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #ccc
+}
+
+#cvo-avatar img {
+    width: 100%
+}
+
+#cvo-profile-fullname {
+    font-size: 28px;
+    font-weight: 400;
+    min-width: 230px
+}
+
+.cvo-container:after {
+    display: table;
+    clear: both
+}
+
+.cvo-col {
+    display: block;
+    width: 50%;
+    float: left
+}
+
+#group-col-left {
+    display: block;
+    width: 60%;
+    float: left;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+#col-right {
+    display: block;
+    width: 40%;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.cvo-block-title {
+    color: #444;
+    border-left: 6px solid #7cc398;
+    padding: 0 8px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.cvo-block-title span {
+    min-width: 90%
+}
+
+.cvo-highlight {
+    color: #444;
+    font-weight: 700
+}
+
+.row {
+    margin-bottom: 15px
+}
+
+#cvo-body div.paragraph {
+    margin-bottom: 8px
+}
+
+#skillrate-table .row {
+    margin-bottom: 7px;
+    color: #000
+}
+
+.cvo-skillrate-title-wraper {
+    width: 55%;
+    margin-right: 1%;
+    float: left
+}
+
+.cvo-skillrate-title {
+    color: #494949;
+    width: 100%;
+    display: inline-block
+}
+
+.cvo-skillrate-bar {
+    float: left;
+    margin-top: 3px;
+    background-color: #c5d8cc;
+    display: block;
+    width: 44%;
+    height: 8px;
+    text-align: left;
+    padding: 0
+}
+
+.cvo-skillrate-value {
+    display: block;
+    height: 8px;
+    background-color: #7cc398
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="1"]  {
+    width: 20%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="2"] {
+    width: 40%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="3"] {
+    width: 60%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="4"] {
+    width: 80%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="5"] {
+    width: 100%
+}
+#cvo-interest .cvo-block-body div.paragraph {
+    display: block;
+    width: 50%;
+    float: left;
+    
+}
+#cvo-interest .cvo-block-body
+{
+    padding-bottom: 15px;
+}
+
+#cvo-profile-title {
+    min-width: 200px;
+    text-transform: capitalize
+}
+
+.cvo-activity-organization,
+.cvo-education-school,
+.cvo-award-title,
+.cvo-certification-title,
+.cvo-experience-company {
+    min-width: 150px
+}
+
+#cvo-objective-objective,
+#cvo-additional-information-details,
+.cvo-reference-title,
+.cvo-reference-content,
+.cvo-activity-position,
+.cvo-activity-details,
+.cvo-education-title,
+.cvo-education-details,
+.cvo-experience-position,
+.cvo-experience-details {
+    width: 100%
+}
+
+#cvo-profile div.paragraph span {
+    width: 100%
+}
+
+#cvo-body .start,
+#cvo-body .end,
+#cvo-body .time {
+    padding: 3px
+}
+
+#cv-watermark {
+    position: absolute;
+    right: 7mm;
+    bottom: 5mm;
+    font-size:11px;letter-spacing:2px;
+    color: #999
+}
+#cv-watermark a{color:#999;text-decoration:none}
+@media print {
+    #group-bottom-right>.cvo-block:last-child,
+    #group-col-left>.cvo-block:last-child {
+        padding-bottom: 0
+    }
+    .cvo-document .cvo-page {
+        position: initial
+    }
+    #cvo-main {
+        padding-bottom: 7mm
+    }
+    #cv-watermark {
+        bottom: 0;
+        right: 0
+    }
+    #cvo-body
+    {
+        padding: 10mm 7mm;
+    }
+}
+
+.contact-item span{
+	width:90%;
+}
+.contact-item span:hover, .contact-item span:focus
+{
+	border: 0px dashed #0ba25e;
+	outline: 1pt dashed #77a5cc;
+}
+
+[data-x-id=des],[data-x-id=name]{
+	width:100%;
+}
+[data-x-id=job]
+{
+	min-width:50%;
+}
+[data-x-id=tit],[data-x-id=pos],[data-x-id=cat]
+{
+	min-width:70%;
+}

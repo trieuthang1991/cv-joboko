@@ -1,0 +1,52 @@
+.htitle2 [data-x-id=tit],
+.htitle11 [data-x-id=tit],
+.htitle5 [data-x-id=tit],
+.htitle4 [data-x-id=tit],
+.htitle3 [data-x-id=tit],
+.htitle6 [data-x-id=tit],
+.htitle7 [data-x-id=tit],
+.htitle8 [data-x-id=tit],
+.htitle9 [data-x-id=tit],
+.htitle10 [data-x-id=tit] {
+    font-size: 17px !important;
+   padding-bottom: 6px;
+    
+}
+
+#cv-document .txt1 {
+    font-size: 16px;
+    
+}
+
+#cv-document .txt4{
+    font-size: 14px;    
+}
+
+#cv-document .txt3{
+    font-size: 16px !important;    
+}
+#cv-document .txt-content{
+    font-size: 13px;
+}
+
+#cv-document .txt-job{
+    font-size: 17px;
+}
+#cv-document .txt-name{
+    font-size: 26px;
+}
+#cv-document .txt2{
+    width: 25%;
+    font-size:12px;
+    max-width: initial;
+ }
+@media only screen and (max-width: 600px) {
+  #cv-document .txt2{
+    width: 100%;
+}
+}
+
+ #cv-document .contright{
+    flex: auto;
+   
+}

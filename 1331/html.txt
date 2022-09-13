@@ -1,0 +1,249 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap">
+<link rel="stylesheet" id="cv-css" href="https://i-vn1.joboko.com/MyCv/templates/1076/css/cv-css.css?v=5.4">
+<link rel="stylesheet" id="cv-font-size-css" href="https://i-vn1.joboko.com/MyCv/templates/1076/font-sizes/font_normal.css?v=5.3">
+<link rel="stylesheet" id="cv-font" href="https://i-vn1.joboko.com/MyCv/templates/1076/fonts/default.css?v=5.3">
+<link rel="stylesheet" id="cv-spacing-css" href="https://i-vn1.joboko.com/MyCv/templates/1076/spacing/spacing_normal.css?v=5.3">
+<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn1.joboko.com/MyCv/templates/1076/colors/ac0443.css?v=4.1">
+
+<div id="form-cv" data-x-name="parrent">
+	<div page='1' class="page pageCV" fix='true'>
+		<div id="cv_top">
+			<div data-x-name="col-parrent" data-x-col="1" class="col_top">
+				<div class="height-curent">
+					<div data-x-name="content" class="height_content">
+						<div data-x-name="item" data-x-id="info" class="info_top">
+							<div data-x-rel="name" class="name-x-rel">
+								<div data-x-id="name" contenteditable="true">Họ và tên</div>
+							</div>
+							<div class="info_top_right"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cv_main">
+			<div data-x-name="col-parrent" data-x-col="2" class="col_left">
+				<div class="height-curent h-curent">
+					<div data-x-name="content" class="height_content">
+						<div data-x-name="item" data-x-id="info" class="info_bottom">
+<div data-x-id="web" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
+<div data-x-id="gen" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
+							<div class="avatar">
+								<img src="https://i-vn1.joboko.com/Upload/images/avatars/no_avatar.jpg" data-x-id="ava" class="img_ava">
+								<img style="display:none" data-x-id="ava_vertical"
+									src="https://i-vn1.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
+							</div>
+							<div data-x-rel="job" class="icoweb icoweb_job">
+								<div data-x-id="job" contenteditable="true" class="info_job">Vị trí A</div>
+							</div>
+							<div data-x-rel="dob" class="icoweb">
+								<i class="fa fa-gift" aria-hidden="true"></i>
+								<div data-x-id="dob" class="txt-content" contenteditable="true">05/10/1994</div>
+							</div>
+							<div data-x-rel="email" class="icoweb">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<div data-x-id="email" class="txt-content" contenteditable="true">email</div>
+							</div>
+							<div data-x-rel="tel" class="icoweb">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<div data-x-id="tel" class="txt-content" contenteditable="true">02476748</div>
+							</div>
+							<div data-x-rel="add" class="icoweb">
+								<i class="fa fa-map-marker" aria-hidden="true"></i>
+								<div data-x-id="add" class="txt-content" contenteditable="true">số nhà....</div>
+							</div>
+						</div>
+						<div data-x-name="group-item" class="groupItem">
+							<div data-x-name="item" data-x-id="tar" class="items_space itemTar">
+								<div data-x-name="head" class="tit-item">
+									<span data-x-id="tit" contenteditable="true" class="tit">Mục tiêu</span>
+									<div class="border_tit"></div>
+								</div>
+								<div data-x-name="list-item" class="listItem">
+									<div data-x-id="name" class="txt-content" contenteditable="true"></div>
+								</div>
+							</div>
+							<div data-x-name="item" data-x-id="edu" class="items_space ItemEdu">
+								<div data-x-name="head" class="tit-item">
+									<span data-x-id="tit" contenteditable="true" class="tit">EDUCATION</span>
+									<div class="border_tit"></div>
+								</div>
+								<div data-x-name="list-item" class="listItem">
+									<div data-x-name="sub-item" class="subItem">
+										<div data-x-id="name" contenteditable="true" class="subName txt1">Banking university
+											of HCM</div>
+										<div class="subTime">
+											<span data-x-id="start" contenteditable="true">2010</span><span
+												class="space_subTime">-</span>
+											<span data-x-id="end" contenteditable="true">2014:</span>
+										</div>
+										<div data-x-id="cat" contenteditable="true" data-x-bullet="◉" class="subCat txt4 bullet">vị
+											trí</div>
+										<div data-x-id="des" contenteditable="true" data-x-bullet="-" class="subDes txt-content bullet">des 1</div>
+									</div>
+									
+								</div>
+							</div>
+							<div data-x-name="item" data-x-id="ref" class="items_space itemRef">
+								<div data-x-name="head" class="tit-item">
+									<span data-x-id="tit" contenteditable="true" class="tit">ref</span>
+									<div class="border_tit"></div>
+								</div>
+								<div data-x-name="list-item" class="listItem">
+									<div data-x-name="sub-item" class="subItem">
+										<div data-x-id="name" contenteditable="true" class="name_ref txt-content">des 1</div>
+									</div>
+								</div>
+							</div>
+							<div data-x-name="item" data-x-id="award" class="items_space itemaward">
+								<div data-x-name="head" class="tit-item">
+									<span data-x-id="tit" contenteditable="true" class="tit">Award</span>
+									<div class="border_tit"></div>
+								</div>
+								<div data-x-name="list-item" class="listItem">
+									<div data-x-name="sub-item" class="subItem subItem-award">
+										<div data-x-id="name" contenteditable="true" class="itemName txt-content">start1</div>
+										<div data-x-id="time" contenteditable="true" class="itemTime">2019</div>
+									</div>
+									
+								</div>
+							</div>
+							<div data-x-name="item" data-x-id="more" class="items_space itemTar">
+								<div data-x-name="head" class="tit-item">
+									<span data-x-id="tit" contenteditable="true" class="tit">thông tin khác</span>
+									<div class="border_tit"></div>
+								</div>
+								<div data-x-name="list-item" class="listItem">
+									<div data-x-id="name" class="txt-content" contenteditable="true">djhj</div>
+								</div>
+							</div>
+							<div data-x-name="item" data-x-id="hob" class="items_space itemTar">
+								<div data-x-name="head" class="tit-item">
+									<span data-x-id="tit" contenteditable="true" class="tit">Sở thích</span>
+									<div class="border_tit"></div>
+								</div>
+								<div data-x-name="list-item" class="listItem">
+									<div data-x-name="sub-item" class="subItem">
+										<div data-x-id="name" class="txt-content" contenteditable="true">djhj</div>
+									</div>
+								</div>
+							</div>
+							<div data-x-name="item" data-x-id="cer" class="items_space itemCer">
+								<div data-x-name="head" class="tit-item">
+									<span data-x-id="tit" contenteditable="true" class="tit">Chứng chỉ</span>
+									<div class="border_tit"></div>
+								</div>
+								<div data-x-name="list-item" class="listItem">
+									<div data-x-name="sub-item" class="subItem subItem-award">
+										<div data-x-id="name"  contenteditable="true" class="itemName txt-content">start1</div>
+										<div data-x-id="time" contenteditable="true" class="itemTime">2019</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-x-name="col-parrent" data-x-col="3" class="col_right">
+				<div class="height-curent h-curent">
+					<div data-x-name="content" class="height_content">
+						<div data-x-name="group-item" class="groupItem">
+							<div data-x-name="item" data-x-id="exp" class="ItemExp items_space">
+								<div data-x-name="head" class="tit-item">
+									<span data-x-id="tit" contenteditable="true" class="tit">WORK EXPERIENCE</span>
+									<div class="border_tit"></div>
+								</div>
+								<div data-x-name="list-item">
+									<div data-x-name="sub-item" class="subItem">
+										<div data-x-id="name" contenteditable="true" class="name-Subitem txt1">CB/I Digital
+											Agency</div>
+										<div class="subTime">
+											<span data-x-id="start" contenteditable="true">01/2018</span><span
+												class="space_subTime">-</span>
+											<span data-x-id="end" contenteditable="true">Now</span>
+										</div>
+										<div data-x-id="pos" contenteditable="true" data-x-bullet="◉" class="posItem txt4 bullet" >
+											Consultants long-term SEO strategy to increase keyword rankings and traffic
+											for Website
+										</div>
+										<div data-x-id="des" contenteditable="true" class="desItem txt-content">
+											<i><b>Some highlight projects:</b></i><br>
+											<i><b>Adayroi.com </b>(Top E-commerce in Vietnam)</i><br>
+											<i><b>Fresh.com </b>(Natural High-end Cosmetic in USA)</i>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+							<div data-x-name="item" data-x-id="act" class="ItemAct items_space">
+								<div data-x-name="head" class="tit-item">
+									<span data-x-id="tit" contenteditable="true" class="tit">Hoạt động</span>
+									<div class="border_tit"></div>
+								</div>
+								<div data-x-name="list-item">
+									<div data-x-name="sub-item" class="subItem">
+										<div data-x-id="name" contenteditable="true" class="name-Subitem txt1">CB/I Digital
+											Agency</div>
+										<div class="subTime">
+											<span data-x-id="start" contenteditable="true">01/2018</span><span
+												class="space_subTime">-</span>
+											<span data-x-id="end" contenteditable="true">Now</span>
+										</div>
+										<div data-x-id="pos" contenteditable="true" class="posItem txt4">
+											Consultants long-term SEO
+										</div>
+										<div data-x-id="des" contenteditable="true" data-x-bullet="◉" class="desItem txt-content bullet">
+											Some highlight projects:<br>
+											(Top E-commerce in Vietnam)
+										</div>
+									</div>
+								
+								</div>
+							</div>
+							<div data-x-name="item" data-x-id="skill" class="ItemSkill items_space">
+								<div data-x-name="head" class="tit-item">
+									<span data-x-id="tit" contenteditable="true" class="tit">Kỹ năng</span>
+									<div class="border_tit"></div>
+								</div>
+								<div data-x-name="list-item">
+									<div data-x-name="sub-item" class="subItem">
+										<div data-x-id="name" contenteditable="true" class="name-Subitem txt-content">CB/I Digital
+											Agency</div>
+										<div data-x-id="des" contenteditable="true" class="desItem txt-content">
+										
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="page" class="page pageCV" style="display: none" fix='true'>
+	<div id="cv_top">
+		<div data-x-name="col-parrent" data-x-col="1" class="col_top">
+			<div class="height-curent">
+				<div data-x-name="content" class="height_content"></div>
+			</div>
+		</div>
+	</div>
+	<div class="cv_main">
+		<div data-x-name="col-parrent" data-x-col="2" class="col_left">
+			<div class="height-curent h-curent">
+				<div data-x-name="content" class="height_content"></div>
+			</div>
+		</div>
+		<div data-x-name="col-parrent" data-x-col="3" class="col_right">
+			<div class="height-curent h-curent">
+				<div data-x-name="content" class="height_content"></div>
+				<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+			</div>
+		</div>
+	</div>
+</div>

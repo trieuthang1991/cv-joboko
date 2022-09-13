@@ -1,0 +1,11 @@
+﻿{
+  "langs": [ "vi","en"],
+  "colors": [ "999999", "272822" ],
+  "fonts": {
+    "default": "Source Code Pro",
+    "courier_new": "Courier New",
+    "lucida_console": "Lucida Console"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

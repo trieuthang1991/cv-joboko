@@ -1,0 +1,8 @@
+#cv-document .text-bottom{background-color:#ef4136;color:#fff}
+#cv-document .text-bottom::before{border-color:#f6d0cc}
+#cv-document .page{background-color:#fff;color:#000}
+#cv-document .two-up::before{background-color:#ececec}
+#cv-document .two-up::after{background-color:#ef4136}
+#cv-document .full-width{border-top-color:#164883}
+#cv-document .avatar{background-color:#fff}
+#cv-document .info-detail__item i{background-color:#ef4136;color:#fff}

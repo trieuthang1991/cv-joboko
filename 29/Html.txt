@@ -1,0 +1,296 @@
+
+<link id="cv-scheme-css" href="https://i-vn1.joboko.com/MyCV/templates/29/colors/d55c59.css?v=1.2" rel="stylesheet" type="text/css">
+
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12" data-x-name="parrent">
+        <!-- Wrap -->
+        <div class="cv_wrap  page" page="1">
+            <div style="padding-top:20px">
+            <!-- Left -->
+            <div class="col_left" data-x-name="col-parrent" data-x-col="1">
+                <div class="height-curent">
+                    <!-- Info -->
+                    <div class="cv_info clearfix" data-x-name="item" data-x-id="info">
+                        <div class="avatar clearfix">
+                            <p class="avatarImg"> <img src="https://i-vn1.joboko.com/upload/images/avatars/no_avatar.jpg" alt=""
+                                    data-x-id="ava">
+                            </p>
+                            <div class="name">
+                                <h2>
+                                    <span data-x-id="name" contenteditable="true" class="name_txt"></span>
+                                </h2>
+                                <p data-x-id="job" contenteditable="true"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Info -->
+                    <div class="cv_info clearfix" data-x-name="item" data-x-id="info">
+                        <p class="mh_img"><img class="ico1" alt=""></p>
+                        <h2 class="ml_ttl"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">Thông
+                                Tin</span></h2>
+                        <ul class="info">
+                            <li>
+                                <p class="clearfix" data-x-rel="gen"><strong data-x-label="info.gen">Giới
+                                        tính</strong><span data-x-id="gen" contenteditable="true">Nữ</span> </p>
+                                <p class="clearfix" data-x-rel="dob"><strong data-x-label="info.dob">Ngày sinh</strong>
+                                    <span data-x-id="dob" contenteditable="true"></span> </p>
+                                <p class="clearfix" data-x-rel="tel"><strong data-x-label="info.tel">Điện thoại</strong>
+                                    <span data-x-id="tel" contenteditable="true"></span> </p>
+                                <p class="clearfix" data-x-rel="email"><strong data-x-label="info.email">Email</strong>
+                                    <span data-x-id="email" contenteditable="true"></span> </p>
+                                <p class="clearfix" data-x-rel="add"><strong data-x-label="info.add">Địa chỉ</strong>
+                                    <span data-x-id="add" contenteditable="true"></span> </p>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Block -->
+                    <div class="block clearfix" data-x-name="item" data-x-id="skill">
+                        <div class="blockR">
+                            <div data-x-name="head">
+
+                           
+                            <p class="mh_img"><img class="ico15" alt=""></p>
+                            <h2 class="ml_ttl"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">Kỹ
+                                    năng</span></h2>
+                                </div>
+                            <div class="block_content" data-x-name="list-item">
+                                <div class="block_line" data-x-name="sub-item">
+                                    <div class="cont_txt clearfix">
+                                        <div data-x-id="name" contenteditable="true" class="kn_ttl4">Lãnh đạo:</div>
+                                        <div class="cvo-skillrate-bar">
+                                            <div class="cvo-skillrate-value" data-x-id="val" value="3"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col_right" data-x-name="col-parrent" data-x-col="2">
+                <div class="height-curent">
+                    <div data-x-name="group-item">
+                            <div class="block mt_left clearfix" data-x-name="item" data-x-id="tar">
+                                    <div class="blockR">
+                                        <div data-x-name="head">
+                                            <p class="mh_img"><img class="ico7" alt=""></p>
+                                            <h2><span data-x-id="tit" contenteditable="true">Mục tiêu</span></h2>
+                                        </div>
+                                        <div class="block_content">
+                                        <div data-x-name="list-item">
+                                            <div class="block_line" data-x-id="name" contenteditable="true"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Block -->
+            
+                                <div class="block clearfix" data-x-name="item" data-x-id="edu">
+                                    <div class="blockR">
+                                        <div data-x-name="head">
+                                            <p class="mh_img"><img class="ico8" alt=""></p>
+                                            <h2><span data-x-id="tit" contenteditable="true">Đào Tạo</span></h2>
+                                        </div>
+                                        <div class="block_content" data-x-name="list-item">
+                                            <div class="block_line clearfix" data-x-name="sub-item">
+                                                <p class="date">
+                                                    <span class="date_inner"><em data-x-id="start"
+                                                            contenteditable="true">01/2000</em> -
+                                                        <em data-x-id="end" contenteditable="true">03/2005</em></span>: <span
+                                                        data-x-id="name" contenteditable="true"></span>
+                                                </p>
+                                                <div class="cont_txt clearfix">
+                                                    <span data-x-id="cat" contenteditable="true"></span>
+                                                    <div data-x-id="des" contenteditable="true" class="normal"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- Block -->
+                                <div class="block clearfix" data-x-name="item" data-x-id="exp">
+                                    <div class="blockR">
+                                        <div data-x-name="head">
+                                            <p class="mh_img"><img class="ico9" alt=""></p>
+                                            <h2><span data-x-id="tit" contenteditable="true">Kinh nghiệm làm việc</span></h2>
+                                        </div>
+                                        <div class="block_content" data-x-name="list-item">
+                                            <div class="block_line block_line2 clearfix" data-x-name="sub-item">
+                                                <p class="date"><span class="date_inner"><em data-x-id="start"
+                                                            contenteditable="true">01/2000</em> - <em data-x-id="end"
+                                                            contenteditable="true">03/2005</em></span>: <span data-x-id="pos"
+                                                        contenteditable="true" class="kn_ttl">Nhân viên bán hàng</span></p>
+                                                <h3 class="clearfix"><span data-x-id="name" contenteditable="true"
+                                                        class="kn_sh"></span>
+                                                </h3>
+                                                <div class="cont_txt">
+                                                    <div data-x-id="des" contenteditable="true" class="normal"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+            
+                                <div class="block clearfix" data-x-name="item" data-x-id="hob">
+                                    <div class="blockR">
+                                        <div data-x-name="head">
+                                            <p class="mh_img"><img class="ico11" alt=""></p>
+                                            <h2><span data-x-id="tit" contenteditable="true">Sở Thích</span></h2>
+                                        </div>
+                                        <div class="block_content" data-x-name="list-item">
+                                      
+                                        <div data-x-name="sub-item">
+                                            <div class="block_line" data-x-id="name" contenteditable="true"></div>
+                                        </div></div>
+                                    </div>
+                                </div>
+                                <!-- block -->
+            
+                                <div class="block clearfix" data-x-name="item" data-x-id="act">
+                                    <div class="blockR">
+                                        <div data-x-name="head">
+                                            <p class="mh_img"><img class="ico11" alt=""></p>
+                                            <h2><span data-x-id="tit" contenteditable="true">Hoạt động</span></h2>
+                                        </div>
+                                        <div class="block_content" data-x-name="list-item">
+                                            <div class="block_line clearfix" data-x-name="sub-item">
+                                                <p class="date"><span class="date_inner"><em data-x-id="start"
+                                                            contenteditable="true">01/2000</em> - <em data-x-id="end"
+                                                            contenteditable="true">03/2005</em></span></p>
+                                                <h3 class="clearfix"> <span data-x-id="name" contenteditable="true"></span></h3>
+                                                <div class="cont_txt">
+                                                    <span data-x-id="pos" contenteditable="true"></span>
+                                                    <div data-x-id="des" contenteditable="true" class="normal"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- Block -->
+                                <div class="block clearfix" data-x-name="item" data-x-id="more">
+                                    <div class="blockR">
+                                        <div data-x-name="head">
+                                            <p class="mh_img"><img class="ico13" alt=""></p>
+                                            <h2><span data-x-id="tit" contenteditable="true">Thông tin khác</span></h2>
+                                        </div>
+                                        <div class="block_content">
+                                            <div data-x-name="list-item">
+                                            <div class="block_line" data-x-id="name" contenteditable="true"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- Block -->
+            
+                                <div class="block clearfix" data-x-name="item" data-x-id="ref">
+                                    <div class="blockR">
+                                        <div data-x-name="head">
+                                            <p class="mh_img"><img class="ico9" alt=""></p>
+                                            <h2><span data-x-id="tit" contenteditable="true">Người tham chiếu</span></h2>
+                                        </div>
+                                        <div class="block_content">
+                                            <div class="block_line">
+                                                <ul class="tc clearfix" data-x-name="list-item">
+                                                    <li data-x-name="sub-item">
+                                                        <div data-x-id="name" contenteditable="true"></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- Block -->
+            
+                                <div class="block clearfix" data-x-name="item" data-x-id="award">
+                                    <div class="blockR">
+                                        <div data-x-name="head">
+                                            <p class="mh_img"><img class="ico12" alt=""></p>
+                                            <h2><span data-x-id="tit" contenteditable="true">Giải thưởng</span></h2>
+                                        </div>
+                                        <div class="block_content">
+                                            <div class="block_line">
+                                                <ul class="gt_lst" data-x-name="list-item">
+                                                    <li class="clearfix" data-x-name="sub-item">
+                                                        <span data-x-id="name" contenteditable="true" class="gt_name">Tên giải
+                                                            thưởng</span>
+                                                        <span class="date" data-x-id="time" contenteditable="true">Năm</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- Block -->
+                                <div class="block clearfix" data-x-name="item" data-x-id="pro">
+                                    <div class="blockR">
+                                        <div data-x-name="head">
+                                            <p class="mh_img"><img class="ico10" alt=""></p>
+                                            <h2><span data-x-id="tit" contenteditable="true">Dự án</span></h2>
+                                        </div>
+                                        <div class="block_content" data-x-name="list-item">
+                                            <div class="block_line" data-x-name="sub-item">
+                                                <p class="date"><span class="date_inner"><em data-x-id="start"
+                                                            contenteditable="true">01/2000</em> - <em data-x-id="end"
+                                                            contenteditable="true">03/2005</em></span></p>
+                                                <h3 class="clearfix"> <span data-x-id="name" contenteditable="true"></span></h3>
+                                                <div class="cont_txt">
+                                                    <table>
+                                                        <tr>
+                                                            <th data-x-label="pro.cus">Khách hàng</th>
+                                                            <td data-x-id="cus" contenteditable="true"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th data-x-label="pro.des">Mô tả dự án</th>
+                                                            <td data-x-id="des" contenteditable="true"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th data-x-label="pro.mem">Thành viên</th>
+                                                            <td data-x-id="mem" contenteditable="true"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th data-x-label="pro.pos">Vị trí</th>
+                                                            <td data-x-id="pos" contenteditable="true"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th data-x-label="pro.tech">Công nghệ</th>
+                                                            <td data-x-id="tech" contenteditable="true"></td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Block -->
+                                </div>
+                                
+                    </div>
+                    
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cv_wrap  page" id="page" style="display:none">
+  <div style="padding-top:20px">
+    <div class="col_left" data-x-name="col-parrent" data-x-col="1">
+        <div class="height-curent"></div>
+    </div>
+    <div class="col_right" data-x-name="col-parrent" data-x-col="2">
+        <div class="height-curent"></div>
+    </div>
+    </div>
+</div>

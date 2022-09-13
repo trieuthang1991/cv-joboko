@@ -1,0 +1,224 @@
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCV/templates/78/colors/3e3e3e.css" />
+<link id="cv-font" rel="stylesheet" href="https://i-vn.joboko.com/MyCV/templates/78/fonts/default.css" />
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCV/templates/78/font-sizes/font_normal.css" />
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCV/templates/78/spacing/spacing_normal.css" />
+<link id="cv-css" href="https://i-vn.joboko.com/MyCV/templates/78/css/simple-style.css?v=50" rel="stylesheet" />
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCV/templates/78/colors/2c567a.css?v=10/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+
+<div id="form-cv" class="text-size line-size" data-x-name="parrent">
+    <div class="container-main-container cv-main container-mains page" page='1' fix="true">
+        <div class="header-row"></div>
+        <div class="content-row">
+            <div class="details-info">
+                <div id="about-me" data-x-name="col-parrent" data-x-col="1">
+                    <div id="about-me-content" data-x-rel="aboutme" class="height-curent">
+                        <div id="about-me-image" data-x-name="item" data-x-id="info">
+                            <div id="frame">
+                                <div id="ava"><img src="https://i-vn.joboko.com/MyCV/templates/78/images/ava.jpg" data-x-id="ava"></div>
+                            </div>
+                        </div>
+                        <div data-x-id="info" id="me-contacts" data-x-name="item">
+                            <div id="contact-detail-blank"></div>
+                            <div id="contact-details" data-x-name="list-item">    
+                                <div class="info-sub-item" data-x-rel="add">
+                                    <div class="info-icon"><div class="icon-img" id="img-add"></div></div>
+                                    <span contenteditable="true" data-x-id="add">886/41 Xô Viết Nghệ Tĩnh Phường 25 Quận Bình Thạnh</span>
+                                </div>
+                                <div class="info-sub-item" data-x-rel="tel">
+                                    <div class="info-icon"><div class="icon-img" id="img-phone"></div></div>
+                                    <span contenteditable="true" data-x-id="tel">094493587</span>
+                                </div>
+                                <div class="info-sub-item" data-x-rel="email">
+                                    <div class="info-icon"><div class="icon-img" id="img-mail"></div></div>
+                                    <span contenteditable="true" data-x-id="email">nguyentrantrungquan@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-info" data-x-name="col-parrent" data-x-col="2">
+                    <div class="height-curent">
+                        <div id="name" data-x-name="item" data-x-id="info">
+                            <span contenteditable="true" data-x-id="name">Nguyễn Lê Như Hảo</span>
+                        </div>
+                        <div id="job" data-x-name="item" data-x-id="info">
+                            <span contenteditable="true" data-x-id="job">Nguyễn Lê Như Hảo</span>
+                        </div>
+                        <div data-x-name="group-item">
+                            <div id="work-exp" class="field-bound" data-x-name="item" data-x-id="exp">
+                                <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit" class="other-info-header">Kinh nghiệm</span></div>
+                                <div class="details" data-x-name="list-item">
+                                    <div class="sub-div" data-x-name="sub-item" data-x-bullet="• ">
+                                        <div class="milestones">
+                                            <span data-x-id="start" contenteditable="true">2014 </span>
+                                            <span> - </span>
+                                            <span data-x-id="end" contenteditable="true">09/2018: </span>
+                                        </div>
+                                        <span contenteditable="true" data-x-id="pos">Nhân viên phục vụ </span>
+                                        <span> - </span>
+                                        <span contenteditable="true" data-x-id="name">quán hàn quốc tokbokki</span>
+                                        <div data-x-id="des" contenteditable="true">vai gi the</div>
+                                    </div>
+                                    <div class="sub-div" data-x-name="sub-item">
+                                        <div class="milestones">
+                                            <span data-x-id="start" contenteditable="true" name="exp.start">02/2015</span>
+                                            <span> - </span>
+                                            <span data-x-id="end" contenteditable="true" name="exp.end">04/2015: </span>
+                                        </div>
+                                        <span contenteditable="true"data-x-id="pos">Gia sư dạy môn Toán và Văn lớp 4</span>
+                                        <span> - </span>
+                                        <span contenteditable="true" data-x-id="name">ABC Tutor Center</span>
+                                        <div data-x-id="des" contenteditable="true">vai gi the</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="education" class="field-bound" data-x-name="item" data-x-id="edu">
+                                <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit" class="other-info-header">Học vấn</span></div>
+                                <div class="details" data-x-name="list-item">
+                                    <div class="sub-div" data-x-name="sub-item">
+                                        <div class="milestones">
+                                            <span data-x-id="start" contenteditable="true" name="edu.start">10/2014</span>
+                                            <span> - </span>
+                                            <span data-x-id="end" contenteditable="true" name="edu.end">09/2018: </span>
+                                        </div>
+                                        <span contenteditable="true" class="des" data-x-id="name">Trường Đại học Ngoại ngữ - Tin học (HUFLIT), TP.HCM</span>
+                                        <div class="character">
+                                            <span contenteditable="true" class="des" data-x-id="cat">Chuyên ngành: Kế toán</span>
+                                            <span contenteditable="true" class="des" data-x-id="des">Điểm trung bình: 7.36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="extracurricular" class="field-bound" data-x-name="item" data-x-id="act">
+                                <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit" class="other-info-header">Hoạt động ngoại khóa</span></div>
+                                <div class="details" data-x-name="list-item">
+                                    <div class="sub-div" data-x-name="sub-item">
+                                        <div class="milestones">
+                                            <span data-x-id="start" contenteditable="true" name="act.start">2016</span>
+                                            <span> - </span>
+                                            <span data-x-id="end" contenteditable="true" name="act.end">2018</span>
+                                        </div>
+                                        <span contenteditable="true" class="details-heading" data-x-id="name">Câu lạc bộ tiếng anh</span>
+                                        <div class="character">
+                                            <span contenteditable="true" data-x-id="pos">Tổ chức sự kiện</span>
+                                            <div contenteditable="true" data-x-id="des">Tổ chức sự kiện</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="certification" class="field-bound" data-x-name="item" data-x-id="cer">
+                                <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit" class="other-info-header">Chứng chỉ</span></div>
+                                <div class="details" data-x-name="list-item">
+                                    <div class="sub-div" data-x-name="sub-item">
+                                        <div class="milestones">
+                                            <span data-x-id="time" contenteditable="true">10 / 2018</span>
+                                        </div>
+                                        <span contenteditable="true" data-x-id="name">Basic and Advanced MS Office certifications in 
+                                            Dai Duong Computing Training Center.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="award" class="field-bound" data-x-name="item" data-x-id="award">
+                                <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit" class="other-info-header">Giải thưởng</span></div>
+                                <div class="details" data-x-name="list-item">
+                                    <div class="sub-div" data-x-name="sub-item">
+                                        <div class="milestones">
+                                            <span data-x-id="time" contenteditable="true">10 / 2018</span>
+                                        </div>
+                                        <span contenteditable="true" data-x-id="name">Huy chương vàng Hội Khỏe Phù Đổng bộ môn Cầu Lông (Đôi Nam)</span>
+                                    </div>
+                                    <div class="sub-div" data-x-name="sub-item">
+                                        <div class="milestones">
+                                            <span data-x-id="time" contenteditable="true">08 / 2019</span>
+                                        </div>
+                                        <span contenteditable="true" data-x-id="name">Giả khuyến khích ACM/ICPC 2019 tại PTIT</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="skills" class="field-bound" data-x-name="item" data-x-id="skill">
+                                <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit" class="other-info-header">Kỹ Năng</span></div>
+                                <div class="details" data-x-name="list-item">
+                                    <div class="sub-div" data-x-name="sub-item">
+                                        <span contenteditable="true" data-x-id="name">Giao tiếp</span>
+                                        <span>-</span>
+                                        <span contenteditable="true" data-x-id="des">Giỏi</span>
+                                    </div>
+                                    <div class="sub-div" data-x-name="sub-item">
+                                        <span contenteditable="true" data-x-id="name">Thuyết phục</span>
+                                        <span>-</span>
+                                        <span contenteditable="true" data-x-id="des">Giỏi</span>
+                                    </div>
+                                    <div class="sub-div" data-x-name="sub-item">
+                                        <span contenteditable="true" data-x-id="name">Thuyết trình</span>
+                                        <span>-</span>
+                                        <span contenteditable="true" data-x-id="des">Giỏi</span>
+                                    </div>
+                                    <div class="sub-div" data-x-name="sub-item">
+                                        <span contenteditable="true" data-x-id="name">Thích nghi</span>
+                                        <span>-</span>
+                                        <span contenteditable="true" data-x-id="des">Giỏi</span>
+                                    </div>
+                                    <div class="sub-div" data-x-name="sub-item">
+                                        <span contenteditable="true" data-x-id="name">Lắng nghe</span>
+                                        <span>-</span>
+                                        <span contenteditable="true" data-x-id="des">Giỏi</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="target" class="field-bound" data-x-name="item" data-x-id="tar">
+                                <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit" class="other-info-header">Mục tiêu</span></div>
+                                <div class="details" data-x-name="list-item">
+                                    <span contenteditable="true" data-x-id="name">
+                                        Mong muốn phát triển bản thân, trau dồi và đúc kết được nhiều hơn những
+                                        kinh nghiệm trong thực tiễn
+                                    </span>
+                                </div>
+                            </div>
+                            <div id="referer" class="field-bound" data-x-name="item" data-x-id="ref">
+                                <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit" class="other-info-header">Referer</span></div>
+                                <div class="details">
+                                    <div class="details-blank" data-x-name="col-parent" data-x-id="col-1"></div>
+                                    <div class="character" data-x-name="list-item">
+                                        <div data-x-name="sub-item" class="sub-div">
+                                            <span contenteditable="true" data-x-id="name">Brother: 0978-785-983</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="others" class="field-bound" data-x-name="item" data-x-id="more">
+                                <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit" class="other-info-header">Other relavant infomation</span></div>
+                                <div class="details" data-x-name="list-item">
+                                    <span contenteditable="true" data-x-id="name">Vietnamese (native), English (pre-advanced), Japanese (beginner).</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="f-1"></div>
+            <div class="f-2"></div>
+        </div>
+    </div>
+</div>
+<div id="page" class="container-main-container cv-main container-mains page" style="display:none;" fix="true">
+    <div class="header-row"></div>
+    <div class="content-row">
+        <div class="details-info">
+            <div id="about-me" data-x-name="col-parrent" data-x-col="1">
+                <div id="about-me-content" data-x-rel="aboutme" class="height-curent"></div>
+            </div>
+            <div class="other-info" data-x-name="col-parrent" data-x-col="2">
+                <div class="height-curent"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="f-1"></div>
+        <div class="f-2"></div>
+    </div>
+</div>

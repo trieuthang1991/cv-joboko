@@ -1,0 +1,15 @@
+.titleh i {
+    color: #ed9207;
+}
+
+.titleh i::after {
+    border-bottom: 8px solid #ed9207;
+}
+
+.div-content div::before {
+    color: #ed9207;
+}
+
+.div-content div div span::before {
+    color: #ed9207;
+}

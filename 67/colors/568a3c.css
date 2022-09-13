@@ -1,0 +1,26 @@
+
+.text-primary * {
+    color: #ffd800 !important;
+}
+.text-pos {
+    color: #ffd800
+}
+.bg-cv {
+    background: #eeede9;
+}
+.bg-main {
+    background: #568a3c;
+}
+
+.text-contact-info {
+    color: #568a3c
+}
+
+
+.img-contact {
+    background: url(/MyCv/templates/67/images/lienhe568a3c.png) center no-repeat;
+    background-size: 360px 50%;
+}
+.avatar-group {
+    border: solid 7px #568a3c;
+}

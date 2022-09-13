@@ -1,0 +1,7 @@
+#cv-document .page{background:linear-gradient(to right,#ed1c24,#ed1c24) no-repeat left bottom/100% 2.6em,linear-gradient(to right,#ed1c24,#ed1c24) no-repeat left bottom 3em/100% .2em #fff;color:#000}
+#cv-document .full-width__wrapper::before{background-color:#f1f2f2}
+#cv-document .info-main::after{background-color:#ed1c24}
+#cv-document .info-main__title{color:#ed1c24}
+#cv-document .info-detail__item-icon{color:#ed1c24}
+#cv-document .heading{color:#ed1c24}
+#cv-document .avatar{background:#fff}

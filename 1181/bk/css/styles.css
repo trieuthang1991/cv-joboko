@@ -1,0 +1,139 @@
+body.page-preview,body.page-view,body.page-viewdemo{background:url(/images3/bg-cv/3.jpg) no-repeat;background-size:cover;background-attachment:fixed}
+body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width:150px;height:150px;background:url(/images3/bg-cv/7.2.png) no-repeat;background-size:cover}
+#cv-document .h4,#cv-document .h5,#cv-document .h6,#cv-document h4,#cv-document h5,#cv-document h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#cv-document{font-size:10px}
+#cv-document *{box-sizing:border-box}
+#cv-document #cv-watermark a:after{content:"Joboko.com"}
+#cv-document .page:last-child #cv-watermark {
+    position: absolute;
+    z-index: 2;
+    right: 2em;
+    bottom: 1em;
+}
+#cv-document .relative{position:relative}
+#cv-document .inline-block{display:inline-block}
+#cv-document .content{border-left-width:1px;border-left-style:solid;padding:.7em 0 1.1em 3em}
+#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
+#cv-document .bullet:empty::before{content:""}
+#cv-document .page{display:flex}
+#cv-document .page__inner{display:flex;width:100%}
+#cv-document .two-up{flex-wrap:wrap;display:flex;width:100%}
+#cv-document .two-up__left{overflow:hidden;width:calc(100% - 35.6em);padding:3.2em 2.6em 0 5em}
+@media screen and (max-width:767px){
+#cv-document .two-up__left{width:100%;padding:3.2em 2em 0}
+}
+#cv-document .two-up__left-item{margin-bottom:2.3em}
+#cv-document .two-up__right{position:relative;display:flex;overflow:hidden;width:35.6em;padding:0 2.2em}
+@media screen and (max-width:767px){
+#cv-document .two-up__right{width:100%;padding:0 1em}
+}
+#cv-document .two-up__right::after{content:"";position:absolute;right:0;bottom:0;left:0;height:27.5em;background-repeat:no-repeat;background-position:center bottom}
+#cv-document .two-up__right-inner{width:100%;padding:3.2em 2.8em 0}
+@media screen and (max-width:767px){
+#cv-document .two-up__right-inner{padding:3.2em 1em 0}
+}
+#cv-document .two-up__right-item{position:relative;z-index:2;margin-bottom:2.3em}
+#cv-document .h1,#cv-document .h2,#cv-document .h3,#cv-document h1,#cv-document h2,#cv-document h3,#cv-document p{margin:0}
+#cv-document .cvo-skillrate-radial::after{font-weight:400}
+#cv-document .cvo-skillrate-progress::after{font-weight:500}
+#cv-document .regular{font-weight:400}
+#cv-document .light{font-weight:300}
+#cv-document .medium{font-weight:500}
+#cv-document .bold{font-weight:700}
+#cv-document .black{font-weight:900}
+#cv-document .uppercase{text-transform:uppercase}
+#cv-document .heading{position:relative;margin-bottom:.9em}
+#cv-document .heading::before{content:"";position:absolute;top:50%;left:0;transform:translate3d(0,-50%,0);border-radius:50%;width:4.4em;height:4.4em}
+#cv-document .heading__title{position:relative;z-index:2;padding:1em 0 1em 2em}
+#cv-document .avatar{position:relative;z-index:2;margin:0 auto 3em;width:25.6em;height:32em}
+#cv-document .avatar::after,#cv-document .avatar::before{content:"";position:absolute;bottom:0;width:99.9em;height:3.6em}
+@media screen and (max-width:767px){
+#cv-document .avatar::after,#cv-document .avatar::before{content:none}
+}
+#cv-document .avatar::before{left:calc(100% + 2.8em)}
+#cv-document .avatar::after{right:calc(100% + 2.8em)}
+#cv-document .avatar img{position:relative;z-index:2;width:25.6em;height:32em}
+#cv-document .info-main{margin-bottom:1.4em}
+#cv-document .info-main__title{margin:0 0 .1em}
+#cv-document .info-main__text{position:relative;z-index:2;padding:.5em 0}
+#cv-document .info-detail{margin-bottom:2.9em}
+#cv-document .info-detail__item{position:relative;z-index:4;align-items:center;display:flex;margin-bottom:-.8em}
+#cv-document .info-detail__item:last-child{margin-bottom:0}
+#cv-document .info-detail__item:nth-child(2){z-index:3}
+#cv-document .info-detail__item:nth-child(3){z-index:2}
+#cv-document .info-detail__item:nth-child(4){z-index:1}
+#cv-document .info-detail__item-icon{position:relative;flex-shrink:0;justify-content:center;align-items:center;display:flex;margin-right:1.5em;border-width:.2em;border-style:solid;border-radius:50%;width:3.9em;height:3.9em;text-align:center}
+#cv-document .skill{margin-top:2.2em}
+#cv-document .skill__item{margin-bottom:1.4em}
+#cv-document .skill__item:last-child{margin-bottom:0}
+#cv-document .skill__item-title{margin-top:.7em}
+#cv-document .skill-ta{flex-wrap:wrap;display:flex;margin:0 -1.7em}
+#cv-document .skill-ta__item{margin-top:1.6em;width:25%;padding:0 1.7em;text-align:center}
+#cv-document .skill-ta__item:hover{box-shadow:none;border:none}
+#cv-document .skill-ta__item-title{margin-top:.8em}
+#cv-document .cvo-skillrate-radial{position:relative;margin:0 auto;border-radius:50%;width:6.4em;height:6.4em;text-align:center}
+#cv-document .cvo-skillrate-radial::before{content:"";position:absolute;top:50%;left:50%;justify-content:center;align-items:center;display:flex;transform:translate3d(-50%,-50%,0);border-radius:50%;width:4.6em;height:4.6em}
+#cv-document .cvo-skillrate-radial::after{content:"";position:absolute;top:50%;left:50%;transform:translate3d(-50%,-50%,0)}
+#cv-document .cvo-skillrate-radial[value="1"]::after{content:"20%"}
+#cv-document .cvo-skillrate-radial[value="2"]::after{content:"40%"}
+#cv-document .cvo-skillrate-radial[value="3"]::after{content:"60%"}
+#cv-document .cvo-skillrate-radial[value="4"]::after{content:"80%"}
+#cv-document .cvo-skillrate-radial[value="5"]::after{content:"100%"}
+#cv-document .cvo-skillrate-progress{position:relative;justify-content:space-between;align-items:center;display:flex}
+#cv-document .cvo-skillrate-progress::after{content:"";flex-shrink:0;line-height:1.2;text-align:right}
+#cv-document .cvo-skillrate-progress>span{position:relative;display:flex;border-width:1px;border-style:solid;width:100%;height:1.5em;padding:.2em}
+#cv-document .cvo-skillrate-progress>span::before{content:"";display:inline-block;width:20%}
+
+#cv-document .cvo-skillrate-progress[value="1"]>span::before{width:20%}
+
+#cv-document .cvo-skillrate-progress[value="2"]>span::before{width:40%}
+
+#cv-document .cvo-skillrate-progress[value="3"]>span::before{width:60%}
+
+#cv-document .cvo-skillrate-progress[value="4"]>span::before{width:80%}
+
+#cv-document .cvo-skillrate-progress[value="5"]>span::before{width:100%}
+#cv-document .action__item{margin-bottom:1.8em;padding-top:1px}
+#cv-document .action__item:last-child{margin-bottom:0}
+#cv-document .action__item-wrap{justify-content:space-between;display:flex;margin-bottom:1.5em;border-bottom-width:1px;border-bottom-style:dashed;padding-bottom:.5em}
+#cv-document .action__item-date{flex-shrink:0;margin-left:1em}
+#cv-document .education__item{margin-bottom:1.2em}
+#cv-document .education__item:last-child{margin-bottom:0}
+#cv-document .education__item-wrap{margin-bottom:1.4em;border-bottom-width:1px;border-bottom-style:dashed;padding-bottom:.5em}
+#cv-document .experience__item{margin-bottom:1.2em;padding-top:.4em}
+#cv-document .experience__item:last-child{margin-bottom:0}
+#cv-document .experience__item-title{margin-bottom:0}
+#cv-document .experience__item-wrap{justify-content:space-between;display:flex;margin-bottom:1.5em;border-bottom-width:1px;border-bottom-style:dashed;padding-bottom:.5em}
+#cv-document .experience__item-date{flex-shrink:0;margin-left:1em}
+#cv-document .hobby{margin-top:1.3em}
+#cv-document .hobby__item{position:relative;margin-bottom:.8em;padding-left:3.6em}
+#cv-document .hobby__item:last-child{margin-bottom:0}
+#cv-document .hobby__item::before{content:"";position:absolute;top:.3em;left:0;width:1.9em;height:1.7em}
+#cv-document .references__item{margin-bottom:.6em}
+#cv-document .references__item:last-child{margin-bottom:0}
+#cv-document .target{position:relative;z-index:2;margin:2.4em 0 4.5em}
+#cv-document .target__inner{position:relative;min-height:181px;padding:2.6em 1.6em 2em;font-style:italic}
+#cv-document .target::before{content:"";position:absolute;z-index:-1;top:0;right:-.4em;bottom:-.8em;left:-.9em;transform:rotate(-1.5deg)}
+#cv-document .target::after{content:"";position:absolute;z-index:2;top:-1.4em;left:1.8em;width:3.4em;height:2.7em}
+#cv-document .target>span{position:absolute;top:.3em;right:.4em;width:1.7em;height:1.8em;background:url(../images/bg-icon-2.png) no-repeat center bottom}
+#cv-document .target>span::before{content:"";position:absolute;z-index:2;top:0;left:0;border-radius:50%;width:1.6em;height:1.6em}
+#cv-document .target>span::after{content:"";position:absolute;z-index:2;top:0;right:0;bottom:0;left:0;background:url(../images/bg-icon.png) no-repeat left top}
+
+#cv-document [contentEditable] *{font-size:1em!important}
+[contenteditable]:focus{outline:1pt dashed #77a5cc!important;cursor:text}
+[contentEditable=true]:empty{outline:1pt dashed #fc4b08!important}
+[contenteditable=true]:empty:before{content:attr(placeholder)!important}
+#cv-document span.x_add.fa.fa-plus-circle,#cv-document span.x_del.fa.fa-remove{width:70px!important}
+.inline{
+    display: inline;
+}
+
+#cv-document .page--background:first-child .two-up__right::after{
+    background-image: initial !important;
+}
+#cv-document .height-curent  [data-x-name="group-item"]{
+	padding-bottom:20px
+}

@@ -1,0 +1,92 @@
+<link id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/1093/css/cv.css?v=2.5" rel="stylesheet" />
+
+<div class="page" data-x-name="item" data-x-id="info">
+  <div class="page_ctr">
+    <div style="text-align: center;font-weight: bold ;font-size: 18px;line-height: 30px;">
+      CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM<br><span style="padding-bottom: 13px ;">Độc lập
+        - Tự do - Hạnh phúc</span> <br />
+    </div>
+    <p style="font-size: 20px;text-align: center;">-------***-------</p>
+    <p style="padding-top: 45px;" class="h1">Đơn xin nghỉ việc</p>
+
+    <div class="p1-d1">
+      <div class="raw-item">Kính gửi : Ban Giám đốc Công ty</div>
+      <div data-x-id="com" class="line txt-edit flex-item" required="required" guild="step1" txt-guild="Nhập tên công ty của bạn" txt-demo="Công Ty Cổ Phần JobOKO Toàn Cầu" data-label="Tên công ty"
+        placeholder="Tên công ty" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Đồng kính gửi Phòng Hành chính - Nhân sự </p>
+
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Tôi tên là:</p>
+      <div data-x-id="name" required="required" placeholder="Họ tên"  guild="step2" txt-guild="Nhập họ tên của bạn" txt-demo="Nguyễn Văn An" data-label="Họ tên" class="line txt-edit flex-item"
+        contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Bộ phận:</p>
+      <div data-x-id="depart"  guild="step3" txt-guild="Nhập tên bộ phận bạn làm" txt-demo="Lập trình" required="required" placeholder="Bộ phận" data-label="Bộ phận"
+        class="line txt-edit flex-item" contenteditable="true"></div>
+    </div>
+
+    <div class="p1-d1">
+      <p class="tx_nm ">Nay tôi trình đơn này kính xin Ban Giám đốc Công ty chấp thuận cho tôi được </p>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Thôi việc kể từ ngày </p>
+      <div data-x-id="dayoff" guild="step4" txt-guild="Nhập ngày tháng nghỉ việc" txt-demo="31/12/2022" data-label="Ngày nghỉ" required="required" placeholder="Ngày nghỉ"
+        class="line txt-edit flex-item" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Lý do xin Thôi việc </p>
+      <div data-x-id="reason" data-label="Lý do" required="required" placeholder="Lý do"
+        class="line  txt-edit flex-item" contenteditable="true"></div>
+    </div>
+
+    <div class="p1-d1">
+      <p class=" ">Tôi thực hiện việc báo trước là </p>
+      <div data-x-id="dayreceiver" guild="step5" txt-guild="Nhập ngày bàn giao trước" txt-demo="30"  data-label="Bàn giao" required="required" placeholder="Bàn giao"
+        class="line  txt-edit text-center" contenteditable="true"></div>
+      <p class="">ngày, kể từ ngày làm đơn. </p>
+    </div>
+    <div class="p1-d1">
+      <p>Sau khi được chấp thuận, tôi sẽ tiến hành bàn giao công việc cho </p>
+
+    </div>
+    <div class="p1-d1">
+      <div data-x-id="receiver" style="padding-left: 0;" data-label="Người nhận bàn giao" required="required"
+        placeholder="Người nhận bàn giao" class="line  txt-edit flex-item" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Bộ phận:</p>
+      <div data-x-id="departreceiver" required="required" placeholder="Bộ phận" data-label="Bộ phận"
+        class="line txt-edit flex-item" contenteditable="true"></div>
+    </div>
+
+    <div class="p1-d1">
+      <p style="line-height: 25px;">
+        Tôi rất hài lòng vì thời gian được làm việc cho Công ty. Cảm ơn Ban Giám đốc Công ty đã hỗ trợ và giúp đỡ.
+        <br />
+        Kính đề nghị Ban Giám đốc xem xét và giải quyết.
+      </p>
+
+    </div>
+    <br />
+    <b class="p1-d1 l"></b>
+
+    <div class="p1-d1 r text-center" style="display: inline-block;">
+
+      <p style="padding-bottom: 15px;" ><span id="lto-local" data-x-id="location" style="min-width: 30px;" data-label="Tỉnh/Thành phố"
+          required="required" placeholder="Tỉnh/Thành phố" contenteditable="true"></span>,
+        Ngày <span id="lto-ngay" data-x-id="dayctr" style="min-width: 10px;" data-label="Ngày" required="required"
+          placeholder="Ngày" contenteditable="true"></span>
+        Tháng <span id="lto-thang" data-x-id="monthctr" style="min-width: 10px;" data-label="Tháng" required="required"
+          placeholder="Tháng" contenteditable="true"></span>
+        Năm <span id="lto-nam" data-x-id="yearctr" style="min-width: 10px;" data-label="Năm" required="required"
+          placeholder="Năm" contenteditable="true"></span></p>
+
+     <b> Người làm đơn</b>  <br /> (Ký và ghi rõ họ tên)</b>
+    </div>
+
+  </div>
+</div>

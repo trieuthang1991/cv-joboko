@@ -1,0 +1,8 @@
+#cv-document .page{color:#000;background-color:#fff}
+#cv-document .two-up__left{border-right-color:#f15a29}
+#cv-document .info-main__title{color:#f15a29}
+#cv-document .info-detail__item-icon{color:#f15a29}
+#cv-document .heading::before{background-color:#f9edea}
+#cv-document .text-bottom{color:#fff}
+#cv-document .text-bottom::before{background-color:#f9edea}
+#cv-document .text-bottom::after{background-color:#f15a29}

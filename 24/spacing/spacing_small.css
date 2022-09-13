@@ -1,0 +1,21 @@
+/* Spacing small */
+#group-col-right .cvo-block,
+#group-col-left .cvo-block {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#group-col-left .row {
+    margin-top: 3px;
+}
+#group-col-left .cvo-block-title {
+    margin: 0 0 7px 0;
+}
+#group-col-right .cvo-block-title {
+    margin: 0 0 7px 0;
+}
+#skillrate-table .row {
+    margin-bottom: 5px;
+}
+#interest-table .row {
+    margin-bottom: 7px;
+}

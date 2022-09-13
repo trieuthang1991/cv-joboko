@@ -1,0 +1,60 @@
+.col-right .title {
+    background: #2a2858;
+}
+
+.col-left .title-head, .year-tag {
+    color: #2a2858;
+}
+
+.vector-header {
+    background: url(/MyCV/templates/1074/images/header-frame.jpg);
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer-bg {
+    background: url("/MyCV/templates/1074/images/footer-frame.jpg");
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.progress-core[value="1"] {
+    content: url(/MyCv/templates/1074/images/icon-skillvalue-rate1.png);
+}
+
+.progress-core[value="2"] {
+    content: url(/MyCv/templates/1074/images/icon-skillvalue-rate2.png);
+}
+
+.progress-core[value="3"] {
+    content: url(/MyCv/templates/1074/images/icon-skillvalue-rate3.png);
+}
+
+.progress-core[value="4"] {
+    content: url(/MyCv/templates/1074/images/icon-skillvalue-rate4.png);
+}
+.progress-core[value="5"] {
+    content: url(/MyCv/templates/1074/images/icon-skillvalue-rate5.png);
+}
+
+#me-info .me-info-decor {
+    height: 36px;
+}
+
+#me-info #dob {
+    background: url("/MyCv/templates/1074/images/dob.jpg") no-repeat;
+}
+
+#me-info #mail {
+    background: url("/MyCv/templates/1074/images/mail.jpg") no-repeat;
+}
+
+#me-info #phone {
+    background: url("/MyCv/templates/1074/images/phone.jpg") no-repeat;
+}
+
+#me-info #add {
+    background: url("/MyCv/templates/1074/images/add.jpg") no-repeat;
+}

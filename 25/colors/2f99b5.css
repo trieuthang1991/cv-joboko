@@ -1,0 +1,63 @@
+﻿.cv-progress-bar-flow {
+    background-color: #f8ca04;
+    color: #f8ca04;
+}
+
+    .cv-progress-bar-flow.level-inactive:not(.high-light) {
+        background-color: #ededed !important;
+        color: #ededed !important;
+    }
+
+.bg-primary {
+    background-color: #2f99b5 !important;
+}
+.layer-1 {
+    border-top: 200px solid #2f99b5;
+}
+
+.layer-2 {
+    border-top: 230px solid #2f99b5;
+}
+
+.layer-3 {
+    border-top: 275px solid #2f99b5;
+}
+
+.layer-4 {
+    border-bottom: 70px solid #2f99b5;
+}
+
+.layer-5 {
+    border-bottom: 110px solid #2f99b5;
+}
+
+.layer-6 {
+    border-bottom: 88px solid #2f99b5;
+}
+.bg-opaque-primary {
+    background-color: rgba(47, 153, 181, 0.12890625) !important;
+}
+
+.bg-secondary {
+    background-color: #f8ca04 !important;
+}
+
+.text-primary {
+    color: #2f99b5 !important;
+}
+
+.text-secondary {
+    color: #f8ca04 !important;
+}
+.user-name, .user-title {
+    color: #fff;
+}
+
+.interest-name {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0 5px 0;
+    background-color: #f8ca04;
+    border-radius: 20px;
+    color: #2f99b5;
+}

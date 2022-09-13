@@ -1,0 +1,164 @@
+<link id="cv-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/55/css/cv.css?v=1.1" type="text/css">
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/55/colors/1fbc89.css?v=1">
+<link id="cv-font" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/55/fonts/default.css?v=1">
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/55/font-sizes/font_normal.css?v=1">
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/55/spacing/spacing_normal.css?v=1">
+<div id="form-cv">
+    <div id="cv-top">
+        <div id="cvo-profile" data-x-name="item" data-x-id="info">
+            <div id="cvo-profile-avatar-wraper">
+                <img id="cvo-profile-avatar" src="https://i-vn.joboko.com/Upload/images/avatars/no_avatar.jpg" data-x-id="ava">
+            </div>
+            <div class="box-01">
+                <h1><span id="cv-profile-fullname" data-x-id="name" contenteditable="true"></span></h1>
+                <h2><span id="cv-profile-job" contenteditable="true" data-x-id="job"></span></h2>
+                <div><span id="cv-profile-about"></span></div>
+            </div>
+        </div>
+    </div>
+    <div id="cv-main">
+        <div id="cv-right">
+            <div class="ir">
+                <div id="sortable" class="ui-sortable">
+                    <div id="box01" class="block cvo-block box-contact ui-sortable-handle" data-x-name="item" data-x-id="info">
+                        <p class="icoweb" data-x-rel="dob"><i class="fa fa-calendar"></i><span id="cv-profile-birthday" data-x-id="dob" contenteditable="true">19/05/1992</span></p>
+                        <p class="icoweb" data-x-rel="gen"><i class="fa fa-user"></i><span id="cv-profile-sex" data-x-id="gen" contenteditable="true">Nam</span></p>
+                        <p class="icoweb" data-x-rel="tel"><i class="fa fa-phone"></i><span id="cv-profile-phone" data-x-id="tel" contenteditable="true">098567567567</span></p>
+                        <p class="icoweb" data-x-rel="email"><i class="fa fa-envelope-square"></i><span id="cv-profile-email" data-x-id="email" contenteditable="true">alex.trieupro@gmail.com</span></p>
+                        <p class="icoweb" data-x-rel="add"><i class="fa fa-map-marker"></i><span id="cv-profile-address" data-x-id="add" contenteditable="true">Số 1 đường Cầu Giấy, Hà Nội</span></p>
+                        <p class="icoweb" data-x-rel="web"><i class="fa fa-info"></i><span id="cv-profile-face" data-x-id="web" contenteditable="true">facebook.com/abc</span></p>
+                        <div class="clr"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cv-content">
+            <div class="ir ui-sortable" id="sort_block" data-x-name="group-item">
+                <div id="block04" class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="tar">
+
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true">Mục tiêu nghề nghiệp</span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+                            <div class="exp-content" contenteditable="true" data-x-id="name">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block02" class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="exp">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true">Kinh nghiệm làm việc</span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+
+                            <h3>
+                                <span class="exp-title" contenteditable="true" data-x-id="name"></span>
+                                <span class="exp-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end" contenteditable="true">05/2018</em></span>
+                            </h3>
+                            <p class="h3">
+                                <span class="exp-subtitle" data-x-id="pos" contenteditable="true">Online Marketing Specialist</span>
+                            </p>
+                            <div class="exp-content" contenteditable="true" data-x-id="des">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="block03" class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="act">
+
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true">Hoạt động</span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+                            <h3>
+                                <span class="exp-title" contenteditable="true" data-x-id="name"></span>
+                                <span class="exp-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end" contenteditable="true">05/2018</em></span>
+                            </h3>
+                            <p class="h3">
+                                <span class="exp-subtitle" data-x-id="pos" contenteditable="true">Tình nguyện viên</span>
+                            </p>
+                            <div class="exp-content" contenteditable="true" data-x-id="des">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block01" class="cvo-block ui-sortable-handle" data-x-id="edu" data-x-name="item">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true"></span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+                            <h3>
+                                <span class="exp-title" contenteditable="true" data-x-id="name"></span>
+                                <span class="exp-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end" contenteditable="true">05/2018</em></span>
+                            </h3>
+                            <p class="h3">
+                                <span class="exp-subtitle" data-x-id="cat" contenteditable="true"></span>
+                            </p>
+                            <div class="exp-content" contenteditable="true" data-x-id="des"></div>
+                        </div>
+                    </div>
+                </div>
+
+				<div class="cvo-block ui-sortable-handle" data-x-id="ref" data-x-name="item">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true"></span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div class="ctbx experience" data-x-name="sub-item">                            
+                            <div class="exp-content" contenteditable="true" data-x-id="name"></div>
+                        </div>
+                    </div>
+                </div>
+				<div class="cvo-block ui-sortable-handle" data-x-id="hob" data-x-name="item">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true"></span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div class="ctbx experience" data-x-name="sub-item">                            
+                            <div class="exp-content" contenteditable="true" data-x-id="name"></div>
+                        </div>
+                    </div>
+                </div>
+				<div class="cvo-block ui-sortable-handle" data-x-id="more" data-x-name="item">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true"></span>
+                    </p>
+                    <div id="experience-table">
+                        <div class="ctbx experience">                            
+                            <div class="exp-content" contenteditable="true" data-x-id="name"></div>
+                        </div>
+                    </div>
+                </div>
+				<div class="cvo-block ui-sortable-handle" data-x-id="award" data-x-name="item">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true"></span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div class="ctbx experience" data-x-name="sub-item">                            
+                            <span class="exp-title" contenteditable="true" data-x-id="name"></span>
+							<span class="exp-date" contenteditable="true" data-x-id="time"></span>
+                        </div>
+                    </div>
+                </div>
+				<div class="cvo-block ui-sortable-handle" data-x-id="cer" data-x-name="item">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true"></span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div class="ctbx experience" data-x-name="sub-item">                            
+                            <span class="exp-title" contenteditable="true" data-x-id="name"></span>
+							<span class="exp-date" contenteditable="true" data-x-id="time"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

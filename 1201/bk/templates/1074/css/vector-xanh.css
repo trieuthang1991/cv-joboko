@@ -1,0 +1,489 @@
+.cv-main {
+    margin: auto;
+    background: #fff;
+    font-size: 13px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vector-header {
+    background: url("/MyCV/templates/1074/images/header-frame.jpg");
+    height: 222px;
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#about-me {
+    position: absolute;
+    color: white;
+    top: 20px;
+    letter-spacing: 1px;
+    right: 25px;
+    text-transform: uppercase;
+    width: 55%;
+    word-break: break-word;
+}
+
+
+#about-me [data-x-id="name"] {
+    font-weight: bold;
+    display: block;
+    font-size: 28px;
+    text-align: right;
+}
+
+
+#about-me [data-x-id="job"] {
+    float: right;
+}
+
+.content-bound {
+    margin-top: -221px;
+    display: flex;
+}
+
+[data-x-name="item"] {
+    word-break: break-word;
+}
+
+.col-left {
+    max-width: 40%;
+    width: 37%;
+    background: #f0efee;
+    min-height: 1087px;
+}
+
+.col-left [data-x-name="item"] {
+    padding: 25px 35px 0 35px;
+}
+
+
+.col-left #ava-img {
+    padding-left: 16px;
+    z-index: 1;
+}
+
+#ava-img img{
+    margin: 40px;
+    margin-top: 18px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    width: 85%;
+}
+
+.title-head {
+    text-transform: uppercase
+}
+
+.col-left .title-head {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #2a2858
+}
+
+#me-info {
+    padding-top: 0
+}
+
+#me-info .sub-div {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#me-info .me-info-decor {
+    width: 25%
+}
+
+#me-info span {
+    width: 75%
+}
+
+#skills .sub-div {
+    padding-top: 20px;
+    display: flex;
+    word-break: break-word;
+}
+
+#skills [data-x-id="name"] {
+    width: 45%
+}
+
+#skills .skillrate-bar {
+    max-width: 45%;
+    margin: auto;
+}
+
+.progress-core {
+    max-width: 100%;
+}
+
+
+.progress-core[value="1"]{
+    content: url("/MyCv/templates/1074/images/icon-skillvalue-rate1.png");
+}
+
+.progress-core[value="2"]{
+    content: url("/MyCv/templates/1074/images/icon-skillvalue-rate2.png");
+}
+
+.progress-core[value="3"]{
+    content: url("/MyCv/templates/1074/images/icon-skillvalue-rate3.png");
+}
+
+.progress-core[value="4"]{
+    content: url("/MyCv/templates/1074/images/icon-skillvalue-rate4.png");
+}
+
+.progress-core[value="5"]{
+    content: url("/MyCv/templates/1074/images/icon-skillvalue-rate5.png");
+}
+
+#hobbies {
+    overflow: auto;
+    word-break: unset;
+}
+
+#hobbies .title-head {
+    padding-bottom: 15px;
+} 
+
+#hobbies .sub-div {
+    padding-bottom: 25px;
+    display: flex;
+}
+
+#hobbies [data-x-id="icon"] {
+    width: 20%;
+}
+
+#hobbies [data-x-id="name"] {
+    width: 80%
+}
+
+#hobbies i::before {
+    font-size: 20px;
+}
+
+.col-left .height-curent {
+    padding-bottom: 185px;
+}
+
+
+/* col-right */
+.col-right {
+    flex: 1;
+    padding-top: 200px;
+}
+
+.col-right .height-curent {
+    padding-bottom: 130px;
+}
+
+.col-right .height-curent {
+    min-height: 645px
+}
+
+.col-right [data-x-name="item"] {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-right [data-x-name="item"]:not(:first-child) {
+    padding-top: 35px;
+}
+
+.col-right .title {
+    background: #2a2858;
+    padding: 5px 0;
+    color: #fff;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+}
+
+.col-right [data-x-name="list-item"] {
+    padding-top: 20px;
+}
+
+.col-right .decor {
+    width: 20%
+}
+
+.col-right .title i {
+    margin: auto
+}
+
+.col-right .title span {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+}
+
+.col-right .sub-div {
+    display: flex;
+    padding-top: 15px;
+}
+
+.year-tag {
+    color: #2a2858;
+    font-weight: bold;
+    width: 32%
+}
+
+
+.year-tag span {
+    display: inline-block;
+}
+
+.characters {
+    flex: 1
+}
+
+.characters span{
+    display: block;
+}
+
+.col-right [data-x-id="name"], .col-right [data-x-id="cat"], .col-right [data-x-id="pos"] {
+    font-weight: bold;
+}
+
+.col-right [data-x-id="name"] {
+    text-transform: uppercase
+}
+
+.col-right .title {
+    width: 60%;
+}
+
+#target [data-x-id="name"],  #certifications .characters [data-x-id="name"], #awards .characters [data-x-id="name"]{
+    font-weight: 400
+}
+
+#target [data-x-id="name"] {
+    text-transform: none
+}
+
+#references .sub-div:first-child {
+    padding-top: 20px;
+}
+
+#references .sub-div {
+    padding-bottom: 20px;
+}
+
+#references .sub-div [data-x-id="name"] {
+    display: inline-block;
+    width: 100%
+}
+
+/* footer */
+.footer-bg {
+    position: absolute;
+    background: url("/MyCV/templates/1074/images/footer-frame.jpg");
+    bottom: 0;
+    width: 100%;
+    height: 185px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* page != 1 */
+.cv-main:not([page="1"]) .content-bound{
+    margin-top: 0;
+}
+
+.cv-main:not([page="1"]) .col-right{
+    padding-top: 0;
+
+}
+
+.cv-main:not([page="1"]) .col-left .height-curent, .cv-main:not([page="1"]) .col-right .height-curent{ 
+    min-height: 902px;
+    padding-top: 35px;
+}
+
+.title .title-round {
+    background: rgb(0, 153, 124);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1024px) {
+    .col-left #ava-img {
+        margin-top: 2px;
+        margin-left: 14px;
+    }
+}
+
+/* -------------TABLET PORTRAIT--------- */
+@media screen and (max-width: 780px) {
+    #ava-img img {
+        margin: 25px;
+        margin-top: 12px;
+        width: 91%
+    }
+    .col-left #ava-img {
+        margin-top: 6px;
+        margin-left: 14px;
+    }
+    .content-bound .col-left .height-curent {
+        margin-top: 0
+    }
+    .footer-bg {
+        height: 182px;
+    }
+}
+
+
+/* -----------------MOBILE---------------- */
+@media screen and (max-width: 680px) {
+    #ava-img img {
+        margin: 27px;
+        margin-top: 15px;
+        width: 90%;
+        height: 170px;
+    }
+    .footer-bg {
+        height: 159px;  
+    }
+    .content-bound .col-left .height-curent{
+        margin-top: 0;
+        padding-bottom: 160px;
+    }
+    .col-right .height-curent {
+        padding-bottom: 160px;
+    }
+    .col-left #ava-img {
+        margin-top: -3px;
+        margin-left: 5px;
+    }
+    .col-right {
+        margin-top: 0;
+    }
+    .cv-main:not([page="1"]) .col-left .height-curent, .cv-main:not([page="1"]) .col-right .height-curent {
+        padding-top: 0;
+    }
+   
+}
+
+
+
+/* -----------------SMALL MOBILE---------------- */
+@media screen and (max-width: 470px) {
+    .cv-main {
+        font-size: 12px;
+    }
+    .col-left #ava-img {
+        padding-left: 0;
+    }
+    #ava-img img {
+        margin: 20px;
+        margin-top: 7px;
+        height: 145px;
+    }
+    .col-left [data-x-name="item"] {
+        padding: 20px 17px 0 10px;
+    }
+    #about-me [data-x-id="name"] {
+        font-size: 25px;
+    }
+    .col-right {
+        padding-top: 135px
+    }
+    .col-left .title-head { 
+        font-size: 19px;
+    }
+    .col-right .title {
+        width: 90%
+    }
+    .footer-bg {
+        height: 110px;
+    }
+    .col-right .height-curent, .col-left .height-curent {
+        padding-bottom: 120px;
+    }
+}
+
+
+/* -----------------SMALLER MOBILE---------------- */
+@media screen and (max-width: 360px) {	
+    #ava-img img {
+        height: 120px;
+        margin-top: 0;
+    }
+    .col-left #ava-img {
+        margin-top: -1px;
+        margin-left: 0;
+    }
+    .cv-main {
+        font-size: 11px;
+    }
+    #about-me {
+        top: 0
+    }
+    #about-me [data-x-id="name"] {
+        font-size: 23px;
+    }
+    .col-right .title {
+        width: 100%
+    }
+    .col-right .title span {
+        font-size: 12px;
+    }
+    .title .title-round {
+        width: 30px;
+        height: 30px;
+    }
+    #me-info span { 
+        margin-left: 15px;
+    }
+    .footer-bg {
+        height: 84px;
+    }
+    .col-left .title-head {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {	
+    .cv-main {
+        font-size: 10px;
+    }
+    .col-left #ava-img {
+        margin-top: -4px;
+    }
+    #ava-img img {
+        height: 100px;
+    }
+    .col-right {
+        padding-top: 90px;
+    }
+    .col-right .title span {
+        font-size: 10px;
+    }
+    .title .title-round {
+        width: 25px;
+        height: 25px;
+    }
+    .col-left .title-head {
+        font-size: 13px;
+    }
+    .footer-bg {
+        height: 75px;
+    }
+    .col-right .height-curent, .col-left .height-curent {
+        padding-bottom: 80px;
+    }
+}

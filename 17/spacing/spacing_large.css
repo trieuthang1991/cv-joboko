@@ -1,0 +1,12 @@
+/* Spacing large */
+.cvo-block {
+    margin-bottom: 30px;
+}
+#cvo-education .row,
+#cvo-activity .row,
+#cvo-experience .row {
+    margin-bottom: 15px;
+}
+#group-left .cvo-block {
+    margin-bottom: 50px;
+}

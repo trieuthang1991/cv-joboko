@@ -1,0 +1,412 @@
+<link id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/61/css/cv.css?v=1.2" rel="stylesheet" />
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/61/colors/04756F.css?v=21" />
+<link id="cv-font" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/61/fonts/default.css?v=130" />
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/61/font-sizes/font_normal.css?v=1321" />
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/61/spacing/spacing_normal.css?v=1321" />
+<div id="form-cv" class="text-size line-size">
+    <div id="cv-main" data-x-name="parrent">
+        <div class="content-main content-main-0 col page" page="1">
+            <div>
+                <div class="content-user-profile top"  data-x-name="col-parrent" data-x-col="0">
+                    <div class="header">
+                        <div class="backgrounds-top">
+                            <div class="background-3"></div>
+                            <div class="background-2"></div>
+                            <div class="background-1"></div>
+                        </div>
+                        <div class="backgrounds-bottom">
+                            <div class="background-6"></div>
+                            <div class="background-5"></div>
+                            <div class="background-4"></div>
+                        </div>
+                        <div class="avatar-info" data-x-name="item" data-x-id="info">
+                            <div class="avatar-container">
+                                <div class="avatar-group">
+                                    <div class="avatar-img-container">
+                                        <img class="avatar uploaded" data-x-id="ava" src="https://i-vn0.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="avatar">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-customer">
+                                <div data-x-id="name" class="input-field name  user-name font-size-1" contenteditable="true">Thắng Văn Triệu</div>
+                                <div data-x-id="job" class="input-field title  user-title font-size-4" contenteditable="true"></div>
+                                <div class="cv-contacts float-left-100">
+                                    <div class="content-data content-contacts index-0 last-index cv">
+                                        <div class="contacts-cvs float-left-100">
+                                            <div class="sub-cv " data-x-rel="dob">
+                                                <div class="field-fa-group">
+                                                    <i class="fa fa-birthday-cake field-fa-icon text-secondary"></i>
+                                                    <h4 data-x-id="dob"
+                                                        class="input-field focus-able date_of_birth  field-fa-input font-size-4   "
+                                                        contenteditable="true"></h4>
+                                                </div>
+                                            </div>
+                                            <div class="sub-cv " data-x-rel="email">
+                                                <div class="field-fa-group">
+                                                    <i class="fa fa-envelope field-fa-icon text-secondary"></i>
+                                                    <h4 data-x-id="email"
+                                                        class="input-field focus-able email  field-fa-input font-size-4   "
+                                                        contenteditable="true">
+                                                        trieuvan_thang@yahoo.com.vn
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="sub-cv " data-x-rel="add">
+                                                <div class="field-fa-group">
+                                                    <i class="fa fa-map-marker field-fa-icon text-secondary"></i>
+                                                    <h4 data-x-id="add"
+                                                        class="input-field focus-able address  field-fa-input font-size-4   "
+                                                        contenteditable="true"></h4>
+                                                </div>
+                                            </div>
+                                            <div class="sub-cv " data-x-rel="tel">
+                                                <div class="field-fa-group">
+                                                    <i class="fa fa-phone field-fa-icon text-secondary"></i>
+                                                    <h4 data-x-id="tel"
+                                                        class="input-field focus-able phone  field-fa-input font-size-4   "
+                                                        contenteditable="true"></h4>
+                                                </div>
+                                            </div>
+                                            <div class="sub-cv " data-x-rel="web">
+                                                <div class="field-fa-group">
+                                                    <i class="fa fa-globe field-fa-icon text-secondary"></i>
+                                                    <h4 data-x-id="web"
+                                                        class="input-field focus-able website  field-fa-input font-size-4   "
+                                                        contenteditable="true"></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-me" data-x-id="tar" data-x-name="item">
+                            <div data-x-id="tit" class="profile-cv-header font-size-2" contenteditable="true">Giới thiệu</div>
+                            <div data-x-id="name" class="input-field introduction  field-fa-input info-me-input font-size-4   "
+                                 contenteditable="true">
+                                - Nêu một số mục tiêu ngắn hạn, dài hạn trong công việc mà bạn đang hướng tới
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="col-0" data-x-name="col-parrent" data-x-col="1">
+                        <div  class="height-curent">
+                    <div class="content-body" data-x-name="group-item">
+                        <div class="content-data content-educations index-0 last-index cv editable " data-x-name="item" data-x-id="edu">
+                            <h2 class="cv-header font-size-2" data-x-id="tit" contenteditable="true">Học vấn</h2>
+                            <div class="educations-cvs float-left-100" data-x-name="list-item">
+                                <div class="sub-cv " data-x-name="sub-item">
+                                    <div class="content-w-period float-left-100">
+                                        <div class="education-school-period float-left-100">
+                                            <div class="school-group float-left-100">
+                                                <i class="fa fa-star diamond text-primary text-secondary"></i>
+                                                <div data-x-id="name"
+                                                     class="input-field school  cv-title text-secondary font-size-3"
+                                                     contenteditable="true"></div>
+                                            </div>
+                                        </div>
+                                        <div class="education-info float-left-100">
+                                            <div class="cv-period float-left">
+                                                <div data-x-id="start"
+                                                     class="input-field from  education-from details-field-input font-size-5 "
+                                                     contenteditable="true"></div>
+                                                <div class="connected-line-group">
+                                                    <div class="line-start-point"></div>
+                                                    <div class="line-period"></div>
+                                                    <div class="line-end-point"></div>
+                                                </div>
+                                                <div data-x-id="end"
+                                                     class="input-field to  education-to details-field-input font-size-5   "
+                                                     contenteditable="true"></div>
+                                            </div>
+                                            <div class="info float-left-70">
+                                                <h4 data-x-id="cat"
+                                                    class="input-field major  cv-subtitle font-size-3   "
+                                                    contenteditable="true"></h4>
+                                                <div>
+                                                    <div class="details-wrapper js-text-field text-field  education-details details-field-input font-size-5  "
+                                                         data-x-id="des"
+                                                         contenteditable="true"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-data content-skills index-0 last-index cv editable " data-x-name="item" data-x-id="skill">
+                            <h2 class="cv-header font-size-2" contenteditable="true" data-x-id="tit">Kỹ năng</h2>
+                            <div class="skills-cvs float-left-100" data-x-name="list-item">
+                                <div class="sub-cv " data-x-name="sub-item">
+                                    <div>
+                                        <div class="content-skill float-left-100">
+                                            <div data-x-id="name"
+                                                 class="input-field focus-able name  skill-name details-field-input font-size-5   "
+                                                 contenteditable="true"></div>
+                                            <div class="float-left-100 bar-exp cvo-skillrate-bar cv-progress-bar"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-data content-certificates index-0 last-index cv editable " data-x-id="cer" data-x-name="item">
+                            <div>
+                                <h2 class="cv-header font-size-2" data-x-id="tit" contenteditable="true">Chứng chỉ</h2>
+                                <div class="certificates-cvs float-left-100" data-x-name="list-item">
+                                    <div class="sub-cv " data-x-name="sub-item">
+                                        <div class="content-certificate  float-left-100">
+                                            <div class="cert-info  float-left-100">
+                                                <div data-x-id="name"
+                                                     class=" float-left-70 input-field name  cv-title text-secondary font-size-3   "
+                                                     contenteditable="true"></div>
+                                                <div class=" float-left-20 cert-received-date-group font-size-3">
+                                                    <div data-x-id="time"
+                                                         class="input-field received_date  cert-received-date   "
+                                                         contenteditable="true"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-data content-awards index-0 last-index cv editable " data-x-name="item" data-x-id="award">
+                            <div>
+                                <h2 class="cv-header font-size-2" data-x-id="tit" contenteditable="true">Giải thưởng</h2>
+                                <div class="awards-cvs" data-x-name="list-item">
+                                    <div class="sub-cv " data-x-name="sub-item">
+                                        <div>
+                                            <div class="content-w-period">
+                                                <div class="awards-company-period float-left-100">
+                                                    <div class="company-group float-left-70">
+                                                        <i class="fa fa-star diamond text-secondary"></i>
+                                                        <div data-x-id="name"
+                                                             class="float-left-80 input-field organization  cv-title text-secondary font-size-3   "
+                                                             contenteditable="true"></div>
+                                                    </div>
+                                                    <div class="cv-period float-left-20">
+                                                        <div data-x-id="time"
+                                                             class="input-field received_date  experience-to details-field-input font-size-5   "
+                                                             contenteditable="true"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-data content-languages index-0 last-index cv editable " data-x-name="item" data-x-id="skill_ta">
+                            <div>
+                                <h2 class="cv-header font-size-2" data-x-id="tit" contenteditable="true">Ngôn ngữ</h2>
+                                <div class="languages-cvs float-left-100" data-x-name="list-item">
+                                    <div class="sub-cv " data-x-name="sub-item">
+                                        <div>
+                                            <div class="content-language  float-left-100">
+                                                <div data-x-id="name"
+                                                     class="float-left-20 input-field focus-able name  skill-name details-field-input font-size-5 "
+                                                     contenteditable="true"></div>
+                                                <div class=" float-left-70 bar-exp cvo-skillrate-bar cv-progress-bar"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div></div>
+                </div>
+                <div class="col-1" data-x-name="col-parrent" data-x-col="2">
+                        <div class="height-curent">
+                    <div class="content-body"  data-x-name="group-item">
+                        <div class="content-data content-experiences index-0 last-index cv editable " data-x-id="exp" data-x-name="item">
+                            <div>
+                                <h2 class="cv-header font-size-2" data-x-id="tit" contenteditable="true">Kinh nghiệm làm việc</h2>
+                                <div class="experiences-cvs" data-x-name="list-item">
+                                    <div class="sub-cv " data-x-name="sub-item">
+                                        <div>
+                                            <div class="content-w-period">
+                                                <div class="experience-company-period float-left-100">
+                                                    <div class="company-group">
+                                                        <i class="fa fa-star diamond text-secondary"></i>
+                                                        <div data-x-id="name"
+                                                             class="float-left-90 input-field company  cv-title text-secondary font-size-3   "
+                                                             contenteditable="true"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="experience-info float-left-100">
+                                                    <div class="cv-period float-left">
+                                                        <div data-x-id="start" class="input-field from  experience-from details-field-input font-size-5   "
+                                                             contenteditable="true"></div>
+                                                        <div class="connected-line-group">
+                                                            <div class="line-start-point"></div>
+                                                            <div class="line-period"></div>
+                                                            <div class="line-end-point"></div>
+                                                        </div>
+                                                        <div data-x-id="end"
+                                                             class="input-field to  experience-to details-field-input font-size-5   "
+                                                             contenteditable="true"></div>
+                                                    </div>
+                                                    <div class="info float-left-70">
+                                                        <h4 data-x-id="pos"
+                                                            class="input-field title  cv-subtitle font-size-3   "
+                                                            contenteditable="true"></h4>
+                                                        <div>
+                                                            <div class="details-wrapper js-text-field text-field  experience-details details-field-input font-size-5  "
+                                                                 data-x-id="des"
+                                                                 contenteditable="true"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-data content-projects index-0 last-index cv editable " data-x-name="item" data-x-id="pro">
+                            <div>
+                                <h2 class="cv-header font-size-2" data-x-id="tit" contenteditable="true">Dự án</h2>
+                                <div class="projects-cvs" data-x-name="list-item">
+                                    <div class="sub-cv " data-x-name="sub-item">
+                                        <div>
+                                            <div class="content-w-period">
+                                                <div class="experience-company-period">
+                                                    <div class="company-group">
+                                                        <div data-x-id="name"
+                                                             class="input-field name  cv-title text-secondary font-size-3   "
+                                                             contenteditable="true"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="experience-info">
+                                                    <div class="cv-period float-left">
+                                                        <div data-x-id="start"
+                                                             class="input-field from  experience-from details-field-input font-size-5   "
+                                                             contenteditable="true"></div>
+                                                        <div class="connected-line-group">
+                                                            <div class="line-start-point"></div>
+                                                            <div class="line-period"></div>
+                                                            <div class="line-end-point"></div>
+                                                        </div>
+                                                        <div data-x-id="end"
+                                                             class="input-field to  experience-to details-field-input font-size-5   "
+                                                             contenteditable="true"></div>
+                                                    </div>
+                                                    <div class="info float-left-70">
+                                                        <div class="details-wrapper js-text-field text-field  experience-details details-field-input font-size-5 project-details  "
+                                                             data-x-id="des"
+                                                             contenteditable="true"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-data content-organizations index-0 last-index cv editable " data-x-name="item" data-x-id="act">
+                            <div>
+                                <h2 class="cv-header font-size-2" contenteditable="true" data-x-id="tit">Hoạt động</h2>
+                                <div class="organizations-cvs" data-x-name="list-item">
+                                    <div class="sub-cv " data-x-name="sub-item">
+                                        <div>
+                                            <div class="content-w-period">
+                                                <div class="experience-company-period float-left-100">
+                                                    <div class="company-group">
+                                                        <i class="fa fa-star diamond text-secondary"></i>
+                                                        <div data-x-id="name"
+                                                             class="float-left-90 input-field organization  cv-title text-secondary font-size-3   "
+                                                             contenteditable="true"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="experience-info">
+                                                    <div class="cv-period float-left">
+                                                        <div data-x-id="start"
+                                                             class="input-field from  experience-from details-field-input font-size-5   "
+                                                             contenteditable="true"></div>
+                                                        <div class="connected-line-group">
+                                                            <div class="line-start-point"></div>
+                                                            <div class="line-period"></div>
+                                                            <div class="line-end-point"></div>
+                                                        </div>
+                                                        <div data-x-id="end"
+                                                             class="input-field to  experience-to details-field-input font-size-5   "
+                                                             contenteditable="true"></div>
+                                                    </div>
+                                                    <div class="info float-left-70">
+                                                        <h4 data-x-id="pos"
+                                                            class="input-field title  cv-subtitle font-size-3   "
+                                                            contenteditable="true"></h4>
+                                                        <div class="details-wrapper js-text-field text-field  experience-details details-field-input font-size-5  "
+                                                             data-x-id="des"
+                                                             contenteditable="true"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-data content-interests index-0 last-index cv editable " data-x-name="item" data-x-id="more">
+                            <div>
+                                <h2 class="cv-header font-size-2" contenteditable="true" data-x-id="tit">Điều quan tâm</h2>
+                                <div class="interests-cvs">
+                                    <div class="sub-cv ">
+                                        <div>
+                                            <div class="content-interest" data-x-name="list-item">
+                                                <h4 data-x-id="name"
+                                                    class="input-field focus-able name  interest-name  font-size-5   "
+                                                    contenteditable="true"></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-data content-references index-0 last-index cv editable " data-x-id="ref" data-x-name="item">
+                            <div>
+                                <h2 class="cv-header font-size-2" contenteditable="true" data-x-id="tit">Người tham chiếu</h2>
+                                <div class="references-cvs" data-x-name="list-item">
+                                    <div class="sub-cv " data-x-name="sub-item">
+                                        <div>
+                                            <div class="content-reference">
+                                                <div class="person">
+                                                    <div data-x-id="name"
+                                                         class="input-field contact_phone details-references font-size-5   "
+                                                         contenteditable="true"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content-main content-main-0 col page" id="page"  style="display: none">
+        <div>
+                <div class="content-user-profile top">
+                    <div class="header">
+                        <div class="backgrounds-bottom">
+                            <div class="background-6"></div>
+                            <div class="background-5"></div>
+                            <div class="background-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="main">
+        <div class="col-0" data-x-name="col-parrent" data-x-col="1">   <div class="height-curent"></div></div>
+        <div class="col-1" data-x-name="col-parrent" data-x-col="2"> <div class="height-curent"></div></div>
+        </div>
+
+</div>

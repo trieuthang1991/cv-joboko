@@ -1,0 +1,20 @@
+#cv-top h1 span{
+	color: #e91e63
+}
+#cv-top h2{
+	color: #e91e63;
+}
+.cv-content span[contenteditable]{
+	color:#e91e63;	
+}
+.bar-exp span {
+    background: #e91e63;
+}
+.icoweb i.fa{
+    background-color: #e91e63;
+}
+.icon_fa i.fa{
+	border: solid 1px #e91e63;
+	background: #e91e63;
+}
+#cv-box-ava img{border-color:#e91e63}

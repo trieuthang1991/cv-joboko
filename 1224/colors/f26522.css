@@ -1,0 +1,10 @@
+#cv-document .page{background:linear-gradient(to right,#f26522,#f26522) no-repeat left bottom/100% 4em,linear-gradient(to right,#f26522,#f26522) no-repeat left bottom 4.4em/100% .2em,linear-gradient(to bottom,#d1d3d4,#d1d3d4) no-repeat left 28.5em top/1px 100%,#fff;color:#000}
+@media screen and (max-width:767px){
+#cv-document .page{background:linear-gradient(to right,#f26522,#f26522) no-repeat left bottom/100% 4em,linear-gradient(to right,#f26522,#f26522) no-repeat left bottom 4.4em/100% .2em,#fff}
+}
+#cv-document .full-width__wrapper::before{background-color:#fff}
+#cv-document .full-width__wrapper::after{background-color:#f1f2f2}
+#cv-document .info-main__title{color:#f26522}
+#cv-document .info-detail__item-icon{color:#f26522}
+#cv-document .heading{color:#f26522}
+#cv-document .avatar{background-color:#fff}

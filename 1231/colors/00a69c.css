@@ -1,0 +1,12 @@
+#cv-document .page{color:#000;background-color:#fff}
+#cv-document .two-up__left::after{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 25.6 22.01'%3E%3Cpath fill='%23a7a9ac' d='M3.51 7A3.51 3.51 0 1 0 0 3.5 3.51 3.51 0 0 0 3.51 7Z'/%3E%3Cpath fill='%23d1d3d4' d='M22.09 7a3.51 3.51 0 1 0-3.5-3.51A3.51 3.51 0 0 0 22.09 7Z'/%3E%3Cpath fill='%23414042' d='M21.32 5.26a1.75 1.75 0 0 0 1.75-1.76 1.75 1.75 0 0 0-1.75-1.75H4.2A1.75 1.75 0 0 0 2.45 3.5 1.75 1.75 0 0 0 4.2 5.26Z'/%3E%3C/svg%3E")}
+#cv-document .two-up__right{background-color:#4a4948;color:#fff}
+#cv-document .box::after{background:linear-gradient(135deg,#018878 50%,transparent 0)}
+#cv-document .box__wrap{background-color:#00a69c;color:#fff}
+#cv-document .avatar{border-color:#fff}
+#cv-document .info-main__text{background-color:#00a69c;color:#fff}
+#cv-document .info-main__title{color:#fff}
+#cv-document .info-main__text{background-color:#00a69c;color:#fff}
+#cv-document .info-detail__item-icon{color:#fff}
+#cv-document .heading{color:#fff}
+#cv-document .heading__text::after{background-color:#f1f2f2}

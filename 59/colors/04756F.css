@@ -1,0 +1,16 @@
+.bg-primary {
+    background-color: #04756F !important;
+}
+
+.bg-opaque-primary {
+    background-color: rgba(4, 117, 111, 0.12890625) !important;
+}
+.text-primary {
+    color: #04756F !important;
+}
+.bar-exp span {
+    background-color: #04756F !important;
+}
+.avatar{
+    border: solid 2px #04756F;
+}

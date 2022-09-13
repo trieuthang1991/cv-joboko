@@ -1,0 +1,17 @@
+/* Spacing large */
+#col-left .cvo-block {
+    width: 100%;
+    padding: 0 15px 10px 15px;
+}
+#col-left .cvo-block-title {
+    margin: 0 0 12px 0;
+}
+#col-left .row {
+    margin: 17px 0;
+}
+#profile-contact-wraper div {
+    padding: 7px 0;
+}
+#skillrate-table .row {
+    margin-bottom: 15px;
+}

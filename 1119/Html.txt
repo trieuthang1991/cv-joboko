@@ -1,0 +1,86 @@
+<link id="cv-css" href="https://i-vn1.joboko.com/MyCv/templates/1119/css/cv.css?v=2.6" rel="stylesheet" />
+
+<div class="page" data-x-name="item" data-x-id="info">
+  <div class="page_ctr">
+    <div style="text-align: center;font-weight: bold ;font-size: 18px;line-height: 30px;">
+      CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM<br><span style="padding-bottom: 13px ;">Độc lập
+        - Tự do - Hạnh phúc</span> <br />
+    </div>
+    <p style="font-size: 20px;text-align: center;">—————- o0o —————-</p>
+    <p style="padding-top: 45px;" class="h1">ĐƠN XIN VIỆC</p>
+    <div class="p1-d1">
+      <div class="raw-item">Kính gửi: Ban lãnh đạo cùng phòng nhân sự Công ty </div>
+    </div>
+    <div class="p1-d1">
+      <div data-x-id="com" style="padding-left: 0;" class="line  txt-edit flex-item" required="required"
+        data-label="Tên công ty" guild="step1" txt-guild="Nhập tên công ty của bạn"
+        txt-demo="Công Ty Cổ Phần JobOKO Toàn Cầu" placeholder="Tên công ty" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Tôi tên là:</p>
+      <div data-x-id="name" guild="step2" txt-guild="Nhập họ tên của bạn" txt-demo="Nguyễn Văn An" required="required"
+        placeholder="Họ tên" data-label="Họ tên" class="line txt-edit flex-item" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Ngày sinh:</p>
+      <div data-x-id="dob" required="required" guild="step3" txt-guild="Nhập ngày sinh của bạn" txt-demo="31/12/1991"
+        placeholder="Ngày sinh" data-label="Ngày sinh" class="line txt-edit flex-item" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Chỗ ở hiện nay: </p>
+      <div data-x-id="add" required="required" guild="step4" txt-guild="Địa chỉ của bạn"
+        txt-demo="Số 20 - Ngõ 83 - Hồ Gươm - Quận Hoàn Kiếm - Hà Nội" placeholder="Chức vụ" data-label="Chức vụ"
+        class="line txt-edit flex-item" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Số điện thoại liên hệ:</p>
+      <div data-x-id="depart" required="required" guild="step5" txt-guild="Nhập số điện thoại của bạn "
+        txt-demo="0962.107.888" placeholder="Nhập số điện thoại" data-label="Điện thoại" class="line txt-edit flex-item"
+        contenteditable="true"></div>
+    </div>
+    <div class="p1-d1" style="display: inherit;float: left;line-height: 30px;">
+      Thông qua trang website
+      <span data-x-id="web" data-label="Website" required="required" placeholder="Website"
+        class="line s-line txt-edit text-center " contenteditable="true"></span>
+      , tôi biết được quý công ty có nhu cầu tuyển dụng vị trí <span data-x-id="job" data-label="Vị trí "
+        required="required" placeholder="Vị trí" class="line s-line txt-edit text-center "
+        contenteditable="true"></span>
+      Tôi cảm thấy trình độ và kỹ năng của mình phù hợp với vị trí này. Tôi mong muốn được làm việc và cống hiến cho quý
+      công ty. Tôi đã tốt nghiệp loại
+      <span data-x-id="edurank" data-label="Xếp loại" required="required" placeholder="Xếp loại"
+        class="line s-line txt-edit text-center " contenteditable="true"></span>
+      chuyên ngành
+      <span data-x-id="educat" data-label="Chuyên ngành" required="required" placeholder="Chuyên nghành"
+        class="line s-line txt-edit text-center " contenteditable="true"></span>
+      tại trường
+      <span data-x-id="eduname" data-label="Tên trường" required="required" placeholder="Tên trường"
+        class="line s-line txt-edit text-center " contenteditable="true"></span>
+      Ngoài ra, tôi còn sử dụng thành thạo tin học văn phòng, tiếng Anh giao tiếp tốt.
+    </div>
+
+    <div class="p1-d1">
+      <p style="line-height:30px;">Tôi thực sự mong muốn được làm việc trong môi trường chuyên nghiệp của quý công ty. Tôi rất mong nhận được 1
+        lịch hẹn phỏng vấn trong một ngày gần nhất. Tôi xin chân thành cảm ơn! </p>
+    </div>
+
+
+    <br />
+    <div class="p1-d1  " style="margin-top: 30px;">
+      <div class="flex-item text-center">
+      </div>
+      <div class="flex-item text-center">
+        <p style="padding-bottom: 15px;"><span id="lto-local" data-x-id="location" style="min-width: 30px;"
+            data-label="Tỉnh/Thành phố" required="required" placeholder="Tỉnh/Thành phố" contenteditable="true"></span>,
+          Ngày <span id="lto-ngay" data-x-id="dayctr" style="min-width: 10px;" data-label="Ngày" required="required"
+            placeholder="Ngày" contenteditable="true"></span>
+          Tháng <span id="lto-thang" data-x-id="monthctr" style="min-width: 10px;" data-label="Tháng"
+            required="required" placeholder="Tháng" contenteditable="true"></span>
+          Năm <span id="lto-nam" data-x-id="yearctr" style="min-width: 10px;" data-label="Năm" required="required"
+            placeholder="Năm" contenteditable="true"></span></p>
+
+        <b> Người làm đơn</b> <br /> (Ký và ghi rõ họ tên)</b>
+      </div>
+    </div>
+
+  </div>
+</div>

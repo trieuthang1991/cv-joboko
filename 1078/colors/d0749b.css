@@ -1,0 +1,25 @@
+.icoweb_left{
+	color: #d0749b;
+}
+.col_top .info_right{
+	border-left: 1px solid #d0749b;
+}
+.itemSkill .subItem .leftSub_ColLeft{
+	color: #d0749b;
+}
+.itemref .subItem .leftSub_ColLeft{
+	color: #d0749b;
+}
+.col_bottom_right .itemGroup .subItem {
+    border-left: 1px solid #d0749b;
+}
+.col_bottom_right .itemGroup .subItem:before{
+	border-bottom: 1px solid  #d0749b;
+}
+.col_bottom_right .itemGroup .subItem:last-child:after {
+    border-bottom: 1px solid #d0749b;
+}
+
+.col_bottom_right .itemGroup .fa_dot{
+	color: #d0749b;
+}

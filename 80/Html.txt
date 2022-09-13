@@ -1,0 +1,291 @@
+<link id="cv-css" href="https://i-vn0.joboko.com/MyCV/templates/80/css/co-anh-simple.css?v=94" rel="stylesheet" />
+<link id="cv-font" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/80/fonts/default.css?v=41" />
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/80/font-sizes/font_normal.css?v=41" />
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/80/spacing/spacing_normal.css?v=41" />
+
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/80/colors/4a4644.css?v=42" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<div id="form-cv" class="text-size line-size" data-x-name="parrent">
+    <div class="container-main-container cv-main container-mains page" page='1'>
+        <div class="first-row row no-margin">
+            <div class="header-row" data-x-id="info" data-x-name="item">
+                <div id="about-me-image">
+                    <div class="round">
+                        <img src="https://i-vn0.joboko.com/Upload/images/avatars/no_avatar.jpg" data-x-id='ava'>
+                        <img style="display:none" data-x-id="ava_vertical" src="https://i-vn0.joboko.com/Upload/images/avatars/no_avatar.jpg"
+                            alt="" />
+                    </div>
+                </div>
+                <div id="about-me-info">
+                    <div id="about-me-name">
+                        <span contenteditable="true" class="txt-name" data-x-id="name">Lại văn thanh</span>
+                        <span contenteditable="true" class="txt-job" data-x-id="job">Nhân viên văn phòng</span>
+                    </div>
+                    <div id="about-me-contacts">
+                        <div id="contact-left">
+                            <div class="contact-line-1">
+                                <div class="icon-div">
+                                    <i class="fa fa-calendar"></i>
+                                    <span id="dob" class="txt-content" contenteditable="true" data-x-id="dob">02/07/1994</span>
+                                </div>
+                                <div class="icon-div">
+                                    <i class="fa fa-user"></i>
+                                    <span contenteditable="true" class="txt-content" id="gen" data-x-id="gen">Nam</span>
+                                </div>
+                                <div class="icon-div">
+                                    <i class="fa fa-phone"></i>
+                                    <span contenteditable="true" class="txt-content" id="tel" data-x-id="tel">0984721855</span>
+                                </div>
+                            </div>
+                            <div class="contact-line-2">
+                                <div class="icon-div">
+                                    <i class="fa fa-map-marker"></i>
+                                    <span contenteditable="true" class="txt-content" id="address" data-x-id="add">18/42 KP6, Linh Trung, Thủ
+                                        Đức, TP.HCM</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="contact-right">
+                            <div class="contact-line-1">
+                                <div class="icon-div">
+                                    <i class="fa fa-envelope-square"></i>
+                                    <span contenteditable="true" id="mail" class="txt-content"
+                                        data-x-id="email">laithanh020794@gmail.com</i>
+                                </div>
+                            </div>
+                            <div class="contact-line-2">
+                                <div class="icon-div">
+                                    <i class="fa fa-globe"></i>
+                                    <span contenteditable="true" id="fb" class="txt-content"
+                                        data-x-id="web">https://www.facebook.com/</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-row row no-margin" data-x-name="col-parrent" data-x-col="1">
+            <div class="others-info height-curent">
+                <div data-x-name="group-item">
+                    <div id="target" data-x-id="tar" class="field-bound" data-x-name="item">
+                        <div class="descript">
+                            <div class="title_h" data-x-name="head"><span contenteditable="true" class="title-head"
+                                    data-x-id="tit">mục tiêu nghề nghiệp</span></div>
+                            <div data-x-name="list-item">
+                                <div contenteditable="true" class="txt-content" data-x-id="name">Mong muốn được làm việc trong môi trường
+                                    chuyên nghiệp, năng động và thử thách nâng cao kiến thức và kinh
+                                    nghiệm chuyên môn. Nỗ lực tối đa để hoàn thành tốt các nhiệm vụ được giao, góp phần
+                                    xây dựng sự nghiệp cá nhân, đóng góp cho sự
+                                    phát triển của công ty và tích lũy kinh nghiệm sống hằng ngày cho bản thân.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="profile" data-x-id="more" class="field-bound" data-x-name="item">
+                        <div class="descript">
+                            <div class="title_h" data-x-name="head"><span contenteditable="true" class="title-head"
+                                    data-x-id="tit">thông tin khác</span></div>
+                            <div data-x-name="list-item">
+                                <div contenteditable="true" class="txt-content" data-x-id="name">Mong muốn được làm việc trong môi trường
+                                    chuyên nghiệp, năng động và thử thách nâng cao kiến thức và kinh
+                                    nghiệm chuyên môn. Nỗ lực tối đa để hoàn thành tốt các nhiệm vụ được giao, góp phần
+                                    xây dựng sự nghiệp cá nhân, đóng góp cho sự
+                                    phát triển của công ty và tích lũy kinh nghiệm sống hằng ngày cho bản thân.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="education" data-x-id="edu" class="field-bound" data-x-name="item">
+                        <div class="descript">
+                            <div class="title_h" data-x-name="head"><span contenteditable="true" class="title-head"
+                                    data-x-id="tit">học vấn</span></div>
+                            <div data-x-name="list-item">
+                                <div data-x-name="sub-item" class="sub-div">
+                                    <div class="div-left">
+                                        <div>
+                                            <div contenteditable="true" class="txt4 bold tcolor" data-x-id="cat">Chuyên ngành: Kỹ Thuật Môi
+                                                Trường</div>
+                                        </div>
+                                        <div class="year-tag">
+                                            <span data-x-id="start" contenteditable="true"
+                                                name="edu.start">10/2014</span>
+                                            <span> - </span>
+                                            <span data-x-id="end" contenteditable="true" name="edu.end">10/2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="div-right">
+                                        <div>
+                                            <div contenteditable="true" class="txt4 bold" data-x-id="name">đại học nông lâm TP.HCM</div>
+                                        </div>
+                                        <div contenteditable="true" class="txt-content bullet" data-x-bullet="-" data-x-id="des">Khoa Môi Trường & Tài Nguyên</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="experience" data-x-id="exp" class="field-bound" data-x-name="item">
+                        <div class="descript">
+                            <div class="title_h" data-x-name="head"><span contenteditable="true" class="title-head"
+                                    data-x-id="tit">kinh nghiệm</span></div>
+                            <div data-x-name="list-item">
+
+                                <div data-x-name="sub-item" class="sub-div">
+                                    <div class="div-left">
+                                        <div>
+                                            <div contenteditable="true" class="txt4 bold tcolor" data-x-id="pos">nhân viên kiểm soát
+                                                chất lượng
+                                                QA/QC</div>
+                                        </div>
+                                        <div class="year-tag">
+                                            <span data-x-id="start" contenteditable="true"
+                                                name="exp.start">05/2018</span>
+                                            <span> - </span>
+                                            <span data-x-id="end" contenteditable="true" name="exp.end">09/2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="div-right">
+                                        <div>
+                                            <div contenteditable="true" class="txt4 bold" data-x-id="name">Chi nhánh c.ty cổ
+                                                phần kĩ thuật VIja</div>
+                                        </div>
+                                        <div contenteditable="true" class="txt-content bullet" data-x-id="des"
+                                            data-x-bullet="-">
+                                            Kiểm soát qui trình dây chuyền sản xuất gia công chi tiết máy cơ khí.<br>
+                                            Đọc bản vẽ chi tiết máy và sử dụng các công cụ đo vật lý phân tích kết quả
+                                            đánh giá chất lượng sản phẩm đã gia công trước khi xuất
+                                            hàng. <br>
+                                            Phân loại các sản phẩm lỗi yêu cầu các bộ phận liên quan xử lý sữa chữa.<br>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="awards" data-x-id="award" class="field-bound" data-x-name="item">
+                        <div class="descript">
+                            <div class="title_h" data-x-name="head"><span contenteditable="true" class="title-head"
+                                    data-x-id="tit">Giải thưởng</span></div>
+                            <div data-x-name="list-item">
+                                <div data-x-name="sub-item" class="sub-div">
+                                    <div class="div-left">
+                                        <span data-x-id="time" contenteditable="true">10/2014</span>
+                                    </div>
+                                    <div class="div-right">
+                                        <div contenteditable="true" class="txt-content" data-x-id="name">HCV Hội Khỏe
+                                            Phù Đổng</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="certification" data-x-id="cer" class="field-bound" data-x-name="item">
+                        <div class="descript">
+                            <div class="title_h" data-x-name="head"><span contenteditable="true" class="title-head"
+                                    data-x-id="tit">Chứng chỉ</span></div>
+                            <div data-x-name="list-item">
+                                <div data-x-name="sub-item" class="sub-div">
+                                    <div class="div-left">
+                                        <span data-x-id="time" contenteditable="true">11/2018</span>
+                                    </div>
+                                    <div class="div-right">
+                                        <div contenteditable="true" class="txt-content" data-x-id="name">MS Office
+                                            certification</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="activity" class="field-bound" data-x-id="act" data-x-name="item">
+                        <div class="descript">
+                            <div class="title_h" data-x-name="head"><span contenteditable="true" class="title-head"
+                                    data-x-id="tit">Kỹ Năng</span></div>
+                            <div data-x-name="list-item">
+                                <div data-x-name="sub-item" class="sub-div">
+                                    <div class="div-left">
+                                        <div >
+                                            <div contenteditable="true"  data-x-id="name" class="subdiv-tit txt4 bold tcolor">ACTIVE
+                                                CITIZENS - BRITISH COUNCIL CAMP</div>
+                                        </div>
+                                        <div class="year-tag">
+                                            <span data-x-id="start" contenteditable="true" name="act.start">Oct
+                                                2013</span>
+                                            <span> - </span>
+                                            <span data-x-id="end" contenteditable="true" name="act.end">Aug 2014</span>
+                                        </div>
+                                    </div>
+                                    <div class="div-right">
+                                        <div>
+                                            <div contenteditable="true" class="txt4 bold" data-x-id="pos">Communications - Events</div>
+                                        </div>
+                                        <div data-x-id="des" class="txt-content bullet" contenteditable="true"
+                                            data-x-bullet="-">
+                                            Run project "The Marvelous Children" under Active Citizens programe<br>
+                                            Planing ideas, media for funding the project<br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="reference" class="field-bound" data-x-id="ref" data-x-name="item">
+                        <div class="descript">
+                            <div class="title_h" data-x-name="head"><span contenteditable="true" class="title-head"
+                                    data-x-id="tit">Reference</span></div>
+                            <div data-x-name="list-item">
+                                <div data-x-name="sub-item" class="sub-div">
+                                    <div class="div-left"></div>
+                                    <div contenteditable="true" class="txt-content" data-x-id="name">Camila Cabello -
+                                        097 334 2211</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="skills" data-x-id="skill" class="field-bound" data-x-name="item">
+                        <div class="descript">
+                            <div class="title_h" data-x-name="head"><span contenteditable="true" class="title-head"
+                                    data-x-id="tit">Kỹ Năng</span></div>
+                            <div data-x-name="list-item">
+                                <div data-x-name="sub-item" class="sub-div clearfix txt-content">
+                                    <div contenteditable="true" data-x-id="name">Sử dụng autocad 2D trong bản vẽ thiết
+                                        kế hệ thống xử
+                                        lý nước thải
+                                    </div>
+                                    <div class="cvo-skillrate-bar progress-bar">
+                                        <div data-x-id="val" value="4" class="cvo-skillrate-value progress-core"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="hobbies" data-x-id="hob" class="field-bound" data-x-name="item">
+                        <div class="descript">
+                            <div class="title_h" data-x-name="head"><span contenteditable="true" class="title-head"
+                                    data-x-id="tit">Sở thích</span></div>
+                            <div data-x-name="list-item">
+                                <div data-x-name="sub-item" class="sub-div">
+                                    <div class="div-left"></div>
+                                    <div class="div-hob txt-content" data-x-id="name" contenteditable="true">Chơi game</div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+    </div>
+</div>
+<div id="page" class="container-main-container cv-main container-mains page" fix="true" style="display:none;">
+    <div class="content-row row no-margin" data-x-name="col-parrent" data-x-col="1">
+        <div class="others-info height-curent"></div>
+    </div>
+    <div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+</div>

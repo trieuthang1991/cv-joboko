@@ -1,0 +1,12 @@
+﻿{
+  "langs": [ "vi","en"],
+  "colors": [ "1fbc89","4fa4d8","504e4e","e6666f","ffa96a"],
+  "fonts": {
+    "default":"Roboto Condensed",
+    "arimo": "Arimo",
+    "athiti": "Athiti",
+    "sourceSansPro":"Source Sans Pro"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

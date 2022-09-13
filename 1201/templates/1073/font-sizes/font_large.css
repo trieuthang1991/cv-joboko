@@ -1,0 +1,26 @@
+.title-head[data-x-id=tit],
+.title-head [data-x-id=tit]
+{
+    font-size: 21px !important;
+    /* font-weight: bold; */
+    
+}
+#cv-document .btx span{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+#cv-document .txt-skill{
+    font-size: 16px;
+}
+
+#cv-document .txt-content{
+    font-size: 15px;
+}
+
+#cv-document .txt-job{
+    font-size: 19px;
+}
+#cv-document .txt-name{
+    font-size: 29px;
+}
+

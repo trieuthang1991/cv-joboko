@@ -1,0 +1,150 @@
+body.page-preview,body.page-view,body.page-viewdemo{background:url(/images3/bg-cv/3.jpg) no-repeat;background-size:cover;background-attachment:fixed}
+body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width:150px;height:150px;background:url(/images3/bg-cv/7.2.png) no-repeat;background-size:cover}
+#cv-document{font-size:10px}
+#cv-document *{box-sizing:border-box}
+#cv-document #cv-watermark a:after{content:"Joboko.com"}
+/* #cv-document .page:last-child #cv-watermark{position:absolute;right:1em;bottom:2em} */
+
+#cv-document #cv-watermark{position:absolute;right:1em;bottom:2em}
+#cv-document .relative{position:relative}
+#cv-document .inline-block{display:inline-block}
+#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.2em}
+#cv-document .icon-dot{position:relative;padding-left:1.6em}
+#cv-document .icon-dot::before{content:"";position:absolute;z-index:2;top:.8em;left:0;border-radius:50%;width:.6em;height:.6em}
+#cv-document .page{display:flex}
+#cv-document .page__inner{flex-wrap:wrap;display:flex;width:100%;padding:4.2em 0 0;height: 100%;}
+#cv-document .bottom{width:100%}
+#cv-document .bottom__item{padding:2em 4.7em 0 3.3em;padding-bottom:6em}
+@media screen and (max-width:767px){
+#cv-document .bottom__item{padding:2em 2em 0}
+}
+#cv-document .two-up{flex-wrap:wrap;flex-grow:1;display:flex}
+@media screen and (max-width:767px){
+#cv-document .two-up{display:block;height:auto}
+}
+#cv-document .two-up__left{width:32.6em}
+@media screen and (max-width:767px){
+#cv-document .two-up__left{width:100%}
+}
+#cv-document .two-up__left-item{margin:0 3.3em 3em}
+@media screen and (max-width:767px){
+#cv-document .two-up__left-item{margin:0 2em;padding-bottom:3em}
+}
+#cv-document .two-up__right{width:calc(100% - 32.6em);padding:0 4.7em 0 3.5em}
+@media screen and (max-width:767px){
+#cv-document .two-up__right{width:100%;padding:3em 2em 0}
+}
+#cv-document .two-up__right-item{margin-bottom:2.7em}
+#cv-document .h1,#cv-document .h2,#cv-document .h3,#cv-document h1,#cv-document h2,#cv-document h3,#cv-document p{margin:0}
+#cv-document .cvo-skillrate--radial::after{font-weight:700}
+#cv-document .regular{font-weight:400}
+#cv-document .light{font-weight:300}
+#cv-document .medium{font-weight:500}
+#cv-document .bold{font-weight:700}
+#cv-document .black{font-weight:900}
+#cv-document .uppercase{text-transform:uppercase}
+#cv-document .heading{margin-bottom:1.5em;border-bottom-width:.2em;border-bottom-style:solid;padding-bottom:.8em}
+#cv-document .heading-02{position:relative;display:flex;margin-bottom:1.5em;border-bottom-width:.2em;border-bottom-style:solid}
+#cv-document .heading-02__icon{flex-shrink:0;justify-content:center;display:flex;width:3.8em;height:inherit;min-height:3.6em;padding-top:.9em}
+#cv-document .heading-02__title{padding:.5em 0 .5em 1.6em}
+#cv-document .avatar{position:relative;z-index:2;margin:-4.2em 0 0;padding:4.2em 3.3em 3.2em}
+@media screen and (max-width:575px){
+#cv-document .avatar{margin-bottom:0}
+}
+#cv-document .avatar__image{position:relative;overflow:hidden;margin:0 auto;width:100%;max-width:26em;height:32.5em}
+#cv-document .avatar__image img{position:absolute;top:0;left:0;width:100%;height:100%;-o-object-fit:cover;object-fit:cover}
+#cv-document .info-main__item-title{padding:.4em 3em .2em 3.2em}
+#cv-document .info-main__item-text{margin:.8em 3.2em 1.6em}
+#cv-document .info-detail__item{align-items:flex-start;display:flex;margin-bottom:1em}
+#cv-document .info-detail__item:last-child{margin-bottom:0}
+#cv-document .info-detail__item-icon{position:relative;flex-shrink:0;justify-content:center;align-items:center;display:flex;margin-right:1em;border-radius:50%;width:2.2em;height:2.2em;text-align:center}
+#cv-document .skill__item{align-items:center;display:flex;margin-bottom:1.1em;border-left-width:6px;border-left-style:solid;min-height:4.5em;padding:.9em 1em .8em 1.5em}
+#cv-document .skill__item:last-child{margin-bottom:0}
+#cv-document .skill-ta{flex-wrap:wrap;display:flex;margin-top:-.9em}
+#cv-document .skill-ta__item{margin-top:1.4em;width:45.6%}
+#cv-document .skill-ta__item:nth-child(even){margin-left:auto}
+#cv-document .skill-ta__item-title{margin-top:.6em}
+#cv-document .skill-th{flex-wrap:wrap;display:flex;margin-top:-1.3em}
+#cv-document .skill-th__item{margin-top:1.7em;width:45%;text-align:center}
+#cv-document .skill-th__item:nth-child(even){margin-left:auto}
+#cv-document .skill-th__item-icon{justify-content:center;display:flex;margin-bottom:.8em;height:6.4em}
+#cv-document .cvo-skillrate{display:flex;border-width:1px;border-style:solid;padding:.2em 1px}
+#cv-document .cvo-skillrate>span{flex:1 1 auto;margin:0 1.5px;height:10px}
+#cv-document .cvo-skillrate-radial{position:relative;overflow:hidden;margin:0 auto;border-radius:50%;width:7.4em;height:7.4em;text-align:center}
+#cv-document .cvo-skillrate-radial::before{content:"";position:absolute;top:50%;left:50%;justify-content:center;align-items:center;display:flex;transform:translate3d(-50%,-50%,0);border-radius:50%;width:5.4em;height:5.4em}
+#cv-document .cvo-skillrate-radial::after{content:"";position:absolute;z-index:10;top:50%;left:50%;transform:translate3d(-50%,-50%,0)}
+#cv-document .cvo-skillrate-radial[value="1"]::after{content:"20%"}
+#cv-document .cvo-skillrate-radial[value="2"]::after{content:"40%"}
+#cv-document .cvo-skillrate-radial[value="3"]::after{content:"60%"}
+#cv-document .cvo-skillrate-radial[value="4"]::after{content:"80%"}
+#cv-document .cvo-skillrate-radial[value="5"]::after{content:"100%"}
+#cv-document .cvo-skillrate-radial>span{position:absolute;top:0;bottom:0;left:calc(50% - 1px);transform-origin:center;width:2px}
+#cv-document .cvo-skillrate-radial>span:nth-child(2){transform:rotate(35deg)}
+#cv-document .cvo-skillrate-radial>span:nth-child(3){transform:rotate(72deg)}
+#cv-document .cvo-skillrate-radial>span:nth-child(4){transform:rotate(-35deg)}
+#cv-document .cvo-skillrate-radial>span:nth-child(5){transform:rotate(-72deg)}
+.xicon{display:inline-block;width:6.7em;height:6.3em;background-repeat:no-repeat;background-size:auto!important;background-position:center;vertical-align:middle}
+#cv-document .action__item{margin-bottom:1.2em}
+#cv-document .action__item:last-child{margin-bottom:0}
+#cv-document .action__item-title{position:relative;margin-bottom:.5em}
+#cv-document .action__item-wrap{justify-content:space-between;display:flex;margin-bottom:1.1em}
+#cv-document .action__item-date{flex-shrink:0;margin-left:1em}
+#cv-document .action__item-text br{content:"";display:block;margin-top:.1333333333em}
+#cv-document .certification__item{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.6em}
+#cv-document .certification__item:last-child{margin-bottom:0}
+#cv-document .certification__item-date{flex-shrink:0;padding-left:1em;text-align:right}
+#cv-document .education__item{margin-bottom:1.2em;padding-top:.2em}
+#cv-document .education__item:last-child{margin-bottom:0}
+#cv-document .education__item-title{margin-bottom:.5em}
+#cv-document .education__item-date{margin-bottom:1.1em}
+#cv-document .education__item-pos{margin-bottom:.2em}
+#cv-document .education__item-text br{content:"";display:block;margin-top:.1333333333em}
+#cv-document .experience__item{margin-top:1.8em}
+#cv-document .experience__item-title{margin-bottom:.5em}
+#cv-document .experience__item-wrap{display:flex;justify-content:space-between;margin-bottom:1.1em}
+#cv-document .experience__item-date{flex-shrink:0;margin-left:1em}
+#cv-document .experience__item-text br{content:"";display:block;margin-top:.1333333333em}
+#cv-document .hobby__item{position:relative;margin-bottom:.6em}
+#cv-document .hobby__item:last-child{margin-bottom:0}
+#cv-document .references__item{margin-bottom:.6em}
+#cv-document .references__item:last-child{margin-bottom:0}
+#cv-document .target br{content:"";display:block;margin-top:.1333333333em}
+#cv-document .project__item{margin-bottom:2em}
+#cv-document .project__item:last-child{margin-bottom:0}
+#cv-document .project__item-head{margin-bottom:1.7em;border-left-width:.6em;border-left-style:solid;padding-left:1.6em}
+#cv-document .project__item-title{position:relative;margin-bottom:.6em}
+#cv-document .project__item-time{flex-shrink:0}
+#cv-document .project__item-table{position:relative;width:100%;border-collapse:collapse}
+#cv-document .project__item-table::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;border-width:1px;border-style:solid;pointer-events:none}
+#cv-document .project__item-table .tr{display:flex}
+#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-width:1px 1px 0 1px;border-style:dashed;padding:1.1em;vertical-align:top}
+#cv-document .project__item-table .th{border-right:none;border-left:none;width:22.5%}
+@media screen and (max-width:767px){
+#cv-document .project__item-table .th{width:30%}
+}
+#cv-document .project__item-table .td{border-right:none;width:77.5%;padding-left:2em}
+@media screen and (max-width:767px){
+#cv-document .project__item-table .td{width:70%;padding-left:1.5em}
+}
+#cv-document .project__item-table .tr:first-child .td,#cv-document .project__item-table .tr:first-child .th{border-top:none}
+#cv-document .project__item-table .tr:last-child .td,#cv-document .project__item-table .tr:last-child .th{border-bottom:none}
+#cv-document .cletter{border-width:1px;border-style:solid;padding:1.9em 2.3em 2.7em}
+#cv-document .cletter>div{line-height:1.47}
+#cv-document .cletter br{content:"";display:block;margin-top:1.4em}
+#cv-document [contentEditable] *{font-size:1em!important}
+[contenteditable]:focus{outline:1pt dashed #77a5cc!important;cursor:text}
+[contentEditable=true]:empty{outline:1pt dashed #fc4b08!important}
+[contenteditable=true]:empty:before{content:attr(placeholder)!important}
+#cv-document span.x_add.fa.fa-plus-circle,#cv-document span.x_del.fa.fa-remove{width:70px!important}
+#cv-document .height-curent>[data-x-name=group-item]{padding-bottom:3em}
+.template-special .x_hide{display: flex !important;}
+
+#cv-document .inline {display:inline;min-width: 1em;}
+#cv-document .inline:empty {display:inline-block}
+
+#cv-document{
+    -webkit-print-color-adjust:exact
+}
+.bottom [data-x-name=col-parrent]{
+    min-height: 0;
+}

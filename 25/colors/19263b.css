@@ -1,0 +1,67 @@
+﻿.cv-progress-bar-flow {
+    background-color: #f8ca04;
+    color: #f8ca04;
+}
+
+    .cv-progress-bar-flow.level-inactive:not(.high-light) {
+        background-color: #ededed !important;
+        color: #ededed !important;
+    }
+
+.bg-primary {
+    background-color: #19263b !important;
+}
+.layer-1 {
+    border-top: 200px solid #19263b;
+}
+
+.layer-2 {
+    border-top: 230px solid #19263b;
+}
+
+.layer-3 {
+    border-top: 275px solid #19263b;
+}
+
+.layer-4 {
+    border-bottom: 70px solid #19263b;
+}
+
+.layer-5 {
+    border-bottom: 110px solid #19263b;
+}
+
+.layer-6 {
+    border-bottom: 88px solid #19263b;
+}
+
+
+
+.bg-opaque-primary {
+    background-color: rgba(25, 38, 59, 0.12890625) !important;
+}
+
+.bg-secondary {
+    background-color: #ff6b2c !important;
+}
+
+.text-primary {
+    color: #19263b !important;
+}
+
+.text-secondary {
+    color: #ff6b2c !important;
+}
+
+.interest-name {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0 5px 0;
+    background-color: #ff6b2c ;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.bar-exp span {
+    background-color: rgba(25, 38, 59, 0.12890625) !important;
+}

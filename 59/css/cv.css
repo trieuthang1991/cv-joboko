@@ -1,0 +1,991 @@
+#form-cv {
+    width: 100%;
+    position: relative;   
+}
+    #form-cv * {
+        box-sizing: border-box !important;
+    }
+    body.page-preview, body.page-view, body.page-viewdemo {
+        background: url(/images3/bg-cv/4.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+.avatar-group,
+.cv-progress-bar {
+    position: relative;
+}
+
+#cv-main {
+    display: table;
+}
+
+.page:last-child #cv-watermark{
+    display: block !important;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#cv-watermark a:after{
+    content: "Joboko.com";
+}
+
+.height-curent{
+    float: left;
+    width: 100%;
+}
+
+[data-x-id="tar"] {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+#cv-left {
+    padding: 10px 5px;
+    width: 35%;
+    display: table-cell;
+    background: #2f3a40 !important;
+    position: relative;
+    color: white;
+}
+
+#cv-content {
+    width: 64%;
+    display: table-cell;
+    position: relative;
+    padding: 10px 0 10px 5px;
+    background: #fff;
+    border-left: 3px solid #fff;
+}
+
+.bar-exp {
+    background: #fff;
+    border: solid 2px #000;
+    margin-bottom: 12px;
+}
+
+.cvo-skillrate-value[value="1"] {
+    width: 20%;
+}
+
+.cvo-skillrate-value[value="2"] {
+    width: 40%;
+}
+
+.cvo-skillrate-value[value="3"] {
+    width: 60%;
+}
+
+.cvo-skillrate-value[value="4"] {
+    width: 80%;
+}
+
+.cvo-skillrate-value[value="5"] {
+    width: 100%;
+}
+
+.bar-exp span {
+    display: block;
+    height: 100%;
+    background: #c8b184;
+}
+
+.cvo-skillrate-value {
+    cursor: pointer;
+}
+
+.content-main-container {
+    position: relative;
+}
+
+[contenteditable="true"]:empty:before {
+    content: attr(content-placeholder);
+    color: #9197a3;
+    font-weight: 100;
+}
+
+.content-main {
+    cursor: text;
+    display: block;
+    float: left;
+    position: relative;
+    -webkit-tap-highlight-color: initial;
+    white-space: normal;
+    background-color: #fff;
+}
+
+    .content-main .footer-content-main {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        display: block;
+        align-items: center;
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: #909395;
+    }
+
+        .content-main .footer-content-main .hyphen {
+            margin: 0 10px;
+        }
+
+            .content-main .footer-content-main .hyphen.dismiss {
+                display: none;
+            }
+
+.text-font-family-option {
+    margin-left: 5px;
+}
+
+.cv {
+    position: relative;
+}
+
+    .cv.index-1 .cv-header,
+    .cv.index-2 .cv-header,
+    .cv.index-3 .cv-header,
+    .cv.index-4 .cv-header,
+    .cv.index-5 .cv-header {
+        display: none;
+    }
+
+.content-data[visible="false"] {
+    display: none;
+}
+
+.text-field {
+    white-space: pre-wrap;
+}
+
+.input-field,
+.select-field,
+.text-field {
+    word-wrap: break-word;
+}
+
+    .input-field[contenteditable="false"]:empty:after,
+    .select-field[contenteditable="false"]:empty:after,
+    .text-field[contenteditable="false"]:empty:after {
+        content: "\00a0";
+    }
+
+.input-field {
+    min-width: 29px;
+}
+
+.content-main.row {
+    flex-direction: row;
+}
+
+.content-main.col {
+    flex-direction: col;
+}
+
+.content-main .main {
+    display: block;
+    flex: 3;
+    flex-direction: row;
+}
+
+.content-main .col-0,
+.content-main .col-1,
+.content-main .col-2 {
+    flex: 1;
+}
+
+.content-main .cv {
+    flex: 1;
+}
+
+.container {
+    display: block;
+}
+
+    .container .side {
+        background-color: #252525;
+        width: 200px;
+    }
+
+    .container .main {
+        padding: 0 2px;
+        width: 594px;
+    }
+
+.content-main .cv:last-child {
+    padding-bottom: 10px;
+}
+
+.content-main-1 .side,
+.content-main-2 .side,
+.content-main-3 .side,
+.content-main-4 .side,
+.content-main-5 .side,
+.content-main-6 .side,
+.content-main-7 .side,
+.content-main-8 .side,
+.content-main-9 .side {
+    opacity: 0.129;
+}
+
+.content-main-1 .connected-line-group,
+.content-main-2 .connected-line-group,
+.content-main-3 .connected-line-group,
+.content-main-4 .connected-line-group,
+.content-main-5 .connected-line-group,
+.content-main-6 .connected-line-group,
+.content-main-7 .connected-line-group,
+.content-main-8 .connected-line-group,
+.content-main-9 .connected-line-group {
+    flex-grow: 0;
+}
+
+.cv:not(.index-0) .fa-graduation-cap,
+.cv:not(.index-0) .fa-briefcase,
+.cv:not(.index-0) .fa-rocket,
+.cv:not(.index-0) .fa-male,
+.cv:not(.index-0) .fa-certificate,
+.cv:not(.index-0) .fa-file-text-o,
+.cv:not(.index-0) .fa-language,
+.cv:not(.index-0) .fa-gratipay,
+.cv:not(.index-0) .fa-trophy {
+    display: none;
+}
+
+.skill-name {
+    margin: 0 0 0 0;
+}
+
+.experience-title,
+.experience-company,
+.education-school,
+.education-major,
+.organization-name,
+.organization-title,
+.project-name,
+.award-organization,
+.award-title,
+.language,
+.cert-name,
+.reference-name,
+h4.parentheses,
+.cert-received-date {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+.experience-company,
+.education-school,
+.organization-name,
+.award-organization {
+    font-style: italic;
+    text-transform: none !important;
+}
+
+.project-info {
+    width: 670px;
+}
+
+.content-main .cv:first-child {
+    padding-top: 30px;
+}
+
+.cv-header {
+    display: block;
+    color: #000 !important;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 0 10px 5px;
+}
+
+.content-data {
+    padding: 10px 15px;
+}
+
+    .content-data .sub-cv {
+        padding: 5px 0 5px 5px;
+    }
+
+.skill-name.details-field-input {
+    margin-bottom: 10px;
+}
+
+.cv-progress-bar {
+    height: 20px;
+    position: relative;
+    display: block;
+    float:right;
+    width: 75%;
+}
+
+    .cv-progress-bar.skill-level {
+        background-color: transparent !important;
+    }
+
+.cv-progress-bar-flow {
+    height: 100%;
+    width: 20px;
+    -webkit-clip-path: polygon( 75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0% );
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.content-main-container .header {
+    background-color: white;
+    display: block;
+    height: 297mm;
+}
+
+.cv-name {
+    display: block;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 3px;
+}
+
+#form-cv .fa-graduation-cap,
+#form-cv .fa-briefcase,
+#form-cv .fa-rocket,
+#form-cv .fa-star,
+#form-cv .fa-male,
+#form-cv .fa-certificate,
+#form-cv .fa-file-text-o,
+#form-cv .fa-language,
+#form-cv .fa-gratipay,
+#form-cv .fa-trophy {
+    color: white;
+    margin-top: 5px;
+    padding: 10px 12px;
+    width: 40px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.profile-cv {
+    border-bottom: 1px solid #c1c1c1;
+    margin-bottom: 5px;
+}
+
+.main .cv-name {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.cv-header,
+.profile-cv-header,
+.socials-cv-header {
+    font-weight: bold;
+    color: black;
+}
+
+.header {
+    color: white;
+    display: block;
+    flex-direction: col;
+}
+
+    .header .info-me,
+    .header .cv-contacts,
+    .header .content-socials {
+        color: black;
+        padding: 0px 20px 0 20px;
+        margin-top: 40px;
+    }
+
+    .header .content-socials {
+        margin-top: 0;
+    }
+
+.detail-group {
+    display: block;
+}
+
+.reference-detail {
+    margin: 0;
+    font-weight: normal;
+}
+
+.detail-name {
+    margin: 0 5px 0 0;
+}
+
+.socials-cv-header {
+    color: #fff;
+}
+
+.socials-cvs .sub-cv {
+    padding: 0;
+}
+
+.profile-cv-header,
+.socials-cv-header {
+    display: block;
+    text-transform: uppercase;
+    margin: 10px 0 5px 0;
+}
+
+.header-group {
+    display: block;
+    /* border-bottom: 1px solid #838485; */
+}
+
+    .header-group .header-field-input {
+        margin: 5px 0 10px 15px;
+        width: 70%;
+        font-weight: normal;
+    }
+
+.info-me .header-field-input {
+    font-style: italic;
+}
+
+.info-me-input {
+    font-style: italic;
+}
+
+    .info-me-input:before,
+    .info-me-input:after {
+        content: '"';
+    }
+
+.header-group .header-field-icon {
+    align-self: center;
+    font-size: 16px;
+    width: 30px;
+    border-right: 1px solid #c1c1c1;
+    margin-left: 15px;
+}
+
+.header-group1 {
+    display: block;
+}
+
+    .header-group1 .header-field-input1 {
+        margin: 10px 0 10px 0px;
+        max-width: 180px;
+        font-weight: normal;
+    }
+
+    .header-group1 .header-field-icon1 {
+        align-self: center;
+        font-size: 25px;
+        width: 30px;
+        margin-left: 15px;
+    }
+
+.header-field-input {
+    color: black;
+}
+
+.details-field-input {
+    color: #000;
+}
+
+.avatar-container {
+    background-size: 370px 250px;
+    background-repeat: no-repeat;
+    background-position: -30px -30px;
+    max-height: 60%;
+    padding: 0px 20px;
+    vertical-align: middle;
+    border-radius: 40%;
+}
+
+.invisible-border {
+    border: 1px solid transparent;
+}
+
+.avatar {
+    padding: 1px;
+    border: solid 2px #04756f;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: relative;
+    margin: 15px auto auto auto;
+    width: 100%;
+    max-width: 220px;
+}
+
+.avatar-action-modal {
+    width: 270px;
+    height: 270px;
+}
+
+.user-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    line-height: 20px !important;
+    color: #373741 !important;
+    font-weight: bold;
+}
+
+.user-name {
+    margin: 30px auto 0px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px !important;
+    line-height: 45px !important;
+    color: #373741 !important;
+    text-transform: uppercase;
+}
+
+.content-award,
+.content-organization {
+    display: block;
+    margin-top: 10px;
+}
+
+.experience-company-period,
+.education-school-period {
+    width: 60px;
+}
+/*.organization-name-period,
+.award-organization-period {
+  width: 80px;
+}*/
+/*.project-name-period {
+  width: 80px;
+}*/
+.education-school,
+.organization-name,
+.project-name,
+.cert-name,
+.award-organization {
+    text-transform: uppercase;
+}
+
+.content-main-0 .experience-info,
+.content-main-0 .education-info,
+.content-main-0 .award-info,
+.content-main-0 .organization-info,
+.content-main-0 .project-info {
+    width: 75%;
+}
+/*.award-info {
+  width: 250px;
+}*/
+/*.organization-info {
+  width: 670px;
+}*/
+/*.content-main-0 .content-reference,
+.content-main-0 .content-certificate,
+.content-main-0 .content-language {
+  width: 435px;
+}*/
+.content-reference,
+.content-certificate,
+.content-language {
+    margin-top: 5px;
+}
+
+.experience-title,
+.education-major,
+.organization-title,
+.award-title {
+    font-weight: normal;
+    display: block;
+    flex-direction: col;
+}
+
+.experience-details,
+.education-details,
+.award-details,
+.organization-details {
+    margin-top: 5px;
+}
+
+.content-education {
+    display: block;
+}
+
+.education-period,
+.experience-period,
+.award-period,
+.project-period,
+.organization-period {
+    display: block;
+    flex-direction: col;
+    margin-top: 1px;
+    align-items: center;
+}
+
+.duration-hyphen1 {
+    margin: 2px 5px 0px 20px;
+}
+
+.connected-line-group {
+    flex-grow: 1;
+    display: block;
+    flex-direction: col;
+    padding-right: 13px;
+    padding-left: 13px;
+}
+
+.line-start-point {
+    width: 8px;
+    background: black;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.line-period {
+    flex-grow: 1;
+    width: 2px;
+    margin: 0px 0px 0px 3px;
+    opacity: 0.5;
+    background-color: #49454d;
+}
+
+.skills-cvs {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.tars-cvs {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #000;
+}
+
+.content-skill {
+    display: block;
+}
+
+    .content-skill .cv-progress-bar {
+        max-width: 100%;
+        align-self: center;
+        margin-left: 10px;
+    }
+
+    .content-skill .cv-progress-bar-flow {
+        width: 15px;
+        height: 12px;
+    }
+
+    .content-skill .skill-name {
+        width: 20%;
+    }
+
+.references-cvs {
+    margin-top: 5px;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reference-info {
+    width: 350px;
+    display: block;
+    flex-wrap: wrap;
+    color: rgba(74, 74, 74, 0.7);
+}
+
+.reference-separator {
+    margin: 0 5px;
+}
+
+.content-project {
+    display: block;
+    margin-top: 10px;
+}
+
+.languages-cvs {
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.content-language {
+    width: 365px;
+}
+
+.interests-cvs {
+    display: block;
+    flex-wrap: wrap;
+}
+
+.interest-name {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    margin: 0px 0;
+}
+
+.certificates-cvs {
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.awards-cvs {
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+/*.certificates-cvs .sub-cv {
+  width: 365px;
+}*/
+/*.content-main-0 .awards-cvs .sub-cv {
+  width: 430px;
+}*/
+.experience-company-period .experience-period,
+.education-school-period .education-period,
+.organization-name-period .organization-period,
+.project-name-period .project-period,
+.award-organization-period .award-period {
+    color: #838485;
+}
+
+.cert-received-date-group {
+    display: block;
+    color: #838485;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+.cert-info {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.at {
+    margin: 0 5px 0 0;
+    font-weight: 400 !important;
+    width: 18px;
+    float: left;
+}
+
+h4.parentheses,
+.cert-received-date {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.experience-from,
+.education-from,
+.organization-from,
+.project-from,
+.award-from,
+.experience-to,
+.education-to,
+.organization-to,
+.project-to,
+.project-name {
+    font-weight: bold;
+    color: #373741 !important;
+}
+
+.projects-cvs {
+    margin-top: 5px;
+}
+
+.language {
+    margin-bottom: 3px;
+}
+
+.skills-cvs .sub-cv {
+    width: 360px;
+}
+
+.content-main-0 .skills-cvs .sub-cv {
+    width: 100%;
+}
+
+.reference-title {
+    align-self: flex-end;
+}
+
+.cv:not(.index-0) .cv-name {
+    border: none;
+}
+
+.content-main .footer-content-main {
+    bottom: 0px;
+    right: 5px;
+}
+
+.content-contacts {
+    padding: 0px !important;
+}
+
+    .content-contacts .sub-cv {
+        padding: 0 !important;
+    }
+
+.box-content {
+    color: black;
+}
+
+.cv-left {
+    width: 40%;
+    float: left;
+}
+
+.cv-content {
+    width: 100%;
+    float: left;
+}
+
+[page] .cv-content {
+    width: 60%;
+    float: left;
+}
+
+
+#form-cv .fa-graduation-cap,
+#form-cv .fa-briefcase,
+#form-cv .fa-rocket,
+#form-cv .fa-male,
+#form-cv .fa-certificate,
+#form-cv .fa-file-text-o,
+#form-cv .fa-language,
+#form-cv .fa-gratipay,
+#form-cv .fa-trophy {
+    float: left;
+    font-size: 16px;
+}
+
+.cv-header {
+    display: inline-block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-left-100 {
+    float: left;
+    width: 100% !important;
+    padding-top: 2px;
+}
+
+.float-left-30 {
+    float: left;
+    width: 30% !important;
+}
+
+.float-right-30 {
+    float: right;
+    width: 30% !important;
+}
+
+.float-left-70 {
+    float: left;
+    width: 70% !important;
+}
+
+.float-left-60 {
+    float: left;
+    width: 60% !important;
+}
+
+.connected-line-group {
+    float: left;
+    min-height: 50px;
+    height: 100%;
+}
+
+.content-data {
+    float: left;
+    width: 100%;
+}
+
+
+
+.content-main {
+    float: left;
+    width: 100%;
+}
+
+.duration-hyphen {
+    text-align: center
+}
+
+.sub-cv {
+    float: left;
+    width: 100%;
+}
+
+.line-period {
+    display: inline-block;
+    height: 100%;
+    min-height: 50px;
+}
+
+.cert-received-date-group h4 {
+    float: left;
+}
+
+.contacts-cvs i {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cv-content .cv-header {
+    background: #ddd;
+    width: 90%;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+    float: right;
+}
+
+.cv-left .cv-header {
+    background: #ddd;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 790px) {
+    .cv-left {
+        width: 100%;
+    }
+    .content-skill .skill-name{
+        width:30%;
+
+    }
+    .cv-progress-bar {
+        width: 65%;
+    }
+    [page] .cv-content {
+        width: 100%;
+        float: left;
+    }
+
+        .cv-content .cv-header {
+            width: 85%;
+        }
+
+    .content-main-0 .experience-info, .content-main-0 .education-info, .content-main-0 .award-info, .content-main-0 .organization-info, .content-main-0 .project-info {
+        width: 70%;
+    }
+    .avatar{
+        max-width:230px;
+    }
+}
+[contenteditable="true"]:empty:before {
+        min-height: 18px;
+}
+[contenteditable="true"]:not(.cvoInvalidate):empty:before {
+        outline: 1px dashed #fc4b08;
+        min-height: 18px;
+}
+.cvoInvalidate {
+    outline: 1px dashed #fc4b08 !important;
+
+}

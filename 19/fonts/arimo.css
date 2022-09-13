@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Arimo';
+    src: url('../assets/fonts/Arimo-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Arimo';
+    src: url('../assets/fonts/Arimo-Bold.ttf');
+    font-weight: bold;
+}
+#cvo-body {
+    font-family: 'Arimo'
+}

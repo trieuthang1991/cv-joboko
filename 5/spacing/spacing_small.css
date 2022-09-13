@@ -1,0 +1,16 @@
+#cvo-body {
+    line-height: 1.2em;
+}
+.cvo-document #education-table .row,
+.cvo-document #experience-table .row,
+.cvo-document #award-table .row,
+.cvo-document #certification-table .row,
+.cvo-document #activity-table .row,
+.cvo-document #project-table .row {
+    margin-bottom: 8pt;
+}
+
+.cvo-document #reference-table .row {
+    line-height: 14pt;
+    padding: 0.14cm 0;
+}

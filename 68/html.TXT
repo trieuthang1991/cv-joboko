@@ -1,0 +1,357 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap">
+<link rel="stylesheet" id="cv-css" href="https://i-vn2.joboko.com/MyCv/templates/68/css/font-awesome.min.css">
+<link rel="stylesheet" id ="cv-font-size-css" href="https://i-vn2.joboko.com/MyCv/templates/68/font-sizes/font_normal.css">
+<link rel="stylesheet" id ="cv-font" href="https://i-vn2.joboko.com/MyCv/templates/68/fonts/default.css">
+<link rel="stylesheet" id="cv-css" href="https://i-vn2.joboko.com/MyCv/templates/68/css/pro-2.css?v=1.6">
+<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn2.joboko.com/MyCv/templates/68/colors/000000.css?v=1">
+<div id="form-cv" data-x-name="parrent">
+	<div page = '1' class="page page-pro-2">
+		<div data-x-name="col-parrent" data-x-col="1">
+			<div class="height-curent">
+				<div data-x-name= "content" class="height_content">
+					<div class="logo" data-x-name="item" data-x-id="info">
+					<div class="" data-x-rel="job">
+					<p class="resume">R<span class="resume-color">E</span>SUM<span class="resume-color">E</span></p>
+					</div>
+					
+					</div>
+					<div data-x-name="item" data-x-id="info"> 
+						<h2 class="ml_ttl" data-x-name="head"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">thông tin cá nhân</span></h2>
+						<div class=" sub_info" >
+							<div class="avatar" data-x-rel="ava">
+								<img src="https://i-vn2.joboko.com/MyCv/templates/68/images/anh-the-3X4.jpg" data-x-id="ava" class="info_avatar">
+							</div>
+							<div class=" info">
+								<ul>
+	                                <li class="icoweb">
+	                                	<p class="" data-x-rel="name">
+	                                		<span data-x-id="name" contenteditable="true" class="info-name">Nguyễn thị phương thảo</span> 
+	                                	</p>
+									</li>
+									<li class="icoweb position">
+										<div class="" data-x-rel="job">
+										   <p data-x-id="job" contenteditable="true" name="info.job" class="x_ot" data-label="Vị trí ứng tuyển:" placeholder="Vị trí ứng tuyển" tooltip="Không được bỏ trống trường này" required="required" >Vị trí: </p>
+										<hr>
+										</div>
+										
+									 </li>
+
+	                                <li class="icoweb">
+	                                	<p class=" icoweb" data-x-rel="dob">
+	                                		<label class="info-label" data-x-label="info.dob">Ngày sinh:</label>
+	                                		<span data-x-id="dob" contenteditable="true" class="info-file">08/01/1996</span> 
+	                                	</p>
+	                                </li>
+	                                <li class="icoweb">
+	                                	<p class=" icoweb" data-x-rel="tel"> 
+	                                		<label class="info-label" data-x-label="info.tel" >Điện thoại:</label>
+	                                		<span data-x-id="tel" contenteditable="true" class="info-file">(+84) 947 627 986</span> 
+	                                	</p>
+	                                </li>
+	                                <li class="spa_ulli">
+	                                	<p class=" icoweb" data-x-rel="email"> 
+	                                		<label class="info-label" data-x-label="info.email">Email:</label>
+	                                		<span data-x-id="email" contenteditable="true" class="info-file info-file-email">thao926@gmail.com</span> 
+	                                	</p>
+	                                </li>
+	                                <li class="spa_ulli">
+	                                	<p class="icoweb" data-x-rel="add"> 
+	                                		<label class="info-label" data-x-label="info.add">Địa chỉ:</label>
+	                                		<span data-x-id="add" contenteditable="true" class="info-file">Q.Cầu Giấy, TP Hà Nội</span> 
+	                                	</p>
+	                                </li>	                                
+	                            </ul>
+							</div>
+						</div>
+					</div>
+					<div class="block  block-tar" data-x-name="item" data-x-id="tar">
+						<div class="blockR  tar">
+							<h2 class="ml_ttl" data-x-name="head"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">mục tiêu công việc</span></h2>
+							<div class="block_content" data-x-name="list-item">
+								<div data-x-id="name" contenteditable="true" class = "des_tar" data-x-bullet="-"> 
+									Cơ hội học hỏi, tích lũy kiến thức và kinh nghiệm trong lĩnh vực luật
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-x-name="group-item" >
+						<div class="block " data-x-name="item" data-x-id="edu">
+							<div class="blockR  edu">
+								<h2 class="ml_ttl" data-x-name="head"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">giáo dục</span></h2>
+								<div class="block_content" data-x-name="list-item">
+									<div data-x-name="sub-item" class="sub-item">
+										<div class="sub-item-left">
+											<ul class="sub-item-ul">
+												<li class = "sub-item-li spa_ulli">
+													<img src="https://i-vn2.joboko.com/MyCv/templates/68/images/icon.png" class="icon-special">
+													<ul>
+														<li><h4 contenteditable="true" data-x-id="name">Học viện tư pháp Việt Nam</h4></li>
+														<li><p contenteditable="true" data-x-id="cat">Ngành học: Nghề luật sư</p></li>
+														<li>
+															<p contenteditable="true" data-x-id="des">mô tả 1<br> mô tả 2</p>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div class="sub-item-right">
+											<p>
+												<span data-x-id="start" contenteditable="true">4/2019</span> - <span data-x-id="end" contenteditable="true">hiện tại</span>
+											</p>
+										</div>
+									</div>
+									<div data-x-name="sub-item" class="sub-item">
+										<div class="sub-item-left">
+											<ul class="sub-item-ul">
+												<li class="sub-item-li spa_ulli">
+													<img src="https://i-vn2.joboko.com/MyCv/templates/68/images/icon.png" class="icon-special">
+													<ul>
+														<li><h4 contenteditable="true" data-x-id="name">Đại học luật Hà Nội</h4></li>
+														<li><p contenteditable="true" data-x-id="cat">Chuyên ngành: Luật học</p></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div class="sub-item-right">
+											<p>
+												<span data-x-id="start" contenteditable="true">2014</span> - <span data-x-id="end" contenteditable="true">2018</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block " data-x-name="item" data-x-id="exp">
+							<div class="blockR  exp">
+								<h2 class="ml_ttl" data-x-name="head"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">Kinh nghiệm làm việc</span></h2>
+								<div class="block_content" data-x-name="list-item">
+									<div data-x-name="sub-item" class="sub-item">
+										<div class="sub-item-left">
+											<ul class="sub-item-ul">
+												<li class="sub-item-li spa_ulli">
+													<img src="https://i-vn2.joboko.com/MyCv/templates/68/images/icon.png" class="icon-special">
+													<ul>
+														<li class="sub-sub-item">
+															<ul>
+																<li><h4 contenteditable="true" data-x-id="name">Công ty Cổ phần Vincom Retail – Tập đoàn Vingroup</h4></li>
+																<li><p contenteditable="true" class="text-italic" data-x-id="pos">Nhân viên pháp chế - Phòng pháp chế</p></li>
+															</ul>
+															<ul class="sub-sub-item-ul" data-x-id="des" contenteditable="true" data-x-bullet="●">
+																Soạn thảo, kiểm tra về mặt pháp lý các văn bản nội bộ của công ty(Giấy ủy quyền, Quyết định, Các công văn, ...)
+															</ul>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div class="sub-item-right">
+											<p>
+												<span data-x-id="start" contenteditable="true">5/2018</span> - <span data-x-id="end" contenteditable="true">5/2019</span>
+											</p>
+										</div>
+									</div>
+									<div data-x-name="sub-item" class="sub-item">
+										<div class="sub-item-left">
+											<ul class="sub-item-ul">
+												<li class="sub-item-li spa_ulli">
+													<img src="https://i-vn2.joboko.com/MyCv/templates/68/images/icon.png" class="icon-special">
+													<ul>
+														<li class="sub-sub-item">
+															<ul>
+																<li><h4 contenteditable="true">Công ty TNHH Tư vấn Thương mại Xuất nhập khẩu Hòa Bình</h4></li>
+																<li><p contenteditable="true" class="text-italic">Nhân viên Pháp lý – Parttime</p></li>
+															</ul>
+															<ul class="sub-sub-item-ul" data-x-id="des" contenteditable="true" data-x-bullet="●">
+																Nghiên cứu các quy định pháp luật, soạn thảo hồ sơ xin xuất cảnh
+															</ul>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div class="sub-item-right">
+											<p>
+												<span data-x-id="start" contenteditable="true">3/2016</span> - <span data-x-id="end" contenteditable="true">3/2018</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block " data-x-name="item" data-x-id="act">
+							<div class="blockR  act">
+								<h2 class="ml_ttl" data-x-name="head"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">Hoạt động ngoại khóa</span></h2>
+								<div class="block_content" data-x-name="list-item">
+									<div data-x-name="sub-item" class="sub-item">
+										<div class="sub-item-left">
+											<ul class="sub-item-ul">
+												<li class="sub-item-li spa_ulli">
+													<img src="https://i-vn2.joboko.com/MyCv/templates/68/images/icon.png" class="icon-special">
+													<ul>
+														<li class="sub-sub-item">
+															<ul>
+																<li><h4 contenteditable="true" data-x-id="name">Khoa Pháp luật Hình sự - Trường Đại học Luật Hà Nội</h4></li>
+																<li><p contenteditable="true" class="text-italic" data-x-id="pos">Ủy viên BCH Khoa, Trưởng Ban Nội dung</p></li>
+															</ul>
+															<ul class="sub-sub-item-ul" data-x-id="des" contenteditable="true" data-x-bullet="●">
+																Quản lý hơn 20 thành viên của Ban, chịu trách nhiệm lên nội dung và điều hành các công việc của Khoa theo sự chỉ đạo của Bí thư Đoàn Trường.
+															</ul>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<div class="sub-item-right">
+											<p>
+												<span data-x-id="start" contenteditable="true">6/2016</span> - <span data-x-id="end" contenteditable="true">6/2018</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block  block-special" data-x-name="item"  data-x-id="skill">
+							<div class="blockR  ">
+								<h2 class="ml_ttl" data-x-name="head"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">KỸ NĂNG</span></h2>
+								<div class="block_content content-skill" data-x-name="list-item">
+									<div data-x-name="sub-item" class="sub-item-other skill-sub">
+										<ul>
+											<li class="spa_ulli">
+												<img src="https://i-vn2.joboko.com/MyCv/templates/68/images/icon.png" class="icon-special">
+												<h4 data-x-id="name" contenteditable="true">Máy tính</h4>
+											</li>
+										</ul>
+										<div data-x-id="des" contenteditable="true" class="item-des" data-x-bullet="●">
+											Microsoft Office
+										</div>
+									</div>
+									<div data-x-name="sub-item" class="sub-item-other skill-sub">
+										<ul>
+											<li class="spa_ulli">
+												<img src="https://i-vn2.joboko.com/MyCv/templates/68/images/icon.png" class="icon-special">
+												<h4 data-x-id="name" contenteditable="true">Ngoại ngữ</h4>
+											</li>
+										</ul>
+										<div data-x-id="des" contenteditable="true" class="item-des"  data-x-bullet="●">Tiếng Anh: (2018)</div>
+									</div>
+									<div data-x-name="sub-item" class="sub-item-other skill-sub">
+										<ul >
+											<li class="spa_ulli">
+												<img src="https://i-vn2.joboko.com/MyCv/templates/68/images/icon.png" class="icon-special">
+												<h4 data-x-id="name" contenteditable="true">Kỹ năng khác</h4>
+											</li>
+										</ul>
+										<div data-x-id="des" contenteditable="true" class="item-des" data-x-bullet="●">
+											Làm việc nhóm
+										</div>
+									</div>
+									<div data-x-name="sub-item" class="sub-item-other skill-sub">
+										<ul >
+											<li class="spa_ulli">
+												<img src="https://i-vn2.joboko.com/MyCv/templates/68/images/icon.png" class="icon-special">
+												<h4 data-x-id="name" contenteditable="true">Kỹ năng khác</h4>
+											</li>
+										</ul>
+										<div data-x-id="des" contenteditable="true" class="item-des" data-x-bullet="●">
+											Làm việc nhóm
+										</div>
+									</div>
+									<div data-x-name="sub-item" class="sub-item-other skill-sub">
+										<ul >
+											<li class="spa_ulli">
+												<img src="https://i-vn2.joboko.com/MyCv/templates/68/images/icon.png" class="icon-special">
+												<h4 data-x-id="name" contenteditable="true">Kỹ năng khác</h4>
+											</li>
+										</ul>
+										<div data-x-id="des" contenteditable="true" class="item-des" data-x-bullet="●">
+											Làm việc nhóm
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block  block-ref  block-infomation block-special" data-x-name="item" data-x-id="ref">
+							<div class="blockR ">
+								<h2 class="ml_ttl" data-x-name="head"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">THÔNG TIN THAM KHẢO</span></h2>
+								<div class="block_content content-ref" data-x-name="list-item">
+									<div data-x-name="sub-item" class=" sub-ref">
+										<div data-x-id="name" contenteditable="true">
+											<strong>Bà NGUYỄN THỊ THÙY TRANG</strong><br>
+											------------------------------------<br>
+											<strong>Công ty Cổ phần Vincom RetaiM</strong><br>
+											<i>Trưởng phòng Pháp chế</i><br>
+											Tel: 039 742 5388</div>
+									</div>
+									<div data-x-name="sub-item" class=" sub-ref">
+										<div data-x-id="name" contenteditable="true">
+											<strong>Bà NGUYỄN THANH HẰNG</strong><br>------------------------------------<br>
+											<strong>Công ty TNHH Tư vấn thương mại và xuất nhập khẩu Hòa Bình</strong><br>
+											<i>Phó Giám đốc</i><br>
+											Tel: 035 407 6284</div>
+									</div>
+									<div data-x-name="sub-item" class=" sub-ref">
+										<div data-x-id="name" contenteditable="true">
+											<strong>Bà NGUYỄN THỊ THÙY TRANG</strong><br>
+											------------------------------------<br>
+											<strong>Công ty Cổ phần Vincom RetaiM</strong><br>
+											<i>Trưởng phòng Pháp chế</i><br>
+											Tel: 039 742 5388</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block  block-more" data-x-name="item" data-x-id="more">
+							<div class="blockR ">
+								<h2 class="ml_ttl" data-x-name="head"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">Thông tin khác</span></h2>
+								<div class="block_content content-more" data-x-name="list-item">
+									<p data-x-id="name" contenteditable="true" class="des-more" data-x-bullet="-">
+										Là người ham học hỏi, luôn có tinh thần cầu tiến,...
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="block  block-more" data-x-name="item" data-x-id="cer">
+							<div class="blockR ">
+								<h2 class="ml_ttl" data-x-name="head"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">Chứng chỉ</span></h2>
+								<div class="block_content" data-x-name="list-item">
+									<div data-x-name="sub-item" class="sub-item">
+										<div class="sub-item-left">
+											<p data-x-id  ="name" contenteditable="true">Tiếng Anh IELTS 7.0</p>
+										</div>
+										<div class="sub-item-right">
+											<p data-x-id="time" contenteditable="true">2018</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block  block-more" data-x-name="item" data-x-id="award">
+							<div class="blockR ">
+								<h2 class="ml_ttl" data-x-name="head"><span data-x-id="tit" contenteditable="true" class="ml_ttl_inner">Giải thưởng</span></h2>
+								<div class="block_content" data-x-name="list-item">
+									<div data-x-name="sub-item" class="sub-item">
+										<div class="sub-item-left">
+											<p data-x-id  ="name" contenteditable="true">Sinh viên thanh lịch</p>
+										</div>
+										<div class="sub-item-right">
+											<p data-x-id="time" contenteditable="true">2018</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+	</div>
+</div>
+<div id = 'page' class="page page-pro-2" style="display: none">
+	<div data-x-name="col-parrent" data-x-col="1">
+		<div class="height-curent">
+			<div div data-x-name= "content" class="height_content"></div>
+		</div>
+	</div>
+	<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+</div>

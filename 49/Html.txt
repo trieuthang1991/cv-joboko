@@ -1,0 +1,134 @@
+<link id="cv-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/49/css/cv.css?v=1.0" type="text/css">
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/49/colors/ab9531.css?v=1.0">
+<link id="cv-font" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/49/fonts/default.css?v=1">
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/49/font-sizes/font_normal.css?v=1">
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/49/spacing/spacing_normal.css?v=1">
+<div id="form-cv">
+    <div id="cv-main">
+        <div id="cv-right">
+			<div id="cv-top">
+				<div id="cvo-profile">
+					<div class="box-01" data-x-name="item" data-x-id="info">
+						<h1><span id="cv-profile-fullname" data-x-id="name" contenteditable="true"></span></h1>
+						<h2><span id="cv-profile-job" contenteditable="true" data-x-id="job"></span></h2>
+						<div><span id="cv-profile-about"></span></div>
+					</div>
+				</div>
+			</div>
+            <div class="ir">
+                <div id="cvo-profile-avatar-wraper" data-x-name="item" data-x-id="info">
+                    <img id="cvo-profile-avatar" cvo-form-field="true" data-x-id="ava" src="https://i-vn2.joboko.com/Upload/images/avatars/no_avatar.jpg">
+                </div>
+                <div id="sortable" class="ui-sortable">
+                    <div>
+                        <div id="box01" class="block cvo-block box-contact ui-sortable-handle" data-x-name="item" data-x-id="info">
+                            <p class="icoweb" data-x-rel="dob"><i class="fa fa-calendar"></i><span id="cv-profile-birthday" data-x-id="dob" contenteditable="true">19/05/1992</span></p>
+                            <p class="icoweb" data-x-rel="gen"><i class="fa fa-user"></i><span id="cv-profile-sex" data-x-id="gen" contenteditable="true">Nam</span></p>
+                            <p class="icoweb" data-x-rel="tel"><i class="fa fa-phone"></i><span id="cv-profile-phone" data-x-id="tel" contenteditable="true"></span></p>
+                            <p class="icoweb" data-x-rel="email"><i class="fa fa-envelope-square"></i><span id="cv-profile-email" data-x-id="email" contenteditable="true"></span></p>
+                            <p class="icoweb" data-x-rel="add"><i class="fa fa-map-marker"></i><span id="cv-profile-address" data-x-id="add" contenteditable="true">Số 1 đường Cầu Giấy, Hà Nội</span></p>
+                            <p class="icoweb" data-x-rel="web"><i class="fa fa-info"></i><span id="cv-profile-face" data-x-id="web" contenteditable="true">facebook.com/abc</span></p>
+                        </div>
+                    </div>
+                    <div data-x-name="group-item">
+                        <div id="box02" class="block cvo-block ui-sortable-handle" data-x-name="item" data-x-id="tar">
+                            <p class="h3"><span id="cv-boxtitle" cv-form-field="true" contenteditable="true" class="box-title" data-x-id="tit">Mục tiêu nghề nghiệp</span></p>
+                            <div class="box-content" data-x-id="name" contenteditable="true">
+                            </div>
+                        </div>
+                        <div id="box03" class="block cvo-block box-skills ui-sortable-handle" data-x-name="item" data-x-id="skill">
+                            <p class="h3"><span id="cv-boxtitle" cv-form-field="true" contenteditable="true" data-x-id="tit" class="box-title">Kỹ năng</span></p>
+                            <div class="exp content-edit skill" data-x-name="list-item">
+                                <div class="ctbx" data-x-name="sub-item">
+                                    <p data-x-id="name" contenteditable="true">Tin Học Văn Phòng</p>
+                                    <div class="bar-exp cvo-skillrate-bar"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="box04" class="block cvo-block ui-sortable-handle" data-x-name="item" data-x-id="award">
+                            <p class="h3">
+                                <span id="cv-boxtitle" cv-form-field="true" contenteditable="true" data-x-id="tit" class="box-title">Giải thưởng</span>
+                            </p>
+                            <div data-x-name="list-item">
+                                <div data-x-name="sub-item">
+                                    <span class="box-content" data-x-id="name" contenteditable="true"></span>
+                                    <span class="date" data-x-id="time" contenteditable="true"></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cv-content">
+            <div class="ir ui-sortable" id="sort_block" data-x-name="group-item">
+                <div id="block02" class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="exp">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true">Kinh nghiệm làm việc</span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+                            <h3>
+                                <span class="exp-title" contenteditable="true" data-x-id="name"></span>
+                                <span class="exp-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end" contenteditable="true">05/2018</em></span>
+                            </h3>
+                            <p class="h3">
+                                <span class="exp-subtitle" data-x-id="pos" contenteditable="true">Online Marketing Specialist&nbsp;</span>
+                            </p>
+                            <div class="exp-content" contenteditable="true" data-x-id="des">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block01" class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="edu">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true">TRÌNH ĐỘ HỌC VẤN</span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+                            <h3>
+                                <span class="exp-title" contenteditable="true" data-x-id="name"></span>
+                                <span class="exp-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end" contenteditable="true">05/2018</em></span>
+                            </h3>
+                            <p class="h3">
+                                <span class="exp-subtitle" data-x-id="cat" contenteditable="true"></span>
+                            </p>
+                            <div class="exp-content" contenteditable="true" data-x-id="des">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block03" class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="act">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true">Hoạt động</span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+                            <h3>
+                                <span class="exp-title" contenteditable="true" data-x-id="name"></span>
+                                <span class="exp-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end" contenteditable="true">05/2018</em></span>
+                            </h3>
+                            <p class="h3">
+                                <span class="exp-subtitle" data-x-id="pos" contenteditable="true">Tình nguyện viên</span>
+                            </p>
+                            <div class="exp-content" contenteditable="true" data-x-id="des">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block04" class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="hob">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true">Sở thích</span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+                            <div class="exp-content" contenteditable="true" data-x-id="name">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>            
+    </div>
+</div>

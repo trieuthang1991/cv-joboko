@@ -1,0 +1,32 @@
+.cv-header-area .banner {
+	background: url(../images/banner_color1.jpg) no-repeat;
+}
+.cv-header-area .banner-avatar .__left-line {
+    background-color: #f79470;
+}
+.cv-header-area .banner-avatar .__right-line {
+    background-color: #47bfb9;
+}
+#gradient stop:nth-child(1){
+	stop-color: #f79470 !important;
+}
+#gradient stop:nth-child(2){
+	stop-color: #47bfb9 !important;
+}
+.block .tit-item {
+    color: #f15b29;
+    border-bottom: 2px solid #f15b29;
+}
+.Item_tit_right{
+	border-bottom: 2px solid #00a79d;
+}
+.pageCV .icon_hob {
+	color: #f15b29;
+}
+.SubItem-left-icon{
+	border-bottom: 2px solid #f15b29;
+}
+.pageCV .col_footer .more_info {
+    background: url(../images/bgFooter_color1.jpg) no-repeat;
+    color: #fff;
+}

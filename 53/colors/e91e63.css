@@ -1,0 +1,14 @@
+#form-cv .page{
+		background: #e91e63;
+}
+
+.cv-left{
+		background: #e91e63;
+}
+
+.cv-left .h3 span{
+	color: #e91e63 !important;
+}
+.cv-content .head span{
+	background: #e91e63;
+}

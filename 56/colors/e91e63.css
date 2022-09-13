@@ -1,0 +1,27 @@
+#form-cv .page{
+	border:solid 1px #e91e63;
+	border-left: solid 40px #e91e63;
+}
+
+#cv-top h1{
+    color:#e91e63;
+}
+#cv-top h2{
+	color: #e91e63;
+}
+#cv-content h3{color:#333}
+#cv-content .head{
+    color: #e91e63;    
+}
+.icoweb i.fa{
+    color: #e91e63;
+}
+.icoweb{
+	color: #e91e63;
+}
+.cvo-block{
+    border-left: solid 5px #e91e63;
+}
+#cv-box-ava{
+    border: solid 2px #e91e63;
+}

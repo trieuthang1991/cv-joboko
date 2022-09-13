@@ -1,0 +1,9 @@
+#cv-document .page{background:#fff;color:#000}
+#cv-document .page::after{border:1px dotted #ff546d;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 351.51 261.67'%3E%3Cg data-name='Layer 2'%3E%3Cg data-name='Layer 1'%3E%3Cpath d='M.5.5H142a119.13 119.13 0 0 1 119.17 119.13v141.54H119.63A119.13 119.13 0 0 1 .5 142V.5Z' style='stroke:%23ff546d;stroke-miterlimit:10;opacity:.15;fill:%23fff'/%3E%3Cpath d='M263.85 105.55h87.65v87.65a67.33 67.33 0 0 1-67.33 67.33h-87.65v-87.65a67.33 67.33 0 0 1 67.33-67.33Z' transform='rotate(180 274.015 183.045)' style='opacity:.1;fill:%23fff'/%3E%3Cpath d='M174.75 194.11h39.37a27.68 27.68 0 0 1 27.68 27.68v39.37h-39.37a27.68 27.68 0 0 1-27.68-27.68v-39.37Z' style='opacity:.2;fill:%23fff'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") no-repeat right bottom,#ff546d}
+#cv-document .heading{border-bottom-color:rgba(255,131,155,.5);color:#e53355}
+#cv-document .avatar{border:1px dotted #fff;background-color:#fff}
+#cv-document .info-main{background:linear-gradient(to right,#fcb3bf,#fcb3bf)}
+#cv-document .info-main__title{color:#e53355}
+#cv-document .info-main__text{color:#000}
+#cv-document .info-detail{color:#fff}
+#cv-document .info-detail__item-icon{border-color:#ff546d;background:#fff;color:#000}

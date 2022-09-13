@@ -1,0 +1,9 @@
+#cv-document .page{background-color:#fff;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath fill='none' stroke='%23a0ccd3' stroke-miterlimit='10' stroke-width='.25' stroke-dasharray='1 2 1 2' d='M0 0h14v14H0z'/%3E%3C/svg%3E");background-repeat:repeat;background-size:14px 14px;color:#000}
+#cv-document .page__inner::before{background-color:#26a8df}
+#cv-document .page__inner::after{background-color:#26a8df}
+#cv-document .full-width--top{border-bottom-color:#26a8df}
+#cv-document .full-width--top::before{background-color:#26a8df}
+#cv-document .full-width--top::after{background-color:#26a8df}
+#cv-document .avatar{border-color:#000}
+#cv-document .info-main__title{color:#26a8df}
+#cv-document .info-detail__item-icon{background-color:#26a8df}

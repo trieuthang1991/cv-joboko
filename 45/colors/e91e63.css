@@ -1,0 +1,23 @@
+.cv-content .head,.cv-content h3,.cv-content span.exp-date{	
+    color: #e91e63;
+}
+.bar-exp span {
+    background: #e91e63;
+}
+.cvo-block .h3 i , .cvo-block  .head i{
+    color: #e91e63;
+    border: 2px solid #e91e63;
+}
+span.box-content, .cv-box-content.experience{
+	border-left: solid 2px #e91e63;
+}
+#cv-top{	
+	background:#e91e63;
+}
+#form-cv{
+    border:solid 1px #e91e63;
+}
+
+#cv-mid{
+background-color: #fcbebe;
+}

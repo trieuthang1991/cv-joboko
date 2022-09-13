@@ -1,0 +1,294 @@
+<link id="cv-font" rel="stylesheet" href="https://i-vn.joboko.com/MyCV/templates/77/fonts/default.css" />
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCV/templates/77/font-sizes/font_normal.css" />
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCV/templates/77/spacing/spacing_normal.css" />
+<link id="cv-css" href="https://i-vn.joboko.com/MyCV/templates/77/css/simple-pro-khong-anh.css?v=80" rel="stylesheet" />
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCV/templates/77/colors/d5e2e9.css?v=6" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+
+<div id="form-cv" class="text-size line-size" data-x-name="parrent">
+    <div class="container-main-container cv-main container-mains page" page='1' fix="true">
+        <div class="header-row row no-margin" data-x-id="info" data-x-name="item">
+            <div id="overlay-header"></div>
+            <div class="above">
+                <p contenteditable="true" id="banner-heading" data-x-id="name">resume</p>
+            </div>
+            <div class="beneath">
+                <div id="banner-header-first"></div>
+                <div id="banner-header-second">
+                    <div id="header-content" data-x-name="list-item">
+                        <p contenteditable="true" id="banner-job" data-x-id="job">kỹ sư tích hợp hệ thống</p>
+                        <div id="banner-contact">
+                            <div id="banner-phone" data-x-rel="tel">
+                                <i class="fa fa-phone"></i>
+                                <span contenteditable="true" data-x-id="tel">+84 98 777 5293</span>
+                            </div>
+                            <div id="banner-email" data-x-rel="email">
+                                <i class="fa fa-envelope"></i>
+                                <span contenteditable="true" data-x-id="email">hunglexng@gmail.com</span>
+                            </div>
+                        </div>
+                        <div id="banner-add">
+                            <i class="fa fa-map-marker"></i>
+                            <span contenteditable="true" data-x-id="add">cong hoa xa hoi chu nghia viet nam</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-bound">
+            <div class="content-col-1" data-x-name="col-parrent" data-x-col="1">
+                <div class="height-curent">
+                    <div data-x-name="group-item">
+                        <div id="experience" class="field-bound" data-x-name="item" data-x-id="exp">
+                            <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit">experience</span></div>
+                            <div class="details" data-x-name="list-item">
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <span contenteditable="true" class="details-heading" data-x-id="name">Lead designer</span>
+                                    <div class="characters">
+                                        <span contenteditable="true" class="details-heading-support" data-x-id="pos">Luxstay Vietnam</span>
+                                        <span> | </span>
+                                        <span contenteditable="true" data-x-id="start">06.2018</span>
+                                        <span> - </span>
+                                        <span contenteditable="true" data-x-id="end">now</span>
+                                        <div class="descriptions">
+                                            <div contenteditable="true" data-x-bullet="★" data-x-id="des">
+                                                Overseeing Luxstay Vietnam's design including graphic and User Experience (PC/Mobile App)<br>
+                                                Translate other departments' orders into possible solutions for the team to work<br>
+                                                Develop and mentor junior designers in order to guarantee consistent quality in all design works <br>
+                                                Ensure the effective communication among team members as well as with other departments<br>
+                                                Stay up-to-date with new technologies and tools to maximize the outcomes<br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <span contenteditable="true" class="details-heading" data-x-id="name">Designer / Digital specialist</span>
+                                    <div class="characters">
+                                        <span contenteditable="true" class="details-heading-support" data-x-id="pos">FLC Group - FLC Holiday</span>
+                                        <span> | </span>
+                                        <span contenteditable="true" data-x-id="start">01.2018</span>
+                                        <span> - </span>
+                                        <span contenteditable="true" data-x-id="end">06.2018</span>
+                                        <div class="descriptions">
+                                            <div contenteditable="true" data-x-bullet="★" data-x-id="des">
+                                                Brand's visual identity development (stationary, sales kit, POSM, visual ad, etc.,)<br>
+                                                Manage and develop digital channels & assets including social media & websites<br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <span contenteditable="true" class="details-heading" data-x-id="name">Senior marketing executive / Digital specialist</span>
+                                    <div class="characters">
+                                        <span contenteditable="true" class="details-heading-support" data-x-id="pos">SSG Group - My Dinh Pearl</span>
+                                        <span> | </span>
+                                        <span contenteditable="true" data-x-id="start">03.2016</span>
+                                        <span> - </span>
+                                        <span contenteditable="true" data-x-id="end">01.2018</span>
+                                        <div class="descriptions">
+                                            <div contenteditable="true" data-x-bullet="★" data-x-id="des">
+                                                Design and develop the branch identity and sales-support materials<br>
+                                                Media production including advertising materials and weekly broadcasts on social channels<br>
+                                                Social media planning and management<br>
+                                                Coopeate with agencies in planning & deploying strategic integrated marketing campaigns 
+                                                throughout different channels<br>
+                                                Establish clear understanding & consistent messages between the company and partners/agencies<br>
+                                                Monitor real-time performance of the marketing execution through agencies' weekly reports and 
+                                                monitoring tools such as Google Analytics<br>
+                                                Foster relationships with partners and agencies for current support and future works<br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="profile" class="field-bound simple" data-x-name="item" data-x-id="more">
+                            <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit">Profile</span></div>
+                            <div data-x-name="list-item" id="pro">
+                                <span contenteditable="true" data-x-id="name">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</span>
+                            </div>
+                        </div>
+                        <div id="hobbies" class="field-bound simple" data-x-name="item" data-x-id="hob">
+                            <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit">Profile</span></div>
+                            <div data-x-name="list-item" class="details">
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <span contenteditable="true" data-x-id="name">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="reference" class="field-bound simple" data-x-name="item" data-x-id="ref">
+                            <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit">References</span></div>
+                            <div data-x-name="list-item" class="details">
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <span contenteditable="true" data-x-id="name">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="activities" class="field-bound simple" data-x-name="item" data-x-id="act">
+                            <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit">Activities</span></div>
+                            <div class="details" data-x-name="list-item">
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <span contenteditable="true" class="details-heading" data-x-id="name">Lead designer</span>
+                                    <div class="characters">
+                                        <span contenteditable="true" class="details-heading-support" data-x-id="pos">Luxstay Vietnam</span>
+                                        <span> | </span>
+                                        <span contenteditable="true" data-x-id="start">06.2018</span>
+                                        <span> - </span>
+                                        <span contenteditable="true" data-x-id="end">now</span>
+                                        <div class="descriptions">
+                                            <div contenteditable="true" data-x-bullet="★" data-x-id="des">
+                                                Overseeing Luxstay Vietnam's design including graphic and User Experience (PC/Mobile App)<br>
+                                                Translate other departments' orders into possible solutions for the team to work<br>
+                                                Develop and mentor junior designers in order to guarantee consistent quality in all design works <br>
+                                                Ensure the effective communication among team members as well as with other departments<br>
+                                                Stay up-to-date with new technologies and tools to maximize the outcomes<br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-col-2", class="no-pad" data-x-name='col-parrent' data-x-col="2">
+                <div class="height-curent">
+                    <div data-x-name="group-item">
+                        <div id="award" class="field-bound simple" data-x-name="item" data-x-id="award">
+                            <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit">Awards</span></div>
+                            <div class="details" data-x-name="list-item">
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <span contenteditable="true" class="details-heading" data-x-id="name">Consolation prize ACM/ICPC</span>
+                                    <span>(</span> 
+                                    <span contenteditable="true" data-x-id="time"s>04.2019</span>
+                                    <span>)</span>
+                                </div>
+                            </div>    
+                        </div>
+                        <div id="education" class="field-bound simple" data-x-name="item" data-x-id="edu">
+                            <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit">education</span></div>
+                            <div class="details" data-x-name="list-item">
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <span contenteditable="true" class="details-heading" data-x-id="name">Bachelor of Business (Marketing)</span>
+                                    <div class="characters">
+                                        <span contenteditable="true" class="details-heading-support" data-x-id="cat">RMIT University Vietnam</span>
+                                        <span> | </span>
+                                        <span contenteditable="true" data-x-id="start">2013</span>
+                                        <span> - </span>
+                                        <span contenteditable="true" data-x-id="end">2015</span>
+                                        <div class="descriptions">
+                                            <div contenteditable="true" data-x-bullet="★" data-x-id="des">
+                                                Overseeing Luxstay Vietnam's design including graphic and User Experience (PC/Mobile App)<br>
+                                                Stay up-to-date with new technologies and tools to maximize the outcomes<br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <span contenteditable="true" class="details-heading" data-x-id="name">Diploma of commerce</span>
+                                    <div class="characters">
+                                        <span contenteditable="true" class="details-heading-support" data-x-id="cat">RMIT University Vietnam</span>
+                                        <span> | </span>
+                                        <span contenteditable="true" data-x-id="start">2012</span>
+                                        <span> - </span>
+                                        <span contenteditable="true" data-x-id="end">2013</span>
+                                        <div class="descriptions">
+                                            <div contenteditable="true" data-x-bullet="★" data-x-id="des">
+                                                Overseeing Luxstay Vietnam's design including graphic and User Experience (PC/Mobile App)<br>
+                                                Translate other departments' orders into possible solutions for the team to work<br>
+                                                Stay up-to-date with new technologies and tools to maximize the outcomes<br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                        <div id="certification" class="field-bound simple" data-x-name="item" data-x-id="cer">
+                            <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit">certification</span></div>
+                            <div class="details" data-x-name="list-item">
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <span contenteditable="true" class="details-heading" data-x-id="name">Foreign Trade Practices Certification</span>
+                                    <span>(</span>
+                                    <span contenteditable="true" data-x-id="time">04.2019</span>
+                                    <span>)</span>
+                                </div>
+                            </div>    
+                        </div>
+                        <div id="skills" class="field-bound simple" data-x-name="item" data-x-id="skill">
+                            <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit">skills</span></div>
+                            <div class="details" data-x-name="list-item">
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <div class="characters clearfix">
+                                        <span contenteditable="true" class="details-heading" data-x-id="name">Digital Design (AI/PS/ID)</span>
+                                        <div class="cvo-skillrate-bar progress-bar">
+                                            <div data-x-id='val' value='4' class="cvo-skillrate-value progress-core"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <div class="characters clearfix">
+                                        <span contenteditable="true" class="details-heading" data-x-id="name">Video editing/production (PP/AE)</span>
+                                        <div class="cvo-skillrate-bar progress-bar">
+                                            <div data-x-id='val' value='3' class="cvo-skillrate-value progress-core"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <div class="characters clearfix">
+                                        <span contenteditable="true" class="details-heading" data-x-id="name">Creativity & ideas development</span>
+                                        <div class="cvo-skillrate-bar progress-bar">
+                                            <div data-x-id='val' value='5' class="cvo-skillrate-value progress-core"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sub-div" data-x-name="sub-item">
+                                    <div class="characters clearfix">
+                                        <span contenteditable="true" class="details-heading" data-x-id="name">Technological adaptability</span>
+                                        <div class="cvo-skillrate-bar progress-bar">
+                                            <div data-x-id='val' value='4' class="cvo-skillrate-value progress-core"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                        <div id="target" class="field-bound simple" data-x-name="item" data-x-id="tar">
+                            <div class="info-heading" data-x-name="head"><span contenteditable="true" data-x-id="tit">Target</span></div>
+                            <div data-x-name="list-item" id="tar">
+                                <span contenteditable="true" data-x-id="name">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-row row no-margin" data-x-id="info" data-x-name="item">
+            <div id="contact-footer-1">
+                <img src="https://i-vn.joboko.com/MyCV/templates/77/images/_laptop1.jpg">
+            </div>
+            <div id="contact-footer-2" data-x-rel="web">
+                <span data-x-label="info.web">Thông tin dự án có thể tìm thấy ở</span>
+                <span contenteditable="true" data-x-id="web">https://figma.com/proto/AZG4wOZY3iAlkNMH/Hung-Nguyen-Portfolio</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="page" class="container-main-container cv-main container-mains page" fix="true" style="display:none;">
+    <div class="content-bound">
+        <div class="content-col-1" data-x-name="col-parrent" data-x-col="1">
+            <div class="height-curent"></div>
+        </div>
+        <div class="content-col-2", class="no-pad" data-x-name='col-parrent' data-x-col="2">
+            <div class="height-curent"></div>
+        </div>
+    </div>
+    <div class="footer-row row no-margin" data-x-id="info" data-x-name="item">
+        <div id="contact-footer-1">
+            <img src="https://i-vn.joboko.com/MyCV/templates/77/images/_laptop1.jpg">
+        </div>
+        <div id="contact-footer-2" data-x-rel="web">
+            <span  data-x-label="info.web">Thông tin dự án có thể tìm thấy ở</span>
+            <span contenteditable="true" data-x-id="web">https://figma.com/proto/AZG4wOZY3iAlkNMH/Hung-Nguyen-Portfolio</span>
+        </div>
+    </div>
+</div>

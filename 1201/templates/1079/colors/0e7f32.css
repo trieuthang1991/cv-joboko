@@ -1,0 +1,55 @@
+/*header*/
+.icon_fb{
+	border: 3px solid #0e7f32;
+}
+.col_top .h_curent .height_content .icoweb_fb {
+    color: #0e7f32;
+}
+/*-------ben trai-------------*/
+.itemInfo{
+	background: #8ab98f;
+}
+.radialProgressBar .overlay:after{
+	color: #0e7f32;
+}
+.radialProgressBar .overlay[value="1"] {
+  background-image: linear-gradient(18deg, #bbcace 50%, transparent 50%), linear-gradient(90deg, #0e7f32 50%, #bbcace 50%);
+}
+.radialProgressBar .overlay[value="2"] {
+  background-image: linear-gradient(-54deg, #bbcace 50%, transparent 50%), linear-gradient(90deg, #0e7f32 50%, #bbcace 50%);
+}
+.radialProgressBar .overlay[value="3"] {
+  background-image: linear-gradient(90deg, #0e7f32 50%, transparent 50%), linear-gradient(54deg, #0e7f32 50%, #bbcace 50%);
+}
+.radialProgressBar .overlay[value="4"] {
+  background-image: linear-gradient(90deg, #0e7f32 50%, transparent 50%), linear-gradient(-18deg, #0e7f32 50%, #bbcace 50%);
+}
+.radialProgressBar .overlay[value="5"] {
+  background-image: linear-gradient(90deg, #0e7f32 50%, transparent 50%), linear-gradient(-90deg, #0e7f32 50%, #0e7f32 50%);
+}
+
+.itemSkill .skillrate_val[value="5"]{
+	content: url(../images/icon-skillvalue-rate5-colr2.png);
+}
+.itemSkill .skillrate_val[value="4"]{
+	content: url(../images/icon-skillvalue-rate4-colr2.png);
+}
+.itemSkill .skillrate_val[value="3"]{
+	content: url(../images/icon-skillvalue-rate3-colr2.png);
+}
+.itemSkill .skillrate_val[value="2"]{
+	content: url(../images/icon-skillvalue-rate2-colr2.png);
+}
+.itemSkill .skillrate_val[value="1"]{
+	content: url(../images/icon-skillvalue-rate1-colr2.png)
+}
+/*-------ben phai-------------*/
+.itemMore {
+	background: #0e7f32;
+}
+.col_bottom_right{
+	background: #efffef;
+}
+.tit-item {
+	border-bottom: 1px solid #8ab98f;
+}

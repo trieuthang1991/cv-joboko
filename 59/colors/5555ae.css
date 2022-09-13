@@ -1,0 +1,19 @@
+﻿bg-primary {
+    background-color: #5555ae !important;
+}
+
+.bg-opaque-primary {
+    background-color: rgba(85, 85, 174, 0.12890625) !important;
+}
+
+
+
+.text-primary {
+    color: #5555ae !important;
+}
+.bar-exp span {
+    background-color: #5555ae !important;
+}
+.avatar{
+    border: solid 2px #5555ae;
+}

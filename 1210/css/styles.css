@@ -1,0 +1,70 @@
+body.page-preview,body.page-view,body.page-viewdemo{background:url(/images3/bg-cv/3.jpg) no-repeat;background-size:cover;background-attachment:fixed}
+body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width:150px;height:150px;background:url(/images3/bg-cv/7.2.png) no-repeat;background-size:cover}
+#cv-document{font-size:10px}
+#cv-document *{box-sizing:border-box}
+#cv-document #cv-watermark a:after{content:"Joboko.com"}
+#cv-document .page:last-child #cv-watermark{position:absolute;right:1em;bottom:2em}
+#cv-document .relative{position:relative;z-index:5}
+#cv-document .inline-block{display:inline-block}
+#cv-document .inline{display:inline}
+#cv-document .flex-column{flex-direction:column;display:flex;height:100%}
+#cv-document [data-x-name=item]{width:100%}
+#cv-document .no-outline{outline:0}
+#cv-document .no-outline:hover{box-shadow:none;outline:0}
+#cv-document .mt-auto{margin-top:auto}
+#cv-document .content{position:relative;padding-bottom:5em}
+#cv-document .heading{position:relative;margin-bottom:.5em;letter-spacing:1px}
+#cv-document .datetime{margin-bottom:2em}
+#cv-document .page__inner{padding:4em 6.4em 0 6em}
+@media screen and (max-width:767px){
+#cv-document .page__inner{overflow:hidden;padding:4em 2em}
+}
+#cv-document .full-width__wrapper{position:relative;justify-content:space-between;align-items:center;display:flex;margin-bottom:4.2em}
+@media screen and (max-width:767px){
+#cv-document .full-width__wrapper{display:block}
+}
+#cv-document .full-width__wrapper::before{content:"";position:absolute;top:2.5em;right:-6.4em;bottom:2.1em;left:-6em}
+@media screen and (max-width:767px){
+#cv-document .full-width__wrapper::before{right:-2em;bottom:auto;left:-2em;height:10.2em}
+}
+#cv-document .h1,#cv-document .h2,#cv-document .h3,#cv-document .h4,#cv-document .h5,#cv-document .h6,#cv-document h1,#cv-document h2,#cv-document h3,#cv-document h4,#cv-document h5,#cv-document h6,#cv-document p{margin:0}
+#cv-document .regular{font-weight:400}
+#cv-document .light{font-weight:300}
+#cv-document .medium{font-weight:500}
+#cv-document .bold{font-weight:700}
+#cv-document .black{font-weight:900}
+#cv-document .italic{font-style:italic}
+#cv-document .uppercase{text-transform:uppercase}
+#cv-document .avatar{position:relative;z-index:2;flex-shrink:0;justify-content:center;align-items:center;display:flex;margin-right:3em;border-radius:50%;width:15.2em;height:15.2em}
+@media screen and (max-width:767px){
+#cv-document .avatar{margin:0 auto 4em}
+}
+#cv-document .avatar img{position:relative;border-radius:50%;width:13em;height:13em}
+#cv-document .info-main{position:relative;z-index:5;padding:2.5em 3em;text-align:right}
+@media screen and (max-width:767px){
+#cv-document .info-main{padding-top:0;padding-bottom:0;padding-left:0}
+}
+#cv-document .info-main::after{content:"";position:absolute;top:3em;right:0;bottom:3em;width:1em}
+@media screen and (max-width:767px){
+#cv-document .info-main::after{top:.5em;bottom:.5em}
+}
+#cv-document .info-main__title{margin:0 0 .4em;letter-spacing:2.6px}
+#cv-document .info-main__text{letter-spacing:1.5px}
+#cv-document .info-detail{position:relative;z-index:2;flex-wrap:wrap;justify-content:flex-end;display:flex;margin-bottom:.9em}
+#cv-document .info-detail__item{justify-content:flex-end;align-items:flex-start;display:flex;margin-bottom:1.3em;width:45.5%;text-align:right;letter-spacing:.8px}
+#cv-document .info-detail__item:nth-child(even){padding-left:1.5em}
+@media screen and (max-width:767px){
+#cv-document .info-detail__item:nth-child(even){padding-left:0}
+}
+@media screen and (max-width:767px){
+#cv-document .info-detail__item{width:100%}
+}
+#cv-document .info-detail__item-icon{position:relative;flex-shrink:0;margin-left:1.8em;min-width:1.5em;text-align:center}
+#cv-document [contentEditable] *{font-size:1em!important}
+[contenteditable]:focus{outline:1pt dashed #77a5cc!important;cursor:text}
+[contentEditable=true]:empty{outline:1pt dashed #fc4b08!important}
+[contenteditable=true]:empty:before{content:attr(placeholder)!important}
+#cv-document span.x_add.fa.fa-plus-circle,#cv-document span.x_del.fa.fa-remove{width:70px!important}
+#cv-document .datetime{
+ display:none;
+}

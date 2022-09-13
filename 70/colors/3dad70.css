@@ -1,0 +1,47 @@
+.col_left .height_content{
+	background:  #3dad70;
+}
+.icoweb .info-icon{
+	color: #3dad70;
+}
+.icoweb .icon-gen {
+	content: url(../images/icon-gen_color1.png);
+}
+.col_right .tit-item {
+	border-bottom: 3px solid #3dad70;
+	color: #3dad70;
+}
+.item_tar .listItem{
+	background: #41c97f;
+}
+.icon-skillrate-value.dot[value="5"]{
+	content: url(../images/icon-skillvalue-rate5_color1.png);
+}
+.icon-skillrate-value.dot[value="4"]{
+	content: url(../images/icon-skillvalue-rate4_color1.png);
+}
+.icon-skillrate-value.dot[value="3"]{
+	content: url(../images/icon-skillvalue-rate3_color1.png);
+}
+.icon-skillrate-value.dot[value="2"]{
+	content: url(../images/icon-skillvalue-rate2_color1.png);
+}
+.icon-skillrate-value.dot[value="1"]{
+	content: url(../images/icon-skillvalue-rate1_color1.png);
+}
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay[value="1"] {
+  background-image: linear-gradient(18deg, #fff 50%, transparent 50%), linear-gradient(90deg, #3dad70 50%, #fff 50%);
+}
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay[value="2"] {
+  background-image: linear-gradient(-54deg, #fff 50%, transparent 50%), linear-gradient(90deg, #3dad70 50%, #fff 50%);
+}
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay[value="3"] {
+  background-image: linear-gradient(90deg, #3dad70 50%, transparent 50%), linear-gradient(54deg, #3dad70 50%, #fff 50%);
+}
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay[value="4"] {
+  background-image: linear-gradient(90deg, #3dad70 50%, transparent 50%), linear-gradient(-18deg, #3dad70 50%, #fff 50%);
+}
+
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay[value="5"] {
+  background-image: linear-gradient(90deg, #3dad70 50%, transparent 50%), linear-gradient(-90deg, #3dad70 50%, #3dad70 50%);
+}

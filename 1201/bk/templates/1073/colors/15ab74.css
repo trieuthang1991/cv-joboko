@@ -1,0 +1,25 @@
+#apply-border, .footer-contact .contact-border {
+    border-bottom: 2px solid #15ab74 !important;
+}
+.milestone::before, .footer-contact i::before, #me-name, 
+.skills .progress-core::after, .academic-skills .progress-core::after {
+    color: #15ab74 !important;
+}
+#personal-info-heading, .progress-core {
+    background: #15ab74 !important;
+}
+.title-icon {
+    background: url(/MyCV/templates/1073/images/title-icon-15ab74.jpg) no-repeat !important;
+}
+#personal-info-heading .title-icon {
+    background: url(/MyCV/templates/1073/images/title-icon-left-15ab74.jpg) no-repeat !important
+}
+#personal-info-heading:before {
+    background: url(/MyCV/templates/1073/images/info-image-base-15ab74_.png) no-repeat;
+    background-size: 100% 100%;
+}
+.footer-bg {
+    background: url(/MyCV/templates/1073/images/footer-15ab74.jpg) no-repeat !important;
+    height: 82px;
+
+}

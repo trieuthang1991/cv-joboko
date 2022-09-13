@@ -1,0 +1,88 @@
+<link id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/1117/css/cv.css?v=2.16" rel="stylesheet" />
+
+<div class="page" data-x-name="item" data-x-id="info">
+  <div class="page_ctr">
+    <div style="text-align: center;font-weight: bold ;font-size: 18px;line-height: 30px;">
+      CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM<br><span style="padding-bottom: 13px ;">Độc lập
+        - Tự do - Hạnh phúc</span> <br />
+    </div>
+    <p style="font-size: 20px;text-align: center;">-------***-------</p>
+    <p style="padding-top: 45px;" class="h1">Đơn xin nghỉ việc</p>
+    <div class="p1-d1">
+      <div class="raw-item" style="width: 100px;padding-top: 5px;"><b>Kính gửi: </b></div>
+      <div data-x-id="com" style="padding-left: 0;" class="line d2 txt-edit flex-item" required="required"
+        data-label="Tên công ty" guild="step1" txt-guild="Nhập tên công ty của bạn" txt-demo="Công Ty Cổ Phần JobOKO Toàn Cầu" placeholder="Tên công ty" contenteditable="true"></div>
+    </div>
+
+    <div class="p1-d1">
+      <p class="tx_nm ">Tôi tên là:</p>
+      <div data-x-id="name" required="required" guild="step2" txt-guild="Nhập họ tên của bạn" txt-demo="Nguyễn Văn An" placeholder="Họ tên" data-label="Họ tên" class="line txt-edit flex-item"
+        contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Chức vụ:</p>
+      <div data-x-id="pos" required="required" guild="step3" txt-guild="Nhập chức vụ hiện tại ở công ty" txt-demo="Phó giám đốc kinh doanh" placeholder="Chức vụ" data-label="Chức vụ"
+        class="line txt-edit flex-item" contenteditable="true"></div>
+      <p class="tx_nm ">Bộ phận:</p>
+      <div data-x-id="depart" required="required" guild="step4" txt-guild="Nhập tên bộ phận" txt-demo="Marketing" placeholder="Bộ phận" data-label="Bộ phận"
+        class="line txt-edit flex-item" contenteditable="true"></div>
+    </div>
+
+    <div class="p1-d1">
+      <p class="tx_nm ">Nay tôi làm đơn này, kính xin Ban giám đốc cho tôi được thôi việc kể từ ngày </p>
+    </div>
+    <div class="p1-d1">
+      <div data-x-id="dayoff" data-label="Ngày nghỉ" guild="step5" txt-guild="Nhập ngày nghỉ" txt-demo="31/12/2022" required="required" placeholder="Nhập ngày nghỉ"
+        class="line txt-edit flex-item " style="padding-left: 0;" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1" style="margin-top: 35px;">
+      <p class="tx_nm ">Lý do </p>
+    </div>
+    <div class="p1-d1">
+      <div data-x-id="reason" style="padding-left: 0;" data-label="Lý do" required="required" placeholder="Nhập lý do"
+        class="line txt-edit d2 flex-item" contenteditable="true"></div>
+    </div>
+
+    <div class="p1-d1">
+      <p class=" ">Tôi sẽ bàn giao công việc cho: </p>
+      <div data-x-id="receiver" style="padding-left: 0;" data-label="Người nhận bàn giao" required="required"
+        placeholder="Người nhận bàn giao" class="line  txt-edit flex-item" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Bộ phận:</p>
+      <div data-x-id="departreceiver" required="required" placeholder="Bộ phận" data-label="Họ tên"
+        class="line txt-edit flex-item" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1" style="margin-bottom:0">
+      <p class="tx_nm ">Các công việc được bàn giao</p>
+
+    </div>
+    <div class="p1-d1">
+      <div data-x-id="jobreceiver" required="required" placeholder="Các công việc đã bàn giao"
+        data-label="Các công việc bàn giao" style="padding-left: 0;" class="line txt-edit d3 flex-item" contenteditable="true"></div>
+    </div>
+
+    <div class="p1-d1 " style="margin-top: 35px;">
+      <p style="line-height: 25px;">
+        Tôi cam đoan sẽ bàn giao công việc lại cho bộ phận có liên quan trước khi nghỉ việc.
+        <br />
+        <br />
+        Rất mong Ban Giám đốc xem xét và chấp thuận cho tôi được phép thôi việc. Tôi xin chân thành cảm ơn.
+      </p>
+    </div>
+    <br />
+    <div class="p1-d1  " >
+       <div class="flex-item text-center">
+         <b> Trưởng bộ phận </b> 
+         <br/>
+         (Ký và ghi rõ họ tên)
+       </div>
+       <div class="flex-item text-center">
+        <b>Người làm đơn</b>  
+        <br/>
+         (Ký và ghi rõ họ tên)
+      </div>
+    </div>
+
+  </div>
+</div>

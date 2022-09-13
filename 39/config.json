@@ -1,0 +1,14 @@
+﻿{
+  "langs": [ "vi","en"],
+  "colors": [ "2c3437","8cff66","538cc6","ffb366"],
+  "fonts": {
+    "default": "Roboto",
+    "arial": "Arial",
+    "tahoma": "Tahoma",
+	"yahei":"Microsoft Yahei",
+	"mincho":"MS Mincho",
+	"gulimche":"Gulimche"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

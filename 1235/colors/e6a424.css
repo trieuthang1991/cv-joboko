@@ -1,0 +1,12 @@
+#cv-document .page{background:linear-gradient(to right,#f5f5f5 24em,#fff 0);color:#000}
+@media screen and (max-width:767px){
+#cv-document .page{background:#fff}
+}
+#cv-document .full-width{border-color:#292928;background-color:#fff}
+#cv-document .full-width::before{border-color:#dad9d8}
+#cv-document .avatar{border-color:#e6a424;background-color:#fff}
+#cv-document .info-main{color:#292928}
+#cv-document .info-main::after,#cv-document .info-main::before{color:#000}
+#cv-document .heading::after{background-color:#e6a424}
+#cv-document .heading,#cv-document .info-detail{color:#292928}
+#cv-document .datetime{color:#414042}

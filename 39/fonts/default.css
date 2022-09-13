@@ -1,0 +1,6 @@
+#form-cv{
+	font-family: 'Roboto',sans-serif;
+}
+#form-cv *[contenteditable] {
+    font-family: 'Roboto',sans-serif !important;
+}

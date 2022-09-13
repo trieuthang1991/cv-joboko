@@ -1,0 +1,27 @@
+#form-cv{
+	border: solid 1px #f0c000;
+}
+
+#cv-content .head{
+	border-bottom: solid 3px #f0c000;
+}
+
+#form-cv{
+	border: solid 1px #f0c000;
+}
+
+#cv-content .head{
+	border-bottom: solid 3px #f0c000;
+}
+
+#cv-right .h3{
+	border-bottom: solid 3px #f0c000;
+}
+
+.bar-exp span {
+    background: #f0c000;
+}
+
+#cv-right .icoweb i.fa {
+     color: #f0c000; 
+}

@@ -1,0 +1,13 @@
+﻿{
+  "langs": [ "vi","en","ja","ko","zh"],
+  "colors": [ "19393e","4371b5","9b4746","3fb700","ff5964"],
+  "fonts": {
+    "default": "Segoe Print",
+    "arial": "Arial",
+    "tahoma": "Tahoma",
+    "roboto":"Roboto"
+    
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

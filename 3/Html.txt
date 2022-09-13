@@ -1,0 +1,283 @@
+<link href="https://i-vn.joboko.com/MyCV/css/bootstrap.min.left.css" rel="stylesheet" type="text/css" />
+<link href="https://i-vn.joboko.com/MyCV/templates/3/css/style.css" rel="stylesheet" type="text/css" />
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12">
+<div class="cv_wrap clearfix">
+    <div class="col_left">
+
+        <!-- Info -->
+        <div class="cv_info clearfix" data-x-name="item" data-x-id="info">
+            <div class="avatar clearfix">
+                <p class="avatarImg"> <img src="https://i-vn.joboko.com/upload/images/avatars/no_avatar.jpg" alt="" data-x-id="ava"> </p>
+                <div class="name">
+                    <h2 data-x-id="name" contenteditable="true">NGUYỄN THỊ THU HƯƠNG</h2>
+                    <p data-x-id="job" contenteditable="true">Nhân Viên Kinh Doanh</p>
+                </div>
+            </div>
+        </div>
+        <div data-x-name="group-item">
+            <div class="block clearfix" data-x-name="item" data-x-id="tar">
+                <div class="blockR">
+                    <h2 data-x-id="tit" contenteditable="true">Mục tiêu nghề nghiệp</h2>
+                    <div class="block_content">
+                        <div class="block_line" data-x-id="name" contenteditable="true">
+                            <div>
+                                Áp dụng những kinh nghiệm về kỹ năng bán hàng và sự hiểu biết về thị trường để trở thành một nhân viên bán hàng chuyên nghiệp, mang đến nhiều giá trị cho khách hàng. Từ đó giúp Công ty tăng số lượng khách hàng và mở rộng tập khách hàng.<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Block -->
+
+            <div class="block clearfix" data-x-name="item" data-x-id="edu">
+                <div class="blockR">
+                    <h2 data-x-id="tit" contenteditable="true">Đào Tạo</h2>
+                    <div class="block_content" data-x-name="list-item">
+                        <div class="block_line clearfix" data-x-name="sub-item">
+                            <h3 class="clearfix"> <span data-x-id="name" contenteditable="true">ĐẠI HỌC NGOẠI THƯƠNG VIỆT NAM</span></h3>
+                            <div class="cont_txt clearfix">
+                                <span data-x-id="cat" contenteditable="true">Chuyên ngành: Quản trị Doanh nghiệp</span> <span>|</span>
+                                <div data-x-id="des" contenteditable="true" class="normal">Tốt nghiệp loại Giỏi, điểm trung bình 8.0</div>
+                            </div>
+                            <p class="date"><img src="https://i-vn.joboko.com/MyCV/templates/3/images/ico6.png" alt=""> <em data-x-id="start" contenteditable="true">01/2000</em> - <em data-x-id="end" contenteditable="true">03/2005</em> </p>
+                        </div>
+                        <div class="block_line clearfix" data-x-name="sub-item">
+                            <h3 class="clearfix"> <span data-x-id="name" contenteditable="true">ĐẠI HỌC CÔNG NGHỆ BÁCH KHOA HÀ NỘI VIỆT NAM</span></h3>
+                            <div class="cont_txt clearfix">
+                                <span data-x-id="cat" contenteditable="true">Gia công cơ khí</span><span>|</span>
+                                <div data-x-id="des" contenteditable="true" class="normal">Chưa tốt nghiệp,&nbsp;</div>
+                            </div>
+                            <p class="date"><img src="https://i-vn.joboko.com/MyCV/templates/3/images/ico6.png" alt=""> <em data-x-id="start" contenteditable="true">01/2002</em> - <em data-x-id="end" contenteditable="true">03/2007</em> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block -->
+            <div class="block clearfix" data-x-name="item" data-x-id="exp">
+                <div class="blockR">
+                    <h2 data-x-id="tit" contenteditable="true">Kinh nghiệm làm việc</h2>
+                    <div class="block_content" data-x-name="list-item">
+                        <div class="block_line block_line2 clearfix" data-x-name="sub-item">
+                            <h3 class="clearfix"><img src="https://i-vn.joboko.com/MyCV/templates/3/images/ico7.png" alt="" class="imgDot"> <span data-x-id="name" contenteditable="true">CỬA HÀNG THỜI TRANG SỐ 2, CHÙA BỘC, HÀ NỘI</span> </h3>
+                            <div class="cont_txt"> <span data-x-id="pos" contenteditable="true">Nhân viên bán hàng</span> </div>
+                            <p class="date"><img src="https://i-vn.joboko.com/MyCV/templates/3/images/ico6.png" alt=""> <em data-x-id="start" contenteditable="true">01/2002</em> - <em data-x-id="end" contenteditable="true">03/2007</em> </p>
+                            <div class="cont_txt">
+                                <div data-x-id="des" contenteditable="true" class="normal">
+                                    - Bán hàng trực tiếp tại cửa hàng cho người nước ngoài và người Việt. <br>
+                                    - Quảng bá sản phẩm thông qua các ấn phẩm truyền thông: banner, poster, tờ rơi...<br>
+                                    - Lập báo cáo sản lượng bán ra hàng ngày
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block -->
+            <div class="block clearfix" data-x-name="item" data-x-id="skill">
+                <div class="blockR">
+                    <h2 data-x-id="tit" contenteditable="true">Kỹ năng</h2>
+                    <div class="block_content">
+                        <div class="cont_txt clearfix">
+                            <span data-x-id="name" contenteditable="true">Kỹ năng chính:</span>
+                            <div data-x-id="des" contenteditable="true" class="normal">Phát triển sự nghiệp cá nhân</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- block -->
+
+            <div class="block clearfix" data-x-name="item" data-x-id="hob">
+                <div class="blockR">
+                    <h2 data-x-id="tit" contenteditable="true">Sở Thích</h2>
+                    <div class="block_content">
+                        <div class="block_line" data-x-id="name" contenteditable="true">
+                            <div>- Đá bóng, bơi lội.</div>
+                            <div>- Văn nghệ,&nbsp;</div>
+                            <div>- Đi du lịch,&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- block -->
+
+            <div class="block clearfix" data-x-name="item" data-x-id="act">
+                <div class="blockR">
+                    <h2 data-x-id="tit" contenteditable="true">Hoạt động</h2>
+                    <div class="block_content" data-x-name="list-item">
+                        <div class="block_line clearfix" data-x-name="sub-item">
+                            <h3 class="clearfix"> <span data-x-id="name" contenteditable="true">NHÓM TÌNH NGUYỆN, Cơm 5.000đ</span></h3>
+                            <p class="date"><img src="https://i-vn.joboko.com/MyCV/templates/3/images/ico6.png" alt=""> <em data-x-id="start" contenteditable="true">01/2002</em> - <em data-x-id="end" contenteditable="true">03/2007</em> </p>
+                            <div class="cont_txt">
+                                <span data-x-id="pos" contenteditable="true">Tình nguyện viên</span>
+                                <div data-x-id="des" contenteditable="true" class="normal">
+                                    <div>Tập hợp các món quà và phân phát tới người vô gia cư.</div>
+                                    <div>Chia sẻ, động viên họ vượt qua giai đoạn khó khăn, giúp họ có những suy nghĩ lạc quan.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block -->
+            <div class="block clearfix" data-x-name="item" data-x-id="more">
+                <div class="blockR">
+                    <h2 data-x-id="tit" contenteditable="true">Thông tin khác</h2>
+                    <div class="block_content">
+                        <div class="block_line" data-x-id="name" contenteditable="true"> Nếu bạn cần thêm thông tin có thể cho tôi biết qua email hoặc điện thoại, tôi sẵn sàng cung cấp và chịu trách nhiệm về tính chính xác của thông tin trong CV này </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block -->
+
+            <div class="block clearfix" data-x-name="item" data-x-id="ref">
+                <div class="blockR">
+                    <h2 data-x-id="tit" contenteditable="true">Người tham chiếu</h2>
+                    <div class="block_content">
+                        <div class="block_line">
+                            <ul class="tc clearfix" data-x-name="list-item">
+                                <li data-x-name="sub-item">
+                                    <div data-x-id="name" contenteditable="true">
+                                        <div>Anh: Nguyễn Chiến Thắng</div>
+                                        <div>- Trưởng phòng Marketing</div>
+                                        <div>Công ty Cổ Phần công nghệ Việt Nam, Thuộc tập đoàn Việt Nam</div>
+                                        <div>Điện thoại:... 0905718889</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block -->
+
+            <div class="block clearfix" data-x-name="item" data-x-id="award">
+                <div class="blockR">
+                    <h2 data-x-id="tit" contenteditable="true">Giải thưởng</h2>
+                    <div class="block_content">
+                        <div class="block_line">
+                            <ul class="gt_lst" data-x-name="list-item">
+                                <li class="clearfix" data-x-name="sub-item"> <span data-x-id="name" contenteditable="true" class="gt_name">Tên giải thưởng</span> <span class="date" data-x-id="time" contenteditable="true">Năm</span> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block -->
+
+            <div class="block clearfix" data-x-name="item" data-x-id="pro">
+                <div class="blockR">
+                    <h2 data-x-id="tit" contenteditable="true">Dự án</h2>
+                    <div class="block_content" data-x-name="list-item">
+                        <div class="block_line" data-x-name="sub-item">
+                            <h3 class="clearfix"> <span data-x-id="name" contenteditable="true">TopCV - tạo cv</span></h3>
+                            <p class="date"><img src="https://i-vn.joboko.com/MyCV/templates/3/images/ico6.png" alt=""> <em data-x-id="start" contenteditable="true">03/2017</em> - <em data-x-id="end" contenteditable="true">01/2018</em> </p>
+                            <div class="cont_txt">
+                                <table>
+                                    <tr>
+                                        <th data-x-label="pro.cus">Khách hàng</th>
+                                        <td data-x-id="cus" contenteditable="true">X-Media</td>
+                                    </tr>
+                                    <tr>
+                                        <th data-x-label="pro.des">Mô tả dự án</th>
+                                        <td data-x-id="des" contenteditable="true">Tạo cv</td>
+                                    </tr>
+                                    <tr>
+                                        <th data-x-label="pro.mem">Thành viên</th>
+                                        <td data-x-id="mem" contenteditable="true">5</td>
+                                    </tr>
+                                    <tr>
+                                        <th data-x-label="pro.pos">Vị trí</th>
+                                        <td data-x-id="pos" contenteditable="true">lập trình viên</td>
+                                    </tr>
+                                    <tr>
+                                        <th data-x-label="pro.tech">Công nghệ</th>
+                                        <td data-x-id="tech" contenteditable="true">sql, html, php</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Block -->
+        </div>
+        </div>
+    <!-- Right -->
+    <div class="col_right">
+
+        <!-- Info -->
+        <div class="cv_info clearfix" data-x-name="item" data-x-id="info">
+            <h2 data-x-id="tit" contenteditable="true" class="ml_ttl">THÔNG TIN</h2>
+            <ul class="info">
+                <li>
+                    <p class="clearfix"> <img src="https://i-vn.joboko.com/MyCV/templates/3/images/ico1.png" alt=""> <span data-x-id="gen" contenteditable="true">Nữ</span> </p>
+                    <p class="clearfix"> <img src="https://i-vn.joboko.com/MyCV/templates/3/images/ico2.png" alt=""> <span data-x-id="dob" contenteditable="true">01/10/1980</span> </p>
+                    <p class="clearfix"> <img src="https://i-vn.joboko.com/MyCV/templates/3/images/ico3.png" alt=""> <span data-x-id="tel" contenteditable="true">0905718888</span> </p>
+                    <p class="clearfix"> <img src="https://i-vn.joboko.com/MyCV/templates/3/images/ico4.png" alt=""> <span data-x-id="email" contenteditable="true">anhpt911@gmail.com</span> </p>
+                    <p class="clearfix"> <img src="https://i-vn.joboko.com/MyCV/templates/3/images/ico5.png" alt=""> <span data-x-id="add" contenteditable="true">Cầu Giấy, Hà Nội</span> </p>
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div data-x-name="group-item">
+            <!-- block -->
+            <div class="right_block" data-x-name="item" data-x-id="skill_th">
+                <h2 data-x-id="tit" contenteditable="true" class="ml_ttl">TIN HỌC</h2>
+                <ul class="cc_lst" data-x-name="list-item">
+                    <li data-x-name="sub-item">
+                        <h3 data-x-id="name" contenteditable="true">Words</h3>
+                        <p><img src="https://i-vn.joboko.com/MyCV/templates/3/images/1.png" data-x-id="val" value="1" alt=""></p>
+                    </li>
+                    <li data-x-name="sub-item">
+                        <h3 data-x-id="name" contenteditable="true">Excel</h3>
+                        <p><img src="https://i-vn.joboko.com/MyCV/templates/3/images/2.png" data-x-id="val" value="2" alt=""></p>
+                    </li>
+                    <li data-x-name="sub-item">
+                        <h3 data-x-id="name" contenteditable="true">PowerPoint</h3>
+                        <p><img src="https://i-vn.joboko.com/MyCV/templates/3/images/3.png" data-x-id="val" value="3" alt=""></p>
+                    </li>
+                    <li data-x-name="sub-item">
+                        <h3 data-x-id="name" contenteditable="true">Outlook</h3>
+                        <p><img src="https://i-vn.joboko.com/MyCV/templates/3/images/4.png" data-x-id="val" value="4" alt=""></p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- block -->
+            <div class="right_block" data-x-name="item" data-x-id="skill_ta">
+                <h2 data-x-id="tit" contenteditable="true" class="ml_ttl">TIẾNG ANH</h2>
+                <ul class="cc_lst" data-x-name="list-item">
+                    <li data-x-name="sub-item">
+                        <h3 data-x-id="name" contenteditable="true">Nghe</h3>
+                        <p><img src="https://i-vn.joboko.com/MyCV/templates/3/images/5.png" data-x-id="val" value="5" alt=""></p>
+                    </li>
+                    <li data-x-name="sub-item">
+                        <h3 data-x-id="name" contenteditable="true">Nói</h3>
+                        <p><img src="https://i-vn.joboko.com/MyCV/templates/3/images/4.png" data-x-id="val" value="4" alt=""></p>
+                    </li>
+                    <li data-x-name="sub-item">
+                        <h3 data-x-id="name" contenteditable="true">Đọc</h3>
+                        <p><img src="https://i-vn.joboko.com/MyCV/templates/3/images/3.png" data-x-id="val" value="3" alt=""></p>
+                    </li>
+                    <li data-x-name="sub-item">
+                        <h3 data-x-id="name" contenteditable="true">Viết</h3>
+                        <p><img src="templates/3/images/2.png" data-x-id="val" value="2" alt=""></p>
+                    </li>
+                </ul>
+            </div>
+            <!-- block -->
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>

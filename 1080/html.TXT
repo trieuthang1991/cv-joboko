@@ -1,0 +1,243 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap">
+<link rel="stylesheet" id ="cv-font-size-css" href="https://i-vn0.joboko.com/MyCv/templates/1080/font-sizes/font_normal.css">
+<link rel="stylesheet" id ="cv-font" href="https://i-vn0.joboko.com/MyCv/templates/1080/fonts/default.css">
+<link rel="stylesheet" id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/1080/css/CV-edit.css?v=3.6"> 
+<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn0.joboko.com/MyCv/templates/1080/colors/54a62f.css">
+
+<div id="form-cv" data-x-name="parrent">
+		<div page='1' class="page pagemax bgpage">
+			<div class="top-banner" data-x-name="item" data-x-id="info">
+				<div class="contain-head">
+					<div class="txthead">
+						<p class="txt1">CV</p>
+						<p class="txt2" contenteditable="true" data-x-id ="name">NGUYỄN THẢO TRANG</p>
+					</div><!-- txthead -->
+					<p class="txtfb"><span contenteditable="true" data-x-id ="web">Fb.com/jobokofanpage</span></p>
+				</div><!-- contain-head -->
+				<div class="pos-em" data-x-rel="job">
+					<span class="txtpos" data-x-id ="job" contenteditable="true">NHÂN VIÊN KINH DOANH</span>
+					<span class="posp"></span>
+				</div><!-- pos-em -->
+			</div><!-- top-banner -->
+			<div class="bxcontain">
+				<div data-x-name="col-parrent" data-x-col="1" class="col1">
+					<div class="height-curent">
+						<div data-x-name= "content" class="height_content">
+							<!-- Content col1 -->
+							<div data-x-name="item" data-x-id="info"> 
+<div data-x-id="gen" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
+ <img style='display:none' data-x-id="ava_vertica" src="https://i-vn0.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
+								<div class="avabx">
+									<p class="cimg"><img data-x-id="ava" src="images/anh-the-3x4.jpg"></p>
+								</div><!-- end avabx -->
+								<div class="bxitem">
+									<p class="htitle" data-x-name="head"><span class="dp-block" data-x-id="tit" contenteditable="true">Liên hệ</span></p>
+									<div class="bxinfo">
+										
+	                                    <div class="item2" data-x-rel="dob">
+	                                        <i class="fa fa-gift w-15" aria-hidden="true"></i>
+	                                        <p class="txtline1" data-x-id ="dob" contenteditable="true">20/08/1994</p>
+	                                    </div>
+	                                    <div class="item2" data-x-rel="tel">
+	                                        <i class="fa fa-mobile w-15" aria-hidden="true"></i>
+	                                        <p class="txtline1" data-x-id ="tel" contenteditable="true">0909 009 009</p>
+	                                    </div>
+	                                    <div class="item2" data-x-rel="email">
+	                                        <i class="fa fa-envelope-o w-15" aria-hidden="true"></i>
+	                                        <p class="txtline1" data-x-id ="email" contenteditable="true">ttrang112@gmail.com</p>
+	                                    </div>									
+										<div class="item2" data-x-rel="add">
+	                                        <i class="fa fa-home w-15" aria-hidden="true"></i>
+	                                        <p class="txtline1" data-x-id ="add" contenteditable="true">01 Trường Sơn, P.4, Q. Tân Bình,  TP. HCM</p>
+	                                    </div>
+									</div>
+								</div><!-- end bxitem -->
+							</div>
+							<div data-x-name="group-item"> 
+								<div class="bxitem" data-x-name="item" data-x-id="skill">
+									<p class="htitle2" data-x-name="head"><span class="dp-block" data-x-id="tit" contenteditable="true">Kỹ năng</span></p>
+									<div class="bxinfo" data-x-name="list-item">
+										<div class="subdv" data-x-name="sub-item">
+											<p data-x-id="name" contenteditable="true">HTML5 & CSS3</p>
+											<div class="cvo-skillrate-bar">
+		                                    	<div data-x-id="val" value="3" class="cvo-skillrate-value icon-skillrate-value dot" name="skill.val"></div>
+		                                    </div>
+		                                </div><!-- end subdv -->
+									</div>
+								</div><!-- end bxitem -->
+								<div class="bxitem" data-x-name="item" data-x-id="skill_ta">
+									<p class="htitle7" data-x-name="head"><span class="dp-block" data-x-id="tit" contenteditable="true">Ngôn ngữ</span></p>
+									<div class="list-skill-ta" data-x-name="list-item">
+										<div class="txtline5" data-x-name="sub-item">
+											<div class="skill-subrate">
+													<p class="txt3" data-x-id="name" contenteditable="true">Tiếng việt</p>
+									            	<div class="cvo-skillrate-bar radialProgressBar">
+									              		<div class="cvo-skillrate-value overlay" data-x-id="val" value ="1"></div>
+									            	</div>
+												</div>
+										</div><!-- end txtline5 -->
+									</div>
+								</div><!-- end bxitem -->
+<div class="bxitem" data-x-id="hob" data-x-name="item">
+									<p class="htitle9" data-x-name="head"><span class="dp-block" data-x-id="tit" contenteditable="true">Sở thích</span></p>
+									<div class="bxinfo2 pdl-35" data-x-name="list-item">
+										<div class="mrb-15" data-x-name="sub-item">
+												<div contenteditable="true" data-x-id="name">TOEIC</div>
+										</div><!-- end subdv2 -->
+									</div><!-- end bxinfo2 -->
+								</div><!-- end bxitem -->
+								<div class="bxitem" data-x-id="ref" data-x-name="item">
+									<p class="htitle3" data-x-name="head"><span data-x-id="tit" contenteditable="true">Người tham chiếu</span></p>
+									<div class="bxinfo2 pdl-35" data-x-name="list-item">
+										<div class="mrb-15" data-x-name="sub-item">
+												<div contenteditable="true" data-x-id="name">TOEIC</div>
+										</div><!-- end subdv2 -->
+									</div><!-- end bxinfo2 -->
+								</div><!-- end bxitem -->
+
+
+							</div>
+						
+						</div><!-- end .height_content -->
+					</div><!-- end .height-curent -->
+				</div><!-- end col1 -->
+				<div data-x-name="col-parrent" data-x-col="2" class="col2">
+					<div class="height-curent">
+						<div data-x-name= "content" class="height_content">
+							<!-- Content col2 -->
+							<div data-x-name="group-item">
+							<div class="bxitem" data-x-name="item" data-x-id="more">
+								<p class="htitle3" data-x-name="head"><span class="dp-block" data-x-id="tit" contenteditable="true">Giới thiệu</span></p>
+								<div class="bxinfo2" data-x-name="list-item">
+									<div class="subdv2 dp-block w-100" data-x-id="name" contenteditable="true">
+										Đạt chứng nhận CPA Việt Nam và chứng chỉ Kế toán trưởng với hơn 10 năm kinh nghiệm trong lĩnh vực kế toán và tài chính. Có kinh nghiệm trong kế toán, tính thuế và báo cáo cho khách hàng và tổ chức kinh doanh. Có kinh nghiệm chuyên môn với nhiều chương trình phần mềm kế toán phổ biến nhất (MISA, FAST). Đạo đức nghề nghiệp tốt, cam kết lưu giữ hồ sơ chính xác và toàn vẹn. Mong muốn tham gia nhóm các kế toán viên và giúp cải thiện tài chính của tổ chức.
+									</div>
+								</div><!-- end bxinfo2 -->
+							</div><!-- end bxitem -->
+							<div class="bxitem" data-x-name="item" data-x-id="tar">
+								<p class="htitle10" data-x-name="head"><span class="dp-block" data-x-id="tit" contenteditable="true">Giới thiệu</span></p>
+								<div class="bxinfo2" data-x-name="list-item">
+									<div class="subdv2 dp-block w-100" data-x-id="name" contenteditable="true">
+										Đạt chứng nhận CPA Việt Nam và chứng chỉ Kế toán trưởng với hơn 10 năm kinh nghiệm trong lĩnh vực kế toán và tài chính. Có kinh nghiệm trong kế toán, tính thuế và báo cáo cho khách hàng và tổ chức kinh doanh.
+									</div>
+								</div><!-- end bxinfo2 -->
+							</div><!-- end bxitem -->
+							<div class="bxitem" data-x-name="item" data-x-id="exp">
+								<p class="htitle4" data-x-name="head"><span class="dp-block" contenteditable="true" data-x-id="tit">Kinh nghiệm làm việc</span></p>
+								<div class="bxinfo2" data-x-name="list-item">
+									<div class="subdv2" data-x-name="sub-item">
+										<div class="bxst">
+											<div class="bxstl">
+												<p class="txthead2 capi-txt" contenteditable="true" data-x-id="name">Front-End Developer</p>
+												<p class="txti" contenteditable="true" data-x-id="pos">VietCV 2</p>
+											</div>
+											<div class="bxstr">
+												<span class="dp-block" contenteditable="true" data-x-id="start">10/2016</span> - <span class="dp-block" contenteditable="true" data-x-id="end">03/2018</span>
+											</div>
+										</div><!-- end bxst1 -->
+										<div class="fz-13" data-x-id="des" contenteditable="true">
+											<ul class="lst">
+												<li class="lst-li">Chịu trách nhiệm làm việc với nhiều dự án cùng lúc, thiết kế các trang web hấp dẫn, tương tác hàng ngày với các bạn thiết kế đồ họa, back-end developer và nhóm tiếp thị.</li>
+												<li class="lst-li">Phát triển và duy trì chức năng front-end của các trang web</li>
+												<li class="lst-li">Tham gia thảo luận với khách hàng để làm rõ những gì họ muốn.</li>
+											</ul>
+										</div>
+									</div><!-- end subdv2 -->
+								</div><!-- end bxinfo2 -->
+							</div><!-- end bxitem -->
+							<div class="bxitem" data-x-name="item" data-x-id="edu">
+								<p class="htitle5" data-x-name="head"><span class="dp-block" data-x-id="tit" contenteditable="true">Học vấn</span></p>
+								<div class="bxinfo2" data-x-name="list-item">
+									<div class="subdv2" data-x-name="sub-item">
+										<div class="bxst">
+											<div class="bxstl">
+												<p class="txthead2 capi-txt" data-x-id="name" contenteditable="true">BA và Thiết kế đồ hoạ</p>
+												<p class="txti" data-x-id="cat" contenteditable="true">Đại học VietCV 2</p>
+											</div>
+											<div class="bxstr">
+												<span class="dp-block" data-x-id="start" contenteditable="true">10/2016</span> - <span class="dp-block" data-x-id="end" contenteditable="true">03/2018 </span>
+											</div>
+										</div><!-- end bxst1 -->
+										<div class="fz-13" data-x-id="des" contenteditable="true">
+											<ul>
+												<li>Chịu trách nhiệm làm việc với nhiều dự án cùng lúc, thiết kế các trang web hấp dẫn, tương tác hàng ngày với các bạn thiết kế đồ họa, back-end developer và nhóm tiếp thị.</li>
+												<li>Phát triển và duy trì chức năng front-end của các trang web</li>
+												<li>Tham gia thảo luận với khách hàng để làm rõ những gì họ muốn.</li>
+											</ul>
+										</div>
+									</div><!-- end subdv2 -->
+								</div><!-- end bxinfo2 -->
+							</div><!-- end bxitem -->
+								<div class="bxitem" data-x-name="item" data-x-id="act">
+								<p class="htitle11" data-x-name="head"><span class="dp-block" data-x-id="tit" contenteditable="true">Hoạt động</span></p>
+								<div class="bxinfo2" data-x-name="list-item">
+									<div class="subdv2" data-x-name="sub-item">
+										<div class="bxst">
+											<div class="bxstl">
+												<p class="txthead2 capi-txt" data-x-id="name" contenteditable="true">BA và Thiết kế đồ hoạ</p>
+												<p class="txti" data-x-id="pos" contenteditable="true">Đại học VietCV 2</p>
+											</div>
+											<div class="bxstr">
+												<span class="dp-block" data-x-id="start" contenteditable="true">10/2016</span> - <span class="dp-block" data-x-id="end" contenteditable="true">03/2018 </span>
+											</div>
+										</div><!-- end bxst1 -->
+										<div class="fz-13" data-x-id="des" contenteditable="true">
+											<ul class="lst">
+												<li class="lst-li">Chịu trách nhiệm làm việc với nhiều dự án cùng lúc, thiết kế các trang web hấp dẫn, tương tác hàng ngày với các bạn thiết kế đồ họa, back-end developer và nhóm tiếp thị.</li>
+												<li class="lst-li">Phát triển và duy trì chức năng front-end của các trang web</li>
+												<li class="lst-li">Tham gia thảo luận với khách hàng để làm rõ những gì họ muốn.</li>
+											</ul>
+										</div>
+									</div><!-- end subdv2 -->
+								</div><!-- end bxinfo2 -->
+							</div><!-- end bxitem -->
+							<div class="bxitem" data-x-id="award" data-x-name="item">
+								<p class="htitle6" data-x-name="head"><span class="dp-block" data-x-id="tit" contenteditable="true">Giải thưởng</span></p>
+								<div class="bxinfo2 subdv2" data-x-name="list-item">
+									<div data-x-name="sub-item">
+										<div class="bxst">
+											<div class="bxstl">
+												<p class="txthead2" contenteditable="true" data-x-id="name">BA và Thiết kế đồ hoạ</p>
+											</div>
+											<div class="bxstr2"><p contenteditable="true" data-x-id="time">10/2016</p></div>
+										</div><!-- end bxst1 -->
+									</div><!-- end subdv2 -->
+								</div><!-- end bxinfo2 -->
+							</div><!-- end bxitem -->
+							<div class="bxitem" data-x-id="cer" data-x-name="item">
+								<p class="htitle8" data-x-name="head"><span class="dp-block" data-x-id="tit" contenteditable="true">Chứng chỉ</span></p>
+								<div class="bxinfo2 subdv2" data-x-name="list-item">
+									<div data-x-name="sub-item">
+										<div class="bxst">
+											<div class="bxstl">
+												<p class="txthead2" contenteditable="true" data-x-id="name">TOEIC</p>
+											</div>
+											<div class="bxstr2"><p contenteditable="true" data-x-id="time">10/2016</p></div>
+										</div><!-- end bxst1 -->
+									</div><!-- end subdv2 -->
+								</div><!-- end bxinfo2 -->
+							</div><!-- end bxitem -->
+							</div>
+						</div><!-- end .height_content -->
+					</div><!-- end .height-curent -->
+				</div><!-- end col2 -->
+			</div><!-- bxcontain -->
+		<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+		</div>
+	</div>
+<div id = 'page' class="page pagemax bgpage" style="display: none">
+	<div class="bxcontain">
+		<div data-x-name="col-parrent" data-x-col="1" class="col1">
+			<div class="height-curent">
+				<div data-x-name= "content" class="height_content"></div>
+			</div>
+		</div>
+
+		<div data-x-name="col-parrent" data-x-col="2" class="col2">
+					<div class="height-curent">
+						<div data-x-name= "content" class="height_content"></div>
+					</div>
+		</div>
+	</div> 
+	<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+</div>

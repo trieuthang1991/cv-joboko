@@ -1,0 +1,30 @@
+#cv-document .page--background{background:#fff;color:#1d1d1b}
+#cv-document .page--background::after{background:linear-gradient(to bottom,rgba(147,149,152,.5),rgba(147,149,152,.5)) no-repeat left top/2.5em 100%,linear-gradient(to bottom,#f1f2f2,#f1f2f2) no-repeat left 4em top/.4em 100%}
+@media screen and (max-width:767px){
+#cv-document .page--background::after{background:linear-gradient(to bottom,rgba(147,149,152,.5),rgba(147,149,152,.5)) no-repeat left top/1.5em 100%,linear-gradient(to bottom,#f1f2f2,#f1f2f2) no-repeat left 2em top/.4em 100%}
+}
+#cv-document .page--background:first-child::after{background:linear-gradient(to bottom,rgba(147,149,152,.5),rgba(147,149,152,.5)) no-repeat left top/2.5em 100%,linear-gradient(to bottom,#1d9099 19.6em,#fff 0) no-repeat left 4em top/.4em 23.6em,linear-gradient(to bottom,#f1f2f2,#f1f2f2) no-repeat left 4em top/.4em 100%}
+@media screen and (max-width:767px){
+#cv-document .page--background:first-child::after{background:linear-gradient(to bottom,rgba(147,149,152,.5),rgba(147,149,152,.5)) no-repeat left top/1.5em 100%,linear-gradient(to bottom,#1d9099 19.6em,#fff 0) no-repeat left 2em top/.4em 23.6em,linear-gradient(to bottom,#f1f2f2,#f1f2f2) no-repeat left 2em top/.4em 100%}
+}
+#cv-document .heading::after{background-color:#939598}
+#cv-document .heading__symbol{color:#1d9099}
+#cv-document .cvo-skillrate>span{border-color:#1d9099}
+#cv-document .cvo-skillrate[value="1"]>span:nth-child(-n+2){background-color:#1d9099}
+#cv-document .cvo-skillrate[value="2"]>span:nth-child(-n+4){background-color:#1d9099}
+#cv-document .cvo-skillrate[value="3"]>span:nth-child(-n+6){background-color:#1d9099}
+#cv-document .cvo-skillrate[value="4"]>span:nth-child(-n+8){background-color:#1d9099}
+#cv-document .cvo-skillrate[value="5"]>span{background-color:#1d9099}
+#cv-document .avatar{border-color:#fff}
+#cv-document .avatar img{border-color:#d1d3d4}
+#cv-document .info-main::before{background-color:#f1f2f2}
+#cv-document .info-main__title{color:#333}
+#cv-document .info-detail__item-icon{color:#1d9099}
+#cv-document .project__item-time{color:#1d9099}
+#cv-document .project__item-table{background-color:#f9f9f9}
+#cv-document .project__item-table::after{border-color:#bcbcbc}
+#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-color:#bcbec0}
+#cv-document .education__item-pos,#cv-document .experience__item-pos{color:#1d9099}
+#cv-document .education__item-date::before,#cv-document .experience__item-date::before{background-color:#bcbec0}
+#cv-document .cletter{border-color:#1d9099;background-color:#f8fcff}
+#cv-document .award__item::before,#cv-document .hobby__item::before,#cv-document .skill-th__item::before,#cv-document .skill__item::before{background-color:#1d9099}

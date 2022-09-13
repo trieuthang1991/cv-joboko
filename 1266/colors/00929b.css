@@ -1,0 +1,21 @@
+#cv-document .page--background{background:#fff;color:#1d1d1b}
+#cv-document .heading::before{border-color:#8698ad}
+#cv-document .heading__title::before{background-color:#fff}
+#cv-document .heading__title>div{background-color:#ddf2f1}
+#cv-document .avatar{background-color:#fff}
+#cv-document .info-main{background-color:rgba(221,242,241,.3)}
+#cv-document .info-main__text{color:#00929b}
+#cv-document .info-detail__item{border-bottom-color:rgba(207,209,210,.5)}
+#cv-document .target::before{border-color:#8698ad}
+#cv-document .project__item::after{border-color:#00929b}
+#cv-document .project__item-head{background-color:#00929b;color:#fff}
+#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-color:#00929b}
+#cv-document .action__item-content::before{background-color:#00929b}
+#cv-document .action__item-content::after{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2 9.85'%3E%3Cg data-name='Layer 2'%3E%3Cg data-name='Layer 1'%3E%3Ccircle cx='1' cy='1' r='1' style='fill:%2300929b'/%3E%3Cpath style='fill:none' d='M0 0h2v9.85H0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat-y left top}
+#cv-document .action__item-pos{color:#00929b}
+#cv-document .education__item-head::before,#cv-document .experience__item-head::before{background-color:#00929b}
+#cv-document .education__item-pos,#cv-document .experience__item-pos{color:#00929b}
+#cv-document .education__item-date::before,#cv-document .experience__item-date::before{background-color:#bcbec0}
+#cv-document .cletter::before{border-color:#8698ad}
+#cv-document .action-2__item-pos{color:#00929b}
+#cv-document .action-2__item::before,#cv-document .award__item::before,#cv-document .hobby__item::before,#cv-document .references__item::before,#cv-document .skill__item::before{border-color:#00929b}

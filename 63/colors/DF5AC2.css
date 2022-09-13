@@ -1,0 +1,37 @@
+.cv-progress-bar-flow {
+  background-color: #f8ca04;
+  color: #f8ca04; 
+}
+.cv-progress-bar-flow.level-inactive:not(.high-light) {
+    background-color: #ededed !important;
+    color: #ededed !important; 
+}
+.bg-primary {
+      background-color: #DF5AC2 !important;
+    
+}
+.bg-opaque-primary {
+      background-color: rgba(223, 90, 194, 0.12890625) !important;
+    
+}
+.bg-secondary {
+      background-color: #752A65 !important;
+    
+}
+.text-primary {
+      color: #DF5AC2 !important;
+    
+}
+.text-secondary {
+      color: #752A65 !important;
+    
+}
+.bar-exp span {
+      display: block;
+      height: 100%;
+      background: #DF5AC2;
+  }
+  .bar-exp {
+      background: #fff;
+      border: 2px solid #752A65; 
+  }

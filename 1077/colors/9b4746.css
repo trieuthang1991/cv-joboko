@@ -1,0 +1,32 @@
+.col_top .h-curent {
+	background: #9b4746;
+}
+.tit-item {
+	color: #9b4746;
+}
+.info2_col_bottom .icoweb-left{
+	background: #9b4746;
+}
+.info2_col_bottom .icoweb-left:before{
+	border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+	border-bottom: 5px solid #9b4746;
+}
+.info2_col_bottom .icoweb-left:after {
+	border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 5px solid #9b4746;
+}
+.icon_tit > .icon_TitItem {
+    color: #9b4746;
+    border: 1px solid #9b4746;
+}
+.line_tit{
+	border-bottom: 1px solid #9b4746;
+}
+.skillrate-value {
+	color: #9b4746;
+}
+.skill_val .skillrate-value:after{
+    border-top: 2px solid #9b4746;
+}

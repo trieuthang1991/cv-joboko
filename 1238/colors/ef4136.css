@@ -1,0 +1,12 @@
+#cv-document .page{color:#000;background:linear-gradient(to right,#ef4136,#ef4136) no-repeat left bottom/100% 2em,#eeedee}
+#cv-document .page:not(:first-child) .page__inner{background:linear-gradient(to right,#f9f9f9 32.6em,transparent 0) no-repeat}
+@media screen and (max-width:767px){
+#cv-document .page:not(:first-child) .page__inner{background:linear-gradient(to bottom,#f9f9f9 4.2em,transparent 0) no-repeat}
+}
+#cv-document .two-up__left{background-color:#f9f9f9;color:#000}
+#cv-document .avatar{background:linear-gradient(to bottom,#ef4136 68%,#eeedee 0)}
+#cv-document .info-main__title{background-color:#ef4136;color:#fff}
+#cv-document .info-main__text{color:#404041}
+#cv-document .info-detail__item-icon{background-color:#ef4136;color:#fff}
+#cv-document .heading{border-bottom-color:#ef4136}
+#cv-document .job-position{color:#414042}

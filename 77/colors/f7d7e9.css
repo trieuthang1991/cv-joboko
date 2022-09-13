@@ -1,0 +1,17 @@
+.footer-row {
+    background: #f7d7e9 !important;
+}
+.progress-core {
+    background: #dd72af !important;
+}
+.details-heading, .details-heading::after {
+    color: #dd72af !important;
+}
+.info-heading, #contact-footer-2 span:first-child, #banner-heading, #banner-job, 
+#banner-header-second span, #banner-header-second i {
+    color: #c93180 !important;
+}
+.header-row {
+    background: url(/MyCV/templates/77/images/bg_f7d7e9.jpg) no-repeat;
+    background-size: 100% 100%;
+}

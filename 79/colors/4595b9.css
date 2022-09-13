@@ -1,0 +1,35 @@
+.titleh i {
+    color: #4595b9 !important;
+}
+  
+.titleh i::after {
+    border-bottom: 8px solid #4595b9 !important;
+}
+
+.div-content div::before {
+    color: #4595b9 !important;
+}
+
+
+.div-content div div span::before {
+    color: #4595b9 !important;
+}
+
+.about-me-info { 
+    background: #4595b9 !important;
+}
+#me-info {
+    background: #2d8399 !important;
+}
+
+#skills .progress-core {
+    background: #192b18 !important;
+}
+
+#maxim {
+    background: #eff8fa !important;
+}
+
+.header-row {
+    background: #85b9b6 !important;
+}

@@ -1,0 +1,14 @@
+/* Font large */
+#cvo-profile-fullname {
+    font-size: 28px;
+    line-height: 1em;
+}
+#cvo-profile-title {
+    font-size: 15px;
+}
+.cvo-block-body {
+    font-size: 15px;
+}
+.cvo-block-header {
+    font-size: 23px;
+}

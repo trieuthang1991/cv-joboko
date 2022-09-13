@@ -1,0 +1,19 @@
+#cv-document .page{background:linear-gradient(to right,#292929 28em,#fff 0);color:#000}
+@media screen and (max-width:575px){
+#cv-document .page{background:linear-gradient(to bottom,#292929 5em,#fff 0)}
+}
+#cv-document .title::after{background-color:#00a79d}
+#cv-document .two-up__left{color:#fff}
+@media screen and (max-width:575px){
+#cv-document .two-up__left{background-color:#292929}
+}
+#cv-document .two-up__right{color:#000}
+@media screen and (max-width:575px){
+#cv-document .full-width{background-color:#292929}
+}
+#cv-document .full-width__background{background-color:#49d6c9}
+#cv-document .full-width__background::before{background-color:#35bcaf}
+#cv-document .full-width__background::after{background-color:#00a79d}
+#cv-document .avatar{background-color:#fff}
+#cv-document .info-main{color:#fff}
+#cv-document .info-detail__item-icon{color:#00a79d}

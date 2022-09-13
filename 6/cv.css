@@ -1,0 +1,375 @@
+#cv-layout .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+    font-weight: 400
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(assets/fonts/Roboto-Bold.ttf);
+    font-weight: 700
+}
+
+.cvo-document .cvo-page {
+    padding: 0;
+    position: relative
+}
+
+.cvo-document .cvo-subpage {
+    padding: 0
+}
+
+#cvo-body {
+    padding: 0;
+    padding-bottom: 10mm;
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #494949;
+    font-family: roboto, Arial, sans-serif
+}
+
+@media print {
+    #cvo-body {
+        padding: 0
+    }
+    .cvo-document .cvo-page {
+        position: initial
+    }
+}
+
+#cvo-body:after,
+#group-header:after,
+#group-top:after,
+#cvo-profile:after {
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    width: 0
+}
+
+.cvo-col-5 {
+    float: left;
+    width: 41.6666666667%
+}
+
+.cvo-col-6 {
+    float: left;
+    width: 50%
+}
+
+.cvo-col-7 {
+    float: left;
+    width: 58.3333333333%
+}
+
+.cvo-col-9 {
+    float: left;
+    width: 75%
+}
+
+.cvo-col-8 {
+    float: left;
+    width: 66.6666666667%
+}
+
+.cvo-col-4 {
+    float: left;
+    width: 33.3333333333%
+}
+
+.cvo-col-3 {
+    float: left;
+    width: 25%
+}
+
+#group-header {
+    background-color: #479b9d;
+    min-height: 200px;
+    padding: 30px;
+    color: #fff;
+    box-sizing: border-box
+}
+
+#group-header .cvo-col-3 {
+    text-align: right
+}
+
+#cvo-profile-fullname-wraper {
+    margin-top: 60px;
+    margin-bottom: 10px
+}
+
+#cvo-profile-fullname {
+    font-size: 40px;
+    line-height: 1em;
+    font-weight: 400;
+    text-transform: capitalize
+}
+
+#cvo-profile-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #733c59
+}
+
+#cvo-profile-avatar-wraper {
+    display: inline-block;
+    height: 150px;
+    width: 150px
+}
+
+#cvo-profile-avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%
+}
+
+#group-top {
+    background-color: #f6f6f6;
+    padding: 15px 25px
+}
+
+#group-left .cvo-block:last-child,
+#group-right .cvo-block:last-child {
+    margin-bottom: 0
+}
+
+#cvo-profile .contact-item {
+    position: relative;
+    margin-bottom: 5px
+}
+
+#cvo-profile .contact-item>span {
+    display: inline-block
+}
+
+#contact-item-label:after {
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    width: 0
+}
+
+#cvo-profile .contact-item-label {
+    font-weight: 400;
+    color: #333;
+    width: 32%;
+    float: left;
+    padding-right: 5px
+}
+
+#cvo-profile .contact-item>span {
+    width: 58%;
+    padding-left: 10px;
+    word-break: break-word
+}
+
+#group-left {
+    padding: 20px 0 20px 20px
+}
+
+#group-right {
+    padding: 20px 20px 20px 0
+}
+
+#group-left .cvo-block,
+#group-right .cvo-block {
+    padding: 10px;
+    margin-bottom: 20px
+}
+
+.cvo-block-header {
+    position: relative;
+    margin-bottom: 10px
+}
+
+.cvo-block-header span {
+    font-size: 24px;
+    color: #479b9d;
+    font-weight: 400
+}
+
+.cvo-block-body {
+    word-break: break-word
+}
+
+.cvo-education-title,
+.cvo-experience-position,
+.cvo-activity-position {
+    font-weight: 400;
+    color: #479b9d
+}
+
+.cvo-education-school,
+.cvo-experience-company,
+.cvo-activity-organization {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333
+}
+
+.cvo-skillrate-bar {
+    background-color: #e3ecec;
+    width: 100%;
+    height: 7px;
+    position: relative;
+    margin-top: 3px
+}
+
+.cvo-skillrate-value {
+    width: 80%;
+    height: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #479b9d
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="1"] {
+    width: 20%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="2"] {
+    width: 40%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="3"] {
+    width: 60%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="4"] {
+    width: 80%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="5"] {
+    width: 100%
+}
+
+#interest-table .row {
+    width: 50%;
+    float: left;
+    margin-bottom: 5px
+}
+
+#cvo-certification .row,
+#cvo-award .row,
+#cvo-education .row,
+#cvo-activity .row,
+#cvo-experience .row {
+    position: relative;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    margin-top: 0;
+    position: relative
+}
+
+#cvo-certification .row hr,
+#cvo-award .row hr,
+#cvo-education .row hr,
+#cvo-activity .row hr,
+#cvo-experience .row hr {
+    border: 0;
+    border-bottom: 1px solid #e3ecec;
+    margin-bottom: 15px;
+    margin-top: 5px
+}
+
+#cvo-certification .cvo-block-header,
+#cvo-award .cvo-block-header,
+#cvo-education .cvo-block-header,
+#cvo-activity .cvo-block-header,
+#cvo-experience .cvo-block-header {
+    margin-bottom: 0
+}
+
+.cvo-award-time,
+.cvo-certification-time {
+    background-color: #fff;
+    padding-left: 10px
+}
+
+.cvo-time-transparent,
+.cvo-education-time,
+.cvo-experience-time,
+.cvo-activity-time {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    padding-left: 10px;
+    color: #479b9d;
+    font-weight: 400;
+    width: 100%;
+    text-align: right
+}
+
+.time-background {
+    background-color: #fff;
+    padding-left: 10px
+}
+
+#cvo-certification .row,
+#cvo-award .row,
+#cvo-skillrate .row,
+#cvo-reference .row {
+    margin-bottom: 10px
+}
+
+#cvo-education .row:last-child,
+#cvo-activity .row:last-child,
+#cvo-experience .row:last-child,
+#cvo-certification .row:last-child,
+#cvo-award .row:last-child,
+#cvo-skillrate .row:last-child,
+#cvo-reference .row:last-child {
+    margin-bottom: 0
+}
+
+#cvo-profile-phone,
+#cvo-profile-email {
+    min-width: 180px
+}
+
+#cv-watermark {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    font-size:11px;letter-spacing:2px;
+    color: #999
+}
+#cv-watermark a{color:#999;text-decoration:none}
+#line-seperate {
+    height: 25px;
+    background-color: #e3ecec
+}
+[contentEditable=true]
+{
+    display: inline-block;
+}
+.contact-item span{
+	width:90%;
+}
+.contact-item span:hover, .contact-item span:focus
+{
+	border: 0px dashed #0ba25e;
+	outline: 1pt dashed #77a5cc;
+}
+
+[data-x-id=des],[data-x-id=name]{
+	width:100%;
+}
+[data-x-id=job]
+{
+	min-width:50%;
+}
+[data-x-id=tit],[data-x-id=pos],[data-x-id=cat]
+{
+	min-width:70%;
+}

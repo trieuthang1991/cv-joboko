@@ -1,0 +1,27 @@
+
+#form-cv{
+	border: solid 1px #000099;
+}
+
+#cv-top h1{   
+    color:#000099;
+}
+
+#cv-right .h3, #cv-content .head{
+    color: #000099;    
+}
+
+#cv-content h3{	
+    color: #000099;
+}
+
+#cvo-profile-avatar-wraper{
+	border:3px solid #000099;	
+}
+
+.bar-exp span {
+    background: #000099;
+}
+#cv-right .icoweb i.fa{
+    color: #000099;
+}

@@ -1,0 +1,199 @@
+﻿{
+  "config": {
+    "lang": "en",
+    "cvcolor": "000000",
+    "cvfont": "default",
+    "cvfontsize": "normal",
+    "cvspacing": "normal"
+  },
+  "info": {
+    "tit": "Basic information",
+    "name": "Your full name",
+    "job": "Job's position",
+    "gen": "Men",
+    "dob": "10/11/1995",
+    "tel": "0123456789",
+    "email": "hotro.goodcv@gmail.com",
+    "add": "Cau Giay, Ha Noi",
+    "web": "fb.com/goodcv",
+    "ava": "/Upload/images/avatars/no_avatar.jpg"
+  },
+  "tar": {
+    "tit": "Target",
+    "sts": "1",
+    "i": "0",
+    "list": [
+      {
+        "name": ""
+      }
+    ]
+  },
+  "edu": {
+    "tit": "Education",
+    "sts": "1",
+    "i": "1",
+    "list": [
+      {
+        "name": "School's name",
+        "cat": "Major",
+        "des": "Description",
+        "start": "08/2012",
+        "end": "03/2017"
+      }
+    ]
+  },
+  "exp": {
+    "tit": "Expericence",
+    "sts": "1",
+    "i": "2",
+    "list": [
+      {
+        "name": "Company's name",
+        "pos": "Position",
+        "start": "04/2017",
+        "end": "Now",
+        "des": "Description"
+      }
+    ]
+  },
+  "act": {
+    "tit": "Activities",
+    "sts": "1",
+    "i": "3",
+    "list": [
+      {
+        "name": "Organization's name",
+        "start": "01/2012",
+        "end": "03/2018",
+        "pos": "Position",
+        "des": "Description"
+      }
+    ]
+  },
+  "more": {
+    "tit": "More information",
+    "sts": "1",
+    "i": "4",
+    "list": [
+      {
+        "name": ""
+      }
+    ]
+  },
+  "ref": {
+    "tit": "References",
+    "sts": "1",
+    "i": "5",
+    "list": [
+      {
+        "name": "Name, company, phone, email,..."
+      }
+    ]
+  },
+  "award": {
+    "tit": "Award",
+    "sts": "1",
+    "i": "6",
+    "list": [
+      {
+        "name": "Award's name",
+        "time": "2017"
+      }
+    ]
+  },
+  "cer": {
+    "tit": "Certification",
+    "sts": "1",
+    "i": "6",
+    "list": [
+      {
+        "name": "Certification's name",
+        "time": "2017"
+      }
+    ]
+  },
+  "skill": {
+    "tit": "Skill",
+    "sts": "1",
+    "i": "7",
+    "list": [
+      {
+        "name": "Skill's name",
+        "des": "Skill's description"
+      }
+    ]
+  },
+  "hob": {
+    "tit": "Hobbies",
+    "sts": "1",
+    "i": "8",
+    "list": [
+      {
+        "name": "Your hobbies"
+      }
+    ]
+  },
+  "pro": {
+    "tit": "Project",
+    "sts": "1",
+    "i": "9",
+    "list": [
+      {
+        "name": "Project's name",
+        "start": "03/2017",
+        "end": "01/2018",
+        "cus": "Project's customer",
+        "des": "Project's description",
+        "mem": "Project's member",
+        "pos": "Your position",
+        "tech": "Technical"
+      }
+    ]
+  },
+  "skill_th": {
+    "tit": "Computer",
+    "sts": "1",
+    "i": "0",
+    "list": [
+      {
+        "name": "Words",
+        "val": "1"
+      },
+      {
+        "name": "Excel",
+        "val": "2"
+      },
+      {
+        "name": "PowerPoint",
+        "val": "3"
+      },
+      {
+        "name": "Outlook",
+        "val": "4"
+      }
+    ]
+  },
+  "skill_ta": {
+    "tit": "English",
+    "sts": "1",
+    "i": "1",
+    "list": [
+      {
+        "name": "Listen",
+        "val": "3"
+      },
+      {
+        "name": "Speak",
+        "val": "4"
+      },
+      {
+        "name": "Read",
+        "val": "3"
+      },
+      {
+        "name": "Write",
+        "val": "2"
+      }
+    ]
+  }
+}

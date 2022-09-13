@@ -1,0 +1,226 @@
+#page-cv{
+width: 1072px;
+float: left;
+}
+#form-cv{
+min-height: 1200px;	
+float: left;
+position: relative;
+background: #bfbdc2;
+font-size: 14px;
+line-height: 24px;
+}
+#form-cv p{
+margin-top: 0;
+margin-bottom: 12px
+}
+#form-cv .h3{
+    font-size:14px
+}
+#sortable .cvo-block{
+margin-bottom: 10px
+}
+#cv-main{
+display: table;
+}
+#cv-top{	
+color: #000;	
+background: #2c3437;
+box-sizing:border-box
+}
+#cv-content{
+width: 59.6%;
+min-height: 945px;
+float: right;
+position: relative;
+padding:0 0 0 5px;
+background: #e1dfe2;
+color: #232323;
+box-sizing:border-box
+}
+#cv-content .cvo-block {
+    position: relative;
+    padding: 5px 10px;
+}
+#cv-right{
+width: 39.6%;
+min-height: 863px;
+float: left;	
+position: relative;box-sizing:border-box
+}
+/*p.skill-name input{
+color:#fff;
+}*/
+#cv-right .ctbx {
+padding-bottom: 0;
+margin:0;
+display: table;
+width: 100%;
+}
+.skill{
+margin-top: 15px
+}
+#cv-top h1{
+font-size: 32px;	
+margin-top: 80px;
+margin-bottom:10px;
+line-height: normal;
+text-transform: uppercase;
+text-shadow: -2px 2px #a6a7a8;
+font-weight: 700;
+width: 65%;
+float: left;
+text-align: center;
+border: solid 2px #ffffff;
+padding: 7px;
+}
+#cv-top h1 span{
+color: #ffffff
+}
+#cv-top h2{
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 12px;
+color: #f7f7f7;
+font-style: italic;
+width: 65%;
+float: left;
+text-align: center;
+}
+.box-01 p{		
+overflow: hidden;
+}
+.box-01{		
+overflow: hidden
+}
+#cv-content .ir{
+}
+#cv-content p{
+margin-bottom: 5px
+}
+#cv-content .ir a{
+color: #2ebb2f
+}
+#cv-right .h3, #cv-content .head{
+font-size: 18px;
+/*color: #fff;*/
+font-weight: bold;
+margin-top: 0;
+text-transform: uppercase;
+}
+#cv-content h3{	
+font-weight: bold;
+font-size: 14px;line-height: 30px;
+margin-bottom: 10px;
+}
+#cv-right .h3 span{
+padding: 0px 15px;
+margin: 5px 0px;
+}
+#cv-content span[contenteditable]{
+display: inline-block;
+background: #e1dfe2;
+padding-right: 10px;
+padding-left: 10px;
+color: #232323;
+}
+#cv-right .h3:first-child{
+margin-top: 0
+}
+.ctbx{
+margin-bottom: 25px;
+position: relative;
+}
+.ctbx .r5 .h3{
+text-transform: uppercase;
+}
+.ctbx:hover {
+box-shadow: 0 0 1px #999;
+}
+.ctbx:hover .fieldgroup_controls{
+display: block;
+}
+[cvo-form-field] {
+cursor: text;
+}
+#cvo-profile-avatar-wraper{	
+padding:15px 0px 0px;
+float: left;
+margin: 20px 20px 30px 38px;
+}
+#cvo-profile-avatar-wraper #cvo-profile-avatar{
+padding: 5px;
+border:solid 2px #ffffff;
+width: 190px;
+height: 190px;
+box-sizing: border-box;
+}
+#line-seperate {
+height: 25px;
+background-color: #e3ecec;
+}
+.bar-exp span {
+display:block;
+height: 8px;
+background: #7c7a79;
+}
+.bar-exp{
+background: #e3ecec;
+margin-bottom:12px
+}
+.icoweb label{
+display: block;
+color:#627e88;
+}
+#cv-right .icoweb span{
+display: block;
+}
+.box-contact{
+padding:15px!important;
+}
+#sortable .icoweb i.fa{
+width: 20px;
+height: 20px;
+background-color: #7c7a79;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+display: inline-block;
+text-align: center;
+font-size: 10px;
+line-height: 20px;
+color: #ffffff!important;
+margin-right: 10px;
+margin-top: 3px;float:left
+}
+.exp-content{
+padding-left: 15px;
+}
+.head i.fa, .h3 i.fa{
+font-size: 12px;
+border: solid 1px #7c7a79;
+border-radius: 50%;
+color: #7c7a79;
+background: white;
+margin-bottom: 5px;
+text-align: center;
+padding: 4px;
+}
+.block{padding: 0 10px;}
+.cvo-skillrate-value[value="1"]{width:20%}
+.cvo-skillrate-value[value="2"]{width:40%}
+.cvo-skillrate-value[value="3"]{width:60%}
+.cvo-skillrate-value[value="4"]{width:80%}
+.cvo-skillrate-value[value="5"]{width:100%}
+span[contenteditable]{display:inline-block}
+span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
+em[contenteditable]{display:inline-block}
+p.head i.fa{float:left}
+@media screen and (max-width: 790px) {
+    #cv-top{width:100%;text-align:center;float:none}
+    #cvo-profile-avatar-wraper{float:none;margin:0}
+    #cv-top h1,#cv-top h2{float:none;width:90%;margin:10px auto}
+    #cv-right{width:100%;min-height:100px;float:none}
+    #cv-content{width:100%;float:none;min-height:100px;float:none}
+
+}

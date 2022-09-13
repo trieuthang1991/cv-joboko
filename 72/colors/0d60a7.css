@@ -1,0 +1,10 @@
+.right-content-cv,
+.line-org-l,
+.line-org {
+	background-color: #0d60a7;
+}
+
+.line-org-l:before,
+.line-org:before {
+	border: solid 2px #0d60a7;
+}

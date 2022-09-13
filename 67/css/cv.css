@@ -1,0 +1,397 @@
+#form-cv {
+    border: solid 1px #716d6d
+}
+
+    #form-cv * {
+        box-sizing: border-box !important;
+    }
+
+.avatar-info-me-info {
+    display: block;
+    padding-top: 20px;
+}
+
+.avatar-group {
+    width: 230px;
+    height: 160px;
+    overflow: hidden;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 190px / 130px;
+    border: solid 7px #5a5151
+}
+
+.avatar {
+    padding-top: 2px;
+    width: 215px;
+    height: 145px;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 190px / 130px;
+}
+
+.bg-cv {
+    background: #faf5d7;
+}
+
+.bg-main {
+    background: #4992a3;
+}
+
+.header .info-me {
+    text-align: center;
+    color: #666665;
+    padding: 5px 0;
+}
+
+.info-customer {
+    background: #4992a3;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    background: url(/MyCv/templates/67/images/img1.png) center no-repeat;
+    height: 120px;
+    position: absolute;
+    top: -15px;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    min-height: 500px;
+    display: table;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+
+.cv-left {
+    border-right: 1px solid #ffffff;
+    width: 50%;
+    padding-left: 15px;
+    float: left;
+}
+
+.cv-right {
+    border-left: 1px solid #ffffff;
+    width: 50%;
+    padding-left: 15px;
+    float: left;
+}
+
+.main-header {
+    display: block;
+    padding: 5px 0 5px 15px;
+    color: white;
+    text-transform: uppercase;
+    margin: 5px 0 0px 0;
+}
+
+.info-main {
+    padding-left: 5px;
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+i.fa-play {
+    color: white;
+    float: left;
+    padding-top: 15px;
+    width: 3%;
+}
+
+.main-header {
+    float: left;
+    width: 95%;
+}
+
+.sub-main-header {
+    float: left;
+}
+
+.main-content {
+    float: left;
+    width: 95%;
+    height: auto;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.float-100 {
+    float: left;
+    width: 100%;
+}
+
+.form,
+.to {
+    width: 55px;
+    float: left;
+    text-align: center;
+}
+
+.time {
+    width: 120px;
+    float: left;
+    padding-top: 5px;
+}
+
+.name-header {
+    width: 100%;
+    float: left;
+}
+
+.pos-header {
+    width: 100%;
+    float: left;
+}
+
+.name-header .detail-name {
+    float: left;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.pos-header .detail-name {
+    float: left;
+    width: 60%;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.ex {
+    width: 2%;
+    float: left;
+    padding-top: 5px;
+}
+
+.ex2 {
+    float: left;
+    padding: 0 1px;
+}
+
+.font-size2 {
+    font-size: 25px;
+}
+
+.font-size3 {
+    font-size: 18px;
+}
+
+.detail-content {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bar-exp {
+    background: #fff;
+}
+
+.cvo-skillrate-value[value="1"] {
+    width: 20%;
+}
+
+.cvo-skillrate-value[value="2"] {
+    width: 40%;
+}
+
+.cvo-skillrate-value[value="3"] {
+    width: 60%;
+}
+
+.cvo-skillrate-value[value="4"] {
+    width: 80%;
+}
+
+.cvo-skillrate-value[value="5"] {
+    width: 100%;
+}
+
+.bar-exp span {
+    display: block;
+    height: 100%;
+    background: #c8b184;
+}
+
+.cvo-skillrate-value {
+    cursor: pointer;
+}
+
+.cv-progress-bar {
+    height: 20px;
+    float: left;
+    width: 100%;
+}
+
+.cv-item {
+    width: 100%;
+    float: left;
+}
+
+.cv-sub-item {
+    width: 97%;
+    float: left;
+    padding: 5px 0;
+}
+
+.time-span {
+    width: 100%;
+    text-align: center;
+}
+
+.full-name {
+    margin-top: 5px;
+    width: 100%;
+    padding: 2px 5px;
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.job {
+    width: 100%;
+    padding: 2px 5px;
+    text-transform: uppercase
+}
+
+.content-bottom {
+    width: 100%;
+    min-height: 170px;
+    background: #faf5d7;
+}
+
+.bot-left {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.bot-right {
+    width: 50%;
+    float: left;
+}
+
+.bot-left .img-contact {
+    width: 100%;
+}
+
+.bot-left .text-contact {
+    position: absolute;
+    top: 43%;
+    left: 20%;
+}
+
+    .bot-left .text-contact .cv-txt-contact {
+        width: 250px;
+        color: aliceblue;
+        text-align: center
+    }
+
+.bot-left .img-contact img {
+    width: 90%;
+    padding-top: 5%;
+}
+
+.detail-contact {
+    width: 100%;
+    float: left;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+    .detail-contact .sub-cvs {
+        width: 90%;
+        float: left;
+        padding: 2px;
+    }
+
+        .detail-contact .sub-cvs .header-field-group {
+            width: 100%;
+            float: left;
+        }
+
+            .detail-contact .sub-cvs .header-field-group i {
+                width: 10%;
+                float: left;
+            }
+
+            .detail-contact .sub-cvs .header-field-group div {
+                width: 90%;
+                float: left;
+            }
+
+.text-primary {
+    color: #227d92;
+    font-weight: bold;
+}
+
+.img-contact {
+    background: url(/MyCv/templates/67/images/lienhe.png) center no-repeat;
+    background-size: 360px 50%;
+    width: 50%;
+    height: 150px;
+}
+
+@media screen and (max-width: 790px) {
+    .cv-left, .cv-right {
+        width: 100%;
+        float: none;
+    }
+
+    .centered {
+        background-size: 100%;
+        top: -25px;
+    }
+
+    .full-name {
+        font-size: 20px !important
+    }
+
+    .job {
+        font-size: 16px !important
+    }
+
+    .bot-left {
+        width: 100%;
+        float: left;
+    }
+
+    .bot-right {
+        width: 100%;
+        float: left;
+    }
+
+    .content-bottom {
+        float: left;
+        height: auto;
+    }
+    /*#cvo-profile-avatar-wraper {
+        float: none;
+        margin: 0;
+    }
+
+    #cv-top h1, #cv-top h2 {
+        float: none;
+        width: 90%;
+        margin: 10px auto
+    }
+
+    #cv-right {
+        width: 100%;
+        min-height: 100px;
+        float: none
+    }
+
+    #cv-content {
+        width: 100%;
+        float: none;
+        min-height: 100px;
+        float: none
+    }*/
+}

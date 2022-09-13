@@ -1,0 +1,56 @@
+#cv-document .page--background{background:linear-gradient(to right,#292929 28em,#fff 0)}
+@media screen and (max-width:575px){
+#cv-document .page--background{background:linear-gradient(to bottom,#292929 5em,#fff 0)}
+}
+#cv-document .page--background:last-child{background:linear-gradient(to right,#7cdae4 5em,#6dd8e2 0,#6dd8e2 11.8em,#51c2d5 0) no-repeat left bottom/100% 1.7em,linear-gradient(to right,#292929 28em,#fff 0)}
+@media screen and (max-width:575px){
+#cv-document .page--background:last-child{background:linear-gradient(to right,#7cdae4 5em,#6dd8e2 0,#6dd8e2 11.8em,#51c2d5 0) no-repeat left bottom/100% 1.7em,linear-gradient(to bottom,#292929 5em,#fff 0)}
+}
+#cv-document .h1,#cv-document .h2,#cv-document .h3{color:#fff}
+#cv-document .action__item-title::before,#cv-document .heading::after,#cv-document .hobby__item::before{background-color:#51c2d5}
+#cv-document .heading-02>i{background-color:#51c2d5;border-color:#fff;color:#fff}
+#cv-document .heading-02>span{background-color:#292929}
+#cv-document .two-up__left{color:#fff}
+@media screen and (max-width:575px){
+#cv-document .two-up__left{background-color:#292929}
+}
+#cv-document .two-up__right{color:#1d1d1b}
+@media screen and (max-width:575px){
+#cv-document .full-width{background-color:#292929}
+}
+#cv-document .full-width__background{background-color:#7cdae4}
+#cv-document .full-width__background::before{background-color:#6dd8e2}
+#cv-document .full-width__background::after{background-color:#51c2d5}
+#cv-document .cvo-skillrate>span{background-color:#292929}
+#cv-document .cvo-skillrate[value="1"]>span:nth-child(-n+2){background-color:#51c2d5}
+#cv-document .cvo-skillrate[value="2"]>span:nth-child(-n+4){background-color:#51c2d5}
+#cv-document .cvo-skillrate[value="3"]>span:nth-child(-n+6){background-color:#51c2d5}
+#cv-document .cvo-skillrate[value="4"]>span:nth-child(-n+8){background-color:#51c2d5}
+#cv-document .cvo-skillrate[value="5"]>span{background-color:#51c2d5}
+#cv-document .cvo-skillrate-radial::before{background-color:#fff}
+#cv-document .cvo-skillrate-radial::after{color:#292929}
+#cv-document .cvo-skillrate-radial[value="1"]{background:linear-gradient(18deg,#f6f6f6 50%,transparent 50%),linear-gradient(90deg,#51c2d5 50%,#f6f6f6 50%)}
+#cv-document .cvo-skillrate-radial[value="2"]{background:linear-gradient(-54deg,#f6f6f6 50%,transparent 50%),linear-gradient(90deg,#51c2d5 50%,#f6f6f6 50%)}
+#cv-document .cvo-skillrate-radial[value="3"]{background:linear-gradient(90deg,#51c2d5 50%,transparent 50%),linear-gradient(54deg,#51c2d5 50%,#f6f6f6 50%)}
+#cv-document .cvo-skillrate-radial[value="4"]{background:linear-gradient(90deg,#51c2d5 50%,transparent 50%),linear-gradient(-18deg,#51c2d5 50%,#f6f6f6 50%)}
+#cv-document .cvo-skillrate-radial[value="5"]{background:linear-gradient(90deg,#51c2d5 50%,transparent 50%),linear-gradient(-90deg,#51c2d5 50%,#51c2d5 50%)}
+#cv-document .cvo-skillrate-progress>span{background-color:#dadada}
+#cv-document .cvo-skillrate-progress>span::before{border-color:#fff;border-left-color:transparent}
+#cv-document .cvo-skillrate-progress>span::after{background-color:#51c2d5}
+#cv-document .cvo-skillrate-progress[value="1"]>span:nth-child(1){background-color:#51c2d5}
+#cv-document .cvo-skillrate-progress[value="1"]>span:nth-child(1)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="2"]>span:nth-child(-n+2){background-color:#51c2d5}
+#cv-document .cvo-skillrate-progress[value="2"]>span:nth-child(2)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="3"]>span:nth-child(-n+3){background-color:#51c2d5}
+#cv-document .cvo-skillrate-progress[value="3"]>span:nth-child(3)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="4"]>span:nth-child(-n+4){background-color:#51c2d5}
+#cv-document .cvo-skillrate-progress[value="4"]>span:nth-child(4)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="5"]>span:nth-child(-n+5){background-color:#51c2d5}
+#cv-document .cvo-skillrate-progress[value="5"]>span:nth-child(5)::after{display:block}
+#cv-document .avatar{background-color:#fff}
+#cv-document .info-detail__item i{color:#51c2d5}
+#cv-document .education__item-content::before{background-color:#51c2d5;border-color:#fff}
+#cv-document .education__item-content::after{background-color:#c6c6c6}
+#cv-document .project__item-title::after{background-color:#292929}
+#cv-document .project__item-table td,#cv-document .project__item-table th{border-color:#575756}
+#cv-document .project__item-table th{background-color:#f6f6f6}

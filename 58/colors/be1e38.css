@@ -1,0 +1,26 @@
+#form-cv{
+	
+	color: #be1e38;
+}
+[data-x-name="parrent"] .page{
+	background: #be1e38;
+}
+.cv-content{
+	color: #be1e38;
+}
+.cv-content .head{
+	background: #be1e38;
+}
+.box-contact i.fa{
+    color: #be1e38 !important;
+    background-color: #fff;
+}
+.cv-content{
+	background: #fff;
+}
+#cv-box-ava img{
+	border: solid 2px #fff;
+}
+.bar-exp span {
+    background: #d23c3c;
+}

@@ -1,0 +1,73 @@
+.col-right .title {
+    background: #136254;
+}
+
+.col-left .title-head, .year-tag {
+    color: #136254;
+}
+
+.vector-header {
+    background: url(/MyCV/templates/1074/images/header-frame-136254.jpg);
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer-bg {
+    background: url("/MyCV/templates/1074/images/footer-frame-136254.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 182px !important;
+    background-repeat: no-repeat;
+}
+
+.progress-core[value="1"] {
+    content: url(/MyCv/templates/1074/images/icon-skillvalue-rate1-136254.png);
+}
+
+.progress-core[value="2"] {
+    content: url(/MyCv/templates/1074/images/icon-skillvalue-rate2-136254.png);
+}
+
+.progress-core[value="3"] {
+    content: url(/MyCv/templates/1074/images/icon-skillvalue-rate3-136254.png);
+}
+
+.progress-core[value="4"] {
+    content: url(/MyCv/templates/1074/images/icon-skillvalue-rate4-136254.png);
+}
+.progress-core[value="5"] {
+    content: url(/MyCv/templates/1074/images/icon-skillvalue-rate5-136254.png);
+}
+
+#me-info .me-info-decor {
+    height: 36px;
+}
+
+#me-info #dob {
+    background: url("/MyCv/templates/1074/images/dob-136254.jpg") no-repeat;
+}
+
+#me-info #mail {
+    background: url("/MyCv/templates/1074/images/mail-136254.jpg") no-repeat;
+}
+
+#me-info #phone {
+    background: url("/MyCv/templates/1074/images/phone-136254.jpg") no-repeat;
+}
+
+#me-info #add {
+    background: url("/MyCv/templates/1074/images/add-136254.jpg") no-repeat;;
+}
+
+.title .title-round {
+    background: #60be29 !important;
+}
+
+.title .title-round i::before {
+    color: #ffffff !important
+}
+
+#hobbies i::before {
+    color: #60be29 !important;
+}

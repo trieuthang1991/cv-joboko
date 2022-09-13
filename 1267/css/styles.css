@@ -1,0 +1,76 @@
+body.page-preview,body.page-view,body.page-viewdemo{background:url(/images3/bg-cv/3.jpg) no-repeat;background-size:cover;background-attachment:fixed}
+body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width:150px;height:150px;background:url(/images3/bg-cv/7.2.png) no-repeat;background-size:cover}
+#cv-document{font-size:10px}
+#cv-document *{box-sizing:border-box}
+#cv-document #cv-watermark a:after{content:"Joboko.com"}
+#cv-document #cv-watermark{position:absolute;bottom:3.1538461538em;left:2.3076923077em}
+@media screen and (max-width:767px){
+#cv-document #cv-watermark{left:2em}
+}
+#cv-document .relative{position:relative}
+#cv-document .inline-block{display:inline-block}
+#cv-document .inline{display:inline}
+#cv-document .content{padding-bottom:8em}
+#cv-document .no-outline{outline:0}
+#cv-document .no-outline:hover{box-shadow:none;outline:0}
+#cv-document .datetime{margin-bottom:1.3em}
+#cv-document .page__inner{padding:4.8em 3em 0}
+@media screen and (max-width:767px){
+#cv-document .page__inner{padding-right:2em;padding-left:2em}
+}
+#cv-document .full-width__item{margin-bottom:1em}
+#cv-document .two-up{flex-wrap:wrap;display:flex;margin-bottom:2.7em;padding-top:1.4em;padding-right:.4em}
+@media screen and (max-width:767px){
+#cv-document .two-up{padding:0}
+}
+#cv-document .two-up__left{width:calc(100% - 16em);padding-right:1.2em;text-align:center}
+@media screen and (max-width:767px){
+#cv-document .two-up__left{order:1;width:100%;padding-right:0}
+}
+#cv-document .two-up__right{width:16em}
+@media screen and (max-width:767px){
+#cv-document .two-up__right{width:100%}
+}
+#cv-document .h1,#cv-document .h2,#cv-document .h3,#cv-document .h4,#cv-document .h5,#cv-document .h6,#cv-document h1,#cv-document h2,#cv-document h3,#cv-document h4,#cv-document h5,#cv-document h6,#cv-document p{margin:0}
+#cv-document .cvo-skillrate-radial::after{font-weight:500}
+#cv-document .regular{font-weight:400}
+#cv-document .light{font-weight:300}
+#cv-document .medium{font-weight:500}
+#cv-document .semi-bold{font-weight:600}
+#cv-document .bold{font-weight:700}
+#cv-document .black{font-weight:900}
+#cv-document .italic{font-style:italic}
+#cv-document .uppercase{text-transform:uppercase}
+#cv-document .capitalize{text-transform:capitalize}
+#cv-document .heading{justify-content:space-between;align-items:flex-end;display:flex;margin-bottom:1.6em;border-bottom-width:2px;border-bottom-style:solid}
+#cv-document .heading__label{flex-shrink:0;margin-left:1em}
+#cv-document .avatar{position:relative;z-index:2;justify-content:center;align-items:center;display:flex;overflow:hidden;width:16.4em;height:20.4em}
+@media screen and (max-width:767px){
+#cv-document .avatar{margin:0 auto}
+}
+#cv-document .avatar img{width:16em;height:20em}
+#cv-document .info-main{display:inline-block;margin:2.8em 0 2.5em;border-width:.4em;border-style:solid;min-width:45.5em;padding:2.8em 4em 0;text-align:center}
+@media screen and (max-width:767px){
+#cv-document .info-main{min-width:auto}
+}
+#cv-document .info-main__title{margin:0 0 1.6em}
+#cv-document .info-main__text{margin-bottom:-.8em}
+#cv-document .info-main__text>div{position:relative;letter-spacing:1.4px}
+#cv-document .info-main__text>div::before{content:"";position:absolute;top:0;right:-3.4em;bottom:0;left:-3.4em}
+#cv-document .info-main__text>div>*{position:relative;z-index:5}
+#cv-document .info-detail{flex-wrap:wrap;justify-content:center;align-items:flex-start;display:flex;margin:0 auto;width:100%;max-width:45.5em}
+#cv-document .info-detail__item{position:relative;display:flex;margin-top:.5em;margin-right:2em;padding-right:2em;letter-spacing:.6px}
+@media screen and (max-width:767px){
+#cv-document .info-detail__item{margin-right:1em;padding-right:1em;letter-spacing:0}
+}
+#cv-document .info-detail__item::after{content:"";position:absolute;top:0;right:0;width:1px;height:1.5em}
+#cv-document .info-detail__item:last-child{margin-right:0;padding-right:0}
+#cv-document .info-detail__item:last-child::after{content:none}
+#cv-document .info-detail__item-icon{position:relative;flex-shrink:0;margin-right:.8em;min-width:1.2em;text-align:center}
+#cv-document .info-detail__item-icon>i{line-height:1}
+#cv-document [contentEditable] *{font-size:1em!important}
+[contenteditable]:focus{outline:1pt dashed #77a5cc!important;cursor:text}
+[contentEditable=true]:empty{outline:1pt dashed #fc4b08!important}
+[contenteditable=true]:empty:before{content:attr(placeholder)!important}
+#cv-document span.x_add.fa.fa-plus-circle,#cv-document span.x_del.fa.fa-remove{width:70px!important}
+#cv-document .height-curent>[data-x-name=group-item]{padding-bottom:6em}

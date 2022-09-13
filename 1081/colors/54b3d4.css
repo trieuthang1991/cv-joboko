@@ -1,0 +1,83 @@
+/* -----------------ma mau #000000  -------*/
+
+
+/*phan info*/
+.dvinfo1 {
+	background:#2f6d90; 
+	box-shadow: 0 0 10px #2f6d90; 
+}
+.txtpos {
+	background: #2f6d90; 
+}
+.icoweb {
+	color: #2f6d90;
+}
+/*phan cot ben trai*/
+.flexbox .col:nth-child(1) {  
+	background: #54b3d4; 
+}
+.val_skill .progressBar_skill:after{
+    background: #172932;
+}
+.val_skill .progressBar_skill {
+	background: #c2e7eb;
+}
+.radialProgressBar .overlay:after{
+	background: #54b3d4;
+}
+.radialProgressBar .overlay[value="1"] {
+  background-image: linear-gradient(18deg, #82c8e0 50%, transparent 50%), linear-gradient(90deg, #fff 50%, #82c8e0 50%);
+}
+.radialProgressBar .overlay[value="2"] {
+  background-image: linear-gradient(-54deg, #82c8e0 50%, transparent 50%), linear-gradient(90deg, #fff 50%, #82c8e0 50%);
+}
+.radialProgressBar .overlay[value="3"] {
+  background-image: linear-gradient(90deg, #fff 50%, transparent 50%), linear-gradient(54deg, #fff 50%, #82c8e0 50%);
+}
+.radialProgressBar .overlay[value="4"] {
+  background-image: linear-gradient(90deg, #fff 50%, transparent 50%), linear-gradient(-18deg, #fff 50%, #82c8e0 50%);
+}
+.radialProgressBar .overlay[value="5"] {
+  background-image: linear-gradient(90deg, #fff 50%, transparent 50%), linear-gradient(-90deg, #fff 50%, #fff 50%);
+}
+/*phan cot ben phai*/
+.htitle3 .tit, .htitle4 .tit, .htitle5 .tit, .htitle6 .tit, .htitle7 .tit{
+	border-bottom: 2px solid #306d90; 
+}
+.htitle3, .htitle4 ,.htitle5, .htitle6, .htitle7{ 
+	color: #2f6d90; 
+	border-bottom: 1px solid #939393;
+}
+.txt_label{
+	color: #306d90;
+}
+.txt_cmt {
+	color: #1d6e6f;
+}
+.txt1 {
+	color: #54b3d4;
+}
+.txt2{
+	color: #2f6d90;
+}
+.txt4 {
+	color: #2f6d90;
+}
+.htitle2 {
+	background: url(../images/bg-title-colr2.png) no-repeat;
+}
+.htitle3 {
+	background: url(../images/icon-user-2.png) no-repeat;
+}
+.htitle4 {
+	background: url(../images/icon-knlv-2.png) no-repeat; 
+}
+.htitle5 {
+	background: url(../images/icon-hocvan-2.png) no-repeat;
+	}
+.htitle6 {
+	background: url(../images/icon-duan-2.png) no-repeat; 
+}
+.htitle7 {
+	background: url(../images/icon-hoatdong-2.png) no-repeat; 
+	}

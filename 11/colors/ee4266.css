@@ -1,0 +1,18 @@
+/* Default color */
+@import '../cv.css?v=2.2.1';
+#group-header {
+    background-color: #ee4266;
+}
+.cvo-education-title,
+.cvo-activity-position,
+.cvo-experience-position,
+.cvo-award-title,
+.cvo-certification-title {
+    color: #ee4266;
+}
+.cvo-skillrate-value {
+    background-color: #ee4266;
+}
+ul#interest-table li:before {
+    color: #ee4266;
+}

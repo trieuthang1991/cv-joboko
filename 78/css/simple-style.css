@@ -1,0 +1,468 @@
+.cv-main {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    line-height: 1.5
+}
+
+.cv-main::after {
+    content: none
+}
+
+.header-row {
+    padding-top: 35px;
+    height: 30px;
+}
+
+.details-info {
+    display: flex;
+}
+
+#about-me {
+    padding-right: 80px;
+    max-width: 50%;
+    width: 50%;
+}
+
+#about-me-content {
+    background-color: #fff;
+    padding-top: 25px
+}
+
+/* Avatar */
+#about-me-image {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#about-me-image #frame {
+    height: 394px;
+    background-position: center;
+    background-size: 100%
+}
+
+#about-me-image #frame img {
+    width: 96%
+}
+
+#about-me-image #ava {
+    position: absolute;
+    top: 93px;
+    right: 63px;
+    width: 220px;
+    height: 220px;
+
+}
+
+#about-me-image #ava img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#about-me span {
+    text-align: justify;
+    font-size: 14px;
+    margin: auto;
+    margin-left: 15px
+}
+
+.about-me-header {
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+#about-me div {
+    text-align: justify
+}
+
+ /* About me info */
+
+#contact-details {
+    z-index : 1;
+    position: relative;
+    
+}
+
+#me-contacts {
+    padding: 35px 70px 0 60px;
+}
+
+.info-sub-item {
+    padding-bottom: 25px;
+    display: flex;
+}
+
+/* others */
+.other-info {
+    margin: 0 80px 0 -85px;
+    height: 100%;
+    width: 50%;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    margin-left: -25px;
+    text-transform: capitalize;
+    display: block;
+}
+
+#name::after {
+    content : "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#job {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    margin-left: -25px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+
+#name [data-x-id="name"], #job [data-x-id="job"] {
+    display: inline-block;
+    width: 100%
+}
+
+#other-info-bound {
+    height: 100%;
+    padding: 65px 80px 0 0
+}
+
+.field-bound {
+    padding-top: 35px;
+}
+
+.field-bound:first-child {
+    padding-top: 0;
+}
+
+.other-info-header {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block
+}
+
+.details {
+    margin: 0 0 0 15px;
+}
+
+.details-heading {
+    text-transform: bold;
+    display: block;
+    font-weight: bold;
+}
+
+.sub-div {
+    width: 100%;
+    position: relative;
+}
+
+.sub-div::before {
+    content:"• ";
+    display: inline;
+    left: -15px;
+    position: absolute;
+    font-size: 16px
+}
+
+.milestones {
+    padding: 10px 0 0 0;
+    display: inline;
+}
+
+.milestones span {
+    font-weight: bold;
+    display: inline-block
+}
+
+.character span {
+    display: block;
+}
+
+.sub-div {
+    padding-bottom: 10px
+}
+
+#education .sub-div [data-x-id="name"] {
+    display: inline-block
+}
+
+#education .details .sub-div {
+    padding-top: 35px
+}
+
+#education .details .sub-div:first-child, .sub-div:first-child {
+    padding-top: 10px
+}
+
+#skills .details .sub-div{
+    padding-bottom: 5px
+}
+
+#skills .sub-div [data-x-id="name"], #skills .sub-div [data-x-id="des"] {
+    display: inline-block
+}
+
+#referer .sub-div {
+    padding-bottom: 10px
+}
+
+#referer .sub-div [data-x-id="name"], #target [data-x-id="name"], #others [data-x-id="name"] {
+    width: 100%;
+    display: inline-block
+}
+
+#referer .sub-div:last-child {
+    padding-bottom: 0;
+}
+
+#extracurricular [data-x-id="name"], #certification [data-x-id="name"], #award [data-x-id="name"] {
+    display: inline-block
+}
+
+/* footer */
+.footer {
+    display: flex;
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .f-1 {
+    width: 62%
+}
+
+.footer .f-2 {
+    width: 38%;
+    height: 208px;
+}
+
+.other-info .height-curent {
+    padding-bottom: 190px;
+    padding-top: 90px;
+}
+
+#work-exp .sub-div [data-x-id="name"], #work-exp .sub-div [data-x-id="pos"], #work-exp .sub-div [data-x-id="des"] {
+    display: inline-block;
+}
+
+#work-exp .sub-div [data-x-id="des"] {
+    width: 100%;
+}
+
+/*  page > 1*/
+.cv-main:not([page="1"]) .other-info .height-curent {
+    padding-top: 20px;
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1024px) {
+    #name {
+        font-size: 35px;
+    }
+
+    #about-me {
+        padding-right: 20px;
+    }
+
+    #contact-details {
+        padding-right: 12px
+    }
+}
+
+/* -------------TABLET PORTRAIT--------- */
+@media screen and (max-width: 780px) {
+    #about-me {
+        padding-right: 35px
+    }
+    #me-contacts {
+        margin: 25px 0 0 40px;
+    }
+    #name {
+        font-size: 38px
+    }
+    #name::after {
+        right: 0
+    }
+    .field-bound {
+        margin: 25px 0 0 0;
+    }
+    #other-info-bound {
+        padding: 45px 80px 0 0;
+    }
+}
+
+
+/* -----------------MOBILE---------------- */
+@media screen and (max-width: 680px) {
+    #about-me {
+        width: 45%;
+        padding-right: 75px
+    }
+    
+    #about-me-image #frame img {
+        width: 97%
+    }
+    #about-me-image #ava {
+        top: 120px;
+        left: 25px;
+        width: 160px;
+        height: 160px;
+    }
+    #me-contacts {
+        margin: -50px 0 0 30px;
+        padding: 35px 25px 0 10px;
+    }
+    #name {
+        font-size: 33px
+    }
+    #name::after {
+        right: 0
+    }
+    #contact-details {
+        padding-right: 0
+    }
+    .field-bound {
+        margin: 0
+    }
+    #other-info-bound {
+        padding: 45px 80px 0 0;
+    }
+    .footer .f-1 {
+        width: 77%
+    }
+    .footer .f-2 {
+        width: 30%;
+        height: 168px;
+        background-size: 190px 168px;
+    }
+    .other-info {
+        width: 60%;
+        margin: 0 25px 0 -85px;
+    }
+}
+
+@media screen and (max-width: 665px) { 
+    .details-info {
+        display: block
+    }
+    #about-me {
+        max-width: 100%;
+        width: 100%;
+    }
+    #about-me-content {
+        display: flex
+    }
+    #about-me-image {
+        width: 40%
+    }
+    #me-contacts {
+        width: 60%;
+        flex: 1;
+        margin-top: 120px;
+        padding:0
+    }
+    .other-info {
+        width: 100%;
+        margin:  0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .other-info .height-curent {
+        padding-top: 0;
+    }
+    #name, #job {
+        margin-left: 0;
+    }
+    #job {
+        margin-bottom: 30px;
+    }
+    #about-me-image #frame img {
+        width: 95%;
+        height: 97%;
+    }
+}
+
+@media screen and (max-width: 625px) { 
+    #about-me-image #frame img {
+        width: 95%;
+        height: 95%
+    }
+}
+@media screen and (max-width: 615px) { 
+    #about-me-image {
+        width: 42%;
+    }
+}
+@media screen and (max-width: 600px) { 
+   
+    #about-me-image #ava {
+        left: 25px;
+        top: 130px;
+        width: 145px;
+        height: 145px;
+    }
+    #about-me-image #frame img {
+        width: 100%;
+        height: 100%;
+    }
+    #about-me {
+        padding-right: 30px;
+    }
+    #about-me-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #me-contacts {
+        width: 100%;
+        margin-top: 0;
+        padding: 0 30px 0 0;
+    }
+    #about-me-image {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 425px) {
+    #about-me-image #ava {
+        left: 17px;
+    }
+}
+@media screen and (max-width: 375px) {
+    #about-me-image #ava {
+        left: 10px;
+        top: 136px;
+        width: 130px;
+        height: 130px;
+        }
+}
+@media screen and (max-width: 320px) {
+    #about-me-image {
+        width: 65%;
+    }
+    #about-me-image #ava {
+        left: 10px;
+        top: 130px;
+        width: 145px;
+        height: 145px;
+    }
+}
+
+
+

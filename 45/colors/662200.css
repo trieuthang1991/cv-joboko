@@ -1,0 +1,21 @@
+.cv-content .head,.cv-content h3,.cv-content span.exp-date{	
+    color: #662200;
+}
+.bar-exp span {
+    background: #662200;
+}
+
+.cvo-block .h3 i , .cvo-block  .head i{
+    color: #662200;
+    border: 2px solid #662200;
+}
+
+span.box-content, .cv-box-content.experience{
+	border-left: solid 2px #662200;
+}
+#cv-top{	
+	background:#662200;
+}
+#form-cv{
+    border:solid 1px #662200;
+}

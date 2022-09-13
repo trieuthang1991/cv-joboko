@@ -1,0 +1,12 @@
+﻿{
+  "langs": [ "vi","en"],
+  "colors": [ "0ca4cd","644c4c","768f7a","707282","a28f76"],
+  "fonts": {
+    "default":"Prompt",
+    "arimo": "Arimo",
+    "opensans": "Open Sans",
+    "roboto":"Roboto"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

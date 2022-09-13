@@ -1,0 +1,439 @@
+body.page-preview, body.page-view, body.page-viewdemo {
+    background: url(/images3/bg-cv/1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+*{box-sizing:border-box;}
+.pageCV {
+	display: flex;
+	flex-wrap: wrap;
+	background: #ffffff;
+	color: #000;
+}
+.pageCV .h_curent {
+	width: 100%;
+	max-width: 100%;
+}
+.pageCV .col_left .h_curent{
+	padding: 30px 0 30px 25px;
+}
+.pageCV .col_right .h_curent{
+	padding: 30px 25px 30px 0;
+}
+.col_left{
+	display: block;
+	max-width: 35%;
+	width: 35%;
+	color: #fff;
+}
+.col_left .height_content{
+	padding: 30px 16px;
+	min-height: 1062px;
+	position: relative;
+}
+.col_right{
+	display: block;
+	flex-grow: 1;
+	width: 65%;
+	max-width: 65%;
+}
+
+.col_right .height_content{
+	background-image: url(../images/bg.jpg);
+	background-size: 100% 100%;
+	padding: 30px 16px;
+	min-height: 1062px;
+}
+.block{
+	width: 100%;
+	max-width: 100%;
+	padding-top: 25px;
+}
+.height_content .block:nth-child(1){
+	padding-top: unset;
+}
+.avatar{
+	display: flex;
+	padding-bottom: 10px;
+}
+.info_avatar {
+	width: 200px;
+	height: auto;
+	margin: auto;
+	border-radius: 50%;
+	border: 5px solid #fff;
+}
+.info_avatar:hover {
+		border: 5px solid #fff;
+	}
+.icoweb{
+	display: flex;
+	padding: 5px 0;
+}
+.col_left .item_info {
+	padding-bottom: 15px;
+}
+.col_left .item_info .icoweb .info_icoweb_right{
+	display: flex;
+	margin: auto 0;
+	max-width: 79%;
+	width: 79%;
+}
+.col_left .item_info .icoweb .info_icoweb_right p {
+	width: 100%;
+}
+.icoweb .nameIcon_info{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+    font-weight: 400;
+    width: 100%
+}
+.icoweb_job {
+	padding-bottom: 10px;
+}
+.job_info {
+	width: 100%;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	font-style: normal;
+	text-transform: capitalize;
+}
+.icoweb .info-icon{
+	background: #fff;
+	min-width: 25px;
+	height: 25px;
+	border-radius: 50px;
+	margin-right: 10px;
+	display: flex;
+}
+.icoweb .info-icon .fa_iconInfo{
+	margin: auto;
+	font-size: 12px;
+}
+.icoweb .icon-gen {
+	padding-top: 3px;
+    	padding-bottom: 3px;
+}
+.item_tar .listItem{
+	padding: 12px;
+	margin-top: 20px;
+	text-align: justify;
+}
+.des-tar{
+	color: #000;
+	display: inline-block;
+}
+
+.des-color{
+	/* color: #fff !important; */
+	background-color: #F6F6F6;
+	padding: 3px;
+}
+.itemMore .subName {
+	display: inline-block;
+}
+.item-skill .sub-item {
+	display: flex;
+	padding-bottom: 15px;
+}
+.item-skill .skill-subrate{
+	width: 100%;
+	display: flex;
+}
+.item-skill .name-sub-skill{
+	width: 40%;
+    max-width: 40%;
+	margin: auto 0;
+	margin-right: 10px;
+}
+.item-skill .val-sub-skill{
+	float: right;
+}
+.icon-skillrate-value{
+	max-width: 100%;
+	height: 14px;
+	margin: 5px 0;
+}
+.label-icoweb{
+	padding-right: 2px;
+}
+[data-x-id="cer"] .sub-item{
+	padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.tit-item {
+	text-transform: uppercase;
+}
+.tit-item-left{
+	border-bottom: 3px solid #fff;
+}
+.tit-item .text_h2{
+	font-size: 19px;
+	padding-bottom: 10px;
+}
+.name-time {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 600;
+	width: 100%;
+	max-width: 100%;
+}
+.name-SubItem{
+	float: left;
+	text-transform: uppercase;
+	max-width: 87%;
+	width: 87%;
+}
+.Subitem_des{
+	padding-top: 15px;
+}
+.time-subitem{
+	float: right;
+	display: flex;
+	margin: 0;
+}
+.time-edu{
+	display: flex;
+	margin-bottom: 5px;
+}
+.time-edu .space_time {
+	padding: 0 5px;
+}
+.sub-item-edu{
+	padding-top: 20px;
+}
+.SubItem-right{
+	display: block;
+	margin-top: 15px;
+}
+.award-name-time .name-SubItem{
+	font-weight: 400;
+	text-transform: unset;
+	max-width: 100%;
+}
+.award-name-time .time-subitem{
+	font-weight: 400;
+	text-transform: unset;
+	max-width: 100%;
+}
+.sub-item-left{
+	max-width: 65%;
+    width: 65%;
+    padding-right: 10px;
+}
+.sub-item-right{
+	max-width: 35%;
+	text-align: end;
+	width: 35%;
+}
+.item-info-right{
+	background: #000;
+	padding: 50px 0;
+	text-align: center;
+}
+.sub-item-edu  .text_h4{
+	text-transform: uppercase;
+	padding-bottom: 7px;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 550;
+}
+.sub-item-edu .pos_item {
+	padding-bottom: 5px;
+	font-style: italic;
+    font-weight: 600;
+}
+.icoweb-text{
+	display: block;
+}
+.icoweb-text .label-icoweb{
+	float: left;
+	margin-right: 2px;
+}
+.name-info{
+	display: none;
+}
+.item-skill [data-x-name="list-item"]{
+	margin-top: 20px;
+}
+.item-skill-ta .sub-item{
+	width: 50%;
+	max-width: 50%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.skill-subrate{
+	max-width: 100%;
+	margin: 0 auto;
+}
+.item-skill-ta .sub-item:nth-child(n+3){
+	padding-top: 15px;
+}
+.item-skill-ta .list-skill-ta{
+	display: flex;
+    flex-wrap: wrap;
+	margin-top: 20px;
+	width: 100%;
+	max-width: 100%;
+}
+.item-skill-ta .list-skill-ta .radialProgressBar {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 10px;
+	position: relative;
+}
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay{
+	border-radius: 200px;
+	-webkit-transform: translate(0%, 0%);
+	transform: translate(0%, 0%);
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	background: #000;
+	text-align: center;
+	padding-top: 30%;
+}
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay:after{
+	height: 80px;
+    width: 80px;
+    background: #fff;
+    top: 11px;
+    position: absolute;
+    border-radius: 200px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: inherit;
+}
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay[value="1"]:after{
+  	content: "20%";
+}
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay[value="2"]:after{
+  	content: "40%";
+}
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay[value="3"]:after{
+  	content: "60%";
+}
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay[value="4"]:after{
+  content: "80%";
+}
+.item-skill-ta .list-skill-ta .radialProgressBar .overlay[value="5"]:after{
+  	content: "100%";
+}
+.item-skill-ta .list-skill-ta{
+	display: flex;
+    flex-wrap: wrap;
+}
+.itemMore .listItem {
+	margin-top: 15px;
+	text-align: justify;
+}
+.page:last-child #cv-watermark{
+	display: block !important;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: #fff;
+}
+#cv-watermark a{
+	color: #fff;
+}
+
+#cv-watermark a:after {
+    content:'Joboko.com';     
+}
+
+/*---------------------------RESPONSIVE--------------------------------*/
+
+@media screen and (max-width: 1024px) {
+
+}
+/* -------------TABLET PORTRAIT--------- */
+@media screen and (max-width: 780px) {
+	.item-info-right{
+		display: none;
+	}
+	.name-info{
+		display: block;
+	}
+	.pageCV{
+		display: block;
+	}
+	.col_left{
+		max-width: 100%;
+		width: 100%;
+		min-height: unset;
+	}
+	.col_right{
+		max-width: 100%;
+		width: 100%;
+		min-height: unset;
+	}
+	.pageCV .col_left .h_curent{
+		padding: unset;
+	}
+	.pageCV .col_right .h_curent{
+		padding: unset;
+	}
+	.col_left .height_content{
+		padding: 15px;
+		min-height: unset;
+	}
+	.col_right .height_content{
+		padding: 15px;
+		min-height: unset;
+	}
+	.avatar{
+		justify-content: center;
+    	display: flex;
+	}
+	.pageCV:nth-child(1) .item-skill-ta{
+		display: none;
+	}
+	.pageCV:nth-child(n+2) .item-skill-ta {
+		display: block;
+	}
+}
+/* -----------------MOBILE---------------- */
+@media screen and (max-width: 680px) {
+	.icon-skillrate-value {
+		max-width: 100%;
+	}
+}
+/* -----------------SMALL MOBILE---------------- */
+@media screen and (max-width: 470px) {
+	.icon-skillrate-value {
+		max-width: 100%;
+	}
+
+}
+/* -----------------iphone 6/7/8 plus ---------------- */
+@media screen and (max-width: 414px) {
+	.item-skill-ta .sub-item{
+		width: 100%;
+		max-width: 100%;
+	}	
+	.item-skill-ta .sub-item:nth-child(n+2) {
+	    padding-top: 10px;
+	}
+	.name-SubItem {
+	    max-width: 80%;
+	    width: 80%;
+	}
+}
+/* -----------------iphone 6/7/8/X ---------------- */
+@media screen and (max-width: 375px) {
+}
+/* -----------------SMALLER MOBILE---------------- */
+@media screen and (max-width: 360px) {	
+}
+.page-preview .page-scale .col_left [data-x-name=content],.page-preview .page-scale .col_left .height-curent  {
+	height: 100%;
+}

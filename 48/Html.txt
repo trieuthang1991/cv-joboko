@@ -1,0 +1,146 @@
+<link id="cv-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/48/css/cv.css?v=1" type="text/css">
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/48/colors/1fbc89.css?v=1">
+<link id="cv-font" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/48/fonts/default.css?v=1">
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/48/font-sizes/font_normal.css?v=1">
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/48/spacing/spacing_normal.css?v=1">
+<div id="form-cv">
+    <div id="cv-top">
+        <div id="cvo-profile" data-x-name="item" data-x-id="info">
+            <div id="cvo-profile-avatar-wraper">
+                <img id="cvo-profile-avatar" data-x-id="ava" src="https://i-vn0.joboko.com/Upload/images/avatars/no_avatar.jpg">
+            </div>
+            <div class="box-01">
+                <h1><span id="cv-profile-fullname" data-x-id="name" contenteditable="true">alex.trieupro@gmail.com</span></h1>
+                <h2><span id="cv-profile-job" contenteditable="true" data-x-id="job">Nhân viên Marketing</span></h2>
+                <div><span id="cv-profile-about"></span></div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div id="cv-main">
+        <div id="cv-right">
+            <div class="ir">
+                <div id="sortable" class="ui-sortable">
+                    <div>
+                        <div id="box01" class="block cvo-block box-contact ui-sortable-handle" data-x-name="item" data-x-id="info">
+                            <p class="icoweb" data-x-rel="tel"><span id="cv-profile-phone" data-x-id="tel" contenteditable="true">098567567567</span></p>
+                            <p class="icoweb" data-x-rel="email"><span id="cv-profile-email" data-x-id="email" contenteditable="true">alex.trieupro@gmail.com</span></p>
+                            <p class="icoweb" data-x-rel="add"><span id="cv-profile-address" data-x-id="add" contenteditable="true">Số 1 đường Cầu Giấy, Hà Nội</span></p>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div data-x-name="group-item">
+                        <div id="box02" class="block cvo-block ui-sortable-handle" data-x-name="item" data-x-id="tar">
+                            <p class="h3"><span id="cv-boxtitle" cv-form-field="true" contenteditable="true" class="box-title" data-x-id="tit">Mục tiêu nghề nghiệp</span></p>
+                            <div class="box-content" data-x-id="name" contenteditable="true">
+                                - Mong muốn một môi trường làm việc chuyên nghiệp, có mức lương và cơ hội thăng tiến tốt<br>- Mong muốn có cơ hội cống hiến bản thân, đạt mục tiêu trở thành giám đốc kinh doanh trong 5 năm tới.
+                            </div>                                                                                                              
+                        </div>
+                        <div id="box03" class="block cvo-block box-skills ui-sortable-handle" data-x-name="item" data-x-id="skill">
+                            <p class="h3"><span id="cv-boxtitle" cv-form-field="true" contenteditable="true" data-x-id="tit" class="box-title">Kỹ năng</span></p>
+                            <div class="exp content-edit skill" data-x-name="list-item">
+                                <div class="ctbx" data-x-name="sub-item">
+                                    <h3 data-x-id="name" contenteditable="true">Tin Học Văn Phòng</h3>
+                                    <div class="bar-exp cvo-skillrate-bar"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="box04" class="block cvo-block ui-sortable-handle" data-x-name="item" data-x-id="cer">
+                            <p class="h3"><span id="cv-boxtitle" contenteditable="true" data-x-id="tit" class="box-title">Chứng chỉ</span></p>
+                            <div data-x-name="list-item">
+                                <div data-x-name="sub-item">
+                                    <span class="box-content" data-x-id="name" contenteditable="true"></span>
+                                    <span class="date" data-x-id="time" contenteditable="true"></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div id="box05" class="block cvo-block ui-sortable-handle" data-x-name="item" data-x-id="more">
+                            <p class="h3"><span id="cv-boxtitle" contenteditable="true" data-x-id="tit" class="box-title">Thông tin thêm</span></p>
+                            <div class="box-content" data-x-id="name" contenteditable="true">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cv-content">
+            <div class="ir ui-sortable" id="sort_block" data-x-name="group-item">
+                <div id="block01" class="cvo-block ui-sortable-handle" data-x-id="edu" data-x-name="item">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true">TRÌNH ĐỘ HỌC VẤN</span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+                            <h3>
+                                <span class="exp-title" contenteditable="true" data-x-id="name"></span>
+                                <span class="exp-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end" contenteditable="true">05/2018</em></span>
+                            </h3>
+                            <p class="h3">
+                                <span class="exp-subtitle" data-x-id="cat" contenteditable="true">Chuyên ngành: Quản trị kinh doanh thương mại (10/2010 - 05/2014)&nbsp;</span>
+                            </p>
+                            <div class="exp-content" contenteditable="true" data-x-id="des">
+                                Tốt nghiệp loại Khá, điểm trung bình 7.5
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block02" class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="exp">
+
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true">Kinh nghiệm làm việc</span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+                            <h3>
+                                <span class="exp-title" contenteditable="true" data-x-id="name"></span>
+                                <span class="exp-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end" contenteditable="true">05/2018</em></span>
+                            </h3>
+                            <p class="h3">
+                                <span class="exp-subtitle" data-x-id="pos" contenteditable="true">Online Marketing Specialist&nbsp;</span>
+                            </p>
+                            <div class="exp-content" contenteditable="true" data-x-id="des">
+                                - Lập kế hoạch, trực tiếp chạy và tối ưu các kênh Online Marketing (Facebook, Google, Cốc cốc, Adnetwork..) nhằm thu hút khách hàng tiềm năng cho các sản phẩm của công ty.<br>- Viết nội dung, lên ý tưởng hình ảnh chạy quảng cáo để triển khai cho các kênh Marketing.<br>- Hỗ trợ chạy Facebook Ads để phục vụ cho mục đích tuyển dụng, truyền thông sự kiện... của công ty.<br>- Nghiên cứu/giao dịch/đàm phán với các đối tác truyền thông quảng cáo để gia tăng lượng khách hàng tiềm năng.<br>- Đánh giá, nghiên cứu các kênh truyển thông online của đối thủ để đề ra giải pháp hiệu quả, sáng tạo hơn.<br>- Làm báo cáo tuần, tháng.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block03" class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="act">
+
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" class="block-title" data-x-id="tit" contenteditable="true">Hoạt động</span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+
+                            <h3>
+                                <span class="exp-title" contenteditable="true" data-x-id="name"></span>
+                                <span class="exp-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end" contenteditable="true">05/2018</em></span>
+                            </h3>
+                            <p class="h3">
+                                <span class="exp-subtitle" data-x-id="pos" contenteditable="true">Tình nguyện viên</span>
+                            </p>
+                            <div class="exp-content" contenteditable="true" data-x-id="des">
+                                - Tham gia các chương trình hiến máu nhân đạo- Tập hợp các món quà và phân phát tới đồng bào gặp lũ, người khó khăn, vô gia cư.&nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="block04" class="cvo-block ui-sortable-handle" data-x-id="ref" data-x-name="item">
+                    <p class="head">
+                        <span id="cvo-experience-blocktitle" data-x-id="tit" class="block-title"  contenteditable="true">Người tham chiếu</span>
+                    </p>
+                    <div id="experience-table" data-x-name="list-item">
+                        <div id="exp1" class="ctbx experience" data-x-name="sub-item">
+                            <div class="cvo-reference-content" data-x-id="name" contenteditable="true">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

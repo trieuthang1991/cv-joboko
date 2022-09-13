@@ -1,0 +1,24 @@
+/* Default color */
+@import '../cv.css';
+#cvo-profile-avatar-wraper {
+    border: 3px solid #d55c59;
+}
+#cvo-profile-avatar {
+    border: 2px solid #d55c59;
+}
+#cvo-profile-info .info {
+    border-bottom: 3px solid #d55c59;
+    color: #d55c59;
+}
+.cvo-block-header {
+    border-bottom: 2px solid #ccc;
+    color: #d55c59;
+}
+.cvo-education-title,
+.cvo-experience-position,
+.cvo-activity-position {
+    color: #d55c59;
+}
+.cvo-skillrate-value {
+    background-color: #d55c59;
+}

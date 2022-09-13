@@ -1,0 +1,186 @@
+<link id="cv-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/58/css/cv.css?v=2.2" type="text/css">
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/58/colors/133913.css?v=1.3">
+<link id="cv-font" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/58/fonts/default.css?v=1">
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/58/font-sizes/font_normal.css?v=1">
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/58/spacing/spacing_normal.css?v=1">
+<div id="form-cv" data-x-name="parrent">
+  <div class="cv-main page" page='1'>
+    <div class="cv-left" data-x-name="col-parrent" data-x-col="1">
+      <div class="height-curent">
+          <div id="cv-top">
+              <div data-x-name="item" data-x-id="info">
+                <h1><span data-x-id="name" contenteditable="true"></span></h1>
+                <h2><span contenteditable="true" data-x-id="job"></span></h2>
+              </div>
+              <div id="cv-box-ava" data-x-id="info" data-x-name="item">
+                <img id="cv-ava" data-x-id="ava" src="https://i-vn0.joboko.com/Upload/images/avatars/no_avatar.jpg">
+              </div>
+              <div class="box-contact" data-x-id="info" data-x-name="item">
+                <p data-x-rel="dob"><i class="fa fa-calendar"></i><span data-x-id="dob"
+                    contenteditable="true"></span></p>
+                <p data-x-rel="gen"><i class="fa fa-user"></i><span data-x-id="gen" contenteditable="true"></span></p>
+                <p data-x-rel="tel"><i class="fa fa-phone"></i><span data-x-id="tel" contenteditable="true"></span></p>
+                <p data-x-rel="email"><i class="fa fa-envelope-square"></i><span data-x-id="email"
+                    contenteditable="true"></span></p>
+                <p data-x-rel="add"><i class="fa fa-map-marker"></i><span data-x-id="add" contenteditable="true"></span></p>
+                <p data-x-rel="web"><i class="fa fa-info"></i><span data-x-id="web"
+                    contenteditable="true"></span></p>
+              </div>
+      </div>
+      <div id="group-left" data-x-name="group-item">
+        <div class="block cvo-block" data-x-name="item" data-x-id="tar">
+          <p class="h3" data-x-name="head">
+            <span contenteditable="true" data-x-id="tit" class="box-title">Mục tiêu nghề nghiệp</span>
+          </p>
+		  <div data-x-name="list-item">
+				<div data-x-name="one-item">
+					<div data-x-id="name" contenteditable="true"></div>
+				</div>
+		  </div>
+        </div>
+        <div class="block cvo-block box-skills" data-x-id="skill" data-x-name="item">
+          <p class="h3" data-x-name="head">
+            <span contenteditable="true" data-x-id="tit" class="box-title">Kỹ năng</span>
+          </p>
+          <div class="skill" data-x-name="list-item">
+            <div class="cv-box-item" data-x-name="sub-item">
+              <p class="skill-name" data-x-id="name" contenteditable="true"></p>
+              <div class="bar-exp cvo-skillrate-bar"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block cvo-block" data-x-id="award" data-x-name="item">
+          <p class="h3" data-x-name="head">
+            <span contenteditable="true" data-x-id="tit" class="box-title">Giải thưởng</span>
+          </p>
+          <div data-x-name="list-item">
+            <div data-x-name="sub-item">
+              <span class="box-content" data-x-id="name" contenteditable="true"></span>
+              <span class="date" data-x-id="time" contenteditable="true"></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="block cvo-block" data-x-id="cer" data-x-name="item">
+          <p class="h3" data-x-name="head">
+            <span contenteditable="true" data-x-id="tit" class="box-title">Chứng chỉ</span>
+          </p>
+          <div data-x-name="list-item">
+            <div data-x-name="sub-item">
+              <span class="box-content" data-x-id="name" contenteditable="true"></span>
+              <span class="date" data-x-id="time" contenteditable="true"></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="cv-watermark">&copy; <a href="https://joboko.com" target="_blank">Joboko.com</a></div>
+    </div>
+    </div>
+    <div class="cv-content"  data-x-name="col-parrent" data-x-col="2">
+      <div class="height-curent" >
+        <div data-x-name="group-item">
+        <div class="cvo-block" data-x-name="item" data-x-id="exp">
+          <div class="head" data-x-name="head">
+            <i class="fa fa-briefcase"></i>
+            <span data-x-id="tit" contenteditable="true">Kinh nghiệm làm việc</span>
+          </div>
+          <div data-x-name="list-item">
+            <div class="cv-box-item" data-x-name="sub-item">
+              <h3>
+                <span contenteditable="true" data-x-id="name"></span>
+                <span class="cv-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end"
+                    contenteditable="true">05/2018</em></span>
+              </h3>
+              <p class="h3">
+                <span data-x-id="pos" contenteditable="true">Nhân viên bán hàng</span>
+              </p>
+              <div class="cv-box-content" contenteditable="true" data-x-id="des"></div>
+            </div>
+          </div>
+        </div>
+        <div class="cvo-block" data-x-name="item" data-x-id="act">
+          <div class="head" data-x-name="head">
+            <i class="fa fa-book"></i>
+            <span data-x-id="tit" contenteditable="true">Hoạt động</span>
+          </div>
+          <div data-x-name="list-item">
+            <div class="cv-box-item" data-x-name="sub-item">
+              <h3>
+                <span contenteditable="true" data-x-id="name"></span>
+                <span class="cv-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end"
+                    contenteditable="true">05/2018</em></span>
+              </h3>
+              <p class="h3"><span data-x-id="pos" contenteditable="true">Tình nguyện viên</span></p>
+              <div class="cv-box-content" contenteditable="true" data-x-id="des"></div>
+            </div>
+          </div>
+        </div>
+        <div class="cvo-block" data-x-name="item" data-x-id="edu">
+          <div class="head" data-x-name="head">
+            <i class="fa fa-lightbulb-o"></i>
+            <span data-x-id="tit" contenteditable="true">Học Vấn</span>
+          </div>
+          <div data-x-name="list-item">
+            <div class="cv-box-item" data-x-name="sub-item">
+              <h3>
+                <span contenteditable="true" data-x-id="name"></span>
+                <span class="cv-date"><em data-x-id="start" contenteditable="true">03/2015</em> - <em data-x-id="end"
+                    contenteditable="true">05/2018</em></span>
+              </h3>
+              <p class="h3"><span data-x-id="cat" contenteditable="true"></span></p>
+              <div class="cv-box-content" contenteditable="true" data-x-id="des"></div>
+            </div>
+          </div>
+        </div>
+        <div class="cvo-block" data-x-id="hob" data-x-name="item">
+          <div class="head" data-x-name="head">
+            <i class="fa fa-star"></i>
+            <span data-x-id="tit" contenteditable="true">Sở thích</span>
+          </div>
+          <div data-x-name="list-item">
+            <div class="cv-box-item" data-x-name="sub-item">
+              <div class="cv-box-content" data-x-id="name" contenteditable="true"></div>
+            </div>
+          </div>
+        </div>
+        <div class="cvo-block" data-x-id="ref" data-x-name="item">
+          <div class="head" data-x-name="head">
+            <i class="fa fa-user"></i>
+            <span data-x-id="tit" contenteditable="true">Tham chiếu</span>
+          </div>
+          <div data-x-name="list-item">
+            <div class="cv-box-item" data-x-name="sub-item">
+              <div class="cv-box-content" data-x-id="name" contenteditable="true"></div>
+            </div>
+          </div>
+        </div>
+        <div class="cvo-block" data-x-id="more" data-x-name="item">
+          <div class="head" data-x-name="head">
+            <i class="fa fa-pencil"></i>
+            <span data-x-id="tit" contenteditable="true">Khác</span>
+          </div>
+          <div>
+            <div class="cv-box-item" data-x-name="list-item">
+              <div class="cv-box-content" data-x-id="name" contenteditable="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+ <div class="cv-main page" id="page"  style="display: none">
+        <div class="cv-left" data-x-name="col-parrent" data-x-col="1">
+            <div class="height-curent">
+            </div>
+        </div>
+        <div class="cv-content" data-x-name="col-parrent" data-x-col="2">
+            <div class="height-curent">
+			
+            </div>
+        </div>
+    </div>

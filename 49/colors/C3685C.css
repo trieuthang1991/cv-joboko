@@ -1,0 +1,14 @@
+.bg-primary {
+    background-color: #C3685C !important;
+}
+
+.bg-opaque-primary {
+    background-color: rgba(195, 104, 92, 0.12890625) !important;
+}
+
+.text-primary {
+    color: #C3685C !important;
+}
+.bar-exp span {
+    background-color: #C3685C !important;
+}

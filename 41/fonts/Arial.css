@@ -1,0 +1,7 @@
+#form-cv{
+	font-family: 'Arial',sans-serif;
+}
+
+#form-cv *[contenteditable] {
+    font-family: 'Arial',sans-serif !important;
+}

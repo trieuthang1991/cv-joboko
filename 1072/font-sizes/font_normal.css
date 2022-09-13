@@ -1,0 +1,30 @@
+.title-head  {
+    font-size: 20px !important;
+    /* font-weight: bold; */
+    
+}
+
+.sub-tit{
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sub-des{
+    margin-top: 5px;
+    font-size: 15px;
+    display: block;
+    font-weight: bold;
+}
+
+.txt-content{
+    font-size: 15px;
+}
+.header-row #me-name{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.header-row #head-contact, .header-row #head-add {
+    font-size: 17px;
+}

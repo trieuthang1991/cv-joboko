@@ -1,0 +1,16 @@
+@import '../cv.css?v=3';#group-header{background-color:#ffa96a}.cvo-block-header span{color:#ffa96a}.cvo-education-school,.cvo-experience-company,.cvo-activity-organization{color:#ffa96a}#cvo-profile .contact-item-label{color:#ffa96a}#cvo-profile-avatar-wraper{border-color:#f3caac}#group-right .cvo-block{border-color:#ffa96a}#group-left .cvo-block{border-color:#ffa96a}.cvo-certification-time-wraper,.cvo-award-time-wraper{color:#ffa96a}.cvo-skillrate-cell{background:#ffa96a}
+.cvo-skillrate-value[value="1"] {
+content:url(ffa96a/1.png);
+}
+.cvo-skillrate-value[value="2"] {
+content:url(ffa96a/2.png);
+}
+.cvo-skillrate-value[value="3"] {
+content:url(ffa96a/3.png);
+}
+.cvo-skillrate-value[value="4"] {
+content:url(ffa96a/4.png);
+}
+.cvo-skillrate-value[value="5"] {
+content:url(ffa96a/5.png);
+}

@@ -1,0 +1,12 @@
+/* #768f7a */
+
+@import '../cv.css';
+.scheme-border-color {
+    border-color: #768f7a !important;
+}
+.scheme-color {
+    color: #768f7a !important;
+}
+.scheme-background-color {
+    background-color: #768f7a !important;
+}

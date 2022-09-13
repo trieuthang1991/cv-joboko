@@ -1,0 +1,12 @@
+﻿{
+  "langs": [ "vi","en"],
+  "colors": [ "029c7c" , "28699a","37474f","655643","db2827"],
+  "fonts": {
+    "default": "Robotocondensed",
+    "mitr": "Mitr",
+    "open_sans": "Opensans",
+    "roboto": "Roboto"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

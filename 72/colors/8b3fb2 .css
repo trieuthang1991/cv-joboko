@@ -1,0 +1,22 @@
+.banner-style .topic-cv {
+	background-color: #8b3fb2;
+}
+.left-content-cv {
+	background-color: #8b3fb2;
+}
+.right-content-cv,
+.line-org-l,
+.line-org {
+	background-color: #70557e;
+}
+.line-org-l:before {
+	border: solid 2px #70557e;
+    background: #162e38;
+}
+.line-org:before {
+	border: solid 2px #70557e;
+    background: #162e38;
+}
+.gr-skill .progress-item-or {
+	background: #8b3fb2;
+}

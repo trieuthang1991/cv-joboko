@@ -1,0 +1,34 @@
+.info_top{
+	background: #2c9f5f;
+}
+.info_top_right {
+    border: 45px solid transparent;
+	border-left-color: #2c9f5f;
+}
+.ItemEdu .icon_edu{
+	color: #2c9f5f;
+}
+.col_right .name-Subitem{
+	color: #2c9f5f;
+}
+.tit-item .tit{
+ 	border-bottom: 5px solid #2c9f5f;
+ }
+.col_left .h-curent{
+	border-bottom: 15px solid #2c9f5f;
+}
+.col_right .h-curent{
+	border-bottom: 15px solid #2c9f5f;
+}
+.avatar .img_ava{
+	border: 1px solid #2c9f5f;
+}
+.ItemEdu .subName {
+	color: #2c9f5f;
+}
+@media screen and (max-width: 680px) {
+	.info_top_right {
+	    border: 35px solid transparent;
+		border-left-color: #2c9f5f;
+	}
+}

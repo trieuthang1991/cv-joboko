@@ -1,0 +1,258 @@
+body.page-preview, body.page-view, body.page-viewdemo {
+    background: url(/images3/bg-cv/3.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.clearfix{clear:both}
+span[contenteditable],em[contenteditable]{display:inline-block}
+#form-cv{
+	width:100%;
+	position: relative;
+	font-size: 14px;
+	line-height: 24px;
+	color:#494949;
+	border: solid 1px #e1e1e1;
+   
+}
+#form-cv .page{
+	background: #4f84a6;
+	width: 100%;
+}
+#form-cv *{box-sizing:border-box !important}
+#form-cv .h3{
+    font-size:14px
+}
+#form-cv p{
+	margin-top: 0;
+	margin-bottom: 12px
+}
+.cv-left .cvo-block{
+	margin-bottom: 10px;
+    padding:10px
+}
+
+.cv-content .cvo-block {
+	margin-bottom: 10px
+}
+
+.cv-main{
+	display: table;
+}
+.cv-content{
+	width: 55%;
+	display:table-cell;
+	position: relative;
+	padding-left: 5px;
+    background: #e6e6e6;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+.cv-content .cvo-block {
+    position: relative;
+    padding: 5px 10px;
+}
+.cv-left{
+	width: 44%;
+	display:table-cell;
+	position: relative;
+	background: #4f84a6;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+.cv-left .block{position:relative}
+p.skill-name{
+	color: #fff!important;
+}
+
+.cv-left .cvo-block span[contenteditable]{
+	color: #fff;
+}
+
+.cv-left .cv-box-content {
+	padding-bottom: 0;
+	margin:0;
+}
+.skill{
+	margin-top: 15px
+}
+
+
+#cv-top h1{
+	font-size: 30px;	
+	margin:0;
+	padding:5px 10px 5px 10px;
+	line-height: normal;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: -2px 2px #a6a7a8;
+    font-weight: 700;
+}
+
+#cv-top h1 span{
+	padding: 0px 15px;
+	color: #fff;display:block
+}
+
+#cv-top h2{
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 12px;
+	color: #fff;
+	text-align: center;
+	font-style: italic;
+	text-transform: capitalize;
+}
+.cv-content p{
+	margin-bottom: 5px
+}
+.cv-left .h3, .cv-content .head{
+	font-size: 18px !important;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cv-content .head span{
+	color: #f2f2f2;
+    background: #4d82a4;
+    border-radius: 5px;
+    padding: 5px 15px !important;
+    margin: 5px 0px;
+}
+.cv-left .h3 span{
+	color: #4f84a6 !important;
+	background: #fff;
+	border-radius: 5px;
+	padding: 5px 15px !important;
+	margin: 5px 0px;
+}
+.cv-content h3{	
+	font-weight:bold;font-size:14px;line-height:30px;margin-bottom:10px;
+}
+
+.cv-left h3{	
+	font-weight: 500;
+    font-size: 14px;
+}
+.cv-content span[contenteditable]{
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.cv-left .h3:first-child{
+	margin-top: 0
+}
+.cv-box-content{
+	margin-bottom: 25px;
+	position: relative;
+}
+.cv-box-content:hover {
+	box-shadow: 0 0 1px #999;
+}
+#cv-box-ava{	
+	padding:15px 0px 0px;text-align:center
+}
+#cv-box-ava img{
+	padding: 0;
+	border:0;
+	width: 200px;
+	height: 200px;border-radius:5px;
+	margin: 0 auto ;
+}
+.bar-exp span {
+    display:block;
+    height: 8px;
+    background: #fff;
+}
+.bar-exp{
+    margin-bottom:12px;
+	background: #959595
+}
+.icoweb label{
+	display: block;
+	color:#627e88;
+}
+.cv-left .icoweb span{
+	display: block;
+	color: #fff;
+}
+
+.box-contact{
+	padding:15px!important;
+	font-size: 15px;
+}
+
+.icoweb i.fa{
+	width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+    color:#fff!important;
+}
+.exp-content{
+	padding-left: 15px;
+	line-height: 1.6;
+}
+
+.head i.fa, .h3 i.fa{
+	font-size: 12px;
+	border: solid 1px #7c7a79;
+	border-radius: 50%;
+	width: 12px;
+	color: #7c7a79;
+	margin-bottom: 5px;
+	text-align: center;
+	padding: 4px;
+}
+.block{padding: 0 10px;}
+.cvo-skillrate-value[value="1"]{width:20%}
+.cvo-skillrate-value[value="2"]{width:40%}
+.cvo-skillrate-value[value="3"]{width:60%}
+.cvo-skillrate-value[value="4"]{width:80%}
+.cvo-skillrate-value[value="5"]{width:100%}
+
+span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
+span.exp-date{float:right}
+.cv-left .icoweb i.fa {
+    color: #CD3301;
+    float: left;
+}
+@media screen and (max-width: 790px) {
+    #cv-top{width:100%;text-align:center;float:none}
+    #cv-box-ava{float:none;margin:0}
+    #cv-box-ava img{margin:0 auto}
+    #cv-top h1,#cv-top h2{float:none;width:90%;margin:10px auto}
+    .cv-left{width:100%;min-height:100px;float:none;margin-left:0;padding-right:0;display:block}
+    .cv-content{width:100%;float:none;min-height:100px;float:none;margin-left:0;display:block}
+    .box-contact{position:relative !important;top:0;width:100%}
+    .icoweb{width:100%; text-align: left;}
+    .box-name{padding-top:0;margin-bottom:0}
+}
+@media print{
+    .cv-main{min-height:297mm}
+}
+
+
+.page:last-child #cv-watermark{
+	display: block !important;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: #fff;
+}
+#cv-watermark a{	
+	color: #fff;
+}
+#cv-watermark a:after{	
+	content: "Joboko.com";
+}

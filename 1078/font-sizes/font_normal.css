@@ -1,0 +1,33 @@
+.htitle2 [data-x-id=tit],
+.htitle11 [data-x-id=tit],
+.htitle5 [data-x-id=tit],
+.htitle4 [data-x-id=tit],
+.htitle3 [data-x-id=tit],
+.htitle6 [data-x-id=tit],
+.htitle7 [data-x-id=tit],
+.htitle8 [data-x-id=tit],
+.htitle9 [data-x-id=tit],
+.htitle10 [data-x-id=tit] {
+    font-size: 18px !important;
+    /* font-weight: bold; */
+    
+}
+
+#cv-document .tit-item .tit {
+    font-size: 17px;
+    
+}
+
+.col_bottom_right .itemGroup .pos_subitem{
+    font-size: 14px;
+}
+#cv-document .txt-content{
+    font-size: 14px;
+}
+
+#cv-document .txt-job{
+    font-size: 18px;
+}
+#cv-document .txt-name{
+    font-size: 28px;
+}

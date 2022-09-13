@@ -1,0 +1,9 @@
+@import '../cv.css?v=1';
+.color-highlight {
+    color: #57b103;
+}
+.cvo-skillrate-value {
+    display: block;
+    height: 8px;
+    background-color: #57b103;
+}

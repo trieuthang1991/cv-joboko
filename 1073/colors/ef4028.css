@@ -1,0 +1,10 @@
+#apply-border, .footer-contact .contact-border {
+    border-bottom: 2px solid #ef4028;
+}
+.milestone::before, .footer-contact i::before, #me-name, 
+.skills .progress-core::after, .academic-skills .progress-core::after {
+    color: #ef4028;
+}
+#personal-info-heading, .progress-core {
+    background: #ef4028;
+}

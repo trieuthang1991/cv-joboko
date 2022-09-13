@@ -1,0 +1,36 @@
+.header-row {
+    background-color: #e28a17;
+}
+#name, #job {
+    color: #e28a17;
+}
+.other-info-header {
+    color: #e28a17;
+}
+#name::after {
+    border-bottom: 2px solid #e28a17;
+}
+
+#about-me-image #frame {
+    background: url("/MyCV/templates/78/images/ava_frame_4.png") no-repeat;
+}
+.footer .f-2 {
+    background: url("/MyCV/templates/78/images/bg4.png") no-repeat;
+}
+#img-add {
+    background: url("/MyCV/templates/78/images/add4.jpg") no-repeat !important;
+    height: 38px !important;
+    width: 35px !important;
+}
+
+#img-phone {
+    background: url("/MyCV/templates/78/images/phone4.jpg") no-repeat !important;
+    height: 38px !important;
+    width: 35px !important;
+}
+
+#img-mail {
+    background: url("/MyCV/templates/78/images/mail.jpg") no-repeat !important;
+    height: 38px !important;
+    width: 35px !important;
+}

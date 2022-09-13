@@ -1,0 +1,27 @@
+#cv-top h1{    
+    color:#77b300;
+}
+
+#cv-right .h3 span[contenteditable], #cv-content .head span[contenteditable]{
+	background: #77b300;
+}
+
+#cv-content h3{	
+    color: #77b300;
+}
+
+#cv-content .h3{
+	color:#77b300;
+}
+
+.bar-exp span {
+    background: #77b300;
+}
+
+#cv-right .icoweb i.fa{
+    color: #77b300;
+    border: solid 1px #77b300;
+}
+#cv-right .h3, #cv-content .head{
+    background: url(../images/line77b300.png) left center repeat-x;
+}

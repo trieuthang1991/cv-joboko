@@ -1,0 +1,6 @@
+#cv-document .page{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 226.72 229.27'%3E%3Cpolygon points='226.72 229.27 226.72 226.72 0 0 0 229.27 226.72 229.27' fill='%2327aae1'/%3E%3C/svg%3E") no-repeat left bottom/22.6em 23em,#fff;color:#000}
+#cv-document .info-main__text{color:#fff}
+#cv-document .info-main__text::before{background-color:#27aae1}
+#cv-document .line::before{background-color:#27aae1}
+#cv-document .line__inner::before{background-color:#fff}
+#cv-document .line__inner>span{background-color:#302d2e;color:#fff}

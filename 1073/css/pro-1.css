@@ -1,0 +1,579 @@
+.cv-main {
+    margin: auto;
+    background: #f1f0f0;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px
+}
+
+.bound-upper {
+    display: flex;
+}
+
+.col-left {
+    max-width: 35%;
+    width: 35%;
+    padding-left: 30px;
+}
+
+.col-left .height-curent {
+    padding-bottom: 205px;
+}
+
+.col-right {
+    width: 65%;
+    word-break: break-word;
+    padding-left: 45px;
+    padding-right: 40px;
+}
+
+
+.sub-div {
+    padding-bottom: 25px;
+}
+
+#ava-me-info {
+    background: #fff;
+    padding-bottom: 15px;
+}
+
+#ava-me {
+    padding-top: 30px;
+}
+
+#ava-me img {
+    width: 100%
+}
+
+#ava-me, #personal-info-heading, #me-info {
+    width: 73%;
+    margin: auto;
+    /* min-height: 100px; */
+}
+
+#personal-info-heading {
+    color: #fff;
+    background: #ef4028;
+    font-size: 11px;
+    padding: 0px 15px 10px 30px;
+    position: relative;
+    text-transform: uppercase;
+    display: flex;
+}
+
+#personal-info-heading:before{
+    content: "";
+    background: url(/MyCV/templates/1073/images/info-image-base.png) no-repeat;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    height: 31px;
+    right: 0;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+#me-info div {
+    padding-top: 10px;
+    padding-bottom: 0;
+    *position: relative;
+    *word-break: break-word;
+    display: flex;
+    width: 100%;
+}
+
+#me-info .sub-div:last-child {
+    padding-bottom: 10px;
+}
+
+#me-info .info-tit {
+    font-weight: bold;
+    padding-left: 10px;
+    width: 45%;
+}
+
+#me-info .sub-div span:last-child {
+    *position: absolute;
+    *left: 80px;
+    width: 55%;
+}
+
+#me-name {
+    color: #ef4028;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.page:last-child #cv-watermark{
+    display: block !important;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color:#fff;
+}
+#cv-watermark a:after{
+    content: "Joboko.com";
+}
+#cv-watermark a{
+    color:#fff;
+}
+.skills .sub-div {
+    display: flex;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+.skills-other {
+    padding-top: 15px;
+}
+
+.skills .sub-div [data-x-id="name"] {
+    text-transform: uppercase;
+    width: 30%;
+}
+
+.comp .sub-div [data-x-id="name"] {
+    width: 35%
+}
+
+.footer-contact .fc-bound{
+    display: flex;
+}
+
+.skills-other .sub-div, .academic-skills .sub-div {
+    width: 45%;
+}
+
+.academic-skills [data-x-name="list-item"], .skills-other [data-x-name="list-item"], 
+.hob .sub-div {
+    padding-top: 10px;
+}
+
+.hob .sub-div {
+    padding-bottom: 0;
+}
+
+.academic-skills  .sub-div {
+    padding-bottom: 25px;
+}
+
+.skills-other .sub-div:nth-child(2n+1), .academic-skills .sub-div:nth-child(2n+1) { 
+    padding-left: 0;
+    display: inline-block;
+}
+
+.skills-other .sub-div:nth-child(2n), .academic-skills .sub-div:nth-child(2n) {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.skills-other .sub-div::before {
+    content: "•";
+    position: absolute;
+    left: -12px;
+    top: -3px;
+    font-size: 15px;
+}
+
+.progress-bar {
+    margin: 7px 0 7px 20px;
+    height: 6px;
+    width: 100%;
+    flex: 1;
+    background: #fff;
+}
+
+.skills-other .progress-bar{
+    margin: 10px 0;
+    flex: 0;
+}
+
+.progress-core {
+    height: 100%;
+    background: #ef4028;
+    position: relative;
+}
+
+.progress-core[value='1'] {
+    width: 20%;
+}
+
+.progress-core[value='2'] {
+    width: 40%;
+}
+
+.progress-core[value='3'] {
+    width: 60%;
+}
+
+.progress-core[value='4'] {
+    width: 80%;
+}
+
+.progress-core[value='5'] {
+    width: 100%;
+}
+
+
+.skills .progress-core::after, .academic-skills .progress-core::after {
+    content: "•";
+    color: #ef4028;
+    position: absolute;     
+    font-size: 52px;
+    font-weight: 900;
+    top: -10px;
+}
+
+.skills .progress-core::after {
+    top: -12px;
+    right: -2px;
+}
+
+.academic-skills .progress-bar{
+    margin: 10px 0;
+    position: relative;
+    flex: none
+}
+
+/* col-right */
+.cv-heading {
+    letter-spacing: 3px;
+    padding-top: 50px;
+}
+
+.small {
+    display: none;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+#apply-pos {
+    text-transform: uppercase;
+    display: flex;
+    font-weight: bold;
+}
+
+#apply-border {
+    border-bottom: 2px solid #ef4028;
+    flex: 1;
+    height: 15px;
+    margin-left: 15px;
+}
+
+.field-bound-title {
+    display: flex;
+}
+
+.title-icon {
+    width: 5%;
+    margin-right: 15px;
+    background: url("/MyCV/templates/1073/images/title-icon.jpg") no-repeat;
+    object-fit: contain;
+}
+
+.col-left .title-icon {
+    width: 8%;
+}
+
+#personal-info-heading .title-icon {
+    background: url("/MyCV/templates/1073/images/title-icon-left.jpg") no-repeat;
+    width: 10%;
+}
+
+.title-head {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    width: 95%
+}
+
+.col-left .title-head {
+    width: 92%;
+    margin-bottom: 0;
+}
+
+.field-bound {
+    margin-top: 40px;
+    padding-top: 5px;
+}
+
+.exp [data-x-name="list-item"], .edu [data-x-name="list-item"], .act [data-x-name="list-item"] {
+    margin-left: 40px;
+    position: relative;
+}
+
+.exp [data-x-name="list-item"]::before, .edu [data-x-name="list-item"]::before, 
+.act [data-x-name="list-item"]::before {
+    content: "";
+    border-left: 2px solid #b1adaf;
+    position: absolute;
+    left: -33px;
+    top: 5px;
+    bottom: 0
+}
+
+.exp .character span, .edu .character span, .act .character span {
+    display: inline-block
+}
+
+.milestone {
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+
+.milestone::before {
+    content: "•";
+    color: #ef4028;
+    position: absolute;     
+    left: -36px;
+    top: -12px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.milestone span {
+    display: inline-block;
+}
+
+.footer-contact {
+    margin-left: 30px;
+    margin-right: 45px;
+    display: block;
+    position: absolute;
+    bottom: 65px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.footer-contact .sub-div {
+    display: flex;
+    word-break: break-word;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.footer-contact .title-icon {
+    width: 3%
+}
+
+.footer-contact .title-head {
+    width: 97%;
+    display: flex
+}
+
+.footer-contact .contact-border {
+    flex: 1;
+    border-bottom: 2px solid #ef4028;
+    margin-left: 10px;
+    height: 17px;
+}
+
+.footer-contact #left {
+    width: 60%;
+    padding-left: 25px;
+}
+
+.footer-contact #right {
+    width: 40%
+}
+
+.footer-contact i {
+    font-size: 14px;
+    font-weight: 400;
+    width: 5%;
+    margin-right: 20px;
+}
+
+.footer-contact i::before {
+    color: #ef4028;
+    font-weight: 900
+}
+
+.footer-contact span {
+    display: inline-block;
+    width: 95%
+}
+.footer-bg {
+    position: absolute;
+    height: 87px;
+    bottom: 0;
+    background: url("/MyCV/templates/1073/images/footer-.jpg") no-repeat;
+    width: 100%;
+}
+
+[data-x-id="time"] {
+    display: inline
+}
+
+.col-right [data-x-id="name"] {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.col-right [data-x-id="pos"], .col-right [data-x-id="cat"] {
+    font-weight: bold;
+}
+
+.refer [data-x-id="name"], .intro [data-x-id="name"], .tar [data-x-id="name"] {
+    width: 100%;
+    font-weight: normal;
+}
+
+.col-right .height-curent {
+    padding-bottom: 190px;
+}
+
+.hob .sub-div [data-x-id="name"] {
+    display: inline-block;
+    width: 100%;
+}
+
+.field-bound .sub-div:last-child {padding-bottom: 0}
+
+.cv-main:last-child .col-left .height-curent {
+    padding-top: 0;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+/* -------------TABLET PORTRAIT--------- */
+@media screen and (max-width: 780px) {
+    #personal-info-heading {
+        font-size: 10px
+    }
+}
+
+/* -----------------SMALL MOBILE---------------- */
+@media screen and (max-width: 700px) {
+    .title-icon {
+        width: 7%
+    }
+    .col-left .title-icon {
+        width: 10%;
+    }
+    #personal-info-heading .title-icon {
+        width: 13%
+    }
+    .footer-contact .title-icon {
+        width: 5%
+    }
+    .skills .sub-div [data-x-id="name"] {
+        width: 35%;
+    }
+    #personal-info-heading {
+        padding: 10px 5px 10px 15px;
+    }
+}
+@media screen and (max-width: 680px) {
+    #personal-info-heading {
+        font-size: 10px
+    }
+    #me-name {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 641px) {
+    .cv-main {
+        font-size: 13px;
+    }
+    #ava-me, #personal-info-heading, #me-info {
+        width: 76%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .cv-main {
+        font-size: 14px;
+    }
+    .small {
+        display: block
+    }
+    .large {
+        display: none;
+    }
+    #personal-info-heading {
+        padding: 15px 10px 15px 25px;
+    }
+    .bound-upper {
+        display: unset;
+        margin: 0;
+    }
+ 
+    .col-left, .col-right {
+        max-width: 100%;
+        width: 100%;
+        padding: 0
+    }
+    .col-left .height-curent, .col-right .height-curent {
+        padding: 0 45px;
+    }
+    .col-right .height-curent {
+        margin-bottom: 45px;
+    }
+    .footer-contact .fc-bound {
+        flex-direction: column;
+    }
+    .footer-contact #left {
+        width: 100%;
+    }
+    .footer-contact #right {
+        width: 100%;
+    }
+    .footer-contact {
+        position: unset;
+    }
+    .footer-bg {
+        display: none;
+    }
+    .footer-contact .title-icon {
+        width: 5%;
+    }
+    .footer-contact #left {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 461px) {
+    .footer-contact {
+        font-size: 12px;
+    }
+    .footer-contact .title-icon {
+        width: 7%
+    }
+}
+@media screen and (max-width: 375px) {
+    .col-left .height-curent, .col-right .height-curent {
+        padding: 0 20px;
+    }
+    .footer-contact {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.cl-info{
+ color: #9c9498;
+}
+
+[contenteditable]:focus  {
+    outline: 1pt dashed #77a5cc !important;
+    cursor: text;
+}
+
+
+[contentEditable=true]:empty{
+	outline: 1pt dashed #fc4b08 !important;
+}
+
+@media print {
+    .field-bound{
+        padding-top: 45px;
+        margin-top: 0 ;
+    }
+ }

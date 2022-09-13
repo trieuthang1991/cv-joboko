@@ -1,0 +1,9 @@
+/* Spacing large */
+#group-col-left .cvo-block,
+#group-col-right .cvo-block {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#group-col-left .row {
+    margin-top: 10px;
+}

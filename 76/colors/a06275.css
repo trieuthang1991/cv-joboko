@@ -1,0 +1,26 @@
+.header-row, .year-tag {
+    background-color: #a06275 !important;
+}
+
+.cv-main:not([page='1']) .about-me .about-me-content {
+    background: #a06275 !important;
+}
+
+.about-me-content .content {
+    background: #a06275 !important;
+}
+
+.year-tag::after {
+    border-left: 32px solid #a06275 !important;
+}
+
+#banner-header-second {
+    border-bottom: 2px solid #a06275 !important;
+}
+.footer-row {
+    border-bottom: 8px solid #a06275 !important;
+}
+
+#skill-progress div .progress-bar .progress-core {
+    background: #a06275 !important;
+}

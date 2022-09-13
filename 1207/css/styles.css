@@ -1,0 +1,68 @@
+body.page-preview,body.page-view,body.page-viewdemo{background:url(/images3/bg-cv/3.jpg) no-repeat;background-size:cover;background-attachment:fixed}
+body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width:150px;height:150px;background:url(/images3/bg-cv/7.2.png) no-repeat;background-size:cover}
+#cv-document{font-size:10px}
+#cv-document *{box-sizing:border-box}
+#cv-document #cv-watermark a:after{content:"Joboko.com"}
+#cv-document .page:last-child #cv-watermark{position:absolute;right:1em;bottom:2em}
+#cv-document .relative{position:relative;z-index:5}
+#cv-document .inline-block{display:inline-block}
+#cv-document .inline{display:inline}
+#cv-document .flex-column{flex-direction:column;display:flex;height:100%}
+#cv-document [data-x-name=item]{width:100%}
+#cv-document .no-outline{outline:0}
+#cv-document .no-outline:hover{box-shadow:none;outline:0}
+#cv-document .mt-auto{margin-top:auto}
+#cv-document .content{position:relative}
+#cv-document .heading{position:relative;margin-bottom:3.7em;padding:1.4em 0;text-align:center}
+#cv-document .heading::before{content:"";position:absolute;top:0;right:-6em;bottom:0;left:-6em}
+#cv-document .datetime{margin-bottom:14px}
+#cv-document .page{display:flex}
+#cv-document .page:first-child .two-up{margin-top:-4em}
+#cv-document .page__inner{flex-direction:column;flex-wrap:wrap;display:flex;padding:4em 6em 0}
+@media screen and (max-width:767px){
+#cv-document .page__inner{overflow:hidden;padding:4em 2em 0}
+}
+#cv-document .two-up{flex-wrap:wrap;flex-shrink:0;display:flex;margin-top:-4em;margin-bottom:4.6em;width:100%}
+#cv-document .two-up__left{border-right-width:.2em;border-right-style:solid;width:50%;padding-top:8.5em;padding-right:3em;text-align:right}
+@media screen and (max-width:767px){
+#cv-document .two-up__left{margin-bottom:2em;width:100%}
+}
+#cv-document .two-up__right{width:50%;padding-top:8.7em;padding-left:2.6em}
+@media screen and (max-width:767px){
+#cv-document .two-up__right{width:100%;padding-top:2em;padding-left:0}
+}
+#cv-document .full-width{flex-grow:1;display:flex;width:100%}
+#cv-document .text-bottom{position:relative;margin:3em 0;padding:1.6em 2.2em 1.4em}
+#cv-document .text-bottom::after,#cv-document .text-bottom::before{content:"";position:absolute}
+#cv-document .text-bottom::before{top:-1.2em;right:50%;bottom:2em;left:-6em}
+#cv-document .text-bottom::after{top:0;right:-6em;bottom:0;left:-.6em}
+#cv-document .h1,#cv-document .h2,#cv-document .h3,#cv-document .h4,#cv-document .h5,#cv-document .h6,#cv-document h1,#cv-document h2,#cv-document h3,#cv-document h4,#cv-document h5,#cv-document h6,#cv-document p{margin:0}
+#cv-document .regular{font-weight:400}
+#cv-document .light{font-weight:300}
+#cv-document .medium{font-weight:500}
+#cv-document .bold{font-weight:700}
+#cv-document .black{font-weight:900}
+#cv-document .italic{font-style:italic}
+#cv-document .uppercase{text-transform:uppercase}
+#cv-document .avatar{position:relative;z-index:2;justify-content:center;align-items:center;display:flex;margin:9.3em 0 2.5em .2em;width:26.4em;height:32.6em}
+@media screen and (max-width:767px){
+#cv-document .avatar{margin:8em auto 4em}
+}
+#cv-document .avatar img{position:relative;width:25.2em;height:31.4em}
+#cv-document .avatar__border{position:absolute;top:-6.6em;right:-6.1em;display:flex;width:27.8em;height:27.8em}
+#cv-document .avatar__border::after,#cv-document .avatar__border::before{content:"";position:absolute;border-width:.5em .5em 0 0;border-style:solid}
+#cv-document .avatar__border::before{top:2.2em;right:2.2em;opacity:.1;width:23.4em;height:23.4em}
+#cv-document .avatar__border::after{top:4.6em;right:4.6em;opacity:.2;width:18.8em;height:18.8em}
+#cv-document .avatar__border>span{opacity:.3;border-width:.5em .5em 0 0;border-style:solid;width:100%;height:100%}
+#cv-document .info-main__title{margin:0 0 .4em}
+#cv-document .info-detail__item{display:flex;margin-bottom:.7em}
+#cv-document .info-detail__item:last-child{margin-bottom:0}
+#cv-document .info-detail__item-icon{position:relative;top:-.4em;flex-shrink:0;margin-right:1.8em;min-width:1.5em;text-align:center}
+#cv-document [contentEditable] *{font-size:1em!important}
+[contenteditable]:focus{outline:1pt dashed #77a5cc!important;cursor:text}
+[contentEditable=true]:empty{outline:1pt dashed #fc4b08!important}
+[contenteditable=true]:empty:before{content:attr(placeholder)!important}
+#cv-document span.x_add.fa.fa-plus-circle,#cv-document span.x_del.fa.fa-remove{width:70px!important}
+#cv-document .datetime{
+ display:none;
+}

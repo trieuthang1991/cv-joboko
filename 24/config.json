@@ -1,0 +1,12 @@
+﻿{
+  "langs": [ "vi","en"],
+  "colors": [ "32a1b5","57b103","b10357","f7af05"],
+  "fonts": {
+    "default":"Roboto Condensed",
+    "maitree": "Maitree",
+    "opensans":"Open Sans",
+    "prompt":"Prompt"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

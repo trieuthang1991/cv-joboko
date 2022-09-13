@@ -1,0 +1,29 @@
+#cv-document .page--background{background:linear-gradient(to right,rgba(134,152,173,.2),rgba(134,152,173,.2)) no-repeat left bottom 3em/100% 3em,#fff;color:#1d1d1b}
+#cv-document .page--background:first-child{background:linear-gradient(to right,#3070a5,#3070a5) no-repeat left top/100% 1.6em,linear-gradient(to right,rgba(134,152,173,.2),rgba(134,152,173,.2)) no-repeat left bottom 3em/100% 3em,#fff}
+#cv-document .heading{border-bottom-color:rgba(48,112,165,.5)}
+#cv-document .heading__title::after{background-color:#3070a5}
+#cv-document .info-main__text{color:#3070a5;border-bottom-color:rgba(48,112,165,.5)}
+#cv-document .info-main__text>div::after{background-color:#3070a5}
+#cv-document .info-detail{border-top-color:#cfd1d2;border-bottom-color:#cfd1d2}
+#cv-document .info-detail__item::after{background-color:#bbbdbf}
+#cv-document .info-detail__item-icon{color:#3070a5}
+#cv-document .project__item-time{color:#3070a5}
+#cv-document .project__item-table::after{border-color:#8698ad}
+#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-color:#8698ad}
+#cv-document .action__item::before{border-color:#3070a5;background-color:#fff}
+#cv-document .action__item::after{background-color:#3070a5}
+#cv-document .action__item-date{color:#58595b}
+#cv-document .action__item-pos{color:#3070a5}
+#cv-document .experience__item::before{border-color:#3070a5;background-color:#fff}
+#cv-document .experience__item::after{background-color:#3070a5}
+#cv-document .experience__item-wrap{border-bottom-color:#808184}
+#cv-document .experience__item-pos{color:#3070a5}
+#cv-document .experience__item-date{color:#414042}
+#cv-document .education__item::before{border-color:#3070a5;background-color:#fff}
+#cv-document .education__item::after{background-color:#3070a5}
+#cv-document .education__item-wrap{border-bottom-color:#808184}
+#cv-document .education__item-pos{color:#414042}
+#cv-document .education__item-date{color:#414042}
+#cv-document .award__item::before,#cv-document .certification__item::before,#cv-document .hobby__item::before{border-color:#3070a5;background-color:#fff}
+#cv-document .skill__item{background-color:#3070a5;color:#fff}
+#cv-document .action-2__item-date::before{background-color:#bcbec0}

@@ -1,0 +1,12 @@
+﻿{
+  "langs": [ "vi","en"],
+  "colors": [ "213f4a" , "247ba0","843b62","32936f","333333","665479","ff6d86"],
+  "fonts": {
+    "default": "Roboto",
+    "arial": "Arial",
+    "notosans": "Noto Sans",
+    "sourceSansPro":"Source Sans Pro"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

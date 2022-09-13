@@ -1,0 +1,42 @@
+﻿.cv-progress-bar-flow {
+    background-color: #f8ca04;
+    color: #f8ca04;
+}
+
+    .cv-progress-bar-flow.level-inactive:not(.high-light) {
+        background-color: #ededed !important;
+        color: #ededed !important;
+    }
+
+.bg-primary {
+    background-color: #19263b !important;
+}
+
+.bg-opaque-primary {
+    background-color: rgba(25, 38, 59, 0.12890625) !important;
+}
+
+.bg-secondary {
+    background-color: #ff6b2c !important;
+}
+
+.text-primary {
+    color: #19263b !important;
+}
+
+.text-secondary {
+    color: #ff6b2c !important;
+}
+
+.interest-name {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0 5px 0;
+    background-color: rgba(25, 38, 59, 0.12890625) !important;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.bar-exp span {
+    background-color: rgba(25, 38, 59, 0.12890625) !important;
+}

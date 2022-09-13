@@ -1,0 +1,9 @@
+﻿{
+  "langs": [ "vi"],
+  "colors": [ "000000"],
+  "fonts": {
+    "default": "Arial"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

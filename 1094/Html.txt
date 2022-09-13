@@ -1,0 +1,142 @@
+<link id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/1094/css/cv.css?v=2.2" rel="stylesheet" />
+
+<div class="page" data-x-name="item" data-x-id="info">
+  <div class="page_ctr">
+    <div style="text-align: center;font-weight: bold ;font-size: 18px;line-height: 30px;">
+      CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM<br><span style="padding-bottom: 13px ;">Độc lập
+        - Tự do - Hạnh phúc</span> <br />
+    </div>
+    <p style="font-size: 20px;text-align: center;">-------o0o-------</p>
+
+    <p style="padding-top: 20px;" class="h1">Đơn xin việc</p>
+
+    <div class="p1-d1 flex-line">
+      <p class="tx_nm ">Kính gửi : Ban Giám đốc Công ty</p>
+
+      <div data-x-id="com" class="line txt-edit flex-auto" required="required" data-label="Tên công ty"
+        placeholder="Tên công ty" guild="step1" txt-guild="Nhập tên công ty của bạn" txt-demo="Công Ty Cổ Phần JobOKO Toàn Cầu" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="tx_nm ">Đồng kính gửi: Phòng nhân sự Quý công ty </p>
+      <!-- <div id="hoten" data-x-id="name" class="line" contenteditable="true"></div> -->
+    </div>
+
+    <div class="p1-d1 flex-line">
+      <p class="tx_nm ">Tôi tên là:</p>
+      <div data-x-id="name" class="line txt-edit flex-auto" guild="step2" txt-guild="Nhập tên họ tên bạn" txt-demo="Nguyễn Văn An" data-label="Họ tên" required="required" placeholder="Họ tên"
+        contenteditable="true"></div>
+    </div>
+    <div class="p1-d1 flex-line">
+      <p class="tx_nm ">Sinh ngày:</p>
+      <div data-x-id="dob" class="line txt-edit flex-auto" guild="step3" txt-guild="Nhập ngày tháng năm sinh của bạn" txt-demo="31/12/1991" required="required" data-label="Ngày sinh"
+        placeholder="Ngày sinh" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1 flex-line">
+      <p class="tx_nm ">Địa chỉ thường trú:</p>
+      <div data-x-id="add" class="line txt-edit flex-auto" guild="step4" txt-guild="Nhập địa chỉ thường chú của bạn" txt-demo="Số 20 - Ngõ 83 - Hồ Gươm - Quận Hoàn Kiếm - Hà Nội" required="required" data-label="Địa chỉ thường trú"
+        placeholder="Địa chỉ thường trú" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1 flex-line">
+      <p class="tx_nm ">Hiện tạm trú tại:</p>
+      <div data-x-id="addnow" class="line flex-auto txt-edit"  required="required" data-label="Địa chỉ tạm trú"
+        placeholder="Địa chỉ tạm trú" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1 flex-line">
+      <p class="tx_nm ">Số điện thoại:</p>
+      <div data-x-id="tel" class="line flex-auto txt-edit" guild="step5" txt-guild="Nhập số điện thoại của bạn" txt-demo="0962107888" required="required" data-label="Số điện thoại"
+        placeholder="Số điện thoại" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1 flex-line">
+      <p class="tx_nm ">Email:</p>
+      <div data-x-id="email" class="line flex-auto txt-edit" required="required" data-label="Email"
+        placeholder="Email cá nhân" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="line-height-main ">Qua thông tin tuyển dụng của quý công ty đăng tải, tôi được biết Quý công ty đang có nhu cầu
+        tuyển dụng nhân viên cho vị trí
+        <span data-x-id="job" data-label="Vị trí ứng tuyển" required="Vị trí ứng tuyển" placeholder="Vị trí ứng tuyển"
+          class="line s-line txt-edit" contenteditable="true">
+        </span>
+        Tôi nhận thấy đây là công việc rất phù hợp với trình độ, kỹ năng, kinh nghiệm mà bản thân tôi đã đúc kết và tích
+        lũy trong quá trình học tập và làm việc từ trước đến nay.
+      </p>
+    </div>
+    <div class="p1-d1 flex-line">
+      <p class="tx_nm ">Tôi tốt nghiệp</p>
+      <div data-x-id="educat" class="line txt-edit flex-auto" required="required" data-label="Ngành  học" placeholder="Ngành  học"
+        contenteditable="true"></div>
+      <p class="tx_nm ">tại trường</p>
+      <div data-x-id="eduname" required="required" placeholder="Tên trường " data-label="Tên trường"
+        class="line  txt-edit flex-auto" contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <p class="line-height-main">
+        Sau khi tốt nghiệp, tôi làm việc ở vị trí:
+        <span class="line txt-edit s-line" style="width: 246px;" data-label="Vị trí đảm nhận" required="required"
+          placeholder="Vị trí đảm nhận" data-x-id="pos" contenteditable="true"></span>
+        tại Công ty
+        <br />
+        <span class="line txt-edit s-line"  style="width: 230px;padding-left: 0;" data-x-id="comold" data-label="Tên công ty"
+          required="required" placeholder="Tên công ty" contenteditable="true"></span>
+        Với
+        <span class="line txt-edit s-line text-center" data-x-id="exp" required="required" data-label="Số năm kinh nghiệm"
+          placeholder="Số năm kinh nghiệm" contenteditable="true"></span>
+        năm làm việc, tôi đã tích lũy được nhiều kinh nghiệm như:
+      </p>
+      <div class="line d5" data-x-id="skill" contenteditable="true">
+      </div>
+    </div>
+    
+    <div class="p1-d1 " style="margin-top: 30px;">
+    <p class="line-height-main">
+      Tôi cũng hiểu ngoài những yêu cầu trên, vị trí Quý công ty đang tuyển dụng còn đòi hỏi người có kỹ năng làm việc
+      độc lập cũng như làm việc theo nhóm, có tinh thần trách nhiệm và chịu được áp lực cao trong công việc.
+    </p>
+  </div>
+
+  </div>
+</div>
+
+<div class="page" data-x-name="item" data-x-id="info" style="border-top: 1px solid #bbb;">
+  <div class="page_ctr">
+  <div class="p1-d1">
+    <p class="line-height-main">
+      Với những khả năng và tính cách như trên, tôi tin mình có thể đảm nhận tốt vị trí
+      <span data-x-id="jobcom " required="required" data-label="Vị trí ứng tuyển" placeholder="Vị trí ứng tuyển"
+        class="line  txt-edit s-line" contenteditable="true"></span>tại Quý công ty. Tôi rất mong Quý công ty có thể
+      sắp xếp cho tôi có một
+      buổi phỏng vấn để trình bày rõ hơn khả năng của mình.
+    </p>
+  </div>
+  <div class="p1-d1">
+    <p class="line-height-main">
+      Mọi liên hệ về lịch phỏng vấn hay thông tin về hồ sơ ứng tuyển, xin vui lòng liên lạc số điện thoại:
+      <span class="line txt-edit s-line" required="required" data-label="Số điện thoại liên hệ"
+        placeholder="Số điện thoại liên hệ" data-x-id="telcontact" contenteditable="true"></span>
+    </p>
+
+  </div>
+  <div class="p1-d1">
+    <b> Xin chân thành cảm ơn và trân trọng kính chào! </b>
+  </div>
+
+  <div class="p1-d1 flex-line" style="margin-top:30px">
+    <div class="flex-auto">
+
+    </div>
+    <div class="flex-auto text-center">
+      <p style="padding-bottom: 15px;"><span id="lto-local" data-x-id="location" style="min-width: 30px;"
+        data-label="Tỉnh/Thành phố" required="required" placeholder="Tỉnh/Thành phố" contenteditable="true"></span>,
+      Ngày <span id="lto-ngay" data-x-id="dayctr" style="min-width: 10px;" data-label="Ngày" required="required"
+        placeholder="Ngày" contenteditable="true"></span>
+      Tháng <span id="lto-thang" data-x-id="monthctr" style="min-width: 10px;" data-label="Tháng" required="required"
+        placeholder="Tháng" contenteditable="true"></span>
+      Năm <span id="lto-nam" data-x-id="yearctr" style="min-width: 10px;" data-label="Năm" required="required"
+        placeholder="Năm" contenteditable="true"></span></p>
+
+    <b> Người làm đơn</b> <br /> (Ký và ghi rõ họ tên)</b>
+    </div>
+   
+  </div>
+</div>
+</div>

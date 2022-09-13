@@ -1,0 +1,16 @@
+@import '../cv.css?v=1';#col-left i.block-title-icon{background-color:#fff;color:#6a6a71}#col-right i.block-title-icon{background-color:#6a6a71;color:#fff}.cvo-skillrate-bar[bval="1"] .cvo-skillrate-cell:nth-child(2){background:#242525}.cvo-skillrate-bar[bval="1"] .cvo-skillrate-cell:nth-child(3),.cvo-skillrate-bar[bval="2"] .cvo-skillrate-cell:nth-child(3){background:#242525}.cvo-skillrate-bar[bval="1"] .cvo-skillrate-cell:nth-child(4),.cvo-skillrate-bar[bval="2"] .cvo-skillrate-cell:nth-child(4),.cvo-skillrate-bar[bval="3"] .cvo-skillrate-cell:nth-child(4){background:#242525}.cvo-skillrate-bar[bval="1"] .cvo-skillrate-cell:nth-child(5),.cvo-skillrate-bar[bval="2"] .cvo-skillrate-cell:nth-child(5),.cvo-skillrate-bar[bval="3"] .cvo-skillrate-cell:nth-child(5),.cvo-skillrate-bar[bval="4"] .cvo-skillrate-cell:nth-child(5){background:#242525}#col-right i.block-title-icon{background-color:#6a6a71;color:#fff}#col-right .cvo-block-title span.block-title-content{color:#6a6a71}#cvo-body{background-image:url(../assets/images/bg_6a6a71.png);background-size:100% 100%;background-repeat:no-repeat}@media print{body{background-image:url(../assets/images/bg_6a6a71.png);background-size:100% 100%;background-repeat:no-repeat}}
+.cvo-skillrate-value[value="1"] {
+content:url(6a6a71/1.png);
+}
+.cvo-skillrate-value[value="2"] {
+content:url(6a6a71/2.png);
+}
+.cvo-skillrate-value[value="3"] {
+content:url(6a6a71/3.png);
+}
+.cvo-skillrate-value[value="4"] {
+content:url(6a6a71/4.png);
+}
+.cvo-skillrate-value[value="5"] {
+content:url(6a6a71/5.png);
+}

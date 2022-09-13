@@ -1,0 +1,834 @@
+#form-cv * {
+    box-sizing: border-box !important;
+}
+body.page-preview, body.page-view, body.page-viewdemo {
+    background: url(/images3/bg-cv/3.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cv-document-root {
+    width: 100%;
+}
+
+.page:last-child #cv-watermark{
+    position: absolute;
+    /* display: block !important; */
+    bottom: 10px;
+    left: 10px;
+}
+
+
+#cv-watermark a:after{
+    content: "Joboko.com";
+}
+
+.container-main {
+    width: 100%;
+    cursor: text;
+    display: table;
+    position: relative;
+    white-space: normal;
+    background-color: #fff;
+    height: inherit;
+}
+
+    .container-main:hover .watermark.active {
+        background-color: rgba(44, 190, 96, 0.8);
+        border-radius: 2px;
+        color: white;
+        cursor: pointer;
+    }
+
+        .container-main:hover .watermark.active:hover {
+            background-color: #2cbe60;
+        }
+
+    .container-main .footer-container-main {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        display: block;
+        align-items: center;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        color: #909395;
+    }
+
+        .container-main .footer-container-main .hyphen {
+            margin: 0 10px;
+        }
+
+            .container-main .footer-container-main .hyphen.dismiss {
+                display: none;
+            }
+
+.text-font-family-option {
+    margin-left: 5px;
+}
+
+.cvs {
+    position: relative;
+}
+
+    .cvs.index-1 .cvs-header, .cvs.index-2 .cvs-header, .cvs.index-3 .cvs-header, .cvs.index-4 .cvs-header, .cvs.index-5 .cvs-header {
+        display: none;
+    }
+
+.content-field[visible='false'] {
+    display: none;
+}
+
+.text-field {
+    white-space: normal;
+}
+
+.input-field,
+.select-field,
+.text-field {
+    word-wrap: break-word;
+}
+
+    .input-field[contenteditable="false"]:empty:after,
+    .select-field[contenteditable="false"]:empty:after,
+    .text-field[contenteditable="false"]:empty:after {
+        content: '\00a0';
+    }
+
+.cv-progress-bar-flow {
+    background-color: #f8ca04;
+    color: #f8ca04;
+}
+
+    .cv-progress-bar-flow.level-inactive:not(.high-light) {
+        background-color: #ededed !important;
+        color: #ededed !important;
+    }
+
+.bg-primary {
+    background-color: #da2536 !important;
+}
+
+.bg-opaque-primary {
+    background-color: rgba(218, 37, 54, 0.12890625) !important;
+}
+
+.bg-secondary {
+    background-color: #24c2cb !important;
+}
+
+.text-primary {
+    color: #da2536 !important;
+}
+
+.text-secondary {
+    color: #24c2cb !important;
+}
+
+.input-field {
+    min-width: 29px
+}
+
+
+.container-main .main {
+    display: table-cell;
+    width: 65%;
+    float: right;
+    min-height:295mm;
+}
+
+.container-main .cvs:last-child {
+    padding-bottom: 0
+}
+
+.container-main .side {
+    width: 35%;
+    display: table-cell;
+    position: absolute;
+    min-height: inherit;
+    height: 100%;
+}
+
+.container-main-1 .side, .container-main-2 .side, .container-main-3 .side, .container-main-4 .side, .container-main-5 .side, .container-main-6 .side, .container-main-7 .side, .container-main-8 .side, .container-main-9 .side {
+    opacity: 0.129
+}
+
+.skill-name, .experience-title, .experience-company, .education-school, .education-major, .organization-name, .organization-title, .project-name, .award-organization, .award-title, .language, .cert-name, .reference-name, h4.parentheses, .cert-received-date {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+
+
+.container-main .cvs:first-child {
+    padding-top: 15px
+}
+
+.cvs-header {
+    display: block;
+    padding: 5px 0 5px 15px;
+    background-color: #313a3a;
+    color: white;
+    text-transform: uppercase;
+    margin: 5px 0 0px 0;
+}
+
+
+
+.content-field {
+    padding: 10px 15px
+}
+
+    .content-field .sub-cvs {
+        padding: 5px
+    }
+
+.skill-name.details-field-input {
+    margin-bottom: 10px
+}
+
+.cv-progress-bar {
+    height: 20px;
+    position: relative;
+    display: block;
+    justify-content: space-between;
+   
+}
+
+    .cv-progress-bar.skill-level {
+        background-color: transparent !important
+    }
+
+.cv-progress-bar-flow {
+    height: 100%;
+    width: 20px;
+    border-radius: 10px
+}
+
+.container-main-container .header {
+    /* background-color: #2f99b5; */
+    display: inline-block;
+    height: 100%;
+}
+
+.cvs-header, .profile-cvs-header, .socials-cvs-header {
+    font-weight: bold
+}
+
+.header {
+    color: white;
+    display: block;
+}
+
+    .header .about-me, .header .info, .header .content-socials {
+        color: black;
+        padding: 15px 20px 0 20px
+    }
+
+.detail-group {
+    display: inline-block
+}
+
+.reference-detail {
+    margin: 0;
+    font-weight: normal
+}
+
+.detail-name {
+    margin: 0 5px 0 0
+}
+
+.socials-cvs-header {
+    color: #000
+}
+
+.socials-cvss .sub-cvs {
+    padding: 5px
+}
+
+.profile-cvs-header, .socials-cvs-header {
+    display: block;
+    text-transform: uppercase;
+    margin: 15px 0 10px 0
+}
+
+.header-field-group {
+    display: inline-block
+}
+
+    .header-field-group .header-field-input {
+        margin: 3px 0 3px 0;
+        max-width: 210px;
+        font-weight: normal
+    }
+
+    .header-field-group .header-field-icon {
+        /* align-self: center; */
+        font-size: 18px;
+        width: 30px;
+        text-align: center;
+    }
+
+.header-field-input, .details-field-input {
+    opacity: 0.8;
+    color: #242424
+}
+
+.avatar-container {
+    display: block;
+    padding: 40px 0 30px 0;
+    align-items: center;    
+}
+
+
+
+.avatar-action-modal {
+    width: 196px;
+    height: 196px;
+    border-radius: 98px
+}
+
+.user-title {   
+    margin-top: 10px;
+    padding: 0 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px !important;
+}
+
+.user-name {
+    margin-top: 20px;
+    padding: 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header-field-group .website{
+    text-transform: lowercase;
+
+}
+
+.content-main, .content-award, .content-organization {
+    display: block
+}
+
+
+
+.experience-company, .education-school, .organization-name, .project-name, .cert-name, .award-organization {
+    text-transform: uppercase
+}
+
+.content-education {
+    display: block
+}
+
+.education-period, .experience-period, .award-period, .project-period, .organization-period {
+    display: block
+}
+
+.last-index .sub-cvs:last-child .connected-line-group {
+    display: none
+}
+
+.connected-line-group {
+   
+    display: block;
+  
+    padding-left: 5px;
+    padding-top: 5px
+}
+
+.line-start-point, .line-end-point {
+    width: 4px;
+    background: #d2e1e5;
+    height: 4px;
+    border-radius: 2px
+}
+
+.line-period {
+   
+    width: 2px;
+    margin: 1px;
+    background: #d2e1e5
+}
+
+.duration-hyphen {
+    margin: 0 5px
+}
+
+.skills-cvss {
+    display: block;
+ 
+    justify-content: space-between
+}
+
+.content-skill {
+    max-width: 100%
+}
+    .content-skill .cv-progress-bar-flow {
+        width: 12px;
+        height: 12px
+    }
+
+    .content-skill .skill-name {
+        width: 225px
+    }
+
+.reference-info {
+    display: block;
+  
+    color: rgba(74,74,74,0.7)
+}
+
+.reference-separator {
+    margin: 0 5px
+}
+
+
+.languages-cvss {
+    display: block;
+    justify-content: space-between;
+  
+}
+
+    .languages-cvss .sub-cvs{
+        width:50%;
+        display:inline-block
+    }
+
+    .interests-cvss {
+        display: block;
+     
+    }
+
+.interest-name {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f8ca04;
+    border-radius: 20px;
+    color: #fff
+}
+
+.certificates-cvss {
+    display: block;
+    justify-content: space-between;
+   
+}
+
+   
+
+.experience-company-period .experience-period, .education-school-period .education-period, .organization-name-period .organization-period, .project-name-period .project-period, .award-organization-period .award-period {
+    color: #838485
+}
+
+.cert-received-date-group {
+    display: block;
+    color: #838485;
+    font-style: italic;
+    margin-left: 5px
+}
+
+.cert-info {
+    display: block
+}
+
+h4.parentheses, .cert-received-date {
+    font-style: italic;
+    font-weight: normal
+}
+
+.content-contacts {
+    padding: 30px 15px 0 15px;
+    padding-bottom: 10px !important
+}
+
+    .content-contacts .sub-cvs {
+        padding: 5px !important
+    }
+
+    .content-contacts .profile-cvs-header {
+        color: black;
+        margin-left: 5px
+    }
+
+.content-socials {
+    padding-top: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important
+}
+
+    .content-socials .socials-cvs-header {
+        margin-left: 5px
+    }
+
+.experience-period, .education-period, .organization-period, .project-period, .award-period {
+    text-align: center
+}
+
+/*.avatar-img-container img {
+    border-radius: 98px;
+}*/
+
+/*.avatar-img-container {
+    margin: 50px auto;
+   
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: relative;
+}
+
+    .avatar-img-container img {
+        transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        position: absolute;
+        top: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border-radius: 28px;
+    }*/
+.avatar-group {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    background-color: #fff
+}
+
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius:98px; 
+    *margin:10px;
+}
+
+
+.fa-suitcase, .fa-pie-chart, .fa-graduation-cap, .fa-child, .fa-users, .fa-certificate, .fa-language, .fa-file-text-o, .fa-trophy, .fa-gratipay {
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    width: 55px;
+    height: 55px;
+    color: white;
+    line-height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 99;
+}
+.fa-graduation-cap {
+    top: 10px;
+}
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left-100 {
+    float: left;
+    width: 100% !important;
+}
+
+.float-right-100 {
+    float: right;
+    width: 100% !important;
+}
+
+.float-left-90 {
+    float: left;
+    width: 90% !important;
+}
+
+.float-right-90 {
+    float: right;
+    width: 90% !important;
+}
+
+.float-left-30 {
+    float: left;
+    width: 30% !important;
+}
+
+.float-left-50 {
+    float: left;
+    width: 50% !important;
+}
+
+.float-left-70 {
+    float: left;
+    width: 70% !important;
+}
+
+.float-right-70 {
+    float: right;
+    width: 70% !important;
+}
+
+.float-left-80 {
+    float: left;
+    width: 80% !important;
+}
+
+.float-right-80 {
+    float: right;
+    width: 80% !important;
+}
+
+.float-right-30 {
+    float: right;
+    width: 30% !important;
+}
+
+.float-right-20 {
+    float: right;
+    width: 20% !important;
+}
+
+.float-left-20 {
+    float: left;
+    width: 20% !important;
+}
+.float-left-60 {
+    float: left;
+    width: 60% !important;
+}
+.float-right-60 {
+    float: right;
+    width: 60% !important;
+}
+.bar-exp {
+    background: #fff;
+    border: solid 2px #000;
+}
+.cvo-skillrate-value[value="1"] {
+    width: 20%
+}
+.cvo-skillrate-value[value="2"] {
+    width: 40%
+}
+.cvo-skillrate-value[value="3"] {
+    width: 60%;
+}
+.cvo-skillrate-value[value="4"] {
+    width: 80%
+}
+.cvo-skillrate-value[value="5"] {
+    width: 100%
+}
+.bar-exp span {
+    display: block;
+    height: 100%;
+    background: #c8b184;
+}
+
+
+.cvo-skillrate-value {
+    cursor: pointer;
+}
+
+.contacts-cvss {
+    width: 100%;
+    float: left;
+}
+
+    .contacts-cvss .sub-cvs {
+        width: 100%;
+        float: left;
+    }
+
+        .contacts-cvss .sub-cvs .header-field-group {
+            width: 100%;
+            float: left;
+            display: flex;
+            justify-content: flex-start;    
+            align-items: baseline; 
+        }
+
+            .contacts-cvss .sub-cvs .header-field-group i {
+                width: 15%;
+                float: left;
+            }
+
+            .contacts-cvss .sub-cvs .header-field-group h4 {
+                width: 90%;
+                float: left;
+            }
+
+.content-main {
+    display: table;
+    width:100%;
+}
+
+.education-school-period {
+    display: table-cell;
+    width: 30%;
+    float: left;
+}
+
+.education-info {
+    display: table-cell;
+    width: 65%;
+    float: right;
+}
+
+    .education-info * {
+        display: inline-block;
+        width: 100%;
+    }
+
+.education-period * {
+    float: left;
+}
+
+.experience-company-period {
+    display: table-cell;
+    width: 30%;
+    float: left;
+}
+
+.experience-info {
+    display: table-cell;
+    width: 68%;
+    float: right;
+}
+
+    .experience-info * {
+        display: inline-block;
+        width: 100%;
+    }
+
+.experience-period * {
+    float: left;
+}
+.organization-name-period {
+    display: table-cell;
+    width: 30%;
+    float: left;
+}
+
+.organization-info {
+    display: table-cell;
+    width: 68%;
+    float: right;
+}
+
+    .organization-info * {
+        
+        width: 100%;
+    }
+
+.organization-period * {
+    float: left;
+}
+
+.award-organization-period {
+    display:table;
+    width: 100%;
+    float: left;
+}
+    .award-organization-period .organization {
+        display: table-cell;
+        width: 75%;
+        float: left;
+    }
+.award-period {
+    display: table-cell;
+    width: 20%;
+    float: left;
+}
+.content-certificate {
+    display: table;
+    width: 100%;
+    float: left;
+}
+.cert-info {
+    display: table-cell;
+    width: 100%;
+    float: left;
+}
+.cert-received-date-group {
+    display: table-cell;
+    width: 25%;
+    float: left;
+}
+.cert-received-date-group * {
+    float: left;
+}
+.cert-name{
+    float:left;
+}
+.input-field {
+    max-width: 100%;
+}
+
+.content-reference{
+    display:table;
+    width:100%;
+    margin-top:10px;
+}
+.project-name-period{
+    display:table;
+    float:left;
+    width:100%;
+}
+.project-info {
+    display: table;
+    margin-top:10px;
+    width: 100%;
+}
+.project-period *{
+    float:left;
+}
+.height-curent{
+    padding-bottom: 20px;
+}
+.from,
+.to {
+    max-width: 65px
+}
+
+@media screen and (max-width: 790px) {
+    [data-x-name=parrent] .page {
+        border: 0;
+         min-height: auto; 
+    }
+    .container-main .side{
+        width:100%;
+        float:left;
+        position:initial;
+    }
+    .container-main .main {
+        width: 100%;
+        float: left;
+        display: block;
+        position: initial;
+    }
+    .education-school-period, .experience-company-period, .organization-name-period {
+        width: 100%;
+    }
+    .education-info, .experience-info, .organization-info {
+        width: 100%;
+    }
+    .header .about-me {
+        padding: 0px 20px 10px 20px;
+    }
+}
+[data-x-col="2"] .sub-cvs > .details-wrapper{
+	    padding-left: 150px;
+}
+[contenteditable]:focus  {
+    outline: 1pt dashed #77a5cc !important;
+    cursor: text;
+}
+
+
+[contentEditable=true]:empty{
+	outline: 1pt dashed #fc4b08 !important;
+}

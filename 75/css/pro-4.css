@@ -1,0 +1,249 @@
+body.page-preview, body.page-view, body.page-viewdemo {
+    background: url(/images3/bg-cv/1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.page_cv{
+	display: flex;
+	flex-wrap: wrap;
+	background: #fff;
+}
+.h_curent{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+}
+.nd-section {
+	display: flex;
+    justify-content: center;
+    align-items: stretch;
+    min-height: 1122px;
+height:100%;
+}
+.wrapped-content {
+	display: flex;
+	flex: 1;
+}
+.uppertext {
+	text-transform: uppercase;
+}
+.lt-spc {
+	letter-spacing: 3px;
+}
+.infor-left {
+	width: 30%;
+	padding: 20px 30px;
+	/* background-color: #e6e6e6; */
+}
+
+.infor-right {
+	width: 70%;
+	flex: 1;
+	background-color: #fff;
+	position: relative;
+}
+
+.page:last-child #cv-watermark{
+	display: block !important;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+#cv-watermark a:after {
+    content:'Joboko.com';     
+}
+
+.time-bl {
+	display: inline-block;
+	padding: 0 5px;
+}
+.fz-20 {
+	font-size: 20px;
+}
+.mrb-30 {
+	 margin-bottom: 20px;
+}
+.mrb-15 {
+	 margin-bottom: 15px;
+}
+.mrb-10{
+	margin-bottom: 10px;
+}
+.bd-title {
+	padding-bottom: 10px;
+	border-bottom: solid 1px;
+	margin-bottom: 15px;
+}
+.mrb-50 {
+	 margin-bottom: 50px;
+}
+.fwb {
+	font-weight: bold;
+}
+.text-capi{
+	text-transform: capitalize;
+}
+.banner-left {
+	margin-top: 30px;
+	margin-left: -80px;
+	margin-right: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 250px;
+}
+.banner-left-inner {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 35px;
+    border: solid 1px;
+     background-color: #fff;
+}
+.wrap-group {
+	padding: 20px 0;
+}
+.spacing-pd {
+	padding: 20px 30px;
+}
+.two-title {
+	display: flex;
+    justify-content: space-between;
+}
+.mrt-10 {
+	margin-top: 10px;
+	line-height: 1.7;
+}
+.mrb-15 {
+	margin-bottom: 15px;
+}
+.pdt-20{
+	padding-top: 20px;
+}
+.w-70 {
+	width: 65%;
+}
+.icon-skillrate-value.dot[value="5"]{
+	content: url(../images/icon-skillvalue-rate5.png);
+	width: 60%;
+	height: auto;
+	margin: 5px 0;
+}
+.icon-skillrate-value.dot[value="4"]{
+	content: url(../images/icon-skillvalue-rate4.png);
+	width: 60%;
+	height: auto;
+	margin: 5px 0;
+}
+.icon-skillrate-value.dot[value="3"]{
+	content: url(../images/icon-skillvalue-rate3.png);
+	width: 60%;
+	height: auto;
+	margin: 5px 0;
+}
+.icon-skillrate-value.dot[value="2"]{
+	content: url(../images/icon-skillvalue-rate2.png);
+	width: 60%;
+	height: auto;
+	margin: 5px 0;
+}
+.icon-skillrate-value.dot[value="1"]{
+	content: url(../images/icon-skillvalue-rate1.png);
+	width: 60%;
+	height: auto;
+	margin: 5px 0;
+}
+.mr-fixed {
+	margin-top: 255px;
+}
+.name-title {
+	padding: 0 20px;
+	font-size: 25px;
+    letter-spacing: 2px;
+}
+.text-aln {
+	text-align: center;
+}
+.fz-16 {
+	font-size: 16px;
+}
+.bul-cir:before {
+	content: "●";
+	margin-right: 5px;
+}
+.bul-cir:empty::before {
+	content: "";
+	
+}
+@media only screen and (max-width: 768px) {
+		.lt-spc {
+		letter-spacing: 0px !important;
+	}
+	.icon-skillrate-value.dot[value="5"],
+	.icon-skillrate-value.dot[value="4"],
+	.icon-skillrate-value.dot[value="3"],
+	.icon-skillrate-value.dot[value="2"],
+	.icon-skillrate-value.dot[value="1"] {
+		width: 40%;
+	}
+} 
+@media screen and (max-width: 460px) {
+	.wrapped-content {
+		flex-direction: column;
+	}
+	.infor-left,
+	.infor-right {
+		width: 100%;
+	}
+	.infor-left {
+		position: relative;
+	}
+	/*.infor-left*/ .banner-left {
+		position: absolute;
+	    top: 2%;
+	    left: 5%;
+	    right: 5%;
+    }
+	.banner-left {
+		justify-content: center;
+		margin-left: 0;
+    	margin-right: 0;
+	}
+	.banner-left-inner {
+		padding: 30px 20px;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.banner-left-inner {
+		padding: 20px 25px;
+	}
+	.name-title {
+		font-size: 20px;
+	}
+	.fz-20 {
+		font-size: 17px !important;
+	}
+	.icon-skillrate-value.dot[value="5"],
+	.icon-skillrate-value.dot[value="4"],
+	.icon-skillrate-value.dot[value="3"],
+	.icon-skillrate-value.dot[value="2"],
+	.icon-skillrate-value.dot[value="1"] {
+		width: 80%;
+	}
+	.two-title {
+		flex-direction: column;
+	}
+	.w-70 {
+		width: 100%;
+	}
+} 
+
+[contentEditable=true]:empty {
+    outline: 1pt dashed #fc4b08!important;
+    min-height: 20px;
+}
+
+[contenteditable=true]:empty:before {
+    content: attr(placeholder)!important;
+}

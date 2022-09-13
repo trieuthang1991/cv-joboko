@@ -1,0 +1,16 @@
+@import '../cv.css?v=3';
+.cvo-skillrate-value[value="1"] {
+content:url(504e4e/1.png);
+}
+.cvo-skillrate-value[value="2"] {
+content:url(504e4e/2.png);
+}
+.cvo-skillrate-value[value="3"] {
+content:url(504e4e/3.png);
+}
+.cvo-skillrate-value[value="4"] {
+content:url(504e4e/4.png);
+}
+.cvo-skillrate-value[value="5"] {
+content:url(504e4e/5.png);
+}

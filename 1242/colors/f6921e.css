@@ -1,0 +1,11 @@
+#cv-document .page{background:#f6921e;color:#000}
+#cv-document .page::after{background:linear-gradient(to right,#f6921e .3em,#b96328 0) repeat-x top left/.6em 100%}
+#cv-document .page__inner{background:linear-gradient(to top,transparent 2.7em,#fff 0)}
+@media print{
+#cv-document .page__inner{background:linear-gradient(to top,transparent 4.4em,#fff 0)}
+}
+#cv-document .info-main::before{background-color:#f6921e}
+#cv-document .info-main__title{color:#ffeccc}
+#cv-document .info-main__text{color:#fff}
+#cv-document .info-detail__item-icon{color:#fff;background-color:#231f20}
+#cv-document .job-position{color:#414042}

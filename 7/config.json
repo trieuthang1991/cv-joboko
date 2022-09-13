@@ -1,0 +1,15 @@
+﻿{
+  "langs": [ "vi","en"],
+  "colors": [ "3F9599","159CD0","559F22","616493","A42A72","CE6B23" ],
+  "fonts": {
+    "default": "Roboto",
+    "mitr": "Mitr",
+    "open_sans": "Open Sans",
+    "roboto_condensed": "Roboto Condensed",
+	"yahei":"Microsoft Yahei",
+	"mincho":"MS Mincho",
+	"gulimche":"Gulimche"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

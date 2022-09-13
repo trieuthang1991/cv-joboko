@@ -1,0 +1,68 @@
+<link id="cv-css" href="https://i-vn2.joboko.com/MyCv/templates/1089/css/cv.css?v=2.1" rel="stylesheet" />
+
+<div id="page1"  data-x-name="item" data-x-id="info">
+  <div class="page_ctr" >
+    <p  class="p1-head">
+      CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM<br>Độc lập - Tự do - Hạnh phúc </p>
+    <p  class="h1">Đơn xin nghỉ việc</p>
+
+    <div class="p1-d1">
+      <b class="tx_nm ">Kính gửi :</b>
+      <div id="congty" data-x-id="com" class="line" contenteditable="true"> </div>
+    </div>
+    <div class="p1-d1">
+      <b class="tx_nm ">Họ tên:</b>
+      <div id="hoten" data-x-id="name" class="line" contenteditable="true"> </div>
+    </div>
+    <div class="p1-d1">
+      <b class="tx_nm ">Chức vụ:</b>
+      <div id="chucvu" data-x-id="pos" class="line" contenteditable="true"> </div>
+      <b class="tx_nm ">Bộ phận:</b>
+      <div id="bophan"  data-x-id="depart" class="line"  contenteditable="true"></div>
+
+    </div>
+    <div class="p1-d1">
+      <b class="tx_nm">Nay tôi làm đơn này, kính xin ban giám đốc cho tôi thôi việc kể từ ngày: </b>
+      <div id="ns_ngay" data-x-id="dayoff" class="line"  contenteditable="true"></div>
+      <b class="tx_nm ns_thang"  >tháng</b>
+      <div id="ns_thang" class="line" data-x-id="monthoff"  contenteditable="true"></div>
+      <b class="tx_nm ns_nam" >năm</b>
+      <div id="ns_nam" data-x-id="yearoff" class="line"  contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <b class="tx_nm">Lý do:</b>
+      <div id="dk_lydo" class="d2 line" data-x-id="reason"  contenteditable="true"></div>
+    </div>
+    <div class="p1-d1">
+      <b class="tx_nm ">Tôi đã bàn giao công việc cho:</b>
+      <div id="cmtnd" class="line"  data-x-id="receiver" contenteditable="true"></div>
+      <b class="tx_nm ">Bộ phận:</b>
+      <div id="noicap" class="line"  data-x-id="departreceiver" contenteditable="true"></div>
+    </div>
+
+    <div class="p1-d1">
+      <b class="tx_nm baotin">Các công việc được bàn giao:</b>
+      <div id="baotin" class="line d3" data-x-id="jobreceiver"  contenteditable="true">
+
+      </div>
+    </div>
+    <div class="p1-d2 ">
+      <b class="tx_nm text-left">Tôi cam đoan đã bàn giao công việc lại cho bộ phận có liên quan trước khi nghỉ việc.
+       <br />
+        <br />
+      </b>
+      
+      <b class="tx_nm text-left">
+       Rất mong Ban Giám đốc xem xét và chấp thuận cho tôi được phép thôi việc. Tôi xin chân thành cảm ơn.
+       <br />
+       <br />
+       </b>
+    </div>
+     <br />
+    <b class="p1-d1 l">Trưởng bộ phận </b>
+
+    <b class="p1-d1 r">Người làm đơn</b>
+  </div>
+
+</div>
+</div>

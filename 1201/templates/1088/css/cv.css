@@ -1,0 +1,92 @@
+.clearfix{clear:both}
+span[contenteditable],em[contenteditable]{display:inline-block}
+#form-cv{position: relative;/*background: #252525;*/font-size: 14px;line-height: 24px;color:#252525;width:100%}
+#form-cv *{box-sizing:border-box !important}
+#form-cv .h3{font-size:14px}
+#form-cv p{margin-top: 0;margin-bottom: 12px}
+#group-left .cvo-block{margin-bottom: 30px}
+.cv-main{display:table;width:100%}
+#cv-top{color: #fff}
+.cv-content{width: 64.6%;display:table-cell;position: relative;background: #ded0b5;color: #252525;padding-top:20px}
+.cv-content .cvo-block {position: relative;padding: 5px 10px}
+.cv-left{width: 34.6%;display:table-cell;	position: relative;color: #fff;padding-top:20px}
+.cv-left .box-contact span{display: block}
+.cv-left .cv-box-item {padding-bottom:0;margin:0}
+.cv-left .h3{text-align:center;border-bottom:solid 2px #fff;line-height:24px}
+.cv-left .h3 span{padding: 0px 15px;margin: 5px 0px}
+.cv-left .h3:first-child{margin-top: 0}
+.skill{margin-top: 15px}
+.cv-content .cvo-block {padding: 15px 30px 10px 0px}
+#cv-top h1{font-size:32px;margin:15px 0;padding:5px 10px;line-height: normal;text-transform: uppercase;text-align: center;text-shadow: 0px 1px #a6a7a8;font-weight: 700}
+#cv-top h1 span{padding:0px 15px;color:#fff;display:block}
+#cv-top h2{font-size: 16px;font-weight: normal;margin-bottom: 12px;color: #fff;text-align: center;font-style: italic}
+.cv-content p{margin-bottom: 5px}
+.cv-left .h3, .cv-content .head{font-size: 18px;font-weight: bold;margin-top: 0;text-transform: uppercase}
+.cv-content h3{	font-weight:600;font-size:16px;margin-left: 5px;margin-bottom:12px;line-height:24px}
+.cv-content .head{padding:10px;background:#252525;color:#fff;margin:2px 0 10px 0}
+.cv-content .head span{letter-spacing:5px;width:90%}
+.cv-content span[contenteditable]{display: inline-block;padding-right: 10px;padding-left: 10px}
+.cv-box-item{margin-bottom: 25px;position: relative}
+.cv-box-item:hover {box-shadow: 0 0 1px #999}
+#cv-box-ava{	padding:15px 0px 0px;text-align:center}
+#cv-box-ava img{width:190px;height:190px;border:solid 2px #ded0b5;border-radius:50%}
+#line-seperate {height: 25px;background-color: #e3ecec}
+.bar-exp span {display:block;height: 8px;background: #c8b184}
+.bar-exp{background: #fff;border: solid 2px #fff;margin-bottom:12px}
+.box-contact{padding:15px!important;margin:15px 0; min-height: 222px;}
+.box-contact label{display: block;color:#627e88}
+[data-x-name="parrent"] .page {
+    border: 0;
+    background: #252525;
+    height: 1122px;
+    -webkit-print-color-adjust: exact;
+}
+.box-contact i.fa{
+	width: 20px;
+    height: 20px;
+    background-color: #ded0b5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    line-height: 20px;
+    color: #252525!important;
+    margin-right: 10px;
+    margin-top: 1px;float:left
+}
+.cv-box-content{padding-left: 15px;margin-left: 5px}
+.block{padding: 0 10px;}
+.cvo-skillrate-value[value="1"]{width:20%}
+.cvo-skillrate-value[value="2"]{width:40%}
+.cvo-skillrate-value[value="3"]{width:60%}
+.cvo-skillrate-value[value="4"]{width:80%}
+.cvo-skillrate-value[value="5"]{width:100%}
+span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
+span.cv-date{float:right;font-weight:500;font-size:15px}
+@media screen and (max-width: 790px) {
+    #form-cv{padding-left:10px}
+    #cv-top{width:100%;text-align:center;float:none}
+    #cv-box-ava{float:none;margin:0}
+    #cv-box-ava img{margin:0 auto}
+    #cv-top h1,#cv-top h2{float:none;width:90%;margin:10px auto}
+    .cv-left{width:100%;min-height:100px;float:none;margin-left:0;padding-right:0;display:block}
+    .cv-content{width:100%;float:none;min-height:100px;float:none;margin-left:0;display:block}
+    .cv-left .box-contact{position:relative !important;top:0;left:0;width:100%}
+    .box-contact p{width:100%}
+    .cv-left .h3, .cv-content .head{width:100%}
+    .cv-box-content{width:100%}
+}
+
+#cv-watermark {
+   color: #e3e3e3;
+    bottom: 5px;
+    left: 10px;
+    /* margin-top: 70px;  */
+    position: absolute;
+}
+#cv-watermark  a{color:#e3e3e3;}
+.cv-left .height-curent{
+    padding-bottom: 20px ;
+}

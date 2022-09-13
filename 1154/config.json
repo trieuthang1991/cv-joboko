@@ -1,0 +1,11 @@
+﻿{
+  "langs": [ "vi","en","ja","ko","zh"],
+  "colors": [ "007acc", "1ca9b7", "e84545", "00a19a", "c15252", "6d6d6d" ],
+  "fonts": {
+    "default":"Roboto",
+    "arial": "Arial",
+    "tahoma": "Tahoma"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

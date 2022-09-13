@@ -1,0 +1,30 @@
+.bxinfo2.border-left{
+	border-left: 1px solid #eeb201;
+	
+}
+.subdv2.border-left:first-child{
+	margin-top: 20px;
+}
+.subdv2.border-left:last-child{
+	padding-bottom: unset;
+}
+
+.subdv2.border-left:before{
+	content: "";
+    display: block;
+    width: 20px;
+    position: absolute;
+    left: -1px;
+    float: left;
+	border-bottom: 1px solid #eeb201 !important;
+}
+.subdv2.border-left:last-child:after{
+	content: "";
+	display: block;
+	width: 20px;
+	position: absolute;
+	left: -1px;
+	bottom:0px;
+	float: left;
+	  border-bottom: 1px solid #eeb201 !important;
+  }

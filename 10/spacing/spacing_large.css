@@ -1,0 +1,6 @@
+/* Spacing large */
+#group-left .cvo-block,
+#group-right .cvo-block {
+    padding: 10px;
+    margin-bottom: 30px;
+}

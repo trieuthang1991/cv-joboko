@@ -1,0 +1,233 @@
+
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/4/colors/999999.css?v=2.2.1">
+<link id="cv-font" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/4/fonts/default.css?v=2.1.3">
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/4/font-sizes/font_normal.css?v=2.1.3">
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/4/spacing/spacing_normal.css?v=2.1.3">
+
+<div id="cvo-document" class="cvo-document">
+    <div class="cvo-page">
+        <div class="cvo-subpage">
+            <div id="cvo-body">
+                <div id="group-header" data-x-name="item" data-x-id="info">
+                    <div class="cvo-col-8">
+                        <div id="cvo-profile-avatar-wraper" class="profile-item">
+                            <img id="cvo-profile-avatar" data-x-id="ava" src="https://i-vn0.joboko.com/upload/images/avatars/no_avatar.jpg" value="" alt="avatar">
+                        </div>
+                        <div id="cvo-profile-fullname-wraper">
+                            <span id="cvo-profile-fullname" data-x-id="name" contenteditable="true">Họ tên</span>
+                        </div>
+                        <div id="cvo-profile-title-wraper">
+                            <span id="cvo-profile-title" data-x-id="job" contenteditable="true">Vị trí ứng tuyển</span>
+                        </div>
+                    </div>
+                    <div class="cvo-col-4" id="group-profile">
+                        <div id="cvo-profile" class="cvo-block">
+                            <div class="contact-item">
+                                <span id="cvo-profile-dob" data-x-id="dob" contenteditable="true">01/01/1990</span>
+                            </div>
+                            <div class="contact-item">
+                                <span id="cvo-profile-gender" data-x-id="gen" contenteditable="true">Nam</span>
+                            </div>
+                            <div class="contact-item">
+                                <span id="cvo-profile-phone" data-x-id="tel" contenteditable="true">0123456789</span>
+                            </div>
+                            <div class="contact-item">
+                                <span id="cvo-profile-email" data-x-id="email" contenteditable="true">goodcv@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span id="cvo-profile-address" data-x-id="add" contenteditable="true">Số 1 đường Cầu Giấy, Hà Nội</span>
+                            </div>
+                            <div class="contact-item">
+                                <span id="cvo-profile-website"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="group-top" data-x-name="group-item">
+                    <div id="cvo-objective" class="cvo-block" data-x-name="item" data-x-id="tar">
+                        <div class="cvo-block-header">
+                            //<span id="cvo-objective-blocktitle" data-x-id="tit" contenteditable="true">Mục tiêu nghề nghiệp</span>
+                        </div>
+                        <div class="cvo-block-body">
+                            <div id="cvo-objective-objective" data-x-id="name" contenteditable="true">Tôi muốn áp dụng những kinh nghiệm về kỹ năng bán hàng và sự hiểu biết về thị trường để trở thành một nhân viên bán hàng chuyên nghiệp, mang đến nhiều giá trị cho khách hàng. Từ đó giúp Công ty tăng số lượng khách hàng và mở rộng tập khách hàng.</div>
+                        </div>
+                    </div>
+                    <div id="cvo-experience" class="cvo-block" data-x-name="item" data-x-id="exp">
+                        <div class="cvo-block-header">
+                            //<span id="cvo-experience-blocktitle" data-x-id="tit" contenteditable="true">Kinh nghiệm làm việc</span>
+                        </div>
+                        <div id="experience-table" class="cvo-block-body" data-x-name="list-item">
+                            <div class="row " data-x-name="sub-item">
+                                <div class="cvo-col-4">
+                                    <div class="cvo-experience-company-wraper">
+                                        <span class="cvo-experience-company" data-x-id="name" contenteditable="true">Công ty cổ phần viettel telecom</span>
+                                    </div>
+                                    <div class="cvo-experience-time">
+                                        <span class="cvo-experience-start" data-x-id="start" contenteditable="true">03/2015</span>
+                                        -
+                                        <span class="cvo-experience-end" data-x-id="end" contenteditable="true">Hiện tại</span>
+                                    </div>
+                                </div>
+                                <div class="cvo-col-8">
+                                    <div><span class="cvo-experience-position" data-x-id="pos" contenteditable="true">Lập trình viên bigdata</span></div>
+                                    <div class="cvo-experience-details" data-x-id="des" contenteditable="true">-Làm kỹ sư Bigdata <br />- Lập trình viên php, lập trình viên sql, no sql, memcache <br />- Kế toán trưởng công ty Viettel<br /> - Sử dụng phần mềm database my sql</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cvo-block" id="cvo-project" data-x-name="item" data-x-id="pro">
+                        <h3 class="cvo-block-header">//<span id="cvo-project-blocktitle" data-x-id="tit" contenteditable="true">Dự án</span></h3>
+                        <div id="project-table" class="cvo-block-body" data-x-name="list-item">
+                            <!-- start row -->
+                            <div class="row" data-x-name="sub-item">
+                                <div class="project_title">
+                                    <h4 class="cvo-project-project-name" data-x-id="name" contenteditable="true"></h4>
+                                    <div class="time">
+                                        (<span class="cvo-project-start start" data-x-id="start" contenteditable="true"></span> - <span class="cvo-project-end end" data-x-id="end" contenteditable="true"></span>)
+                                    </div>
+                                </div>
+                                <div class="project_details">
+                                    <table border="1">
+                                        <tr>
+                                            <th>Khách hàng</th>
+                                            <td class="cvo-project-customer" data-x-id="cus" contenteditable="true"></td>
+                                        <tr>
+                                        <tr>
+                                            <th>Mô tả dự án</th>
+                                            <td class="cvo-project-description" data-x-id="des" contenteditable="true"></td>
+                                        <tr>
+                                        <tr>
+                                            <th>Số lượng thành viên</th>
+                                            <td class="cvo-project-team-size" data-x-id="mem" contenteditable="true"></td>
+                                        <tr>
+                                        <tr>
+                                            <th>Vị trí công việc</th>
+                                            <td class="cvo-project-my-position" data-x-id="pos" contenteditable="true"></td>
+                                        <tr>
+                                        <tr>
+                                            <th>Công nghệ sử dụng</th>
+                                            <td class="cvo-project-technologies-used" data-x-id="tech" contenteditable="true"></td>
+                                        <tr>
+                                    </table>
+                                </div>
+                                <div style="clear: both"></div>
+                            </div>
+                            <!-- end row -->
+                        </div>
+                    </div>
+                </div>
+                <div class="cvo-col-6">
+                    <div id="group-left" data-x-name="group-item">
+                        <div id="cvo-skillrate" class="cvo-block" data-x-name="item" data-x-id="skill">
+                            <div class="cvo-block-header">//<span id="cvo-skillrate-blocktitle" data-x-id="tit" contenteditable="true">Kỹ năng</span></div>
+                            <div id="skillrate-table" class="cvo-block-body" data-x-name="list-item">
+                                <div class="row" data-x-name="sub-item">
+                                    <div><span class="cvo-skillrate-title" data-x-id="name" contenteditable="true"></span></div>
+                                    <div class="cvo-skillrate-bar" rate-value="4">
+                                        <span class="cvo-skillrate-value"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="cvo-interest" class="cvo-block" data-x-name="item" data-x-id="hob">
+                            <div class="cvo-block-header">//<span id="cvo-interest-blocktitle" data-x-id="tit" contenteditable="true">Sở thích</span></div>
+                            <ul id="interest-table" class="cvo-block-body" data-x-name="list-item">
+                                <li class="row" data-x-name="sub-item"><span class="cvo-interest-details" data-x-id="name" contenteditable="true"></span></li>
+                            </ul>
+                            <div style="clear: both"></div>
+                        </div>
+                        <div id="cvo-activity" class="cvo-block" data-x-name="item" data-x-id="act">
+                            <div class="cvo-block-header">//<span id="cvo-activity-blocktitle" data-x-id="tit" contenteditable="true">Hoạt động</span></div>
+                            <div id="activity-table" class="cvo-block-body" data-x-name="list-item">
+                                <div class="row " data-x-name="sub-item">
+                                    <div class="cvo-activity-time">
+                                        <span class="cvo-activity-start" data-x-id="start" contenteditable="true">10/2013</span>
+                                        -
+                                        <span class="cvo-activity-end" data-x-id="end" contenteditable="true">08/2014</span>
+                                    </div>
+                                    <div class="cvo-activity-organization-wraper">
+                                        <span class="cvo-activity-organization" data-x-id="name" contenteditable="true">nhóm thiện nguyện vì cộng đồng 5V</span>
+                                    </div>
+                                    <div><span class="cvo-activity-position" data-x-id="pos" contenteditable="true">Tình nguyện viên</span></div>
+                                    <div class="cvo-activity-details" data-x-id="des" contenteditable="true">Tập hợp các món quà và phân phát tới người vô gia cư.<br />- Chia sẻ, động viên họ vượt qua giai đoạn khó khăn, giúp họ có những suy nghĩ lạc quan.</div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                        <div class="cvo-block" id="cvo-additional-info" data-x-name="item" data-x-id="more">
+                            <div class="cvo-block-header">//<span id="cvo-additional-info-blocktitle" data-x-id="tit" contenteditable="true">cam kết trách nhiệm</span></div>
+                            <div class="cvo-block-body">
+                                <div id="cvo-additional-information-details" data-x-id="name" contenteditable="true">Nếu bạn cần thêm thông tin có thể cho tôi biết qua email hoặc điện thoại, tôi sẵn sàng cung cấp và chịu trách nhiệm về tính chính xác của thông tin trong CV này</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cvo-col-6">
+                    <div id="group-right" data-x-name="group-item">
+                        <div id="cvo-education" class="cvo-block" data-x-name="item" data-x-id="edu">
+                            <div class="cvo-block-header">
+                                //<span id="cvo-education-blocktitle" data-x-id="tit" contenteditable="true">Học vấn</span>
+                            </div>
+                            <div id="education-table" class="cvo-block-body" data-x-name="list-item">
+                                <div class="row " data-x-name="sub-item">
+                                    <div class="cvo-education-time">
+                                        <span class="cvo-education-start" data-x-id="start" contenteditable="true">10/2010</span>
+                                        -
+                                        <span class="cvo-education-end" data-x-id="end" contenteditable="true">05/2014</span>
+                                    </div>
+                                    <div class="cvo-education-school-wraper">
+                                        <span class="cvo-education-school" data-x-id="name" contenteditable="true">Đại học Công nghệ Bách Khoa Hà Nội Việt Nam</span>
+                                    </div>
+                                    <div><span class="cvo-education-title" data-x-id="cat" contenteditable="true">Chuyên ngành: Quản trị Doanh nghiệp</span></div>
+                                    <div class="cvo-education-details" data-x-id="des" contenteditable="true">Tốt nghiệp loại Giỏi, điểm trung bình 8.0</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="cvo-certification" class="cvo-block" data-x-name="item" data-x-id="cer">
+                            <div class="cvo-block-header">//<span id="cvo-certification-blocktitle" data-x-id="tit" contenteditable="true">Chứng chỉ</span></div>
+                            <div id="certification-table" class="cvo-block-body" data-x-name="list-item">
+                                <div class="row " data-x-name="sub-item">
+                                    <div class="cvo-certification-title-wraper">
+                                        <span class="cvo-certification-title" data-x-id="name" contenteditable="true">Giải nhất Tài năng TOPCV</span>
+                                    </div>
+                                    <div class="cvo-certification-time-wraper">
+                                        <span class="cvo-certification-time" data-x-id="time" contenteditable="true">2013</span>
+                                    </div>
+                                    <div style="clear:both;"></div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                        <div id="cvo-award" class="cvo-block" data-x-name="item" data-x-id="award">
+                            <div class="cvo-block-header">//<span id="cvo-award-blocktitle" data-x-id="tit" contenteditable="true">Giải thưởng</span></div>
+                            <div id="award-table" class="cvo-block-body" data-x-name="list-item">
+                                <div class="row " data-x-name="sub-item">
+                                    <div class="cvo-award-title-wraper">
+                                        <span class="cvo-award-title" data-x-id="name" contenteditable="true">Nhân viên xuất sắc năm công ty TOPCV</span>
+                                    </div>
+                                    <div class="cvo-award-time-wraper">
+                                        <span class="cvo-award-time" data-x-id="time" contenteditable="true">2014</span>
+                                    </div>
+                                    <div style="clear:both;"></div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                        <div class="cvo-block" id="cvo-reference" data-x-name="item" data-x-id="ref">
+                            <div class="cvo-block-header">//<span id="cvo-reference-blocktitle" data-x-id="tit" contenteditable="true">Người tham chiếu</span></div>
+                            <div id="reference-table" class="cvo-block-body" data-x-name="list-item">
+                                <div class="row" data-x-name="sub-item">
+                                    <span class="cvo-reference-content color-content" data-x-id="name" contenteditable="true">
+                                        Anh: Nguyễn Chiến Thắng <br />- Trưởng phòng Marketing Công ty Cổ Phần công nghệ Đồ uống Việt Nam, Thuộc liên đoàn Lao động Việt Nam <br /> Điện thoại:... 0905718889
+                                    </span>
+                                </div>
+                            </div>
+                            <div style="clear: both;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div id="cv-watermark">&copy; <a href="https://i-vn0.joboko.com/" target="_blank">GoodCV.vn</a></div>
+        </div>
+    </div>
+</div>

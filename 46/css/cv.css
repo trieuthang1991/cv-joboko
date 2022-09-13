@@ -1,0 +1,224 @@
+body.page-preview, body.page-view, body.page-viewdemo {
+	*background: url(/images3/bg-cv/5.jpg) no-repeat;
+	background-color: blanchedalmond !important;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body.page-preview .xbgcv.xbgcv2{
+	bottom: 0;
+    position: fixed;
+    width: 150px;
+    height: 170px;
+    background: url(/images3/bg-cv/2.2.png) no-repeat;
+    background-size: cover;
+    left: 0;
+    z-index: 99;
+}
+
+#cv-document-root{width:100%}
+.clearfix{clear:both}
+span[contenteditable],em[contenteditable]{display:inline-block}
+#form-cv{
+	width:100%;
+	/* background: #fff; */
+	position: relative;
+	/* overflow: hidden; */
+	font-size: 14px;
+	line-height: 24px;
+	color:#494949;
+}
+.page{
+ background: #fff;
+position: relative;
+}
+#form-cv *{box-sizing:border-box !important}
+#form-cv .h3{
+    font-size:14px
+}
+#form-cv p{
+	margin-top: 0;
+	margin-bottom: 12px
+}
+.cvo-block{
+	padding: 10px 10px !important;
+	border-top: solid 2px #c1c1c1;
+}
+h1{
+	color:#fff;
+}
+.cv-main{
+	width: 100%;
+	display: table;
+	height: 100%;
+	/* margin:40px auto; */
+	/* border-bottom: solid 2px #c1c1c1; */
+
+}
+#cv-top{	
+	min-height: 200px;
+	width: 100%;
+	color: #fff;	
+	position: relative;
+}
+.cv-content{
+	width: 60%;
+	height: auto;
+	float: left;
+	position: relative;
+	border-left:2px solid #ddd;
+}
+.cv-content .cvo-block {
+    position: relative;
+    padding: 5px 10px;
+}
+.cv-left{
+	width: 40%;
+	height: auto;
+	float: left;	
+	background: #fff;
+	position: relative; 
+    margin-bottom: 30px;
+}
+.cv-left .cv-box-content {
+	padding-bottom: 0;
+	margin:0;
+}
+.skill{
+	margin-top: 15px
+}
+
+#cv-top h1{
+	font-weight: normal;
+	font-size: 40px;
+	margin-bottom: 5px;
+	width: 72%;
+	float: right;
+	text-transform: uppercase;
+}
+#cv-top h2{
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 0;
+	color: #fff;
+	width: 72%;
+	float: right;
+	font-style: italic;
+	text-transform: capitalize;
+}
+.box-name p{	
+	height: 72px;
+    overflow: hidden;
+}
+.box-name{
+	margin:auto;	
+	position: absolute;
+	width: 100%;
+	background: #312f31;
+	top:55px;
+	padding: 20px 0px;
+}
+.cv-content p{
+	margin-bottom: 5px
+}
+.cv-left .h3, .cv-content .head{
+	font-size: 22px !important;
+    color: #312f31;
+    font-weight: 500;
+    margin-top: 0
+}
+
+.cv-content h3{	
+    color: #333;
+    font-weight:bold;font-size:14px;line-height:30px;margin-bottom:10px;
+}
+
+.cv-content .h3{
+	color:#312f31
+}
+.cv-content span[contenteditable]{
+	display: inline-block;
+	background: #fff;
+	padding-right: 8px;
+}
+
+.cv-left .h3:first-child{
+	margin-top: 0
+}
+.cv-box-content{
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.cv-box-content:hover {
+	box-shadow: 0 0 1px #999;
+}
+
+
+#cv-box-ava{
+	float: left;
+	margin-left: 40px;
+	position: absolute;
+    text-align:center;
+}
+#cv-box-ava img{
+	padding: 0;
+	border:0;
+	width: 170px;
+	height: 170px;	
+	border:4px solid #4d4d4d;
+	margin-top: 15px;
+}
+.bar-exp span {
+    display: block;
+    height: 8px;
+    background: #312f31;
+}
+.bar-exp{
+	background: #e3ecec;
+    margin-bottom:10px
+}
+.icoweb label{
+	width: 35%;
+	margin-right: 0;
+	float: left;
+}
+.cv-left .icoweb span{
+	width: 65%;
+	display: inline-block;
+	word-wrap: break-word;      /* IE 5.5-7 */
+	white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+	white-space: pre-wrap;      /* current browsers */
+}
+.block{padding: 0 10px;}
+.cvo-skillrate-value[value="1"]{width:20%}
+.cvo-skillrate-value[value="2"]{width:40%}
+.cvo-skillrate-value[value="3"]{width:60%}
+.cvo-skillrate-value[value="4"]{width:80%}
+.cvo-skillrate-value[value="5"]{width:100%}
+
+span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
+span.exp-date{float:right}
+@media screen and (max-width: 790px) {
+    #cv-top{width:100%;text-align:center;float:none}
+    #cv-box-ava{
+        float:none;margin:0;position:relative
+    }
+    .box-name{position:relative;top:0}
+    #cv-top h1,#cv-top h2{float:none;width:90%;margin:10px auto}
+    .cv-left{width:100%;min-height:100px;float:none}
+    .cv-content{width:100%;float:none;min-height:100px;float:none}
+}
+
+.page:last-child #cv-watermark {
+	display: block !important;
+    position: absolute;
+    color: #c7c4c4;
+    bottom: 10px;
+    right: 10px;    
+    
+}
+#cv-watermark a{color:#c7c4c4;}
+.page:last-child #cv-watermark a:after{
+	content: "Joboko.com";
+}

@@ -1,0 +1,30 @@
+
+.box-contact{
+    background-color:#00b3b3
+}
+#box-top{
+    background-color:#00b3b3
+}
+#cv-top h1{    
+    color:#00b3b3;
+}
+
+.cv-content h3,.exp-date{	
+    color: #00b3b3;
+}
+#cv-box-ava{
+	border:5px solid #00b3b3;	
+}
+
+.bar-exp span {
+    background: #00b3b3;
+}
+
+.icoweb i.fa{
+    background: #00b3b3;
+}
+
+.cvo-block .h3 i , .cvo-block  .head i{
+    color: #00b3b3;
+    border: 2px solid #00b3b3;
+}

@@ -1,0 +1,12 @@
+#cv-document .page{background:linear-gradient(to bottom,#009ce8,#009ce8) no-repeat right bottom/1.3em 7em,#fff;color:#000}
+#cv-document .page::after{border-right-color:#009ce8;background-color:#f3f9ff}
+#cv-document .heading::after{background:linear-gradient(to right,rgba(18,163,234,.2),rgba(22,72,131,.2))}
+#cv-document .avatar::before{background-color:#009ce8}
+#cv-document .avatar__inner{background-color:#fff9f8}
+#cv-document .info-main__title{color:#fff}
+#cv-document .info-main__title::before{background-color:#333}
+#cv-document .info-main__title::after{border-color:#141414 transparent transparent transparent}
+#cv-document .info-main__text{color:#fff}
+#cv-document .info-main__text::before{background-color:#009ce8}
+#cv-document .info-detail::after{background-color:#009ce8}
+#cv-document .info-detail__item-icon{color:#fff}

@@ -1,0 +1,6 @@
+#form-cv{
+	font-family: 'Tahoma',sans-serif;
+}
+#form-cv *[contenteditable] {
+    font-family: Tahoma,sans-serif !important;
+}

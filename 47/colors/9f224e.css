@@ -1,0 +1,25 @@
+#cv-top h1{
+    color:#9f224e;
+}
+#cv-right .h3, #cv-content .head{
+    color: #9f224e;    
+}
+#cv-content h3{ 
+    color: #9f224e;
+}
+#cvo-profile-avatar-wraper{
+    border:3px solid #9f224e;   
+}
+.bar-exp span {
+    background: #9f224e;
+}
+#cv-right .icoweb i.fa{
+    background: #9f224e;
+}
+.cvo-block .h3 i , .cvo-block  .head i{
+    color: #9f224e;
+    border: 2px solid #9f224e;
+}
+span.box-content, .ctbx.experience{
+    border-left: solid 2px #9f224e;
+}

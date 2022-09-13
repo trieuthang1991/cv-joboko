@@ -1,0 +1,17 @@
+#cv-right .h3{
+	border-bottom: solid 3px #bf0909;
+}
+
+#cv-content .head{
+	border-bottom: solid 3px #cc0000;
+}
+#cv-content span[contenteditable]{
+	background: #55552b;
+}
+#cv-content{
+	background: #55552b;
+}
+
+#form-cv{
+	background: #e0e0d1;
+}

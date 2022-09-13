@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<style>
+.txt1, .txt2{border:solid 1px #ddd;min-height:100px;padding:10px}
+.txt1::first-letter,.txt2:not(:focus)::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+}
+</style>
+</head>
+<body>
+<p>Style ban đầu (Lỗi khi gõ tiếng việt có dấu):</p>
+<div class="txt1" contenteditable="true">Nội dung ban đầu</div>
+<p>Style đã fix (Chỉ áp dụng style cho kí tự đầu khi không focus vào text input):</p>
+<div class="txt2" contenteditable="true">Nội dung đã fix css</div>
+</body>
+</html>

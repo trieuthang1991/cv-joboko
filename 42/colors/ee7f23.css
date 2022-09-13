@@ -1,0 +1,21 @@
+.cv-left .h3, .cv-content .head{
+    color: #ee7f23;
+    border: solid 2px #ee7f23; 
+}
+#cv-box-ava img{
+	border: solid 3px #ee7f23;
+}
+.bar-exp span[contenteditable] {
+    background: #ee7f23;
+}
+.icoweb i.fa{
+    background-color: #ee7f23;
+}
+.cv-content{
+	border-left: solid 5px #ee7f23;
+}
+
+#cv-top h1 span{
+	color: #ee7f23
+}
+.bar-exp span{background-color:#ee7f23}

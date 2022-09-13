@@ -1,0 +1,29 @@
+/* -----------------ma mau #56bb2b  -------*/
+.sub_info .info {
+	border-left: 41px solid #56bb2b;
+}
+.sub-item-left {
+    border-left: 12px solid #56bb2b;
+}
+.sub-item-left {
+    border-left: 12px solid #56bb2b;
+}
+.block-special .block_content{
+	border-left: 12px solid #56bb2b;
+}
+.resume-color{ color:#56bb2b}
+@media screen and (max-width: 470px) {
+	.sub-item-left {
+    	border-left: 7px solid #56bb2b;
+    }
+}
+@media screen and (max-width: 680px) {
+	.sub_info .info{
+		border-left: 15px solid #56bb2b;
+	}
+}
+@media screen and (max-width: 470px) {
+	.sub_info .info{
+		border-left: 7px solid #56bb2b;
+	}
+}

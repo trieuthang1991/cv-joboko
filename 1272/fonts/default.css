@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Helvetica';
+	src: url('./HelveticaNeue-Bold.eot');
+	src: url('./HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+			url('./HelveticaNeue-Bold.woff2') format('woff2'),
+			url('./HelveticaNeue-Bold.woff') format('woff'),
+			url('./HelveticaNeue-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+#form-cv{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+#cv-document .info-main__title {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#cv-document .heading__title {
+	font-family: 'Helvetica';
+}

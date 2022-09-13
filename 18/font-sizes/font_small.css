@@ -1,0 +1,22 @@
+/* Font small */
+#cvo-profile-fullname {
+    line-height: 55px;
+    font-size: 33px;
+    font-weight: 600;
+}
+#cvo-profile-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+#cvo-body {
+    font-size: 13px;
+}
+.cvo-block-header span {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.cvo-education-school, .cvo-experience-company, .cvo-activity-organization {
+    font-weight: 600;
+    font-size: 13px;
+}

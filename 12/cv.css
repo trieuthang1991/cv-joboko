@@ -1,0 +1,433 @@
+.cvo-document .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important
+}
+.cvo-document *{box-sizing:border-box}
+.cvo-document .cvo-page {
+    padding: 0;
+    position: relative
+}
+
+.cvo-document .cvo-subpage {
+    padding: 7mm;
+    padding-bottom: 5mm;
+    box-sizing: border-box;
+    position:relative
+}
+
+/*#group-header [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: #bbb;
+    font-weight: 100
+}*/
+
+#group-header .cvoInvalidate {
+    color: red
+}
+
+#cvo-body {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 190mm;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px
+}
+
+#group-header {
+    padding-top: 3px;
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+#cvo-reference,
+#cvo-skillrate {
+    float: left
+}
+
+#group-footer #cvo-reference {
+    width: 32%
+}
+
+#group-footer #cvo-skillrate {
+    width: 68%
+}
+
+#group-footer .cvo-block:first-child {
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+#group-footer .cvo-block:nth-child(2) {
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#cvo-profile-avatar-wraper {
+    width: 100%;
+    text-align: right
+}
+
+#cvo-profile-avatar-wraper img {
+    width: 80%;
+    border-radius: 50%
+}
+
+#cvo-header-top-left {
+    padding-top: 20px;
+    float: left;
+    text-align: left;
+    width: 84%;
+    padding-left: 1px
+}
+
+#cvo-header-top-left hr {
+    width: 100px;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 3px solid #000
+}
+
+#cvo-header-top-right {
+    padding-top: 10px;
+    float: right;
+    text-align: right;
+    width: 15%;
+    padding-right: 1px
+}
+
+#cvo-profile-fullname {
+    width: 100%;
+    font-weight: lighter;
+    font-size: 28px;
+    text-transform: capitalize;
+    line-height: 36px;
+    display: inline-block
+}
+
+#cvo-profile-title {
+    text-transform: capitalize;
+    width: 100%
+}
+
+#cvo-header-bottom {
+    padding: 10px 0;
+    text-align: left
+}
+
+#cvo-header-bottom span {
+    margin-right: 15px
+}
+
+#cvo-header-bottom span#cvo-profile-address {
+    display: inline;
+    min-width: 80px;
+}
+
+#cvo-main {
+    width: 99%;
+    float: left;
+    min-height: 560px;
+    box-sizing: border-box;
+}
+
+#cvo-main .cvo-block {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative
+}
+
+.cvo-block {
+    padding-left: 3mm;
+    padding-right: 3mm
+}
+
+#cvo-main #group-footer .cvo-block {
+    border-top: 0
+}
+
+#group-footer {
+    position: relative
+}
+
+#group-middle .cvo-block::before,
+#group-footer::before {
+    border-top: 1px solid #dfdfdf;
+    position: absolute;
+    top: 0;
+    width: calc(100% - 6mm);
+    line-height: 1px;
+    content: ' '
+}
+
+#group-footer::before {
+    margin-left: 3mm
+}
+
+@media print {
+    #group-footer::before,
+    #cvo-main .cvo-block::before {
+        display: none
+    }
+    #group-footer,
+    #group-middle .cvo-block {
+        border-top: 1px solid #dfdfdf
+    }
+    #group-footer .cvo-block {
+        padding-bottom: 0
+    }
+}
+
+#cvo-main .cvo-block-title {
+    margin: 0 0 10px;
+    font-size: 15px;
+    line-height: 32px;
+    text-transform: uppercase
+}
+
+#cvo-main .cvo-block-title span {
+    display: inline-block;
+    padding-right: 5px;
+    width: 100%
+}
+
+#cvo-main .row {
+    margin-top: 5px
+}
+
+#cvo-main .row-col-time {
+    width: 30%;
+    float: left;
+    text-align: left;
+    color: #444
+}
+
+#cvo-main .row-col-time i {
+    font-size: 12px;
+    line-height: 18px
+}
+
+#cvo-main .row-col-data {
+    float: left;
+    width: 70%
+}
+
+.row-com-name {
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 5px
+}
+
+.row-title {
+    font-style: italic;
+    padding-left: 20px;
+    background-image: url(assets/images/timeline-circle.png);
+    background-size: 9px;
+    background-position: 0 4px;
+    background-repeat: no-repeat;
+    width: 100%
+}
+
+.row-details {
+    padding: 7px 0 7px 20px;
+    background-image: url(assets/images/timeline-post.png);
+    background-size: 9px 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat
+}
+
+#cvo-main .cvo-block .row:last-child .row-details {
+    padding-bottom: 0
+}
+
+.color-highlight {
+    color: #000
+}
+
+.color-content {
+    color: #444
+}
+
+#cvo-skillrate {}
+
+#skillrate-table .row {
+    margin-bottom: 3px
+}
+
+.skill-title {
+    width: 30%;
+    float: left
+}
+
+.cvo-skillrate-title {
+    width: 100%;
+    display: inline-block
+}
+
+.cvo-skillrate-bar {
+    width: 70%;
+    float: left;
+    margin-top: 3px;
+    background-color: #efefef;
+    display: block;
+    height: 8px;
+    text-align: left;
+    padding: 0
+}
+
+.cvo-skillrate-value {
+    display: block;
+    height: 8px;
+    background-color: #232323
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="1"] {
+    width: 20%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="2"] {
+    width: 40%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="3"] {
+    width: 60%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="4"] {
+    width: 80%
+}
+
+.cvo-skillrate-bar .cvo-skillrate-value[value="5"] {
+    width: 100%
+}
+
+div#reference-table .row {
+    margin-bottom: 10px
+}
+
+div#reference-table .row:last-child {
+    margin-bottom: 0
+}
+
+div#reference-table .row-reference-name {
+    margin-bottom: 5px
+}
+
+div#reference-table .row-reference-details {
+    line-height: 1.5em
+}
+
+.link-cv-online {
+    font-size: .9em;
+    font-style: italic;
+    text-align: right;
+    color: #555
+}
+
+.link-cv-online a {
+    color: #232323
+}
+
+#certification-table .row,
+#award-table .row {
+    margin-bottom: 8px
+}
+
+#certification-table .row:last-child,
+#award-table .row:last-child {
+    margin-bottom: 0
+}
+
+#cvo-profile-email,
+#cvo-profile-address {
+    min-width: 140px
+}
+
+#cvo-profile-phone {
+    min-width: 80px
+}
+
+.cvo-experience-company,
+.cvo-education-school,
+.cvo-activity-organization,
+.cvo-reference-title,
+.cvo-reference-content {
+    min-width: 90%
+}
+
+.row-col-data [contenteditable],
+#cvo-objective-objective,
+#cvo-interests-interests,
+#cvo-additional-information-details {
+    min-width: 100%
+}
+
+#cv-watermark {
+    position: absolute;
+    right: 10mm;
+    bottom: 5mm;
+    font-size: 11px;letter-spacing:2px;
+    color: #999
+}
+#cv-watermark a{color:#999;text-decoration:none}
+#group-footer::before {
+    display: none;
+}
+
+@media print {
+    .cvo-document .cvo-subpage {
+        padding: 7mm !important
+    }
+    .cvo-document .cvo-page {
+        position: inherit
+    }
+    #cvo-main {
+        padding-bottom: 5mm
+    }
+    #group-footer::before {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .cvo-reference {
+        box-sizing: border-box;
+    }
+    #cvo-skillrate {
+        box-sizing: border-box;
+    }
+    #group-footer::before {
+        display: none;
+    }
+    #cvo-objective
+    {
+        box-sizing: border-box;
+    }
+    
+}
+[contentEditable=true]
+{
+    display: inline-block;
+}
+.contact-item span{
+	width:90%;
+}
+.contact-item span:hover, .contact-item span:focus
+{
+	border: 0px dashed #0ba25e;
+	outline: 1pt dashed #77a5cc;
+}
+
+[data-x-id=des],[data-x-id=name]{
+	width:100%;
+}
+[data-x-id=job]
+{
+	min-width:50%;
+}
+[data-x-id=tit],[data-x-id=pos],[data-x-id=cat]
+{
+	min-width:70%;
+}

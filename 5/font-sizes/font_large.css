@@ -1,0 +1,21 @@
+#cvo-body {
+    font-size: 12pt;
+}
+#cvo-header h1 {
+    font-size: 26pt;
+}
+.block-title h3 {
+    font-size: 16pt;
+}
+.block-content h4 {
+    font-size: 14pt;
+}
+.cvo-document #skill-table .row {
+    font-size: 12pt;
+    line-height: 16pt;
+}
+}
+.project_title h4 {
+    font-size: 11pt;
+    line-height: 15pt;
+}

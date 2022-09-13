@@ -1,0 +1,386 @@
+<link id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/65/css/cv.css?v=2.5" rel="stylesheet" />
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/65/colors/04756F.css?v=24" />
+<link id="cv-font" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/65/fonts/default.css?v=131" />
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/65/font-sizes/font_normal.css?v=1322" />
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/65/spacing/spacing_normal.css?v=1322" />
+
+<div id="form-cv" class="text-size line-size">
+    <div id="cv-main" class="container-main-container container-mains">
+        <div class="container-main container-main-0 column"  data-x-name="parrent">
+            <div class="main page" page='1' >
+                <div class="bg_0_side bg-primary"></div>
+                <div class="border_0_left"></div>
+                <div class="border_0_right"></div>
+                <div class="column-0"  data-x-name="col-parrent" data-x-col="1">
+                  <div class="height-curent " >
+                    <div class="avatar-about-me-info cvs" data-x-name="item" data-x-id="info" align="center">
+                        <div class="avatar-group">
+                            <div class="avatar-img-container">
+                                <img data-x-id="ava"
+                                     class="avatar uploaded"
+                                     src="https://i-vn0.joboko.com/upload/images/avatars/no_avatar.jpg"
+                                     alt="avatar" />
+                            </div>
+                        </div>
+                        <div class="about-me">
+                            <div data-x-id="name"
+                                 class="input-field name  user-name  font-size-1"
+                                 contenteditable="true">
+                                Thang Trieu
+                            </div>
+                            <div data-x-id="job"
+                                 class="input-field title  user-title  font-size-2   "
+                                 contenteditable="true"></div>
+                        </div>
+                    </div>
+                    <div class="about-part">
+                        <div class="content-field  index-0 last-index cvs "
+                             data-x-name="item"
+                             data-x-id="info">
+
+                            <div class="cvs-name">
+                                <div class="line__solid"></div>
+                                <div class=" profile-cvs-header1 contact-text font-size-2"
+                                     data-x-id="tit"
+                                     contenteditable="true">
+                                    Liên hệ
+                                </div>
+                            </div>
+                            <div class="contacts-cvss">
+                                <div class="sub-cvs " data-x-rel="dob">
+                                    <div class="header-field-group">
+                                        <i class="fa fa-birthday-cake header-field-icon"></i>
+                                        <h4 data-x-id="dob"
+                                            class="input-field focus-able date_of_birth  header-field-input font-size-4   "
+                                            contenteditable="true"></h4>
+                                    </div>
+                                </div>
+                                <div class="sub-cvs " data-x-rel="email">
+                                    <div class="header-field-group">
+                                        <i class="fa fa-envelope header-field-icon"></i>
+                                        <h4 data-x-id="email"
+                                            class="input-field focus-able email  header-field-input font-size-4   "
+                                            contenteditable="true">
+                                            trieuthangtin18a1@gmail.com
+                                        </h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="sub-cvs " data-x-rel="tel">
+                                    <div class="header-field-group">
+                                        <i class="fa fa-phone header-field-icon"></i>
+                                        <h4 data-x-id="tel"
+                                            class="input-field focus-able phone  header-field-input font-size-4   "
+                                            contenteditable="true"></h4>
+                                    </div>
+                                </div>
+                                <div class="sub-cvs " data-x-rel="web">
+                                    <div class="header-field-group">
+                                        <i class="fa fa-globe header-field-icon"></i>
+                                        <h4 data-x-id="web"
+                                            class="input-field focus-able website  header-field-input font-size-4   "
+                                            contenteditable="true"></h4>
+                                    </div>
+                                </div>
+                                <div class="sub-cvs " data-x-rel="add">
+                                    <div class="header-field-group">
+                                        <i class="fa fa-map-marker header-field-icon"></i>
+                                        <h4 data-x-id="add"
+                                            class="input-field focus-able address  header-field-input font-size-4   "
+                                            contenteditable="true"></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  data-x-name="group-item">
+                        <div class="content-field content-certificates index-0 last-index cvs editable " data-x-id="cer" data-x-name="item">
+                            <div class="line__solid"></div>
+                            <h2 class="cvs-header font-size-2" data-x-id="tit" contenteditable="true">Chứng chỉ</h2>
+                            <div class="certificates-cvss" data-x-name="list-item">
+                                <div class="sub-cvs " data-x-name="sub-item">
+                                    <div class="content-certificate">
+                                        <div class="cert-info">
+                                            <div data-x-id="name"
+                                                 class="input-field name  cvs-title cer-title font-size-3   "
+                                                 contenteditable="true"></div>
+                                            <div class="cert-received-date-group font-size-3">
+                                                <span>(</span>
+                                                <div data-x-id="time"
+                                                     class="input-field received_date  cert-received-date   "
+                                                     contenteditable="true"></div><span>)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-field content-awards index-0 last-index cvs editable " data-x-name="item" data-x-id="award">
+                            <div class="line__solid"></div>
+                            <h2 class="cvs-header font-size-2" data-x-id="tit" contenteditable="true">Giải thưởng</h2>
+                            <div class="awards-cvss" data-x-name="list-item">
+                                <div class="sub-cvs " data-x-name="sub-item">
+                                    <div class="content-w-period award-content">
+                                        <div class="experience-company-period1">
+                                            <div class="company-group">
+                                                <div data-x-id="name"
+                                                     class="input-field organization  cvs-title award-text font-size-3   "
+                                                     contenteditable="true"></div>
+                                                <div class="cvs-period cvs-award">
+                                                    <div data-x-id="time"
+                                                         class="input-field received_date  receive-to details-field-input font-size-5   "
+                                                         contenteditable="true"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-field content-references index-0 last-index cvs editable " data-x-id="ref" data-x-name="item">
+                            <div class="line__solid"></div>
+                            <h2 class="cvs-header font-size-2" data-x-id="tit" contenteditable="true">Người tham chiếu</h2>
+                            <div class="references-cvss" data-x-name="list-item">
+                                <div class="sub-cvs " data-x-name="sub-item">
+                                    <div class="content-reference">
+                                        <h4 data-x-id="name"
+                                            class="input-field contact_phone  details-references font-size-5  "
+                                            contenteditable="true"></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-field content-languages index-0 last-index cvs editable " data-x-name="item" data-x-id="skill_ta">
+                            <div class="line__solid"></div>
+                            <h2 class="cvs-header font-size-2" contenteditable="true" data-x-id="tit">Ngôn ngữ</h2>
+                            <div class="languages-cvss" data-x-name="list-item">
+                                <div class="sub-cvs " data-x-name="sub-item">
+                                    <div class="content-language">
+                                        <h4 data-x-id="name"
+                                            class="input-field name  cvs-title language-title font-size-3   "
+                                            contenteditable="true"></h4>
+                                        <div class="bar-exp cvo-skillrate-bar cv-progress-bar"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column-1"  data-x-name="col-parrent" data-x-col="2">
+                    <div class="height-curent"  >
+                        <div data-x-name="group-item">
+                        <div class="content-field content-skills index-0 last-index cvs editable " data-x-id="tar" data-x-name="item">
+                            <div class="line__solid"></div>
+                            <div data-x-id="tit"
+                                 class="profile-cvs-header intro-text font-size-2"
+                                 contenteditable="true">
+                                Giới thiệu
+                            </div>
+                            <div data-x-name="list-item">
+                                <div data-x-name="one-item">
+                            <div data-x-id="name"
+                                 class="input-field introduction  about-me-input font-size-5   "
+                                 contenteditable="true">
+                                Thử xem thế nào
+                            </div>
+                            </div></div>
+                        </div>
+                        <div class="content-field content-skills index-0 last-index cvs editable " data-x-name="item" data-x-id="skill">
+                            <div class="line__solid"></div>
+                            <h2 class="cvs-header font-size-2" data-x-id="tit" contenteditable="true">Kỹ năng</h2>
+                            <div class="skills-cvss" data-x-name="list-item">
+                                <div class="sub-cvs " data-x-name="sub-item">
+                                    <div class="content-skill">
+                                        <div data-x-id="name"
+                                             class="input-field focus-able name  skill-name details-field-input font-size-5   "
+                                             contenteditable="true"></div>
+                                        <div class="bar-exp cvo-skillrate-bar cv-progress-bar"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-field content-experiences index-0 last-index cvs editable " data-x-id="exp" data-x-name="item">
+                            <div class="line__solid"></div>
+                            <h2 class="cvs-header font-size-2" contenteditable="true" data-x-id="tit">
+                                Kinh nghiệm làm việc
+                            </h2>
+                            <div class="experiences-cvss" data-x-name="list-item">
+                                <div class="sub-cvs " data-x-name="sub-item">
+                                    <div class="content-w-period">
+                                        <div class="experience-company-period">
+                                            <div class="company-group">
+                                                <h4 data-x-id="pos"
+                                                    class="input-field title cvs-title experience-title font-size-3 text-primary "
+                                                    contenteditable="true"></h4>
+                                                <div class="experience-period bg-primary">
+                                                    <div data-x-id="start"
+                                                         class="input-field from  experience-from details-field-input font-size-5   "
+                                                         contenteditable="true"></div>
+                                                    <div class="duration-hyphen font-size-5">-</div>
+                                                    <div data-x-id="end"
+                                                         class="input-field to  experience-to details-field-input font-size-5   "
+                                                         contenteditable="true"></div>
+                                                </div>
+                                            </div>
+                                            <div class="border__solid bg-primary"></div>
+                                        </div>
+                                        <div class="experience-info">
+                                            <h4 data-x-id="name"
+                                                class="input-field company  experience-company font-size-3   "
+                                                contenteditable="true"></h4>
+                                            <div>
+                                                <div class="details-wrapper js-text-field text-field  experience-details details-field-input font-size-5  "
+                                                     data-x-id="des"
+                                                     contenteditable="true"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-field content-educations index-0 last-index cvs editable" data-x-name="item" data-x-id="edu">
+                            <div class="line__solid"></div>
+                            <h2 class="cvs-header font-size-2" data-x-id="tit" contenteditable="true">Học vấn</h2>
+                            <div class="educations-cvss" data-x-name="list-item">
+                                <div class="sub-cvs " data-x-name="sub-item">
+                                    <div class="content-w-period">
+                                        <div class="education-school-period">
+                                            <div class="company-group">
+                                                <h4 data-x-id="cat"
+                                                    class="input-field major text-primary  cvs-title education-major font-size-3   "
+                                                    contenteditable="true"></h4>
+                                                <div class="education-period bg-primary">
+                                                    <div data-x-id="start"
+                                                         class="input-field from  education-from details-field-input font-size-5   "
+                                                         contenteditable="true"></div>
+                                                    <div class="duration-hyphen font-size-5">-</div>
+                                                    <div data-x-id="end"
+                                                         class="input-field to  education-to details-field-input font-size-5   "
+                                                         contenteditable="true"></div>
+                                                </div>
+                                            </div>
+                                            <div class="border__solid bg-primary"></div>
+                                        </div>
+                                        
+                                        <div class="education-info">
+                                            <h4 data-x-id="name"
+                                                class="input-field school  education-school  font-size-3"
+                                                contenteditable="true"></h4>
+                                            <div>
+                                                <div class="details-wrapper js-text-field text-field  education-details details-field-input font-size-5  "
+                                                     data-x-id="des"
+                                                     contenteditable="true"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-field content-organizations index-0 last-index cvs editable " data-x-name="item" data-x-id="act">
+                            <div class="line__solid"></div>
+                            <h2 class="cvs-header font-size-2" data-x-id="tit" contenteditable="true">Hoạt động</h2>
+                            <div class="organizations-cvss" data-x-name="list-item">
+                                <div class="sub-cvs " data-x-name="sub-item">
+                                    <div class="content-w-period organ-content">
+                                        <div class="experience-company-period">
+                                            <div class="company-group">
+                                                <div data-x-id="name"
+                                                     class="input-field organization  cvs-title organ-title text-primary  font-size-3   "
+                                                     contenteditable="true"></div>
+                                                <div class="cvs-period organ-period bg-primary">
+                                                    <div data-x-id="start"
+                                                         class="input-field from  experience-from project-field details-field-input font-size-5   "
+                                                         contenteditable="true"></div>
+                                                    <div class="duration-hyphen font-size-5">-</div>
+                                                    <div data-x-id="end"
+                                                         class="input-field to  experience-to project-field details-field-input font-size-5   "
+                                                         contenteditable="true"></div>
+                                                </div>
+                                            </div>
+                                            <div class="border__solid bg-primary"></div>
+                                        </div>
+                                        <div class="experience-info organ-info">
+                                            <h4 data-x-id="pos"
+                                                class="input-field title  cvs-subtitle organ-subtitle font-size-3    "
+                                                contenteditable="true"></h4>
+                                            <div>
+                                                <div class="details-wrapper js-text-field text-field  experience-details details-field-input organization-text font-size-5  "
+                                                     data-x-id="des"
+                                                     contenteditable="true"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-field content-projects index-0 last-index cvs editable " data-x-name="item" data-x-id="pro">
+                            <div class="line__solid"></div>
+                            <h2 class="cvs-header font-size-2 " data-x-id="tit" contenteditable="true">Dự án</h2>
+                            <div class="projects-cvss" data-x-name="list-item">
+                                <div class="sub-cvs " data-x-name="sub-item">
+                                    <div class="content-w-period projects-period">
+                                        <div class="experience-company-period">
+                                            <div class="company-group ">
+                                                <div data-x-id="name"
+                                                     class="input-field name  cvs-title project-title font-size-3  text-primary"
+                                                     contenteditable="true"></div>
+                                                <div class="cvs-period projetcs-period bg-primary">
+                                                    <div data-x-id="start"
+                                                         class="input-field from  experience-from project-field details-field-input font-size-5   "
+                                                         contenteditable="true"></div>
+                                                    <div class="duration-hyphen font-size-5">-</div>
+                                                    <div data-x-id="end"
+                                                         class="input-field to  experience-to project-field details-field-input font-size-5   "
+                                                         contenteditable="true"></div>
+                                                </div>
+                                            </div>
+                                            <div class="border__solid bg-primary"></div>
+                                            <div class="project-info">
+                                                <div class="details-wrapper js-text-field text-field  project-details details-field-input font-size-5  "
+                                                     data-x-id="des"
+                                                     contenteditable="true"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-field content-interests index-0 last-index cvs editable " data-x-name="item" data-x-id="more">
+                            <div class="line__solid"></div>
+                            <h2 class="cvs-header font-size-2" data-x-id="tit" contenteditable="true">Điều quan tâm</h2>
+                            <div data-x-name="list-item">
+                                <div data-x-name="one-item">
+                                    <div class="content-interest">
+                                        <h4 data-x-id="name"
+                                            class="input-field focus-able name  interest-name font-size-5   "
+                                            contenteditable="true"></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            <div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main page" page='1' id="page" style="display: none">
+ <div class="bg_0_side bg-primary"></div>
+                <div class="border_0_left"></div>
+                <div class="border_0_right"></div>
+  <div class="column-0" data-x-name="col-parrent" data-x-col="1">
+    <div class="height-curent ">
+    </div>
+  </div>
+  <div class="column-1" data-x-name="col-parrent" data-x-col="2">
+    <div class="height-curent" >
+        
+    </div>
+  </div>
+<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+</div>

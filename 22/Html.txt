@@ -1,0 +1,279 @@
+
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/22/colors/000000.css?v=2.2">
+<link id="cv-font" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/22/fonts/default.css?v=2.1.2">
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/22/font-sizes/font_normal.css?v=2.1.2">
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/22/spacing/spacing_normal.css?v=2.1.2">
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/22/language-css/vi.css?v=2.1.2">
+<div id="cvo-document" class="cvo-document">
+    <div class="cvo-page">
+        <div class="cvo-subpage">
+            <div id="cvo-body">
+                <div id="cvo-main">
+                    <!-- #group-header -->
+                    <div id="group-header">
+                        <!-- FIXED GROUP -->
+                        <div id="cvo-profile" class="cvo-block" data-x-name="item" data-x-id="info">
+                            <!-- Header -->
+                            <div id="cvo-profile-avatar-wraper" class="profile-item">
+                            <img id="cvo-profile-avatar" data-x-id="ava" src="https://i-vn0.joboko.com/upload/images/avatars/no_avatar.jpg" value="" alt="avatar">
+                            </div>
+                            <div id="cvo-header" class="hide-avatar">
+                                <h1><span id="cvo-profile-fullname" data-x-id="name" contenteditable="true"></span></h1>
+                                <p>
+                                    <span id="cvo-profile-address" data-x-id="add" contenteditable="true"></span>
+                                </p>
+                                <p>
+                                    <i class="fa fa-phone" data-x-rel="tel"></i>
+                                    <span id="cvo-profile-phone" data-x-rel="tel" data-x-id="tel" contenteditable="true"></span>
+                                    <i class="fa fa-envelope" data-x-rel="email"></i>
+                                    <span id="cvo-profile-email" data-x-rel="email" data-x-id="email" contenteditable="true"></span>
+                                    <i class="fa fa-link" data-x-rel="web"></i>
+                                    <span id="cvo-profile-website" data-x-rel="web" data-x-id="web" contenteditable="true"></span>
+                                </p>
+                                <div style="clear: both"></div>
+                            </div>
+                            <div style="clear: both;"></div>
+                        </div>
+                    </div>
+                    <!-- END #group-header -->
+                    <!-- #group-content -->
+                    <div id="group-content" data-x-name="group-item">
+                        <div id="cvo-objective" class="cvo-block" data-x-name="item" data-x-id="tar">
+                            <div class="cvo-block-title">
+                                <h3><span id="cvo-objective-blocktitle" data-x-id="tit" contenteditable="true">Mục tiêu nghề nghiệp</span></h3>
+                            </div>
+                            <div class="block-content">
+                                <div class="cvo-block-body">
+                                    <div id="cvo-objective-objective" data-x-id="name" contenteditable="true"></div>
+                                </div>
+                            </div>
+                        </div>                    
+                        <!-- Education -->
+                        <div id="cvo-education" class="cvo-block" data-x-name="item" data-x-id="edu">
+                            <div class="cvo-block-title">
+                                <h3><span id="cvo-education-blocktitle" data-x-id="tit" contenteditable="true">Học vấn</span></h3>
+                            </div>
+                            <div class="block-content">
+                                <div id="education-table" data-x-name="list-item">
+                                    <div class="row " data-x-name="sub-item">
+                                        <div class="school">
+                                            <h4>
+                                                <span class="cvo-education-school" data-x-id="name" contenteditable="true"></span>
+                                                - <span class="cvo-education-title" data-x-id="cat" contenteditable="true"></span>
+                                            </h4>
+                                        </div>
+                                        <div class="time">
+                                            <h5><span class="cvo-education-start start" data-x-id="start" contenteditable="true">10/2010</span></h5>
+                                            -
+                                            <h5><span class="cvo-education-end end" data-x-id="end" contenteditable="true">05/2014</span></h5>
+                                        </div>
+                                        <div style="clear: both"></div>
+                                        <div><span class="cvo-education-details" data-x-id="des" contenteditable="true"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                        <!-- Work -->
+                        <div id="cvo-experience" class="cvo-block" data-x-name="item" data-x-id="exp">
+                            <div class="cvo-block-title">
+                                <h3><span id="cvo-experience-blocktitle" data-x-id="tit" contenteditable="true">Kinh nghiệm làm việc</span></h3>
+                            </div>
+                            <div class="block-content">
+                                <div id="experience-table" data-x-name="list-item">
+                                    <div class="row " data-x-name="sub-item">
+                                        <div class="company">
+                                            <h4>
+                                                <span class="cvo-experience-company" data-x-id="name" contenteditable="true"></span>
+                                                - <span class="cvo-experience-position" data-x-id="pos" contenteditable="true"></span>
+                                            </h4>
+                                        </div>
+                                        <div class="time">
+                                            <h5><span class="cvo-experience-start start" data-x-id="start" contenteditable="true">03/2015</span></h5>
+                                            -
+                                            <h5><span class="cvo-experience-end end" data-x-id="end" contenteditable="true">Hiện tại</span></h5>
+                                        </div>
+                                        <div style="clear: both;"></div>
+
+                                        <div class="cvo-experience-details" data-x-id="des" contenteditable="true"></div>
+                                        <div style="clear: both"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                        <!-- Social Activity -->
+                        <div id="cvo-activity" class="cvo-block" data-x-name="item" data-x-id="act">
+                            <div class="cvo-block-title">
+                                <h3><span id="cvo-activity-blocktitle" data-x-id="tit" contenteditable="true">Hoạt động</span></h3>
+                            </div>
+                            <div class="block-content">
+                                <div id="activity-table" data-x-name="list-item">
+                                    <div class="row " data-x-name="sub-item">
+                                        <div class="organization">
+                                            <h4>
+                                                <span class="cvo-activity-organization" data-x-id="name" contenteditable="true"></span>
+                                                - <span class="cvo-activity-position" data-x-id="pos" contenteditable="true"></span>
+                                            </h4>
+                                        </div>
+                                        <div class="time">
+                                            <h5><span class="cvo-activity-start start" data-x-id="start" contenteditable="true">10/2013</span></h5>
+                                            -
+                                            <h5><span class="cvo-activity-end end" data-x-id="end" contenteditable="true">08/2014</span></h5>
+                                        </div>
+                                        <div style="clear: both;"></div>
+
+                                        <div>
+                                            <div class="cvo-activity-details" data-x-id="des" contenteditable="true"></div>
+                                        </div>
+                                        <div style="clear: both"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                        <!-- certification -->
+                        <div id="cvo-certification" class="cvo-block" data-x-name="item" data-x-id="cer">
+                            <div class="cvo-block-title">
+                                <h3><span id="cvo-certification-blocktitle" data-x-id="tit" contenteditable="true">Chứng chỉ</span></h3>
+                            </div>
+                            <div class="block-content">
+                                <div id="certification-table" data-x-name="list-item">
+                                    <div class="row " data-x-name="sub-item">
+                                        <div class="certification">
+                                            <h4><span class="cvo-certification-title" data-x-id="name" contenteditable="true"></span></h4>
+                                        </div>
+                                        <div class="time">
+                                            <h5><span class="cvo-certification-time" data-x-id="time" contenteditable="true">2013</span></h5>
+                                        </div>
+                                        <div style="clear: both;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                        <!-- Award -->
+                        <div id="cvo-award" class="cvo-block" data-x-name="item" data-x-id="award">
+                            <div class="cvo-block-title">
+                                <h3><span id="cvo-award-blocktitle" data-x-id="tit" contenteditable="true">Giải thưởng</span></h3>
+                            </div>
+                            <div class="block-content">
+                                <div id="award-table" data-x-name="list-item">
+                                    <div class="row " data-x-name="sub-item">
+                                        <div class="award">
+                                            <h4><span class="cvo-award-title" data-x-id="name" contenteditable="true"></span></h4>
+                                        </div>
+                                        <div class="time">
+                                            <h5><span class="cvo-award-time" data-x-id="time" contenteditable="true">2014</span></h5>
+                                        </div>
+                                        <div style="clear: both;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                        <!-- Skills -->
+                        <div id="cvo-skillgroup" class="cvo-block" data-x-name="item" data-x-id="skill">
+                            <div class="cvo-block-title">
+                                <h3><span id="cvo-skillgroup-blocktitle" data-x-id="tit" contenteditable="true">Các kỹ năng</span></h3>
+                            </div>
+                            <div class="block-content">
+                                <div id="skill-table" data-x-name="list-item">
+                                    <!-- start row -->
+                                    <div class="row" data-x-name="sub-item">
+                                        <div class="col-1"><h4><span class="cvo-skillgroup-area" data-x-id="name" contenteditable="true"></span></h4></div>
+                                        <div class="col-2">
+                                            <h4 class="cvo-skillgroup-skill-description" data-x-id="des" contenteditable="true"></h4>
+                                        </div>
+                                        <div style="clear: both"></div>
+                                    </div>
+                                    <!-- end row -->
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                        <div id="cvo-interests" class="cvo-block" data-x-name="item" data-x-id="hob">
+                            <div class="cvo-block-title">
+                                <h3><span id="cvo-interests-blocktitle" data-x-id="tit" contenteditable="true">Sở thích</span></h3>
+                            </div>
+                            <div class="block-content">
+                                <div class="cvo-block-body">
+                                    <span id="cvo-interests-interests" data-x-id="name" contenteditable="true"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="cvo-additional-info" class="cvo-block" data-x-name="item" data-x-id="more">
+                            <div class="cvo-block-title">
+                                <h3><span id="cvo-additional-info-blocktitle" data-x-id="tit" contenteditable="true">Cam kết trách nhiệm</span></h3>
+                            </div>
+                            <div class="block-content">
+                                <div id="cvo-additional-information-details" data-x-id="name" contenteditable="true"></div>
+                            </div>
+                        </div>
+                        <!-- Reference -->
+                        <div id="cvo-reference" class="cvo-block" data-x-name="item" data-x-id="ref">
+                            <div class="cvo-block-title">
+                                <h3><span id="cvo-reference-blocktitle" data-x-id="tit" contenteditable="true">Người tham chiếu</span></h3>
+                            </div>
+                            <div class="block-content">
+                                <div id="reference-table" data-x-name="list-item">
+                                    <div class="row" data-x-name="sub-item">
+                                        <div>
+                                            <div class="cvo-reference-content" data-x-id="name" contenteditable="true">
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="clear: both"></div>
+                            </div>
+                        </div>
+                        <div class="cvo-block" id="cvo-project" data-x-name="item" data-x-id="pro">
+                            <h3 class="cvo-block-title"><span id="cvo-project-blocktitle" data-x-id="tit" contenteditable="true">Dự án</span></h3>
+                            <div id="project-table" data-x-name="list-item">
+                                <!-- start row -->
+                                <div class="row" data-x-name="sub-item">
+                                    <div class="project_title">
+                                        <h4 class="cvo-project-project-name" data-x-id="name" contenteditable="true"></h4>
+                                    </div>
+                                    <div class="time">
+                                        (<span class="cvo-project-start start" data-x-id="start" contenteditable="true"></span> - <span class="cvo-project-end end" data-x-id="end" contenteditable="true"></span>)
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="project_details">
+                                        <table border="1">
+                                            <tr>
+                                                <th data-x-label="pro.cus">Khách hàng</th>
+                                                <td class="cvo-project-customer" data-x-id="cus" contenteditable="true"></td>
+                                            <tr>
+                                            <tr>
+                                                <th  data-x-label="pro.des">Mô tả dự án</th>
+                                                <td class="cvo-project-description" data-x-id="des" contenteditable="true"></td>
+                                            <tr>
+                                            <tr>
+                                                <th  data-x-label="pro.mem">Số lượng thành viên</th>
+                                                <td class="cvo-project-team-size" data-x-id="mem" contenteditable="true"></td>
+                                            <tr>
+                                            <tr>
+                                                <th  data-x-label="pro.pos">Vị trí công việc</th>
+                                                <td class="cvo-project-my-position" data-x-id="pos" contenteditable="true"></td>
+                                            <tr>
+                                            <tr>
+                                                <th  data-x-label="pro.tech">Công nghệ sử dụng</th>
+                                                <td class="cvo-project-technologies-used" data-x-id="tech" contenteditable="true"></td>
+                                            <tr>
+                                        </table>
+                                    </div>
+                                    <div style="clear: both"></div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END #group-content -->
+                </div>
+            </div>
+        </div>
+		<div id="cv-watermark">&copy; <a href="https://i-vn0.joboko.com/" target="_blank">GoodCV.vn</a></div>
+    </div>
+</div>

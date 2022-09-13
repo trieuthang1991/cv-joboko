@@ -1,0 +1,118 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/css/font-awesome.min.css">
+<link rel="stylesheet" id="cv-font-size-css" href="https://i-vn.joboko.com/MyCv/templates/1252/font-sizes/font_normal.css?v=1645105655555">
+<link rel="stylesheet" id="cv-spacing-css" href="https://i-vn.joboko.com/MyCv/templates/1252/spacing/spacing_normal.css?v=1645105655555">
+<link rel="stylesheet" id="cv-font" href="https://i-vn.joboko.com/MyCv/templates/1252/fonts/default.css?v=1645105655555">
+<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn.joboko.com/MyCv/templates/1252/colors/5271f9.css?v=1645105655555">
+<link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/MyCv/templates/1252/css/styles.css?v=1645105655556">
+
+<!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
+<div id="form-cv" data-x-name="parrent">
+  <!-- “page=1” và class=”page” -->
+  <div page="1" class="page">
+    <div class="page__inner">
+      <div class="two-up">
+        <div data-x-name="col-parrent" data-x-col="1" class="two-up__left">
+          <div class="height-curent">
+            <div class="info-main" data-x-name="item" data-x-id="info">
+              <div class="info-main__content">
+                <div class="info-main__title">
+                  <div class="h1 uppercase regular" contenteditable="true" data-x-id="name">nguyễn thị trúc mai</div>
+                </div>
+                <div class="info-main__text">
+                  <div class="h3 semi-bold" contenteditable="true" data-x-id="job">Nhân viên kinh doanh</div>
+                </div>
+              </div>
+              <div class="info-main__block-1"></div>
+              <div class="info-main__block-2"></div>
+            </div>
+          </div>
+        </div>
+        <div data-x-name="col-parrent" data-x-col="2" class="two-up__right">
+          <div class="height-curent">
+            <div data-x-name="item" data-x-id="info">
+              <div class="info-detail">
+                <div class="info-detail__inner">
+                  <div class="info-detail__item" data-x-rel="tel">
+                    <div class="p regular inline-block" contenteditable="true" data-x-id="tel">0123456789</div>
+                    <div class="info-detail__item-icon">
+                      <i class="p2 fa fa-volume-control-phone"></i>
+                    </div>
+                  </div>
+                  <div class="info-detail__item" data-x-rel="email">
+                    <div class="p regular inline-block" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com</div>
+                    <div class="info-detail__item-icon">
+                      <i class="p2 fa fa-envelope"></i>
+                    </div>
+                  </div>
+                  <div class="info-detail__item" data-x-rel="web">
+                    <div class="p regular inline-block" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
+                    <div class="info-detail__item-icon">
+                      <i class="p2 fa fa-facebook-official"></i>
+                    </div>
+                  </div>
+                  <div class="info-detail__item" data-x-rel="add">
+                    <div class="p regular inline-block" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
+                    <div class="info-detail__item-icon">
+                      <i class="p2 fa fa-map-marker"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="full-width">
+        <div data-x-name="col-parrent" data-x-col="3">
+          <div class="height-curent flex-column">
+            <div data-x-name="item" data-x-id="subject" class="no-outline">
+              <div class="heading">
+                <div class="h2 semi-bold relative uppercase">
+                  <span data-x-label="subject.tit">Thư ứng tuyển</span>
+                  <div class="inline-block" contenteditable="true" data-x-id="tit">
+                    [Vị trí công việc]
+                  </div>
+                </div>
+              </div>
+              <div class="datetime">
+                <div class="p regular" contenteditable="true" data-x-id="date">
+                  Ngày 31 tháng 12 năm 2021
+                </div>
+              </div>
+            </div>
+            <div data-x-name="item" data-x-id="content">
+              <div class="content">
+                <div class="p regular" contenteditable="true" data-x-id="body">
+                  Thưa ông/bà [Tên],
+                  <br /><br />
+									Cám ơn ông/bà đã dành thời gian quý báu để xem xét thư xin
+									việc này. Tôi rất mong ông/bà có thể sắp xếp một cuộc phỏng
+									vấn trực tiếp gần đây nhất để tôi có thể trình bày rõ hơn về
+									bản thân cũng như tìm hiểu thêm các yêu cầu chi tiết cho vị
+									trí [Tên vị trí công việc] của [Tên công ty].
+                  <br /><br />
+									Trân trọng. Xin cảm ơn!
+                  <br /><br />
+									Nguyễn Văn A
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- id="page" và class="page"  đây là 1 khối HTML có cấu trúc tương tự khối page='1'  -->
+  <div id="page" class="page" style="display: none">
+    <div class="page__inner">
+      <div class="full-width">
+        <div data-x-name="col-parrent" data-x-col="3">
+          <div class="height-curent"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

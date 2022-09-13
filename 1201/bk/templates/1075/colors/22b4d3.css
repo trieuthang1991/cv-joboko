@@ -1,0 +1,28 @@
+.cv-main {
+    background: url("/MyCV/templates/1075/images/bg1075-3.jpg") !important;
+}
+
+#head-name {
+    color: #2c96b1 !important;
+}
+
+.col-left::after {
+    border-right: 2px solid #51bcd8 !important;
+}
+
+#head-underline-decor::after, #head-underline-decor::before {
+    border-bottom: 2px solid #51bcd8 !important;
+}
+
+.title-head {
+    color: #008790 !important;
+}
+
+#education [name="edu.name"], .sub-div-head, #certifications [name="cer.name"], 
+#activities [name="act.name"], #awards [name="award.name"], #skills .sub-div [data-x-id="name"] {
+    color: #0fafbd !important;
+}
+
+#logo-decor div {
+    background: url("/MyCV/templates/1075/images/head3.png") !important;
+}

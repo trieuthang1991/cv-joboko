@@ -1,0 +1,9 @@
+﻿{
+  "langs": [ "vi","en"],
+  "colors": [ "f2d2d7", "635a5b", "4073a7" ],
+  "fonts": {
+    "default": "Saira ExtraCondensed"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

@@ -1,0 +1,26 @@
+#form-cv .page{
+	border:solid 1px #219186;
+	border-left: solid 40px #219186;
+}
+
+#cv-top h1{
+    color:#219186;
+}
+#cv-top h2{
+	color: #219186;
+}
+#cv-content .head{
+    color: #219186;    
+}
+.icoweb i.fa{
+    color: #219186;
+}
+.icoweb{
+	color: #219186;
+}
+.cvo-block{
+    border-left: solid 5px #219186;
+}
+#cv-box-ava{
+    border: solid 2px #219186;
+}

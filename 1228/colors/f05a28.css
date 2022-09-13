@@ -1,0 +1,10 @@
+#cv-document .page{color:#000;background:linear-gradient(to right,#f05a28,#f05a28) no-repeat left bottom/100% 2.4em}
+#cv-document .two-up__right{background-color:#f69e8d}
+#cv-document .two-up__right-inner::before{background-color:#fdeae6}
+#cv-document .avatar::before{background-color:#d54627}
+#cv-document .avatar::after{background-color:#f05a28}
+#cv-document .avatar>span::after,#cv-document .avatar>span::before{background-color:#a92523}
+#cv-document .info-main__title{color:#d33d16}
+#cv-document .info-main__text{color:#fff}
+#cv-document .info-main__text::before{background-color:#f05a28}
+#cv-document .info-detail__item-icon{border-color:#fdeae6;background-color:#f05a28;color:#16150d}

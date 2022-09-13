@@ -1,0 +1,11 @@
+#cv-document .page{background:linear-gradient(to right,#be1e2d,#be1e2d) no-repeat left top/26.5em 100%,#e6e7e8;color:#000}
+#cv-document .avatar::before{background-color:#be1e2d}
+#cv-document .avatar::after{background-color:#8e0c1b}
+#cv-document .avatar__inner::before{border-color:#be1e2d}
+#cv-document .avatar__inner::after{background-color:#be1e2d}
+#cv-document .avatar__circle{background-color:#fff}
+#cv-document .full-width::after{background-color:#fff}
+#cv-document .info-main__title{color:#be1e2d}
+#cv-document .info-detail::before{background-color:#be1e2d}
+#cv-document .info-detail__item-icon{color:#fff}
+#cv-document .heading{color:#be1e2d}

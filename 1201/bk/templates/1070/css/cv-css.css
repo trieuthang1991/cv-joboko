@@ -1,0 +1,305 @@
+*{box-sizing:border-box;}
+.pageCV{
+	background: #fff;
+	color: #000;
+}
+.height_content {
+	padding: 50px 40px;
+	width: 100%;
+	max-width: 100%;
+}
+.info_bottom {
+	display: flex;
+	justify-content: space-between;
+}
+.itemInfo .info_left {
+	width: 60%;
+	max-width: 60%;
+	margin-right: 20px;
+}
+.itemInfo .info_right{
+	flex-grow: 1;
+	display: flex;
+    justify-content: flex-end;
+}
+.name_info {
+	display: flex;
+	max-width: 100%;
+	margin-bottom: 15px;
+	font-size: 40px;
+	line-height: 46px;
+	text-transform: uppercase;
+}
+.pageCV .itemInfo .info_right .avatar .info_avatar{
+	width: 190px;
+	height: auto;
+}
+.icoweb{
+	display: flex;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.icoweb .icoweb_left{
+	width: 25%;
+	max-width: 25%;
+}
+.icoweb .icoweb_right{
+	width: 65%;
+	max-width: 65%;
+}
+.itemGroup{
+	margin-top: 30px;
+}
+.tit-item{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 12px;
+}
+.groupI .itemGroup:nth-child(1){
+	margin-top: 35px;
+}
+.pageCV:nth-child(n+2) .groupI .itemGroup:nth-child(1){
+	margin-top: unset;
+}
+.tit-item .text_h2{
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+.Item_tit_right{
+	display: flex;
+	flex-grow: 1;
+	margin: auto;
+}
+.Item_tit_right i{
+	font-size: 12px;
+}
+.avatar{
+	margin-top: 20px;
+}
+.line_tit {
+	width: 100%;
+	height: 2px;
+	margin: auto 0;
+}
+.subItem{
+	margin-top: 20px;
+	max-width: 100%;
+	width: 100%;
+}
+.subItem-name{
+	margin-top: 10px;
+	max-width: 100%;
+	width: 100%;
+}
+.itemExp .subItem{
+	display: flex;
+}
+.subItem_left{
+	max-width: 30%;
+	width: 30%;
+	padding-right: 10px;
+	display: flex;
+}
+.subItem_left .space_time {
+	padding: 0 5px;
+}
+.subItem_right{
+	flex-grow: 1;
+	max-width: 70%;
+}
+.subItem_right .name_sub{
+	margin-bottom: 5px;
+	font-weight: 600;
+    text-transform: uppercase;
+}
+.subItem_right .text-pos {
+	font-style: italic;
+	padding-bottom: 5px;
+}
+ .itemExp .subItem_right .des_special:before{
+	content: "+";
+	padding-right: 5px;
+}
+.itemSkill .subItem{
+	display: flex;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ddd;
+}
+.itemSkill .subItem .subSkill_left{
+	width: 20%;
+	max-width: 20%;
+	padding-right: 5px;
+}
+.itemSkill .subItem .subSkill_right{
+	width: 80%;
+	max-width: 80%;
+}
+
+.itemSkill .subItem-name{
+	display: flex;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ddd;
+}
+.itemSkill .subItem-name .subSkill_left{
+	width: 20%;
+	max-width: 20%;
+	padding-right: 5px;
+}
+.itemSkill .subItem-name .subSkill_right{
+	width: 80%;
+	max-width: 80%;
+}
+
+.itemaward .subItem{
+	display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.itemaward .subItem .nameAward{
+	max-width: 90%;
+	width: 90%;
+}
+.itemaward .subItem .timeAward{
+	max-width: 10%;
+}
+.itemaward .subItem-name{
+	display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.itemaward .subItem-name .nameAward{
+	max-width: 90%;
+	width: 90%;
+}
+.itemaward .subItem-name .timeAward{
+	max-width: 10%;
+}
+.position{
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.position div{
+	text-transform: capitalize;
+}
+
+.lh-17{
+	line-height: 1.7;
+}
+
+.page:last-child #cv-watermark{
+    display: block !important;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#cv-watermark a:after{
+    content: "Joboko.com";
+}
+
+/*---------------------------RESPONSIVE--------------------------------*/
+@media screen and (max-width: 1024px) {
+
+}
+/* -------------TABLET PORTRAIT--------- */
+@media screen and (max-width: 780px) {
+}
+/* -----------------MOBILE---------------- */
+@media screen and (max-width: 680px) {
+	.height_content{
+		padding: 30px 20px;
+	}
+	.info_bottom{
+		display: block;
+	}
+	.itemInfo .info_left{
+		width: 100%;
+		max-width: 100%;
+		margin-right: unset;
+	}
+	.itemInfo .info_right{
+		justify-content: start;
+	}
+	.pageCV .itemInfo .info_right .avatar{
+		position: unset;
+	}
+	.subItem_left{
+		width: 23%;
+		max-width: 23%;
+	}
+	.subItem_right{
+		max-width: 80%;
+	}
+	.name_info{
+		font-size: 34px;
+		margin-bottom: 20px;
+	}
+	.tit-item .text_h2{
+		font-size: 20px;
+	}
+}
+/* -----------------SMALL MOBILE---------------- */
+@media screen and (max-width: 470px) {
+	.name_info{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.tit-item .text_h2{
+		font-size: 17px;
+	}
+	.itemExp .subItem{
+		display: block;
+	}
+	.subItem_left{
+		width: 100%;
+		max-width: 100%;
+	}
+	.subItem_right{
+		width: 100%;
+		max-width: 100%;
+	}
+	.itemSkill .subItem{
+		display: block;
+	}
+	.itemSkill .subItem .subSkill_left{
+		width: 100%;
+		max-width: 100%;
+	}
+	.itemSkill .subItem .subSkill_right{
+		width: 100%;
+		max-width: 100%;
+	}
+}
+/* -----------------iphone 6/7/8 plus ---------------- */
+@media screen and (max-width: 414px) {
+	.pageCV{
+		font-size: 13px;
+	}
+	.height_content{
+		padding: 20px 10px;
+	}
+	.tit-item .text_h2 {
+	    font-size: 15px;
+	}
+	
+}
+/* -----------------iphone 6/7/8/X ---------------- */
+@media screen and (max-width: 375px) {
+}
+/* -----------------SMALLER MOBILE---------------- */
+@media screen and (max-width: 360px) {	
+}
+
+[contenteditable]:focus  {
+    outline: 1pt dashed #77a5cc !important;
+    cursor: text;
+}
+
+
+[contentEditable=true]:empty{
+	outline: 1pt dashed #fc4b08 !important;
+}

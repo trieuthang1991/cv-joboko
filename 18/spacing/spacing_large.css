@@ -1,0 +1,19 @@
+/* Spacing large */
+#cvo-profile .contact-item {
+    margin: 3px 0px;
+    margin-left: 10px;
+}
+.cvo-block-header {
+    margin-bottom: 12px;
+}
+#cvo-education .row,
+#cvo-activity .row,
+#cvo-experience .row {
+    margin-bottom: 17px;
+}
+#cvo-certification .row,
+#cvo-award .row,
+#cvo-skillrate .row,
+#cvo-reference .row {
+    margin-bottom: 12px;
+}

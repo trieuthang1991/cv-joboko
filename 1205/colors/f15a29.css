@@ -1,5 +1,5 @@
 #cv-document .page--background{background:linear-gradient(to bottom,#f15a29,#f15a29) no-repeat right bottom/1.3em 7em,#fff;color:#1d1d1b}
-#cv-document .page--background::after{border-right-color:#f26522;background-color:#fff9f8}
+#cv-document .page--background::after{border-right-color:#f26522;background:linear-gradient(to bottom, #ffe2de 400px, #fff9f8 0%)}
 #cv-document .heading::after{background-color:#f6dad1}
 #cv-document .cvo-skillrate>span{border-color:#f15a29;background-color:transparent}
 #cv-document .cvo-skillrate[value="1"]>span:nth-child(1){background-color:#f15a29}

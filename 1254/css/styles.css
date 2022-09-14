@@ -90,7 +90,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .skill__item-title{margin-right:1em}
 #cv-document .skill__item-content{align-self:center}
 #cv-document .cvo-skillrate{justify-content:flex-end;align-items:center;display:flex}
-#cv-document .cvo-skillrate>span{margin-left:.4em;border-width:1px;border-style:dotted;border-radius:50%;width:1.2em;height:1.2em}
+#cv-document .cvo-skillrate>span{margin-left:.4em;border-width:1px;border-style:dotted;border-radius:50%;width:1.2em;height:1.2em;opacity:0.7}
 .xicon{display:inline-block;width:3.4em;height:3.4em;background-repeat:no-repeat;background-size:auto!important;background-position:center;vertical-align:middle}
 #cv-document .action__item{margin-bottom:1.9em}
 #cv-document .action__item:last-child{margin-bottom:0}

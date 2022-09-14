@@ -22,10 +22,10 @@
 #cv-document .full-width__background::before{background-color:#efb635}
 #cv-document .full-width__background::after{background-color:#e6a416}
 #cv-document .cvo-skillrate>span{background-color:#292929}
-#cv-document .cvo-skillrate[value="1"]>span:nth-child(-n+2){background-color:#e6a416}
-#cv-document .cvo-skillrate[value="2"]>span:nth-child(-n+4){background-color:#e6a416}
-#cv-document .cvo-skillrate[value="3"]>span:nth-child(-n+6){background-color:#e6a416}
-#cv-document .cvo-skillrate[value="4"]>span:nth-child(-n+8){background-color:#e6a416}
+#cv-document .cvo-skillrate[value="1"]>span:nth-child(-n+1){background-color:#e6a416}
+#cv-document .cvo-skillrate[value="2"]>span:nth-child(-n+2){background-color:#e6a416}
+#cv-document .cvo-skillrate[value="3"]>span:nth-child(-n+3){background-color:#e6a416}
+#cv-document .cvo-skillrate[value="4"]>span:nth-child(-n+4){background-color:#e6a416}
 #cv-document .cvo-skillrate[value="5"]>span{background-color:#e6a416}
 #cv-document .cvo-skillrate-radial::before{background-color:#fff}
 #cv-document .cvo-skillrate-radial::after{color:#292929}

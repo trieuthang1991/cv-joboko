@@ -53,5 +53,5 @@
 #cv-document .skill-ta__item::before{background-color:#f7941d}
 #cv-document .cletter{border-color:#f7941d;background-color:#fff}
 #cv-document .project__item-head{background-color:#1d1e1b;background-color:#f7941d}
-#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-color:#6d6e71;background-color:#f5f6f7}
+#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-color:#e0e0e0;background-color:#f5f6f7}
 #cv-document .project__item-table .tr:nth-child(odd) .td,#cv-document .project__item-table .tr:nth-child(odd) .th{background-color:#f0f0f0}

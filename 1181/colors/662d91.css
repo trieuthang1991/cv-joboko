@@ -24,7 +24,12 @@
 #cv-document .cvo-skillrate-progress>span{border-color:#292928;background-color:#fff}
 #cv-document .cvo-skillrate-progress>span::before{background-color:#662d91}
 #cv-document .avatar::after,#cv-document .avatar::before{background-color:#6e3c97}
+#cv-document .avatar span{background-color:#a468d6}
+#cv-document .avatar span::before{background:linear-gradient(292deg,#3b125d 50%,transparent 0) no-repeat}
+#cv-document .avatar span::after{background:linear-gradient(-292deg,#3b125d 50%,transparent 0) no-repeat}
 #cv-document .info-main__title{color:#662d91}
+#cv-document .info-main__text{color:#fff}
+#cv-document .info-main__text::before{background-color:#6e3c97}
 #cv-document .info-detail__item-icon{border-color:#fff;background-color:#8c63aa}
 #cv-document .target::before{background:#b696c6}
 #cv-document .target::after{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 33.31 26.69'%3E%3Cpath fill='%23662d91' d='M13.31 26.69H0V13.31Q0 1.54 13.31 0v6.69q-6.44.21-6.69 6.62h6.69Zm20 0H20V13.31Q20 1.54 33.31 0v6.69q-6.44.21-6.69 6.62h6.69Z'/%3E%3C/svg%3E") no-repeat}

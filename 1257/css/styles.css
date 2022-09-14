@@ -20,7 +20,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .icon-exp{display:block;width:1.4em;height:1.9em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-act{display:block;width:2em;height:1.8em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-cer{display:block;width:1.6em;height:1.3em;background-repeat:no-repeat;background-size:contain}
-#cv-document .icon-cletter{display:block;width:1.7em;height:1.7em;background-repeat:no-repeat;background-size:contain}
+#cv-document .icon-cletter{display:block;width:1.7em;height:1.7em;background-repeat:no-repeat;background-size:contain;margin-left:5px;}
 #cv-document .page__inner{flex-direction:column;display:flex;height:100%;padding:5.5em 0 0}
 @media screen and (max-width:767px){
 #cv-document .page__inner{padding-top:4em}

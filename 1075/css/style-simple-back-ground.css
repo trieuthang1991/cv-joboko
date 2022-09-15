@@ -88,7 +88,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 }
 
 /* content */
-.content {
+#cv-document .content {
     padding: 20px 55px 0px 0px;
     display: flex;
 }
@@ -289,7 +289,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
     .col-left [data-x-name="item"] {
         margin-left: 60px;
     }
-    .content {
+   #cv-document .content {
         padding: 20px 30px 50px 0px;
     }
 }
@@ -329,7 +329,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
     #head-name {
         font-size: 48px;
     }
-    .content {
+   #cv-document .content {
         padding: 0 13px 50px 0;
     }
     .col-left {
@@ -353,7 +353,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
     #head-name {
         font-size: 42px;
     }
-    .content {
+   #cv-document .content {
         padding: 0 13px 50px 0;
     }
     .col-left {
@@ -373,7 +373,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
  */
 
 @media screen and (max-width: 500px) {
-    .content {
+   #cv-document .content {
         display: block;
         padding: 0
     }

@@ -2,11 +2,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/css/font-awesome.min.css">
-<link rel="stylesheet" id="cv-font-size-css" href="https://i-vn.joboko.com/MyCv/templates/1258/font-sizes/font_normal.css?v=1650902228496">
-<link rel="stylesheet" id="cv-spacing-css" href="https://i-vn.joboko.com/MyCv/templates/1258/spacing/spacing_normal.css?v=1650902228496">
-<link rel="stylesheet" id="cv-font" href="https://i-vn.joboko.com/MyCv/templates/1258/fonts/default.css?v=1650902228496">
-<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn.joboko.com/MyCv/templates/1258/colors/1da1f3.css?v=1650902228496">
-<link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/MyCv/templates/1258/css/styles.css?v=1650902228499">
+<link rel="stylesheet" id="cv-font-size-css" href="https://i-vn.joboko.com/MyCv/templates/1258/font-sizes/font_normal.css?v=1650902228497">
+<link rel="stylesheet" id="cv-spacing-css" href="https://i-vn.joboko.com/MyCv/templates/1258/spacing/spacing_normal.css?v=1650902228497">
+<link rel="stylesheet" id="cv-font" href="https://i-vn.joboko.com/MyCv/templates/1258/fonts/default.css?v=1650902228497">
+<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn.joboko.com/MyCv/templates/1258/colors/1da1f3.css?v=1650902228497">
+<link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/MyCv/templates/1258/css/styles.css?v=1650902228500">
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
@@ -130,7 +130,9 @@
                 <div class="skill" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
-                      <div class="p light" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+                      <div class="p bold inline-block" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+                      <div class="inline-block" >:</div>
+                       <div class="p light inline-block" contenteditable="true" data-x-id="des">Tốt</div>
                     </div>
                   </div>
                 </div>
@@ -260,7 +262,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item" data-x-name="item" data-x-id="cletter">
+              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="cletter">
                 <div class="heading" data-x-name="head">
                   <div class="heading__title">
                     <div class="h2 bold" data-x-id="tit"  contenteditable="true">Gửi nhà tuyển dụng</div>
@@ -273,7 +275,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item" data-x-name="item" data-x-id="pro">
+              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="pro">
                 <div class="heading" data-x-name="head">
                   <div class="heading__title">
                     <div class="h2 bold" data-x-id="tit" contenteditable="true">Dự án</div>
@@ -308,7 +310,7 @@
                           <div class="p light" data-x-id="des" contenteditable="true">Ứng dụng website giúp mọi người đặt vé nhanh chóng, bất kỳ lúc nào, bất kỳ đâu</div>
                         </div>
                       </div>
-                      <div class="tr">
+                      <div class="tr x_hide">
                         <div class="th">
                           <div class="p regular inline-block" data-x-label="pro.mem">Số thành viên</div>
                         </div>
@@ -337,7 +339,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="tr">
+                      <div class="tr x_hide">
                         <div class="th">
                           <div class="p regular inline-block" data-x-label="pro.tech">Công nghệ</div>
                         </div>

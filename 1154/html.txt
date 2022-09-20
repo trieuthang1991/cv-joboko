@@ -8,8 +8,8 @@
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1154/font-sizes/font_normal.css?v=1661075286741">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1154/spacing/spacing_normal.css?v=1661075286741">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1154/fonts/default.css?v=1661075286741">
-<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1154/colors/007acc.css?v=1661075286741">
-<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1154/css/styles.css?v=1661075286749">
+<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1154/colors/007acc.css?v=1661075286742">
+<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1154/css/styles.css?v=1661075286750">
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">

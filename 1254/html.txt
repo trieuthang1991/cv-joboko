@@ -5,7 +5,7 @@
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1254/font-sizes/font_normal.css?v=1663170353274">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1254/spacing/spacing_normal.css?v=1663170353274">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1254/fonts/default.css?v=1663170353274">
-<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1254/colors/2c3b89.css?v=1663170353274">
+<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1254/colors/2c3b89.css?v=1663170353277">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1254/css/styles.css?v=1663170353274">
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->

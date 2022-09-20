@@ -1,4 +1,4 @@
-<link id="cv-css" href="https://i-vn1.joboko.com/MyCV/templates/1075/css/style-simple-back-ground.css?v=44" rel="stylesheet" />
+<link id="cv-css" href="https://i-vn1.joboko.com/MyCV/templates/1075/css/style-simple-back-ground.css?v=45" rel="stylesheet" />
 <link id="cv-font" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1075/fonts/default.css?v=40" />
 <link id="cv-font-size-css" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1075/font-sizes/font_normal.css?v=40" />
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1075/spacing/spacing_normal.css?v=40" />

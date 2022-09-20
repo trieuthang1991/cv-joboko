@@ -123,3 +123,5 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 .skill__item{position:relative;margin-bottom:.6em;padding-left:3em}
 .skill__item::before{content:"";position:absolute;top:.6em;left:0;display:inline-block;margin-right:0;border-radius:50%;width:1em;height:1em}
 .skill__item:last-child{margin-bottom:0}
+
+.template-special .x_hide{display: flex !important;}

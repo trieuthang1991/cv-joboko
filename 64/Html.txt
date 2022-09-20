@@ -277,7 +277,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="content-field content-projects index-0 last-index cvs editable " data-x-name="item"
+                        <div class="content-field content-projects index-0 last-index cvs editable x_hide" data-x-name="item"
                             data-x-id="pro">
                             <div data-x-name="head">
 

@@ -165,3 +165,5 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 [contenteditable=true]:empty:before{content:attr(placeholder)!important}
 #cv-document span.x_add.fa.fa-plus-circle,#cv-document span.x_del.fa.fa-remove{width:70px!important}
 #cv-document .height-curent>[data-x-name=group-item]{padding-bottom:3em}
+
+.template-special .x_hide{display: flex !important;}

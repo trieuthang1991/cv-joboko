@@ -1,10 +1,10 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" id="cv-css" href="https://i-vn0.joboko.com/css/font-awesome.min.css">
-<link rel="stylesheet" id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/css/sacmauV2.css?v=54">
-<link rel="stylesheet" id="cv-font-size-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/font-sizes/font_normal.css?v=53">
-<link rel="stylesheet" id="cv-spacing-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/spacing/spacing_normal.css?v=50">
-<link rel="stylesheet" id="cv-font" href="https://i-vn0.joboko.com/MyCv/templates/1085/fonts/default.css?v=51">
-<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/colors/a4dce4.css?v=50">
+<link rel="stylesheet" id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/css/sacmauV2.css?v=55">
+<link rel="stylesheet" id="cv-font-size-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/font-sizes/font_normal.css?v=55">
+<link rel="stylesheet" id="cv-spacing-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/spacing/spacing_normal.css?v=55">
+<link rel="stylesheet" id="cv-font" href="https://i-vn0.joboko.com/MyCv/templates/1085/fonts/default.css?v=55">
+<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/colors/a4dce4.css?v=55">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -110,7 +110,7 @@
 							</div>
 						</div><!-- end bxitem -->
 
-						<div class="bxitem pd" data-x-name="item" data-x-id="skill_th">
+						<div class="bxitem pd x_hide" data-x-name="item" data-x-id="skill_th">
 							<p class="htitle" data-x-name="head"><span class="dp-inline" contenteditable="true"
 									data-x-id="tit">Kỹ năng</span></p>
 							<div class="bxinfo" data-x-name="list-item">
@@ -124,7 +124,7 @@
 							</div>
 						</div><!-- end bxitem -->
 
-						<div class="bxitem" data-x-name="item" data-x-id="skill_ta">
+						<div class="bxitem x_hide" data-x-name="item" data-x-id="skill_ta">
 							<p class="htitle3" data-x-name="head"><span class="dp-inline" contenteditable="true"
 									data-x-id="tit">Ngôn ngữ</span></p>
 							<div class="bxinfo">
@@ -280,7 +280,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="bxitem" data-x-name="item" data-x-id="pro">
+						<div class="bxitem x_hide" data-x-name="item" data-x-id="pro">
 							<p class="htitle6 htitaf" data-x-name="head"><span class="dp-inline" data-x-id="tit"
 									contenteditable="true">Dự án</span></p>
 							<div class="bxinfo2" data-x-name="list-item">
@@ -298,7 +298,7 @@
 										<div class="inline txt-content" data-x-label="pro.cus">Khách hàng</div>: <div
 											data-x-id="cus" class="inline txt-content" contenteditable="true">X-media</div>
 									</div>
-									<div>
+									<div class="x_hide">
 										<div data-x-label="pro.mem" class="inline txt-content">Thành viên</div>: <div
 											data-x-id="mem" contenteditable="true" class="inline txt-content">X-media</div>
 									</div>

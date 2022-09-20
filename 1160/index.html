@@ -448,3 +448,28 @@
     </div>
   </div>
 </div>
+
+
+
+<script>
+  function setHeight() {
+    var height = $(".page").outerHeight();
+    var page = Math.ceil(heigh / 1122);
+    var margin = ((page * 2) - 2) * 30;
+    $(".page").css("height", ((page * 1122) - margin));
+  }
+</script>
+
+<script>
+  function setHeight() {
+      var height = $(".page").outerHeight();
+      var page = Math.ceil(height / 1122);
+      var margin = (page * 50);
+      
+      height = height + margin;
+      page = Math.ceil(height / 1122);
+      margin = ((page * 2) - 1) * 25;
+      margin += 30;
+      $(".page").css("height", ((page * 1122) - margin));
+  }
+</script>

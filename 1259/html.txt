@@ -6,7 +6,7 @@
 <link rel="stylesheet" id="cv-spacing-css" href="https://i-vn2.joboko.com/MyCv/templates/1259/spacing/spacing_normal.css?v=1650947533062">
 <link rel="stylesheet" id="cv-font" href="https://i-vn2.joboko.com/MyCv/templates/1259/fonts/default.css?v=1650947533062">
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn2.joboko.com/MyCv/templates/1259/colors/f82b6b.css?v=1650947533062">
-<link rel="stylesheet" id="cv-css" href="https://i-vn2.joboko.com/MyCv/templates/1259/css/styles.css?v=1650947533063">
+<link rel="stylesheet" id="cv-css" href="https://i-vn2.joboko.com/MyCv/templates/1259/css/styles.css?v=1650947533064">
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
@@ -120,7 +120,9 @@
                 <div class="skill" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
-                      <div class="p regular" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+                      <div class="p bold inline-block" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+                      <div class="inline-block">:</div>
+                      <div class="p regular inline-block" contenteditable="true" data-x-id="des">Tốt</div>
                     </div>
                   </div>
                 </div>
@@ -311,7 +313,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item" data-x-name="item" data-x-id="cletter">
+              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="cletter">
                 <div class="heading" data-x-name="head">
                   <div class="heading__icon">
                     <i class="icon-edu"></i>
@@ -329,7 +331,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item" data-x-name="item" data-x-id="pro">
+              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="pro">
                 <div class="heading" data-x-name="head">
                   <div class="heading__icon">
                     <i class="icon-edu"></i>
@@ -369,7 +371,7 @@
                           <div class="p light" data-x-id="des" contenteditable="true">Ứng dụng website giúp mọi người đặt vé nhanh chóng, bất kỳ lúc nào, bất kỳ đâu</div>
                         </div>
                       </div>
-                      <div class="tr">
+                      <div class="tr x_hide">
                         <div class="th">
                           <div class="p regular inline-block" data-x-label="pro.mem">Số thành viên</div>
                         </div>
@@ -398,7 +400,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="tr">
+                      <div class="tr x_hide">
                         <div class="th">
                           <div class="p regular inline-block" data-x-label="pro.tech">Công nghệ</div>
                         </div>

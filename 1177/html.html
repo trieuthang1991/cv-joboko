@@ -436,3 +436,33 @@
     </div>
   </div>
 </div>
+
+
+<script>
+    function setHeight() {
+            var height = $(".page").outerHeight();
+            var page = Math.ceil(height / 1122);
+            var margin = 0;
+
+            if(page > 2){
+              var margin = (page * 50);
+                height = height + margin;
+                page = Math.ceil(height / 1122);
+                margin = ((page * 2) - 1) * 25;
+                margin += 30;
+            }
+            else if (page > 1) {
+                margin = 61;
+                var style = document.createElement('style')
+                style.innerText = "@media print {@page {margin-top: 30px; margin-bottom: 30px;} @page :first { margin-top: 0; }}"
+                document.head.appendChild(style)
+            } else {
+                var style = document.createElement('style')
+                style.innerText = "@media print {@page {margin-top: 0; margin-bottom: 0;}}"
+                document.head.appendChild(style)
+            }
+
+            $(".page").css("height", ((page * 1122) - margin));
+        }
+
+</script>

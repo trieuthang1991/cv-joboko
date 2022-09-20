@@ -238,3 +238,8 @@ z-index: 9999;
         content: "";
     }
   }
+
+
+  .bottom__item.x_hide{
+        padding-top: 3em;
+  }

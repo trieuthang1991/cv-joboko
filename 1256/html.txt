@@ -4,11 +4,11 @@
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
 <link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/css/font-awesome.min.css">
-<link rel="stylesheet" id="cv-font-size-css" href="https://i-vn.joboko.com/MyCv/templates/1256/font-sizes/font_normal.css?v=1651116171669">
-<link rel="stylesheet" id="cv-spacing-css" href="https://i-vn.joboko.com/MyCv/templates/1256/spacing/spacing_normal.css?v=1651116171669">
-<link rel="stylesheet" id="cv-font" href="https://i-vn.joboko.com/MyCv/templates/1256/fonts/default.css?v=1651116171669">
-<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn.joboko.com/MyCv/templates/1256/colors/f7941d.css?v=1651116171670">
-<link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/MyCv/templates/1256/css/styles.css?v=1651116171672">
+<link rel="stylesheet" id="cv-font-size-css" href="https://i-vn.joboko.com/MyCv/templates/1256/font-sizes/font_normal.css?v=1651116171670">
+<link rel="stylesheet" id="cv-spacing-css" href="https://i-vn.joboko.com/MyCv/templates/1256/spacing/spacing_normal.css?v=1651116171670">
+<link rel="stylesheet" id="cv-font" href="https://i-vn.joboko.com/MyCv/templates/1256/fonts/default.css?v=1651116171670">
+<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn.joboko.com/MyCv/templates/1256/colors/f7941d.css?v=1651116171671">
+<link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/MyCv/templates/1256/css/styles.css?v=1651116171673">
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
@@ -101,7 +101,9 @@
                                             </div>
                                         </div> -->
                                         <div class="skill__item-title">
-                                            <div class="p light" contenteditable="true" data-x-id="name">HTML5 & CSS3
+                                            <div class="p bold" contenteditable="true" data-x-id="name">HTML5 & CSS3
+                                            </div>
+                                             <div class="p light" style="margin-top:5px" contenteditable="true" data-x-id="des">Tốt
                                             </div>
                                         </div>
                                     </div>
@@ -297,7 +299,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="two-up__right-item" data-x-name="item" data-x-id="cletter">
+                            <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="cletter">
                                 <div class="heading" data-x-name="head">
                                     <div class="heading__title">
                                         <div class="h2 bold uppercase"  data-x-id="tit" contenteditable="true">Gửi nhà
@@ -320,7 +322,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="two-up__right-item" data-x-name="item" data-x-id="pro">
+                            <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="pro">
                                 <div class="heading" data-x-name="head">
                                     <div class="heading__title">
                                         <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Dự án
@@ -364,7 +366,7 @@
                                                         kỳ đâu</div>
                                                 </div>
                                             </div>
-                                            <div class="tr">
+                                            <div class="tr x_hide">
                                                 <div class="th">
                                                     <div class="p regular inline-block" data-x-label="pro.mem">Số thành
                                                         viên</div>
@@ -398,7 +400,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="tr">
+                                            <div class="tr x_hide">
                                                 <div class="th">
                                                     <div class="p regular inline-block" data-x-label="pro.tech">Công
                                                         nghệ</div>

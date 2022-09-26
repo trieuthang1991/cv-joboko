@@ -64,7 +64,9 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .heading::before{content:"";position:absolute;top:.3em;left:0;width:1.7em;height:1.7em}
 #cv-document .heading__wrapper{flex-grow:1;align-items:flex-end;display:flex}
 #cv-document .heading__wrapper::after{content:"";flex-grow:1;display:block;opacity:.3;margin-bottom:.7em;height:.35em}
+#cv-document .heading__wrapper.no-line::after{content:none}
 #cv-document .heading__title{flex-shrink:0;margin-right:2em;max-width:85%;letter-spacing:1.5px}
+#cv-document .no-line .heading__title{max-width:none}
 #cv-document .avatar{position:relative;z-index:2;justify-content:center;align-items:center;display:flex;margin:1px 0 1.8em 2.3em;border-radius:50%;width:18.6em;height:18.6em}
 @media screen and (max-width:767px){
 #cv-document .avatar{margin:0 auto}

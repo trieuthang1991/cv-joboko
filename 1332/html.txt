@@ -15,6 +15,8 @@
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
   <div page='1' class="page page--background">
+  <span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
     <div class="page__inner">
       <div class="full-width">
         <div class="full-width__background"><span><span></span></span></div>
@@ -103,7 +105,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__left-item x_hide" data-x-name="item" data-x-id="skill_ta">
+              <div class="two-up__left-item" data-x-name="item" data-x-id="skill_ta">
                 <p class="h2 regular heading" data-x-name="head">
                   <span class="inline-block" data-x-id="tit" contenteditable="true">Tiếng Anh</span>
                 </p>
@@ -125,7 +127,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="skill_th">
+              <div class="two-up__right-item" data-x-name="item" data-x-id="skill_th">
                 <p class="h2 regular heading" data-x-name="head">
                   <span class="inline-block" data-x-id="tit" contenteditable="true">phần mềm</span>
                 </p>
@@ -136,7 +138,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="advantage">
+              <div class="two-up__right-item" data-x-name="item" data-x-id="advantage">
                 <p class="h2 regular heading" data-x-name="head">
                   <span class="inline-block" data-x-id="tit" contenteditable="true">ưu điểm</span>
                 </p>
@@ -147,7 +149,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="award">
+              <div class="two-up__right-item" data-x-name="item" data-x-id="award">
                 <p class="h2 regular heading" data-x-name="head">
                   <span class="inline-block" data-x-id="tit" contenteditable="true">giải thưởng</span>
                 </p>
@@ -185,7 +187,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="more">
+              <div class="two-up__right-item" data-x-name="item" data-x-id="more">
                 <p class="h2 regular heading" data-x-name="head">
                   <span class="inline-block" data-x-id="tit" contenteditable="true">THÔNG TIN KHÁC</span>
                 </p>
@@ -270,7 +272,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="pro">
+              <div class="two-up__right-item" data-x-name="item" data-x-id="pro">
                 <p class="h2 regular heading" data-x-name="head">
                   <span class="inline-block" data-x-id="tit" contenteditable="true">Dự án</span>
                 </p>
@@ -359,7 +361,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__left-item x_hide" data-x-name="item" data-x-id="cletter">
+              <div class="two-up__left-item" data-x-name="item" data-x-id="cletter">
                 <p class="h2 regular heading" data-x-name="head">
                   <span class="inline-block" data-x-id="tit" contenteditable="true">GỬI NHÀ TUYỂN DỤNG</span>
                 </p>

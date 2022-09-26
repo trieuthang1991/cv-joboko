@@ -6,6 +6,9 @@
         <div class="col-sm-12 col-md-12 col-lg-12" data-x-name="parrent" style='padding:0'>
             <!-- Wrap -->
             <div class="cv_wrap  page" page='1' >
+		<div data-x-name="item" data-x-id="info">
+			<span style="display:none"  contenteditable="true" data-x-id="web"></span>
+		</div>
                 <!-- Info -->
                 
                 <div class="cv_info clearfix" data-x-name="item" data-x-id="info">

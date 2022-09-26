@@ -12,6 +12,7 @@
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
   <div page='1' class="page page--background">
+
     <div class="page__inner">
       <div class="two-up">
         <div data-x-name="col-parrent" data-x-col="1" class="two-up__left">
@@ -50,6 +51,8 @@
                   </div>
                   <div class="p2 regular inline-block" contenteditable="true" data-x-id="add">15 Hồng Hà, Quận Tân Bình, TP. Hồ Chí Minh</div>
                 </div>
+  <span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+<span style="display:none"  contenteditable="true" data-x-id="web"></span>
               </div>
             </div>
           </div>

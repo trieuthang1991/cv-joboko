@@ -6,6 +6,9 @@
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn.joboko.com/MyCv/templates/74/colors/ed5587.css?v=3">
 <div class="cv-container" data-x-name="parrent">
     <div class="page bg-page" page="1">
+ <div data-x-name="item" data-x-id="info">
+	<span style="display:none"  contenteditable="true" data-x-id="web"></span>
+</div>
         <div class="top1">
             <div class="cv-content top1-inner" data-x-name="item" data-x-id="info">
                 <div class="item-img">

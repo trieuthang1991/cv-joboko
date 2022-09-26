@@ -8,6 +8,12 @@
 
 <div id="form-cv" class="text-size line-size" data-x-name="parrent">
     <div class="container-main-container cv-main container-mains page" page='1' fix="true">
+ <div data-x-name="item" data-x-id="info">
+	<img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+<img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+</div>
         <div class="header-row row no-margin" data-x-id="info" data-x-name="item">
             <div id="overlay-header"></div>
             <div class="above">

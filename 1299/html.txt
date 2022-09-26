@@ -12,6 +12,9 @@
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
   <div page='1' class="page page--background">
+  <img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+<span style="display:none"  contenteditable="true" data-x-id="web"></span>
     <div class="page__inner">
       <div class="full-width">
         <div data-x-name="col-parrent" data-x-col="1">

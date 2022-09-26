@@ -8,6 +8,7 @@
 
 <div id="form-cv" class="text-size line-size" data-x-name="parrent">
     <div class="container-main-container cv-main container-mains page" page='1'>
+
         <div class="first-row row no-margin">
             <div class="header-row" data-x-id="info" data-x-name="item">
                 <div id="about-me-image">

@@ -12,6 +12,7 @@
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
   <div page="1" class="page">
+
     <div class="page__inner">
       <div class="full-width">
         <div class="full-width__background"><span><span></span></span></div>
@@ -46,6 +47,9 @@
                   </div>
                   <div class="p2 light inline-block" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
                 </div>
+  <img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
               </div>
             </div>
           </div>

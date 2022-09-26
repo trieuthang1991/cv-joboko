@@ -10,6 +10,7 @@
 
 <div id="form-cv" data-x-name="parrent">
     <div class="page" page='1' fix="true">
+	<span style="display:none"  contenteditable="true" data-x-id="web"></span>
         <div class="nd-section">
             <div class="wrapped-content">
                 <div class="infor-left" data-x-name="col-parrent" data-x-col="0">

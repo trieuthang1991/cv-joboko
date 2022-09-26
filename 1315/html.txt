@@ -6,6 +6,11 @@
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1078/spacing/spacing_normal.css?v=1.4">
 <div id="form-cv" data-x-name="parrent">
 	<div page = '1' class="page pageCV">
+	<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="add"></span>
+<span style="display:none"  contenteditable="true" data-x-id="tel"></span>
+<span style="display:none"  contenteditable="true" data-x-id="email"></span>
+<span style="display:none"  contenteditable="true" data-x-id="web"></span>
 		<div id="cv-top">
 			<div data-x-name="col-parrent" data-x-col="1" class="col_top">
 				<div class="height-curent">

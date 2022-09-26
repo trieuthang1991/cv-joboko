@@ -14,6 +14,7 @@
 <div id="form-cv" data-x-name="parrent">
     <!-- “page=1” và class=”page” -->
     <div page="1" class="page">
+	
         <div class="page__inner">
             <div class="full-width">
                 <div data-x-name="col-parrent" data-x-col="1">
@@ -44,6 +45,10 @@
                                     <i class="p fa fa-map-marker"></i>
                                   </div>
                                 </div>
+<img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+<img style="display:none" data-x-id="ava" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
                               </div>
                             <div class="info-main__title">
                                 <div class="h1 uppercase bold" contenteditable="true" data-x-id="name">nguyễn thị trúc

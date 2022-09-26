@@ -123,7 +123,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__left-item x_hide" data-x-name="item" data-x-id="award">
+              <div class="two-up__left-item" data-x-name="item" data-x-id="award">
                 <p class="heading" data-x-name="head">
                   <span class="h3" data-x-id="tit" contenteditable="true">giải thưởng</span>
                 </p>
@@ -134,7 +134,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__left-item x_hide" data-x-name="item" data-x-id="advantage">
+              <div class="two-up__left-item" data-x-name="item" data-x-id="advantage">
                 <p class="heading" data-x-name="head">
                   <span class="h3" data-x-id="tit" contenteditable="true">ưu điểm</span>
                 </p>
@@ -144,7 +144,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__left-item x_hide" data-x-name="item" data-x-id="skill_th">
+              <div class="two-up__left-item" data-x-name="item" data-x-id="skill_th">
                 <p class="heading" data-x-name="head">
                   <span class="h3" data-x-id="tit" contenteditable="true">phần mềm</span>
                 </p>
@@ -154,7 +154,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__left-item x_hide" data-x-name="item" data-x-id="more">
+              <div class="two-up__left-item" data-x-name="item" data-x-id="more">
                 <p class="heading" data-x-name="head">
                   <span class="h3" data-x-id="tit" contenteditable="true">thông tin khác</span>
                 </p>
@@ -239,7 +239,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="skill_ta">
+              <div class="two-up__right-item" data-x-name="item" data-x-id="skill_ta">
                 <p class="heading-02" data-x-name="head">
                   <i class="h4 fa fa-star"></i>
                   <span class="h3" data-x-id="tit" contenteditable="true">tiếng anh</span>
@@ -250,7 +250,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="cletter">
+              <div class="two-up__right-item" data-x-name="item" data-x-id="cletter">
                 <p class="heading-02" data-x-name="head">
                   <i class="h4 fa fa-paper-plane"></i>
                   <span class="h3" data-x-id="tit" contenteditable="true">gửi nhà tuyển dụng</span>
@@ -262,7 +262,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="pro">
+              <div class="two-up__right-item" data-x-name="item" data-x-id="pro">
                 <p class="heading-02" data-x-name="head">
                   <i class="h4 fa fa-wpforms"></i>
                   <span class="h3" data-x-id="tit" contenteditable="true">dự án</span>

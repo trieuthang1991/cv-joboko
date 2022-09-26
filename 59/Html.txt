@@ -7,6 +7,9 @@
 <div id="form-cv" class="text-size line-size">
     <div id="cv-main" data-x-name="parrent">
         <div class="content-main content-main-0 page" page="1">
+<div data-x-name="item" data-x-id="info">
+		<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+</div>
             <div class="side cv-left" data-x-name="col-parrent" data-x-col="1">
                 <div class="height-curent">
                     <div class="content-user-profile side">

@@ -13,6 +13,7 @@
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
     <div page="1" class="page page-fix page--background">
+	
         <div class="page__inner">
             <div class="full-page">
                 <div class="full-width" data-x-name="col-parrent" data-x-col="1">
@@ -58,6 +59,8 @@
                                             <div class="h3 bold">A</div>
                                         </div>
                                     </div>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+<span style="display:none"  contenteditable="true" data-x-id="web"></span>
                                 </div>
                             </div>
                         </div>

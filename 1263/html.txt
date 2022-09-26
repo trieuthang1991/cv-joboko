@@ -14,6 +14,7 @@
 <div id="form-cv" data-x-name="parrent">
     <!-- “page=1” và class=”page” -->
     <div page='1' class="page page--background">
+	
         <div class="page__inner">
             <div class="two-up">
                 <div data-x-name="col-parrent" data-x-col="1" class="two-up__left">
@@ -32,6 +33,9 @@
                         </div>
                         <div class="no-outline" data-x-name="item" data-x-id="info">
                             <div class="info-detail">
+<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+<span style="display:none"  contenteditable="true" data-x-id="web"></span>
                                 <div class="info-detail__item" data-x-rel="tel">
                                     <div class="info-detail__item-icon">
                                         <i class="p fa fa-volume-control-phone"></i>
@@ -196,7 +200,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="full-width__item x_hide" data-x-name="item" data-x-id="pro">
+                            <div class="full-width__item" data-x-name="item" data-x-id="pro">
                                 <div class="heading" data-x-name="head">
                                     <div class="heading__title">
                                         <div class="h3 bold uppercase" data-x-id="tit" contenteditable="true">Dự án
@@ -332,7 +336,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="full-width__item x_hide" data-x-name="item" data-x-id="award">
+                            <div class="full-width__item" data-x-name="item" data-x-id="award">
                                 <div class="heading" data-x-name="head">
                                     <div class="heading__title">
                                         <div class="h3 bold uppercase" data-x-id="tit" contenteditable="true">Giải
@@ -353,7 +357,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="full-width__item x_hide" data-x-name="item" data-x-id="more">
+                            <div class="full-width__item" data-x-name="item" data-x-id="more">
                                 <div class="heading" data-x-name="head">
                                     <div class="heading__title">
                                         <div class="h3 bold uppercase" data-x-id="tit" contenteditable="true">Thông tin
@@ -430,7 +434,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="full-width__item x_hide" data-x-name="item" data-x-id="skill_ta">
+                            <div class="full-width__item" data-x-name="item" data-x-id="skill_ta">
                                 <div class="heading" data-x-name="head">
                                     <div class="heading__title">
                                         <div class="h3 bold uppercase" data-x-id="tit" contenteditable="true">tiếng anh
@@ -448,7 +452,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="full-width__item x_hide" data-x-name="item" data-x-id="advantage">
+                            <div class="full-width__item" data-x-name="item" data-x-id="advantage">
                                 <div class="heading" data-x-name="head">
                                     <div class="heading__title">
                                         <div class="h3 bold uppercase" data-x-id="tit" contenteditable="true">ưu điểm
@@ -466,7 +470,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="full-width__item x_hide" data-x-name="item" data-x-id="skill_th">
+                            <div class="full-width__item" data-x-name="item" data-x-id="skill_th">
                                 <div class="heading" data-x-name="head">
                                     <div class="heading__title">
                                         <div class="h3 bold uppercase" data-x-id="tit" contenteditable="true">phần mềm
@@ -484,7 +488,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="full-width__item x_hide" data-x-name="item" data-x-id="cletter">
+                            <div class="full-width__item" data-x-name="item" data-x-id="cletter">
                                 <div class="heading" data-x-name="head">
                                     <div class="heading__title">
                                         <div class="h3 bold uppercase" data-x-id="tit" contenteditable="true">gửi nhà

@@ -15,12 +15,16 @@
 <div id="form-cv" data-x-name="parrent">
     <!-- “page=1” và class=”page” -->
     <div page='1' class="page page--background">
+	<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
         <div class="page__inner">
             <div class="full-width">
                 <div data-x-name="col-parrent" data-x-col="1" class="full-width__left">
                     <div class="height-curent">
                         <div data-x-name="item" data-x-id="info">
                             <div class="info-detail">
+	<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
                                 <div class="info-detail__item" data-x-rel="tel">
                                     <div class="p regular inline-block" contenteditable="true" data-x-id="tel">
                                         0123456789</div>

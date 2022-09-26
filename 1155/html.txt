@@ -129,7 +129,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="full-width__item x_hide" data-x-name="item" data-x-id="pLang">
+                        <div class="full-width__item" data-x-name="item" data-x-id="pLang">
                             <p class="heading" data-x-name="head">
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">ngôn ngữ</span>
                                 <span class="heading__line"></span>
@@ -168,7 +168,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="full-width__item x_hide" data-x-name="item" data-x-id="skill_ta">
+                        <div class="full-width__item" data-x-name="item" data-x-id="skill_ta">
                             <p class="heading" data-x-name="head">
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">tiếng anh</span>
                                 <span class="heading__line"></span>
@@ -203,7 +203,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="full-width__item x_hide" data-x-name="item" data-x-id="pro">
+                        <div class="full-width__item" data-x-name="item" data-x-id="pro">
                             <p class="heading" data-x-name="head">
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">Dự án</span>
                                 <span class="heading__line"></span>
@@ -343,7 +343,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="full-width__item x_hide" data-x-name="item" data-x-id="skill_th">
+                        <div class="full-width__item" data-x-name="item" data-x-id="skill_th">
                             <p class="heading" data-x-name="head">
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">phần mềm</span>
                                 <span class="heading__line"></span>
@@ -358,7 +358,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="full-width__item x_hide" data-x-name="item" data-x-id="award">
+                        <div class="full-width__item" data-x-name="item" data-x-id="award">
                             <p class="heading" data-x-name="head">
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">giải
                                     thưởng</span>
@@ -431,7 +431,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="full-width__item x_hide" data-x-name="item" data-x-id="advantage">
+                        <div class="full-width__item" data-x-name="item" data-x-id="advantage">
                             <p class="heading" data-x-name="head">
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">ưu điểm</span>
                                 <span class="heading__line"></span>
@@ -446,7 +446,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="full-width__item x_hide" data-x-name="item" data-x-id="cletter">
+                        <div class="full-width__item" data-x-name="item" data-x-id="cletter">
                             <p class="heading" data-x-name="head">
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">gửi nhà tuyển
                                     dụng</span>
@@ -470,7 +470,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="full-width__item x_hide" data-x-name="item" data-x-id="more">
+                        <div class="full-width__item" data-x-name="item" data-x-id="more">
                             <p class="heading" data-x-name="head">
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">Thông tin
                                     khác</span>

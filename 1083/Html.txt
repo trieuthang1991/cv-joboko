@@ -10,6 +10,7 @@
 
 <div id="form-cv" data-x-name="parrent">
     <div class="page" page='1' fix="true">
+	
         <div class="nd-section">
             <div class="wrapped-content">
                 <div class="infor-left" data-x-name="col-parrent" data-x-col="0">
@@ -64,6 +65,7 @@
                                     <div class="text txt-content" contenteditable="true" data-x-id="add">Gò Vấp, TP.Hồ Chí Minh
                                     </div>
                                 </div>
+                    <span style="display:none"  contenteditable="true" data-x-id="web"></span>
                             </div>
 
                             <div data-x-name="item" data-x-id="skill" class="mrb-50">

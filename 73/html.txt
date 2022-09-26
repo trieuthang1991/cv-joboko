@@ -55,7 +55,7 @@
                                 <div style="clear:both;height:70px;"></div>
 
                                 <div data-x-name="group-item">
-                                    <div class="mgb-40 x_hide" data-x-name="item" data-x-id="skill_th">
+                                    <div class="mgb-40" data-x-name="item" data-x-id="skill_th">
                                         <div class="caption1" contenteditable="true" data-x-id="tit">Tin học</div>
                                         <div data-x-name="list-item">
                                             <div class="item1" data-x-name="sub-item">
@@ -70,7 +70,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="mgb-40 x_hide" data-x-name="item" data-x-id="skill_ta">
+                                    <div class="mgb-40" data-x-name="item" data-x-id="skill_ta">
                                         <div class="caption1" contenteditable="true" data-x-id="tit">Tiếng anh</div>
                                         <div data-x-name="list-item">
                                             <div class="item1" data-x-name="sub-item">

@@ -5,6 +5,7 @@
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn1.joboko.com/MyCv/templates/1086/spacing/spacing_normal.css?v=1">
 <div id="form-cv" data-x-name="parrent">
     <div class="page" page="1">
+	
         <div id="cv-top">
             <div data-x-name="item" data-x-id="info">
                 <div>
@@ -27,6 +28,9 @@
 						<label data-x-label="info.add">Địa chỉ:</label> <span data-x-id="add" contenteditable="true">Số 1 đường Cầu Giấy, Hà Nội</span></div>
                     <p class="clearfix"></p>
                 </div>
+<img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+<img style="display:none" data-x-id="ava" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+<span style="display:none"  contenteditable="true" data-x-id="web"></span>
             </div>
         </div>
         <div class="cv-main" data-x-name="col-parrent" data-x-col="1">

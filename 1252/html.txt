@@ -12,6 +12,7 @@
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
   <div page="1" class="page">
+
     <div class="page__inner">
       <div class="two-up">
         <div data-x-name="col-parrent" data-x-col="1" class="two-up__left">
@@ -34,6 +35,10 @@
           <div class="height-curent">
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
+  <img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+<img style="display:none" data-x-id="ava" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
                 <div class="info-detail__inner">
                   <div class="info-detail__item" data-x-rel="tel">
                     <div class="p regular inline-block" contenteditable="true" data-x-id="tel">0123456789</div>

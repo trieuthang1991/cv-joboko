@@ -12,6 +12,7 @@
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
   <div page="1" class="page">
+
     <div class="page__inner">
       <div class="full-width">
         <div data-x-name="col-parrent" data-x-col="1" class="full-width__left">
@@ -42,6 +43,8 @@
                     <i class="p fa fa-map-marker"></i>
                   </div>
                 </div>
+  <span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
               </div>
             </div>
             <div class="info-main" data-x-name="item" data-x-id="info">

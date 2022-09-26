@@ -5,6 +5,9 @@
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/43/spacing/spacing_normal.css?v=1">
 <div id="form-cv" data-x-name="parrent">
     <div class="cv-main page" page="1">
+<div data-x-name="item" data-x-id="info">
+	<img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+</div>
         <div class="cv-left" data-x-name="col-parrent" data-x-col="1">
             <div class="height-curent">
                 <div data-x-name="item" data-x-id="info">

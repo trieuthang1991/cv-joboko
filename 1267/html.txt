@@ -12,6 +12,7 @@
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
   <div page="1" class="page page--background">
+
     <div class="page__inner">
       <div class="two-up">
         <div data-x-name="col-parrent" data-x-col="1" class="two-up__left">
@@ -28,6 +29,9 @@
             </div>
             <div class="no-outline" data-x-name="item" data-x-id="info">
               <div class="info-detail">
+  <span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+<span style="display:none"  contenteditable="true" data-x-id="web"></span>
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
                     <i class="p fa fa-volume-control-phone"></i>

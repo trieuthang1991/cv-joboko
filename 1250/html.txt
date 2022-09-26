@@ -12,6 +12,7 @@
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
   <div page="1" class="page">
+
     <div class="page__inner">
       <div class="two-up">
         <div data-x-name="col-parrent" data-x-col="1" class="two-up__left">
@@ -20,6 +21,8 @@
               <div class="avatar__inner">
                 <img data-x-id="ava" style="display:none" src="https://i-vn.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
                 <img data-x-id="ava_vertical" src="https://i-vn.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
+  <span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
               </div>
             </div>
             <div class="info-main" data-x-name="item" data-x-id="info">

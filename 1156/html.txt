@@ -13,6 +13,7 @@
 <div id="form-cv" data-x-name="parrent">
     <!-- “page=1” và class=”page” -->
     <div page='1' class="page page--background">
+
         <div class="page__inner">
             <div class="full-width">
                 <div data-x-name="col-parrent" data-x-col="1" class="full-width__left">
@@ -37,6 +38,8 @@
                                     <i class="p5 fa fa-facebook-official"></i>
                                     <span class="p" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</span>
                                 </p>
+	<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
                             </div>
                         </div>
                     </div>
@@ -172,7 +175,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="two-up__left-item x_hide" data-x-name="item" data-x-id="pro">
+                            <div class="two-up__left-item" data-x-name="item" data-x-id="pro">
                                 <div class="heading" data-x-name="head">
                                     <p class="heading__icon">
                                         <i class="h4 fa fa-archive"></i>
@@ -284,7 +287,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="two-up__left-item x_hide" data-x-name="item" data-x-id="cletter">
+                            <div class="two-up__left-item" data-x-name="item" data-x-id="cletter">
                                 <div class="heading" data-x-name="head">
                                     <p class="heading__icon">
                                         <i class="h4 fa fa-paper-plane"></i>
@@ -358,7 +361,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="skill_ta">
+                            <div class="two-up__right-item" data-x-name="item" data-x-id="skill_ta">
                                 <div class="heading" data-x-name="head">
                                     <p class="heading__icon">
                                         <i class="h4 fa fa-globe"></i>
@@ -381,7 +384,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="award">
+                            <div class="two-up__right-item" data-x-name="item" data-x-id="award">
                                 <div class="heading" data-x-name="head">
                                     <p class="heading__icon">
                                         <i class="h4 fa fa-trophy"></i>
@@ -445,7 +448,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="skill_th">
+                            <div class="two-up__right-item" data-x-name="item" data-x-id="skill_th">
                                 <div class="heading" data-x-name="head">
                                     <p class="heading__icon">
                                         <i class="h4 fa fa-laptop"></i>
@@ -460,7 +463,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="advantage">
+                            <div class="two-up__right-item" data-x-name="item" data-x-id="advantage">
                                 <div class="heading" data-x-name="head">
                                     <p class="heading__icon">
                                         <i class="h4 fa fa-thumbs-up"></i>
@@ -475,7 +478,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="two-up__right-item x_hide" data-x-name="item" data-x-id="more">
+                            <div class="two-up__right-item" data-x-name="item" data-x-id="more">
                                 <div class="heading" data-x-name="head">
                                     <p class="heading__icon">
                                         <i class="h4 fa fa-ellipsis-h"></i>

@@ -5,6 +5,10 @@
     <div class="col-sm-12 col-md-12 col-lg-12" data-x-name="parrent">
         <!-- Wrap -->
         <div class="cv_wrap  page" page="1">
+<div data-x-name="item" data-x-id="info">
+		<img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+<span style="display:none"  contenteditable="true" data-x-id="web"></span>
+</div>
             <div style="padding-top:20px">
             <!-- Left -->
             <div class="col_left" data-x-name="col-parrent" data-x-col="1">

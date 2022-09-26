@@ -110,7 +110,7 @@
 							</div>
 						</div><!-- end bxitem -->
 
-						<div class="bxitem pd x_hide" data-x-name="item" data-x-id="skill_th">
+						<div class="bxitem pd" data-x-name="item" data-x-id="skill_th">
 							<p class="htitle" data-x-name="head"><span class="dp-inline" contenteditable="true"
 									data-x-id="tit">Kỹ năng</span></p>
 							<div class="bxinfo" data-x-name="list-item">
@@ -124,7 +124,7 @@
 							</div>
 						</div><!-- end bxitem -->
 
-						<div class="bxitem x_hide" data-x-name="item" data-x-id="skill_ta">
+						<div class="bxitem" data-x-name="item" data-x-id="skill_ta">
 							<p class="htitle3" data-x-name="head"><span class="dp-inline" contenteditable="true"
 									data-x-id="tit">Ngôn ngữ</span></p>
 							<div class="bxinfo">
@@ -280,7 +280,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="bxitem x_hide" data-x-name="item" data-x-id="pro">
+						<div class="bxitem" data-x-name="item" data-x-id="pro">
 							<p class="htitle6 htitaf" data-x-name="head"><span class="dp-inline" data-x-id="tit"
 									contenteditable="true">Dự án</span></p>
 							<div class="bxinfo2" data-x-name="list-item">

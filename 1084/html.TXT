@@ -9,6 +9,7 @@
 
 <div id="form-cv" data-x-name="parrent">
 	<div page='1' class="page pagemax bgpage">
+
 		<div class="orange-top-right"></div>
 		<div class="bg-info large" data-x-name="item" data-x-id="info">
 			<div class="name-pos">
@@ -38,6 +39,8 @@
 						<div></div>
 						<div contenteditable="true" class="txt-content" data-x-id="add">01 Trường Sơn, P.4, Q. Tân Bình, TP. HCM</div>
 					</div>
+	<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+<span style="display:none"  contenteditable="true" data-x-id="web"></span>
 				</div>
 			</div>
 		</div>

@@ -4,7 +4,7 @@
     background: url("/MyCV/templates/1075/images/bg1075-1.jpg");
    
    
-    background-size: cover;
+    background-size: cover !important;
     word-break: break-word;
 }
 body.page-preview, body.page-view, body.page-viewdemo {

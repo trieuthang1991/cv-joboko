@@ -1,4 +1,4 @@
-<link id="cv-css" href="https://i-vn1.joboko.com/MyCV/templates/1075/css/style-simple-back-ground.css?v=45" rel="stylesheet" />
+<link id="cv-css" href="https://i-vn1.joboko.com/MyCV/templates/1075/css/style-simple-back-ground.css?v=47" rel="stylesheet" />
 <link id="cv-font" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1075/fonts/default.css?v=40" />
 <link id="cv-font-size-css" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1075/font-sizes/font_normal.css?v=40" />
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1075/spacing/spacing_normal.css?v=40" />
@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css?family=Cookie|Open+Sans|Source+Code+Pro&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap"
     rel="stylesheet">
-<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1075/colors/f4ab79.css?v=8" />
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1075/colors/f4ab79.css?v=9" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <div id="form-cv" class="text-size line-size" data-x-name="parrent">

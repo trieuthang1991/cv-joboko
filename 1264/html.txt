@@ -3,12 +3,12 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
-<link rel="stylesheet" id="cv-css" href="/css/font-awesome.min.css">
+
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1264/font-sizes/font_normal.css?v=1660839187808">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1264/spacing/spacing_normal.css?v=1660839187808">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1264/fonts/default.css?v=1660839187808">
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1264/colors/1068c1.css?v=1660839187808">
-<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1264/css/styles.css?v=1660839187808">
+<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1264/css/styles.css?v=1660839187809">
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
@@ -105,10 +105,10 @@
                                 <div class="skill" data-x-name="list-item">
                                     <div class="skill__item" data-x-name="sub-item">
                                         <div class="skill__item-title">
-                                            <div class="p inline-block bold" contenteditable="true" data-x-id="name">
+                                            <div class="p inline-block bold haicham" contenteditable="true" data-x-id="name">
                                                 Giải quyết
                                                 vấn đề</div>
-                                            <div class="p regular inline-block">:</div>
+                                            
                                             <div class="p regular inline-block" contenteditable="true" data-x-id="des">Tốt</div>
                                         </div>
                                     </div>

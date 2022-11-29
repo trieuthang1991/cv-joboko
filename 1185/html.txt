@@ -103,9 +103,7 @@
                     <div class="education__item-title">
                       <div class="h5 bold uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                     </div>
-                    <div class="education__item-pos">
-                      <div class="p light uppercase inline-block" data-x-id="pos" contenteditable="true">Quản trị kinh doanh</div>
-                    </div>
+                    
                     <div class="education__item-date">
                       <div class="p semi-bold inline-block" data-x-id="start" contenteditable="true">9/2012</div>
                       <div class="p semi-bold inline-block">-</div>

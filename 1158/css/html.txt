@@ -1,5 +1,4 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="cv-css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1158/font-sizes/font_normal.css?v=1630335016382">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1158/spacing/spacing_normal.css?v=1630335016382">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1158/fonts/default.css?v=1630335016382">

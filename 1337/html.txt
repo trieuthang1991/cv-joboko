@@ -1,7 +1,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="cv-css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1156/css/styles.css?v=1662440027641">
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1156/font-sizes/font_normal.css?v=1662440027642">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1156/spacing/spacing_normal.css?v=1662440027641">
@@ -13,8 +12,7 @@
 <div id="form-cv" data-x-name="parrent">
     <!-- “page=1” và class=”page” -->
     <div page='1' class="page page--background">
-	<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
-	<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+
         <div class="page__inner">
             <div class="full-width">
                 <div data-x-name="col-parrent" data-x-col="1" class="full-width__left">
@@ -39,6 +37,8 @@
                                     <i class="p5 fa fa-facebook-official"></i>
                                     <span class="p" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</span>
                                 </p>
+	<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
+<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
                             </div>
                         </div>
                     </div>

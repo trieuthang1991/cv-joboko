@@ -1,5 +1,4 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="cv-css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1085/css/sacmauV2.css?v=54">
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1085/font-sizes/font_normal.css?v=53">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1085/spacing/spacing_normal.css?v=50">

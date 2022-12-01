@@ -1,5 +1,4 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="cv-css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1085/font-sizes/font_normal.css">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1085/fonts/default.css">
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1085/colors/a4dce4.css?v=2">

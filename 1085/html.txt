@@ -1,5 +1,4 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="cv-css" href="https://i-vn0.joboko.com/css/font-awesome.min.css">
 <link rel="stylesheet" id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/css/sacmauV2.css?v=55">
 <link rel="stylesheet" id="cv-font-size-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/font-sizes/font_normal.css?v=55">
 <link rel="stylesheet" id="cv-spacing-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/spacing/spacing_normal.css?v=55">

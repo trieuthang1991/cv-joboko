@@ -3,12 +3,11 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
-<link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/css/font-awesome.min.css">
-<link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1256/font-sizes/font_normal.css?v=1663990663530">
-<link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1256/spacing/spacing_normal.css?v=1663990663530">
-<link rel="stylesheet" id="cv-font" href="/MyCv/templates/1256/fonts/default.css?v=1663990663530">
-<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1256/colors/f7941d.css?v=1663990663530">
-<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1256/css/styles.css?v=1663990663530">
+<link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1256/font-sizes/font_normal.css?v=1663990663503">
+<link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1256/spacing/spacing_normal.css?v=1663990663503">
+<link rel="stylesheet" id="cv-font" href="/MyCv/templates/1256/fonts/default.css?v=1663990663503">
+<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1256/colors/f7941d.css?v=1663990663503">
+<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1256/css/styles.css?v=1663990663520">
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
@@ -92,18 +91,15 @@
                                 </div>
                                 <div class="skill" data-x-name="list-item">
                                     <div class="skill__item" data-x-name="sub-item">
-                                        <!-- <div class="skill__item-content">
+                                        <div class="skill__item-title">
+                                            <div class="p light" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+                                        </div>
+                                        <div class="skill__item-content">
                                             <div class="cvo-skillrate-bar">
                                                 <div class="cvo-skillrate-progress cvo-skillrate-value" data-x-id="val"
                                                     value="3">
                                                     <span></span>
                                                 </div>
-                                            </div>
-                                        </div> -->
-                                        <div class="skill__item-title">
-                                            <div class="p bold" contenteditable="true" data-x-id="name">HTML5 & CSS3
-                                            </div>
-                                             <div class="p light" style="margin-top:5px" contenteditable="true" data-x-id="des">Tốt
                                             </div>
                                         </div>
                                     </div>

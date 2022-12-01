@@ -3,7 +3,6 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
-<link rel="stylesheet" id="cv-css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1272/font-sizes/font_normal.css?v=1660839156677">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1272/spacing/spacing_normal.css?v=1660839156677">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1272/fonts/default.css?v=1660839156677">
@@ -319,7 +318,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="two-up__left-item" data-x-name="item" data-x-id="skill-ta">
+                                <div class="two-up__left-item" data-x-name="item" data-x-id="skill_ta">
                                     <div class="heading" data-x-name="head">
                                         <div class="heading__title">
                                             <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">TIẾNG
@@ -335,7 +334,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="two-up__left-item" data-x-name="item" data-x-id="skill-th">
+                                <div class="two-up__left-item" data-x-name="item" data-x-id="skill_th">
                                     <div class="heading" data-x-name="head">
                                         <div class="heading__title">
                                             <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">PHẦN

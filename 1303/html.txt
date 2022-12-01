@@ -3,28 +3,25 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
-<link rel="stylesheet" id="cv-css" href="/css/font-awesome.min.css">
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1155/font-sizes/font_normal.css?v=1661074713233">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1155/spacing/spacing_normal.css?v=1661074713233">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1155/fonts/default.css?v=1661074713233">
-<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1155/colors/007acc.css?v=1661074713233">
-<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1155/css/styles.css?v=1661074713233">
+<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1155/colors/007acc.css?v=1661074713234">
+<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1155/css/styles.css?v=1661074713239">
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
     <!-- “page=1” và class=”page” -->
     <div page='1' class="page page--background">
-	<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
-<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
         <div class="page__inner">
             <div class="two-up">
                 <div data-x-name="col-parrent" data-x-col="1" class="two-up__left">
                     <div class="height-curent">
                         <div class="two-up__group">
                             <div class="avatar" data-x-name="item" data-x-id="info">
-                                <img data-x-id="ava" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+                                <img data-x-id="ava" src="./images/avatar.png" alt="" />
                                 <img style="display:none" data-x-id="ava_vertical"
-                                    src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+                                    src="./images/avatar.png" alt="" />
                             </div>
                             <div class="info-main" data-x-name="item" data-x-id="info">
                                 <div class="info-main__item">
@@ -61,6 +58,16 @@
                                     </div>
                                     <div class="info-detail__item-icon"><i class="p fa fa-facebook-official"></i></div>
                                 </div>
+                                 <div class="info-detail__item x_hide" data-x-rel="gen">
+                                    <div class="p light" contenteditable="true" data-x-id="gen">fb.com/jobokofanpage
+                                    </div>
+                                    <div class="info-detail__item-icon"><i class="p fa fa-facebook-official"></i></div>
+                                </div>
+                                <div class="info-detail__item x_hide" data-x-rel="dob">
+                                    <div class="p light" contenteditable="true" data-x-id="dob">fb.com/jobokofanpage
+                                    </div>
+                                    <div class="info-detail__item-icon"><i class="p fa fa-facebook-official"></i></div>
+                                </div>  
                             </div>
                         </div>
                     </div>
@@ -126,7 +133,7 @@
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">ngôn ngữ</span>
                                 <span class="heading__line"></span>
                                 <span class="heading__icon">
-                                    <i class="p3 fa fa-code"></i>
+                                    <i class="icon-code"></i>
                                 </span>
                             </p>
                             <div class="content skill-code" data-x-name="list-item">
@@ -180,7 +187,7 @@
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">chứng chỉ</span>
                                 <span class="heading__line"></span>
                                 <span class="heading__icon">
-                                    <i class="p3 fa fa-wpforms"></i>
+                                    <i class="icon-cer"></i>
                                 </span>
                             </p>
                             <div class="certification" data-x-name="list-item">
@@ -340,7 +347,7 @@
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">phần mềm</span>
                                 <span class="heading__line"></span>
                                 <span class="heading__icon">
-                                    <i class="p3 fa fa-laptop"></i>
+                                    <i class="icon-laptop"></i>
                                 </span>
                             </p>
                             <div class="content skill" data-x-name="list-item">
@@ -444,7 +451,7 @@
                                     dụng</span>
                                 <span class="heading__line"></span>
                                 <span class="heading__icon">
-                                    <i class="p3 fa fa-wpforms"></i>
+                                    <i class="icon-cletter"></i>
                                 </span>
                             </p>
                             <div class="cletter">

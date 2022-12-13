@@ -1,0 +1,25 @@
+.header-row, .year-tag {
+    background-color: #15de8b !important;
+    color: #fff !important; 
+}
+
+#banner-header-first {
+    border-color: #fff !important
+}
+
+#about-me-content {
+    background-color: #15de8b !important;
+    border-color: #fff !important;
+}
+
+.year-tag::after {
+    border-left: 32px solid #15de8b !important
+}
+
+.footer-row {
+    border-bottom: 8px solid #15de8b !important;
+}
+
+#skill-progress div .progress-bar .progress-core {
+    background: #15de8b !important
+}

@@ -1,0 +1,10 @@
+#form-cv{
+	font-family: 'Tahoma',sans-serif;
+}
+
+#cv-document .regular {
+	font-weight: 600 !important;
+}
+#cv-document .info-main {
+    padding: .8em 3em .5em !important;
+}

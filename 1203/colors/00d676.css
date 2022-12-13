@@ -22,7 +22,7 @@
 #cv-document .action__item-date,#cv-document .education__item-date,#cv-document .experience__item-date{background:linear-gradient(to right,#00d676,#524cc5) no-repeat;color:#fff}
 #cv-document .action__item-wrap,#cv-document .education__item-wrap,#cv-document .experience__item-wrap{border-bottom-color:#524cc5}
 /*#cv-document .bullet-dot::before{background-color:#524cc5}#cv-document .bullet-dot br::before{background-color:#524cc5}*/
-#cv-document [contenteditable=true] ul li::marker {
+#cv-document [contenteditable] ul li::marker {
     color: #524cc5;
 }
 #cv-document .bullet-dot-2::before{background-color:#524cc5}

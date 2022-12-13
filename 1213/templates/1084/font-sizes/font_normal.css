@@ -1,0 +1,35 @@
+.htitle2 [data-x-id=tit],
+.htitle11 [data-x-id=tit],
+.htitle5 [data-x-id=tit],
+.htitle4 [data-x-id=tit],
+.htitle3 [data-x-id=tit],
+.htitle6 [data-x-id=tit],
+.htitle7 [data-x-id=tit],
+.htitle8 [data-x-id=tit],
+.htitle9 [data-x-id=tit],
+.htitle10 [data-x-id=tit] {
+    font-size: 20px !important;
+    font-weight: bold;
+    
+}
+
+.txthead2 {
+    font-size: 16px;
+}
+
+.bxst2 span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bxst2{
+    margin-bottom: 5px;
+}
+
+.txt-content{
+    font-size: 14px;
+}
+
+.name-pos [data-x-id="name"]{
+    font-size:20px;
+}

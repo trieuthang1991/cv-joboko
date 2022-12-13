@@ -12,19 +12,19 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .content{position:relative;flex-grow:1;padding-left:2.1em}
 #cv-document .content::before{content:"";position:absolute;top:.2em;bottom:0;left:-.2em;width:.2em}
 /*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
-#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
     margin-left: 18px
 }
-#cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ol li {
     list-style: auto;
 }
-#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
     padding: 0;
 }
-#cv-document [contenteditable=true] ul li {
+#cv-document [contenteditable] ul li {
     list-style-type: disc
 }
-#cv-document .bullet-dot[contenteditable=true] ul li::marker {
+#cv-document [contenteditable] ul li::marker {
     font-size:18px;
 }
 #cv-document .page--background:first-child .two-up{margin-top:-7em}

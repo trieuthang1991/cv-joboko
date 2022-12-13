@@ -1,0 +1,23 @@
+.field-bound {
+    border-bottom: 1px solid #15de8b !important
+}
+
+.field-bound:nth-last-child(2) {
+    border-bottom: 0 !important
+}
+
+#skills .descript, #hobbies .descript {
+    border-top: 1px solid #15de8b !important
+}
+
+#about-me-name {
+    border-bottom: 2px solid #15de8b !important
+}
+
+.round {
+    border: 2px solid #15de8b !important
+}
+
+.progress-core {
+    background: #099049 !important
+}

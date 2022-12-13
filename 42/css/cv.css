@@ -225,19 +225,19 @@ span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
 [data-x-name=item]{
 	padding-top:  25px;
 }
-#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
     margin-left: 18px
 }
-#cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ol li {
     list-style: auto;
 }
-#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
     padding: 0;
 }
-#cv-document [contenteditable=true] ul li {
+#cv-document [contenteditable] ul li {
     list-style-type: disc
 }
-#cv-document [contenteditable=true] ul li::marker {
+#cv-document [contenteditable] ul li::marker {
     color:#b1b1b1
 }
 .bold{

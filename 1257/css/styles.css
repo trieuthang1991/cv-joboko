@@ -15,15 +15,15 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .bullet-dot br::before{left:-20px}
 }*/
-#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol {
+#cv-document [contenteditable] ul, #cv-document [contenteditable] ol {
     margin-left: 18px
 }
 
-#cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ol li {
     list-style: auto;
 }
 
-#cv-document [contenteditable=true] ul li {
+#cv-document [contenteditable] ul li {
     list-style-type: disc
 }
 

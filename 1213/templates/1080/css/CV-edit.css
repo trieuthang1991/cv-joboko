@@ -1,0 +1,193 @@
+body.page-preview,body.page-view,body.page-viewdemo{
+	background: url(/images3/common/bg-preview.jpg) no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+}
+*{box-sizing:border-box;}
+.pagemax {max-width:793px; margin:0 auto; font-family: 'Roboto Condensed', sans-serif;position: relative;}
+.bgpage {background: url(../images/bg.jpg) no-repeat; background-size: cover; padding: 40px 30px 0 40px;}
+.top-banner {height: 130px;}
+.contain-head {display: flex;}
+.txthead {width:50%;}
+.txt1 {font-size: 48px; font-weight:bold;}
+.txt2 {font-size: 20px; font-weight:bold; margin-top: -10px; text-transform: uppercase;}
+.txtfb {width:50%; display: flex; align-items: flex-end; justify-content:flex-end;}
+.txtfb span {display: block;}
+.txtfb span {/*background: url(../images/fb.png) no-repeat;*/ padding-left: 40px; min-height: 33px; line-height: 33px;}
+.pos-em {margin-top:10px;}
+.txtpos {background: #e8e6e7; display: inline-block; padding: 0 20px 0 0; text-transform: uppercase;}
+.posp {height: 1px; width:100%; background: #303030; display: block; margin-top:-10px;}
+.bxcontain {display: flex;}
+.col1 {width:310px}
+.col2 {width:413px;}
+.avabx {/*background: url(../images/bg-ava.png) no-repeat center center;*/ display: flex; justify-content: center; align-items: center; width:270px; height: 255px; overflow: hidden; margin:0 auto;}
+.cimg {width:173px; height: 173px; overflow: hidden; border-radius: 50%; margin-top:-15px;}
+.cimg img {width:173px; height: 173px;}
+.bxitem {margin-bottom: 30px;}
+.page:last-child #cv-watermark{
+  display: block !important;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+#cv-watermark a:after{
+  content: "Joboko.com";
+}
+.htitle span, .htitle2 span, .htitle3 span, .htitle4 span, .htitle5 span, .htitle6 span, .htitle7 span, .htitle8 span, .htitle9 span, .htitle10 span, .htitle11 span {font-size: 18px; text-transform: uppercase; font-weight: bold;}
+.bxinfo {margin-left: 35px;}
+.txtline1 {display: inline-block;margin: 0 0 5px 5px; min-height: 12px; width: 95%;}
+.txtline5 {display: flex; align-items: center; margin-bottom: 25px;}
+.icon-skillrate-value.dot {width: 65%; height: auto; margin: 5px 0;}
+.subdv {margin: 0 0 15px;}
+.subdv2 {background:url(../images/dot.png) 7px 0 no-repeat, url(../images/bgline.gif) 12px 0 repeat-y; padding-left: 35px; margin-bottom: 30px;}
+.bxst {display: flex;}
+.bxst2 {margin-bottom: 5px;}
+.bxstl {width:70%; margin-bottom: 5px;}
+.bxstr {width:30%; text-align: right; font-style: italic; font-size: 12px; font-weight: 700;}
+.bxstr2 {width:30%; text-align: right; font-size: 14px;}
+.txthead2 {font-weight:bold; font-size: 15px;}
+.txti {font-size: 14px; font-style: italic;}
+.txt3 {padding-right: 10px; width: 35%;}
+.item2{display: flex; justify-content: flex-start; width: 100%; align-items: baseline;}
+.list-skill-ta {
+	width: 100%;
+	max-width: 100%;
+	padding-left: 35px;
+}
+.skill-subrate{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+	max-width: 100%;
+}
+.list-skill-ta .radialProgressBar {
+	display: flex;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+}
+.list-skill-ta .radialProgressBar .overlay{
+	border-radius: 50%;
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    padding-top: 17%;
+}
+.list-skill-ta .radialProgressBar .overlay:after{
+	   display: flex;
+    justify-content: center;
+	   height: 40px;
+    width: 40px;
+    padding-top: inherit;
+    background: #ebebeb;
+    top: 5px;
+    position: absolute;
+    border-radius: 200px;
+    left: 5px;
+}
+.list-skill-ta .radialProgressBar .overlay[value="1"]:after{
+  	content: "20%";
+  	font-size: 16px;
+}
+.list-skill-ta .radialProgressBar .overlay[value="2"]:after{
+  	content: "40%";
+  	font-size: 16px;
+}
+.list-skill-ta .radialProgressBar .overlay[value="3"]:after{
+  	content: "60%";
+  	font-size: 16px;
+}
+.list-skill-ta .radialProgressBar .overlay[value="4"]:after{
+  content: "80%";
+  font-size: 16px;
+}
+.list-skill-ta .radialProgressBar .overlay[value="5"]:after{
+  	content: "100%";
+  	font-size: 16px;
+}
+/*.list-skill-ta .radialProgressBar .overlay[value="1"] {
+  background-image: linear-gradient(18deg, #c4c8b5 50%, transparent 50%), linear-gradient(90deg, #54a62f 50%, #c4c8b5 50%);
+}
+.list-skill-ta .radialProgressBar .overlay[value="2"] {
+  background-image: linear-gradient(-54deg, #c4c8b5 50%, transparent 50%), linear-gradient(90deg, #54a62f 50%, #c4c8b5 50%);
+}
+.list-skill-ta .radialProgressBar .overlay[value="3"] {
+  background-image: linear-gradient(90deg, #54a62f 50%, transparent 50%), linear-gradient(54deg, #54a62f 50%, #c4c8b5 50%);
+}
+.list-skill-ta .radialProgressBar .overlay[value="4"] {
+  background-image: linear-gradient(90deg, #54a62f 50%, transparent 50%), linear-gradient(-18deg, #54a62f 50%, #c4c8b5 50%);
+}
+
+.list-skill-ta .radialProgressBar .overlay[value="5"] {
+  background-image: linear-gradient(90deg, #54a62f 50%, transparent 50%), linear-gradient(-90deg, #54a62f 50%, #54a62f 50%);
+}*/
+.col1 .bxitem {
+  padding-right: 20px;
+  font-size: 13px;
+}
+
+
+.dp-block {display: inline-block;}
+.w-100 {width: 100%;}
+[data-x-id="des"] ul li:before {
+	content: '-';
+	margin-right: 5px;
+	font-weight: bold;
+}
+.capi-txt {text-transform: capitalize;}
+.pdl-35 {padding-left: 35px; margin-bottom: 30px;}
+.mrb-15 {margin-bottom: 15px;}
+.w-15 {width: 20px; text-align: center;}
+.fz-13 {font-size: 13px;}
+
+/* -------------TABLET PORTRAIT--------- */
+@media screen and (max-width: 780px) {
+  .col1 {
+    width: 45%;
+  }
+    .col2 {
+    width: 55%;
+  }
+}
+/* -----------------MOBILE---------------- */
+@media screen and (max-width: 680px) {
+  .bxcontain {
+    flex-direction: column;
+  }
+	.col1, .col2 {
+    width: 100%;
+  }
+}
+/* -----------------iphone 6/7/8/X ---------------- */
+@media screen and (max-width: 375px) {
+  .bgpage {
+    padding: 40px 20px 40px 20px;
+  }
+  .txt1 {
+    font-size: 35px;
+  }
+  .txt2 {
+    font-size: 17px;
+  }
+  .txtfb span {
+    line-height: 17px;
+  }
+}
+[contenteditable]:focus  {
+    outline: 1pt dashed #77a5cc !important;
+    cursor: text;
+}
+
+
+[contentEditable=true]:empty{
+	outline: 1pt dashed #fc4b08 !important;
+}
+
+.height-curent [data-x-name="group-item"] {
+    padding-bottom: 30px;
+}

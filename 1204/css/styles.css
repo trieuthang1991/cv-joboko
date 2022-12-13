@@ -12,19 +12,19 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .bullet-dot::before{content:"";position:absolute;top:6px;left:1px;display:inline-block;opacity:.5;margin-right:0;border-radius:50%;width:7px;height:7px}
 #cv-document .bullet-dot[data-x-bullet] br{content:"";position:relative;display:block}
 #cv-document .bullet-dot[data-x-bullet] br::before{content:"";position:absolute;top:6px;left:-18px;display:inline-block;opacity:.5;margin-right:0;border-radius:50%;width:7px;height:7px}*/
-#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
     margin-left: 18px
 }
-#cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ol li {
     list-style: auto;
 }
-#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
     padding: 0;
 }
-#cv-document [contenteditable=true] ul li {
+#cv-document [contenteditable] ul li {
     list-style-type: disc
 }
-#cv-document [contenteditable=true] ul li::marker {
+#cv-document [contenteditable] ul li::marker {
     color:#b1b1b1
 }
 @media screen and (max-width:767px){

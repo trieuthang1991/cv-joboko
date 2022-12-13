@@ -1,0 +1,242 @@
+span[contenteditable],em[contenteditable]{display:inline-block}
+.clearfix{clear:both}
+#form-cv{
+	
+	position: relative;	
+	font-size: 14px;
+	line-height: 24px;
+	color:#494949;
+}
+
+body.page-preview, body.page-view, body.page-viewdemo {
+    background: url(/images3/bg-cv/3.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page{
+	background-color: #fff;
+	position: relative;
+}
+#form-cv *{box-sizing:border-box !important}
+#form-cv p{margin-top: 0;margin-bottom: 12px}
+#form-cv .h3{font-size:14px}
+h1{color:#fff}
+.cv-main{
+	width: 100%;
+}
+#cv-top{	
+	min-height: 270px;
+	width: 100%;
+	color: #fff;	
+	background:  #232323;
+	position: relative
+}
+.cv-content{
+	width: 100%;
+	height: auto;
+	display: block;
+	position: relative;margin-top:10px;
+	padding: 0 10px;
+}
+
+
+.cv-content .cvo-block {
+    position: relative;
+    padding: 5px 10px;
+}
+#cv-top h1{
+	font-weight: 400 !important;font-size: 45px !important;	color:#fff;
+	margin-bottom: 0px;line-height:1.1em;padding-bottom:15px;
+	-webkit-margin-before:0;
+	-webkit-margin-after:0;
+	-webkit-margin-start:0;
+	-webkit-margin-end:0;
+	max-width:550px;
+	text-transform: uppercase;
+	
+}
+#cv-top h2{
+	font-size: 18px !important;
+	font-weight: normal !important;
+	margin-top: 0;
+	color: #fff;line-height:1.3em;max-width:550px;
+	text-transform: uppercase;
+}
+.box-name{	
+	display: block;
+    padding-top: 34px;
+    padding-left: 40px;
+}
+.cv-content p{
+	margin-bottom: 5px
+}
+.cv-content .head{
+	font-size: 18px;
+	text-transform: uppercase;
+    color: #232323;    
+    font-weight: 600;
+    margin-top: 0;
+	/* font-style: italic; */
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cv-content h3{	
+    font-weight:bold;font-size:14px;line-height:30px;
+    color: #494949;    
+    margin-bottom: 0;
+}
+
+.cv-content .h3{
+	color:#333
+}
+.cv-content span[contenteditable]{
+	display: inline-block;
+	background: #fff;
+	padding-right: 8px;
+}
+
+.cv-box-content{
+	margin-bottom: 25px;
+	position: relative;
+}
+.cv-box-content:hover {
+	box-shadow: 0 0 1px #999;
+}
+#cv-box-ava{
+	float: right;
+	border:2px solid #fff;	
+	padding:1px;
+	margin-top: 20px;
+	margin-right: 40px;border-radius:50%	
+}
+#cv-box-ava img{
+	padding: 0;
+	border:0;
+	display: table;
+	width: 120px;
+	height: 120px;border-radius:50%	
+}
+.bar-exp span {
+    display: block;
+    height: 8px;
+    background: #f3bd0d;
+}
+.bar-exp{
+	background: #cecece;
+	width: 50%;
+	margin-top: 8px;
+    margin-bottom: 12px;
+
+}
+.bar-value-exp{
+	width: 50%
+}
+.skill-name{
+	float: left;
+}
+
+.box-contact span{
+	display:block;
+	color: #fff;
+}
+.box-contact i.fa{
+	width: 19px;
+    height: 19px;
+    text-align: center;
+    line-height: 17px;
+    color: #fff;
+    vertical-align: top;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-right: 5px;float:left
+}
+.box-contact div.col4{
+	width: 25%;
+	float: left;
+	padding-right: 10px;
+}
+.box-contact div.col2{
+	width: 50%;
+	float: left;
+	padding-right: 10px;
+}
+.box-contact div.col1{
+	width: 99%;
+	float: left;
+	padding-right: 10px;
+}
+
+.box-contact{
+	width: 100%;
+	display: block;
+	padding:5px 40px;
+    margin-top:10px;
+	margin-bottom: 0px!important;
+}
+.box-contact div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.head i.fa {
+	border: solid 1px #232323;
+	border-radius: 50%;
+	background: white;
+	color: #232323;
+	padding: 6px;
+	width: 25px;
+	height: 25px;
+    text-align: center;
+    line-height: 13px;
+	font-size:13px;
+	margin-right: 5px;
+}
+.page:last-child #cv-watermark{
+	display: block !important;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+
+}
+#cv-watermark a:after{
+	content: "Joboko.com";
+}
+
+.block{padding: 0 10px}
+.cvo-skillrate-value[value="1"]{width:20%}
+.cvo-skillrate-value[value="2"]{width:40%}
+.cvo-skillrate-value[value="3"]{width:60%}
+.cvo-skillrate-value[value="4"]{width:80%}
+.cvo-skillrate-value[value="5"]{width:100%}
+span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
+.cv-content span.exp-date {float:right;font-weight:500}
+@media screen and (max-width: 790px) {
+    #cv-top{width:100%;text-align:center;float:none}
+    #cv-box-ava{float:none;margin:0 auto;width:125px;height:125px}
+    #cv-box-ava img{margin:0 auto}
+    #cv-top h1,#cv-top h2{float:none;width:90%;margin:10px auto}
+    .cv-content{width:100%;float:none;min-height:100px;float:none}
+    .box-contact{text-align:left ; padding: 0 20px 20px 20px;}
+    .box-contact div{width:100% !important;float:none; padding: 5px;}
+    .cvo-block .h3 i, .cvo-block .head i{left:-8px}
+    span.box-content, .cv-box-content{width:100%;margin-left:2px}
+    .box-name{padding:10px}
+}
+#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable] ul li {
+    list-style-type: disc
+}
+#cv-document [contenteditable] ul li::marker {
+    color:#b1b1b1
+}

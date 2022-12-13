@@ -1,0 +1,13 @@
+﻿{
+  "langs": [ "vi","en"],
+  "colors": [ "313e56", "005926", "d76e1d","309da9","1fbc89"],
+  "fonts": {
+    "default": "Roboto",
+    "arial": "Arial",
+    "lato": "Lato",
+    "opensans": "Open Sans"
+    
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

@@ -1,0 +1,19 @@
+.field-bound {
+    border-bottom: 1px solid #c5c0bd !important
+}
+
+.field-bound:last-child {
+    border-bottom: 0 !important
+}
+
+#about-me-name {
+    border-bottom: 2px solid #c5c0bd !important
+}
+
+.round {
+    border: 2px solid #c5c0bd !important
+}
+
+.progress-core {
+    background: #545457 !important
+}

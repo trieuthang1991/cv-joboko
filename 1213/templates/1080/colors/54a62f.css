@@ -1,0 +1,43 @@
+.txtfb span {background: url(../images/fb.png) no-repeat;}
+.avabx {background: url(../images/bg-ava.png) no-repeat center center;}
+.htitle {padding-left: 35px; background: url(../images/icon-contact.png) no-repeat; min-height: 26px; margin-bottom: 15px;}
+.htitle2 {padding-left: 35px; background: url(../images/icon-kyNang.png) no-repeat; min-height: 26px; margin-bottom: 15px;}
+.htitle3 {padding-left: 35px; background: url(../images/icon-user.png) no-repeat; min-height: 26px; margin-bottom: 15px;}
+.htitle4 {padding-left: 35px; background: url(../images/icon-knlv.png) no-repeat; min-height: 26px; margin-bottom: 15px;}
+.htitle5 {padding-left: 35px; background: url(../images/icon-hocvan.png) no-repeat; min-height: 26px; margin-bottom: 15px;}
+.htitle6 {padding-left: 35px; background: url(../images/icon-giaiThuong.png) no-repeat; min-height: 26px; margin-bottom: 15px;}
+.htitle7 {padding-left: 35px; background: url(../images/icon-ngonNgu.png) no-repeat; min-height: 26px; margin-bottom: 15px;}
+.htitle8 {padding-left: 35px; background: url(../images/icon-chungChi.png) no-repeat; min-height: 26px; margin-bottom: 15px;}
+.htitle9 {padding-left: 35px; background: url(../images/icon-sothich.png) no-repeat; min-height: 26px; margin-bottom: 15px;}
+.htitle10 {padding-left: 35px; background: url(../images/icon-muctieunghenghiep.png) no-repeat; min-height: 26px; margin-bottom: 15px;}
+.htitle11 {padding-left: 35px; background: url(../images/icon-hoatdong.png) no-repeat; min-height: 26px; margin-bottom: 15px;}
+.list-skill-ta .radialProgressBar .overlay[value="1"]:after,
+.list-skill-ta .radialProgressBar .overlay[value="2"]:after,
+.list-skill-ta .radialProgressBar .overlay[value="3"]:after,
+.list-skill-ta .radialProgressBar .overlay[value="4"]:after,
+.list-skill-ta .radialProgressBar .overlay[value="5"]:after {
+	color: #54a62f;
+}
+.list-skill-ta .radialProgressBar .overlay { background: #54a62f;} 
+.list-skill-ta .radialProgressBar .overlay[value="1"] {
+  background-image: linear-gradient(18deg, #c4c8b5 50%, transparent 50%), linear-gradient(90deg, #54a62f 50%, #c4c8b5 50%);
+}
+.list-skill-ta .radialProgressBar .overlay[value="2"] {
+  background-image: linear-gradient(-54deg, #c4c8b5 50%, transparent 50%), linear-gradient(90deg, #54a62f 50%, #c4c8b5 50%);
+}
+.list-skill-ta .radialProgressBar .overlay[value="3"] {
+  background-image: linear-gradient(90deg, #54a62f 50%, transparent 50%), linear-gradient(54deg, #54a62f 50%, #c4c8b5 50%);
+}
+.list-skill-ta .radialProgressBar .overlay[value="4"] {
+  background-image: linear-gradient(90deg, #54a62f 50%, transparent 50%), linear-gradient(-18deg, #54a62f 50%, #c4c8b5 50%);
+}
+
+.list-skill-ta .radialProgressBar .overlay[value="5"] {
+  background-image: linear-gradient(90deg, #54a62f 50%, transparent 50%), linear-gradient(-90deg, #54a62f 50%, #54a62f 50%);
+}
+[data-x-id="des"] ul li:before {color: #54a62f;}
+.icon-skillrate-value.dot[value="1"] {content: url(../images/2-10.png);}
+.icon-skillrate-value.dot[value="2"] {content: url(../images/4-10.png);}
+.icon-skillrate-value.dot[value="3"] {content: url(../images/6-10.png);}
+.icon-skillrate-value.dot[value="4"] {content: url(../images/8-10.png);}
+.icon-skillrate-value.dot[value="5"] {content: url(../images/10-10.png);}

@@ -13,19 +13,19 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .no-outline{outline:0}
 #cv-document .no-outline:hover{box-shadow:none;outline:0}
 #cv-document .content{border-left-width:1px;border-left-style:solid;padding:.7em 0 1.1em 3em}
-#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol {
+#cv-document [contenteditable] ul, #cv-document [contenteditable] ol {
     margin-left: 18px
 }
 
-#cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ol li {
     list-style: auto;
 }
 
-#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
     padding: 0;
 }
 
-#cv-document [contenteditable=true] ul li {
+#cv-document [contenteditable] ul li {
     list-style-type: disc
 }
 #cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more, #cv-document .cletter {

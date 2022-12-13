@@ -1,0 +1,46 @@
+#cv-document .page--background{background-color:#fff}
+#cv-document .cletter .line::after,#cv-document .cletter .line::before,#cv-document .content::before{border-color:#33b452}
+#cv-document .h1,#cv-document .h2,#cv-document .h3,#cv-document .info-detail .p{color:#292929}
+#cv-document .h4,#cv-document .p,#cv-document .p2,#cv-document .p3,#cv-document .p4{color:#1d1d1b}
+#cv-document .heading__icon{border-color:#33b452}
+#cv-document .heading__icon>i{color:#33b452!important}
+#cv-document .heading__title{border-bottom-color:#33b452}
+#cv-document .two-up__right{border-left-color:#dbdada}
+#cv-document .full-width::before{background-color:#ededee}
+#cv-document .full-width::after{background-color:#33b452}
+#cv-document .cvo-skillrate>span{background-color:#999}
+#cv-document .cvo-skillrate[value="1"]>span:first-child{background-color:#33b452}
+#cv-document .cvo-skillrate[value="2"]>span:nth-child(-n+2){background-color:#33b452}
+#cv-document .cvo-skillrate[value="3"]>span:nth-child(-n+3){background-color:#33b452}
+#cv-document .cvo-skillrate[value="4"]>span:nth-child(-n+4){background-color:#33b452}
+#cv-document .cvo-skillrate[value="5"]>span{background-color:#33b452}
+#cv-document .cvo-skillrate-radial::before{background-color:#fff}
+#cv-document .cvo-skillrate-radial::after{color:#292929}
+#cv-document .cvo-skillrate-radial[value="1"]{background:linear-gradient(18deg,#999 50%,transparent 50%),linear-gradient(90deg,#33b452 50%,#999 50%)}
+#cv-document .cvo-skillrate-radial[value="2"]{background:linear-gradient(-54deg,#999 50%,transparent 50%),linear-gradient(90deg,#33b452 50%,#999 50%)}
+#cv-document .cvo-skillrate-radial[value="3"]{background:linear-gradient(90deg,#33b452 50%,transparent 50%),linear-gradient(54deg,#33b452 50%,#999 50%)}
+#cv-document .cvo-skillrate-radial[value="4"]{background:linear-gradient(90deg,#33b452 50%,transparent 50%),linear-gradient(-18deg,#33b452 50%,#999 50%)}
+#cv-document .cvo-skillrate-radial[value="5"]{background:linear-gradient(90deg,#33b452 50%,transparent 50%),linear-gradient(-90deg,#33b452 50%,#33b452 50%)}
+#cv-document .cvo-skillrate-progress>span{background-color:#999}
+#cv-document .cvo-skillrate-progress>span::before{border-color:#fff;border-left-color:transparent}
+#cv-document .cvo-skillrate-progress>span::after{background-color:#33b452}
+#cv-document .cvo-skillrate-progress[value="1"]>span:nth-child(1){background-color:#33b452}
+#cv-document .cvo-skillrate-progress[value="1"]>span:nth-child(1)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="2"]>span:nth-child(-n+2){background-color:#33b452}
+#cv-document .cvo-skillrate-progress[value="2"]>span:nth-child(2)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="3"]>span:nth-child(-n+3){background-color:#33b452}
+#cv-document .cvo-skillrate-progress[value="3"]>span:nth-child(3)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="4"]>span:nth-child(-n+4){background-color:#33b452}
+#cv-document .cvo-skillrate-progress[value="4"]>span:nth-child(4)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="5"]>span:nth-child(-n+5){background-color:#33b452}
+#cv-document .cvo-skillrate-progress[value="5"]>span:nth-child(5)::after{display:block}
+#cv-document .avatar{background-color:#fff}
+#cv-document .info-detail__item i{color:#fff;background-color:#33b452}
+#cv-document .education__item-content::before{background-color:#33b452;border-color:#fff}
+#cv-document .education__item-content::after{background-color:#dbdada}
+#cv-document .project__item-title::after{background-color:#292929}
+#cv-document .project__item-table td,#cv-document .project__item-table th{border-color:#fff}
+#cv-document .project__item-table tr:nth-child(odd) td,#cv-document .project__item-table tr:nth-child(odd) th{background-color:#f3f3f3}
+#cv-document .project__item-table tr:nth-child(even) td,#cv-document .project__item-table tr:nth-child(even) th{background-color:#f9f9fa}
+#cv-document .certification__item::before{background-color:#dbdada}
+#cv-document .hobby__item::before{background-color:#dbdada}

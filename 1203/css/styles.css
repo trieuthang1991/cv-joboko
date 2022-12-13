@@ -15,19 +15,19 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .bullet-dot br::before{content:"";position:absolute;top:5px;left:-17px;display:inline-block;opacity:.5;margin-right:0;border-radius:50%;width:7px;height:7px}*/
 #cv-document .bullet-dot-2{position:relative;padding-left:17px}
 #cv-document .bullet-dot-2::before{content:"";position:absolute;top:5px;left:0;display:inline-block;opacity:.5;margin-right:0;border-radius:50%;width:7px;height:7px}
-#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
     margin-left: 18px
 }
-#cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ol li {
     list-style: auto;
 }
-#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
     padding: 0;
 }
-#cv-document [contenteditable=true] ul li {
+#cv-document [contenteditable] ul li {
     list-style-type: disc
 }
-#cv-document [contenteditable=true] ul li::marker {
+#cv-document [contenteditable] ul li::marker {
     font-size: 18px;
 }
 #cv-document .page--background{display:flex;padding:0 4em 0 7.2em;background-repeat:no-repeat}

@@ -139,15 +139,6 @@
           <div data-x-name="content" class="height_content">
             <!-- Content col2 -->
             <div data-x-name="group-item">
-              <div class="bxitem" data-x-name="item" data-x-id="more">
-                <p class="htitle3" data-x-name="head">
-                  <span class="dp-block" data-x-id="tit" contenteditable="true">Giới thiệu</span>
-                </p>
-                <div class="bxinfo2" data-x-name="list-item">
-                  <div class="subdv2 dp-block w-100" data-x-id="name" contenteditable="true"> Đạt chứng nhận CPA Việt Nam và chứng chỉ Kế toán trưởng với hơn 10 năm kinh nghiệm trong lĩnh vực kế toán và tài chính. Có kinh nghiệm trong kế toán, tính thuế và báo cáo cho khách hàng và tổ chức kinh doanh. Có kinh nghiệm chuyên môn với nhiều chương trình phần mềm kế toán phổ biến nhất (MISA, FAST). Đạo đức nghề nghiệp tốt, cam kết lưu giữ hồ sơ chính xác và toàn vẹn. Mong muốn tham gia nhóm các kế toán viên và giúp cải thiện tài chính của tổ chức. </div>
-                </div>
-                <!-- end bxinfo2 -->
-              </div>
               <!-- end bxitem -->
               <div class="bxitem" data-x-name="item" data-x-id="tar">
                 <p class="htitle10" data-x-name="head">
@@ -175,7 +166,7 @@
                       </div>
                     </div>
                     <!-- end bxst1 -->
-                    <div class="fz-13" data-x-id="des" contenteditable="true">
+                    <div class="" data-x-id="des" contenteditable="true">
                       <ul class="lst">
                         <li class="lst-li">Chịu trách nhiệm làm việc với nhiều dự án cùng lúc, thiết kế các trang web hấp dẫn, tương tác hàng ngày với các bạn thiết kế đồ họa, back-end developer và nhóm tiếp thị.</li>
                         <li class="lst-li">Phát triển và duy trì chức năng front-end của các trang web</li>
@@ -204,7 +195,7 @@
                       </div>
                     </div>
                     <!-- end bxst1 -->
-                    <div class="fz-13" data-x-id="des" contenteditable="true">
+                    <div class="" data-x-id="des" contenteditable="true">
                       <ul>
                         <li>Chịu trách nhiệm làm việc với nhiều dự án cùng lúc, thiết kế các trang web hấp dẫn, tương tác hàng ngày với các bạn thiết kế đồ họa, back-end developer và nhóm tiếp thị.</li>
                         <li>Phát triển và duy trì chức năng front-end của các trang web</li>
@@ -284,6 +275,15 @@
                     <!-- end bxst1 -->
                   </div>
                   <!-- end subdv2 -->
+                </div>
+                <!-- end bxinfo2 -->
+              </div>
+			  <div class="bxitem" data-x-name="item" data-x-id="more">
+                <p class="htitle3" data-x-name="head">
+                  <span class="dp-block" data-x-id="tit" contenteditable="true">Giới thiệu</span>
+                </p>
+                <div class="bxinfo2" data-x-name="list-item">
+                  <div class="subdv2 dp-block w-100" data-x-id="name" contenteditable="true"> Đạt chứng nhận CPA Việt Nam và chứng chỉ Kế toán trưởng với hơn 10 năm kinh nghiệm trong lĩnh vực kế toán và tài chính. Có kinh nghiệm trong kế toán, tính thuế và báo cáo cho khách hàng và tổ chức kinh doanh. Có kinh nghiệm chuyên môn với nhiều chương trình phần mềm kế toán phổ biến nhất (MISA, FAST). Đạo đức nghề nghiệp tốt, cam kết lưu giữ hồ sơ chính xác và toàn vẹn. Mong muốn tham gia nhóm các kế toán viên và giúp cải thiện tài chính của tổ chức. </div>
                 </div>
                 <!-- end bxinfo2 -->
               </div>

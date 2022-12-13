@@ -1,0 +1,44 @@
+#cv-document .page--background{background-color:#fff}
+#cv-document .icon-title::before{background:linear-gradient(to right,#ef4136,#ef4136) no-repeat 0 0/.3em .3em,linear-gradient(to right,#ef4136,#ef4136) no-repeat 100% 0/50% 50%,linear-gradient(to right,#ef4136,#ef4136) no-repeat 0 100%/50% 50%,linear-gradient(to right,#ef4136,#ef4136) no-repeat 100% 100%/.3em .3em}
+#cv-document .h1,#cv-document .h2,#cv-document .info-detail .p,#cv-document .info-main .h3{color:#292929}
+#cv-document .h3,#cv-document .p,#cv-document .p2{color:#1d1c1b}
+#cv-document .heading__line{background-color:#ef4136}
+#cv-document .heading__icon{color:#292929}
+#cv-document .heading__icon::after{border-color:#ef4136}
+#cv-document .cvo-skillrate>span::before{border-color:#ef4136}
+#cv-document .cvo-skillrate[value="1"]>span:nth-child(-n+2)::before{background-color:#ef4136}
+#cv-document .cvo-skillrate[value="2"]>span:nth-child(-n+4)::before{background-color:#ef4136}
+#cv-document .cvo-skillrate[value="3"]>span:nth-child(-n+6)::before{background-color:#ef4136}
+#cv-document .cvo-skillrate[value="4"]>span:nth-child(-n+8)::before{background-color:#ef4136}
+#cv-document .cvo-skillrate[value="5"]>span::before{background-color:#ef4136}
+#cv-document .cvo-skillrate-radial::before{background-color:#fff}
+#cv-document .cvo-skillrate-radial::after{color:#292929}
+#cv-document .cvo-skillrate-radial[value="1"]{background:linear-gradient(18deg,#999 50%,transparent 50%),linear-gradient(90deg,#ef4136 50%,#999 50%)}
+#cv-document .cvo-skillrate-radial[value="2"]{background:linear-gradient(-54deg,#999 50%,transparent 50%),linear-gradient(90deg,#ef4136 50%,#999 50%)}
+#cv-document .cvo-skillrate-radial[value="3"]{background:linear-gradient(90deg,#ef4136 50%,transparent 50%),linear-gradient(54deg,#ef4136 50%,#999 50%)}
+#cv-document .cvo-skillrate-radial[value="4"]{background:linear-gradient(90deg,#ef4136 50%,transparent 50%),linear-gradient(-18deg,#ef4136 50%,#999 50%)}
+#cv-document .cvo-skillrate-radial[value="5"]{background:linear-gradient(90deg,#ef4136 50%,transparent 50%),linear-gradient(-90deg,#ef4136 50%,#ef4136 50%)}
+#cv-document .cvo-skillrate-progress>span{background-color:#999}
+#cv-document .cvo-skillrate-progress>span::before{border-color:#fff;border-left-color:transparent}
+#cv-document .cvo-skillrate-progress>span::after{background-color:#ef4136}
+#cv-document .cvo-skillrate-progress[value="1"]>span:nth-child(1){background-color:#ef4136}
+#cv-document .cvo-skillrate-progress[value="1"]>span:nth-child(1)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="2"]>span:nth-child(-n+2){background-color:#ef4136}
+#cv-document .cvo-skillrate-progress[value="2"]>span:nth-child(2)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="3"]>span:nth-child(-n+3){background-color:#ef4136}
+#cv-document .cvo-skillrate-progress[value="3"]>span:nth-child(3)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="4"]>span:nth-child(-n+4){background-color:#ef4136}
+#cv-document .cvo-skillrate-progress[value="4"]>span:nth-child(4)::after{display:block}
+#cv-document .cvo-skillrate-progress[value="5"]>span:nth-child(-n+5){background-color:#ef4136}
+#cv-document .cvo-skillrate-progress[value="5"]>span:nth-child(5)::after{display:block}
+#cv-document .avatar{background-color:#f6f6f6}
+#cv-document .info-detail::before{background-color:#ef4136}
+#cv-document .info-detail::after{border-color:#ef4136 transparent transparent transparent}
+#cv-document .info-detail__item-icon>i{color:#fff!important}
+#cv-document .project__item-title::after{background-color:#292929}
+#cv-document .project__item-table::after{border-color:#868686}
+#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-color:#868686}
+#cv-document .project__item-table .th{background-color:#f6f6f6}
+#cv-document .skill-code__item{border-top-color:#ef4136}
+#cv-document .action__item-pos::before{background-color:#d2d3d4}
+#cv-document .cletter{border-color:#858485}

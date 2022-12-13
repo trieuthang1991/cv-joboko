@@ -1,0 +1,9 @@
+.header-row, .field-bound {
+    border-bottom: 2px solid #439fc6 !important;
+}
+.title i, #me-name span, .title-head, #contacts .c-info i {
+    color: #439fc6 !important;
+}
+#head-contact, #head-add {
+    color: #3075a3
+}

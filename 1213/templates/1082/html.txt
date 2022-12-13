@@ -1,0 +1,240 @@
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i|Open+Sans:300,400,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" id ="cv-font-size-css" href="/MyCv/templates/1082/font-sizes/font_normal.css">
+<link rel="stylesheet" id ="cv-font" href="/MyCv/templates/1082/fonts/default.css">
+<link rel="stylesheet" id ="cv-spacing-css" href="/MyCv/templates/1082/spacing/spacing_normal.css">
+<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1082/css/simple-edit.css?v=19">
+<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1082/colors/313e56.css?v=1">
+
+<div id="form-cv" data-x-name="parrent">
+        <div class="page" page='1'>
+            <div class="bg-banner" data-x-name="item" data-x-id="info">
+                <div class="name-bn" contenteditable="true" data-x-id ="name">bùi thị thanh huyền</div>
+                <span class="name-sub" contenteditable="true" data-x-id ="job">kiến trúc sư cảnh quan</span>
+            </div>
+            <div class="wrap-col">
+                <div class="column-left"> 
+                    <div data-x-name="col-parrent" data-x-col="0">
+                        <div class="height-curent spacing-pd-l">
+                            <div class="" data-x-name="item" data-x-id="info">
+                                <div class="bd-avar">
+                                    <div data-x-rel="avar" class="avar-img">
+                                        <img data-x-id="ava" src="images/anh-the-3x4.jpg">
+                                    </div>
+                                </div>
+                                <h3 class="bd-title" contenteditable="true" data-x-id="tit">thông tin cá nhân</h3>  
+
+                                <div class="info-inner">
+                                   <div class="mrb-10 item2" data-x-rel="name">
+                                        <i class="fa fa-info-circle icon1" aria-hidden="true"></i>
+                                        <div class="info-text text-capi" contenteditable="true" data-x-id ="name">bùi thị thanh huyền</div>
+                                    </div>
+                                    <div class="mrb-10 item2" data-x-rel="gen">
+                                        <i class="fa fa-user icon1" aria-hidden="true"></i>
+                                        <div class="info-text" contenteditable="true" data-x-id ="gen">Nữ</div>
+                                    </div>
+                                    <div class="mrb-10 item2" data-x-rel="email">
+                                        <i class="fa fa-envelope-square icon1" aria-hidden="true"></i>
+                                        <div class="info-text" contenteditable="true" data-x-id="email">nguyentrantrungquan@gmai.com</div>
+                                    </div>
+                                    <div class="mrb-10 item2" data-x-rel="dob">
+                                        <i class="fa fa-calendar icon1" aria-hidden="true"></i>
+                                        <div class="info-text" contenteditable="true" data-x-id ="dob">30-3-1996</div>
+                                    </div>
+                                    <div class="mrb-10 item2" data-x-rel="tel">
+                                        <i class="fa fa-volume-control-phone icon1" aria-hidden="true"></i>
+                                        <div class="info-text" contenteditable="true" data-x-id="tel">(+84)824493587</div>
+                                    </div>                                   
+                                    <div class="mrb-10 item2" data-x-rel="add">
+                                        <i class="fa fa-globe icon1" aria-hidden="true"></i>
+                                        <div class="info-text" contenteditable="true" data-x-id ="add">Hồ Chí Minh</div>
+                                    </div>
+                                </div>    
+                            </div>
+
+                            <div data-x-name="group-item">
+                                <div data-x-name ="item" data-x-id="skill" class="mrb-30">
+                                    <h3 class="bd-title mrb-30" contenteditable="true" data-x-id="tit">kỹ năng</h3>
+                                    <div data-x-name="list-item">
+                                        <div class="mrb-10 sub-skills" data-x-name="sub-item">
+                                            <div class="title-skill" data-x-id="name" contenteditable="true">Làm việc nhóm</div>
+                                            <div class="cvo-skillrate-bar bar-skill">
+                                                <div data-x-id="val" value ="5" class="cvo-skillrate-value icon-skillrate-value dot"></div>
+                                           </div>             
+                                        </div>
+                                        <div class="mrb-10 sub-skills" data-x-name="sub-item">
+                                            <div class="title-skill" data-x-id="name" contenteditable="true">Giải quyết vấn đề</div>
+                                            <div class="cvo-skillrate-bar bar-skill">
+                                                <div data-x-id="val" value ="5" class="cvo-skillrate-value icon-skillrate-value dot"></div>
+                                           </div>             
+                                        </div>
+                                        <div class="mrb-10 sub-skills" data-x-name="sub-item">
+                                            <div class="title-skill" data-x-id="name" contenteditable="true">Quản lý chiến lược</div>
+                                            <div class="cvo-skillrate-bar bar-skill">
+                                                <div data-x-id="val" value ="5" class="cvo-skillrate-value icon-skillrate-value dot"></div>
+                                           </div>             
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="mrb-30" data-x-name="item" data-x-id="ref">
+                                    <h3 class="bd-title mrb-30" contenteditable="true" data-x-id="tit">người tham chiếu</h3>
+                                    <div data-x-name="list-item">
+                                         <div class="mrb-10" data-x-name="sub-item">
+                                            <div data-x-id="name" contenteditable="true">Anh Nguyễn Tiến Sang Chủ shop thời trang Men</div>
+                                         </div>   
+                                    </div>
+                                </div>
+                                <div class="mrb-30" data-x-name="item" data-x-id="cer">
+                                    <h3 class="bd-title mrb-30" contenteditable="true" data-x-id="tit">chứng chỉ</h3>
+                                    <div data-x-name="list-item">
+                                        <div class="mrb-10" data-x-name="sub-item">
+                                            <p class="two-title">
+                                                <span class="w-70" contenteditable="true" data-x-id="name">University of California at Los Angeles</span>
+                                                <span contenteditable="true" data-x-id="time">Aug 2008</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> 
+                                 <div class="mrb-30" data-x-name="item" data-x-id="award">
+                                    <h3 class="bd-title mrb-30" contenteditable="true" data-x-id="tit">giải thưởng</h3>
+                                    <div data-x-name="list-item">
+                                        <div class="mrb-10" data-x-name="sub-item">
+                                            <p class="two-title">
+                                                <span class="w-70" contenteditable="true" data-x-id="name">University of California at Los Angeles</span>
+                                                <span contenteditable="true" data-x-id="time">Aug 2008</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column-right">
+                    <div data-x-name="col-parrent" data-x-col="1">
+                        <div class="height-curent spacing-pd-r">
+                            <div data-x-name="group-item">
+                                <div  class="mrb-30" data-x-name="item" data-x-id="tar">
+                                    <div class="right-title" contenteditable="true" data-x-id="tit" data-x-name="head">Mục tiêu nghề nghiệp </div> 
+                                   
+                                        <div class="subdv" data-x-name="list-item">
+                                            <div class="" data-x-id="name" contenteditable="true">
+                                                <ul class="lst">
+                                                    <li class="lst-li">Mong muốn trở thành 1 KTS cảnh quan có năng lực và nhiệt huyết sáng tạo</li>
+                                                    <li class="lst-li">Yêu thích cảnh quan, muốn tạo ra những không gian mang lại giá trị cho cuộc sống</li>
+                                                    <li class="lst-li">Bộc lộ năng lực bản thân cũng như sự sáng tạo, đối mặt với thử thách trong nhưng dự án mới.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                </div>
+
+                                <div data-x-id="edu" data-x-name="item" class="mrb-30">
+                                    <div class="right-title" data-x-name="head" contenteditable="true" data-x-id="tit">học vấn</div> 
+
+                                    <div data-x-name="list-item">
+                                        <div class="item-inner" data-x-name="sub-item">
+                                            <div class="time-bl">
+                                                <span contenteditable="true" data-x-id="start">31/12/2010</span> - <span contenteditable="true" data-x-id="end">12/12/2015</span>
+                                            </div>
+                                            <div class="text-bl">
+                                                <p class="title-txt" contenteditable="true" data-x-id="name">ĐẠI HỌC KIẾN TRÚC THÀNH PHỐ HỒ CHÍ MINH</p>
+                                                <p>
+
+                                                    <span class="upper-txt fz-13"><label data-x-label="edu.cat">Chuyên ngành:</label></span> <i class="text-capi"><span class="dp-bl" contenteditable="true" data-x-id="cat">Quy Hoạch Đô Thị</span></i>
+                                                </p>
+                                                <div data-x-id="des" contenteditable="true">
+                                                    Thiết kế kiến trúc công trình: Nhà ở, nhà công giáo...
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mrb-30" data-x-id="exp" data-x-name="item">
+                                    <div class="right-title" data-x-name="head" contenteditable="true" data-x-id="tit">kinh nghiệm làm việc</div> 
+
+                                    <div data-x-name="list-item">
+                                        <div class="item-inner" data-x-name="sub-item">
+                                            <div class="time-bl">
+                                                <span contenteditable="true" data-x-id="start">7/2013</span> - <span contenteditable="true" data-x-id="end">1/2015</span>
+                                            </div>
+                                            <div class="exp-li text-bl">
+                                                <p class="title-txt" contenteditable="true" data-x-id="name">CÔNG TY THIẾT KẾ ĐẦU TƯ XÂY DỰNG GIA HÂN KIẾN TRÚC SƯ</p>
+                                                <p class ="upper-txt fwb fz-13" contenteditable="true" data-x-id="pos">kiến trúc sư</p>
+                                                <p class="fwb"><i>Mô tả</i></p>
+                                                <div data-x-id="des" contenteditable="true">
+                                                    <ul>
+                                                        <li>Thiết kế kiến trúc công trình: Nhà ở, nhà công giáo...</li>
+                                                        <li>Thiết kế kiến cảnh quan: Sân vườn, công viên</li>
+                                                        <li>Quy hoạch khu dân cư "Khu dân cư An Tây - Bình Dương"</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item-inner" data-x-name="sub-item">
+                                            <div class="time-bl">
+                                                <span contenteditable="true" data-x-id="start">7/2013</span> - <span contenteditable="true" data-x-id="end">1/2015</span>
+                                            </div>
+                                            <div class="exp-li text-bl">
+                                                <p class="title-txt" contenteditable="true" data-x-id="name">CÔNG TY THIẾT KẾ ĐẦU TƯ XÂY DỰNG GIA HÂN KIẾN TRÚC SƯ</p>
+                                                <p class ="upper-txt fwb"contenteditable="true" data-x-id="pos">kiến trúc sư</p>
+                                                <p class="fwb"><i>Mô tả</i></p>
+                                                <div data-x-id="des" contenteditable="true">
+                                                    <ul>
+                                                        <li>Thiết kế kiến trúc công trình: Nhà ở, nhà công giáo...</li>
+                                                        <li>Thiết kế kiến cảnh quan: Sân vườn, công viên</li>
+                                                        <li>Quy hoạch khu dân cư "Khu dân cư An Tây - Bình Dương"</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mrb-30" data-x-id="act" data-x-name="item">
+                                    <div class="right-title" data-x-name="head" contenteditable="true" data-x-id="tit">hoạt động</div> 
+
+                                    <div data-x-name="list-item">
+                                        <div class="item-inner" data-x-name="sub-item">
+                                            <div class="time-bl">
+                                                <span contenteditable="true" data-x-id="start">7/2013</span> - <span contenteditable="true" data-x-id="end">1/2015</span>
+                                            </div>
+                                            <div class="exp-li text-bl">
+                                                <p class="title-txt" contenteditable="true" data-x-id="name">CÔNG TY THIẾT KẾ ĐẦU TƯ XÂY DỰNG GIA HÂN KIẾN TRÚC SƯ</p>
+                                                <p class ="upper-txt fwb fz-13"contenteditable="true" data-x-id="pos">kiến trúc sư</p>
+                                                <div data-x-id="des" contenteditable="true">Thiết kế kiến trúc công trình: Nhà ở, nhà công giáo...</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="mrb-30" data-x-name="item" data-x-id="hob">
+                                    <div class="right-title" contenteditable="true" data-x-id="tit" data-x-name="head">sở thích</div> 
+                                    <div class="subdv" data-x-name="list-item">
+                                        <div data-x-name="sub-item">
+                                            <div class="hob-txt" contenteditable="true" data-x-id="name">Mong muốn trở thành 1 KTS cảnh quan có năng lực và nhiệt huyết sáng tạo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  <!-- e.o.height-curent -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div id = 'page' class="page" style="display: none">
+		<div class="wrap-col">
+			 <div class="column-left">
+			 	<div data-x-name="col-parrent" data-x-col="0">
+			 		<div class="height-curent spacing-pd-l"></div>
+			 	</div>
+                 <div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+			 </div>
+
+			 <div class="column-right">
+			 	<div data-x-name="col-parrent" data-x-col="1">
+			 		<div class="height-curent spacing-pd-r"></div>
+			 	</div
+			 </div>
+		</div>
+	</div>

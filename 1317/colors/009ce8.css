@@ -1,0 +1,34 @@
+#cv-document .page--background{background:linear-gradient(to bottom,#009ce8,#009ce8) no-repeat right bottom/1.3em 7em,#fff;color:#1d1d1b}
+#cv-document .page--background::after{border-right-color:#009ce8;background-color:#f3f9ff}
+#cv-document .heading::after{opacity:.2;background:linear-gradient(to right,#12a3ea,#164883)}
+#cv-document .cvo-skillrate>span{border-color:#009ce8;background-color:transparent}
+#cv-document .cvo-skillrate[value="1"]>span:nth-child(1){background-color:#009ce8}
+#cv-document .cvo-skillrate[value="2"]>span:nth-child(-n+2){background-color:#009ce8}
+#cv-document .cvo-skillrate[value="3"]>span:nth-child(-n+3){background-color:#009ce8}
+#cv-document .cvo-skillrate[value="4"]>span:nth-child(-n+4){background-color:#009ce8}
+#cv-document .cvo-skillrate[value="5"]>span{background-color:#009ce8}
+#cv-document .cvo-skillrate-radial::after{color:#292929}
+#cv-document .cvo-skillrate-radial>span::before{border-color:#009ce8;background-color:transparent}
+#cv-document .cvo-skillrate-radial[value="1"]>span:nth-child(-n+4)::before{background-color:#009ce8}
+#cv-document .cvo-skillrate-radial[value="2"]>span:nth-child(-n+8)::before{background-color:#009ce8}
+#cv-document .cvo-skillrate-radial[value="3"]>span:nth-child(-n+12)::before{background-color:#009ce8}
+#cv-document .cvo-skillrate-radial[value="4"]>span:nth-child(-n+16)::before{background-color:#009ce8}
+#cv-document .cvo-skillrate-radial[value="5"]>span::before{background-color:#009ce8}
+#cv-document .avatar::before{background-color:#009ce8}
+#cv-document .avatar__inner{background-color:#f3f9ff}
+#cv-document .info-main__title{color:#fff}
+#cv-document .info-main__title::before{background-color:#333}
+#cv-document .info-main__title::after{border-color:#141414 transparent transparent transparent}
+#cv-document .info-main__text{color:#fff}
+#cv-document .info-main__text::before{background-color:#009ce8}
+#cv-document .info-detail::after{background-color:#009ce8}
+#cv-document .info-detail__item-icon{color:#fff}
+#cv-document .project__item-head::before{border-color:#292929;background-color:#009ce8}
+#cv-document .project__item-table::after{border-color:#858485}
+#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-color:#858485}
+#cv-document .cletter{border-color:#009ce8;background-color:#f3f9ff}
+#cv-document .certification__item,#cv-document .skill-th__item{border-bottom-color:#bcbec0}
+#cv-document .certification__item::before,#cv-document .hobby__item::before,#cv-document .skill-ta__item::before{background-color:#009ce8}
+#cv-document .action__item-icon,#cv-document .education__item-icon,#cv-document .experience__item-icon{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10.17 11.76'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23009ce8;%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpath class='cls-1' d='M7.19,5.51v5.83a.41.41,0,0,1-.43.42H3.4A.41.41,0,0,1,3,11.3V5.51H.46C.16,5.5,0,5.31,0,5a.47.47,0,0,1,.14-.27L3.06,1.86,4.71.2a.45.45,0,0,1,.75,0Q7.73,2.48,10,4.75a.44.44,0,0,1,.14.48.44.44,0,0,1-.44.28H7.19Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") no-repeat center/contain}
+#cv-document .action__item-content::before,#cv-document .education__item-content::before,#cv-document .experience__item-content::before{border-color:#292929;background-color:#009ce8}
+#cv-document .action__item-content::after,#cv-document .education__item-content::after,#cv-document .experience__item-content::after{background-color:#292929}

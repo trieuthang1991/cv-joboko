@@ -1,0 +1,25 @@
+#about-me-name span:first-child, .title-head {
+    color: #3975a7 !important;
+}
+#about-me-name {
+    border-bottom: 2px solid #3975a7 !important;
+}
+.round {
+    border: 2px solid #3975a7 !important;
+}
+.field-bound {
+    border-bottom: 1px solid #3975a7 !important;
+}
+.field-bound:last-child {
+    border-bottom: none !important;
+}
+.tcolor  {
+    color: #914993 !important;
+}
+.progress-core {
+    background: #3975a7 !important;
+}
+
+.progress-core::after {
+    border-left: 10px solid #3975a7 !important;
+}

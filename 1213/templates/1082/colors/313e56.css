@@ -1,0 +1,41 @@
+.bg-banner {
+	background-color: #313e56;
+}
+.name-sub {
+	background-color: #313e56;
+}
+.column-left {
+	background-color: #e1e1e1;
+}
+.bd-title {
+	color: #313e56;
+	border: solid 1px #313e56;
+}
+.info-inner .fa {
+	color: #313e56;
+}
+.icon-skillrate-value.dot[value="5"] {
+	content: url(../images/icon-skillvalue-rate5.png);
+}
+.icon-skillrate-value.dot[value="4"] {
+	content: url(../images/icon-skillvalue-rate4.png);
+}
+.icon-skillrate-value.dot[value="3"] {
+	content: url(../images/icon-skillvalue-rate3.png);
+}
+.icon-skillrate-value.dot[value="2"] {
+	content: url(../images/icon-skillvalue-rate2.png);
+}
+.icon-skillrate-value.dot[value="1"] {
+	content: url(../images/icon-skillvalue-rate1.png);
+}
+.right-title {
+	color: #313e56;
+	border: solid 1px #313e56;
+}
+.title-txt {
+	color: #313e56;
+}
+.time-bl {
+	color: #313e56;
+}

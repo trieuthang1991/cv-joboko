@@ -1,0 +1,559 @@
+@font-face{
+	src: url(/MyCv/templates/1077/fonts/SVN-SegoePrint.ttf);
+	font-family: "Segoe Print";
+}
+body.page-preview, body.page-view, body.page-viewdemo {
+    background: url(/images3/bg-cv/4.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pageCV{
+	background: #fff;
+	max-width: 100%;
+	color: #19393e;
+}
+.col_top{
+	max-width: 100%;
+	width: 100%;
+}
+.col_top .h-curent {
+	padding: 30px 65px;
+	min-height: 180px;
+	position: relative;
+}
+.col_bottom {
+	max-width: 100%;
+	width: 100%;
+}
+.pageCV:nth-child(n+2) #cv-top{
+	display: none;
+}
+.col_top .info1_col_top{
+	min-height: 120px;
+	color: #fff;
+}
+.col_top .info1_col_top .namerel-info{
+	width: 100%;
+	max-width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	margin: auto 0;
+}
+.info1_col_top .name-info{
+	width: 60%;
+	max-width: 60%;
+	text-transform: uppercase;
+	font-size: 30px;
+	display: flex;
+    justify-content: flex-end;
+}
+.col_top .info1_col_top .icoweb {
+	width: 100%;
+	max-width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.col_top .info1_col_top .icoweb .icoweb_job{
+	width: 60%;
+	max-width: 60%;
+	font-size: 20px;
+	font-style: italic;
+	display: flex;
+	justify-content: flex-end;
+	text-transform: capitalize;
+}
+.col_top .h-curent> .info2_col_top{
+	position: absolute;
+    top: 60px;
+    left: 50px;
+    width: 240px;
+}
+.col_top .avatar .image_ava{
+	max-width: 240px;
+	width: 240px;
+	height: auto;
+	border-radius: 50%;
+}
+.cv-main{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+}
+.pageCV:nth-child(1) .col_left .h-curent {
+	padding-bottom: 20px;
+}
+.pageCV:nth-child(1) .col_right .h-curent {
+	padding-bottom: 20px;
+}
+.pageCV:nth-child(n+2) .col_left .h-curent {
+	padding: 50px 0 20px;
+}
+.pageCV:nth-child(n+2) .col_right .h-curent {
+	padding: 50px 0 20px;
+}
+.col_left{
+	width: 45%;
+	max-width: 45%;
+}
+.col_left .height-content{
+	padding: 150px 20px 20px;
+}
+.pageCV:nth-child(1)  .col_left .height-content{
+	min-height: 922px;
+}
+.pageCV:nth-child(n+2)  .col_left .height-content{
+	min-height: 1052px;
+	padding: 0 20px;
+}
+.col_right{
+	width: 55%;
+	max-width: 55%;
+	z-index: 1;
+	position: relative;
+}
+.col_right .height-content{
+	padding: 60px 20px 0 0;
+	border-left: 1px solid #ddd;
+}
+.pageCV:nth-child(1)  .col_right .height-content{
+	min-height: 922px;
+}
+.pageCV:nth-child(n+2)  .col_right .height-content{
+	min-height: 1052px;
+	padding: 0 20px 0 0;
+}
+.items_space{
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+.info1_col_bottom, .info2_col_bottom{
+	padding: 0 20px;
+	max-width: 100%;
+}
+.tit-item{
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 20px;
+	display: flex;
+	position: relative;
+}
+.col_left .tit-item{
+	justify-content: center;
+}
+.subinfo{
+	padding: 20px 0;
+}
+.icoweb{
+	display: flex;
+	justify-content: space-between;
+}
+.col_left .icoweb{
+	padding-bottom: 15px;
+}
+.info1_col_bottom .icoweb-left{
+	width: 50%;
+	max-width: 50%;
+	font-weight: 500;
+}
+.info1_col_bottom .icoweb-right{
+	width: 50%;
+	max-width: 50%;
+}
+.info2_col_bottom .icoweb-left{
+	max-width: 15%;
+	width: 22px;
+    height: 13px;
+	display: flex;
+    justify-content: center;
+	position: relative;
+}
+.info2_col_bottom .icoweb-left i{
+	color: #fff;
+	display: flex;
+    margin: auto;
+}
+.info2_col_bottom .icoweb-right{
+	width: 85%;
+	max-width: 85%;
+}
+.info2_col_bottom .icoweb-left:before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: 0;
+	width: 0;
+	height: 0;
+}
+.info2_col_bottom .icoweb-left .fa-specical {
+	font-size: 12px;
+}
+.info2_col_bottom .icoweb-left:after {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 0;
+	height: 0;
+}
+.itemMore .listItem{
+	padding-top: 20px;
+}
+.subItem-award{
+	display: flex;
+	margin-top: 10px;
+}
+.awardSub_left{
+	width: 5%;
+	font-size: 8px;
+	margin-top: 5px;
+}
+.awardSub_right{
+	max-width: 95%;
+	width: 95%;
+	display: flex;
+}
+.itemaward .listItem {
+	padding-top: 10px;
+}
+.itemRef .listItem {
+	padding-top: 10px;
+}
+.itemaward .subItem-award .item_Name {
+	width: 70%;
+	max-width: 70%;
+	padding-right: 10px;
+}
+.itemaward .subItem-award .item_Time{
+	width: 30%;
+	max-width: 30%;
+	text-align: end;
+}
+.col_right .items_space{
+	padding-left: 10px;
+}
+.ItemEdu .subItem{
+	display: flex;
+}
+.icon_tit {
+	display: flex;
+	position: relative;
+}
+.icon_tit > .icon_TitItem {
+	position: absolute;
+    top: 7px;
+    left: -16px;
+	font-size: 8px;
+    padding: 1px;
+    border-radius: 50%;
+    height: 12px;
+    max-width: 12px;
+}
+.icon_tit > .line_tit{
+	position: absolute;
+    height: 19px;
+    width: 50px;
+    left: -8px;
+    top: -6px;
+}
+.fa-BeforeTit{
+	margin-right: 10px;
+    margin-left: 63px;
+}
+.col_right .subItem{
+	margin-top: 20px;
+	display: flex;
+}
+.ItemEdu .EduSub_left{
+	max-width: 20%;
+    width: 20%;
+    margin-right: 20px;
+        line-height: 14px;
+}
+.EduSub_right{
+	flex-grow: 1;
+	max-width: 72%;
+	width: 72%;
+}
+.EduSub_right div:nth-child(n+1){
+	margin-bottom: 5px;
+}
+.EduSub_right div:last-child{
+	margin-bottom: 0;
+}
+.ItemExp .space_subTime {
+	margin: 0 5px;
+}
+.ItemEdu .space_subTime {
+	padding-left: 5px;
+}
+.nameSubRight, .posSubRight{
+	font-weight: 500;
+	font-size: 16px;
+}
+.ItemExp .listItem {
+	padding-left: 75px;
+}
+.ItemExp .EduSub_left {
+    width: 17px;
+    font-size: 8px;
+    color: #000;
+    margin-top: 6px;
+}
+.ItemExp .EduSub_right{
+	max-width: 95%;
+	width: 95%;
+}
+.ItemExp .listItem .EduSub_right .subTime {
+	display: flex;
+}
+.itemTar .listItem {
+	padding-top: 20px;
+}
+.itemMore .listItem {
+	padding-top: 20px;
+}
+.itemSkill .listItem {
+	padding-left: 95px;
+}
+.itemSkill .subItem{
+	display: flex;
+}
+.itemSkill .subItem .name_subSkill{
+	width: 30%;
+	max-width: 30%;
+	color: #000;
+}
+.skill_val{
+	border: 1px solid #ddd;
+	height: 10px;
+	width: 70%;
+	max-width: 70%;
+	margin-top: 5px;
+	border-radius: 5px;
+	margin-left: 5px;
+	padding: 2px;
+	display: flex;
+	position: relative;
+}
+.skillrate-value {
+	font-size: 10px;
+	margin-top: -3px;
+}
+.skill_val .skillrate-value:after{
+	margin-left: 3px;
+}
+.skill_val .skillrate-value[value ="1"] {
+	padding-left: 20%;
+}
+.skill_val .skillrate-value[value ="1"]:after{
+	content: "";
+    display: block;
+    position: absolute;
+    width: 20.5%;
+    top: 3px;
+    left: 0;
+}
+.skillrate-value[value ="2"] {
+	padding-left: 40%;
+}
+.skill_val .skillrate-value[value ="2"]:after{
+	content:"";
+    display: block;
+    position: absolute;
+    width: 40.5%;
+    top: 3px;
+    left: 0%;
+}
+.skill_val .skillrate-value[value ="3"] {
+	padding-left: 60%;
+}
+.skill_val .skillrate-value[value ="3"]:after{
+	content:"";
+    display: block;
+    position: absolute;
+    width: 60.5%;
+    top: 3px;
+    left: 0%;
+}
+.skillrate-value[value ="4"] {
+	padding-left: 80%;
+}
+.skill_val .skillrate-value[value ="4"]:after{
+	content:"";
+    display: block;
+    position: absolute;
+    width: 80.5%;
+    top: 3px;
+    left: 0%;
+}
+.skillrate-value[value ="5"] {
+	padding-left: 96%;
+}
+.skill_val .skillrate-value[value ="5"]:after{
+	content:"";
+    display: block;
+    position: absolute;
+    width: 96.5%;
+    top: 3px;
+    left: 0%;
+}
+.col_left .items_space:last-child{
+	margin-bottom: unset;
+}
+.col_right .items_space:last-child{
+	margin-bottom: unset;
+}
+.name_ref {
+	display: inline-block;
+	width: 100%;
+}
+.EduSub_left{
+	color: #1f5759;
+}
+.posSubRight{
+	color: #175b5c;
+}
+.desSubRight {
+	color: #19393e;
+}
+
+.page:last-child #cv-watermark{
+    display: block !important;
+    position: absolute;
+    bottom: 10px;
+	right: 10px;
+	font-family: 'roboto','serif';
+}
+
+#cv-watermark a:after{
+    content: "Joboko.com";
+}
+
+/*---------------------------RESPONSIVE--------------------------------*/
+
+@media screen and (max-width: 1024px) {
+
+}
+/* -------------TABLET PORTRAIT--------- */
+@media screen and (max-width: 780px) {
+	.info1_col_bottom {
+		padding-top: 120px;
+	}
+	.content_col_bottom{
+		display: block;
+		width: 100%;
+		max-width: 100%;
+	}
+	.col_left, .col_right {
+		width: 100%;
+		max-width: 100%;
+	}
+	.col_left .height-content {
+		padding: 40px 20px 20px;
+	}
+	.col_right .height-content {
+		padding: 20px 20px 40px;
+		border-left: unset;
+	}
+
+	.pageCV:nth-child(1)  .col_left .height-content{
+		min-height: unset;
+	}
+	.pageCV:nth-child(n+2)  .col_left .height-content{
+		min-height: unset;
+	}
+	.pageCV:nth-child(1)  .col_right .height-content{
+		min-height: unset;
+	}
+	.pageCV:nth-child(n+2)  .col_right .height-content{
+		min-height: unset;
+	}
+}
+/* -----------------MOBILE---------------- */
+@media screen and (max-width: 680px) {
+	.col_top .h-curent> .info2_col_top {
+		top: 145px;
+	}
+	.col_top .info1_col_top .namerel-info {
+		justify-content: center;
+	}
+	.col_top .info1_col_top .icoweb {
+		justify-content: center;
+	}
+	.info1_col_bottom {
+	    padding-top: 260px;
+	}
+	.col_top .info2_col_top{
+		position: relative;
+	    top: 20px;
+	    left: unset;
+	    display: flex;
+	    margin: auto;
+	    justify-content: center;
+	}
+	.info1_col_top .name-info{
+		justify-content: center;
+		max-width: 100%;
+		width: 100%;
+	}
+	.col_top .info1_col_top .icoweb .icoweb_job {
+		max-width: 100%;
+		width: 100%;
+		justify-content: center;
+	}
+	.col_right .items_space {
+	    padding-left: unset;
+	}
+	.line_tit{
+		width: 30px;
+	}
+	.fa-BeforeTit {
+	    left: 40px;
+	}
+	.EduSub_left{
+		display: block;
+	}
+	.EduSub_left {
+	    left: -71px;
+	    max-width: 60px;
+	}
+	.ItemExp .listItem {
+		padding-left: 15px;
+	}
+	.itemSkill .listItem {
+		padding-left: 15px;
+	}
+}
+/* -----------------SMALL MOBILE---------------- */
+@media screen and (max-width: 470px) {
+	.tit-item {
+		font-size: 18px;
+	}
+	
+}
+/* -----------------iphone 6/7/8 plus ---------------- */
+@media screen and (max-width: 414px) {
+	
+	
+}
+/* -----------------iphone 6/7/8/X ---------------- */
+@media screen and (max-width: 375px) {
+}
+/* -----------------SMALLER MOBILE---------------- */
+@media screen and (max-width: 360px) {	
+}
+.subItem-column{
+	margin-top: 20px;
+	/* padding-bottom: 10px; */
+}
+
+.subItem-column .skill_val{
+	margin-left: 0;
+}
+[contentEditable=true]:empty {
+    outline: 1pt dashed #fc4b08!important;
+}
+#cv-document .height-curent [data-x-name=group-item] {
+    padding-bottom: 30px;
+}

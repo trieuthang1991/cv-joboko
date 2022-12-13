@@ -7,21 +7,21 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .page:last-child #cv-watermark{position:absolute;right:1em;bottom:0}
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
-#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol {
+#cv-document [contenteditable] ul, #cv-document [contenteditable] ol {
     margin-left: 18px
 }
 
-#cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ol li {
     list-style: auto;
 }
 
-#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
     padding: 0;
 }
-#cv-document [contenteditable=true] ul li::marker {
+#cv-document [contenteditable] ul li::marker {
     color: #808285
 }
-#cv-document [contenteditable=true] ul li {
+#cv-document [contenteditable] ul li {
     list-style-type: disc
 }
 #cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more, #cv-document .cletter {

@@ -189,19 +189,19 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .certification__item::before{content:"";position:absolute;top:.8em;left:0;border-radius:50%;width:.6em;height:.6em}
 #cv-document .cletter{border-width:1px;border-style:dashed;border-radius:1em;padding:1.3em 1.9em 2em}
 /*#cv-document .cletter br{content:"";display:block;margin-top:1em}*/
-#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol {
+#cv-document [contenteditable] ul, #cv-document [contenteditable] ol {
     margin-left: 18px
 }
 
-    #cv-document [contenteditable=true] ol li {
+    #cv-document [contenteditable] ol li {
         list-style: auto;
     }
 
-    #cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    #cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
         padding: 0;
     }
 
-    #cv-document [contenteditable=true] ul li {
+    #cv-document [contenteditable] ul li {
         list-style-type: disc
     }
 

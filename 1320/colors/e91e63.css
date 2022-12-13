@@ -1,0 +1,12 @@
+#cv-top{
+	background: #e91e63;
+}
+
+#cv-content .head{
+    color: #e91e63;    
+}
+
+.head i.fa {
+	border: solid 1px #e91e63;
+	color: #e91e63;
+}

@@ -1,0 +1,7 @@
+#form-cv{
+	font-family: 'Arial',sans-serif;
+}
+#cv-document .h2,
+#cv-document .regular {
+	font-weight: 600 !important;
+}

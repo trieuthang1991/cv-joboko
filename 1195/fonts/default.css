@@ -1,0 +1,11 @@
+#form-cv{
+	font-family: 'Roboto',sans-serif;
+}
+
+#cv-document .light {
+	font-weight: 400 !important;
+}
+
+#cv-document .regular {
+	font-weight: 600 !important;
+}

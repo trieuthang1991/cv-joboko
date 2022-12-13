@@ -1,0 +1,43 @@
+#cv-document .page--background{background-color:#fff;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath fill='none' stroke='%23bfdfab' stroke-miterlimit='10' stroke-width='.25' stroke-dasharray='1 2 1 2' d='M0 0h14v14H0z'/%3E%3C/svg%3E");background-repeat:repeat;background-size:14px 14px;color:#1d1d1b}
+#cv-document .page:last-child .page__inner::before{background-color:#bfdfab}
+#cv-document .page:last-child .page__inner::after{background-color:#bfdfab}
+#cv-document .heading{color:#1d1e1b}
+#cv-document .heading--border-bottom{border-bottom-color:#bfdfab}
+#cv-document .full-width--top{border-bottom-color:#bfdfab}
+#cv-document .full-width--top::before{background-color:#bfdfab}
+#cv-document .full-width--top::after{background-color:#bfdfab}
+#cv-document .cvo-skillrate>span{background-color:#bfdfab}
+#cv-document .cvo-skillrate[value="1"]>span:nth-child(-n+2){background-color:#1f1f1e}
+#cv-document .cvo-skillrate[value="2"]>span:nth-child(-n+4){background-color:#1f1f1e}
+#cv-document .cvo-skillrate[value="3"]>span:nth-child(-n+6){background-color:#1f1f1e}
+#cv-document .cvo-skillrate[value="4"]>span:nth-child(-n+8){background-color:#1f1f1e}
+#cv-document .cvo-skillrate[value="5"]>span{background-color:#1f1f1e}
+#cv-document .cvo-skillrate-radial::before{background-color:#f6faef}
+#cv-document .cvo-skillrate-radial::after{color:#231f20}
+#cv-document .cvo-skillrate-radial[value="1"]{background:linear-gradient(18deg,transparent 50%,transparent 50%),linear-gradient(90deg,#bfdfab 50%,transparent 50%)}
+#cv-document .cvo-skillrate-radial[value="2"]{background:linear-gradient(-54deg,transparent 50%,transparent 50%),linear-gradient(90deg,#bfdfab 50%,transparent 50%)}
+#cv-document .cvo-skillrate-radial[value="3"]{background:linear-gradient(90deg,#bfdfab 50%,transparent 50%),linear-gradient(54deg,#bfdfab 50%,transparent 50%)}
+#cv-document .cvo-skillrate-radial[value="4"]{background:linear-gradient(90deg,#bfdfab 50%,transparent 50%),linear-gradient(-18deg,#bfdfab 50%,transparent 50%)}
+#cv-document .cvo-skillrate-radial[value="5"]{background:linear-gradient(90deg,#bfdfab 50%,transparent 50%),linear-gradient(-90deg,#bfdfab 50%,#bfdfab 50%)}
+#cv-document .cvo-skillrate-radial>span{border-color:#1f1f1e}
+#cv-document .cvo-skillrate-progress{border-color:#1d1e1b}
+#cv-document .cvo-skillrate-progress>span{background-color:#bfdfab}
+#cv-document .avatar{border-color:#292929}
+#cv-document .info-main{color:#292929}
+#cv-document .info-detail{color:#292929}
+#cv-document .info-detail__item-icon{background-color:#bfdfab;color:#1d1e1b}
+#cv-document .more{border-color:#292929;background-color:#bfdfab;color:#231f20}
+#cv-document .more::after{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 53.51 39.37'%3E%3Cg fill='%231d1e1b'%3E%3Cpath d='M14.45 20.68S14.24 28.26 2 36C-.29 37.47.7 39.37.7 39.37s10.78-.41 19.09-11S24.54 3.71 17.12 1C9-2 1.44 2 .2 9.71S3.8 21.3 6.35 22.13c2.33.76 6.46.59 8.1-1.45zM43.39 20.68S43.17 28.26 30.93 36c-2.29 1.48-1.29 3.38-1.29 3.38s10.77-.41 19.08-11S53.48 3.71 46.06 1c-8.17-3-15.68 1-16.92 8.71s3.6 11.59 6.14 12.42c2.34.76 6.47.59 8.11-1.45z'/%3E%3C/g%3E%3C/svg%3E")}
+#cv-document .education__item-content::before{background-color:#bfdfab}
+#cv-document .education__item-content::after{background-color:#d1d3d4}
+#cv-document .education__item-date{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100.79 45.13'%3E%3Cpath fill='%23bfdfab' stroke='%231d1e1b' stroke-miterlimit='10' d='M80.38 44.62H8.22A7.72 7.72 0 01.5 36.91V8.22A7.72 7.72 0 018.22.5h72.17a7.69 7.69 0 015.9 2.74l12.18 14.44a7.73 7.73 0 010 10L86.25 41.92a7.71 7.71 0 01-5.87 2.7z'/%3E%3C/svg%3E");color:#1f1f1e}
+#cv-document .education__item-content{color:#010101}
+#cv-document .experience__item-content::before{background-color:#bfdfab}
+#cv-document .experience__item-content::after{background-color:#d1d3d4}
+#cv-document .experience__item-date{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100.79 45.13'%3E%3Cpath fill='%23bfdfab' stroke='%231d1e1b' stroke-miterlimit='10' d='M80.38 44.62H8.22A7.72 7.72 0 01.5 36.91V8.22A7.72 7.72 0 018.22.5h72.17a7.69 7.69 0 015.9 2.74l12.18 14.44a7.73 7.73 0 010 10L86.25 41.92a7.71 7.71 0 01-5.87 2.7z'/%3E%3C/svg%3E");color:#fff}
+#cv-document .experience__item-content{color:#010101}
+#cv-document .hobby{border-color:#1f1f1e}
+#cv-document .xicon.book{background-position:0 -19.2em}
+#cv-document .xicon.music{background-position:-4.5em -19.2em}
+#cv-document .xicon.sport{background-position:-9.7em -19.2em}
+#cv-document .xicon.travel{background-position:-15.8em -19.2em}

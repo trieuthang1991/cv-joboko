@@ -1,0 +1,335 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1085/css/sacmauV2.css?v=54">
+<link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1085/font-sizes/font_normal.css?v=53">
+<link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1085/spacing/spacing_normal.css?v=50">
+<link rel="stylesheet" id="cv-font" href="/MyCv/templates/1085/fonts/default.css?v=51">
+<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1085/colors/a4dce4.css?v=50">
+
+
+<!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
+<div id="form-cv" data-x-name="parrent">
+	<!-- “page=1” và class=”page”   -->
+	<div page='1' class="page pagemax bgpage">
+		<div class="page-inner">
+			<div class="flexbox2">
+				<!--data-x-name="col-parrent" và  data-x-col="1” chú ý giá trị data-x-col phải khác nhau trên 1 page   -->
+				<div data-x-name="col-parrent" data-x-col="1" class="col1 col">
+					<!-- class=”height-curent” dùng để tính height -->
+					<div class="height-curent">
+						<!-- data-x-name="content" dùng để tính height trường hợp này không bắt buộc phải có -->
+						<div data-x-name="content">
+							<!-- data-x-name="item"  và data-x-id="info" thẻ bao nội dung thông tin của người tạo CV -->
+							<div class="ava-block" data-x-name="item" data-x-id="info">
+								<div class="ava">
+									<!-- data-x-id="ava" Thẻ chứa nội dung avatar -->
+									<img data-x-id="ava" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+									<img style="display:none" data-x-id="ava_vertical"
+										src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--data-x-name="col-parrent" và  data-x-col="2”   chú ý giá trị data-x-col phải khác nhau trên 1 page   -->
+				<div data-x-name="col-parrent" data-x-col="2" class="col2 col">
+					<!-- data-x-name="item"  và data-x-id="tar" thẻ bao nội dung mục tiêu nghề nghiệp-->
+					<div class="bxitem" data-x-name="item" data-x-id="tar" data-x-action="1">
+						<!--data-x-name="head" bao trùm -->
+						<p data-x-name="head" class="htitle4 htitaf"><span class="dp-inline" contenteditable="true"
+								data-x-id="tit">Mục tiêu nghề nghiệp</span></p>
+						<div class="bxinfo2" data-x-name="list-item">
+							<div class="subdv3 txt-content" contenteditable="true" data-x-id="name">
+								Đạt chứng nhận CPA Việt Nam và chứng chỉ Kế toán trưởng với hơn 10 năm kinh nghiệm trong
+								lĩnh vực kế toán và tài chính. Có kinh nghiệm trong kế toán, tính thuế và báo cáo cho
+								khách hàng và tổ chức kinh doanh. Có kinh nghiệm chuyên môn với nhiều chương trình phần
+								mềm kế toán phổ biến nhất (MISA, FAST). Đạo đức nghề nghiệp tốt, cam kết lưu giữ hồ sơ
+								chính xác và toàn vẹn. Mong muốn tham gia nhóm các kế toán viên và giúp cải thiện tài
+								chính của tổ chức.
+							</div>
+						</div>
+					</div>
+					<!-- data-x-name="content" dùng để tính height trường hợp này không bắt buộc phải có -->
+					<div class="height-curent">
+						<div data-x-name="content" class="height_content">
+							<span class="spempty"></span>
+							<div class="bxitem2" data-x-name="item" data-x-id="info">
+								<ul class="lstinfo">
+									<li data-x-rel="dob"><span class="birthd"></span><span class="dp-inline txt-content"
+											contenteditable="true" data-x-id="dob">20/08/1994</span>
+									</li>
+									<li data-x-rel="tel"><span class="telc"></span><span class="dp-inline txt-content"
+											contenteditable="true" data-x-id="tel">0978345099</span></li>
+									<li data-x-rel="email"><span class="emailc"></span><span class="dp-inline txt-content"
+											contenteditable="true" data-x-id="email">ttrang@gmail.com</span></li>
+									<li data-x-rel="add"><span class="addrc"></span><span class="dp-inline txt-content"
+											contenteditable="true" data-x-id="add">Số 96 Nguyễn Khánh Toàn, phường Quan
+											Hoa, Quận Cầu Giấy, Hà Nội</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+				</div>
+			</div>
+
+			<div class="flexbox3">
+				<div class="col11 col"></div>
+				<div class="col22 col" data-x-name="item" data-x-id="info">
+					<p class="txt7 txt-name" contenteditable="true" data-x-id="name">Trần Nguyễn Thảo Trang</p>
+					<p class="txt8 txt-job" contenteditable="true" data-x-id="job">Nhân viên kinh doanh</p>
+				</div>
+				<div class="col33 col" data-x-name="item" data-x-id="info">
+					<i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+					<div class="mgl-10 col33-txt txt-content" contenteditable="true" data-x-id="web">thutrang.com</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<div class="flexbox">
+			<!--data-x-name="col-parrent"  và  data-x-col="3" chú ý giá trị data-x-col phải khác nhau trên 1 page   -->
+			<div data-x-name="col-parrent" style='min-height:795px' data-x-col="3" class="col1 col">
+				<!-- class=”height-curent” dùng để tính height -->
+				<div class="height-curent">
+					<div data-x-name="group-item">
+
+						<div class="bxitem pd" data-x-name="item" data-x-id="skill">
+							<p class="htitle" data-x-name="head"><span class="dp-inline" contenteditable="true"
+									data-x-id="tit">Kỹ năng</span></p>
+							<div class="bxinfo" data-x-name="list-item">
+								<div class="subdv" data-x-name="sub-item">
+									<div class="txtline txt-content" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+									<div class="cvo-skillrate-bar">
+										<div data-x-id="val" value="3"
+											class="cvo-skillrate-value icon-skillrate-value dot"></div>
+									</div>
+								</div><!-- end subdv -->
+							</div>
+						</div><!-- end bxitem -->
+
+						<div class="bxitem pd" data-x-name="item" data-x-id="skill_th">
+							<p class="htitle" data-x-name="head"><span class="dp-inline" contenteditable="true"
+									data-x-id="tit">Kỹ năng</span></p>
+							<div class="bxinfo" data-x-name="list-item">
+								<div class="subdv" data-x-name="sub-item">
+									<div class="txtline txt-content" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+									<div class="cvo-skillrate-bar">
+										<div data-x-id="val" value="3"
+											class="cvo-skillrate-value icon-skillrate-value dot"></div>
+									</div>
+								</div><!-- end subdv -->
+							</div>
+						</div><!-- end bxitem -->
+
+						<div class="bxitem" data-x-name="item" data-x-id="skill_ta">
+							<p class="htitle3" data-x-name="head"><span class="dp-inline" contenteditable="true"
+									data-x-id="tit">Ngôn ngữ</span></p>
+							<div class="bxinfo">
+								<div class="list-skill-ta" data-x-name="list-item">
+									<div class="txtline5" data-x-name="sub-item">
+										<div class="skill-subrate">
+											<div class="txt3 txt-content" data-x-id="name" contenteditable="true">English</div>
+											<div class="cvo-skillrate-bar radialProgressBar">
+												<div class="cvo-skillrate-value overlay" data-x-id="val" value="1">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="bxitem" data-x-id="award" data-x-name="item">
+							<p class="htitle2" data-x-name="head"><span class="dp-inline" data-x-id="tit"
+									contenteditable="true">Giải thưởng</span></p>
+							<div class="bxinfo3" data-x-name="list-item">
+								<div class="subdv2" data-x-name="sub-item">
+									<div class="subcont">
+										<div class="txt5 txt-content" contenteditable="true" data-x-id="name">TOEIC</div>
+									</div>
+									<p class="mart"><span contenteditable="true" data-x-id="time"> 12/2012 </span></p>
+								</div>
+							</div>
+						</div>
+						<div class="bxitem" data-x-id="cer" data-x-name="item">
+							<p class="htitle11" data-x-name="head"><span class="dp-inline" data-x-id="tit"
+									contenteditable="true">Chứng chỉ</span></p>
+							<div class="bxinfo3" data-x-name="list-item">
+								<div class="subdv2" data-x-name="sub-item">
+									<div class="subcont">
+										<div class="txt5" contenteditable="true" data-x-id="name">TOEIC</div>
+									</div>
+									<p class="mart"><span contenteditable="true" data-x-id="time"> 12/2012 </span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--data-x-name="col-parrent" và  data-x-col="4” chú ý giá trị data-x-col phải khác nhau trên 1 page   -->
+			<div data-x-name="col-parrent" data-x-col="4" class="col2 col">
+				<!-- class=”height-curent” dùng để tính height -->
+				<div class="height-curent">
+					<div data-x-name="group-item">
+						<span class="spempty"></span>
+						<div class="bxitem" data-x-name="item" data-x-id="exp">
+							<p class="htitle4 htitaf" data-x-name="head"><span class="dp-inline" contenteditable="true"
+									data-x-id="tit">Kinh nghiệm làm việc</span></p>
+							<div class="bxinfo2" data-x-name="list-item">
+								<div class="subdv3" data-x-name="sub-item">
+									<div class="bxst">
+										<div class="bxstl">
+											<div class="txthead2 txt1" contenteditable="true" data-x-id="name">Front-End
+												Developer</div>
+											<div class="txti txt4" contenteditable="true" data-x-id="pos">VietCV 2</div>
+										</div>
+										<div class="bxstr"><span class="dp-inline" contenteditable="true"
+												data-x-id="start">10/2016</span> - <span class="dp-inline"
+												contenteditable="true" data-x-id="end">03/2018</span></div>
+									</div>
+									<div data-x-id="des" class="txt-content" contenteditable="true" >
+									
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="bxitem" data-x-name="item" data-x-id="edu">
+							<p class="htitle5 htitaf" data-x-name="head"><span class="dp-inline" data-x-id="tit"
+									contenteditable="true">Học vấn</span></p>
+							<div class="bxinfo2" data-x-name="list-item">
+								<div class="subdv3" data-x-name="sub-item">
+									<div class="bxst">
+										<div class="bxstl">
+											<div class="txthead2 txt1" data-x-id="name" contenteditable="true">BA và Thiết kế
+												đồ hoạ</div>
+											<div class="txti txt4" data-x-id="cat" contenteditable="true">Đại học VietCV 2</div>
+										</div>
+										<div class="bxstr"><span class="dp-inline" data-x-id="start"
+												contenteditable="true">10/2016</span> - <span class="dp-inline"
+												data-x-id="end" contenteditable="true">03/2018</span></div>
+									</div>
+									<div data-x-id="des" class="txt-content" contenteditable="true">
+									
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="bxitem" data-x-name="item" data-x-id="act">
+							<p class="htitle9 htitaf" data-x-name="head"><span class="dp-inline" data-x-id="tit"
+									contenteditable="true">Hoạt động</span></p>
+							<div class="bxinfo2" data-x-name="list-item">
+								<div class="subdv3" data-x-name="sub-item">
+									<div class="bxst">
+										<div class="bxstl">
+											<div class="txthead2 txt1" data-x-id="name" contenteditable="true">BA và Thiết kế
+												đồ hoạ</div>
+											<div class="txti txt4" data-x-id="pos" contenteditable="true">Đại học VietCV 2</div>
+										</div>
+										<div class="bxstr"><span class="dp-inline" data-x-id="start"
+												contenteditable="true">10/2016</span> - <span class="dp-inline"
+												data-x-id="end" contenteditable="true">03/2018</span></div>
+									</div>
+									<div data-x-id="des" class="txt-content" contenteditable="true">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="bxitem" data-x-name="item" data-x-id="ref">
+							<p class="htitle10 htitaf" data-x-name="head"><span class="dp-inline" data-x-id="tit"
+									contenteditable="true">người tham chiếu</span></p>
+							<div class="bxinfo2" data-x-name="list-item">
+								<div class="subdv3" data-x-name="sub-item">
+									<div class="bxst">
+										<div class="bxst2">
+											<div data-x-id="name" class="txt-content" contenteditable="true">BA và Thiết kế đồ hoạ</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bxitem" data-x-name="item" data-x-id="hob">
+							<p class="htitle8 htitaf" data-x-name="head"><span class="dp-inline" data-x-id="tit"
+									contenteditable="true">sở thích</span></p>
+							<div class="bxinfo2" data-x-name="list-item">
+								<div class="subdv3" data-x-name="sub-item">
+									<div class="bxst">
+										<div class="bxst2">
+											<div data-x-id="name"  class="txt-content" contenteditable="true">BA và Thiết kế đồ hoạ</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bxitem" data-x-name="item" data-x-id="more">
+							<p class="htitle8 htitaf" data-x-name="head"><span class="dp-inline" data-x-id="tit"
+									contenteditable="true">Thông tin khác</span></p>
+							<div class="bxinfo2">
+								<div class="subdv3">
+									<div class="bxst">
+										<div class="bxst2">
+											<div data-x-id="name"  class="txt-content" contenteditable="true">BA và Thiết kế đồ hoạ</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bxitem" data-x-name="item" data-x-id="pro">
+							<p class="htitle6 htitaf" data-x-name="head"><span class="dp-inline" data-x-id="tit"
+									contenteditable="true">Dự án</span></p>
+							<div class="bxinfo2" data-x-name="list-item">
+								<div class="subdv3" data-x-name="sub-item">
+									<div class="bxst">
+										<div class="bxstl">
+											<div class="txthead2 txt-content" data-x-id="name" contenteditable="true">Tên dự án</div>
+											<div class=" txt-content" data-x-id="pos" contenteditable="true">Đại học VietCV 2</div>
+										</div>
+										<div class="bxstr"><span class="dp-inline" data-x-id="start"
+												contenteditable="true">10/2016</span> - <span class="dp-inline"
+												data-x-id="end" contenteditable="true">03/2018</span></div>
+									</div>
+									<div>
+										<div class="inline txt-content" data-x-label="pro.cus">Khách hàng</div>: <div
+											data-x-id="cus" class="inline txt-content" contenteditable="true">X-media</div>
+									</div>
+									<div>
+										<div data-x-label="pro.mem" class="inline txt-content">Thành viên</div>: <div
+											data-x-id="mem" contenteditable="true" class="inline txt-content">X-media</div>
+									</div>
+
+									<div><div data-x-label="pro.tech" class="inline txt-content">Công nghệ</div>: <div
+											data-x-id="tech" class="inline txt-content" contenteditable="true">X-media</div>
+									</div>
+									<div>
+										<div class="inline" data-x-label="pro.des">Mô tả</div>: <div
+											data-x-id="des" class="inline txt-content" contenteditable="true">X-media</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- id="page" và class="page"  đây là 1 khối HTML có cấu trúc tương tự khối page='1'  -->
+<div id='page' class="page" style="display: none">
+	<div class="flexbox">
+		<!--data-x-name="col-parrent" và  data-x-col="3" để cột data-x-col="3" phía trên khi quá dài sẽ thêm dữ liệu vào đây    -->
+		<div data-x-name="col-parrent" data-x-col="3" class="col1 col">
+			<div class="height-curent"></div>
+
+		</div>
+		<!--data-x-name="col-parrent" và  data-x-col="4" để cột data-x-col="4" phía trên khi quá dài sẽ thêm dữ liệu vào đây   -->
+		<div data-x-name="col-parrent" data-x-col="4" class="col2 col">
+			<div class="height-curent"></div>
+			<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+		</div>
+	</div>
+</div>

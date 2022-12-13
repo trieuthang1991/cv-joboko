@@ -1,0 +1,43 @@
+#cv-document .page--background{background-color:#fff;color:#333}
+#cv-document .page--background::after{border-color:#383988;background-color:#f3f3ff}
+#cv-document .heading{color:#383988}
+#cv-document .heading::before{background-color:#00cb78}
+#cv-document .heading::after{background-color:#383988}
+#cv-document .cvo-skillrate>span{background-color:#292929}
+#cv-document .cvo-skillrate[value="1"]>span:nth-child(-n+2){background-color:#00cb78}
+#cv-document .cvo-skillrate[value="2"]>span:nth-child(-n+4){background-color:#00cb78}
+#cv-document .cvo-skillrate[value="3"]>span:nth-child(-n+6){background-color:#00cb78}
+#cv-document .cvo-skillrate[value="4"]>span:nth-child(-n+8){background-color:#00cb78}
+#cv-document .cvo-skillrate[value="5"]>span{background-color:#00cb78}
+#cv-document .cvo-skillrate-radial::before{border-color:#f3f3ff}
+@media screen and (max-width:767px){
+#cv-document .cvo-skillrate-radial::before{border-color:#fff}
+}
+#cv-document .cvo-skillrate-radial::after{background-color:#383988}
+#cv-document .cvo-skillrate-radial>span::before{background:linear-gradient(to right,#00cb78,#383988)}
+#cv-document .cvo-skillrate-radial>span::after{color:#fff}
+#cv-document .cvo-skillrate-radial[value="1"]>span{background:linear-gradient(18deg,#f3f3ff 50%,transparent 50%),linear-gradient(90deg,#383988 50%,#f3f3ff 50%)}
+#cv-document .cvo-skillrate-radial[value="2"]>span{background:linear-gradient(-54deg,#f3f3ff 50%,transparent 50%),linear-gradient(90deg,#383988 50%,#f3f3ff 50%)}
+#cv-document .cvo-skillrate-radial[value="3"]>span{background:linear-gradient(90deg,#383988 50%,transparent 50%),linear-gradient(54deg,#383988 50%,#f3f3ff 50%)}
+#cv-document .cvo-skillrate-radial[value="4"]>span{background:linear-gradient(90deg,#383988 50%,transparent 50%),linear-gradient(-18deg,#383988 50%,#f3f3ff 50%)}
+#cv-document .cvo-skillrate-radial[value="5"]>span{background:linear-gradient(90deg,#383988 50%,transparent 50%),linear-gradient(-90deg,#383988 50%,#383988 50%)}
+#cv-document .cvo-skillrate-progress>span{border-color:#3b3987}
+#cv-document .cvo-skillrate-progress>span::before{background:linear-gradient(to right,#00cb78,#383988)}
+#cv-document .avatar__image{background:linear-gradient(to right,#00cb78,#383988)}
+#cv-document .avatar__wrapper{background:linear-gradient(to right,#00cb78,#383988)}
+#cv-document .avatar__wrapper::after{background-color:#fff}
+#cv-document .avatar__inner{background:linear-gradient(to right,#00cb78,#383988)}
+#cv-document .avatar__inner::after{background-color:#f3f3ff}
+#cv-document .info-main__title{color:#383988}
+#cv-document .info-detail::before{background:linear-gradient(to top,#00cb78,#383988)}
+#cv-document .info-detail__item-icon{color:#fff}
+#cv-document .common-item{border-left-color:#383988}
+#cv-document .common-item::before{background:linear-gradient(to right,#00cb78,#383988)}
+#cv-document .common-item__date{color:#383988}
+#cv-document .common-item__icon::before{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10.17 11.77'%3E%3Cpath fill='%23383988' d='M3 6.26V.42A.41.41 0 0 1 3.41 0h3.36c.27 0 .42.18.42.47v5.78h2.52c.3 0 .5.2.45.47A.5.5 0 0 1 10 7L7.11 9.91l-1.65 1.65a.45.45 0 0 1-.75 0L.16 7A.46.46 0 0 1 0 6.53a.43.43 0 0 1 .44-.27H3Z'/%3E%3C/svg%3E") no-repeat}
+#cv-document .target{border-color:#00cb78}
+#cv-document .certification__item::before,#cv-document .hobby__item::before{background-color:#00cb78}
+#cv-document .cletter{border-color:#383988}
+#cv-document .project__item-title::after{background-color:#bcbec0}
+#cv-document .project__item-table::after{border-color:#858485}
+#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-color:#858485}

@@ -133,7 +133,7 @@
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
                       <div class="p regular bullet" data-x-bullet="-" contenteditable="true" data-x-id="name">Thuyết trình đàm phán</div>
-                      <div class="p light bullet" data-x-bullet="-" contenteditable="true" data-x-id="name">Thuyết trình đàm phán</div>
+                      <div class="p light bullet" data-x-bullet="-" contenteditable="true" data-x-id="des">Thuyết trình đàm phán</div>
                     </div>
                     <div class="skill__item-content hidden">
                       <div class="cvo-skillrate-bar">

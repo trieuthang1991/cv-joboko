@@ -1,12 +1,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1182/font-sizes/font_normal.css?v=1661073847754">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1182/spacing/spacing_normal.css?v=1661073847754">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1182/fonts/default.css?v=1661073847754">
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1182/colors/1c75bc.css?v=1661073847754">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1182/css/styles.css?v=1661073847754">
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1182&color=1c75bc&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221209">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
@@ -36,6 +38,12 @@
             </div>
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
+				<div class="info-detail__item" data-x-rel="dob">
+                  <div class="p regular inline-block" contenteditable="true" data-x-id="dob">30/02/1998</div>
+                  <div class="info-detail__item-icon">
+                    <i class="p fa fa-birthday-cake"></i>
+                  </div>
+                </div>
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="p regular inline-block" contenteditable="true" data-x-id="tel">0123456789</div>
                   <div class="info-detail__item-icon">
@@ -60,8 +68,7 @@
                     <i class="p fa fa-map-marker"></i>
                   </div>
                 </div>
-  <span style="display:none"  contenteditable="true" data-x-id="dob"></span>
-<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+				<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
               </div>
             </div>
           </div>
@@ -276,9 +283,10 @@
                 <div class="skill content" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
-                      <div class="p regular bullet" data-x-bullet="-" contenteditable="true" data-x-id="name">Giao tiếp</div>
+                      <div class="p regular bullet bold" data-x-bullet="-" contenteditable="true" data-x-id="name">Giao tiếp</div>
+                        <div class="p  bullet" data-x-bullet="-" contenteditable="true" data-x-id="des">Giao tiếp</div>
                     </div>
-                    <div class="skill__item-content">
+                    <div class="skill__item-content hidden">
                       <div class="cvo-skillrate-bar">
                         <div class="cvo-skillrate-progress cvo-skillrate-value" data-x-id="val" value="3">
                           <span></span>

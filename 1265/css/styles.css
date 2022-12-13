@@ -13,13 +13,28 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .no-outline{outline:0}
 #cv-document .no-outline:hover{box-shadow:none;outline:0}
 #cv-document .content{border-left-width:1px;border-left-style:solid;padding:.7em 0 1.1em 3em}
-#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
+/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
 #cv-document .bullet-dot{position:relative;padding-left:17px}
 #cv-document .bullet-dot::before{content:"";position:absolute;top:8px;left:0;display:inline-block;margin-right:0;border-radius:50%;width:6px;height:6px}
 #cv-document .bullet-dot br{content:"";position:relative;display:block}
 #cv-document .bullet-dot br::before{content:"";position:absolute;top:8px;left:-17px;display:inline-block;margin-right:0;border-radius:50%;width:6px;height:6px}
 @media screen and (max-width:767px){
 #cv-document .bullet-dot br::before{left:-20px}
+}*/
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: circle
+}
+#cv-document .bullet-dot[contenteditable=true] ul li::marker {
+    font-size:18px;
 }
 #cv-document .page__inner{padding:4.8em 5.8em 0 5.2em}
 @media screen and (max-width:767px){
@@ -104,7 +119,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .education__item-wrap{justify-content:space-between;align-items:flex-start;display:flex;margin-bottom:1.4em;border-bottom-width:1px;border-bottom-style:dotted;padding-bottom:.6em}
 #cv-document .education__item-title{margin-bottom:.4em}
 #cv-document .education__item-date{position:relative;flex-shrink:0;margin-left:1em}
-#cv-document .education__item-text br{content:"";display:block;margin-top:.4285714286em}
+/*#cv-document .education__item-text br{content:"";display:block;margin-top:.4285714286em}*/
 #cv-document .experience{padding-top:1.4em}
 #cv-document .experience__item{position:relative;padding-bottom:2.4em;padding-left:3.9em}
 #cv-document .experience__item::before{content:"";position:absolute;top:.4em;left:.9em;border-width:2px;border-style:solid;border-radius:50%;width:1.2em;height:1.2em}
@@ -113,7 +128,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .experience__item-wrap{justify-content:space-between;align-items:flex-start;display:flex;margin-bottom:1.4em;border-bottom-width:1px;border-bottom-style:dotted;padding-bottom:.6em}
 #cv-document .experience__item-title{margin-bottom:.1em}
 #cv-document .experience__item-date{position:relative;flex-shrink:0;margin-left:1em}
-#cv-document .experience__item-text br{content:"";display:block;margin-top:.4285714286em}
+/*#cv-document .experience__item-text br{content:"";display:block;margin-top:.4285714286em}*/
 #cv-document .hobby{padding-top:.4em}
 #cv-document .hobby__item{position:relative;margin-bottom:.5em;padding-left:3.5em}
 #cv-document .hobby__item::before{content:"";position:absolute;top:.35em;left:1em;border-width:2px;border-style:solid;border-radius:50%;width:1.2em;height:1.2em}
@@ -122,7 +137,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .references__item{margin-bottom:1.5em}
 #cv-document .references__item:last-child{margin-bottom:0}
 #cv-document .target>*{line-height:1.57}
-#cv-document .target br{content:"";display:block;margin-top:.4285714286em}
+/*#cv-document .target br{content:"";display:block;margin-top:.4285714286em}*/
 #cv-document .project{padding-top:.5em}
 #cv-document .project__item{margin-bottom:2em}
 #cv-document .project__item:last-child{margin-bottom:0}
@@ -144,7 +159,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 .award__item:last-child{margin-bottom:0}
 #cv-document .cletter{border-width:1px;border-style:dotted;padding:1.5em 2em}
 #cv-document .cletter>div{line-height:1.57}
-#cv-document .cletter br{content:"";display:block;margin-top:.5714285714em}
+/*#cv-document .cletter br{content:"";display:block;margin-top:.5714285714em}*/
 #cv-document [contentEditable] *{font-size:1em!important}
 [contenteditable]:focus{outline:1pt dashed #77a5cc!important;cursor:text}
 [contentEditable=true]:empty{outline:1pt dashed #fc4b08!important}

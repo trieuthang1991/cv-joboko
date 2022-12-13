@@ -1,12 +1,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!--
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1260/font-sizes/font_normal.css?v=1664110957229">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1260/spacing/spacing_normal.css?v=1664110957229">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1260/fonts/default.css?v=1664110957229">
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1260/colors/000000.css?v=1664110957229">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1260/css/styles.css?v=1664110957229">
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1260&color=000000&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221209">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
@@ -41,13 +43,11 @@
         <div data-x-name="col-parrent" data-x-col="3" class="two-up__left">
           <div class="height-curent">
             <div class="avatar" data-x-name="item" data-x-id="info">
-              <img data-x-id="ava" src="https://i-vn0.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
-  <img style="display:none" data-x-id="ava_vertical" src="https://i-vn0.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
+              <img data-x-id="ava" src="https://i-vn0.joboko.com/upload/images/avatars/no_avatar.jpg" alt="" />
+  <img style="display:none" data-x-id="ava_vertical" src="https://i-vn0.joboko.com/upload/images/avatars/no_avatar.jpg" alt="" />
             </div>
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
-<div data-x-id="dob" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
-<div data-x-id="gen" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
                     <i class="icon-phone"></i>
@@ -70,6 +70,22 @@
                   </div>
                   <div class="info-detail__item-title">
                     <div class="p light inline-block" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com</div>
+                  </div>
+                </div>
+				<div class="info-detail__item hide" data-x-rel="dob">
+                  <div class="info-detail__item-icon">
+                    <i class="icon-birthday-cake"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="p light inline-block" contenteditable="true" data-x-id="dob">30/02/1998</div>
+                  </div>
+                </div>
+				<div class="info-detail__item hide" data-x-rel="gen">
+                  <div class="info-detail__item-icon">
+                    <i class="icon-male"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="p light inline-block" contenteditable="true" data-x-id="gen">Nam</div>
                   </div>
                 </div>
                 <div class="info-detail__item" data-x-rel="add">
@@ -319,8 +335,8 @@
                 <div class="skill" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
-                      <div class="p bold inline-block" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
-                      <div class="inline-block">:</div>
+                      <div class="p bold inline-block haicham" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+                  
                       <div class="p light inline-block" contenteditable="true" data-x-id="des">Tốt</div>
                     </div>
                   </div>

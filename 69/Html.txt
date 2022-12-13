@@ -1,9 +1,12 @@
+<!--
 <link rel="stylesheet" id="cv-css" href="https://i-vn2.joboko.com/MyCv/templates/69/css/simple-pro.css?v=3.7">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap">
 <link rel="stylesheet" id="cv-font-size-css" href="https://i-vn2.joboko.com/MyCv/templates/69/font-sizes/font_normal.css?v=3.6">
 <link rel="stylesheet" id="cv-font" href="https://i-vn2.joboko.com/MyCv/templates/69/fonts/default.css">
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn2.joboko.com/MyCv/templates/69/colors/454545.css">
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/69/spacing/spacing_normal.css?v=121" />
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=69&color=454545&font=default&size=font_normal&spacing=spacing_normal&more=simple-pro&v=221209">
 <div id="form-cv" data-x-name="parrent">
 	<div page='1' class="page page_cv" fix='true'>
 		<div data-x-name="col-parrent" data-x-col="1" class="col_left">
@@ -21,14 +24,6 @@
 							<h2 data-x-id="tit" contenteditable="true" class="ml_ttl_inner">THÔNG TIN</h2>
 						</div>
 						<div class="sub-info">
-							<div class="icoweb icoweb-text" data-x-rel="dob">
-								<p class="label-icoweb txt-content" data-x-label="info.dob">Ngày sinh:</p>
-								<p data-x-id="dob" class="txt-content" contenteditable="true"> 01/10/1995</p>
-							</div>
-							<div class="icoweb icoweb-text" data-x-rel="gen">
-								<p class="label-icoweb txt-content" data-x-label="info.gen">Giới tính:</p>
-								<p data-x-id="gen" class="txt-content" contenteditable="true"> Nữ</p>
-							</div>
 							<div class="icoweb" data-x-rel="email">
 								<div class="info-icon">
 									<i class="fa fa-envelope-o" aria-hidden="true"></i>
@@ -42,7 +37,18 @@
 								</div>
 								<p data-x-id="tel" class="txt-content" contenteditable="true">0123 372 8869</p>
 							</div>
-
+							<div class="icoweb" data-x-rel="dob">
+								<div class="info-icon">
+									<i class="fa fa-birthday-cake" aria-hidden="true"></i>
+								</div>
+								<p data-x-id="dob" class="txt-content" contenteditable="true">30/02/1998</p>
+							</div>
+							<div class="icoweb" data-x-rel="gen">
+								<div class="info-icon">
+									<i class="fa fa-male" aria-hidden="true"></i>
+								</div>
+								<p data-x-id="tel" class="txt-content" contenteditable="true">Nam</p>
+							</div>
 							<div class="icoweb" data-x-rel="web">
 								<div class="info-icon">
 									<i class="fa fa-facebook" aria-hidden="true"></i>
@@ -88,11 +94,14 @@
 								<h2 data-x-id="tit" contenteditable="true" class="ml_ttl_inner">kỹ năng</h2>
 							</div>
 							<div data-x-name="list-item">
-								<div data-x-name="sub-item" class="sub-item">
-									<div class="name-sub-skill txt-content" data-x-id="name" contenteditable="true">
+								<div data-x-name="sub-item" class="sub-item" style='flex-wrap: wrap;'>
+									<div class=" bold txt-content" data-x-id="name" contenteditable="true">
 										Microsoft power
 										point</div>
-									<div class="cvo-skillrate-bar skillrate-bar">
+										<div class=" txt-content" data-x-id="des" contenteditable="true">
+										Microsoft power
+										point</div>
+									<div class="cvo-skillrate-bar skillrate-bar hidden">
 										<div data-x-id="val" value="5"
 											class="cvo-skillrate-value icon-skillrate-value dot"></div>
 									</div>

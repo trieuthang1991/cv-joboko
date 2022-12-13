@@ -2,3 +2,10 @@
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+#cv-document .regular {
+	font-weight: 700 !important;
+}
+
+#cv-document .medium {
+	font-weight: 700 !important;
+}

@@ -225,3 +225,21 @@ span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
     span.box-content, .cv-box-content{width:100%;margin-left:2px}
     .box-name{padding:10px}
 }
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+#cv-document [contenteditable=true] ul li::marker {
+    color:#b1b1b1
+}
+.bold{
+	font-weight: bold;
+}

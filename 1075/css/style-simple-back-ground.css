@@ -295,83 +295,6 @@ body.page-preview, body.page-view, body.page-viewdemo {
 }
 
 
-/* -----------------SMALL MOBILE---------------- */
-/* @media screen and (max-width: 470px) {
-    #logo-decor img {
-        margin: 0px 55px;
-        width: 70%
-    }
-    #head-name {
-        font-size: 65px;
-    }
-    .col-left {
-        padding-right: 40px;
-    }
-    .col-left [data-x-name="item"] {
-        margin-left: 40px;
-    }
-    .col-right {
-        margin-right: 0;
-        margin-left: 30px;
-    }
-} */
-
-
-/* -----------------SMALLER MOBILE---------------- */
-/* @media screen and (max-width: 360px) {	
-    #logo-decor img {
-        margin: 0px 55px;
-        width: 60%;
-    }
-    .head-info {
-        padding: 0
-    }
-    #head-name {
-        font-size: 48px;
-    }
-   #cv-document .content {
-        padding: 0 13px 50px 0;
-    }
-    .col-left {
-        padding-right: 20px;
-    }
-    .col-left [data-x-name="item"] {
-        margin-left: 30px;
-    }
-    .title-head {
-        font-size: 13px;
-    }
-    .col-right {
-        margin-left: 20px;
-    }
-}
-
-@media screen and (max-width: 320px) {	
-    .cv-main {
-        font-size: 10px;
-    }
-    #head-name {
-        font-size: 42px;
-    }
-   #cv-document .content {
-        padding: 0 13px 50px 0;
-    }
-    .col-left {
-        padding-right: 15px;
-    }
-    .col-left [data-x-name="item"] {
-        margin-left: 15px;
-        padding-top: 10px;
-    }
-    .title-head {
-        font-size: 13px;
-    }
-    .col-right [data-x-name="item"] {
-        padding-top: 10px;
-    }
-}
- */
-
 @media screen and (max-width: 500px) {
    #cv-document .content {
         display: block;
@@ -396,4 +319,18 @@ body.page-preview, body.page-view, body.page-viewdemo {
     outline: 1pt dashed #fc4b08!important;
 }
 
-
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+#cv-document [contenteditable=true] ul li::marker {
+    color:#b1b1b1
+}

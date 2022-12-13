@@ -1,8 +1,11 @@
-<link id="cv-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/41/css/cv.css?v=2.4" type="text/css">
-<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/41/colors/2f3a40.css?v=1.2">
-<link id="cv-font" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/41/fonts/default.css?v=1.0">
-<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/41/font-sizes/font_normal.css?v=1">
-<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/41/spacing/spacing_normal.css?v=1">
+<!--
+<link id="cv-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/41/css/cv.css?v=2.4" type="text/css">
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/41/colors/2f3a40.css?v=1.2">
+<link id="cv-font" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/41/fonts/default.css?v=1.0">
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/41/font-sizes/font_normal.css?v=1">
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/41/spacing/spacing_normal.css?v=1">
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=41&color=2f3a40&font=default&size=font_normal&spacing=spacing_normal&more=cv&v=221209">
 <div id="form-cv" data-x-name="parrent">
 <div class="cv-main page" page="1">
                 <div class="cv-left" data-x-name="col-parrent" data-x-col="1">
@@ -15,8 +18,8 @@
                     </div>
                     <div>
                         <div id="cv-box-ava" data-x-name="item" data-x-id="info">
-                            <img id="cv-ava" src="https://i-vn2.joboko.com/upload/images/avatars/no_avatar.jpg" alt="" data-x-id="ava">
-              <img style="display:none" data-x-id="ava_vertical" src="https://i-vn2.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
+                            <img id="cv-ava" src="https://i-vn.joboko.com/upload/images/avatars/no_avatar.jpg" alt="" data-x-id="ava">
+              <img style="display:none" data-x-id="ava_vertical" src="https://i-vn.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
                         </div>
                         <div class="box-contact" data-x-name="item" data-x-id="info">
                             <p class="icoweb" data-x-rel="dob"><i class="fa fa-calendar"></i><span data-x-id="dob"

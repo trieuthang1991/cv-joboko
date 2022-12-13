@@ -1,3 +1,4 @@
+<!--
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap">
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 <link rel="stylesheet" id="cv-css" href="https://i-vn2.joboko.com/MyCv/templates/1077/css/cv-css.css?v=4.2">
@@ -5,7 +6,8 @@
 <link rel="stylesheet" id="cv-font" href="https://i-vn2.joboko.com/MyCv/templates/1077/fonts/default.css">
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn2.joboko.com/MyCv/templates/1077/colors/19393e.css">
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCv/templates/1077/spacing/spacing_normal.css?v=1.21" />
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1077&color=19393e&font=default&size=font_normal&spacing=spacing_normal&more=cv-css&v=221209">
 <div id="form-cv" data-x-name="parrent">
 	<div page='1' class="page pageCV" fix='true'>
 		<div id="cv-top">
@@ -21,9 +23,8 @@
 					</div>
 					<div data-x-name="item" data-x-id="info" class="info2_col_top">
 						<div class="avatar">
-							<img src="https://i-vn2.joboko.com/Upload/images/avatars/no_avatar.jpg" class="image_ava" data-x-id="ava">
-							<img style="display:none" data-x-id="ava_vertical"
-								src="https://i-vn2.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
+							<img src="/upload/images/avatars/no_avatar.jpg" class="image_ava" data-x-id="ava">
+							<img style="display:none" data-x-id="ava_vertical" src="/upload/images/avatars/no_avatar.jpg" alt="" />
 						</div>
 					</div>
 				</div>
@@ -218,9 +219,11 @@
 								</div>
 								<div data-x-name="list-item" class="listItem">
 									<div data-x-name="sub-item" class="subItem-column">
-										<div data-x-id="name" contenteditable="true" class="name_subSkill txt-content">
+										<div data-x-id="name" contenteditable="true" class="bold name_subSkill txt-content">
 											Name 2</div>
-										<div class="cvo-skillrate-bar skill_val">
+											<div data-x-id="des" contenteditable="true" class=" txt-content">
+											Name 2</div>
+										<div class="cvo-skillrate-bar skill_val hidden">
 											<i class="cvo-skillrate-value fa fa-circle skillrate-value"
 												aria-hidden="true" data-x-id="val" value="1"></i>
 										</div>

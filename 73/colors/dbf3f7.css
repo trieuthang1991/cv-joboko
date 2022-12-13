@@ -1,4 +1,4 @@
-.top1 { background-image: url('../images/img82.png'); background-repeat: no-repeat;border-bottom: 1px solid #d2d8a06b;}
-.page:first-child .vbox1 {background: #dbf3f7 url('../images/bg-avar2.jpg') 0px -60px no-repeat;}
+.top1 { background-image: url('/MyCV/templates/73/images/img82.png'); background-repeat: no-repeat;border-bottom: 1px solid #d2d8a06b;}
+.page:first-child .vbox1 {background: #dbf3f7 url('/MyCV/templates/73/images/bg-avar2.jpg') 0px -60px no-repeat;}
 .page .vbox1 {background: #dbf3f7;}
-.bot1 {height: 100%; background-image: url('../images/img62.png'); background-repeat: no-repeat;}
+.bot1 {height: 100%; background-image: url('/MyCV/templates/73/images/img62.png'); background-repeat: no-repeat;}

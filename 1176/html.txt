@@ -1,12 +1,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!--
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1176/font-sizes/font_normal.css?v=1661054216519">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1176/spacing/spacing_normal.css?v=1661054216519">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1176/fonts/default.css?v=1661054216519">
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1176/colors/000000.css?v=1661054216519">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1176/css/styles.css?v=1661054216519">
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1176&color=000000&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221209">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
@@ -44,14 +46,24 @@
                   </div>
                   <span class="p light" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com</span>
                 </div>
+				<div class="info-detail__item" data-x-rel="dob">
+                  <div class="info-detail__item-icon">
+                    <i class="p3 fa fa-birthday"></i>
+                  </div>
+                  <span class="p light" contenteditable="true" data-x-id="dob">30/02/1998</span>
+                </div>
+				<div class="info-detail__item hide" data-x-rel="gen">
+                  <div class="info-detail__item-icon">
+                    <i class="p3 fa fa-male"></i>
+                  </div>
+                  <span class="p light" contenteditable="true" data-x-id="gen">Nam</span>
+                </div>
                 <div class="info-detail__item" data-x-rel="web">
                   <div class="info-detail__item-icon">
                     <i class="p3 fa fa-facebook-official"></i>
                   </div>
                   <span class="p light" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</span>
                 </div>
-  <span style="display:none"  contenteditable="true" data-x-id="dob"></span>
-<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
               </div>
             </div>
             <div class="info-main" data-x-name="item" data-x-id="info">
@@ -129,8 +141,8 @@
                 <div class="content skill" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
-                      <div class="p bold inline-block" contenteditable="true" data-x-id="name">Kỹ năng phân tích thị trường, hành vi khách hàng: Tốt</div>
-                      <div class="p regular inline-block">:</div>
+                      <div class="p bold inline-block haicham" contenteditable="true" data-x-id="name">Kỹ năng phân tích thị trường, hành vi khách hàng: Tốt</div>
+
                       <div class="p regular inline-block" contenteditable="true" data-x-id="des">Tốt</div>
                     </div>
                   </div>

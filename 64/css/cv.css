@@ -699,10 +699,10 @@ h4.parentheses, .cert-received-date {
     float: right;
 }
 
-    .experience-info * {
+    /*.experience-info * {
         display: inline-block;
         width: 100%;
-    }
+    }*/
 
 .experience-period * {
     float: left;
@@ -831,4 +831,19 @@ h4.parentheses, .cert-received-date {
 
 [contentEditable=true]:empty{
 	outline: 1pt dashed #fc4b08 !important;
+}
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+#cv-document [contenteditable=true] ul li::marker {
+    color:#b1b1b1
 }

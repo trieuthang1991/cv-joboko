@@ -182,10 +182,10 @@
                                 <div class="skill" data-x-name="list-item">
                                     <div class="skill__item" data-x-name="sub-item">
                                         <div class="skill__item-title">
-                                            <div class="p bold inline-block" contenteditable="true" data-x-id="name">
+                                            <div class="p bold inline-block haicham" contenteditable="true" data-x-id="name">
                                                 Giải quyết
                                                 vấn đề</div>
-                                            <div class="p  inline-block">:</div>
+                                           
                                             <div class="p  inline-block" contenteditable="true" data-x-id="des">Tốt</div>
                                         </div>
                                     </div>

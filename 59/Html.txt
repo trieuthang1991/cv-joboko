@@ -127,9 +127,12 @@
                                         <div class="sub-cv " data-x-name="sub-item">
                                             <div class="content-skill float-left-100">
                                                 <h4 data-x-id="name"
-                                                    class="input-field focus-able name  skill-name details-field-input font-size-5 float-left"
+                                                    class="input-field focus-able name  bold details-field-input font-size-5"
                                                     contenteditable="true"></h4>
-                                                <div class="bar-exp cvo-skillrate-bar cv-progress-bar float-left"><span
+                                                      <div data-x-id="des"
+                                                    class="skill-des"
+                                                    contenteditable="true"></div>
+                                                <div class="bar-exp cvo-skillrate-bar cv-progress-bar float-left hidden"><span
                                                         data-x-id="val" class="cvo-skillrate-value" value="3"></span>
                                                 </div>
                                             </div>

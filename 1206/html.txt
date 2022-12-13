@@ -1,12 +1,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!--
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1206/font-sizes/font_normal.css?v=1661183458551">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1206/spacing/spacing_normal.css?v=1661183458551">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1206/fonts/default.css?v=1661183458551">
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1206/colors/f26522.css?v=1661183458551">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1206/css/styles.css?v=1661183458551">
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1206&color=f26522&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221209">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
@@ -48,6 +50,18 @@
                     </div>
                     <div class="p light inline-block" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com</div>
                   </div>
+				  <div class="info-detail__item" data-x-rel="dob">
+						<div class="info-detail__item-icon">
+						  <i class="p fa fa-birthday-cake"></i>
+						</div>
+						<div class="p light inline-block" contenteditable="true" data-x-id="dob">30/02/1998</div>
+					</div>
+					<div class="info-detail__item hide" data-x-rel="gen">
+						<div class="info-detail__item-icon">
+						  <i class="p fa fa-male"></i>
+						</div>
+						<div class="p light inline-block" contenteditable="true" data-x-id="gen">Nam</div>
+					</div>
                   <div class="info-detail__item" data-x-rel="web">
                     <div class="info-detail__item-icon">
                       <i class="p fa fa-facebook-official"></i>
@@ -118,9 +132,10 @@
                 <div class="skill content" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
+                      <div class="p regular bullet" data-x-bullet="-" contenteditable="true" data-x-id="name">Thuyết trình đàm phán</div>
                       <div class="p light bullet" data-x-bullet="-" contenteditable="true" data-x-id="name">Thuyết trình đàm phán</div>
                     </div>
-                    <div class="skill__item-content">
+                    <div class="skill__item-content hidden">
                       <div class="cvo-skillrate-bar">
                         <div class="cvo-skillrate-progress cvo-skillrate-value" data-x-id="val" value="3">
                           <span></span>

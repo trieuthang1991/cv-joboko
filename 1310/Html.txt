@@ -1,8 +1,11 @@
+<!--
 <link id="cv-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/44/css/cv.css?v=2.5" type="text/css">
 <link id="cv-scheme-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/44/colors/3d91cd.css?v=1.0">
 <link id="cv-font" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/44/fonts/default.css?v=1">
 <link id="cv-font-size-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/44/font-sizes/font_normal.css?v=1">
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/44/spacing/spacing_normal.css?v=1">
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=44&color=3d91cd&font=default&size=font_normal&spacing=spacing_normal&more=cv&v=221209">
 <div id="form-cv" data-x-name="parrent">
     <div class="page" page="1">
         <div id="cv-top">

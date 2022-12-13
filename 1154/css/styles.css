@@ -7,7 +7,26 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
 #cv-document .content{padding:.7em 0 1.1em 3em;border-left:1px solid}
-#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
+/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol {
+    margin-left: 18px
+}
+
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+
+#cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more, #cv-document .cletter {
+    line-height: 24px
+}
 #cv-document .page__inner{padding:4.2em 0 0}
 #cv-document .two-up{display:flex;flex-wrap:wrap}
 #cv-document .two-up--center{align-items:center}
@@ -56,7 +75,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .action__item-title::before{content:"";position:absolute;top:.4em;left:0;width:.8em;height:.8em;border-radius:50%}
 #cv-document .action__item-tagline{margin-bottom:.5em}
 #cv-document .action__item-date{margin-bottom:1em}
-#cv-document .action__item-text br{content:"";display:block;margin-top:.6em}
+/*#cv-document .action__item-text br{content:"";display:block;margin-top:.6em}*/
 #cv-document .avatar{position:relative;z-index:2;display:flex;justify-content:center;align-items:center;margin:-1.4em auto -2.2em;width:15.6em;height:15.6em;border-radius:50%;overflow:hidden}
 @media screen and (max-width:575px){
 #cv-document .avatar{margin-bottom:0}
@@ -91,13 +110,13 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .education__item-content::before{top:.3em;left:0;width:.9em;height:.9em;border-width:.2em;border-radius:50%}
 #cv-document .education__item-content::after{content:"";position:absolute;top:1.4em;bottom:0;left:.4em;width:1px}
 #cv-document .education__item-content p:first-child{margin-bottom:.1875em}
-#cv-document .education__item-text br{content:"";display:block;margin-top:.6em}
+/*#cv-document .education__item-text br{content:"";display:block;margin-top:.6em}*/
 #cv-document .experience__item{margin-top:.6em;margin-bottom:1.9em}
 #cv-document .experience__item:last-child{margin-bottom:0}
 #cv-document .experience__item-title{margin-bottom:.1875em}
 #cv-document .experience__item-wrap{display:flex;justify-content:space-between;margin-bottom:.7em}
 #cv-document .experience__item-date{flex-shrink:0;margin-left:1em}
-#cv-document .experience__item-text br{content:"";display:block;margin-top:.6em}
+/*#cv-document .experience__item-text br{content:"";display:block;margin-top:.6em}*/
 #cv-document .hobby__item{position:relative;margin-bottom:1em;padding-left:2.4em}
 #cv-document .hobby__item::before{content:"";position:absolute;top:.7em;left:0;width:.8em;height:.8em;border-radius:50%}
 #cv-document .hobby__item>*{line-height:1.47}
@@ -122,7 +141,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .skill-th__item:last-child{margin-bottom:.9em}
 #cv-document .skill-th__item-title{flex-shrink:0;width:6em;padding-right:.625em}
 #cv-document .skill-th__item-content{flex-grow:1;margin-top:.7em}
-#cv-document .target br{content:"";display:block;margin-top:.9em}
+/*#cv-document .target br{content:"";display:block;margin-top:.9em}*/
 #cv-document .project__item{margin-top:2.2em}
 #cv-document .project__item-head{flex-wrap:wrap;display:flex;margin-top:.4em;margin-bottom:.9em}
 #cv-document .project__item-title{position:relative;margin-right:1.8em;padding:0 1.9em 0 0}
@@ -138,7 +157,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .project__item-table tr:last-child td,#cv-document .project__item-table tr:last-child th{border-bottom:none}
 #cv-document .cletter{border-width:1px;border-style:solid;padding:2em 2.5em 3.2em;margin-bottom:2em}
 #cv-document .cletter>div{line-height:1.47}
-#cv-document .cletter br{content:"";display:block;margin-top:1.4666666667em}
+/*#cv-document .cletter br{content:"";display:block;margin-top:1.4666666667em}*/
 #cv-document [contentEditable] *{font-size:1em!important}
 [contenteditable]:focus{outline:1pt dashed #77a5cc!important;cursor:text}
 [contentEditable=true]:empty{outline:1pt dashed #fc4b08!important}

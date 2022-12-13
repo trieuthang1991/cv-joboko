@@ -112,10 +112,10 @@ body.page-preview, body.page-view, body.page-viewdemo {
 	font-style:italic;
 	margin-bottom: 8px;	
 }
-.des_special:before {
+/*.des_special:before {
 	content: "-";
 	padding-right: 5px;
-}
+}*/
 .itemSkill .subItem{
 	display: flex;
 	padding-top: unset;
@@ -245,13 +245,22 @@ body.page-preview, body.page-view, body.page-viewdemo {
 		max-width: 100%;
 	}
 }
-/* -----------------iphone 6/7/8 plus ---------------- */
-@media screen and (max-width: 414px) {
-	
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol {
+    margin-left: 18px
 }
-/* -----------------iphone 6/7/8/X ---------------- */
-@media screen and (max-width: 375px) {
-}
-/* -----------------SMALLER MOBILE---------------- */
-@media screen and (max-width: 360px) {	
+
+    #cv-document [contenteditable=true] ol li {
+        list-style: auto;
+    }
+
+    #cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+        padding: 0;
+    }
+
+    #cv-document [contenteditable=true] ul li {
+        list-style-type: disc
+    }
+
+#cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more, #cv-document .cletter {
+    line-height: 24px
 }

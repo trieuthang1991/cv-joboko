@@ -1,11 +1,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!--
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1178/font-sizes/font_normal.css?v=1661074343063">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1178/spacing/spacing_normal.css?v=1661074343063">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1178/fonts/default.css?v=1661074343063">
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1178/colors/6da523.css?v=1661074343063">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1178/css/styles.css?v=1661074343064">
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1178&color=6da523&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221209">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
@@ -213,10 +215,8 @@
           <div class="height-curent">
             <div class="two-up__right-inner">
               <div class="avatar" data-x-name="item" data-x-id="info">
-                <img data-x-id="ava" style="display:none" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-                <img data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-  <span style="display:none"  contenteditable="true" data-x-id="dob"></span>
-<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+                <img data-x-id="ava" style="display:none" src="/upload/images/avatars/no_avatar.jpg" alt="" />
+                <img data-x-id="ava_vertical" src="/upload/images/avatars/no_avatar.jpg" alt="" />
               </div>
               <div class="info-main" data-x-name="item" data-x-id="info">
                 <div class="info-main__title">
@@ -228,12 +228,7 @@
               </div>
               <div class="two-up__right-item" data-x-name="item" data-x-id="info">
                 <div class="info-detail">
-                  <div class="info-detail__item" data-x-rel="add">
-                    <div class="info-detail__item-icon">
-                      <i class="p3 fa fa-map-marker"></i>
-                    </div>
-                    <div class="p regular" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
-                  </div>
+                  
                   <div class="info-detail__item" data-x-rel="tel">
                     <div class="info-detail__item-icon">
                       <i class="p3 fa fa-volume-control-phone"></i>
@@ -245,6 +240,24 @@
                       <i class="p3 fa fa-envelope"></i>
                     </div>
                     <div class="p regular" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com</div>
+                  </div>
+				  <div class="info-detail__item" data-x-rel="dob">
+                    <div class="info-detail__item-icon">
+                      <i class="p3 fa fa-birthday-cake"></i>
+                    </div>
+                    <div class="p regular" contenteditable="true" data-x-id="dob">30/02/1998</div>
+                  </div>
+				  <div class="info-detail__item hide" data-x-rel="gen">
+                    <div class="info-detail__item-icon">
+                      <i class="p3 fa fa-male"></i>
+                    </div>
+                    <div class="p regular" contenteditable="true" data-x-id="gen">Nam</div>
+                  </div>
+				  <div class="info-detail__item" data-x-rel="add">
+                    <div class="info-detail__item-icon">
+                      <i class="p3 fa fa-map-marker"></i>
+                    </div>
+                    <div class="p regular" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
                   </div>
                   <div class="info-detail__item" data-x-rel="web">
                     <div class="info-detail__item-icon">

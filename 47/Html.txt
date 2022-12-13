@@ -168,8 +168,9 @@
                     </p>
                     <div id="experience-table" data-x-name="list-item">
                         <div class="ctbx experience ski" data-x-name="sub-item">
-                            <p class="skill-name" data-x-id="name" contenteditable="true"></p>
-                            <div class="bar-exp cvo-skillrate-bar"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
+                            <div class="skill-name bold" data-x-id="name" contenteditable="true"></div>
+                             <div class="skill-des" data-x-id="des" contenteditable="true"></div>
+                            <div class="bar-exp cvo-skillrate-bar hidden"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
 							<div class="clearfix"></div>
                         </div>
                     </div>

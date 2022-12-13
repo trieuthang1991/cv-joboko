@@ -1,14 +1,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!--
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1272/font-sizes/font_normal.css?v=1660839156677">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1272/spacing/spacing_normal.css?v=1660839156677">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1272/fonts/default.css?v=1660839156677">
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1272/colors/f7941d.css?v=1660839156677">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1272/css/styles.css?v=1660839156679">
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1272&color=f7941d&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221228">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
     <div page="1" class="page page-fix page--background">

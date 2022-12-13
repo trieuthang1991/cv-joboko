@@ -1,4 +1,4 @@
-.pageCV {
+﻿.pageCV {
 	background: #fff;
 	color: #0a0a0a;
 	position: relative;
@@ -235,12 +235,12 @@
 	font-weight: 600;
 	font-size: 13px;
 }
-.col_bottom_right .itemGroup .des_subitem:before{
+/*.col_bottom_right .itemGroup .des_subitem:before{
 	content: "\f005";
 	font-family: FontAwesome;
 	margin-right: 5px;
 	font-size: 10px;
-}
+}*/
 .col_bottom_right .itemGroup .des_subitem:empty:before{
 	content: attr(placeholder);
 	font-size: 100%;
@@ -384,4 +384,18 @@
 [contentEditable=true]:empty{
 	outline: 1pt dashed #fc4b08 !important;
 }
-
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 12px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc;padding-left:5px
+}
+#cv-document [contenteditable=true] ul li::marker {
+    content: '★'; font-size:14px;color:#565656
+}

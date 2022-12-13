@@ -1,11 +1,12 @@
+<!--
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" id="cv-css" href="https://i-vn2.joboko.com/MyCv/templates/73/css/simple-style-3.css?v=42">
 <link rel="stylesheet" id="cv-font-size-css" href="https://i-vn2.joboko.com/MyCv/templates/73/font-sizes/font_normal.css?v=42">
 <link rel="stylesheet" id="cv-font" href="https://i-vn2.joboko.com/MyCv/templates/73/fonts/default.css?v=42">
 <link rel="stylesheet" id="cv-spacing-css" href="https://i-vn2.joboko.com/MyCv/templates/73/spacing/spacing_normal.css?v=42">
-
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn2.joboko.com/MyCv/templates/73/colors/fbdbe9.css?v=42">
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=73&color=fbdbe9&font=default&size=font_normal&spacing=spacing_normal&more=simple-style-3&v=221209">
 <div class="cv-container" data-x-name="parrent">
     <div class="page" page='1'>
         <div class="top1">
@@ -87,8 +88,9 @@
                                         <div class="caption1" contenteditable="true" data-x-id="tit">Kỹ năng</div>
                                         <div data-x-name="list-item">
                                             <div class="item1" data-x-name="sub-item">
-                                                <div class="txt-content" contenteditable="true" data-x-id="name">Nghe</div>
-                                                <div class="progress progress-bar-black cvo-skillrate-bar">
+                                                <div class="txt-content bold" contenteditable="true" data-x-id="name">Nghe</div>
+                                                 <div class="txt-content" contenteditable="true" data-x-id="des">Nghe</div>
+                                                <div class="progress progress-bar-black cvo-skillrate-bar hidden">
                                                     <div class="progress-core cvo-skillrate-value" data-x-id="val"
                                                         value="5"></div>
                                                 </div>

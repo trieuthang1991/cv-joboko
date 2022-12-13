@@ -6,15 +6,30 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .page:last-child #cv-watermark{position:absolute;right:1em;bottom:2em}
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
-#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
+/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+#cv-document [contenteditable=true] ul li::marker {
+    color:#b1b1b1
+}
 #cv-document .page{display:flex}
-#cv-document .page:last-child .two-up__left{background-image:url(../images/bg-02.png);background-repeat:no-repeat;background-position:center bottom 1.2em}
-#cv-document .page:last-child .two-up__right{background-image:url(../images/bg-03.png);background-repeat:no-repeat;background-position:center bottom 9em}
-#cv-document .page:first-child .two-up__left{padding-top:14.6em;background-image:url(../images/bg-01.png);background-repeat:no-repeat;background-position:center top}
+#cv-document .page:last-child .two-up__left{background-image:url(/MyCV/templates/1178/images/bg-02.png);background-repeat:no-repeat;background-position:center bottom 1.2em}
+#cv-document .page:last-child .two-up__right{background-image:url(/MyCV/templates/1178/images/bg-03.png);background-repeat:no-repeat;background-position:center bottom 9em}
+#cv-document .page:first-child .two-up__left{padding-top:14.6em;background-image:url(/MyCV/templates/1178/images/bg-01.png);background-repeat:no-repeat;background-position:center top}
 @media screen and (max-width:767px){
 #cv-document .page:first-child .two-up__left{padding-top:0;background-image:none}
 }
-#cv-document .page:first-child:last-child .two-up__left{background-image:url(../images/bg-01.png),url(../images/bg-02.png);background-repeat:no-repeat;background-position:center top,center bottom 1.2em}
+#cv-document .page:first-child:last-child .two-up__left{background-image:url(/MyCV/templates/1178/images/bg-01.png),url(/MyCV/templates/1178/images/bg-02.png);background-repeat:no-repeat;background-position:center top,center bottom 1.2em}
 #cv-document .page:not(:first-child) .two-up__left [data-x-name=group-item]{padding:2.7em 3.4em}
 @media screen and (max-width:767px){
 #cv-document .page:not(:first-child) .two-up__left [data-x-name=group-item]{padding:2em}
@@ -116,9 +131,9 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .references__item{margin-bottom:.6em}
 #cv-document .references__item:last-child{margin-bottom:0}
 #cv-document .target{position:relative;margin-bottom:2.9em}
-#cv-document .target::before{content:"";position:absolute;z-index:2;top:-.7em;left:-.2em;width:2.3em;height:2.8em;background:url(../images/bg-05.png) no-repeat}
+#cv-document .target::before{content:"";position:absolute;z-index:2;top:-.7em;left:-.2em;width:2.3em;height:2.8em;background:url(/MyCV/templates/1178/images/bg-05.png) no-repeat}
 #cv-document .target::after{content:"";position:absolute;z-index:2;right:0;bottom:0;width:2.6em;height:2.6em}
-#cv-document .target>span{position:absolute;bottom:-2em;left:-.8em;width:45.2em;height:6.6em;background:url(../images/bg-06.png) no-repeat}
+#cv-document .target>span{position:absolute;bottom:-2em;left:-.8em;width:45.2em;height:6.6em;background:url(/MyCV/templates/1178/images/bg-06.png) no-repeat}
 @media screen and (max-width:767px){
 #cv-document .target>span{display:none}
 }
@@ -130,7 +145,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .certification__item-date{margin-top:.2em}
 #cv-document .cletter{border-width:1px;border-style:solid;padding:1.3em 2em 1.8em}
 #cv-document .cletter>div{line-height:1.57}
-#cv-document .cletter br{content:"";display:block;margin-top:1.4666666667em}
+/*#cv-document .cletter br{content:"";display:block;margin-top:1.4666666667em}*/
 #cv-document .project__item{margin-bottom:2em}
 #cv-document .project__item:last-child{margin-bottom:0}
 #cv-document .project__item-head{margin-top:1.5em;margin-bottom:1em}

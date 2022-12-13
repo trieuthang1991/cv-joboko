@@ -255,3 +255,9 @@ span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
 #cv-mid{
  height:15px;background-color: white;margin-bottom: 10px;
 }
+.bold{
+	font-weight: bold;
+}
+#cv-document .haicham:after {
+    content: ":";
+}

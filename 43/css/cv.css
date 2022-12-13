@@ -244,3 +244,6 @@ span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
 #cv-watermark a:after{
 	content: "Joboko.com";
 }
+.bold{
+	font-weight: bold;
+}

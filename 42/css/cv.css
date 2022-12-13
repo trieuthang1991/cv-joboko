@@ -81,15 +81,15 @@ body.page-preview, body.page-view, body.page-viewdemo {
 	color: #7c7a79;display:block !important
 }
 
-#cv-top h2{
-	font-size: 16px;
-	font-weight: normal;
-	margin-bottom: 12px;
-	color: #232323;
-	text-align: center;
+#cv-top h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    color: #232323;
+    text-align: center;
     font-style: italic;
     font-weight: 600;
-    background: url(../images/line49.png) left center repeat-x;
+    background: url(/MyCV/templates/42/images/line49.png) left center repeat-x;
 }
 #cv-top h2 span{
 	background: #fff;
@@ -224,4 +224,22 @@ span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
 
 [data-x-name=item]{
 	padding-top:  25px;
+}
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+#cv-document [contenteditable=true] ul li::marker {
+    color:#b1b1b1
+}
+.bold{
+	font-weight: bold;
 }

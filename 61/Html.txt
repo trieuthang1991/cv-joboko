@@ -147,9 +147,12 @@
                                     <div>
                                         <div class="content-skill float-left-100">
                                             <div data-x-id="name"
+                                                 class="input-field focus-able name bold  skill-name details-field-input font-size-5   "
+                                                 contenteditable="true"></div>
+                                                  <div data-x-id="des"
                                                  class="input-field focus-able name  skill-name details-field-input font-size-5   "
                                                  contenteditable="true"></div>
-                                            <div class="float-left-100 bar-exp cvo-skillrate-bar cv-progress-bar"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
+                                            <div class="float-left-100 bar-exp cvo-skillrate-bar cv-progress-bar hidden"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
                                         </div>
                                     </div>
                                 </div>

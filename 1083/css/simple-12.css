@@ -255,8 +255,27 @@ body.page-preview, body.page-view, body.page-viewdemo {
 	height: calc(100% - 30px) ;
 }
 
-#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
-#cv-document .bullet:empty::before{content:""}
+/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
+#cv-document .bullet:empty::before{content:""}*/
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol {
+    margin-left: 18px
+}
+
+    #cv-document [contenteditable=true] ol li {
+        list-style: auto;
+    }
+
+    #cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+        padding: 0;
+    }
+
+    #cv-document [contenteditable=true] ul li {
+        list-style-type: disc
+    }
+
+#cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more, #cv-document .cletter {
+    line-height: 24px
+}
 .inline{
 	display: inline;
 }

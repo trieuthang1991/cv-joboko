@@ -1,7 +1,7 @@
 .top1 { 
-    background-image: url('../images/img81.png'); background-repeat: no-repeat;
+    background-image: url('/MyCV/templates/73/images/img81.png'); background-repeat: no-repeat;
     border-bottom: 1px solid #d2d8a06b;
 }
-.page:first-child .vbox1 {background: #fbdbe9 url('../images/bg-avar1.jpg') 0px -60px no-repeat;}
+.page:first-child .vbox1 {background: #fbdbe9 url('/MyCV/templates/73/images/bg-avar1.jpg') 0px -60px no-repeat;}
 .page .vbox1 {background: #fbdbe9;}
-.bot1 {height: 100%; background-image: url('../images/img61.png'); background-repeat: no-repeat;}
+.bot1 {height: 100%; background-image: url('/MyCV/templates/73/images/img61.png'); background-repeat: no-repeat;}

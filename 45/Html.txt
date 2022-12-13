@@ -1,5 +1,5 @@
 <link id="cv-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/45/css/cv.css?v=1.5" type="text/css">
-<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/45/colors/3f8bb1.css?v=1.4">
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/45/colors/3f8bb1.css?v=1.5">
 <link id="cv-font" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/45/fonts/default.css?v=1">
 <link id="cv-font-size-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/45/font-sizes/font_normal.css?v=1">
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/45/spacing/spacing_normal.css?v=1">
@@ -128,8 +128,9 @@
                             </p>
                             <div data-x-name="list-item">
                                 <div class="cv-box-content experience" data-x-name="sub-item">
-                                    <p class="skill-name" data-x-id="name" contenteditable="true"></p>
-                                    <div class="bar-exp cvo-skillrate-bar"><span data-x-id="val"
+                                    <div class="skill-name bold haicham" data-x-id="name" contenteditable="true"></div>
+                                    <div class="skill-des" data-x-id="des" contenteditable="true"></div>
+                                    <div class="bar-exp cvo-skillrate-bar hidden"><span data-x-id="val"
                                             class="cvo-skillrate-value" value="3"></span></div>
                                 </div>
                             </div>

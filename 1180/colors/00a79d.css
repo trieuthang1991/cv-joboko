@@ -1,5 +1,5 @@
 #cv-document .page--background{background-color:#fff;color:#010101}
-#cv-document .page--background:last-child{background:linear-gradient(to right,#00a79d,#00a79d) no-repeat left bottom/100% 2em,url(../images/bg-02.png) no-repeat center bottom 2em,#fff}
+#cv-document .page--background:last-child{background:linear-gradient(to right,#00a79d,#00a79d) no-repeat left bottom/100% 2em,url(/MyCv/templates/1180/images/bg-02.png) no-repeat center bottom 2em,#fff}
 #cv-document .heading__icon{background-color:#00a79d;color:#fff}
 #cv-document .heading__title{background-color:#e6e7e8}
 #cv-document .two-up__left::after{border-right-color:#00a79d}

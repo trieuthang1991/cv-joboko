@@ -2,14 +2,14 @@
 @media screen and (max-width:767px){
 #cv-document .page--background{background:#fff}
 }
-#cv-document .page--background:last-child{background:linear-gradient(to right,#2264b0,#2264b0) no-repeat left bottom/calc(100% - 35.6em) 2.4em,url(../images/bg-01.png) no-repeat left -4.5em bottom 4em,#fff}
+#cv-document .page--background:last-child{background:linear-gradient(to right,#2264b0,#2264b0) no-repeat left bottom/calc(100% - 35.6em) 2.4em,url(/MyCv/templates/1181/images/bg-01.png) no-repeat left -4.5em bottom 4em,#fff}
 @media screen and (max-width:767px){
-#cv-document .page--background:last-child .two-up__left{background:url(../images/bg-01.png) no-repeat left 70% bottom 4em,linear-gradient(to right,#2264b0,#2264b0) no-repeat left bottom/100% 2.4em}
+#cv-document .page--background:last-child .two-up__left{background:url(/MyCv/templates/1181/images/bg-01.png) no-repeat left 70% bottom 4em,linear-gradient(to right,#2264b0,#2264b0) no-repeat left bottom/100% 2.4em}
 }
 @media screen and (max-width:767px){
 #cv-document .page--background:last-child{background:0 0}
 }
-#cv-document .page--background:last-child::after{background-image:url(../images/bg-02.png)}
+#cv-document .page--background:last-child::after{background-image:url(/MyCv/templates/1181/images/bg-02.png)}
 #cv-document .heading{color:#000}
 #cv-document .heading::before{background-color:#6d9dcc}
 #cv-document .two-up__right{background-color:#95c3e8}

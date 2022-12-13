@@ -6,7 +6,7 @@
 #cv-document .two-up__left-item::after{border-bottom-color:#f7941d}
 #cv-document .two-up__left-group{background-color:#f7941d}
 #cv-document .two-up__right-item::after{border-bottom-color:#f7941d}
-#cv-document .two-up__right-group{background:url(../images/bg-01-2.png) no-repeat right top}
+#cv-document .two-up__right-group{background-image:url(/MyCV/templates/1179/images/bg-01-2.png)}
 #cv-document .cvo-skillrate-radial::before{background-color:#fff}
 #cv-document .cvo-skillrate-radial::after{color:#292928}
 #cv-document .cvo-skillrate-radial[value="1"]{background:linear-gradient(18deg,#e6e7e8 50%,transparent 50%),linear-gradient(90deg,#f7941d 50%,#e6e7e8 50%)}

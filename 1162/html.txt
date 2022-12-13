@@ -1,14 +1,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900|Bebas+Neue&display=swap"
-  rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900|Bebas+Neue&display=swap" rel="stylesheet">
+<!--
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1162/font-sizes/font_normal.css?v=1663260143004">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1162/spacing/spacing_normal.css?v=1663260143004">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1162/fonts/default.css?v=1663260143004">
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1162/colors/85d4f1.css?v=1663260143004">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1162/css/styles.css?v=1663260143004">
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1162&color=85d4f1&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221209">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
@@ -31,10 +31,8 @@
         <div data-x-name="col-parrent" data-x-col="2" class="full-width__center">
           <div class="height-curent">
             <div class="avatar" data-x-name="item" data-x-id="info">
-              <img data-x-id="ava" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-              <img data-x-id="ava_vertical" style="display:none" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-  <span style="display:none"  contenteditable="true" data-x-id="dob"></span>
-<span style="display:none"  contenteditable="true" data-x-id="gen"></span>
+              <img data-x-id="ava" src="/upload/images/avatars/no_avatar.jpg" alt="" />
+              <img data-x-id="ava_vertical" style="display:none" src="/upload/images/avatars/no_avatar.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -42,11 +40,17 @@
           <div class="height-curent">
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
-                <div class="info-detail__item" data-x-rel="add">
+                <div class="info-detail__item" data-x-rel="dob">
                   <div class="info-detail__item-icon">
-                    <i class="p3 fa fa-map-marker"></i>
+                    <i class="p3 fa fa-birthday-cake"></i>
                   </div>
-                  <span class="p light" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</span>
+                  <span class="p light" contenteditable="true" data-x-id="dob">30/02/1998</span>
+                </div>
+				<div class="info-detail__item hide" data-x-rel="gen">
+                  <div class="info-detail__item-icon">
+                    <i class="p3 fa fa-male"></i>
+                  </div>
+                  <span class="p light" contenteditable="true" data-x-id="gen">Nam</span>
                 </div>
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
@@ -65,6 +69,12 @@
                     <i class="p3 fa fa-facebook-official"></i>
                   </div>
                   <span class="p light" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</span>
+                </div>
+				<div class="info-detail__item" data-x-rel="add">
+                  <div class="info-detail__item-icon">
+                    <i class="p3 fa fa-map-marker"></i>
+                  </div>
+                  <span class="p light" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</span>
                 </div>
               </div>
             </div>
@@ -242,9 +252,11 @@
                 <div class="content skill" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
-                      <p class="p2 regular" contenteditable="true" data-x-id="name">Google analytics</p>
+                      <div class="p regular" contenteditable="true" data-x-id="name">Google analytics</div>
+                       <div class="p2 light" contenteditable="true" data-x-id="des">Google analytics</div>
                     </div>
-                    <div class="skill__item-content">
+                     
+                    <div class="skill__item-content hidden">
                       <div class="cvo-skillrate-bar">
                         <div class="cvo-skillrate-progress cvo-skillrate-value" data-x-id="val" value="3">
                           <span></span>

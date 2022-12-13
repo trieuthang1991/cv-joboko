@@ -1,6 +1,6 @@
 ﻿{
-  "langs": [ "vi","en","ja","ko","zh"],
-  "colors": ["33b452", "7c1baf",  "00a79d", "f7941d", "007acc", "f53852" ],
+  "langs": [ "vi","en"],
+  "colors": [ "7c1baf", "33b452", "00a79d", "f7941d", "007acc", "f53852" ],
   "fonts": {
     "default":"Roboto",
     "arial": "Arial",

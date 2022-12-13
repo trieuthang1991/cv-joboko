@@ -1,6 +1,6 @@
 #cv-document .page--background{background:#fff;color:#010101}
-#cv-document .page--background:last-child .two-up__left{background:url(../images/bg-01.png) no-repeat left 70% bottom 4em,linear-gradient(to right,#f15a29,#f15a29) no-repeat left bottom/100% 2.4em}
-#cv-document .page--background:last-child .two-up__right::after{background-image:url(../images/bg-02-3.png)}
+#cv-document .page--background:last-child .two-up__left{background:url(/MyCv/templates/1181/images/bg-01.png) no-repeat left 70% bottom 4em,linear-gradient(to right,#f15a29,#f15a29) no-repeat left bottom/100% 2.4em}
+#cv-document .page--background:last-child .two-up__right::after{background-image:url(/MyCv/templates/1181/images/bg-02-3.png)}
 #cv-document .heading{color:#000}
 #cv-document .heading::before{background-color:#f79f8d}
 #cv-document .two-up__left{background:linear-gradient(to right,#f15a29,#f15a29) no-repeat left bottom/100% 2.4em}

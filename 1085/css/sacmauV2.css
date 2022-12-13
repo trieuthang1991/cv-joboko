@@ -28,10 +28,10 @@ body.page-preview .xbgcv.xbgcv1 {
 .cimg {width: 180px; height: 180px; overflow: hidden; z-index: 9999; box-shadow: 0 0 10px #128584; background:#fff; border-radius: 50%; text-align: center; display: flex; align-items: center; justify-content: center;}
 .bxitem {margin-bottom: 30px;}
 .htitle span, .htitle2 span, .htitle3 span, .htitle4 span, .htitle5 span, .htitle6 span, .htitle7 span, .htitle8 span, .htitle9 span, .htitle10 span, .htitle11 span {font-size: 18px; line-height: 33px; text-transform: uppercase; font-weight: bold;}
-.txtline1 {margin:0 0 5px 0; background: url(../images/icon-birthday.png) 0 3px no-repeat; min-height: 12px; padding-left: 20px;}
-.txtline2 {margin:0 0 5px 0; background: url(../images/icon-email.png) 0 3px no-repeat; min-height: 12px; padding-left: 20px;}
-.txtline3 {margin:0 0 5px 0; background: url(../images/icon-phone.png) 0 3px no-repeat; min-height: 12px; padding-left: 20px;}
-.txtline4 {margin:0 0 5px 0; background: url(../images/icon-address.png) 0 3px no-repeat; min-height: 12px; padding-left: 20px;}
+.txtline1 {margin:0 0 5px 0; background: url(/MyCV/templates/1085/images/icon-birthday.png) 0 3px no-repeat; min-height: 12px; padding-left: 20px;}
+.txtline2 {margin:0 0 5px 0; background: url(/MyCV/templates/1085/images/icon-email.png) 0 3px no-repeat; min-height: 12px; padding-left: 20px;}
+.txtline3 {margin:0 0 5px 0; background: url(/MyCV/templates/1085/images/icon-phone.png) 0 3px no-repeat; min-height: 12px; padding-left: 20px;}
+.txtline4 {margin:0 0 5px 0; background: url(/MyCV/templates/1085/images/icon-address.png) 0 3px no-repeat; min-height: 12px; padding-left: 20px;}
 .txtline5 {display: flex; align-items: center; margin-bottom: 20px;}
 .subdv {margin: 0 0 18px;}
 .subdv2 {display:flex; margin-bottom: 5px; justify-content: space-between;}
@@ -47,7 +47,7 @@ body.page-preview .xbgcv.xbgcv1 {
 .bxstr {width:40%; display:flex; justify-content: space-around; font-style: italic; font-weight: 600;}
 .txthead2 {font-weight:bold; font-size: 16px; margin-bottom: 5px;text-transform: initial;}
 .txti {font-style: italic; font-weight: 500;}
-.lst li span {background: url(../images/line-minus.gif) 0 8px no-repeat; padding-left: 15px; display: block;}
+.lst li span {background: url(/MyCV/templates/1085/images/line-minus.gif) 0 8px no-repeat; padding-left: 15px; display: block;}
 .htitaf {position: relative; margin-left: -30px;}
 .htitaf:before {width:27px; height:4px; display: block; position: absolute; top: 0; left: 0px; content: ""; margin-top:13px;}
 .bxitem.pd{
@@ -107,10 +107,10 @@ body.page-preview .xbgcv.xbgcv1 {
 .ava {width:204px; height:204px; text-align:center; display:flex; justify-content:center; align-items:center;}
 .ava img {width:180px; height:180px; border-radius:50%;}
 .bxitem2 {padding-top:25px;}
-.birthd {background:url("../images/icon-birthday.png") 0 2px no-repeat; padding-left:23px;}
-.emailc {background:url("../images/icon-email.png") 0 2px no-repeat; padding-left:23px;}
-.telc {background:url("../images/icon-phone.png") 0 2px no-repeat; padding-left:23px;}
-.addrc {background:url("../images/icon-address.png") 0 2px no-repeat; padding-left:23px;}
+.birthd {background:url(/MyCV/templates/1085/images/icon-birthday.png) 0 2px no-repeat; padding-left:23px;}
+.emailc {background:url(/MyCV/templates/1085/images/icon-email.png) 0 2px no-repeat; padding-left:23px;}
+.telc {background:url(/MyCV/templates/1085/images/icon-phone.png) 0 2px no-repeat; padding-left:23px;}
+.addrc {background:url(/MyCV/templates/1085/images/icon-address.png) 0 2px no-repeat; padding-left:23px;}
 .lstinfo {display: flex; flex-wrap: wrap;}
 .lstinfo li {width:48%; display: inherit; margin-right:2%; margin-bottom: 10px;}
 .flexbox3 {display: -webkit-flex; display: -ms-flexbox; display: flex; overflow: hidden;}
@@ -209,3 +209,18 @@ body.page-preview .xbgcv.xbgcv1 {
     padding-bottom: 30px;
 }
 .template-special .x_hide{display: block !important;}
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+#cv-document [contenteditable=true] ul li::marker {
+    color:#b1b1b1
+}

@@ -87,7 +87,7 @@
                   </div>
                 </div>
               </div>
-              <div class="two-up__left-item" data-x-name="item" data-x-id="pLang">
+              <div class="two-up__left-item" data-x-name="item" data-x-id="plang">
                 <p class="h2 regular heading" data-x-name="head">
                   <span class="inline-block plr" data-x-id="tit" contenteditable="true">ngôn ngữ</span>
                 </p>

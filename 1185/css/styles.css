@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 body.page-preview,body.page-view,body.page-viewdemo{background:url(/images3/bg-cv/3.jpg) no-repeat;background-size:cover;background-attachment:fixed}
 body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width:150px;height:150px;background:url(/images3/bg-cv/7.2.png) no-repeat;background-size:cover}
 #cv-document{--fixed-size:0px;font-size:10px}
@@ -7,7 +8,16 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
 #cv-document .content{border-left-width:1px;border-left-style:solid;padding:.7em 0 1.1em 3em}
-#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol {
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
 #cv-document .page{display:flex}
 #cv-document .page__inner{display:flex;flex-direction:column;padding:4.4em 0 0}
 #cv-document .bottom{flex-grow:1;padding:3.9em 4em 0 3.9em}
@@ -109,7 +119,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .action__item:last-child{margin-bottom:0}
 #cv-document .action__item-pos{margin-bottom:.3em}
 #cv-document .action__item-date{display:inline-block;margin-bottom:1.4em;padding:0 .9em;letter-spacing:.8px}
-#cv-document .action__item-text br{content:"";display:block;margin-top:.1333333333em}
+/*#cv-document .action__item-text br{content:"";display:block;margin-top:.1333333333em}*/
 #cv-document .certification{margin-top:-.4em}
 #cv-document .certification__item{margin-bottom:1.6em}
 #cv-document .certification__item:last-child{margin-bottom:0}
@@ -120,12 +130,12 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .education__item-date{display:inline-block;margin-bottom:1.4em;padding:0 .9em;letter-spacing:.8px}
 #cv-document .education__item-pos{margin-bottom:.3em}
 #cv-document .education__item-cat{margin-bottom:.2em}
-#cv-document .education__item-text br{content:"";display:block;margin-top:.1333333333em}
+/*#cv-document .education__item-text br{content:"";display:block;margin-top:.1333333333em}*/
 #cv-document .experience__item{margin-bottom:1.2em}
 #cv-document .experience__item:last-child{margin-bottom:0}
 #cv-document .experience__item-pos{margin-bottom:.3em}
 #cv-document .experience__item-date{display:inline-block;margin-bottom:1.4em;padding:0 .9em;letter-spacing:.8px}
-#cv-document .experience__item-text br{content:"";display:block;margin-top:.1333333333em}
+/*#cv-document .experience__item-text br{content:"";display:block;margin-top:.1333333333em}*/
 #cv-document .hobby{flex-wrap:wrap;justify-content:space-between;display:flex}
 #cv-document .hobby__item{position:relative;margin-bottom:.3em;width:41%;padding-left:2.4em}
 #cv-document .hobby__item:last-child{margin-bottom:0}
@@ -133,7 +143,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .hobby__item::before{content:"";position:absolute;top:.5em;left:0;width:1.5em;height:1em}
 #cv-document .references__item{margin-bottom:.6em}
 #cv-document .references__item:last-child{margin-bottom:0}
-#cv-document .target br{content:"";display:block;margin-top:.4666666667em}
+/*#cv-document .target br{content:"";display:block;margin-top:.4666666667em}*/
 #cv-document .advantage{margin-top:1.4em}
 #cv-document .advantage__item{margin-bottom:.5em}
 #cv-document .advantage__item:last-child{margin-bottom:0}
@@ -160,7 +170,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .project__item-table .tr:first-child .td,#cv-document .project__item-table .tr:first-child .th{border-top-style:solid}
 #cv-document .project__item-table .tr:last-child .td,#cv-document .project__item-table .tr:last-child .th{border-bottom-width:1px;border-bottom-style:solid}
 #cv-document .cletter{border-width:1px;border-style:solid;padding:2em 2.3em}
-#cv-document .cletter br{content:"";display:block;margin-top:.4em}
+/*#cv-document .cletter br{content:"";display:block;margin-top:.4em}*/
 #cv-document [contentEditable] *{font-size:1em!important}
 [contenteditable]:focus{outline:1pt dashed #77a5cc!important;cursor:text}
 [contentEditable=true]:empty{outline:1pt dashed #fc4b08!important}

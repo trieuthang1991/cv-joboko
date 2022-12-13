@@ -126,7 +126,7 @@ body.page-preview .xbgcv.xbgcv1{
 }
 
 .box1 .text2 {
-	background-image: url('../images/img5.png');
+	background-image: url(/MyCV/templates/74/images/img5.png);
 	background-repeat: no-repeat;
 	padding-left: 20px;
 	font-size: 13px;
@@ -357,7 +357,7 @@ text2.x_ot{
 }
 
 #cv-document .inline-block{display:inline-block}
-#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.2em}
+/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.2em}*/
 [contenteditable=true]:empty:before {
     content: attr(placeholder)!important;
 }
@@ -367,4 +367,19 @@ text2.x_ot{
 	font-weight: 600;
     right: 10px;
     bottom: 10px;
+}
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+#cv-document [contenteditable=true] ul li::marker {
+    color:#b1b1b1
 }

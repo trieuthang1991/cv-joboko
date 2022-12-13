@@ -1,14 +1,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!--
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1155/font-sizes/font_normal.css?v=1661074713233">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1155/spacing/spacing_normal.css?v=1661074713233">
 <link rel="stylesheet" id="cv-font" href="/MyCv/templates/1155/fonts/default.css?v=1661074713233">
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1155/colors/007acc.css?v=1661074713234">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1155/css/styles.css?v=1661074713239">
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1155&color=007acc&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221209">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
     <!-- “page=1” và class=”page” -->
@@ -19,9 +19,8 @@
                     <div class="height-curent">
                         <div class="two-up__group">
                             <div class="avatar" data-x-name="item" data-x-id="info">
-                                <img data-x-id="ava" src="./images/avatar.png" alt="" />
-                                <img style="display:none" data-x-id="ava_vertical"
-                                    src="./images/avatar.png" alt="" />
+                                <img data-x-id="ava" src="/upload/images/avatars/no_avatar.jpg" alt="" />
+                                <img style="display:none" data-x-id="ava_vertical" src="/upload/images/avatars/no_avatar.jpg" alt="" />
                             </div>
                             <div class="info-main" data-x-name="item" data-x-id="info">
                                 <div class="info-main__item">
@@ -52,6 +51,14 @@
                                     <div class="p light" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com
                                     </div>
                                     <div class="info-detail__item-icon"><i class="p fa fa-envelope"></i></div>
+                                </div>
+								<div class="info-detail__item" data-x-rel="dob">
+                                    <div class="p light" contenteditable="true" data-x-id="dob">30/02/1998</div>
+                                    <div class="info-detail__item-icon"><i class="p fa fa-birthday-cake"></i></div>
+                                </div>
+								<div class="info-detail__item hide" data-x-rel="gen">
+                                    <div class="p light" contenteditable="true" data-x-id="gen">Nam</div>
+                                    <div class="info-detail__item-icon"><i class="p fa fa-male"></i></div>
                                 </div>
                                 <div class="info-detail__item" data-x-rel="web">
                                     <div class="p light" contenteditable="true" data-x-id="web">fb.com/jobokofanpage
@@ -128,7 +135,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="full-width__item" data-x-name="item" data-x-id="pLang">
+                        <div class="full-width__item" data-x-name="item" data-x-id="plang">
                             <p class="heading" data-x-name="head">
                                 <span class="h2 heading__title" data-x-id="tit" contenteditable="true">ngôn ngữ</span>
                                 <span class="heading__line"></span>
@@ -158,9 +165,7 @@
                             </p>
                             <div class="content skill" data-x-name="list-item">
                                 <div class="skill__item icon-title" data-x-name="sub-item">
-                                    <div class="p bold inline-block" contenteditable="true" data-x-id="name">HTML5 & CSS3
-                                    </div>
-                                    <div class="p light inline-block">:
+                                    <div class="p bold inline-block haicham" contenteditable="true" data-x-id="name">HTML5 & CSS3
                                     </div>
                                     <div class="p light inline-block" contenteditable="true" data-x-id="des">Tốt
                                     </div>
@@ -480,8 +485,7 @@
                             </p>
                             <div class="content skill" data-x-name="list-item">
                                 <div class="skill__item icon-title" data-x-name="sub-item">
-                                    <p class="p skill__item-title" contenteditable="true" data-x-id="name">HTML5 & CSS3
-                                    </p>
+                                    <div class="p skill__item-title" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
                                 </div>
                             </div>
                         </div>

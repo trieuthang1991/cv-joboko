@@ -1,4 +1,4 @@
-#cv-document .page--background{background:linear-gradient(to bottom,#2882c1,#662c81,#e4087e,#f7941d,#009444) no-repeat right top/5.2em 100%,url(../images/bg-02.png) no-repeat left bottom,#fff;color:#292929}
+#cv-document .page--background{background:linear-gradient(to bottom,#2882c1,#662c81,#e4087e,#f7941d,#009444) no-repeat right top/5.2em 100%,url(/MyCV/templates/1184/images/bg-02.png) no-repeat left bottom,#fff;color:#292929}
 #cv-document .heading__icon>span{border-color:#b5c8f7;background:linear-gradient(to right,#5271f9,#57216f);color:#fff}
 #cv-document .heading__icon::before{background-color:#fff}
 #cv-document .heading__title{color:#58286f}

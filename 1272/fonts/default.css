@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Helvetica';
-	src: url('./HelveticaNeue-Bold.eot');
-	src: url('./HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
-			url('./HelveticaNeue-Bold.woff2') format('woff2'),
-			url('./HelveticaNeue-Bold.woff') format('woff'),
-			url('./HelveticaNeue-Bold.ttf') format('truetype');
+	src: url('/MyCV/templates/1272/fonts/HelveticaNeue-Bold.eot');
+	src: url('/MyCV/templates/1272/fonts/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+			url('/MyCV/templates/1272/fonts/HelveticaNeue-Bold.woff2') format('woff2'),
+			url('/MyCV/templates/1272/fonts/HelveticaNeue-Bold.woff') format('woff'),
+			url('/MyCV/templates/1272/fonts/HelveticaNeue-Bold.ttf') format('truetype');
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;

@@ -1,11 +1,12 @@
+<!--
 <link id="cv-css" href="https://i-vn0.joboko.com/MyCV/templates/80/css/co-anh-simple.css?v=94" rel="stylesheet" />
 <link id="cv-font" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/80/fonts/default.css?v=41" />
 <link id="cv-font-size-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/80/font-sizes/font_normal.css?v=41" />
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/80/spacing/spacing_normal.css?v=41" />
-
 <link id="cv-scheme-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCV/templates/80/colors/4a4644.css?v=42" />
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=80&color=4a4644&font=default&size=font_normal&spacing=spacing_normal&more=co-anh-simple&v=221209">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <div id="form-cv" class="text-size line-size" data-x-name="parrent">
     <div class="container-main-container cv-main container-mains page" page='1'>
 
@@ -252,11 +253,15 @@
                                     data-x-id="tit">Kỹ Năng</span></div>
                             <div data-x-name="list-item">
                                 <div data-x-name="sub-item" class="sub-div clearfix txt-content">
-                                    <div contenteditable="true" data-x-id="name">Sử dụng autocad 2D trong bản vẽ thiết
+                                    <div class='bold' contenteditable="true" data-x-id="name">Sử dụng autocad 2D trong bản vẽ thiết
                                         kế hệ thống xử
                                         lý nước thải
                                     </div>
-                                    <div class="cvo-skillrate-bar progress-bar">
+                                    <div contenteditable="true" data-x-id="des">Sử dụng autocad 2D trong bản vẽ thiết
+                                        kế hệ thống xử
+                                        lý nước thải
+                                    </div>
+                                    <div class="cvo-skillrate-bar progress-bar hidden">
                                         <div data-x-id="val" value="4" class="cvo-skillrate-value progress-core"></div>
                                     </div>
                                 </div>

@@ -1,8 +1,11 @@
+<!--
 <link id="cv-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/41/css/cv.css?v=2.4" type="text/css">
-<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/41/colors/2f3a40.css?v=1.2">
+<link id="cv-scheme-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/41/colors/2f3a40.css?v=1.3">
 <link id="cv-font" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/41/fonts/default.css?v=1.0">
 <link id="cv-font-size-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/41/font-sizes/font_normal.css?v=1">
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/41/spacing/spacing_normal.css?v=1">
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=41&color=2f3a40&font=default&size=font_normal&spacing=spacing_normal&more=cv&v=221209">
 <div id="form-cv" data-x-name="parrent">
 <div class="cv-main page" page="1">
                 <div class="cv-left" data-x-name="col-parrent" data-x-col="1">
@@ -39,8 +42,9 @@
                                             năng</span></p>
                                     <div class="exp content-edit skill" data-x-name="list-item">
                                         <div class="cv-box-content" data-x-name="sub-item">
-                                            <p class="skill-name" data-x-id="name" contenteditable="true"></p>
-                                            <div class="bar-exp cvo-skillrate-bar"><span data-x-id="val"
+                                            <div class="skill-name bold" data-x-id="name" contenteditable="true"></div>
+                                            <div class="skill-des" data-x-id="des" contenteditable="true"></div>
+                                            <div class="bar-exp cvo-skillrate-bar hidden"><span data-x-id="val"
                                                     class="cvo-skillrate-value" value="3"></span></div>
                                         </div>
                                     </div>

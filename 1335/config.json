@@ -1,5 +1,5 @@
 ﻿{
-  "langs": [ "vi","en","ja","ko","zh"],
+  "langs": [ "vi","en"],
   "colors": [ "007acc", "164883", "00a79d", "ef4136", "292929", "33b452" ],
   "fonts": {
     "default":"Roboto",

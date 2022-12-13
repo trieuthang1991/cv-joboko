@@ -1,11 +1,12 @@
+<!--
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/css/sacmauV2.css?v=55">
 <link rel="stylesheet" id="cv-font-size-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/font-sizes/font_normal.css?v=55">
 <link rel="stylesheet" id="cv-spacing-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/spacing/spacing_normal.css?v=55">
 <link rel="stylesheet" id="cv-font" href="https://i-vn0.joboko.com/MyCv/templates/1085/fonts/default.css?v=55">
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/colors/a4dce4.css?v=55">
-
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1085&color=a4dce4&font=default&size=font_normal&spacing=spacing_normal&more=sacmauV2&v=221209">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
 	<!-- “page=1” và class=”page”   -->
@@ -54,7 +55,7 @@
 							<span class="spempty"></span>
 							<div class="bxitem2" data-x-name="item" data-x-id="info">
 								<ul class="lstinfo">
-<div data-x-id="gen" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
+									<div data-x-id="gen" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
 									<li data-x-rel="dob"><span class="birthd"></span><span class="dp-inline txt-content"
 											contenteditable="true" data-x-id="dob">20/08/1994</span>
 									</li>
@@ -100,8 +101,9 @@
 									data-x-id="tit">Kỹ năng</span></p>
 							<div class="bxinfo" data-x-name="list-item">
 								<div class="subdv" data-x-name="sub-item">
-									<div class="txtline txt-content" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
-									<div class="cvo-skillrate-bar">
+									<div class="txtline txt-content bold" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+									<div class="txtline txt-content " contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+									<div class="cvo-skillrate-bar hidden">
 										<div data-x-id="val" value="3"
 											class="cvo-skillrate-value icon-skillrate-value dot"></div>
 									</div>

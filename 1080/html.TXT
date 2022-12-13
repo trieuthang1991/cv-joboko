@@ -1,15 +1,13 @@
+<!--
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap">
 <link rel="stylesheet" id="cv-font-size-css" href="https://i-vn0.joboko.com/MyCv/templates/1080/font-sizes/font_normal.css">
 <link rel="stylesheet" id="cv-font" href="https://i-vn0.joboko.com/MyCv/templates/1080/fonts/default.css">
 <link rel="stylesheet" id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/1080/css/CV-edit.css?v=3.6">
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn0.joboko.com/MyCv/templates/1080/colors/54a62f.css">
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1080&color=54a62f&font=default&size=font_normal&spacing=spacing_normal&more=CV-edit&v=221209">
 <div id="form-cv" data-x-name="parrent">
   <div page='1' class="page pagemax bgpage">
- 
-
-
-
-
     <span style="display:none" contenteditable="true" data-x-id="web"></span>
     <div class="top-banner" data-x-name="item" data-x-id="info">
       <div class="contain-head">
@@ -76,8 +74,9 @@
                 </p>
                 <div class="bxinfo" data-x-name="list-item">
                   <div class="subdv" data-x-name="sub-item">
-                    <p data-x-id="name" contenteditable="true">HTML5 & CSS3</p>
-                    <div class="cvo-skillrate-bar">
+                    <div data-x-id="name" class="bold" contenteditable="true">HTML5 & CSS3</div>
+                     <div data-x-id="des" contenteditable="true">HTML5 & CSS3</div>
+                    <div class="cvo-skillrate-bar hidden">
                       <div data-x-id="val" value="3" class="cvo-skillrate-value icon-skillrate-value dot" name="skill.val"></div>
                     </div>
                   </div>

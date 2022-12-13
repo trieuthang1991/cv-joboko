@@ -40,7 +40,7 @@ height:100%;
 	width: 70%;
 	flex: 1;
 	background-color: #fff;
-	position: relative;
+	/*position: relative;*/
 }
 
 .page:last-child #cv-watermark{
@@ -124,34 +124,34 @@ height:100%;
 	width: 65%;
 }
 .icon-skillrate-value.dot[value="5"]{
-	content: url(../images/icon-skillvalue-rate5.png);
+	content: url(/MyCV/templates/75/images/icon-skillvalue-rate5.png);
 	width: 60%;
 	height: auto;
 	margin: 5px 0;
 }
-.icon-skillrate-value.dot[value="4"]{
-	content: url(../images/icon-skillvalue-rate4.png);
-	width: 60%;
-	height: auto;
-	margin: 5px 0;
+.icon-skillrate-value.dot[value="4"] {
+    content: url(/MyCV/templates/75/images/icon-skillvalue-rate4.png);
+    width: 60%;
+    height: auto;
+    margin: 5px 0;
 }
-.icon-skillrate-value.dot[value="3"]{
-	content: url(../images/icon-skillvalue-rate3.png);
-	width: 60%;
-	height: auto;
-	margin: 5px 0;
+.icon-skillrate-value.dot[value="3"] {
+    content: url(/MyCV/templates/75/images/icon-skillvalue-rate3.png);
+    width: 60%;
+    height: auto;
+    margin: 5px 0;
 }
-.icon-skillrate-value.dot[value="2"]{
-	content: url(../images/icon-skillvalue-rate2.png);
-	width: 60%;
-	height: auto;
-	margin: 5px 0;
+.icon-skillrate-value.dot[value="2"] {
+    content: url(/MyCV/templates/75/images/icon-skillvalue-rate2.png);
+    width: 60%;
+    height: auto;
+    margin: 5px 0;
 }
-.icon-skillrate-value.dot[value="1"]{
-	content: url(../images/icon-skillvalue-rate1.png);
-	width: 60%;
-	height: auto;
-	margin: 5px 0;
+.icon-skillrate-value.dot[value="1"] {
+    content: url(/MyCV/templates/75/images/icon-skillvalue-rate1.png);
+    width: 60%;
+    height: auto;
+    margin: 5px 0;
 }
 .mr-fixed {
 	margin-top: 255px;
@@ -167,14 +167,13 @@ height:100%;
 .fz-16 {
 	font-size: 16px;
 }
-.bul-cir:before {
+/*.bul-cir:before {
 	content: "●";
 	margin-right: 5px;
 }
 .bul-cir:empty::before {
 	content: "";
-	
-}
+}*/
 @media only screen and (max-width: 768px) {
 		.lt-spc {
 		letter-spacing: 0px !important;
@@ -246,4 +245,23 @@ height:100%;
 
 [contenteditable=true]:empty:before {
     content: attr(placeholder)!important;
+}
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol {
+    margin-left: 18px
+}
+
+    #cv-document [contenteditable=true] ol li {
+        list-style: auto;
+    }
+
+    #cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+        padding: 0;
+    }
+
+    #cv-document [contenteditable=true] ul li {
+        list-style-type: disc
+    }
+
+#cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more, #cv-document .cletter {
+    line-height: 24px
 }

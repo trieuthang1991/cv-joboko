@@ -54,9 +54,9 @@ body.page-preview, body.page-view, body.page-viewdemo {
     width: 100%
 }
 .box1 { margin-bottom: 15px; }
-.box1 .caption { background-image: url('../images/img4.png'); background-repeat: no-repeat; background-position: 8px center; background-color: #ed5587; height: 33px; line-height: 33px; text-transform: uppercase; color: white; font-size: 14px; padding-left: 35px; margin-bottom: 10px; }
+.box1 .caption { background-image: url('/MyCV/templates/73/images/img4.png'); background-repeat: no-repeat; background-position: 8px center; background-color: #ed5587; height: 33px; line-height: 33px; text-transform: uppercase; color: white; font-size: 14px; padding-left: 35px; margin-bottom: 10px; }
 .box1 .text {font-size:12px;padding-bottom:10px;text-align:justify;}
-.box1 .text2 { background-image: url('../images/img5.png');background-repeat:no-repeat;padding-left:20px; font-size: 13px; padding-bottom: 15px; text-align: justify; }
+.box1 .text2 { background-image: url('/MyCV/templates/73/images/img5.png');background-repeat:no-repeat;padding-left:20px; font-size: 13px; padding-bottom: 15px; text-align: justify; }
 .box1 .item-img { margin-bottom: 5px; overflow: hidden; border: 1px solid #ed2c50; border-radius: 50%; }
 .box1 .item-img img {width:100%;height:auto;}
 .box1 .item-text {font-size:11px;text-align:center; }
@@ -134,3 +134,18 @@ body.page-preview, body.page-view, body.page-viewdemo {
         padding: 0 30px 30px 340px !important;
     }
 } 
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+#cv-document .bullet-dot[contenteditable=true] ul li::marker {
+    font-size:18px;
+}

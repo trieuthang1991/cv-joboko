@@ -79,12 +79,12 @@ body.page-preview .xbgcv.xbgcv1{
 .pageCV:nth-child(n+2) .col_left .height_content{
 	min-height: 1042px;
 }
-.pageCV .col_right{
-	background: url(../images/bg.jpg) no-repeat;
+.pageCV .col_right {
+    background: url(/MyCV/templates/1076/images/bg.jpg) no-repeat;
     background-position-x: right;
     background-position-y: top;
-	width: 50%;
-	max-width: 50%;
+    width: 50%;
+    max-width: 50%;
 }
 .col_right .height_content {
     padding: 0 20px 20px;
@@ -237,9 +237,9 @@ body.page-preview .xbgcv.xbgcv1{
 .desItem strong {
 	color: #000;
 }
-.desItem br{
+/*.desItem br{
 	padding-top: 5px;
-}
+}*/
 .subEdu_PosDes{
 	display: flex;
 }
@@ -413,12 +413,27 @@ body.page-preview .xbgcv.xbgcv1{
 .page-preview .page-scale .cv_main .h-curent   {
 	height: 100%;
 }
-#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
-#cv-document .bullet:empty::before{content:""}
+/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
+#cv-document .bullet:empty::before{content:""}*/
 
 [contentEditable=true]:empty {
     outline: 1pt dashed #fc4b08!important;
 }
 [contenteditable=true]:empty:before {
     content: attr(placeholder)!important;
+}
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+#cv-document .bullet-dot[contenteditable=true] ul li::marker {
+    font-size:18px;
 }

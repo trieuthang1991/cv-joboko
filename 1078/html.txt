@@ -1,12 +1,13 @@
+<!--
 <link rel="stylesheet" id="cv-css" href="https://i-vn2.joboko.com/MyCv/templates/1078/css/cv-css.css?v=2.8">
 <link rel="stylesheet" id="cv-font" href="https://i-vn2.joboko.com/MyCv/templates/1078/fonts/arial.css">
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn2.joboko.com/MyCv/templates/1078/colors/71b593.css?v=2">
 <link rel="stylesheet" id="cv-font-size-css" href="https://i-vn2.joboko.com/MyCv/templates/1078/font-sizes/font_normal.css?v=1.5">
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCV/templates/1078/spacing/spacing_normal.css?v=1.4">
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1078&color=71b593&font=default&size=font_normal&spacing=spacing_normal&more=cv-css&v=221209">
 <div id="form-cv" data-x-name="parrent">
-  <div page='1' class="page pageCV">
-
-   
+  <div page='1' class="page pageCV">   
     <div id="cv-top">
       <div data-x-name="col-parrent" data-x-col="1" class="col_top">
         <div class="height-curent">
@@ -83,7 +84,7 @@
                   <div data-x-name="sub-item" class="subItem">
                     <div class="leftSub_ColLeft">★</div>
                     <div class="rightSub_ColLeft">
-                      <div data-x-id="name" contenteditable="true" class="subSkill_left txt-content">Tin học văn phòng</div>
+                      <div data-x-id="name" contenteditable="true" class="subSkill_left txt-content bold">Tin học văn phòng</div>
                       <div data-x-id="des" contenteditable="true" class="desItem txt-content">- Mô tả 1</div>
                     </div>
                   </div>

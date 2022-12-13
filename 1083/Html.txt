@@ -1,13 +1,13 @@
-<link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i|Open+Sans:300,400,600&display=swap"
-    rel="stylesheet">
+<!--
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i|Open+Sans:300,400,600&display=swap"rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" id="cv-css" href="https://i-vn2.joboko.com/MyCv/templates/1083/css/simple-12.css?v=3.8">
 <link rel="stylesheet" id="cv-font-size-css" href="https://i-vn2.joboko.com/MyCv/templates/1083/font-sizes/font_normal.css?v=3.8">
 <link rel="stylesheet" id="cv-font" href="https://i-vn2.joboko.com/MyCv/templates/1083/fonts/default.css?v=3.8">
 <link rel="stylesheet" id="cv-spacing-css" href="https://i-vn2.joboko.com/MyCv/templates/1083/spacing/spacing_normal.css?v=3.8">
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn2.joboko.com/MyCv/templates/1083/colors/c9e0df.css?v=3.8">
-
-
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1083&color=c9e0df&font=default&size=font_normal&spacing=spacing_normal&more=simple-12&v=221209">
 <div id="form-cv" data-x-name="parrent">
     <div class="page" page='1' fix="true">
 	
@@ -18,9 +18,8 @@
                         <div class="info-bl" data-x-name="item" data-x-id="info">
                             <div class="bd-avar">
                                 <div data-x-rel="avar" class="avar-img mrb-30">
-                                    <img data-x-id="ava" src="https://i-vn2.joboko.com/Upload/images/avatars/no_avatar.jpg">
-                                    <img style="display:none" data-x-id="ava_vertical"
-                                        src="https://i-vn2.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
+                                    <img data-x-id="ava" src="/upload/images/avatars/no_avatar.jpg">
+                                    <img style="display:none" data-x-id="ava_vertical" src="/upload/images/avatars/no_avatar.jpg" alt="" />
                                 </div>
                                 <div class="uppertext txt-name" contenteditable="true" data-x-id="name">triệu thị mỹ duyên</div>
                                 <div class="txt-job" contenteditable="true" data-x-id="job">kỹ sư</div>
@@ -75,9 +74,11 @@
                                 </div>
                                 <div class="gr-skill pdl-50" data-x-name="list-item">
                                     <div class="skill-blue" data-x-name="sub-item">
-                                        <div class=" tit-blue cl-fff txt-content" contenteditable="true" data-x-id="name">
+                                        <div class=" tit-blue cl-fff txt-content bold" style='margin-bottom:2px' contenteditable="true" data-x-id="name">
                                             Teamwork</div>
-                                        <div class="cvo-skillrate-bar progress-item progress-item-bl">
+                                        <div class="tit-blue cl-fff txt-content" contenteditable="true" data-x-id="des">
+                                            Teamwork</div>
+                                        <div class="cvo-skillrate-bar progress-item progress-item-bl hidden">
                                             <div data-x-id="val" value="3" class="cvo-skillrate-value progress-core">
                                             </div>
                                         </div>

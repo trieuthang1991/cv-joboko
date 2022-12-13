@@ -1,260 +1,244 @@
-
-<link rel="stylesheet" id="cv-css" href="https://i-vn1.joboko.com/MyCv/templates/1078/css/cv-css.css?v=2.8">
-<link rel="stylesheet" id ="cv-font" href="https://i-vn1.joboko.com/MyCv/templates/1078/fonts/arial.css">
-<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn1.joboko.com/MyCv/templates/1078/colors/71b593.css?v=2">
-<link rel="stylesheet" id ="cv-font-size-css" href="https://i-vn1.joboko.com/MyCv/templates/1078/font-sizes/font_normal.css?v=1.5">
-<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1078/spacing/spacing_normal.css?v=1.4">
+<!--
+<link rel="stylesheet" id="cv-css" href="https://i-vn2.joboko.com/MyCv/templates/1078/css/cv-css.css?v=2.8">
+<link rel="stylesheet" id="cv-font" href="https://i-vn2.joboko.com/MyCv/templates/1078/fonts/arial.css">
+<link rel="stylesheet" id="cv-scheme-css" href="https://i-vn2.joboko.com/MyCv/templates/1078/colors/71b593.css?v=2">
+<link rel="stylesheet" id="cv-font-size-css" href="https://i-vn2.joboko.com/MyCv/templates/1078/font-sizes/font_normal.css?v=1.5">
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn2.joboko.com/MyCV/templates/1078/spacing/spacing_normal.css?v=1.4">
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1078&color=71b593&font=default&size=font_normal&spacing=spacing_normal&more=cv-css&v=221209">
 <div id="form-cv" data-x-name="parrent">
-	<div page = '1' class="page pageCV">
-	<span style="display:none"  contenteditable="true" data-x-id="dob"></span>
-<span style="display:none"  contenteditable="true" data-x-id="add"></span>
-<span style="display:none"  contenteditable="true" data-x-id="tel"></span>
-<span style="display:none"  contenteditable="true" data-x-id="email"></span>
-<span style="display:none"  contenteditable="true" data-x-id="web"></span>
-		<div id="cv-top">
-			<div data-x-name="col-parrent" data-x-col="1" class="col_top">
-				<div class="height-curent">
-					<div data-x-name= "content" class="height_content">
-						<div  data-x-name = "item" data-x-id="info" class="itemInfo info_left">
-<div data-x-id="gen" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
-						    <div data-x-rel="dob" class="icoweb">
-						    	<i class="fa fa-birthday-cake icoweb_left" aria-hidden="true"></i>
-						    	<div data-x-id ="dob" contenteditable="true" class="icoweb_right txt-content">01/05/1989</div>
-						    </div>
-					    	<div data-x-rel="email" class="icoweb">
-					    		<i class="fa fa-envelope icoweb_left" aria-hidden="true"></i>
-					    		<div data-x-id ="email" contenteditable="true" class="icoweb_right txt-content">email@gmail.com</div>
-					    	</div>
-					    	<div data-x-rel="tel" class="icoweb">
-					    		<i class="fa fa-phone icoweb_left" aria-hidden="true"></i>
-					    		<div data-x-id ="tel" contenteditable="true" class="icoweb_right txt-content">093373878</div>
-					    	</div>
-						    <div data-x-rel="web" class="icoweb">
-						    	<i class="fa fa-facebook icoweb_left" aria-hidden="true"></i>
-						    	<div data-x-id ="web" contenteditable="true" class="icoweb_right txt-content">link website</div>
-							</div>
-							<div data-x-rel="add" class="icoweb">
-						    	<i class="fa fa-map-marker icoweb_left" aria-hidden="true"></i>
-						    	<div data-x-id ="add" contenteditable="true" class="icoweb_right txt-content">số nhà ...</div>
-						    </div>
-						</div>
-						<div  data-x-name = "item" data-x-id="info" class="itemInfo info_right">
-							<div class="sub_info_left">
-								<div data-x-rel= "name" class="icoweb icoweb_name">
-							        <div data-x-id="name" class="txt-name" contenteditable="true">Vũ Hải An</div>
-							    </div>
-							    <div data-x-rel="job" class="icoweb icoweb_job">
-							        <div data-x-id="job" class="txt-job" contenteditable="true">Vị trí A</div>
-							    </div> 
-							</div>
-							<div class="sub_info_right">
-								<div class="icoweb">
-									<img src="https://i-vn1.joboko.com/upload/images/avatars/no_avatar.jpg"  data-x-id="ava" class="img_ava hidden">
-                                                                        <img src="https://i-vn1.joboko.com/upload/images/avatars/no_avatar.jpg" data-x-id="ava_vertical"  class="img_ava">
-							    </div>
-								
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="cv-main">
-			<div data-x-name="col-parrent" data-x-col="2" class="col_bottom_left">
-				<div class="height-curent h_curent">
-					<div data-x-name= "content" class="height_content">
-						<div data-x-name = "group-item" class="groupItem">
-							<div data-x-name="item" data-x-id="tar" class="itemGroup itemTar">
-								<div data-x-name="head" class="tit-item">
-	                                <h2 data-x-id="tit" contenteditable="true" class="tit">Mục tiêu nghề nghiệp</h2>
-	                            </div>
-								<div data-x-name="list-item" class="listItem">
-									<div data-x-id="name" contenteditable="true" class="namesub txt-content">
-	                            		Chịu được áp lực trong công việc
-	                            	</div>
-								</div>
-							</div>
-							<div data-x-name="item" data-x-id="more" class="itemGroup itemMore">
-								<div data-x-name="head" class="tit-item">
-	                                <h2 data-x-id="tit" contenteditable="true" class="tit">Con người</h2>
-	                            </div>
-	                            <div data-x-name="list-item" class="listItem">
-	                            	<div data-x-id="name" contenteditable="true" data-x-bullet="★"  class="namesub txt-content">
-	                            		Chịu được áp lực trong công việc
-	                            	</div>
-							    </div>
-							</div>
-							<div data-x-name="item" data-x-id="skill" class="itemGroup itemSkill">
-								<div data-x-name="head" class="tit-item">
-	                                <h2 data-x-id="tit" contenteditable="true" class="tit">Kỹ năng</h2>
-	                            </div>
-	                            <div data-x-name="list-item" class="listItem">
-									<div data-x-name="sub-item" class="subItem">
-										<div class="leftSub_ColLeft">★</div>
-										<div class="rightSub_ColLeft">
-											<div data-x-id="name" contenteditable="true" class="subSkill_left txt-content">Tin học văn phòng</div>
-											<div data-x-id="des"  contenteditable="true" class="desItem txt-content">- Mô tả 1</div>
-										</div>
-									</div>
-									
-	                            </div>
-							</div>
-							<div data-x-name="item" data-x-id="ref" class="itemGroup itemref">
-								<div data-x-name="head" class="tit-item">
-	                                <h2 data-x-id="tit" contenteditable="true" class="tit">Tham khảo</h2>
-	                            </div>
-	                            <div data-x-name="list-item" class="listItem">
-									<div data-x-name="sub-item" class="subItem">
-										<div class="leftSub_ColLeft">★</div>
-										<div class="rightSub_ColLeft">
-											<div data-x-id="name" contenteditable="true" class="subSkill_left txt-content">
-												Đỗ việt anh<br>
-												<i>Nhân viên kinh doanh</i><br>
-												<b><i>Công ty CP xây dựng và phát triển</i></b>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-							<div data-x-name="item" data-x-id="hob" class="itemGroup itemref">
-								<div data-x-name="head" class="tit-item">
-	                                <h2 data-x-id="tit" contenteditable="true" class="tit">Sở thích</h2>
-	                            </div>
-	                            <div data-x-name="list-item" class="listItem">
-									<div data-x-name="sub-item" class="subItem">
-										<div class="leftSub_ColLeft">★</div>
-										<div class="rightSub_ColLeft">
-											<div data-x-id="name" contenteditable="true" class="subSkill_left txt-content">
-												Đỗ việt anh<br>
-												<i>Nhân viên kinh doanh</i><br>
-												<b><i>Công ty CP xây dựng và phát triển</i></b>
-											</div>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div data-x-name="col-parrent" data-x-col="3" class="col_bottom_right">
-				<div class="height-curent h_curent">
-					<div data-x-name= "content" class="height_content">
-						<div data-x-name = "group-item" class="groupItem">
-							<div data-x-name="item" data-x-id="exp" class="itemGroup itemExp">
-							    <div data-x-name="head" class="tit-item">
-							        <h2 data-x-id="tit" contenteditable="true" class="tit">Kinh nghiệm làm viếc</h2>
-							    </div>
-							    <div data-x-name="list-item" class="listItem">
-							        <div data-x-name="sub-item" class="subItem">
-							        	<i class="fa fa-circle fa_dot" aria-hidden="true"></i>
-							           	<div class="subTime">
-							                <span class="txt-content" data-x-id="start" contenteditable="true">4/2015</span>
-							                <span class="space_time">-</span>
-							                <span class="txt-content" data-x-id="end" contenteditable="true">6/2017</span>
-							            </div>
-							            <div class="space_name">
-							            	<div data-x-id="name" contenteditable="true" class="name_subitem">Công ty CP xây dựng và sản xuất nội thất KB <i>(Smart Home)</i></div>
-							            </div>
-							            <div data-x-id="pos" contenteditable="true" class="pos_subitem">Trợ lý dám đốc dự án</div>
-							            <div data-x-id="des" contenteditable="true" data-x-bullet="★" class="des_subitem txt-content">
-							            	Soan thảo, trình bày<br>
-		                            		★  Hướng ngoại
-							            </div>
-							        </div>
-							    </div>
-							</div>
-							<div data-x-name="item" data-x-id="edu" class="itemGroup itemEdu">
-							    <div data-x-name="head" class="tit-item">
-							        <h2 data-x-id="tit" contenteditable="true" class="tit">Học vấn</h2>
-							    </div>
-							    <div data-x-name="list-item" class="listItem">
-							        <div data-x-name="sub-item" class="subItem">
-							        	<i class="fa fa-circle fa_dot" aria-hidden="true"></i>
-							           	<div class="subTime">
-							                <span class="txt-content" data-x-id="start" contenteditable="true">4/2015</span>
-							                <span class="space_time">-</span>
-							                <span class="txt-content" data-x-id="end" contenteditable="true">6/2017</span>
-							            </div>
-							            <div class="space_name">
-							           		<div data-x-id="name" contenteditable="true" class="name_subitem">Công ty CP xây dựng và sản xuất nội thất KB <i>(Smart Home)</i></div>
-							            </div>
-							            <div data-x-id="cat" contenteditable="true" class="pos_subitem">Trợ lý dám đốc dự án</div>
-							            <div data-x-id="des" contenteditable="true" data-x-bullet="★" class="des_subitem txt-content">
-							            	Soan thảo, trình bày<br>
-		                            		★  Hướng ngoại
-							            </div>
-							        </div>
-							    </div>
-							</div>
-							<div data-x-name="item" data-x-id="act" class="itemGroup itemAct">
-							    <div data-x-name="head" class="tit-item">
-							        <h2 data-x-id="tit" contenteditable="true" class="tit">Hoạt động</h2>
-							    </div>
-							    <div data-x-name="list-item" class="listItem">
-							        <div data-x-name="sub-item" class="subItem">
-							        	<i class="fa fa-circle fa_dot" aria-hidden="true"></i>
-							           	<div class="subTime">
-							                <span class="txt-content" data-x-id="start" contenteditable="true">4/2015</span>
-							                <span class="space_time">-</span>
-							                <span class="txt-content" data-x-id="end" contenteditable="true">6/2017</span>
-							            </div>
-							            <div class="space_name">
-							            	<div data-x-id="name" contenteditable="true" class="name_subitem">Công ty CP xây dựng và sản xuất nội thất KB <i>(Smart Home)</i></div>
-							            </div>
-							            <div data-x-id="pos" contenteditable="true" class="pos_subitem">Trợ lý dám đốc dự án</div>
-							            <div data-x-id="des" contenteditable="true" data-x-bullet="★" class="des_subitem txt-content">
-							            	Soan thảo, trình bày<br>
-		                            		★  Hướng ngoại
-							            </div>
-							        </div>
-							        <div data-x-name="sub-item" class="subItem">
-							        	<i class="fa fa-circle fa_dot" aria-hidden="true"></i>
-							           	<div class="subTime">
-							                <span class="txt-content" data-x-id="start" contenteditable="true">4/2015</span>
-							                <span class="space_time">-</span>
-							                <span class="txt-content" data-x-id="end" contenteditable="true">6/2017</span>
-							            </div>
-							            <div class="space_name">
-							            	<div data-x-id="name" contenteditable="true" class="name_subitem">Công ty CP xây dựng và sản xuất nội thất KB</div>
-							            </div>
-							            <div data-x-id="pos" contenteditable="true" class="pos_subitem">Trợ lý dám đốc dự án</div>
-							            <div data-x-id="des" contenteditable="true" data-x-bullet="✫" class="des_subitem txt-content">
-							            	Soan thảo, trình bày<br>
-		                            		★  Hướng ngoại
-							            </div>
-							        </div>
-							    </div>
-							</div>
-						</div>
-					</div> 
-				</div>
-			</div>
-		</div>
-	</div>
+  <div page='1' class="page pageCV">   
+    <div id="cv-top">
+      <div data-x-name="col-parrent" data-x-col="1" class="col_top">
+        <div class="height-curent">
+          <div data-x-name="content" class="height_content">
+            <div data-x-name="item" data-x-id="info" class="itemInfo info_left">
+              <div data-x-id="gen" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
+              <div data-x-rel="dob" class="icoweb">
+                <i class="fa fa-birthday-cake icoweb_left" aria-hidden="true"></i>
+                <div data-x-id="dob" contenteditable="true" class="icoweb_right txt-content">01/05/1989</div>
+              </div>
+              <div data-x-rel="email" class="icoweb">
+                <i class="fa fa-envelope icoweb_left" aria-hidden="true"></i>
+                <div data-x-id="email" contenteditable="true" class="icoweb_right txt-content">email@gmail.com</div>
+              </div>
+              <div data-x-rel="tel" class="icoweb">
+                <i class="fa fa-phone icoweb_left" aria-hidden="true"></i>
+                <div data-x-id="tel" contenteditable="true" class="icoweb_right txt-content">093373878</div>
+              </div>
+              <div data-x-rel="web" class="icoweb">
+                <i class="fa fa-facebook icoweb_left" aria-hidden="true"></i>
+                <div data-x-id="web" contenteditable="true" class="icoweb_right txt-content">link website</div>
+              </div>
+              <div data-x-rel="add" class="icoweb">
+                <i class="fa fa-map-marker icoweb_left" aria-hidden="true"></i>
+                <div data-x-id="add" contenteditable="true" class="icoweb_right txt-content">số nhà ...</div>
+              </div>
+            </div>
+            <div data-x-name="item" data-x-id="info" class="itemInfo info_right">
+              <div class="sub_info_left">
+                <div data-x-rel="name" class="icoweb icoweb_name">
+                  <div data-x-id="name" class="txt-name" contenteditable="true">Vũ Hải An</div>
+                </div>
+                <div data-x-rel="job" class="icoweb icoweb_job">
+                  <div data-x-id="job" class="txt-job" contenteditable="true">Vị trí A</div>
+                </div>
+              </div>
+              <div class="sub_info_right">
+                <div class="icoweb">
+                  <img src="https://i-vn2.joboko.com/upload/images/avatars/no_avatar.jpg" data-x-id="ava" class="img_ava hidden">
+                  <img src="https://i-vn2.joboko.com/upload/images/avatars/no_avatar.jpg" data-x-id="ava_vertical" class="img_ava">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cv-main">
+      <div data-x-name="col-parrent" data-x-col="2" class="col_bottom_left">
+        <div class="height-curent h_curent">
+          <div data-x-name="content" class="height_content">
+            <div data-x-name="group-item" class="groupItem">
+              <div data-x-name="item" data-x-id="tar" class="itemGroup itemTar">
+                <div data-x-name="head" class="tit-item">
+                  <h2 data-x-id="tit" contenteditable="true" class="tit">Mục tiêu nghề nghiệp</h2>
+                </div>
+                <div data-x-name="list-item" class="listItem">
+                  <div data-x-id="name" contenteditable="true" class="namesub txt-content"> Chịu được áp lực trong công việc </div>
+                </div>
+              </div>
+              <div data-x-name="item" data-x-id="more" class="itemGroup itemMore">
+                <div data-x-name="head" class="tit-item">
+                  <h2 data-x-id="tit" contenteditable="true" class="tit">Con người</h2>
+                </div>
+                <div data-x-name="list-item" class="listItem">
+                  <div data-x-id="name" contenteditable="true" data-x-bullet="★" class="namesub txt-content"> Chịu được áp lực trong công việc </div>
+                </div>
+              </div>
+              <div data-x-name="item" data-x-id="skill" class="itemGroup itemSkill">
+                <div data-x-name="head" class="tit-item">
+                  <h2 data-x-id="tit" contenteditable="true" class="tit">Kỹ năng</h2>
+                </div>
+                <div data-x-name="list-item" class="listItem">
+                  <div data-x-name="sub-item" class="subItem">
+                    <div class="leftSub_ColLeft">★</div>
+                    <div class="rightSub_ColLeft">
+                      <div data-x-id="name" contenteditable="true" class="subSkill_left txt-content">Tin học văn phòng</div>
+                      <div data-x-id="des" contenteditable="true" class="desItem txt-content">- Mô tả 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-x-name="item" data-x-id="ref" class="itemGroup itemref">
+                <div data-x-name="head" class="tit-item">
+                  <h2 data-x-id="tit" contenteditable="true" class="tit">Tham khảo</h2>
+                </div>
+                <div data-x-name="list-item" class="listItem">
+                  <div data-x-name="sub-item" class="subItem">
+                    <div class="leftSub_ColLeft">★</div>
+                    <div class="rightSub_ColLeft">
+                      <div data-x-id="name" contenteditable="true" class="subSkill_left txt-content"> Đỗ việt anh <br>
+                        <i>Nhân viên kinh doanh</i>
+                        <br>
+                        <b>
+                          <i>Công ty CP xây dựng và phát triển</i>
+                        </b>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-x-name="item" data-x-id="hob" class="itemGroup itemref">
+                <div data-x-name="head" class="tit-item">
+                  <h2 data-x-id="tit" contenteditable="true" class="tit">Sở thích</h2>
+                </div>
+                <div data-x-name="list-item" class="listItem">
+                  <div data-x-name="sub-item" class="subItem">
+                    <div class="leftSub_ColLeft">★</div>
+                    <div class="rightSub_ColLeft">
+                      <div data-x-id="name" contenteditable="true" class="subSkill_left txt-content"> Đỗ việt anh <br>
+                        <i>Nhân viên kinh doanh</i>
+                        <br>
+                        <b>
+                          <i>Công ty CP xây dựng và phát triển</i>
+                        </b>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-x-name="col-parrent" data-x-col="3" class="col_bottom_right">
+        <div class="height-curent h_curent">
+          <div data-x-name="content" class="height_content">
+            <div data-x-name="group-item" class="groupItem">
+              <div data-x-name="item" data-x-id="exp" class="itemGroup itemExp">
+                <div data-x-name="head" class="tit-item">
+                  <h2 data-x-id="tit" contenteditable="true" class="tit">Kinh nghiệm làm viếc</h2>
+                </div>
+                <div data-x-name="list-item" class="listItem">
+                  <div data-x-name="sub-item" class="subItem">
+                    <i class="fa fa-circle fa_dot" aria-hidden="true"></i>
+                    <div class="subTime">
+                      <span class="txt-content" data-x-id="start" contenteditable="true">4/2015</span>
+                      <span class="space_time">-</span>
+                      <span class="txt-content" data-x-id="end" contenteditable="true">6/2017</span>
+                    </div>
+                    <div class="space_name">
+                      <div data-x-id="name" contenteditable="true" class="name_subitem">Công ty CP xây dựng và sản xuất nội thất KB <i>(Smart Home)</i>
+                      </div>
+                    </div>
+                    <div data-x-id="pos" contenteditable="true" class="pos_subitem">Trợ lý dám đốc dự án</div>
+                    <div data-x-id="des" contenteditable="true" data-x-bullet="★" class="des_subitem txt-content"> Soan thảo, trình bày <br> ★ Hướng ngoại </div>
+                  </div>
+                </div>
+              </div>
+              <div data-x-name="item" data-x-id="edu" class="itemGroup itemEdu">
+                <div data-x-name="head" class="tit-item">
+                  <h2 data-x-id="tit" contenteditable="true" class="tit">Học vấn</h2>
+                </div>
+                <div data-x-name="list-item" class="listItem">
+                  <div data-x-name="sub-item" class="subItem">
+                    <i class="fa fa-circle fa_dot" aria-hidden="true"></i>
+                    <div class="subTime">
+                      <span class="txt-content" data-x-id="start" contenteditable="true">4/2015</span>
+                      <span class="space_time">-</span>
+                      <span class="txt-content" data-x-id="end" contenteditable="true">6/2017</span>
+                    </div>
+                    <div class="space_name">
+                      <div data-x-id="name" contenteditable="true" class="name_subitem">Công ty CP xây dựng và sản xuất nội thất KB <i>(Smart Home)</i>
+                      </div>
+                    </div>
+                    <div data-x-id="cat" contenteditable="true" class="pos_subitem">Trợ lý dám đốc dự án</div>
+                    <div data-x-id="des" contenteditable="true" data-x-bullet="★" class="des_subitem txt-content"> Soan thảo, trình bày <br> ★ Hướng ngoại </div>
+                  </div>
+                </div>
+              </div>
+              <div data-x-name="item" data-x-id="act" class="itemGroup itemAct">
+                <div data-x-name="head" class="tit-item">
+                  <h2 data-x-id="tit" contenteditable="true" class="tit">Hoạt động</h2>
+                </div>
+                <div data-x-name="list-item" class="listItem">
+                  <div data-x-name="sub-item" class="subItem">
+                    <i class="fa fa-circle fa_dot" aria-hidden="true"></i>
+                    <div class="subTime">
+                      <span class="txt-content" data-x-id="start" contenteditable="true">4/2015</span>
+                      <span class="space_time">-</span>
+                      <span class="txt-content" data-x-id="end" contenteditable="true">6/2017</span>
+                    </div>
+                    <div class="space_name">
+                      <div data-x-id="name" contenteditable="true" class="name_subitem">Công ty CP xây dựng và sản xuất nội thất KB <i>(Smart Home)</i>
+                      </div>
+                    </div>
+                    <div data-x-id="pos" contenteditable="true" class="pos_subitem">Trợ lý dám đốc dự án</div>
+                    <div data-x-id="des" contenteditable="true" data-x-bullet="★" class="des_subitem txt-content"> Soan thảo, trình bày <br> ★ Hướng ngoại </div>
+                  </div>
+                  <div data-x-name="sub-item" class="subItem">
+                    <i class="fa fa-circle fa_dot" aria-hidden="true"></i>
+                    <div class="subTime">
+                      <span class="txt-content" data-x-id="start" contenteditable="true">4/2015</span>
+                      <span class="space_time">-</span>
+                      <span class="txt-content" data-x-id="end" contenteditable="true">6/2017</span>
+                    </div>
+                    <div class="space_name">
+                      <div data-x-id="name" contenteditable="true" class="name_subitem">Công ty CP xây dựng và sản xuất nội thất KB</div>
+                    </div>
+                    <div data-x-id="pos" contenteditable="true" class="pos_subitem">Trợ lý dám đốc dự án</div>
+                    <div data-x-id="des" contenteditable="true" data-x-bullet="✫" class="des_subitem txt-content"> Soan thảo, trình bày <br> ★ Hướng ngoại </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <div id="page" class="page pageCV" fix='true' style="display: none">
-	<div id="cv-top">
-		<div data-x-name="col-parrent" data-x-col="1" class="col_top">
-			<div class="height-curent">
-				<div data-x-name= "content" class="height_content"></div>
-			</div>
-		</div>
-	</div>
-	<div class="cv-main">
-		<div data-x-name="col-parrent" data-x-col="2" class="col_bottom_left">
-			<div class="height-curent h_curent">
-				<div data-x-name= "content" class="height_content"></div>
-			</div>
-		</div>
-		<div data-x-name="col-parrent" data-x-col="3" class="col_bottom_right">
-			<div class="height-curent h_curent">
-				<div data-x-name= "content" class="height_content"></div>
-			</div>
-		</div>
-	</div>
-	<div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a></div>
+  <div id="cv-top">
+    <div data-x-name="col-parrent" data-x-col="1" class="col_top">
+      <div class="height-curent">
+        <div data-x-name="content" class="height_content"></div>
+      </div>
+    </div>
+  </div>
+  <div class="cv-main">
+    <div data-x-name="col-parrent" data-x-col="2" class="col_bottom_left">
+      <div class="height-curent h_curent">
+        <div data-x-name="content" class="height_content"></div>
+      </div>
+    </div>
+    <div data-x-name="col-parrent" data-x-col="3" class="col_bottom_right">
+      <div class="height-curent h_curent">
+        <div data-x-name="content" class="height_content"></div>
+      </div>
+    </div>
+  </div>
+  <div id="cv-watermark">© <a href="https://joboko.com/" target="_blank"></a>
+  </div>
 </div>

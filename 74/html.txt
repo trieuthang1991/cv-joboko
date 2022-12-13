@@ -1,9 +1,12 @@
+<!--
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" id="cv-font-size-css" href="https://i-vn.joboko.com/MyCv/templates/74/font-sizes/font_normal.css">
 <link rel="stylesheet" id="cv-font" href="https://i-vn.joboko.com/MyCv/templates/74/fonts/default.css">
 <link rel="stylesheet" id="cv-spacing-css" href="https://i-vn.joboko.com/MyCv/templates/74/spacing/spacing_normal.css">
 <link rel="stylesheet" id="cv-css" href="https://i-vn.joboko.com/MyCv/templates/74/css/vector.css?v=4.6">
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn.joboko.com/MyCv/templates/74/colors/ed5587.css?v=3">
+-->
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=74&color=ed5587&font=default&size=font_normal&spacing=spacing_normal&more=vector&v=221209">
 <div class="cv-container" data-x-name="parrent">
     <div class="page bg-page" page="1">
  <div data-x-name="item" data-x-id="info">

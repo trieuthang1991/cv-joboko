@@ -8,7 +8,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .inline-block{display:inline-block}
 #cv-document .inline{display:inline}
 #cv-document .content{border-left-width:1px;border-left-style:solid;padding:.7em 0 1.1em 3em}
-#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
+/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
 #cv-document .page{display:flex}
 @media screen and (max-width:767px){
 #cv-document .page{background-size:2em auto}
@@ -26,7 +26,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .full-width{padding:0 2em}
 }
-#cv-document .full-width::after{content:"";position:absolute;z-index:2;top:-3.9em;left:0;width:63.3em;height:28.7em;background:url(../images/bg-01.png) no-repeat center/contain;pointer-events:none}
+#cv-document .full-width::after{content:"";position:absolute;z-index:2;top:-3.9em;left:0;width:63.3em;height:28.7em;background:url(/MyCV/templates/1184/images/bg-01.png) no-repeat center/contain;pointer-events:none}
 @media screen and (max-width:767px){
 #cv-document .full-width::after{width:32em;height:14.5em}
 }
@@ -162,13 +162,13 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .education__item-date{margin-bottom:1.1em;border-bottom-width:1px;border-bottom-style:dotted;padding-bottom:.2em}
 #cv-document .education__item-title{margin-bottom:.2em}
 #cv-document .education__item-cat{margin-bottom:.1em}
-#cv-document .education__item-text br{content:"";display:block;margin-top:.0666666667em}
+/*#cv-document .education__item-text br{content:"";display:block;margin-top:.0666666667em}*/
 #cv-document .experience__item{margin-bottom:1.2em}
 #cv-document .experience__item:last-child{margin-bottom:0}
 #cv-document .experience__item-title{margin-bottom:.2em}
 #cv-document .experience__item-wrap{justify-content:space-between;display:flex;margin-bottom:1.1em;border-bottom-width:1px;border-bottom-style:dotted;padding-bottom:.2em}
 #cv-document .experience__item-date{flex-shrink:0;margin-left:1em}
-#cv-document .experience__item-text br{content:"";display:block;margin-top:.0666666667em}
+/*#cv-document .experience__item-text br{content:"";display:block;margin-top:.0666666667em}*/
 #cv-document .hobby{margin-left:.8em}
 @media screen and (max-width:767px){
 #cv-document .hobby{margin-left:0}
@@ -179,7 +179,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .references__item{margin-bottom:.6em}
 #cv-document .references__item:last-child{margin-bottom:0}
 #cv-document .target{margin-top:-2.3em;border-width:1px;border-style:dashed;border-radius:1.2em;padding:3em 1.8em 1.9em}
-#cv-document .target br{content:"";display:block;margin-top:.2666666667em}
+/*#cv-document .target br{content:"";display:block;margin-top:.2666666667em}*/
 #cv-document .certification{margin-left:.8em}
 @media screen and (max-width:767px){
 #cv-document .certification{margin-left:0}
@@ -188,7 +188,26 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .certification__item:last-child{margin-bottom:0}
 #cv-document .certification__item::before{content:"";position:absolute;top:.8em;left:0;border-radius:50%;width:.6em;height:.6em}
 #cv-document .cletter{border-width:1px;border-style:dashed;border-radius:1em;padding:1.3em 1.9em 2em}
-#cv-document .cletter br{content:"";display:block;margin-top:1em}
+/*#cv-document .cletter br{content:"";display:block;margin-top:1em}*/
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol {
+    margin-left: 18px
+}
+
+    #cv-document [contenteditable=true] ol li {
+        list-style: auto;
+    }
+
+    #cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+        padding: 0;
+    }
+
+    #cv-document [contenteditable=true] ul li {
+        list-style-type: disc
+    }
+
+#cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more, #cv-document .cletter {
+    line-height: 24px
+}
 #cv-document .project{margin-bottom:6em}
 #cv-document .project__item{position:relative;margin-bottom:2em}
 #cv-document .project__item::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;border-width:1px;border-style:solid;border-radius:1em;pointer-events:none}

@@ -8,7 +8,22 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .inline-block{display:inline-block}
 #cv-document .inline{display:inline}
 #cv-document .content{border-left-width:1px;border-left-style:solid;padding:.7em 0 1.1em 3em}
-#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
+/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+#cv-document [contenteditable=true] ul li::marker {
+    color:#b1b1b1
+}
 #cv-document .page--background::after{content:"";position:absolute;top:0;bottom:0;left:0;border-right-width:1px;border-right-style:dotted;width:29.7em;pointer-events:none}
 @media screen and (max-width:767px){
 #cv-document .page--background::after{border-right:none;width:100%}
@@ -154,12 +169,12 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .references__item:last-child{margin-bottom:0}
 #cv-document .target{margin-top:1.5em}
 #cv-document .target>*{line-height:1.6}
-#cv-document .target br{content:"";display:block;margin-top:.7333333333em}
+/*#cv-document .target br{content:"";display:block;margin-top:.7333333333em}*/
 #cv-document .more__item{margin-bottom:10px}
 #cv-document .more__item:last-child{margin-bottom:0}
 #cv-document .cletter{border-width:1px;border-style:dashed;padding:1.5em 2.1em 2.1em}
 #cv-document .cletter>div{line-height:1.47}
-#cv-document .cletter br{content:"";display:block;margin-top:1.4em}
+/*#cv-document .cletter br{content:"";display:block;margin-top:1.4em}*/
 #cv-document .project__item{margin-bottom:2em}
 #cv-document .project__item:last-child{margin-bottom:0}
 #cv-document .project__item-head{position:relative;margin-bottom:1.3em;padding-left:2.4em}

@@ -10,8 +10,27 @@ body.page-preview, body.page-view, body.page-viewdemo {
     background-size: cover;
     background-attachment: fixed;
 }
-#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
-#cv-document .bullet:empty::before{content:""}
+/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
+#cv-document .bullet:empty::before{content:""}*/
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol {
+    margin-left: 18px
+}
+
+    #cv-document [contenteditable=true] ol li {
+        list-style: auto;
+    }
+
+    #cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+        padding: 0;
+    }
+
+    #cv-document [contenteditable=true] ul li {
+        list-style-type: disc
+    }
+
+        #cv-document [contenteditable=true] ul li::marker {
+            color: #b1b1b1
+        }
 
 body.page-preview .xbgcv.xbgcv1{
 	position: fixed;
@@ -127,20 +146,20 @@ body.page-preview .xbgcv.xbgcv1{
 	float: right;
 	margin: auto 0;
 }
-.item-skill .icon-skillrate-value[value="5"]{
-	content: url(../images/icon-skillvalue-rate5.png);
+.item-skill .icon-skillrate-value[value="5"] {
+    content: url(/MyCV/templates/69/images/icon-skillvalue-rate5.png);
 }
-.item-skill .icon-skillrate-value[value="4"]{
-	content: url(../images/icon-skillvalue-rate4.png);
+.item-skill .icon-skillrate-value[value="4"] {
+    content: url(/MyCV/templates/69/images/icon-skillvalue-rate4.png);
 }
-.item-skill .icon-skillrate-value[value="3"]{
-	content: url(../images/icon-skillvalue-rate3.png);
+.item-skill .icon-skillrate-value[value="3"] {
+    content: url(/MyCV/templates/69/images/icon-skillvalue-rate3.png);
 }
-.item-skill .icon-skillrate-value[value="2"]{
-	content: url(../images/icon-skillvalue-rate2.png);
+.item-skill .icon-skillrate-value[value="2"] {
+    content: url(/MyCV/templates/69/images/icon-skillvalue-rate2.png);
 }
-.item-skill .icon-skillrate-value[value="1"]{
-	content: url(../images/icon-skillvalue-rate1.png)
+.item-skill .icon-skillrate-value[value="1"] {
+    content: url(/MyCV/templates/69/images/icon-skillvalue-rate1.png)
 }
 .ml_ttl_inner {
     color: #fff;

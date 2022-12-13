@@ -7,8 +7,8 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
 #cv-document .content{border-left-width:1px;border-left-style:solid;padding:.7em 0 1.1em 3em}
-#cv-document .bullet:not(:empty)::before{content:attr(data-x-bullet);margin-right:.25em}
-#cv-document .bullet--right:not(:empty){position:relative;padding-right:33px;text-align:right}
+/*#cv-document .bullet:not(:empty)::before{content:attr(data-x-bullet);margin-right:.25em}*/
+/*#cv-document .bullet--right:not(:empty){position:relative;padding-right:33px;text-align:right}
 @media screen and (max-width:767px){
 #cv-document .bullet--right:not(:empty){padding-right:0;padding-left:20px;text-align:left}
 }
@@ -20,7 +20,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .bullet--right:not(:empty) br::before{content:"";position:absolute;top:6px;right:-30px;display:inline-block;margin-right:0;border-radius:50%;width:8px;height:8px;opacity:0.7}
 @media screen and (max-width:767px){
 #cv-document .bullet--right:not(:empty) br::before{right:auto;left:-20px}
-}
+}*/
 #cv-document .no-outline{outline:0}
 #cv-document .no-outline:hover{outline:0}
 #cv-document .page{display:flex}
@@ -152,13 +152,13 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .action__item:last-child{margin-bottom:0}
 #cv-document .action__item-tagline{margin-bottom:.6em}
 #cv-document .action__item-date{display:inline-block;margin-bottom:1.3em;padding:.1em 1em}
-#cv-document .action__item-text br{content:"";display:block;margin-top:.2666666667em}
+/*#cv-document .action__item-text br{content:"";display:block;margin-top:.2666666667em}*/
 #cv-document .education__item{margin-bottom:1.5em}
 #cv-document .education__item:last-child{margin-bottom:0}
 #cv-document .education__item-date{display:inline-block;margin-bottom:1.3em;padding:.1em 1em}
 #cv-document .education__item-pos{margin-bottom:.6em}
 #cv-document .education__item-cat{margin-bottom:.4em}
-#cv-document .education__item-text br{content:"";display:block;margin-top:.2666666667em}
+/*#cv-document .education__item-text br{content:"";display:block;margin-top:.2666666667em}*/
 #cv-document .experience__item{margin-bottom:1.5em;text-align:right}
 @media screen and (max-width:767px){
 #cv-document .experience__item{text-align:left}
@@ -167,7 +167,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .experience__item-wrap{margin-bottom:1.3em}
 #cv-document .experience__item-pos{margin-bottom:.6em}
 #cv-document .experience__item-date{display:inline-block;padding:.1em 1em}
-#cv-document .experience__item-text br{content:"";display:block;margin-top:.2666666667em}
+/*#cv-document .experience__item-text br{content:"";display:block;margin-top:.2666666667em}*/
 #cv-document .hobby__item{position:relative;margin-bottom:.5em;padding-top:.4em;padding-left:3em}
 #cv-document .hobby__item:last-child{margin-bottom:0}
 #cv-document .hobby__item::before{content:"";position:absolute;top:.9em;left:.2em;border-radius:50%;width:8px;height:8px;opacity:0.7}
@@ -180,7 +180,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .target::before{content:"";position:absolute;top:0;right:0;bottom:0;left:-99.9em}
 #cv-document .target::after{content:"";position:absolute;z-index:3;top:-2.5em;left:.4em;width:5.8em;height:4.2em}
 #cv-document .target>*{position:relative;z-index:2}
-#cv-document .target br{content:"";display:block;margin-top:.5em}
+/*#cv-document .target br{content:"";display:block;margin-top:.5em}*/
 #cv-document .award__item{margin-bottom:.5em}
 #cv-document .award__item:last-child{margin-bottom:0}
 #cv-document .award__item-title{margin-bottom:5px}
@@ -189,7 +189,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .certification__item-date{flex-shrink:0;padding-left:1em;text-align:right}
 #cv-document .cletter{border-width:1px;border-style:solid;padding:1.3em 2.1em 2.6em}
 #cv-document .cletter>div{line-height:1.46}
-#cv-document .cletter br{content:"";display:block;margin-top:.5333333333em}
+/*#cv-document .cletter br{content:"";display:block;margin-top:.5333333333em}*/
 #cv-document .project__item{position:relative;margin-bottom:2em}
 #cv-document .project__item::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;border-width:1px;border-style:solid;pointer-events:none}
 #cv-document .project__item:last-child{margin-bottom:0}

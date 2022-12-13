@@ -6,7 +6,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .page:last-child #cv-watermark{position:absolute;bottom:2em;right:1em}
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
-#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
+/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
 #cv-document .page{display:flex}
 #cv-document .bottom{width:100%;padding:0 4em}
 #cv-document .bottom__item{margin-bottom:4em}
@@ -104,7 +104,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .experience__item-date>span:last-child{margin-bottom:0}
 #cv-document .experience__item-title{margin-bottom:.4em}
 #cv-document .experience__item-pos{margin-bottom:1.1em}
-#cv-document .experience__item-text br{content:"";display:block;margin-top:.6666666667em}
+/*#cv-document .experience__item-text br{content:"";display:block;margin-top:.6666666667em}*/
 #cv-document .hobby{flex-wrap:wrap;display:flex;border-width:.2em;border-style:solid;border-radius:1.5em;padding:1.9em 2.5em 2em;text-align:center}
 #cv-document .hobby__item{position:relative;margin-top:2.4em;width:46%}
 #cv-document .hobby__item:nth-child(-n+2){margin-top:0}
@@ -155,7 +155,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .project__item-table .td{width:calc(100% - 13em);padding-left:1.5em}
 #cv-document .cletter{border-width:1px;border-style:solid;border-radius:1.2em;padding:1.8em 2.4em 2.6em}
 #cv-document .cletter>div{line-height:1.71}
-#cv-document .cletter br{content:"";display:block;margin-top:.5em}
+/*#cv-document .cletter br{content:"";display:block;margin-top:.5em}*/
 #cv-document [contentEditable] *{font-size:1em!important}
 [contenteditable]:focus{outline:1pt dashed #77a5cc!important;cursor:text}
 [contentEditable=true]:empty{outline:1pt dashed #fc4b08!important}
@@ -168,3 +168,18 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 
 #cv-document .inline {display:inline;min-width: 1em;}
 #cv-document .inline:empty {display:inline-block}
+#cv-document [contenteditable=true] ul, #cv-document [contenteditable=true] ol{
+    margin-left: 18px
+}
+#cv-document [contenteditable=true] ol li {
+    list-style: auto;
+}
+#cv-document [contenteditable=true] ul li, #cv-document [contenteditable=true] ol li {
+    padding: 0;
+}
+#cv-document [contenteditable=true] ul li {
+    list-style-type: disc
+}
+#cv-document [contenteditable=true] ul li::marker {
+    color:#b1b1b1
+}

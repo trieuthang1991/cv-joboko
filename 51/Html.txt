@@ -45,8 +45,9 @@
                             <p class="h3"><span id="cv-boxtitle" cv-form-field="true" contenteditable="true" data-x-id="tit" class="box-title">Kỹ năng</span></p>
                             <div class="exp content-edit skill" data-x-name="list-item">
                                 <div class="ctbx" data-x-name="sub-item">
-                                    <p class="skill-name" data-x-id="name" contenteditable="true">Tin Học Văn Phòng</p>
-                                    <div class="bar-exp cvo-skillrate-bar"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
+                                    <div class="skill-name bold" data-x-id="name" contenteditable="true">Tin Học Văn Phòng</div>
+                                    <div class="skill-des" data-x-id="des" contenteditable="true">Tin Học Văn Phòng</div>
+                                    <div class="bar-exp cvo-skillrate-bar hidden"><span data-x-id="val" class="cvo-skillrate-value" value="3"></span></div>
                                 </div>
                             </div>
 

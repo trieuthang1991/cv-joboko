@@ -22,7 +22,7 @@
                     <div class="box-contact">
                         <p class="icoweb" data-x-rel="dob"><i class="fa fa-calendar"></i><span data-x-id="dob"
                                 contenteditable="true">19/05/1992</span></p>
-                        <p class="icoweb" data-x-rel="gen"><i class="fa fa-user"></i><span data-x-id="gen"
+                        <p class="icoweb hide" data-x-rel="gen"><i class="fa fa-user"></i><span data-x-id="gen"
                                 contenteditable="true">Nam</span></p>
                         <p class="icoweb" data-x-rel="tel"><i class="fa fa-phone"></i><span data-x-id="tel"
                                 contenteditable="true"></span></p>

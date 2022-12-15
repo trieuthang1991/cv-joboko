@@ -51,7 +51,7 @@
                   <i class="p4 fa fa-birthday-cake"></i>
                   <span class="p" contenteditable="true" data-x-id="dob">20/08/1994</span>
                 </p>
-                <p class="info-detail__item" data-x-rel="gen">
+                <p class="info-detail__item hide" data-x-rel="gen">
                   <i class="p4 fa fa-user"></i>
                   <span class="p" contenteditable="true" data-x-id="gen">Nữ</span>
                 </p>

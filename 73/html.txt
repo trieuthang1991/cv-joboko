@@ -30,7 +30,7 @@
                                 </div>
                                 <div style="clear:both;height:100px;"></div>
                                 <div class="caption1" contenteditable="true" data-x-id="tit">Thông tin</div>
-                                <div class="item2" data-x-rel="gen">
+                                <div class="item2 hide" data-x-rel="gen">
                                     <i class="fa fa-user cl-grey icon1" aria-hidden="true"></i>
                                     <div class="text txt-content" contenteditable="true" data-x-id="gen">Nữ</div>
                                 </div>

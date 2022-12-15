@@ -33,7 +33,7 @@
                                     <span class="posp"></span>
                                 </div>
 
-                                <div class="item2" data-x-rel="gen">
+                                <div class="item2 hide" data-x-rel="gen">
                                     <span class="icon-item"><i class="fa fa-user cl-grey icon1"
                                             aria-hidden="true"></i></span>
                                     <div class="text txt-content" contenteditable="true" data-x-id="gen">Nữ</div>

@@ -28,7 +28,7 @@
                         <div class="block cvo-block box-contact ui-sortable-handle" data-x-id="info" data-x-name="item">
                             <p class="h3 head"><span contenteditable="true" data-x-id="tit">Thông tin liên hệ</span></p>
                             <p class="icoweb" data-x-rel="dob"><label data-x-label="info.dob">Ngày sinh</label><span data-x-id="dob" contenteditable="true">19/05/1992</span></p>
-                            <p class="icoweb" data-x-rel="gen"><label data-x-label="info.gen">Giới tính</label><span data-x-id="gen" contenteditable="true">Nam</span></p>
+                            <p class="icoweb hide" data-x-rel="gen"><label data-x-label="info.gen">Giới tính</label><span data-x-id="gen" contenteditable="true">Nam</span></p>
                             <p class="icoweb" data-x-rel="tel"><label data-x-label="info.tel">Điện thoại</label><span data-x-id="tel" contenteditable="true"></span></p>
                             <p class="icoweb" data-x-rel="email"><label data-x-label="info.email">Email</label><span data-x-id="email" contenteditable="true"></span></p>                            
                             <p class="icoweb" data-x-rel="web"><label data-x-label="info.web">Website</label><span data-x-id="web" contenteditable="true">facebook.com/abc</span></p>

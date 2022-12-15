@@ -43,7 +43,7 @@
 								</div>
 								<p data-x-id="dob" class="txt-content" contenteditable="true">30/02/1998</p>
 							</div>
-							<div class="icoweb" data-x-rel="gen">
+							<div class="icoweb hide" data-x-rel="gen">
 								<div class="info-icon">
 									<i class="fa fa-male" aria-hidden="true"></i>
 								</div>

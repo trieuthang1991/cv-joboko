@@ -42,7 +42,7 @@
                     </div>
                     <div class="p regular" contenteditable="true" data-x-id="dob">30/02/1998</div>
                   </div>
-                  <div class="info-detail__item" data-x-rel="gen">
+                  <div class="info-detail__item hide" data-x-rel="gen">
                     <div class="info-detail__item-icon">
                       <i class="p fa fa-male"></i>
                     </div>

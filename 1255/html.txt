@@ -56,7 +56,7 @@
                                         <div class="p light inline-block" contenteditable="true" data-x-id="dob">30/02/1998</div>
                                     </div>
                                 </div>
-								<div class="info-detail__item" data-x-rel="gen">
+								<div class="info-detail__item hide" data-x-rel="gen">
                                     <div class="info-detail__item-icon">
                                         <i class="p3 fa fa-male"></i>
                                     </div>

@@ -1,5 +1,5 @@
 <!--
-<link id="cv-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/53/css/cv.css?v=1.9" type="text/css">
+<link id="cv-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/53/css/cv.css?v=2.0" type="text/css">
 <link id="cv-scheme-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/53/colors/4f84a6.css?v=1.1">
 <link id="cv-font" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/53/fonts/default.css?v=1">
 <link id="cv-font-size-css" rel="stylesheet" href="https://i-vn.joboko.com/MyCv/templates/53/font-sizes/font_normal.css?v=1">

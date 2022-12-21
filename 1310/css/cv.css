@@ -240,3 +240,6 @@ span.date{font-weight:normal;font-style:italic;padding:0 10px;float:right}
 #cv-document [contenteditable] ul li::marker {
     color:#b1b1b1
 }
+.bold{
+	font-weight: bold;
+}

@@ -84,7 +84,7 @@
                   <div data-x-name="sub-item" class="subItem">
                     <div class="leftSub_ColLeft">★</div>
                     <div class="rightSub_ColLeft">
-                      <div data-x-id="name" contenteditable="true" class="subSkill_left txt-content">Tin học văn phòng</div>
+                      <div data-x-id="name" contenteditable="true" class="subSkill_left txt-content bold">Tin học văn phòng</div>
                       <div data-x-id="des" contenteditable="true" class="desItem txt-content">- Mô tả 1</div>
                     </div>
                   </div>

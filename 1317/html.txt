@@ -65,9 +65,10 @@
                 <div class="skill" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
-                      <div class="p light bullet" data-x-bullet="-" contenteditable="true" data-x-id="name">Giao tiếp</div>
+                      <div class="p bold bullet" data-x-bullet="-" contenteditable="true" data-x-id="name">Giao tiếp</div>
+                       <div class="p light bullet" data-x-bullet="-" contenteditable="true" data-x-id="des">Giao tiếp</div>
                     </div>
-                    <div class="skill__item-content">
+                    <div class="skill__item-content hidden">
                       <div class="cvo-skillrate-bar">
                         <div class="cvo-skillrate cvo-skillrate-value" data-x-id="val" value="3">
                           <span></span><span></span><span></span><span></span><span></span>

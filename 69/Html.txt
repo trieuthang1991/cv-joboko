@@ -95,7 +95,7 @@
 							</div>
 							<div data-x-name="list-item">
 								<div data-x-name="sub-item" class="sub-item" style='flex-wrap: wrap;'>
-									<div class=" bold txt-content" data-x-id="name" contenteditable="true">
+									<div class=" bold txt-content" style='width:100%' data-x-id="name" contenteditable="true">
 										Microsoft power
 										point</div>
 										<div class=" txt-content" data-x-id="des" contenteditable="true">

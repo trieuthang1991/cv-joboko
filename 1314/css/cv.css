@@ -250,3 +250,7 @@ p.head i.fa{float:left}
 #cv-document [contenteditable] ul li::marker {
     color:#b1b1b1
 }
+
+.bold{
+ font-weight: bold;
+}

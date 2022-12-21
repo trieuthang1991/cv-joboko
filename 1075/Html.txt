@@ -1,6 +1,6 @@
 <link href="https://fonts.googleapis.com/css?family=Cookie|Open+Sans|Source+Code+Pro|Dancing+Script:wght@700|Pacifico&display=swap" rel="stylesheet">
 <!--
-<link id="cv-css" href="https://i-vn1.joboko.com/MyCV/templates/1075/css/style-simple-back-ground.css?v=4.8" rel="stylesheet" />
+<link id="cv-css" href="https://i-vn1.joboko.com/MyCV/templates/1075/css/style-simple-back-ground.css?v=4.9" rel="stylesheet" />
 <link id="cv-font" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1075/fonts/default.css?v=40" />
 <link id="cv-font-size-css" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1075/font-sizes/font_normal.css?v=40" />
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/1075/spacing/spacing_normal.css?v=40" />

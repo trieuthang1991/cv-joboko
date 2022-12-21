@@ -42,7 +42,7 @@
                     </div>
                     <div class="p regular" contenteditable="true" data-x-id="dob">30/02/1998</div>
                   </div>
-                  <div class="info-detail__item" data-x-rel="gen">
+                  <div class="info-detail__item hide" data-x-rel="gen">
                     <div class="info-detail__item-icon">
                       <i class="p fa fa-male"></i>
                     </div>
@@ -101,9 +101,10 @@
                 <div class="content skill" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
-                      <div class="h4 light bullet" data-x-bullet="•" contenteditable="true" data-x-id="name">Tư vấn bán hàng qua điện thoại</div>
+                      <div class="h4 light bullet regular " style='margin-bottom:5px' data-x-bullet="•" contenteditable="true" data-x-id="name">Tư vấn bán hàng qua điện thoại</div>
+                      <div class="p2 light" data-x-bullet="•" contenteditable="true" data-x-id="des">Tư vấn bán hàng qua điện thoại</div>
                     </div>
-                    <div class="skill__item-content">
+                    <div class="skill__item-content hidden">
                       <div class="cvo-skillrate-bar">
                         <div class="cvo-skillrate-progress cvo-skillrate-value" data-x-id="val" value="3">
                           <span></span>

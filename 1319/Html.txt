@@ -253,11 +253,15 @@
                                     data-x-id="tit">Kỹ Năng</span></div>
                             <div data-x-name="list-item">
                                 <div data-x-name="sub-item" class="sub-div clearfix txt-content">
-                                    <div contenteditable="true" data-x-id="name">Sử dụng autocad 2D trong bản vẽ thiết
+                                    <div class='bold' contenteditable="true" data-x-id="name">Sử dụng autocad 2D trong bản vẽ thiết
                                         kế hệ thống xử
                                         lý nước thải
                                     </div>
-                                    <div class="cvo-skillrate-bar progress-bar">
+                                    <div contenteditable="true" data-x-id="des">Sử dụng autocad 2D trong bản vẽ thiết
+                                        kế hệ thống xử
+                                        lý nước thải
+                                    </div>
+                                    <div class="cvo-skillrate-bar progress-bar hidden">
                                         <div data-x-id="val" value="4" class="cvo-skillrate-value progress-core"></div>
                                     </div>
                                 </div>

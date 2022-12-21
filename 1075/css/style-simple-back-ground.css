@@ -89,7 +89,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 
 /* content */
 #cv-document .content {
-    padding: 20px 55px 0px 0px;
+    padding: 20px 55px 55px 0px;
     display: flex;
 }
 

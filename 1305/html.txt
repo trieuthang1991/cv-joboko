@@ -175,8 +175,8 @@
                                 </div>
                                 <div class="hobby content" data-x-name="list-item">
                                     <div class="hobby__item" data-x-name="sub-item">
-                                        <div class="p bold inline-block" data-x-id="name" contenteditable="true">Chụp ảnh</div>
-                                        <div class="p inline-block">:</div>
+                                        <div class="p bold inline-block haicham" data-x-id="name" contenteditable="true">Chụp ảnh</div>
+                                       
                                         <div class="p inline-block" data-x-id="des" contenteditable="true">Tốt</div>
                                     </div>
                                 </div>

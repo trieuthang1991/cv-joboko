@@ -51,7 +51,7 @@
                   <i class="p4 fa fa-birthday-cake"></i>
                   <span class="p" contenteditable="true" data-x-id="dob">20/08/1994</span>
                 </p>
-                <p class="info-detail__item" data-x-rel="gen">
+                <p class="info-detail__item hide" data-x-rel="gen">
                   <i class="p4 fa fa-user"></i>
                   <span class="p" contenteditable="true" data-x-id="gen">Nữ</span>
                 </p>
@@ -216,9 +216,10 @@
                   <span class="h3" data-x-id="tit" contenteditable="true">Kỹ năng</span>
                 </p>
                 <div class="content skill" data-x-name="list-item">
-                  <div class="skill__item" data-x-name="sub-item">
-                    <div class="p skill__item-title" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
-                    <div class="cvo-skillrate-bar">
+                  <div class="skill__item" data-x-name="sub-item" style='flex-wrap: wrap;'>
+                    <div class="p skill__item-title h4 " style='width:100%;' contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+                     <div class="p " contenteditable="true" data-x-id="des">HTML5 & CSS3</div>
+                    <div class="cvo-skillrate-bar hidden">
                       <div class="cvo-skillrate cvo-skillrate-value" data-x-id="val" value="3">
                         <span></span><span></span><span></span><span></span><span></span>
                       </div>

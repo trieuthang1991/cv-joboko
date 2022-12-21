@@ -1,6 +1,6 @@
 ﻿{
   "langs": [ "vi","en"],
-  "colors": [ "ca5178", "3b3987", "12a3ea", "f14100", "00cb78" ],
+  "colors": [ "ca5178", "3b3987", "12a3ea", "f14100","00cb78" ],
   "fonts": {
     "default":"Nunito Sans",
     "arial": "Arial",

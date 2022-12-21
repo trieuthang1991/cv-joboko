@@ -165,9 +165,7 @@
                             </p>
                             <div class="content skill" data-x-name="list-item">
                                 <div class="skill__item icon-title" data-x-name="sub-item">
-                                    <div class="p bold inline-block" contenteditable="true" data-x-id="name">HTML5 & CSS3
-                                    </div>
-                                    <div class="p light inline-block">:
+                                    <div class="p bold inline-block haicham" contenteditable="true" data-x-id="name">HTML5 & CSS3
                                     </div>
                                     <div class="p light inline-block" contenteditable="true" data-x-id="des">Tốt
                                     </div>

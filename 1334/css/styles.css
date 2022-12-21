@@ -175,3 +175,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
     line-height: 1.71;
 }
 .template-special .x_hide{display: flex !important;}
+
+#cv-document .haicham:after {
+    content: ":";
+}

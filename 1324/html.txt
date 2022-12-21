@@ -21,8 +21,8 @@
           <div class="height-curent">
             <div class="avatar" data-x-name="item" data-x-id="info">
               <div class="avatar__image">
-                <img data-x-id="ava" style="display:none" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-                <img data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+                <img data-x-id="ava" style="display:none" src="/upload/images/avatars/no_avatar.jpg" alt="" />
+                <img data-x-id="ava_vertical" src="/upload/images/avatars/no_avatar.jpg" alt="" />
               </div>
             </div>
             <div class="info-main" data-x-name="item" data-x-id="info">
@@ -59,7 +59,7 @@
                   </div>
                   <div class="p light" contenteditable="true" data-x-id="dob">30/02/1998</div>
                 </div>
-				<div class="info-detail__item" data-x-rel="gen">
+				<div class="info-detail__item hide" data-x-rel="gen">
                   <div class="info-detail__item-icon">
                     <i class="p3 fa fa-male"></i>
                   </div>
@@ -83,8 +83,7 @@
                 <div class="content skill" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
-                      <div class="p bold inline-block" contenteditable="true" data-x-id="name">Giao tiếp</div>
-                      <div class="p light inline-block">:</div>
+                      <div class="p bold inline-block haicham" contenteditable="true" data-x-id="name">Giao tiếp</div>
                       <div class="p light inline-block" contenteditable="true" data-x-id="des">Tốt</div>
                     </div>
                   </div>

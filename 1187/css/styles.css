@@ -175,3 +175,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 
 #cv-document .inline {display:inline;min-width: 1em;}
 #cv-document .inline:empty {display:inline-block}
+
+#cv-document .haicham:after {
+    content: ":";
+}

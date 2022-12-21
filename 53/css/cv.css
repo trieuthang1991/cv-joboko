@@ -71,6 +71,7 @@ p.skill-name{
 .cv-left .cv-box-content {
 	padding-bottom: 0;
 	margin:0;
+	color: #fff;
 }
 .skill{
 	margin-top: 15px
@@ -271,3 +272,4 @@ span.exp-date{float:right}
 #cv-document [contenteditable] ul li::marker {
     color:#b1b1b1
 }
+

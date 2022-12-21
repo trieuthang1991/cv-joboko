@@ -107,7 +107,7 @@
                                     <div class="skill__item" data-x-name="sub-item">
                                         <div class="skill__item-title">
                                             <div class="p bold" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
-                                                 <div class="p light" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+                                                 <div class="p light" contenteditable="true" data-x-id="des">HTML5 & CSS3</div>
                                         </div>
                                         <div class="skill__item-content hidden">
                                             <div class="cvo-skillrate-bar">

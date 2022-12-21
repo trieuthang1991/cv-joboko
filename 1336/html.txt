@@ -56,7 +56,7 @@
                                         <div class="p light inline-block" contenteditable="true" data-x-id="dob">30/02/1998</div>
                                     </div>
                                 </div>
-								<div class="info-detail__item" data-x-rel="gen">
+								<div class="info-detail__item hide" data-x-rel="gen">
                                     <div class="info-detail__item-icon">
                                         <i class="p3 fa fa-male"></i>
                                     </div>
@@ -117,9 +117,10 @@
                                 <div class="skill" data-x-name="list-item">
                                     <div class="skill__item" data-x-name="sub-item">
                                         <div class="skill__item-title">
-	                                      <div class="p light" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+	                                      <div class="p bold" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+                                           <div class="p light" contenteditable="true" data-x-id="des">HTML5 & CSS3</div>
 	                                    </div>
-	                                    <div class="skill__item-content">
+	                                    <div class="skill__item-content hidden">
 	                                      <div class="cvo-skillrate-bar">
 	                                        <div class="cvo-skillrate cvo-skillrate-value" data-x-id="val" value="3">
 	                                          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>

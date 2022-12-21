@@ -43,7 +43,7 @@
 								</div>
 								<p data-x-id="dob" class="txt-content" contenteditable="true">30/02/1998</p>
 							</div>
-							<div class="icoweb" data-x-rel="gen">
+							<div class="icoweb hide" data-x-rel="gen">
 								<div class="info-icon">
 									<i class="fa fa-male" aria-hidden="true"></i>
 								</div>
@@ -94,11 +94,14 @@
 								<h2 data-x-id="tit" contenteditable="true" class="ml_ttl_inner">kỹ năng</h2>
 							</div>
 							<div data-x-name="list-item">
-								<div data-x-name="sub-item" class="sub-item">
-									<div class="name-sub-skill txt-content" data-x-id="name" contenteditable="true">
+								<div data-x-name="sub-item" class="sub-item" style='flex-wrap: wrap;'>
+									<div class=" bold txt-content" style='width:100%' data-x-id="name" contenteditable="true">
 										Microsoft power
 										point</div>
-									<div class="cvo-skillrate-bar skillrate-bar">
+										<div class=" txt-content" data-x-id="des" contenteditable="true">
+										Microsoft power
+										point</div>
+									<div class="cvo-skillrate-bar skillrate-bar hidden">
 										<div data-x-id="val" value="5"
 											class="cvo-skillrate-value icon-skillrate-value dot"></div>
 									</div>

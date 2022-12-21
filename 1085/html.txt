@@ -102,7 +102,7 @@
 							<div class="bxinfo" data-x-name="list-item">
 								<div class="subdv" data-x-name="sub-item">
 									<div class="txtline txt-content bold" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
-									<div class="txtline txt-content " contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+									<div class="txtline txt-content " contenteditable="true" data-x-id="des">HTML5 & CSS3</div>
 									<div class="cvo-skillrate-bar hidden">
 										<div data-x-id="val" value="3"
 											class="cvo-skillrate-value icon-skillrate-value dot"></div>

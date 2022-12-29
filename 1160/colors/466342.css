@@ -29,7 +29,7 @@
 #cv-document .cvo-skillrate-radial>span::after,#cv-document .cvo-skillrate-radial>span::before{border-color:#466342}
 #cv-document .avatar{background-color:#fff}
 #cv-document .info-detail__item-icon{background-color:#466342;color:#fff}
-#cv-document .action__item-title,#cv-document .experience__item-title{color:#544234}
+#cv-document .action__item-title,#cv-document .experience__item-title{color:#333}
 #cv-document .info-main::before{background-color:#466342}
 #cv-document .info-main::after{background-color:#bfdfab}
 /*#cv-document .bullet:not(:empty) br::before,#cv-document .bullet:not(:empty)::before{color:#ddb772}*/

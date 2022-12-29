@@ -61,7 +61,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .heading{margin-right:-2em}
 }
 #cv-document .heading::after{content:"";flex-grow:1;display:block;height:1.4em}
-#cv-document .heading__title{flex-shrink:0;margin-right:1em;max-width:calc(100% - 3em);letter-spacing:.5em}
+#cv-document .heading__title{flex-shrink:0;margin-right:1em;max-width:calc(100% - 3em)}
 @media screen and (max-width:767px){
 #cv-document .heading__title{max-width:calc(100% - 1em)}
 }
@@ -92,7 +92,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .info-detail::after{content:"";position:absolute;top:0;right:0;bottom:0;width:3em}
 #cv-document .info-detail__item{position:relative;z-index:2;justify-content:flex-end;display:flex;padding:.6em 0;text-align:right}
 #cv-document .info-detail__item-icon{position:relative;top:.2em;flex-shrink:0;margin-left:1.4em;min-width:3em;text-align:center}
-#cv-document .skill__item{margin-bottom:2.8em}
 #cv-document .skill__item:last-child{margin-bottom:0}
 #cv-document .skill__item-title{margin-bottom:1.3em}
 #cv-document .skill__item-title>*{line-height:1.34}

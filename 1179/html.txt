@@ -28,37 +28,37 @@
                     <div class="info-detail__item-icon">
                       <i class="p fa fa-volume-control-phone"></i>
                     </div>
-                    <div class="p regular" contenteditable="true" data-x-id="tel">0123456789</div>
+                    <div class="p light" contenteditable="true" data-x-id="tel">0123456789</div>
                   </div>
                   <div class="info-detail__item" data-x-rel="email">
                     <div class="info-detail__item-icon">
                       <i class="p fa fa-envelope"></i>
                     </div>
-                    <div class="p regular" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com</div>
+                    <div class="p light" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com</div>
                   </div>
 				  <div class="info-detail__item" data-x-rel="dob">
                     <div class="info-detail__item-icon">
                       <i class="p fa fa-birthday-cake"></i>
                     </div>
-                    <div class="p regular" contenteditable="true" data-x-id="dob">30/02/1998</div>
+                    <div class="p light" contenteditable="true" data-x-id="dob">30/02/1998</div>
                   </div>
                   <div class="info-detail__item hide" data-x-rel="gen">
                     <div class="info-detail__item-icon">
                       <i class="p fa fa-male"></i>
                     </div>
-                    <div class="p regular" contenteditable="true" data-x-id="gen">Nam</div>
+                    <div class="p light" contenteditable="true" data-x-id="gen">Nam</div>
                   </div>
 				  <div class="info-detail__item" data-x-rel="add">
                     <div class="info-detail__item-icon">
                       <i class="p fa fa-map-marker"></i>
                     </div>
-                    <div class="p regular" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
+                    <div class="p light" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
                   </div>
                   <div class="info-detail__item" data-x-rel="web">
                     <div class="info-detail__item-icon">
                       <i class="p fa fa-facebook-official"></i>
                     </div>
-                    <div class="p regular" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
+                    <div class="p light" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
                   </div>
                 </div>
               </div>
@@ -254,12 +254,12 @@
                       </div>
                       <div class="experience__item-wrap">
                         <div class="experience__item-pos">
-                          <div class="p regular" contenteditable="true" data-x-id="pos">Nhân viên Marketing</div>
+                          <div class="p light " contenteditable="true" data-x-id="pos">Nhân viên Marketing</div>
                         </div>
                         <div class="experience__item-date">
-                          <div class="p regular inline-block" contenteditable="true" data-x-id="start">10/2016</div>
-                          <div class="p regular inline-block">-</div>
-                          <div class="p regular inline-block" contenteditable="true" data-x-id="end">03/2018</div>
+                          <div class="p light  inline-block" contenteditable="true" data-x-id="start">10/2016</div>
+                          <div class="p light  inline-block">-</div>
+                          <div class="p light  inline-block" contenteditable="true" data-x-id="end">03/2018</div>
                         </div>
                       </div>
                     </div>

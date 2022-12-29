@@ -52,7 +52,6 @@
                             data-x-id="email">thanhtrucplvn@gmail.com</span>
                     </li>
 <div data-x-id="gen" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
-<div data-x-id="dob" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
                 </ul>
             </div>
         </div>

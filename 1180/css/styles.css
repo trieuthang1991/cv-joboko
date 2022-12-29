@@ -106,15 +106,15 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .info-detail__item-icon{position:relative;flex-shrink:0;justify-content:center;align-items:center;display:flex;margin-right:1.2em;border-radius:50%;width:2.6em;height:2.6em;text-align:center}
 #cv-document .skill{margin-top:2em}
 #cv-document .skill__item{position:relative;margin-bottom:1.2em;padding-left:2.8em}
-#cv-document .skill__item::before{content:"";position:absolute;top:.6em;left:.5em;border-radius:50%;width:.9em;height:.9em}
+#cv-document .skill__item::before{content:"";position:absolute;top:.6em;left:1.3em;border-radius:50%;width:.9em;height:.9em}
 #cv-document .skill__item:last-child{margin-bottom:0}
 #cv-document .skill-ta{margin-top:2em}
 #cv-document .skill-ta__item{position:relative;margin-bottom:1.2em;padding-left:2.8em}
-#cv-document .skill-ta__item::before{content:"";position:absolute;top:.6em;left:.5em;border-radius:50%;width:.9em;height:.9em}
+#cv-document .skill-ta__item::before{content:"";position:absolute;top:.6em;left:1.3em;border-radius:50%;width:.9em;height:.9em}
 #cv-document .skill-ta__item:last-child{margin-bottom:0}
 #cv-document .skill-th{margin-top:2.1em}
 #cv-document .skill-th__item{position:relative;margin-bottom:.7em;padding-left:3.6em}
-#cv-document .skill-th__item::before{content:"";position:absolute;top:.3em;left:.5em;width:1.6em;height:1.6em}
+#cv-document .skill-th__item::before{content:"";position:absolute;top:.3em;left:1em;width:1.6em;height:1.6em}
 #cv-document .skill-th__item:last-child{margin-bottom:0}
 #cv-document .cvo-skillrate{align-items:center;display:flex}
 #cv-document .cvo-skillrate i{margin-right:3px;font-size:22px}
@@ -154,10 +154,10 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .experience__item:last-child{padding-bottom:0}
 #cv-document .experience__item-title{margin-bottom:1px}
 #cv-document .experience__item-date{margin-bottom:.5em}
-#cv-document .hobby{flex-wrap:wrap;justify-content:space-between;display:flex;margin-top:-1.2em}
-#cv-document .hobby__item{position:relative;margin-top:2.2em;width:50%;padding-left:4.1em}
+/*#cv-document .hobby{flex-wrap:wrap;justify-content:space-between;display:flex;margin-top:-1.2em}*/
+#cv-document .hobby__item{position:relative;/*margin-top:2.2em;width:50%*/margin-top:1em;padding-left:4.1em}
 #cv-document .hobby__item:nth-child(even){margin-left:auto}
-#cv-document .hobby__item::before{content:"";position:absolute;top:.2em;left:1.1em;width:1.9em;height:1.7em}
+#cv-document .hobby__item::before{content:"";position:absolute;top:.2em;left:1em;width:1.9em;height:1.7em}
 #cv-document .references{padding:.8em 0 0 1em}
 #cv-document .references__item{margin-bottom:.6em}
 #cv-document .references__item:last-child{margin-bottom:0}
@@ -167,7 +167,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .advantage__item:last-child{margin-bottom:0}
 #cv-document .advantage__item-title>*{line-height:1.375}
 #cv-document .certification__item{position:relative;justify-content:space-between;align-items:flex-start;display:flex;margin-bottom:.7em;padding-left:2.8em}
-#cv-document .certification__item::before{content:"";position:absolute;top:.6em;left:.5em;border-radius:50%;width:.9em;height:.9em}
+#cv-document .certification__item::before{content:"";position:absolute;top:.6em;left:1.3em;border-radius:50%;width:.9em;height:.9em}
 #cv-document .certification__item:last-child{margin-bottom:0}
 #cv-document .certification__item-date{flex-shrink:0;padding-left:1em;text-align:right}
 #cv-document .project__item{position:relative;margin-bottom:2em}

@@ -55,8 +55,6 @@
             </div>
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
-<div data-x-id="dob" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
-<div data-x-id="gen" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
                     <i class="p2 fa fa-volume-control-phone"></i>

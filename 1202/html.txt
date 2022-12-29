@@ -81,7 +81,7 @@
             <div class="no-outline" data-x-name="item" data-x-id="tar">
               <div style="display: none;" data-x-id="tit" contenteditable="true">Mục tiêu nghề nghiệp</div>
               <div class="target">
-                <div class="h4 regular italic bullet" data-x-bullet="-" contenteditable="true" data-x-id="name">
+                <div class="p light bullet" data-x-bullet="-" contenteditable="true" data-x-id="name">
                   Trở thành nhân viên bán hàng chuyên nghiệp, tạo ra sự hài lòng cho khách hàng và lợi nhuận cho công ty <br>
     - Học hỏi thêm các kinh nghiệm từ những chuyên gia bán hàng, trải nghiệm thực tế.
                 </div>
@@ -209,9 +209,6 @@
                       <div class="p2 bold inline-block" data-x-id="end" contenteditable="true">03/2018</div>
                     </div>
                     <div class="education__item-cat" data-x-rel="cat">
-                      <div class="p light inline-block">-</div>
-                      <div class="p light inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                      <div class="p light inline-block">:</div>
                       <div class="p light inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                     </div>
                     <div class="education__item-text">

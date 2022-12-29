@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'UTM Avo';
-	src: url('./UTMAvo.eot');
-	src: url('./UTMAvo.eot?#iefix') format('embedded-opentype'),
-			url('./UTMAvo.woff2') format('woff2'),
-			url('./UTMAvo.woff') format('woff'),
-			url('./UTMAvo.ttf') format('truetype');
+	src: url('/MyCV/templates/1264/fonts/UTMAvo.eot');
+	src: url('/MyCV/templates/1264/fonts/UTMAvo.eot?#iefix') format('embedded-opentype'),
+			url('/MyCV/templates/1264/fonts/UTMAvo.woff2') format('woff2'),
+			url('/MyCV/templates/1264/fonts/UTMAvo.woff') format('woff'),
+			url('/MyCV/templates/1264/fonts/UTMAvo.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;

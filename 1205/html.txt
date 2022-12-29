@@ -244,9 +244,6 @@
                         <div class="h4 regular uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                       </div>
                       <div class="education__item-cat" data-x-rel="cat">
-                        <div class="p light inline-block">-</div>
-                        <div class="p light inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                        <div class="p light inline-block">:</div>
                         <div class="p light inline" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="education__item-text">
@@ -340,7 +337,7 @@
                   <div class="project__item" data-x-name="sub-item">
                     <div class="project__item-head">
                       <div class="project__item-title">
-                        <div class="p regular inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
+                        <div class="p regular inline-block uppercase" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
                       </div>
                       <div class="project__item-time">
                         <div class="p regular inline-block" data-x-id="start" contenteditable="true">2016</div>

@@ -93,8 +93,8 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .info-detail__item:last-child::after{content:none}
 #cv-document .info-detail__item-icon{position:relative;flex-shrink:0;margin-right:.8em;min-width:1.2em;text-align:center}
 #cv-document .info-detail__item-icon>i{line-height:1}
-#cv-document .skill{flex-wrap:wrap;display:flex;padding-top:.4em}
-#cv-document .skill__item{position:relative;margin-bottom:.6em;width:50%;padding-left:2.2em}
+#cv-document .skill{flex-wrap:wrap;display:flex;padding-top:.4em;justify-content: space-between}
+#cv-document .skill__item{position:relative;margin-bottom:.6em;width:49%;padding-left:2.2em}
 #cv-document .skill__item::before{content:"";position:absolute;top:.6em;left:0;border-radius:50%;width:8px;height:8px}
 #cv-document .action{padding-top:.5em}
 #cv-document .action__item{align-items:flex-start;display:flex;margin-bottom:1.2em}

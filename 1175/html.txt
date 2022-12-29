@@ -10,7 +10,7 @@
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1175/colors/7c1baf.css?v=1661074544994">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1175/css/styles.css?v=1661074544994">
 -->
-<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1175&color=7c1baf&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221209">
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1175&color=7c1baf&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221228">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
@@ -73,8 +73,8 @@
         <div data-x-name="col-parrent" data-x-col="2" class="full-width__right">
           <div class="height-curent">
             <div class="avatar" data-x-name="item" data-x-id="info">
-              <img data-x-id="ava" style="display:none" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-              <img data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+              <img data-x-id="ava" style="display:none" src="/upload/images/avatars/no_avatar.jpg" alt="" />
+              <img data-x-id="ava_vertical" src="/upload/images/avatars/no_avatar.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@
                   <div class="experience__item" data-x-name="sub-item">
                     <div class="experience__item-head">
                       <div class="experience__item-title">
-                        <div class="h3 regular uppercase" contenteditable="true" data-x-id="name">Front-End Developer
+                        <div class="h3 bold uppercase" contenteditable="true" data-x-id="name">Front-End Developer
                         </div>
                       </div>
                       <div class="experience__item-wrap">
@@ -139,7 +139,7 @@
                   <div class="action__item" data-x-name="sub-item">
                     <div class="action__item-head">
                       <div class="action__item-title">
-                        <div class="h3 regular" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
+                        <div class="h3 bold uppercase" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
                       </div>
                       <div class="action__item-wrap">
                         <div class="action__item-tagline">
@@ -210,7 +210,7 @@
                   <div class="education__item" data-x-name="sub-item">
                     <div class="education__item-head">
                       <div class="education__item-title">
-                        <div class="h3 regular" data-x-id="name" contenteditable="true">Đại học RMIT</div>
+                        <div class="h3 bold uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                       </div>
                       <div class="education__item-date">
                         <div class="p2 regular inline-block" data-x-id="start" contenteditable="true">10/2016</div>
@@ -220,9 +220,6 @@
                     </div>
                     <div class="education__item-content">
                       <div class="education__item-pos" data-x-rel="cat">
-                        <div class="p light inline-block">-</div>
-                        <div class="p light inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                        <div class="p light inline-block">:</div>
                         <div class="p light inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin
                         </div>
                       </div>
@@ -374,7 +371,7 @@
                   <div class="project__item" data-x-name="sub-item">
                     <div class="project__item-head">
                       <div class="project__item-title">
-                        <div class="p bold inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
+                        <div class="p bold uppercase inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
                       </div>
                       <div class="project__item-time">
                         <div class="p2 regular inline-block" data-x-id="start" contenteditable="true">2016</div>

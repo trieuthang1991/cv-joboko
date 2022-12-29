@@ -64,17 +64,7 @@
                                     <div class="p light" contenteditable="true" data-x-id="web">fb.com/jobokofanpage
                                     </div>
                                     <div class="info-detail__item-icon"><i class="p fa fa-facebook-official"></i></div>
-                                </div>
-                                 <div class="info-detail__item x_hide" data-x-rel="gen">
-                                    <div class="p light" contenteditable="true" data-x-id="gen">fb.com/jobokofanpage
-                                    </div>
-                                    <div class="info-detail__item-icon"><i class="p fa fa-facebook-official"></i></div>
-                                </div>
-                                <div class="info-detail__item x_hide" data-x-rel="dob">
-                                    <div class="p light" contenteditable="true" data-x-id="dob">fb.com/jobokofanpage
-                                    </div>
-                                    <div class="info-detail__item-icon"><i class="p fa fa-facebook-official"></i></div>
-                                </div>  
+                                </div>                                  
                             </div>
                         </div>
                     </div>

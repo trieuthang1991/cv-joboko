@@ -127,7 +127,7 @@
                 <div class="experience" data-x-name="list-item">
                   <div class="experience__item" data-x-name="sub-item">
                     <div class="experience__item-title">
-                      <div class="p medium uppercase" contenteditable="true" data-x-id="name">Front-End Developer</div>
+                      <div class="p bold uppercase" contenteditable="true" data-x-id="name">Front-End Developer</div>
                     </div>
                     <div class="experience__item-wrap">
                       <div class="experience__item-pos">
@@ -170,11 +170,11 @@
                 <div class="education" data-x-name="list-item">
                   <div class="education__item" data-x-name="sub-item">
                     <div class="education__item-title">
-                      <div class="p medium uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
+                      <div class="p bold uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                     </div>
                     <div class="education__item-wrap">
                       <div class="education__item-pos" data-x-rel="cat">
-                        <div class="p regular capitalize">Khoa: <div class="inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
+                        <div class="p regular capitalize"><div class="inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                         </div>
                       </div>
                       <div class="education__item-date">
@@ -198,7 +198,7 @@
                 <div class="project" data-x-name="list-item">
                   <div class="project__item" data-x-name="sub-item">
                     <div class="project__item-title">
-                      <div class="p medium uppercase" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
+                      <div class="p bold uppercase" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
                     </div>
                     <div class="project__item-time">
                       <div class="p medium inline-block" data-x-id="start" contenteditable="true">2016</div>
@@ -419,7 +419,7 @@
     <div class="p regular inline-block" data-x-id="end" contenteditable="true">03/2018</div>
   </div>
   <div class="action__item-title">
-    <div class="p medium uppercase" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
+    <div class="p bold uppercase" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
   </div>
   <div class="action__item-pos">
     <div class="p medium capitalize" data-x-id="pos" contenteditable="true">Tình nguyện viên</div>

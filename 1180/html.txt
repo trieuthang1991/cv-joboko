@@ -28,8 +28,8 @@
               </div>
             </div>
             <div class="avatar" data-x-name="item" data-x-id="info">
-              <img data-x-id="ava" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-              <img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+              <img data-x-id="ava" src="/upload/images/avatars/no_avatar.jpg" alt="" />
+              <img style="display:none" data-x-id="ava_vertical" src="/upload/images/avatars/no_avatar.jpg" alt="" />
             </div>
           </div>
           <div class="full-width__bottom">
@@ -249,9 +249,6 @@
                       </div>
                     </div>
                     <div class="education__item-cat" data-x-rel="cat">
-                      <div class="p regular inline-block">-</div>
-                      <div class="p regular inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                      <div class="p regular inline-block">:</div>
                       <div class="p regular inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                     </div>
                     <div class="p bullet education__item-text" data-x-bullet="-" data-x-id="des" contenteditable="true">Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</div>

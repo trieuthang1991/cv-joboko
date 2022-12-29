@@ -81,7 +81,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .info-detail__item{align-items:flex-start;display:flex;border-bottom-width:.1px;border-bottom-style:dashed;padding:.6em 0}
 #cv-document .info-detail__item:last-child{border-bottom:none}
 #cv-document .info-detail__item-icon{flex-shrink:0;margin-top:.4em;margin-right:1.5em;width:1.2em;text-align:center}
-#cv-document .skill__item{margin-bottom:2.2em}
 #cv-document .skill__item:last-child{margin-bottom:0}
 #cv-document .skill__item-title{margin-top:.8em}
 #cv-document .cvo-skillrate-progress{display:flex;border-width:1px;border-style:solid;height:9px}

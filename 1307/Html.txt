@@ -149,9 +149,7 @@
                                                 data-x-id="end">Jan 2018</span></div>
 
                                         <div class="txt-edu">
-                                            <span><label class="txt4" data-x-label="edu.cat">Chuyên ngành</label>:</span> <div
-                                                class="text-capi txt4 inline" contenteditable="true" data-x-id="cat">Quy Hoạch Đô
-                                                Thị</div>
+                                            <div class="text-capi txt4 inline" contenteditable="true" data-x-id="cat">Quy Hoạch Đô Thị</div>
                                         </div>
                                         <div class="des-bl des-tar txt-content bullet" data-x-bullet="-" contenteditable="true" data-x-id="des"><i>
                                                 Developed creative ideas and executed plans for organizing an amazing

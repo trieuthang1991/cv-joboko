@@ -20,11 +20,6 @@
                     <div class="height-curent">
                         <div data-x-name="item" data-x-id="info">
                             <div class="info-detail">
-                                <p class="info-detail__item" data-x-rel="add">
-                                    <i class="p5 fa fa-map-marker"></i>
-                                    <span class="p" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà
-                                        Nội</span>
-                                </p>
                                 <p class="info-detail__item" data-x-rel="tel">
                                     <i class="p5 fa fa-volume-control-phone"></i>
                                     <span class="p" contenteditable="true" data-x-id="tel">0123456789</span>
@@ -45,6 +40,11 @@
                                 <p class="info-detail__item" data-x-rel="web">
                                     <i class="p5 fa fa-facebook-official"></i>
                                     <span class="p" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</span>
+                                </p>
+								<p class="info-detail__item" data-x-rel="add">
+                                    <i class="p5 fa fa-map-marker"></i>
+                                    <span class="p" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà
+                                        Nội</span>
                                 </p>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                                 <div class="content education" data-x-name="list-item">
                                     <div class="education__item" data-x-name="sub-item">
                                         <div class="education__item-title">
-                                            <div class="h4" data-x-id="name" contenteditable="true">Đại học RMIT</div>
+                                            <div class="h4 bold" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                                         </div>
                                         <div class="education__item-date">
                                             <span class="p3 regular inline-block" data-x-id="start"
@@ -118,10 +118,7 @@
                                         </div>
                                         <div class="education__item-content">
                                             <div data-x-rel="cat">
-                                                <span class="p inline-block">-</span> <span class="p inline-block"
-                                                    data-x-label="edu.cat">Chuyên ngành</span><span
-                                                    class="p inline-block">:</span> <span class="p inline-block"
-                                                    data-x-id="cat" contenteditable="true">Hệ thống thông tin</span>
+                                                <span class="p inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</span>
                                             </div>
                                             <div class="p bullet education__item-text" data-x-bullet="-" data-x-id="des"
                                                 contenteditable="true">Tốt nghiệp loại khá giỏi, điểm trung bình 8.3
@@ -142,7 +139,7 @@
                                 </div>
                                 <div class="content experience" data-x-name="list-item">
                                     <div class="experience__item" data-x-name="sub-item">
-                                        <p class="h4 experience__item-title" contenteditable="true" data-x-id="name">
+                                        <p class="h4 experience__item-title bold" contenteditable="true" data-x-id="name">
                                             Front-End Developer</p>
                                         <div class="experience__item-wrap">
                                             <div class="p3" contenteditable="true" data-x-id="pos">Nhân viên Marketing</div>
@@ -194,7 +191,7 @@
                                     <div class="project__item" data-x-name="sub-item">
                                         <div class="project__item-head">
                                             <div class="project__item-title">
-                                                <div class="p regular inline-block" data-x-id="name"
+                                                <div class="p bold inline-block" data-x-id="name"
                                                     contenteditable="true">RAINWAY GROUP</div>
                                             </div>
                                             <div class="project__item-time">
@@ -382,7 +379,7 @@
                                             <div class="p inline-block" contenteditable="true" data-x-id="name">Tiếng Anh
                                             </div>
                                         </div>
-                                        <div class="cvo-skillrate-bar">
+                                        <div class="cvo-skillrate-bar hide">
                                             <div class="cvo-skillrate cvo-skillrate-value" data-x-id="val" value="3">
                                                 <span></span><span></span><span></span><span></span><span></span>
                                             </div>
@@ -436,7 +433,7 @@
                                 <div class="action" data-x-name="list-item">
                                     <div class="action__item" data-x-name="sub-item">
                                         <div class="action__item-title">
-                                            <div class="p regular" data-x-id="name" contenteditable="true">Chiến dịch "ÁO
+                                            <div class="p  bold" data-x-id="name" contenteditable="true">Chiến dịch "ÁO
                                                 ẤM CHO EM"</div>
                                         </div>
                                         <div class="action__item-date">

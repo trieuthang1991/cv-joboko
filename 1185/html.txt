@@ -127,9 +127,6 @@
                     </div>
                     <div class="education__item-content">
                       <div class="education__item-cat" data-x-rel="cat">
-                        <div class="p regular inline-block">-</div>
-                        <div class="p regular inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                        <div class="p regular inline-block">:</div>
                         <div class="p regular inline" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="education__item-text">

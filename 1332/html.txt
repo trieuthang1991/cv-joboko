@@ -77,7 +77,7 @@
                 <div class="content education" data-x-name="list-item">
                   <div class="education__item" data-x-name="sub-item">
                     <div class="h3 regular education__item-title">
-                      <div class="inline plr" data-x-id="name" contenteditable="true">Đại học RMIT</div>
+                      <div class="inline plr uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                     </div>
                     <div class="education__item-date">
                       <span class="p2 regular inline-block" data-x-id="start" contenteditable="true">10/2016</span>
@@ -86,9 +86,6 @@
                     </div>
                     <div class="education__item-content">
                       <div data-x-rel="cat">
-                        <div class="p light inline-block">-</div>
-                        <div class="p light inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                        <div class="p light inline-block">:</div>
                         <div class="p light inline " data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="p light bullet education__item-text" data-x-bullet="-" data-x-id="des"
@@ -180,7 +177,7 @@
                       <div class="p3 regular inline-block" data-x-id="end" contenteditable="true">03/2018</div>
                     </div>
                     <div class="action__item-title">
-                      <div class="p regular" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
+                      <div class="p regular uppercase" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
                       <!-- <div class="p regular x_hide" data-x-id="pos" contenteditable="true"></div> -->
                     </div>
                     <div class="action__item-text">
@@ -226,7 +223,7 @@
                 <div class="content experience" data-x-name="list-item">
                   <div class="experience__item" data-x-name="sub-item">
                     <div class="p regular plr  uppercase experience__item-title">
-                      <div contenteditable="true" class="inline" data-x-id="name">oranges technology</div>
+                      <div contenteditable="true" class="inline uppercase" data-x-id="name">oranges technology</div>
                     </div>
                     <div class="experience__item-wrap">
                       <div class="p regular   experience__item-position" contenteditable="true" data-x-id="pos">Nhân
@@ -285,7 +282,7 @@
                   <div class="project__item" data-x-name="sub-item">
                     <div class="project__item-head">
                       <div class="project__item-title">
-                        <div class="p regular inline-block" data-x-id="name" contenteditable="true">RAINWAY
+                        <div class="p regular inline-block uppercase" data-x-id="name" contenteditable="true">RAINWAY
                           GROUP</div>
                       </div>
                       <div class="project__item-time">

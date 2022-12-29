@@ -24,9 +24,9 @@
                         <div class="col-left" data-x-name="content">
                             <div data-x-name="item" data-x-id="info">
                                 <div class="item-img">
-                                    <img data-x-id="ava" src="https://i-vn2.joboko.com/Upload/images/avatars/no_avatar.jpg">
+                                    <img data-x-id="ava" src="https://i-vn2.joboko.com/upload/images/avatars/no_avatar.jpg">
                                     <img style="display:none" data-x-id="ava_vertical"
-                                        src="https://i-vn2.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
+                                        src="https://i-vn2.joboko.com/upload/images/avatars/no_avatar.jpg" alt="" />
                                 </div>
                                 <div style="clear:both;height:100px;"></div>
                                 <div class="caption1" contenteditable="true" data-x-id="tit">Thông tin</div>
@@ -133,9 +133,7 @@
                                                 <div class="upc fw-900 txt1" contenteditable="true" data-x-id="name">
                                                     Đại học quốc tế hồng bàng
                                                 </div>
-                                                <b><label data-x-label="edu.cat">Chuyên ngành:</label></b> <div
-                                                    class="dp-inline txt4" contenteditable="true" data-x-id="cat">Thiết kế đồ
-                                                    họa quảng cáo thương mại</div>
+                                                <div class="dp-inline txt4" contenteditable="true" data-x-id="cat">Thiết kế đồ họa quảng cáo thương mại</div>
                                                 <div contenteditable="true" class="txt-content" data-x-id="des">
                                                     Đại học quốc tế hồng bàng
                                                 </div>

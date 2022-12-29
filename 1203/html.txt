@@ -73,8 +73,8 @@
         <div data-x-name="col-parrent" data-x-col="2" class="full-width__right">
           <div class="height-curent">
             <div class="avatar" data-x-name="item" data-x-id="info">
-              <img data-x-id="ava" style="display:none" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-              <img data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
+              <img data-x-id="ava" style="display:none" src="/upload/images/avatars/no_avatar.jpg" alt="" />
+              <img data-x-id="ava_vertical" src="/upload/images/avatars/no_avatar.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -117,8 +117,6 @@
                         <div class="p regular inline-block" data-x-id="end" contenteditable="true">03/2018</div>
                       </div>
                       <div class="education__item-cat" data-x-rel="cat">
-                        <div class="p regular inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                        <div class="p regular inline-block">:</div>
                         <div class="p regular inline" data-x-id="cat" contenteditable="true">Quản lý và Chính sách công
                           bằng tiếng Anh (E-PMP)</div>
                       </div>

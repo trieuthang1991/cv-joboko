@@ -83,9 +83,6 @@
                       </div>
                     </div>
                     <div class="education__item-cat" data-x-rel="cat">
-                      <div class="p light inline-block">•</div>
-                      <div class="p light inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                      <div class="p light inline-block">:</div>
                       <div class="p light inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                     </div>
                     <div class="p light bullet education__item-text" data-x-bullet="•" data-x-id="des" contenteditable="true">Tốt nghiệp loại khá giỏi, điểm trung bình</div>

@@ -7,7 +7,7 @@
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1178/colors/6da523.css?v=1661074343063">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1178/css/styles.css?v=1661074343064">
 -->
-<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1178&color=6da523&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221209">
+<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1178&color=6da523&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221228">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->
@@ -67,7 +67,7 @@
                   <div class="content experience" data-x-name="list-item">
                     <div class="experience__item" data-x-name="sub-item">
                       <div class="experience__item-title">
-                        <div class="h5 medium uppercase" contenteditable="true" data-x-id="name">Front-End Developer</div>
+                        <div class="h5 bold uppercase" contenteditable="true" data-x-id="name">Front-End Developer</div>
                       </div>
                       <div class="experience__item-wrap">
                         <div class="experience__item-pos">
@@ -95,7 +95,7 @@
                   <div class="action" data-x-name="list-item">
                     <div class="action__item" data-x-name="sub-item">
                       <div class="action__item-title">
-                        <div class="h5 regular" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
+                        <div class="h5 bold uppercase" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
                       </div>
                       <div class="action__item-wrap">
                         <div class="action__item-tagline">
@@ -139,7 +139,7 @@
                     <div class="project__item" data-x-name="sub-item">
                       <div class="project__item-head">
                         <div class="project__item-title">
-                          <div class="p regular inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
+                          <div class="p bold uppercase inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
                         </div>
                         <div class="project__item-time">
                           <div class="p2 regular inline-block" data-x-id="start" contenteditable="true">2016</div>
@@ -253,18 +253,18 @@
                       <i class="p3 fa fa-male"></i>
                     </div>
                     <div class="p regular" contenteditable="true" data-x-id="gen">Nam</div>
+                  </div>				  
+                  <div class="info-detail__item" data-x-rel="web">
+                    <div class="info-detail__item-icon">
+                      <i class="p3 fa fa-facebook-official"></i>
+                    </div>
+                    <div class="p regular" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
                   </div>
 				  <div class="info-detail__item" data-x-rel="add">
                     <div class="info-detail__item-icon">
                       <i class="p3 fa fa-map-marker"></i>
                     </div>
                     <div class="p regular" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
-                  </div>
-                  <div class="info-detail__item" data-x-rel="web">
-                    <div class="info-detail__item-icon">
-                      <i class="p3 fa fa-facebook-official"></i>
-                    </div>
-                    <div class="p regular" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
                   </div>
                 </div>
               </div>
@@ -278,7 +278,7 @@
                   <div class="content education" data-x-name="list-item">
                     <div class="education__item" data-x-name="sub-item">
                       <div class="education__item-title">
-                        <div class="h4 regular" data-x-id="name" contenteditable="true">Đại học RMIT</div>
+                        <div class="h4 bold uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                       </div>
                       <div class="education__item-date">
                         <div class="p2 regular inline-block" data-x-id="start" contenteditable="true">10/2016</div>

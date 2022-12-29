@@ -37,11 +37,6 @@
                     <div class="height-curent">
                         <div data-x-name="item" data-x-id="info">
                             <div class="info-detail">
-                                <div class="info-detail__item" data-x-rel="add">
-                                    <div class="p light" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy,
-                                        Hà Nội</div>
-                                    <div class="info-detail__item-icon"><i class="p fa fa-map-marker"></i></div>
-                                </div>
                                 <div class="info-detail__item" data-x-rel="tel">
                                     <div class="p light" contenteditable="true" data-x-id="tel">0123456789</div>
                                     <div class="info-detail__item-icon"><i class="p fa fa-volume-control-phone"></i>
@@ -64,7 +59,12 @@
                                     <div class="p light" contenteditable="true" data-x-id="web">fb.com/jobokofanpage
                                     </div>
                                     <div class="info-detail__item-icon"><i class="p fa fa-facebook-official"></i></div>
-                                </div> 
+                                </div>
+								<div class="info-detail__item" data-x-rel="add">
+                                    <div class="p light" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy,
+                                        Hà Nội</div>
+                                    <div class="info-detail__item-icon"><i class="p fa fa-map-marker"></i></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -311,10 +311,7 @@
                                     <div class="education__item-content icon-title">
                                         <p class="p2 regular" data-x-id="name" contenteditable="true">Đại học RMIT</p>
                                         <div data-x-rel="cat">
-                                            <span class="p2 regular inline-block" data-x-label="edu.cat">Chuyên
-                                                ngành</span><span class="p2 regular inline-block">:</span> <span
-                                                class="p2 inline-block" data-x-id="cat" contenteditable="true">Hệ thống
-                                                thông tin</span>
+                                            <span class="p2 inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</span>
                                         </div>
                                         <div class="p2 bullet education__item-text" data-x-bullet="-" data-x-id="des"
                                             contenteditable="true">Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</div>

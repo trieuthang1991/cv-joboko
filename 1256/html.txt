@@ -18,9 +18,9 @@
                 <div data-x-name="col-parrent" data-x-col="1" class="two-up__left">
                     <div class="height-curent">
                         <div class="avatar" data-x-name="item" data-x-id="info">
-                            <img data-x-id="ava" style="display:none" src="https://i-vn.joboko.com/Upload/images/avatars/no_avatar.jpg"
+                            <img data-x-id="ava" style="display:none" src="https://i-vn.joboko.com/upload/images/avatars/no_avatar.jpg"
                                 alt="" />
-                            <img data-x-id="ava_vertical" src="https://i-vn.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
+                            <img data-x-id="ava_vertical" src="https://i-vn.joboko.com/upload/images/avatars/no_avatar.jpg" alt="" />
                         </div>
                         <div data-x-name="item" data-x-id="info">
                             <div class="info-detail">
@@ -238,9 +238,6 @@
                                         </div>
                                         <div class="education__item-wrap">
                                             <div class="education__item-pos" data-x-rel="cat">
-                                                <div class="p regular inline-block" data-x-label="edu.cat">Chuyên ngành
-                                                </div>
-                                                <div class="p regular inline-block">:</div>
                                                 <div class="p regular inline-block" data-x-id="cat"
                                                     contenteditable="true">Hệ thống thông tin</div>
                                             </div>

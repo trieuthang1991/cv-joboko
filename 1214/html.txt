@@ -19,12 +19,6 @@
           <div class="height-curent">
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
-                <div class="info-detail__item" data-x-rel="add">
-                  <div class="info-detail__item-icon">
-                    <i class="p fa fa-map-marker"></i>
-                  </div>
-                  <div class="p regular inline-block" contenteditable="true" data-x-id="add">Ngõ 686 Kim Giang, Thanh Liệt, Thanh Trì, Hà Nội, Việt Nam</div>
-                </div>
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
                     <i class="p fa fa-volume-control-phone"></i>
@@ -37,23 +31,29 @@
                   </div>
                   <div class="p regular inline-block" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com</div>
                 </div>
-<div class="info-detail__item" data-x-rel="dob">
-	<div class="info-detail__item-icon">
-	  <i class="p fa fa-birthday-cake"></i>
-	</div>
-	<div class="p light inline-block" contenteditable="true" data-x-id="dob">30/02/1998</div>
-</div>
-<div class="info-detail__item hide" data-x-rel="gen">
-	<div class="info-detail__item-icon">
-	  <i class="p fa fa-male"></i>
-	</div>
-	<div class="p light inline-block" contenteditable="true" data-x-id="gen">Nam</div>
-</div>
+				<div class="info-detail__item" data-x-rel="dob">
+					<div class="info-detail__item-icon">
+					  <i class="p fa fa-birthday-cake"></i>
+					</div>
+					<div class="p light inline-block" contenteditable="true" data-x-id="dob">30/02/1998</div>
+				</div>
+				<div class="info-detail__item hide" data-x-rel="gen">
+					<div class="info-detail__item-icon">
+					  <i class="p fa fa-male"></i>
+					</div>
+					<div class="p light inline-block" contenteditable="true" data-x-id="gen">Nam</div>
+				</div>
                 <div class="info-detail__item" data-x-rel="web">
                   <div class="info-detail__item-icon">
                     <i class="p fa fa-facebook-official"></i>
                   </div>
                   <div class="p regular inline-block" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
+                </div>
+				<div class="info-detail__item" data-x-rel="add">
+                  <div class="info-detail__item-icon">
+                    <i class="p fa fa-map-marker"></i>
+                  </div>
+                  <div class="p regular inline-block" contenteditable="true" data-x-id="add">Ngõ 686 Kim Giang, Thanh Liệt, Thanh Trì, Hà Nội, Việt Nam</div>
                 </div>
               </div>
             </div>
@@ -102,9 +102,6 @@
                         <div class="h5 uppercase bold" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                       </div>
                       <div class="common-item__cat" data-x-rel="cat">
-                        <div class="p regular inline-block">-</div>
-                        <div class="p regular inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                        <div class="p regular inline-block">:</div>
                         <div class="p regular inline" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="common-item__text">
@@ -213,7 +210,7 @@
                   <div class="project__item" data-x-name="sub-item">
                     <div class="project__item-head">
                       <div class="project__item-title">
-                        <div class="h5 bold inline-block" data-x-id="name" contenteditable="true">Rainway Group</div>
+                        <div class="h5 bold inline-block uppercase" data-x-id="name" contenteditable="true">Rainway Group</div>
                       </div>
                       <div class="project__item-time">
                         <div class="p2 regular inline-block" data-x-id="start" contenteditable="true">2016</div>

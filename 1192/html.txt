@@ -124,7 +124,7 @@
                     </div>
                     <div class="experience__item-content">
                       <div class="experience__item-title">
-                        <p class="h5 medium uppercase" contenteditable="true" data-x-id="name">Front-End Developer</p>
+                        <p class="h5 bold uppercase" contenteditable="true" data-x-id="name">Front-End Developer</p>
                       </div>
                       <div class="experience__item-pos">
                         <p class="p3 regular" contenteditable="true" data-x-id="pos">Nhân viên Marketing</p>
@@ -156,12 +156,10 @@
                     </div>
                     <div class="education__item-content">
                       <div class="education__item-title">
-                        <p class="h5 regular" data-x-id="name" contenteditable="true">Đại học RMIT</p>
+                        <p class="h5 bold uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</p>
                       </div>
                       <div data-x-rel="cat">
-                        <span class="p2 light inline-block">-</span> <span class="p2 light inline-block"
-                          data-x-label="edu.cat">Chuyên ngành</span><span class="p2 light inline-block">:</span> <span
-                          class="p2 light inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</span>
+                        <span class="p2 light inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</span>
                       </div>
                       <div class="p2 light bullet education__item-text" data-x-bullet="-" data-x-id="des"
                         contenteditable="true">Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</div>
@@ -185,7 +183,7 @@
                     </div>
                     <div class="experience__item-content">
                       <div class="experience__item-title">
-                        <p class="h5 medium uppercase" contenteditable="true" data-x-id="name">Front-End Developer</p>
+                        <p class="h5 bold uppercase" contenteditable="true" data-x-id="name">Front-End Developer</p>
                       </div>
                       <div class="experience__item-pos">
                         <p class="p3 regular" contenteditable="true" data-x-id="pos">Nhân viên Marketing</p>
@@ -209,7 +207,7 @@
                   </div>
                 </div>
                 <div class="cletter">
-                  <div class="p3 regular" data-x-bullet="" contenteditable="true" data-x-id="name">
+                  <div class="p3 light" data-x-bullet="" contenteditable="true" data-x-id="name">
                     Thông qua …, tôi được biết Quý Công ty đang cần tuyển vị trí [Tên vị trí công việc] Tôi mong muốn
                     được thử sức mình trong môi trường làm việc hết sức năng động của Quý Công ty. Với trình độ và kinh
                     nghiệm hiện có, tôi tự tin có thể đảm nhiệm tốt vai trò này tại công ty [Tên công ty].<br>
@@ -276,6 +274,7 @@
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
                       <div class="p2 regular" contenteditable="true" data-x-id="name">Nghe</div>
+					  <div class="p2 light" contenteditable="true" data-x-id="des"></div>
                     </div>
                   </div>
                 </div>
@@ -317,7 +316,8 @@
                 <div class="content skill-ta" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <div class="p2 regular" contenteditable="true" data-x-id="name">Nghe</div>
+                      <div class="p2 regular" contenteditable="true" data-x-id="name">Excel</div>
+					  <div class="p2 light" contenteditable="true" data-x-id="des"></div>
                     </div>
                   </div>
                 </div>
@@ -347,7 +347,7 @@
                 <div class="content skill-ta" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <div class="p2 regular" contenteditable="true" data-x-id="name">Nghe</div>
+                      <div class="p2 light" contenteditable="true" data-x-id="name"></div>
                     </div>
                   </div>
                 </div>
@@ -361,7 +361,7 @@
                 <div class="content skill-ta" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <div class="p2 regular" contenteditable="true" data-x-id="name">Nghe</div>
+                      <div class="p2 light" contenteditable="true" data-x-id="name"></div>
                     </div>
                   </div>
                 </div>
@@ -383,7 +383,7 @@
                 <div class="project__item" data-x-name="sub-item">
                   <div class="project__item-head">
                     <div class="project__item-title">
-                      <span class="p3 medium inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</span>
+                      <span class="p3 bold uppercase inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</span>
                     </div>
                     <div class="project__item-time">
                       <span class="p3 medium inline-block" data-x-id="start" contenteditable="true">2016</span> <span

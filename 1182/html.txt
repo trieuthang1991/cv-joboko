@@ -110,9 +110,6 @@
                       <div class="p bold inline-block" data-x-id="end" contenteditable="true">03/2018</div>
                     </div>
                     <div class="education__item-cat" data-x-rel="cat">
-                      <div class="p regular inline-block">-</div>
-                      <div class="p regular inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                      <div class="p light inline-block">:</div>
                       <div class="p light inline" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                     </div>
                     <div class="education__item-text">

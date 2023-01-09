@@ -7,9 +7,9 @@ span[contenteditable],em[contenteditable]{display:inline-block}
 #group-left .cvo-block{margin-bottom: 30px}
 .cv-main{display:table;width:100%}
 #cv-top{color: #fff}
-.cv-content{width: 64.6%;display:table-cell;position: relative;background: #ded0b5;color: #252525;padding-top:20px}
+.cv-content{width: 65.4%;position: relative;background: #ded0b5;color: #252525;padding-top:20px}
 .cv-content .cvo-block {position: relative;padding: 5px 10px}
-.cv-left{width: 34.6%;display:table-cell;	position: relative;color: #fff;padding-top:20px}
+.cv-left{width: 34.6%;	position: relative;color: #fff;padding-top:20px}
 .cv-left .box-contact span{display: block}
 .cv-left .cv-box-item {padding-bottom:0;margin:0}
 .cv-left .h3{text-align:center;border-bottom:solid 2px #fff;line-height:24px}
@@ -38,7 +38,7 @@ span[contenteditable],em[contenteditable]{display:inline-block}
 [data-x-name="parrent"] .page {
     border: 0;
     background: #252525;
-    height: 1122px;
+    height: auto;
     -webkit-print-color-adjust: exact;
 }
 .box-contact i.fa{
@@ -102,4 +102,9 @@ span.cv-date{float:right;font-weight:500;font-size:15px}
 
 [contentEditable=true]:empty{
 	outline: 1pt dashed #fc4b08 !important;
+}
+
+[data-x-name="parrent"] .page
+{
+    display: flex;
 }

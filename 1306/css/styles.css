@@ -82,6 +82,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 }
 #cv-document .avatar img{width:14.6em;height:14.6em;border-radius:50%}
 #cv-document .certification__item{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.7em}
+#cv-document .certification__item [data-x-id='name']{padding-right:10px}
 #cv-document .certification__item:last-child{margin-bottom:0}
 #cv-document .certification__item p:last-child{flex-shrink:0;padding-left:1em;text-align:right}
 #cv-document .cvo-skillrate-bar{flex-shrink:0}

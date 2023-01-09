@@ -1,4 +1,4 @@
-#cv-document .h1{font-size:calc(4.5em + var(--fixed-size))}
+#cv-document .h1{font-size:calc(4em + var(--fixed-size))}
 #cv-document .h2{font-size:calc(2.2em + var(--fixed-size))}
 #cv-document .h3{font-size:calc(2em + var(--fixed-size))}
 #cv-document .h4{font-size:calc(1.8em + var(--fixed-size))}

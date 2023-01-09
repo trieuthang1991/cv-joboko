@@ -34,8 +34,8 @@
                     <div id="contact" data-x-name="item" data-x-id="info">
                         <div contenteditable="true" class="title-head" data-x-name="head" data-x-id="tit">Liên hệ</div>
                         <div data-x-name="list-item">
-                            <img data-x-id="ava" style="display:none" src="https://i-vn1.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
-                            <img style="display:none" data-x-id="ava_vertical" src="https://i-vn1.joboko.com/Upload/images/avatars/no_avatar.jpg" alt="" />
+                            <img data-x-id="ava" style="display:none" src="https://i-vn1.joboko.com/upload/images/avatars/no_avatar.jpg" alt="" />
+                            <img style="display:none" data-x-id="ava_vertical" src="https://i-vn1.joboko.com/upload/images/avatars/no_avatar.jpg" alt="" />
                             <div class="sub-div clearfix">
                                 <span contenteditable="true" class="txt-content" data-x-id="dob">30/02/1998</span>
                             </div>
@@ -67,7 +67,7 @@
                                         <span contenteditable="true" data-x-id="end" class="end">2018</span>
                                         <span>)</span>
                                     </div>
-                                    <div contenteditable="true" data-x-id="pos" name="edu.cat">Khoa cơ khí</div>
+                                    <div contenteditable="true" data-x-id="cat" name="edu.cat">Khoa cơ khí</div>
                                     <div contenteditable="true" class="txt-content" data-x-id="des">
 
                                     </div>
@@ -121,9 +121,9 @@
                             <div data-x-name="list-item">
                                 <div data-x-name="sub-item" class="sub-div clearfix"
                                     style="display: inline-block;width: 100%">
-                                    <div class="txt-content bold" style="width: 100%;padding-bottom: 10px;"
+                                    <div class="txt-content bold" style="width: 100%"
                                         contenteditable="true" data-x-id="name">tiếng anh</div>
-                                    <div class="txt-content" style="width: 100%;padding-bottom: 10px;"
+                                    <div class="txt-content" style="width: 100%"
                                         contenteditable="true" data-x-id="des">tiếng anh</div>
                                     <div class="cvo-skillrate-bar progress-bar hidden">
                                         <div data-x-id="val" value="4" class="cvo-skillrate-value progress-core">

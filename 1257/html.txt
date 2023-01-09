@@ -109,8 +109,6 @@
                     </div>
                     <div class="education__item-wrap">
                       <div class="education__item-pos" data-x-rel="cat">
-                        <div class="p regular inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                        <div class="p regular inline-block">:</div>
                         <div class="p regular inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="education__item-date">

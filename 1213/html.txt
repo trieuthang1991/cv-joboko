@@ -169,7 +169,7 @@
                   <div class="project__item" data-x-name="sub-item">
                     <div class="project__item-head">
                       <div class="project__item-title">
-                        <div class="p bold inline-block" data-x-id="name" contenteditable="true">Rainway Group</div>
+                        <div class="p bold inline-block uppercase" data-x-id="name" contenteditable="true">Rainway Group</div>
                       </div>
                       <div class="project__item-time">
                         <div class="p2 regular inline-block" data-x-id="start" contenteditable="true">2016</div>
@@ -245,14 +245,6 @@
           <div class="height-curent">
             <div class="two-up__right-item" data-x-name="item" data-x-id="info">
               <div class="info-detail">
-                <div class="info-detail__item" data-x-rel="add">
-                  <div class="info-detail__item-icon">
-                    <i class="p fa fa-map-marker"></i>
-                  </div>
-                  <div class="info-detail__item-title">
-                    <div class="p2 semi-bold inline-block" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
-                  </div>
-                </div>
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
                     <i class="p fa fa-volume-control-phone"></i>
@@ -293,6 +285,14 @@
                     <div class="p2 semi-bold inline-block" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
                   </div>
                 </div>
+				<div class="info-detail__item" data-x-rel="add">
+                  <div class="info-detail__item-icon">
+                    <i class="p fa fa-map-marker"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="p2 semi-bold inline-block" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
+                  </div>
+                </div>
               </div>
             </div>
             <div data-x-name="group-item">
@@ -306,7 +306,7 @@
                   <div class="education__item" data-x-name="sub-item">
                     <div class="education__item-wrap">
                       <div class="education__item-title">
-                        <div class="h5 uppercase semi-bold" data-x-id="name" contenteditable="true">Đại học RMIT</div>
+                        <div class="p uppercase bold" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                       </div>
                       <div class="education__item-date">
                         <div class="p2 semi-bold inline-block" data-x-id="start" contenteditable="true">10/2016</div>
@@ -315,9 +315,6 @@
                       </div>
                     </div>
                     <div class="education__item-cat" data-x-rel="cat">
-                      <div class="p2 medium inline-block">-</div>
-                      <div class="p2 medium inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                      <div class="p2 medium inline-block">:</div>
                       <div class="p2 medium inline" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                     </div>
                     <div class="education__item-text">
@@ -335,7 +332,7 @@
                 <div class="skill" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
-                      <div class="p2 medium" contenteditable="true" data-x-id="name">Giao tiếp</div>
+                      <div class="p2 bold" contenteditable="true" data-x-id="name">Giao tiếp</div>
                        <div class="p2" contenteditable="true" data-x-id="des">Giao tiếp</div>
                     </div>
                     <div class="skill__item-content hidden">

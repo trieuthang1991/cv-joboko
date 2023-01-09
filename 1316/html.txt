@@ -34,13 +34,7 @@
               </div>
             </div>
             <div class="two-up__left-item" data-x-name="item" data-x-id="info">
-              <div class="info-detail">
-                <div class="info-detail__item" data-x-rel="add">
-                  <div class="info-detail__item-icon">
-                    <i class="p3 fa fa-map-marker"></i>
-                  </div>
-                  <div class="p light" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
-                </div>
+              <div class="info-detail">                
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
                     <i class="p3 fa fa-volume-control-phone"></i>
@@ -70,6 +64,12 @@
                     <i class="p3 fa fa-facebook-official"></i>
                   </div>
                   <div class="p light" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
+                </div>
+				<div class="info-detail__item" data-x-rel="add">
+                  <div class="info-detail__item-icon">
+                    <i class="p3 fa fa-map-marker"></i>
+                  </div>
+                  <div class="p light" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
                 </div>
               </div>
             </div>
@@ -224,7 +224,7 @@
                 <div class="content education" data-x-name="list-item">
                   <div class="education__item" data-x-name="sub-item">
                     <div class="education__item-title">
-                      <div class="h3 regular" data-x-id="name" contenteditable="true">Đại học RMIT</div>
+                      <div class="h3 regular uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                     </div>
                     <div class="education__item-date">
                       <div class="p2 regular inline-block" data-x-id="start" contenteditable="true">10/2016</div>
@@ -232,9 +232,6 @@
                       <div class="p2 regular inline-block" data-x-id="end" contenteditable="true">03/2018</div>
                     </div>
                     <div class="education__item-pos" data-x-rel="cat">
-                      <div class="p light inline-block">-</div>
-                      <div class="p light inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                      <div class="p light inline-block">:</div>
                       <div class="p light inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                     </div>
                     <div class="p light bullet education__item-text" data-x-bullet="-" data-x-id="des"
@@ -289,7 +286,7 @@
                 <div class="action" data-x-name="list-item">
                   <div class="action__item" data-x-name="sub-item">
                     <div class="action__item-title">
-                      <div class="h3 regular" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
+                      <div class="h3 regular uppercase" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
                     </div>
                     <div class="action__item-wrap">
                       <div class="action__item-tagline">
@@ -371,7 +368,7 @@
             <div class="project__item" data-x-name="sub-item">
               <div class="project__item-head">
                 <div class="project__item-title">
-                  <div class="p regular inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
+                  <div class="p regular inline-block uppercase" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
                 </div>
                 <div class="project__item-time">
                   <div class="p2 regular inline-block" data-x-id="start" contenteditable="true">2016</div>

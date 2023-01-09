@@ -176,7 +176,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 
 #skills .sub-div {
     display: flex;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 #skills .sub-div [data-x-id="name"] {
@@ -226,10 +226,6 @@ body.page-preview, body.page-view, body.page-viewdemo {
 
 .col-right .sub-div {
     padding-bottom: 20px;
-}
-
-.col-right .sub-div span {
-    display: block;
 }
 
 .page:last-child #cv-watermark{

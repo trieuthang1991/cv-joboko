@@ -118,11 +118,11 @@
                 <div class="education" data-x-name="list-item">
                   <div class="education__item" data-x-name="sub-item">
                     <div class="education__item-title">
-                      <div class="p bold" data-x-id="name" contenteditable="true">Đại học RMIT</div>
+                      <div class="p uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                     </div>
                     <div class="education__item-pos" data-x-rel="cat">
-                      <div class="p regular inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                      <div class="p regular inline-block">:</div>
+                      <div class="p regular inline-block hide" data-x-label="edu.cat">Chuyên ngành</div>
+                      <div class="p regular inline-block hide">:</div>
                       <div class="p regular inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                     </div>
                     <div class="education__item-date">
@@ -265,7 +265,7 @@
                     <div class="experience__item-wrap">
                       <div>
                         <div class="experience__item-title">
-                          <div class="h4 medium" contenteditable="true" data-x-id="name">Front-End Developer</div>
+                          <div class="h4 uppercase medium" contenteditable="true" data-x-id="name">Front-End Developer</div>
                         </div>
                         <div class="experience__item-pos">
                           <div class="p regular" contenteditable="true" data-x-id="pos">Nhân viên kinh doanh</div>
@@ -297,7 +297,7 @@
                     <div class="action__item-wrap">
                       <div>
                         <div class="action__item-title">
-                          <div class="h4 medium" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
+                          <div class="h4 uppercase medium" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
                         </div>
                         <div class="action__item-pos">
                           <div class="p regular" data-x-id="pos" contenteditable="true">Tình nguyện viên</div>
@@ -354,7 +354,7 @@
                   <div class="project__item" data-x-name="sub-item">
                     <div class="project__item-head">
                       <div class="project__item-title">
-                        <div class="p2 medium inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
+                        <div class="p2 medium inline-block uppercase" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
                       </div>
                       <div class="project__item-time">
                         <div class="p regular inline-block" data-x-id="start" contenteditable="true">2016</div>

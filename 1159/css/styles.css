@@ -138,7 +138,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .info-main{position:relative;z-index:5}
 #cv-document .info-main__item{margin:0 0 .4em}
 #cv-document .info-main__item:last-child{margin-bottom:0}
-#cv-document .skill__item{margin-bottom:1em;border-bottom-width:1px;border-bottom-style:dotted;padding-bottom:1.2em}
+#cv-document .skill__item{margin-bottom:1em}
 #cv-document .skill__item:last-child{margin-bottom:0;border-bottom:none;padding-bottom:0}
 #cv-document .skill__item-title{margin-bottom:5px}
 #cv-document .skill-ta__item{position:relative;margin-bottom:1.2em;padding-left:3.5em}

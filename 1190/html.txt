@@ -38,12 +38,6 @@
           <div class="height-curent">
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
-                <div class="info-detail__item" data-x-rel="add">
-                  <span class="p2" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</span>
-                  <div class="info-detail__item-icon">
-                    <i class="p2 fa fa-map-marker"></i>
-                  </div>
-                </div>
                 <div class="info-detail__item" data-x-rel="tel">
                   <span class="p2" contenteditable="true" data-x-id="tel">0123456789</span>
                   <div class="info-detail__item-icon">
@@ -56,14 +50,14 @@
                     <i class="p2 fa fa-envelope"></i>
                   </div>
                 </div>
-		<div class="info-detail__item" data-x-rel="dob">
-                  <span class="p2" contenteditable="true" data-x-id="email">30/02/1998</span>
+				<div class="info-detail__item" data-x-rel="dob">
+                  <span class="p2" contenteditable="true" data-x-id="dob">30/02/1998</span>
                   <div class="info-detail__item-icon">
                     <i class="p2 fa fa-birthday-cake"></i>
                   </div>
                 </div>
-		<div class="info-detail__item hide" data-x-rel="gen">
-                  <span class="p2" contenteditable="true" data-x-id="email">Nam</span>
+				<div class="info-detail__item hide" data-x-rel="gen">
+                  <span class="p2" contenteditable="true" data-x-id="gen">Nam</span>
                   <div class="info-detail__item-icon">
                     <i class="p2 fa fa-male"></i>
                   </div>
@@ -72,6 +66,12 @@
                   <span class="p2" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</span>
                   <div class="info-detail__item-icon">
                     <i class="p2 fa fa-facebook-official"></i>
+                  </div>
+                </div>
+				<div class="info-detail__item" data-x-rel="add">
+                  <span class="p2" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</span>
+                  <div class="info-detail__item-icon">
+                    <i class="p2 fa fa-map-marker"></i>
                   </div>
                 </div>
               </div>
@@ -252,10 +252,10 @@
                     </div>
                     <div class="education__item-content">
                       <div class="education__item-title">
-                        <p class="p regular" data-x-id="name" contenteditable="true">Đại học RMIT</p>
+                        <p class="p bold uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</p>
                       </div>
                       <div data-x-rel="cat">
-                        <span class="p light inline-block">-</span> <span class="p light inline-block" data-x-label="edu.cat">Chuyên ngành</span><span class="p light inline-block">:</span> <span class="p light inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</span>
+                        <span class="p light inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</span>
                       </div>
                       <div class="p light bullet education__item-text" data-x-bullet="-" data-x-id="des" contenteditable="true">Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</div>
                     </div>
@@ -311,7 +311,7 @@
                   <span></span>
                   <div class="experience__item" data-x-name="sub-item">
                     <div class="experience__item-title">
-                      <p class="p regular uppercase" contenteditable="true" data-x-id="name">Tập Đoàn Eurowindow Holding</p>
+                      <p class="p bold uppercase" contenteditable="true" data-x-id="name">Tập Đoàn Eurowindow Holding</p>
                     </div>
                     <div class="experience__item-wrap">
                       <p class="p2 regular" contenteditable="true" data-x-id="pos">Nhân viên Marketing</p>
@@ -346,7 +346,7 @@
                   <span></span>
                   <div class="action__item" data-x-name="sub-item">
                     <div class="action__item-title">
-                      <p class="p regular uppercase" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</p>
+                      <p class="p bold uppercase" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</p>
                     </div>
                     <div class="action__item-wrap">
                       <div class="action__item-tagline">
@@ -379,7 +379,7 @@
                   <div class="project__item" data-x-name="sub-item">
                     <div class="project__item-head">
                       <div class="project__item-title">
-                        <span class="p regular inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</span>
+                        <span class="p bold uppercase inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</span>
                       </div>
                       <div class="project__item-time">
                         <span class="p regular inline-block" data-x-id="start" contenteditable="true">2016</span> <span class="p regular inline-block">-</span> <span class="p regular inline-block" data-x-id="end" contenteditable="true">2018</span>

@@ -19,25 +19,41 @@
           <div class="height-curent">
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
-                <div class="info-detail__item" data-x-rel="tel">
+			    <div class="info-detail__item" data-x-rel="add">
                   <div class="info-detail__item-icon">
-                    <i class="p fa fa-volume-control-phone"></i>
+                    <i class="fa fa-map-marker"></i>
                   </div>
                   <div class="info-detail__item-title">
-                    <div class="p2 medium inline-block" contenteditable="true" data-x-id="tel">0123456789</div>
+                    <div class="p2 medium inline-block" contenteditable="true" data-x-id="add">33 Nguyễn Hữu Thọ, phường Tân Hưng, quận 7, Thành phố Hồ Chí Minh</div>
                   </div>
                 </div>
                 <div class="info-detail__item" data-x-rel="email">
                   <div class="info-detail__item-icon">
-                    <i class="p fa fa-envelope"></i>
+                    <i class="fa fa-envelope"></i>
                   </div>
                   <div class="info-detail__item-title">
                     <div class="p2 medium inline-block" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com</div>
                   </div>
                 </div>
-				<div class="info-detail__item" data-x-rel="dob">
+				<div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
-                    <i class="p fa fa-birthday-cake"></i>
+                    <i class="fa fa-volume-control-phone"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="p2 medium inline-block" contenteditable="true" data-x-id="tel">0123456789</div>
+                  </div>
+                </div>
+                <div class="info-detail__item" data-x-rel="web">
+                  <div class="info-detail__item-icon">
+                    <i class="fa fa-facebook-official"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="p2 medium inline-block" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
+                  </div>
+                </div>
+                <div class="info-detail__item" data-x-rel="dob">
+                  <div class="info-detail__item-icon">
+                    <i class="fa fa-birthday-cake"></i>
                   </div>
                   <div class="info-detail__item-title">
                     <div class="p2 medium inline-block" contenteditable="true" data-x-id="dob">30/02/1998</div>
@@ -45,26 +61,10 @@
                 </div>
 				<div class="info-detail__item hide" data-x-rel="gen">
                   <div class="info-detail__item-icon">
-                    <i class="p fa fa-male"></i>
+                    <i class="fa fa-male"></i>
                   </div>
                   <div class="info-detail__item-title">
                     <div class="p2 medium inline-block" contenteditable="true" data-x-id="gen">Nam</div>
-                  </div>
-                </div>
-                <div class="info-detail__item" data-x-rel="web">
-                  <div class="info-detail__item-icon">
-                    <i class="p fa fa-facebook-official"></i>
-                  </div>
-                  <div class="info-detail__item-title">
-                    <div class="p2 medium inline-block" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
-                  </div>
-                </div>
-                <div class="info-detail__item" data-x-rel="add">
-                  <div class="info-detail__item-icon">
-                    <i class="p fa fa-map-marker"></i>
-                  </div>
-                  <div class="info-detail__item-title">
-                    <div class="p2 medium inline-block" contenteditable="true" data-x-id="add">33 Nguyễn Hữu Thọ, phường Tân Hưng, quận 7, Thành phố Hồ Chí Minh</div>
                   </div>
                 </div>
               </div>
@@ -236,9 +236,6 @@
                     </div>
                     <div class="education__item-content">
                       <div class="education__item-cat" data-x-rel="cat">
-                        <div class="p2 medium inline-block">-</div>
-                        <div class="p2 medium inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                        <div class="p2 medium inline-block">:</div>
                         <div class="p2 medium inline" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="education__item-text">

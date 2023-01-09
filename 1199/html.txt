@@ -1,8 +1,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-  rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 <!--
 <link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1181/font-sizes/font_normal.css?v=1663167562358">
 <link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1181/spacing/spacing_normal.css?v=1663167562358">
@@ -42,12 +40,6 @@
             </div>
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
-                <div class="info-detail__item" data-x-rel="add">
-                  <div class="info-detail__item-icon">
-                    <i class="p fa fa-map-marker"></i>
-                  </div>
-                  <div class="p" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
-                </div>
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
                     <i class="p fa fa-volume-control-phone"></i>
@@ -60,7 +52,7 @@
                   </div>
                   <div class="p" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com</div>
                 </div>
-		<div class="info-detail__item" data-x-rel="dob">
+				<div class="info-detail__item" data-x-rel="dob">
                   <div class="info-detail__item-icon">
                     <i class="p fa fa-birthday-cake"></i>
                   </div>
@@ -71,6 +63,12 @@
                     <i class="p fa fa-facebook-official"></i>
                   </div>
                   <div class="p" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
+                </div>
+				<div class="info-detail__item" data-x-rel="add">
+                  <div class="info-detail__item-icon">
+                    <i class="p fa fa-map-marker"></i>
+                  </div>
+                  <div class="p" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
                 </div>
 <span style="display:none"  contenteditable="true" data-x-id="gen"></span>
               </div>
@@ -208,11 +206,7 @@
                       </div>
                       <div class="education__item-content">
                         <div class="education__item-cat" data-x-rel="cat">
-                          <div class="p regular inline-block">-</div>
-                          <div class="p regular inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                          <div class="p regular inline-block">:</div>
-                          <div class="p regular inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin
-                          </div>
+                          <div class="p regular inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                         </div>
                         <div class="education__item-text">
                           <div class="p bullet" data-x-bullet="-" data-x-id="des" contenteditable="true">Tốt nghiệp loại

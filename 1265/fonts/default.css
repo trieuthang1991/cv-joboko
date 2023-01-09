@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'UTM HelvetIns';
-	src: url('./UTMHelvetIns.eot');
-	src: url('./UTMHelvetIns.eot?#iefix') format('embedded-opentype'),
-			url('./UTMHelvetIns.woff2') format('woff2'),
-			url('./UTMHelvetIns.woff') format('woff'),
-			url('./UTMHelvetIns.ttf') format('truetype');
+	src: url('/MyCV/templates/1265/fonts/UTMHelvetIns.eot');
+	src: url('/MyCV/templates/1265/fonts/UTMHelvetIns.eot?#iefix') format('embedded-opentype'),
+			url('/MyCV/templates/1265/fonts/UTMHelvetIns.woff2') format('woff2'),
+			url('/MyCV/templates/1265/fonts/UTMHelvetIns.woff') format('woff'),
+			url('/MyCV/templates/1265/fonts/UTMHelvetIns.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;

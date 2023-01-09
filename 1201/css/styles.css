@@ -99,7 +99,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .info-detail__item:nth-child(5){z-index:1}
 #cv-document .info-detail__item-title{padding:.5em 0}
 #cv-document .info-detail__item-icon{position:relative;flex-shrink:0;justify-content:center;align-items:center;align-self:flex-start;display:flex;margin-right:1.7em;box-shadow:0 .5em .5em rgba(0,0,0,.1);border-width:.3em;border-style:solid;border-radius:50%;width:3.8em;height:3.8em;text-align:center}
-#cv-document .skill__item{margin-bottom:1.7em}
 #cv-document .skill__item:last-child{margin-bottom:0}
 #cv-document .skill__item-title{margin-bottom:1em}
 #cv-document .skill__item-title>*{line-height:1.33}
@@ -149,7 +148,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .experience__item-date{margin-bottom:1.6em}
 /*#cv-document .experience__item-text br{content:"";display:block;margin-top:.1428571429em}*/
 #cv-document .hobby{flex-wrap:wrap;display:flex}
-#cv-document .hobby__item{position:relative;margin-bottom:.3em;width:49%;padding-right:1em;padding-left:2.8em}
+#cv-document .hobby__item{position:relative;margin-bottom:.3em;width:100%;padding-right:1em;padding-left:2.8em}
 #cv-document .hobby__item:nth-child(even){margin-left:auto}
 #cv-document .hobby__item::before{content:"";position:absolute;top:.5em;left:0;border-radius:50%;width:1em;height:1em}
 #cv-document .references__item{position:relative;margin-bottom:.6em;padding-left:2.2em}

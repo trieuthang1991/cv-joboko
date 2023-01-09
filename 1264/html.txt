@@ -159,7 +159,7 @@
                                     <div class="experience__item" data-x-name="sub-item">
                                         <div class="experience__item-wrap">
                                             <div class="experience__item-title">
-                                                <div class="p medium uppercase" contenteditable="true" data-x-id="name">
+                                                <div class="p bold uppercase" contenteditable="true" data-x-id="name">
                                                     Front-End Developer</div>
                                             </div>
                                             <div class="experience__item-date">
@@ -198,7 +198,7 @@
                                 <div class="project" data-x-name="list-item">
                                     <div class="project__item" data-x-name="sub-item">
                                         <div class="project__item-title">
-                                            <div class="h4 medium uppercase" data-x-id="name" contenteditable="true">
+                                            <div class="h4 bold uppercase" data-x-id="name" contenteditable="true">
                                                 RAINWAY GROUP</div>
                                         </div>
                                         <div class="project__item-time">
@@ -335,7 +335,7 @@
                                 <div class="education" data-x-name="list-item">
                                     <div class="education__item" data-x-name="sub-item">
                                         <div class="education__item-title">
-                                            <div class="p medium uppercase" data-x-id="name" contenteditable="true">Đại
+                                            <div class="p bold uppercase" data-x-id="name" contenteditable="true">Đại
                                                 học RMIT</div>
                                         </div>
                                         <div class="education__item-wrap">
@@ -434,7 +434,7 @@
                                 <div class="education" data-x-name="list-item">
                                     <div class="education__item" data-x-name="sub-item">
                                         <div class="education__item-title">
-                                            <div class="p medium uppercase" data-x-id="name" contenteditable="true">Đại
+                                            <div class="p bold uppercase" data-x-id="name" contenteditable="true">Đại
                                                 học RMIT</div>
                                         </div>
                                         <div class="education__item-wrap">

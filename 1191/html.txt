@@ -36,12 +36,6 @@
             </div>
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
-                <div class="info-detail__item" data-x-rel="add">
-                  <div class="info-detail__item-icon">
-                    <i class="p3 fa fa-map-marker"></i>
-                  </div>
-                  <span class="p light" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</span>
-                </div>
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
                     <i class="p3 fa fa-volume-control-phone"></i>
@@ -71,6 +65,12 @@
                     <i class="p3 fa fa-facebook-official"></i>
                   </div>
                   <span class="p light" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</span>
+                </div>
+				<div class="info-detail__item" data-x-rel="add">
+                  <div class="info-detail__item-icon">
+                    <i class="p3 fa fa-map-marker"></i>
+                  </div>
+                  <span class="p light" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</span>
                 </div>
               </div>
             </div>
@@ -201,14 +201,14 @@
                 <div class="content education" data-x-name="list-item">
                   <div class="education__item" data-x-name="sub-item">
                     <div class="education__item-title">
-                      <p class="h3 regular" data-x-id="name" contenteditable="true">Đại học RMIT</p>
+                      <p class="h3 uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</p>
                     </div>
                     <div class="education__item-date">
                       <span class="p bold inline-block" data-x-id="start"	contenteditable="true">10/2016</span> <span class="p bold inline-block">-</span> <span class="p bold inline-block"	data-x-id="end" contenteditable="true">03/2018</span>
                     </div>
                     <div class="education__item-content">
                       <div class="p education__item-cat bullet bullet--right" data-x-rel="cat">
-                        <span class="light inline-block" data-x-label="edu.cat">Chuyên ngành</span><span class="light inline-block">:</span> <span class="light inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</span>
+                        <span class="light inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</span>
                       </div>
                       <div class="p light education__item-text bullet bullet--right" data-x-bullet="" data-x-id="des" contenteditable="true">Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</div>
                     </div>
@@ -241,7 +241,7 @@
                 <div class="skill" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
-                      <div class="p regular" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+                      <div class="p regular bullet bullet--right" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
                       <div class="p light" contenteditable="true" data-x-id="des">HTML5 & CSS3</div>
                     </div>
                     <div class="skill__item-content hidden">
@@ -263,7 +263,7 @@
                 <div class="content skill-ta" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <p class="p regular" contenteditable="true" data-x-id="name">Tiếng Anh</p>
+                      <p class="p light" contenteditable="true" data-x-id="name">Tiếng Anh</p>
                     </div>
                   </div>
                 </div>
@@ -277,7 +277,7 @@
                 <div class="award" data-x-name="list-item">
                   <div class="award__item" data-x-name="sub-item">
                     <div class="award__item-title">
-                      <div class="p regular" data-x-id="name" contenteditable="true">Nhân viên xuất sắc</div>
+                      <div class="p light" data-x-id="name" contenteditable="true">Nhân viên xuất sắc</div>
                     </div>
                     <div class="award__item-date">
                       <div class="p regular" data-x-id="time" contenteditable="true">2019</div>
@@ -294,7 +294,7 @@
                 <div class="content skill-ta" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <div class="p regular" contenteditable="true" data-x-id="name">Tiếng Anh</div>
+                      <div class="p light" contenteditable="true" data-x-id="name">Tiếng Anh</div>
                     </div>
                   </div>
                 </div>
@@ -308,7 +308,7 @@
                 <div class="content skill-ta" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <div class="p regular" contenteditable="true" data-x-id="name">Tiếng Anh</div>
+                      <div class="p light" contenteditable="true" data-x-id="name">Tiếng Anh</div>
                     </div>
                   </div>
                 </div>
@@ -322,7 +322,7 @@
                 <div class="content skill-ta" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <div class="p regular" contenteditable="true" data-x-id="name">Tiếng Anh</div>
+                      <div class="p light" contenteditable="true" data-x-id="name">Tiếng Anh</div>
                     </div>
                   </div>
                 </div>

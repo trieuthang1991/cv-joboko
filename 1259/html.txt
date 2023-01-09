@@ -55,8 +55,6 @@
             </div>
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
-<div data-x-id="dob" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
-<div data-x-id="gen" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
                     <i class="p2 fa fa-volume-control-phone"></i>
@@ -299,8 +297,6 @@
                     </div>
                     <div class="education__item-wrap">
                       <div class="education__item-pos" data-x-rel="cat">
-                        <div class="p medium inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                        <div class="p medium inline-block">:</div>
                         <div class="p medium inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="education__item-date">

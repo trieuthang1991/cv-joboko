@@ -8,16 +8,10 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
 /*#cv-document .bullet{padding-left:1em}*/
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol {
-    margin-left: 22px
-}
-#cv-document [contenteditable] ol li {
-    list-style: auto;
-}
-
-#cv-document [contenteditable] ul li {
-    list-style-type: disc
-}
+#cv-document [contenteditable] ul, #cv-document [contenteditable] ol {margin-left: 22px}
+#cv-document [contenteditable] ol li {list-style: auto}
+#cv-document [contenteditable] ul li {list-style-type: disc}
+#cv-document [contenteditable] ul li::before{display:none}
     #cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more {
         line-height: 24px
     }

@@ -399,3 +399,4 @@
 #cv-document [contenteditable] ul li::marker {
     content: '★'; font-size:14px;color:#565656
 }
+#cv-document [contenteditable] ul li::before{display:none}

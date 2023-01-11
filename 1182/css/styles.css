@@ -9,22 +9,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .inline{display:inline}
 #cv-document .content{position:relative;flex-grow:1;padding:0 0 1.1em 3.3em;max-width:calc(100% - 33.33px)}
 #cv-document .content::before{content:"";position:absolute;top:.5em;bottom:0;left:0;width:.2em}
-/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
-    margin-left: 18px
-}
-#cv-document [contenteditable] ol li {
-    list-style: auto;
-}
-#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
-    padding: 0;
-}
-#cv-document [contenteditable] ul li {
-    list-style-type: disc
-}
-#cv-document [contenteditable] ul li::marker {
-    color:#b1b1b1
-}
 #cv-document .page{display:flex}
 #cv-document .page__inner{flex-direction:column;display:flex;width:100%;padding:4.2em 0 0}
 #cv-document .full-width{position:relative;flex-wrap:wrap;display:flex;margin-bottom:3.6em;width:100%}

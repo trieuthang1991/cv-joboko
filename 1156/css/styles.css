@@ -8,23 +8,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .inline-block{display:inline-block}
 #cv-document .content{position:relative;margin-left:1.995em;padding:0 0 1.197em 3.192em}
 #cv-document .content::before{content:"";position:absolute;top:.665em;bottom:0;left:0;border-left-width:1px;border-left-style:dashed}
-/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
-    margin-left: 18px
-}
-#cv-document [contenteditable] ol li {
-    list-style: auto;
-}
-#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
-    padding: 0;
-}
-#cv-document [contenteditable] ul li {
-    list-style-type: disc
-}
-#cv-document [contenteditable] ul li::marker {
-    font-size: 18px;
-    color: #b1b1b1
-}
+
 #cv-document .page__inner{display:flex;flex-direction:column;padding:5.32em 0 0}
 #cv-document .two-up{flex-grow:1;display:flex;width:100%}
 @media screen and (max-width:767px){

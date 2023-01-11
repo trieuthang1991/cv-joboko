@@ -6,7 +6,7 @@
 <link rel="stylesheet" id="cv-font" href="https://i-vn0.joboko.com/MyCv/templates/1085/fonts/default.css?v=55">
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn0.joboko.com/MyCv/templates/1085/colors/a4dce4.css?v=55">
 -->
-<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1085&color=a4dce4&font=default&size=font_normal&spacing=spacing_normal&more=sacmauV2&v=221209">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1085&color=a4dce4&font=default&size=font_normal&spacing=spacing_normal&more=sacmauV2&v=230110">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
 	<!-- “page=1” và class=”page”   -->

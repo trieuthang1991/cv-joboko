@@ -10,29 +10,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .content{position:relative;padding:.3em 0 .5em 3.2em}
 #cv-document .content::before{content:"";position:absolute;top:.7em;left:0;border-width:1px;border-style:solid;border-radius:50%;width:1.5em;height:1.5em;padding:.2em;background-clip:content-box}
 #cv-document .content::after{content:"";position:absolute;top:2.6em;bottom:0;left:.7em;width:1px}
-/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.1em}
-#cv-document .bullet-dot{position:relative;padding-left:17px}
-#cv-document .bullet-dot::before{content:"";position:absolute;top:8px;left:0;display:inline-block;margin-right:0;border-radius:50%;width:10px;height:10px}
-#cv-document .bullet-dot br{content:"";position:relative;display:block}
-#cv-document .bullet-dot br::before{content:"";position:absolute;top:8px;left:-17px;display:inline-block;margin-right:0;border-radius:50%;width:10px;height:10px}
-@media screen and (max-width:767px){
-#cv-document .bullet-dot br::before{left:-20px}
-}*/
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol {
-    margin-left: 18px
-}
 
-#cv-document [contenteditable] ol li {
-    list-style: auto;
-}
-
-#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
-    padding: 0;
-}
-
-#cv-document [contenteditable] ul li {
-    list-style-type: disc
-}
 #cv-document [contenteditable] ul li::marker {
     color: #808285
 }

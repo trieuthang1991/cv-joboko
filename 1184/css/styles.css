@@ -8,7 +8,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .inline-block{display:inline-block}
 #cv-document .inline{display:inline}
 #cv-document .content{border-left-width:1px;border-left-style:solid;padding:.7em 0 1.1em 3em}
-/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
 #cv-document .page{display:flex}
 @media screen and (max-width:767px){
 #cv-document .page{background-size:2em auto}
@@ -190,23 +189,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .certification__item:last-child{margin-bottom:0}
 #cv-document .certification__item::before{content:"";position:absolute;top:.8em;left:0;border-radius:50%;width:.6em;height:.6em}
 #cv-document .cletter{border-width:1px;border-style:dashed;border-radius:1em;padding:1.3em 1.9em 2em}
-/*#cv-document .cletter br{content:"";display:block;margin-top:1em}*/
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol {
-    margin-left: 18px
-}
-
-    #cv-document [contenteditable] ol li {
-        list-style: auto;
-    }
-
-    #cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
-        padding: 0;
-    }
-
-    #cv-document [contenteditable] ul li {
-        list-style-type: disc
-    }
-
 #cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more, #cv-document .cletter {
     line-height: 24px
 }

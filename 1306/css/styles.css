@@ -7,22 +7,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
 #cv-document .content{padding:.7em 0 1.1em 3em;border-left:1px solid}
-/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol {
-    margin-left: 18px
-}
-
-#cv-document [contenteditable] ol li {
-    list-style: auto;
-}
-
-#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
-    padding: 0;
-}
-
-#cv-document [contenteditable] ul li {
-    list-style-type: disc
-}
 
 #cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more, #cv-document .cletter {
     line-height: 24px

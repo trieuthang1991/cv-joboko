@@ -257,19 +257,3 @@ span.exp-date{float:right}
 #cv-watermark a:after{	
 	content: "Joboko.com";
 }
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
-    margin-left: 18px
-}
-#cv-document [contenteditable] ol li {
-    list-style: auto;
-}
-#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
-    padding: 0;
-}
-#cv-document [contenteditable] ul li {
-    list-style-type: disc
-}
-#cv-document [contenteditable] ul li::marker {
-    color:#b1b1b1
-}
-

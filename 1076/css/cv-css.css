@@ -413,27 +413,12 @@ body.page-preview .xbgcv.xbgcv1{
 .page-preview .page-scale .cv_main .h-curent   {
 	height: 100%;
 }
-/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}
-#cv-document .bullet:empty::before{content:""}*/
+#cv-document .bullet[data-x-bullet="◉"]::before{content:attr(data-x-bullet);margin-right:.25em}
+
 
 [contentEditable=true]:empty {
     outline: 1pt dashed #fc4b08!important;
 }
 [contenteditable=true]:empty:before {
     content: attr(placeholder)!important;
-}
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
-    margin-left: 18px
-}
-#cv-document [contenteditable] ol li {
-    list-style: auto;
-}
-#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
-    padding: 0;
-}
-#cv-document [contenteditable] ul li {
-    list-style-type: disc
-}
-#cv-document [contenteditable] ul li::marker {
-    font-size:18px;
 }

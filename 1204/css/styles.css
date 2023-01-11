@@ -7,26 +7,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
 #cv-document .content{border-left-width:1px;border-left-style:solid;padding:.7em 0 1.1em 3em}
-/*#cv-document .bullet::before{content:attr(data-x-bullet)}
-#cv-document .bullet-dot{position:relative;padding-left:19px}
-#cv-document .bullet-dot::before{content:"";position:absolute;top:6px;left:1px;display:inline-block;opacity:.5;margin-right:0;border-radius:50%;width:7px;height:7px}
-#cv-document .bullet-dot[data-x-bullet] br{content:"";position:relative;display:block}
-#cv-document .bullet-dot[data-x-bullet] br::before{content:"";position:absolute;top:6px;left:-18px;display:inline-block;opacity:.5;margin-right:0;border-radius:50%;width:7px;height:7px}*/
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
-    margin-left: 18px
-}
-#cv-document [contenteditable] ol li {
-    list-style: auto;
-}
-#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
-    padding: 0;
-}
-#cv-document [contenteditable] ul li {
-    list-style-type: disc
-}
-#cv-document [contenteditable] ul li::marker {
-    color:#b1b1b1
-}
 @media screen and (max-width:767px){
 #cv-document .page--background{background-position:center bottom,right top,right 1.9em top,left top;background-size:25.4em 4em,1.5em 100%,.2em 100%,100% 100%}
 }

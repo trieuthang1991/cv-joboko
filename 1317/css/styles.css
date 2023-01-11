@@ -8,22 +8,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .inline-block{display:inline-block}
 #cv-document .inline{display:inline}
 #cv-document .content{border-left-width:1px;border-left-style:solid;padding:.7em 0 1.1em 3em}
-/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
-    margin-left: 18px
-}
-#cv-document [contenteditable] ol li {
-    list-style: auto;
-}
-#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
-    padding: 0;
-}
-#cv-document [contenteditable] ul li {
-    list-style-type: disc
-}
-#cv-document [contenteditable] ul li::marker {
-    color:#b1b1b1
-}
 #cv-document .page--background::after{content:"";position:absolute;top:0;bottom:0;left:0;border-right-width:1px;border-right-style:dotted;width:29.7em;pointer-events:none}
 @media screen and (max-width:767px){
 #cv-document .page--background::after{border-right:none;width:100%}

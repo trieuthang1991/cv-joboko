@@ -7,29 +7,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
 #cv-document .content{border-left-width:1px;border-left-style:solid;padding:.7em 0 1.1em 3em}
-/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.1em}
-#cv-document .bullet-dot{position:relative;padding-left:17px}
-#cv-document .bullet-dot::before{content:"";position:absolute;top:8px;left:0;display:inline-block;margin-right:0;border-radius:50%;width:6px;height:6px}
-#cv-document .bullet-dot br{content:"";position:relative;display:block}
-#cv-document .bullet-dot br::before{content:"";position:absolute;top:8px;left:-17px;display:inline-block;margin-right:0;border-radius:50%;width:6px;height:6px}
-@media screen and (max-width:767px){
-#cv-document .bullet-dot br::before{left:-20px}
-}*/
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol {
-    margin-left: 18px
-}
-
-#cv-document [contenteditable] ol li {
-    list-style: auto;
-}
-
-#cv-document [contenteditable] ul li {
-    list-style-type: disc
-}
-
-#cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more {
-    line-height: 24px
-}
+#cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more {line-height: 24px}
 #cv-document .icon-skill{display:block;width:1.7em;height:1.7em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-edu{display:block;width:1.9em;height:1.4em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-exp{display:block;width:1.4em;height:1.9em;background-repeat:no-repeat;background-size:contain}

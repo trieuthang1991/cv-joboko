@@ -6,22 +6,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .page:last-child #cv-watermark{position:absolute;right:1em;bottom:2em}
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
-/*#cv-document .bullet::before{content:attr(data-x-bullet);margin-right:.25em}*/
-#cv-document [contenteditable] ul, #cv-document [contenteditable] ol{
-    margin-left: 18px
-}
-#cv-document [contenteditable] ol li {
-    list-style: auto;
-}
-#cv-document [contenteditable] ul li, #cv-document [contenteditable] ol li {
-    padding: 0;
-}
-#cv-document [contenteditable] ul li {
-    list-style-type: disc
-}
-#cv-document [contenteditable] ul li::marker {
-    color:#b1b1b1
-}
 #cv-document .page{display:flex}
 #cv-document .page:last-child .two-up__left{background-image:url(/MyCV/templates/1178/images/bg-02.png);background-repeat:no-repeat;background-position:center bottom 1.2em}
 #cv-document .page:last-child .two-up__right{background-image:url(/MyCV/templates/1178/images/bg-03.png);background-repeat:no-repeat;background-position:center bottom 9em}

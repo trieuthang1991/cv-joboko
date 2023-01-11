@@ -8,7 +8,7 @@
 <link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1205/colors/f15a29.css?v=1661074619046">
 <link rel="stylesheet" id="cv-css" href="/MyCv/templates/1205/css/styles.css?v=1661074619046">
 -->
-<link rel="stylesheet" id="xcv-css" href="https://i-vn.joboko.com/css3/stylecv?tid=1205&color=f15a29&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=221209">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1205&color=f15a29&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=230110">
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
   <!-- “page=1” và class=”page” -->

@@ -16,7 +16,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more, #cv-document .cletter {
     line-height: 24px
 }
-}*/
 #cv-document .page__inner{padding:4.8em 3em 0}
 @media screen and (max-width:767px){
 #cv-document .page__inner{padding-right:2em;padding-left:2em}

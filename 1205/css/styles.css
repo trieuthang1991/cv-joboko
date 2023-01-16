@@ -56,6 +56,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .avatar__inner{margin:0 auto}
 }
 #cv-document .avatar__inner img{width:21.4em;height:27.2em}
+#cv-document .info-main{margin-bottom:2em}
 #cv-document .info-main__title{position:relative;padding:1.4em 0}
 #cv-document .info-main__title::before{content:"";position:absolute;z-index:2;top:0;right:-5.2em;bottom:0;left:-3.6em;pointer-events:none}
 @media screen and (max-width:767px){

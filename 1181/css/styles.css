@@ -49,7 +49,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .heading::before{content:"";position:absolute;top:50%;left:0;transform:translate3d(0,-50%,0);border-radius:50%;width:4.4em;height:4.4em}
 #cv-document .heading__title{position:relative;z-index:2;padding:1em 0 1em 2em}
 #cv-document .avatar{position:relative;z-index:2;margin:0 auto 6.5em;width:25.6em;height:32em}
-#cv-document .avatar::after,#cv-document .avatar::before{content:"";position:absolute;bottom:-3.5em;width:99.9em;height:3.6em}
+#cv-document .avatar::after,#cv-document .avatar::before{content:"";position:absolute;bottom:-3.5em;width:2.2em;height:3.6em}
 @media screen and (max-width:767px){
 #cv-document .avatar::after,#cv-document .avatar::before{content:none}
 }

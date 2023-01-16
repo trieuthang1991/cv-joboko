@@ -285,7 +285,12 @@
         <div data-x-name="col-parrent" data-x-col="4" class="two-up__right">
           <div class="height-curent">
             <div class="two-up__right-item" data-x-name="item" data-x-id="tar">
-              <div class="target">
+              <div class="heading x_hide" data-x-name="head">
+                  <div class="heading__title">
+                    <div class="h2 uppercase bold" data-x-id="tit" contenteditable="true">Mục tiêu nghề nghiệp</div>
+                  </div>
+                </div>
+			  <div class="target">
                 <div class="p regular bullet" data-x-bullet="-" contenteditable="true" data-x-id="name">
                   Áp dụng những kiến thức Marketing, Sale đã học, tích lũy vào môi trường làm việc thực tế
                 </div>

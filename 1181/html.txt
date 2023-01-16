@@ -180,8 +180,8 @@
               <div class="two-up__right-item">
                 <div class="avatar" data-x-name="item" data-x-id="info">
                   <span></span>
-                  <img data-x-id="ava" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-                  <img style='display:none' data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg"
+                  <img data-x-id="ava" src="/Upload/images/avatars/no_avatar.jpg" alt="" style='display:none'/>
+                  <img data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg"
                     alt="" />
                 </div>
               </div>

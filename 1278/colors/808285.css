@@ -1,0 +1,15 @@
+#cv-document .page--background{background:#fff;color:#1d1c1a}
+#cv-document .heading::after{border-color:#808184}
+#cv-document .heading__title{color:#231f20;background-image:linear-gradient(to right,rgba(188,190,192,.3),rgba(188,190,192,.3))}
+#cv-document .info-main::after{border-color:#808184}
+#cv-document .info-main__text{color:#58595b}
+#cv-document .target{background-color:#808285;color:#fff}
+#cv-document .action__item-date,#cv-document .education__item-date,#cv-document .experience__item-date{color:#58595b}
+#cv-document .action__item-pos,#cv-document .education__item-pos,#cv-document .experience__item-pos{color:#58595b}
+#cv-document .action__item-text,#cv-document .education__item-text,#cv-document .experience__item-text{color:#333}
+#cv-document .award__item-date,#cv-document .certification__item-date{color:#58595b}
+#cv-document .advantage__item,#cv-document .hobby__item,#cv-document .more__item,#cv-document .skill-ta__item,#cv-document .skill-th__item,#cv-document .skill__item{color:#333}
+#cv-document .advantage__item::before,#cv-document .hobby__item::before,#cv-document .more__item::before,#cv-document .skill-ta__item::before,#cv-document .skill-th__item::before,#cv-document .skill__item::before{background-color:#58595b}
+#cv-document .cletter{background-color:rgba(244,244,244,.3);border-color:rgba(35,31,32,.3)}
+#cv-document .project__item-time{color:#000}
+#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-color:#8698ad}

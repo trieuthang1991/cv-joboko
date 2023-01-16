@@ -1,0 +1,404 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1274/font-sizes/font_normal.css?v=1673408426673">
+<link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1274/spacing/spacing_normal.css?v=1673408426673">
+<link rel="stylesheet" id="cv-font" href="/MyCv/templates/1274/fonts/default.css?v=1673408426673">
+<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1274/colors/39b54a.css?v=1673408426673">
+<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1274/css/styles.css?v=1673408426673">
+
+<!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
+<div id="form-cv" data-x-name="parrent">
+  <!-- “page=1” và class=”page” -->
+  <div page='1' class="page page--background">
+    <div class="page__inner">
+      <div class="two-up">
+        <div data-x-name="col-parrent" data-x-col="1" class="two-up__left">
+          <div class="height-curent">
+            <div class="info-main" data-x-name="item" data-x-id="info">
+              <div class="info-main__title">
+                <div class="h1 uppercase medium" contenteditable="true" data-x-id="name">nguyễn thị trúc mai</div>
+              </div>
+              <div class="info-main__text">
+                <div class="h3 uppercase relative" contenteditable="true" data-x-id="job">content markerting</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-x-name="col-parrent" data-x-col="2" class="two-up__right">
+          <div class="height-curent">
+            <div class="avatar" data-x-name="item" data-x-id="info">
+              <div class="avatar__inner">
+                <img data-x-id="ava" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="full-width">
+        <div class="full-width__item" data-x-name="item" data-x-id="info">
+          <div data-x-id="tit" style="display:none"></div>
+          <div class="info-detail">
+            <div class="info-detail__item" data-x-rel="dob">
+              <div class="info-detail__item-icon">
+                <i class="icon-birthday"></i>
+              </div>
+              <div class="info-detail__item-content">
+                <div class="p3 regular inline-block" contenteditable="true" data-x-id="dob">1999</div>
+              </div>
+            </div>
+            <div class="info-detail__item" data-x-rel="gen">
+              <div class="info-detail__item-icon">
+                <i class="icon-gender"></i>
+              </div>
+              <div class="info-detail__item-content">
+                <div class="p3 regular inline-block" contenteditable="true" data-x-id="gen">Giới tính: Nữ</div>
+              </div>
+            </div>
+            <div class="info-detail__item" data-x-rel="tel">
+              <div class="info-detail__item-icon">
+                <i class="icon-phone"></i>
+              </div>
+              <div class="info-detail__item-content">
+                <div class="p3 regular inline-block" contenteditable="true" data-x-id="tel">0123.456.789</div>
+              </div>
+            </div>
+            <div class="info-detail__item" data-x-rel="web">
+              <div class="info-detail__item-icon">
+                <i class="icon-facebook"></i>
+              </div>
+              <div class="info-detail__item-content">
+                <div class="p3 regular inline-block" contenteditable="true" data-x-id="web">phamthai20@gmail.com</div>
+              </div>
+            </div>
+            <div class="info-detail__item" data-x-rel="email">
+              <div class="info-detail__item-icon">
+                <i class="icon-email"></i>
+              </div>
+              <div class="info-detail__item-content">
+                <div class="p3 regular inline-block" contenteditable="true" data-x-id="email">tranthiphuongthao30496@gmail.com</div>
+              </div>
+            </div>
+            <div class="info-detail__item" data-x-rel="add">
+              <div class="info-detail__item-icon">
+                <i class="icon-mark"></i>
+              </div>
+              <div class="info-detail__item-content">
+                <div class="p3 regular inline-block" contenteditable="true" data-x-id="add">Số nhà 15, Ngõ 16, Phương Mai, Đống Đa, Hà Nội</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="height-curent">
+          <div class="full-width__item" data-x-name="item" data-x-id="tar">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">mục tiêu</div>
+              </div>
+            </div>
+            <div class="target">
+              <div class="p regular" contenteditable="true" data-x-id="name">
+                Tôi mong muốn ứng tuyển vào vị trí Content Marketing tại công ty X-Alpha. Là một người chăm chỉ, sáng tạo, yêu viết lách, tôi có niềm đam mê sâu sắc với công việc Marketing. Với 2 năm kinh nghiệm làm việc ở vị trí Nhân viên Content Marketing, tôi đã tích lũy được những kỹ năng nhất định về biên tập và sáng tạo nội dung, rất hy vọng tôi có cơ hội được làm việc và cống hiến tại công ty. Tôi sẽ cố gắng nỗ lực học hỏi các nghiệp vụ chuyên sâu về mảng nội dung để phát triển năng lực, hướng đến vị trí Content Team Leader trong 3 năm tới.
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="edu">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Học vấn</div>
+              </div>
+            </div>
+            <div class="education" data-x-name="list-item">
+              <div class="education__item" data-x-name="sub-item">
+                <div class="education__item-title">
+                  <div class="h4 bold uppercase" data-x-id="name" contenteditable="true">Trường đại học Kinh tế Quốc dân</div>
+                </div>
+                <div class="education__item-wrapper">
+                  <div class="education__item-pos" data-x-rel="cat">
+                    <div class="p2 bold italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
+                  </div>
+                  <div class="education__item-date">
+                    <div class="p bold italic inline-block" data-x-id="start" contenteditable="true">08/2018</div>
+                    <div class="p bold italic inline-block">-</div>
+                    <div class="p bold italic inline-block" data-x-id="end" contenteditable="true">12/2021</div>
+                  </div>
+                </div>
+                <div class="education__item-text">
+                  <div class="p regular" data-x-id="des" contenteditable="true">
+                    <p>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</p>
+                    <ul>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                    </ul>
+                    <ol>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                      <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="exp">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Kinh nghiệm</div>
+              </div>
+            </div>
+            <div class="experience" data-x-name="list-item">
+              <div class="experience__item" data-x-name="sub-item">
+                <div class="experience__item-title">
+                  <div class="h4 bold uppercase" contenteditable="true" data-x-id="name">Front-End Developer</div>
+                </div>
+                <div class="experience__item-wrapper">
+                  <div class="experience__item-pos">
+                    <div class="p2 bold italic" contenteditable="true" data-x-id="pos">Nhân viên Marketing</div>
+                  </div>
+                  <div class="experience__item-date">
+                    <div class="p bold italic inline-block" contenteditable="true" data-x-id="start">10/2016</div>
+                    <div class="p bold italic inline-block">-</div>
+                    <div class="p bold italic inline-block" contenteditable="true" data-x-id="end">03/2018</div>
+                  </div>
+                </div>
+
+                <div class="experience__item-text">
+                  <div class="p regular" data-x-id="des" contenteditable="true">
+                    <p>Viết tagline và nội dung cho các sản phẩm của công ty.</p>
+                    <p>Viết content các ngành hàng nội thất, quà tặng, mẹ và bé: 7 bài viết/tuần.</p>
+                    <p>Quản lý nội dung trên các kênh Social Media: Facebook, Tiktok.</p>
+                    <p>Viết content SEO Website: 3 bài viết/tuần.</p>
+                    <p>Viết nội dung cho các kênh truyền thông nội bộ: 2 bài viết/tuần.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="act">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Hoạt động</div>
+              </div>
+            </div>
+            <div class="action" data-x-name="list-item">
+              <div class="action__item" data-x-name="sub-item">
+                <div class="action__item-title">
+                  <div class="h4 bold uppercase" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
+                </div>
+                <div class="action__item-wrapper">
+                  <div class="action__item-pos">
+                    <div class="p2 bold italic" data-x-id="pos" contenteditable="true">Tình nguyện viên</div>
+                  </div>
+                  <div class="action__item-date">
+                    <div class="p bold italic inline-block" data-x-id="start" contenteditable="true">10/2016</div>
+                    <div class="p bold italic inline-block">-</div>
+                    <div class="p bold italic inline-block" data-x-id="end" contenteditable="true">03/2018</div>
+                  </div>
+                </div>
+
+                <div class="action__item-text">
+                  <div class="p light" data-x-id="des" contenteditable="true">
+                    <p>Tham gia vào các hoạt động, sự kiện của CLB</p>
+                    <p>Vận động quyên góp, ủng hộ cho trẻ em nghèo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="cer">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Chứng chỉ</div>
+              </div>
+            </div>
+            <div class="certification" data-x-name="list-item">
+              <div class="certification__item" data-x-name="sub-item">
+                <div class="certification__item-title">
+                  <div class="p regular" data-x-id="name" contenteditable="true">Viết nội dung thu hút trên MXH</div>
+                </div>
+                <div class="certification__item-date">
+                  <div class="p regular italic" data-x-id="time" contenteditable="true">2020</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="award">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Giải thưởng</div>
+              </div>
+            </div>
+            <div class="award" data-x-name="list-item">
+              <div class="award__item" data-x-name="sub-item">
+                <div class="award__item-title">
+                  <div class="p regular" data-x-id="name" contenteditable="true">Tiếng Anh IELTS 7.0 do IDP cấp</div>
+                </div>
+                <div class="award__item-date">
+                  <div class="p regular italic" data-x-id="time" contenteditable="true">2020</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="advantage">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Ưu điểm</div>
+              </div>
+            </div>
+            <div class="advantage" data-x-name="list-item">
+              <div class="advantage__item" data-x-name="sub-item">
+                <div class="advantage__item-title">
+                  <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="skill">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Kỹ năng</div>
+              </div>
+            </div>
+            <div class="skill" data-x-name="list-item">
+              <div class="skill__item" data-x-name="sub-item">
+                <div class="skill__item-title">
+                  <div class="p bold inline" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
+                  <div class="p regular inline-block" contenteditable="true" data-x-id="des">HTML5 & CSS3</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="ref">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Người tham chiếu</div>
+              </div>
+            </div>
+            <div class="references" data-x-name="list-item">
+              <div class="references__item" data-x-name="sub-item">
+                <div class="p regular" data-x-id="name" contenteditable="true">Ông Mai Hữu Tùng</div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="cletter">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Gửi nhà tuyển dụng</div>
+              </div>
+            </div>
+            <div class="cletter">
+              <div class="p light" contenteditable="true" data-x-id="name">
+                Thông qua nền tảng tuyển dụng Joboko, tôi được biết Quý Công ty X-Alpha đang cần tuyển vị trí nhân viên Content Marketing. Là một người yêu viết lách và đã có 2 năm kinh nghiệm làm sáng tạo nội dung, tôi tự tin mình có thể hoàn thành tốt các nhiệm vụ được giao.<br>
+    Tôi rất yêu thích lĩnh vực truyền thông, đặc biệt là môi trường trẻ, năng động như X-Alpha, đây là cơ hội tốt để tôi thể hiện năng lực của bản thân. Với niềm đam mê và sự quyết tâm cao độ, tôi sẽ cố gắng phát huy tối đa năng lực của mình để đạt được hiệu quả làm việc tốt nhất khi gia nhập vào Quý công ty.<br>
+    Tôi hy vọng phía công ty sẽ xem xét hồ sơ và có thể sắp xếp cho tôi một cuộc phỏng vấn. Qua đó, Quý công ty có thể hiểu rõ hơn về khả năng của tôi và đây cũng là cơ hội để tôi có thể tìm hiểu thêm các yêu cầu về
+    công việc.<br>
+    Tôi xin chân thành cảm ơn!
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="pro">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Dự án</div>
+              </div>
+            </div>
+            <div class="project" data-x-name="list-item">
+              <div class="project__item" data-x-name="sub-item">
+                <div class="project__item-head">
+                  <div class="project__item-title">
+                    <div class="h4 bold inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
+                  </div>
+                  <div class="project__item-time">
+                    <div class="p regular italic inline-block" data-x-id="start" contenteditable="true">08/2016</div>
+                    <div class="p regular inline-block">-</div>
+                    <div class="p regular inline-block" data-x-id="end" contenteditable="true">04/2021</div>
+                  </div>
+                </div>
+                <div class="project__item-table">
+                  <div class="tr">
+                    <div class="th">
+                      <div class="p bold inline-block" data-x-label="pro.cus">Khách hàng</div>
+                    </div>
+                    <div class="td">
+                      <div class="p regular" data-x-id="cus" contenteditable="true">ANZ Technology</div>
+                    </div>
+                  </div>
+                  <div class="tr">
+                    <div class="th">
+                      <div class="p bold inline-block" data-x-label="pro.des">Mô tả về dự án</div>
+                    </div>
+                    <div class="td">
+                      <div class="p regular" data-x-id="des" contenteditable="true">Ứng dụng website giúp mọi người đặt vé nhanh chóng, bất kỳ lúc nào, bất kỳ đâu</div>
+                    </div>
+                  </div>
+                  <div class="tr">
+                    <div class="th">
+                      <div class="p bold inline-block" data-x-label="pro.mem">Thành viên</div>
+                    </div>
+                    <div class="td">
+                      <div class="p regular" data-x-id="mem" contenteditable="true">8</div>
+                    </div>
+                  </div>
+                  <div class="tr">
+                    <div class="th">
+                      <div class="p bold inline-block" data-x-label="pro.pos">Vị trí</div>
+                    </div>
+                    <div class="td">
+                      <div class="p regular" data-x-id="pos" contenteditable="true">Lập trình viên</div>
+                    </div>
+                  </div>
+                  <div class="tr">
+                    <div class="th">
+                      <div class="p bold inline-block" data-x-label="pro.role">Vai trò</div>
+                    </div>
+                    <div class="td">
+                      <div class="p regular" data-x-id="role" contenteditable="true">
+                        <p>Phân tích và thiết kế hệ thống</p>
+                        <p>Phát triển module</p>
+                        <p>Tối ưu code</p>
+                        <p>Sửa lỗi</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tr">
+                    <div class="th">
+                      <div class="p bold inline-block" data-x-label="pro.tech">Công nghệ</div>
+                    </div>
+                    <div class="td">
+                      <div class="p regular" data-x-id="tech" contenteditable="true">
+                        Công nghệ mới nhất
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cv-watermark" class="p light">© <a href="https://joboko.com/" target="_blank"></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- id="page" và class="page"  đây là 1 khối HTML có cấu trúc tương tự khối page='1'  -->
+<div id='page' class="page page--background" style="display: none">
+  <div class="page__inner">
+    <div class="full-width">
+      <div data-x-name="col-parrent" data-x-col="3">
+        <div class="height-curent"></div>
+        <div id="cv-watermark" class="p light">© <a href="https://joboko.com/" target="_blank"></a></div>
+      </div>
+    </div>
+  </div>
+</div>

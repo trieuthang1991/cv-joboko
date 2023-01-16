@@ -1,0 +1,9 @@
+#form-cv{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#cv-document .heading,
+#cv-document .info-main__title {
+	font-family: 'UTM HelvetIns';
+}

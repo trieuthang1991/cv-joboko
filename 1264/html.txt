@@ -163,10 +163,10 @@
                                                     Front-End Developer</div>
                                             </div>
                                             <div class="experience__item-date">
-                                                <div class="p regular" contenteditable="true" data-x-id="end">03/2018
+                                                <div class="p regular" contenteditable="true" data-x-id="start">10/2016
                                                 </div>
                                                 <div class="p regular">-</div>
-                                                <div class="p regular" contenteditable="true" data-x-id="start">10/2016
+                                                <div class="p regular" contenteditable="true" data-x-id="end">03/2018
                                                 </div>
                                             </div>
                                         </div>
@@ -202,11 +202,11 @@
                                                 RAINWAY GROUP</div>
                                         </div>
                                         <div class="project__item-time">
-                                            <div class="p regular inline-block" data-x-id="end" contenteditable="true">
-                                                2018</div>
-                                            <div class="p regular inline-block">-</div>
                                             <div class="p regular inline-block" data-x-id="start"
                                                 contenteditable="true">2016</div>
+                                            <div class="p regular inline-block">-</div>
+                                            <div class="p regular inline-block" data-x-id="end" contenteditable="true">
+                                                2018</div>
                                         </div>
                                         <div class="project__item-table">
                                             <div class="tr">
@@ -344,10 +344,10 @@
                                                     contenteditable="true">Hệ thống thông tin</div>
                                             </div>
                                             <div class="education__item-date">
-                                                <div class="p regular" data-x-id="end" contenteditable="true">03/2018
+                                                <div class="p regular" data-x-id="start" contenteditable="true">10/2016
                                                 </div>
                                                 <div class="p regular">-</div>
-                                                <div class="p regular" data-x-id="start" contenteditable="true">10/2016
+                                                <div class="p regular" data-x-id="end" contenteditable="true">03/2018
                                                 </div>
                                             </div>
                                         </div>
@@ -443,10 +443,10 @@
                                                     contenteditable="true">Hệ thống thông tin</div>
                                             </div>
                                             <div class="education__item-date">
-                                                <div class="p regular" data-x-id="end" contenteditable="true">03/2018
+                                                <div class="p regular" data-x-id="start" contenteditable="true">10/2016
                                                 </div>
                                                 <div class="p regular">-</div>
-                                                <div class="p regular" data-x-id="start" contenteditable="true">10/2016
+                                                <div class="p regular" data-x-id="end" contenteditable="true">03/2018
                                                 </div>
                                             </div>
                                         </div>

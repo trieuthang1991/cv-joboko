@@ -112,10 +112,10 @@
                                                 </div>
                                                 <div class="experience__item-date">
                                                     <div class="p2 regular inline-block" contenteditable="true"
-                                                        data-x-id="end">03/2018</div>
+                                                        data-x-id="start">10/2016</div>
                                                     <div class="p2 regular inline-block">-</div>
                                                     <div class="p2 regular inline-block" contenteditable="true"
-                                                        data-x-id="start">10/2016</div>
+                                                        data-x-id="end">03/2018</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -154,11 +154,11 @@
                                                         contenteditable="true">Hệ thống thông tin</div>
                                                 </div>
                                                 <div class="education__item-date">
-                                                    <div class="p2 regular inline-block" data-x-id="end"
-                                                        contenteditable="true">03/2018</div>
-                                                    <div class="p2 regular inline-block">-</div>
                                                     <div class="p2 regular inline-block" data-x-id="start"
                                                         contenteditable="true">10/2016</div>
+                                                    <div class="p2 regular inline-block">-</div>
+                                                    <div class="p2 regular inline-block" data-x-id="end"
+                                                        contenteditable="true">03/2018</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -224,11 +224,11 @@
                                                     RAINWAY GROUP</div>
                                             </div>
                                             <div class="project__item-time">
-                                                <div class="p medium inline-block" data-x-id="end"
-                                                    contenteditable="true">2018</div>
-                                                <div class="p medium inline-block">-</div>
                                                 <div class="p medium inline-block" data-x-id="start"
                                                     contenteditable="true">2016</div>
+                                                <div class="p medium inline-block">-</div>
+                                                <div class="p medium inline-block" data-x-id="end"
+                                                    contenteditable="true">2018</div>
                                             </div>
                                         </div>
                                         <div class="project__item-table">
@@ -407,11 +407,11 @@
                                                     <div class="p medium capitalize" data-x-id="pos" contenteditable="true">Tình nguyện viên</div>
                                                 </div>
                                                 <div class="education__item-date">
-                                                    <div class="p2 regular inline-block" data-x-id="end"
-                                                        contenteditable="true">03/2018</div>
-                                                    <div class="p2 regular inline-block">-</div>
                                                     <div class="p2 regular inline-block" data-x-id="start"
                                                         contenteditable="true">10/2016</div>
+                                                    <div class="p2 regular inline-block">-</div>
+                                                    <div class="p2 regular inline-block" data-x-id="end"
+                                                        contenteditable="true">03/2018</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -491,9 +491,9 @@
 
 <div id="template-exp" style="display: none;" class="action__item pointer-events-none" data-x-name="sub-item">
     <div class="action__item-date">
-        <div class="p2 regular inline-block" data-x-id="end" contenteditable="true">03/2018</div>
-        <div class="p2 regular inline-block">-</div>
         <div class="p2 regular inline-block" data-x-id="start" contenteditable="true">10/2016</div>
+        <div class="p2 regular inline-block">-</div>
+        <div class="p2 regular inline-block" data-x-id="end" contenteditable="true">03/2018</div>
     </div>
     <div class="action__item-content">
         <div class="action__item-title">

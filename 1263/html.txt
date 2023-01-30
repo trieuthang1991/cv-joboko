@@ -126,10 +126,10 @@
                                 <div class="experience" data-x-name="list-item">
                                     <div class="experience__item" data-x-name="sub-item">
                                         <div class="experience__item-date">
-                                            <div class="p2 bold js-exp-start-date" contenteditable="true"
-                                                data-x-id="start">10/2016</div>
                                             <div class="p2 bold js-exp-end-date" contenteditable="true" data-x-id="end">
                                                 03/2018</div>
+                                            <div class="p2 bold js-exp-start-date" contenteditable="true"
+                                                data-x-id="start">10/2016</div>
                                         </div>
                                         <div class="experience__item-content">
                                             <div class="experience__item-title">
@@ -189,8 +189,8 @@
                                 <div class="education" data-x-name="list-item">
                                     <div class="education__item" data-x-name="sub-item">
                                         <div class="education__item-date">
-                                            <div class="p2 bold" data-x-id="start" contenteditable="true">10/2016</div>
                                             <div class="p2 bold" data-x-id="end" contenteditable="true">03/2018</div>
+                                            <div class="p2 bold" data-x-id="start" contenteditable="true">10/2016</div>
                                         </div>
                                         <div class="education__item-content">
                                             <div class="education__item-title">
@@ -228,11 +228,11 @@
                                                     RAINWAY GROUP</div>
                                             </div>
                                             <div class="project__item-time">
-                                                <div class="p medium inline-block" data-x-id="start"
-                                                    contenteditable="true">2016</div>
-                                                <div class="p medium inline-block">-</div>
                                                 <div class="p medium inline-block" data-x-id="end"
                                                     contenteditable="true">2018</div>
+                                                <div class="p medium inline-block">-</div>
+                                                <div class="p medium inline-block" data-x-id="start"
+                                                    contenteditable="true">2016</div>
                                             </div>
                                         </div>
                                         <div class="project__item-table">
@@ -409,11 +409,11 @@
                                                 </div>
                                             </div>
                                             <div class="action-2__item-date">
-                                                <div class="h6 regular inline-block" data-x-id="start"
-                                                    contenteditable="true">10/2016</div>
-                                                <div class="h6 regular inline-block">-</div>
                                                 <div class="h6 regular inline-block" data-x-id="end"
                                                     contenteditable="true">03/2018</div>
+                                                <div class="h6 regular inline-block">-</div>
+                                                <div class="h6 regular inline-block" data-x-id="start"
+                                                    contenteditable="true">10/2016</div>
                                             </div>
                                         </div>
                                         <div class="action-2__item-text">
@@ -535,9 +535,9 @@
 
 <div id="template-exp" style="display: none;" class="action__item pointer-events-none" data-x-name="sub-item">
     <div class="action__item-date">
-        <div class="p bold inline-block js-exp-start-date" data-x-id="start">10/2016</div>
-        <div class="p bold inline-block">-</div>
         <div class="p bold inline-block js-exp-end-date" data-x-id="end">03/2018</div>
+        <div class="p bold inline-block">-</div>
+        <div class="p bold inline-block js-exp-start-date" data-x-id="start">10/2016</div>
     </div>
     <div class="action__item-content">
         <div class="action__item-title">

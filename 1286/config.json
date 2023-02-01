@@ -1,0 +1,12 @@
+﻿{
+  "langs": ["vi","en","ja","ko","zh"],
+  "colors": [ "40807d", "dcb572", "ed5351", "ffc2bd" ],
+  "fonts": {
+    "default":"Nunito Sans",
+    "roboto":"Roboto",
+    "arial": "Arial",
+    "tahoma": "Tahoma"
+  },
+  "fontsizes": [ "small", "normal", "large" ],
+  "spacings": [ "small", "normal", "large" ]
+}

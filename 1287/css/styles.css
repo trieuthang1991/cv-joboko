@@ -61,9 +61,11 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .info-main__title{margin:0 0 2em;font-family:"UTM Avo"}
 #cv-document .info-main__text{display:inline-block;border-radius:0 1.6em 1.6em 0;padding:.6em 3.1em .5em 1.3em;font-family:"Roboto Condensed",sans-serif}
 #cv-document .info-detail{margin-bottom:3.9em;display:flex;flex-wrap:wrap;padding-left:1.5em}
-#cv-document .info-detail__item{width:50%;align-items:flex-start;display:flex;margin-bottom:.9em}
+#cv-document .info-detail__item{align-items:flex-start;display:flex;margin-bottom:.9em}
+#cv-document .info-detail__item:nth-child(odd){width:35.6%}
+#cv-document .info-detail__item:nth-child(even){width:64.4%}
 @media screen and (max-width:767px){
-#cv-document .info-detail__item{width:100%}
+#cv-document .info-detail__item{width: 100% !important;}
 }
 #cv-document .info-detail__item:last-child{margin-bottom:0}
 #cv-document .info-detail__item-icon{position:relative;flex-shrink:0;position:relative;top:1px;justify-content:center;align-items:center;display:flex;margin-right:1.9em;min-width:1.5em;height:1.7em;text-align:center}
@@ -74,15 +76,9 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .skill-ta__item{position:relative;margin-bottom:1.1em;padding-left:2em}
 #cv-document .skill-ta__item::before{content:"";position:absolute;top:.7em;left:.1em;border-radius:50%;width:.5em;height:.5em}
 #cv-document .skill-ta__item:last-child{margin-bottom:0}
-#cv-document .skill-ta__item-title>div:first-child::after{content:": "}
-#cv-document .skill-ta__item-title *{display:inline}
-#cv-document .skill-ta__item-title [contenteditable=true]:empty{display:inline-block}
 #cv-document .skill-th__item{position:relative;margin-bottom:1.1em;padding-left:2em}
 #cv-document .skill-th__item::before{content:"";position:absolute;top:.7em;left:.1em;border-radius:50%;width:.5em;height:.5em}
 #cv-document .skill-th__item:last-child{margin-bottom:0}
-#cv-document .skill-th__item-title>div:first-child::after{content:": "}
-#cv-document .skill-th__item-title *{display:inline}
-#cv-document .skill-th__item-title [contenteditable=true]:empty{display:inline-block}
 #cv-document .cvo-skillrate{display:flex;align-items:center}
 #cv-document .cvo-skillrate>span{margin-left:.7em;width:1.2em;height:1.2em;border-radius:50%}
 #cv-document .cvo-skillrate-radial{position:relative;width:5.6em;height:5.6em;text-align:center;border-radius:50%}
@@ -124,8 +120,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .hobby__item-icon{flex-shrink:0;justify-content:center;align-items:center;display:flex;margin-right:.9em;width:3.5em;height:3.5em}
 #cv-document .references__item{margin-bottom:.8em}
 #cv-document .references__item:last-child{margin-bottom:0}
-#cv-document .references__item-title{margin-bottom:.2em}
-#cv-document .references__item-text>*{line-height:1.57}
 #cv-document .project__item{margin-bottom:2em}
 #cv-document .project__item:last-child{margin-bottom:0}
 #cv-document .project__item-head{justify-content:space-between;align-items:flex-start;display:flex;margin-bottom:.9em}
@@ -151,9 +145,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 .advantage__item{position:relative;margin-bottom:1.1em;padding-left:2em}
 .advantage__item::before{content:"";position:absolute;top:.7em;left:.1em;border-radius:50%;width:.5em;height:.5em}
 .advantage__item:last-child{margin-bottom:0}
-.advantage__item-title>div:first-child::after{content:": "}
-.advantage__item-title *{display:inline}
-.advantage__item-title [contenteditable=true]:empty{display:inline-block}
 .award__item{margin-bottom:1em}
 .award__item:last-child{margin-bottom:0}
 .award__item-title{margin-bottom:.4em}

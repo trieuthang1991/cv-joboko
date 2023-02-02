@@ -1,6 +1,6 @@
 ﻿{
   "langs": ["vi","en","ja","ko","zh"],
-  "colors": [ "40807d", "dcb572", "ed5351", "ffc2bd" ],
+  "colors": [ "dcb572", "40807d", "ed5351", "ffc2bd" ],
   "fonts": {
     "default":"Nunito Sans",
     "roboto":"Roboto",

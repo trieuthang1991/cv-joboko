@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1287&color=2e3e63&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675233619023">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1287&color=2e3e63&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675233619025">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -246,10 +246,7 @@
                 <div class="references content" data-x-name="list-item">
                   <div class="references__item" data-x-name="sub-item">
                     <div class="references__item-title">
-                      <div class="p bold" data-x-id="name" contenteditable="true">Anh Nguyễn Văn A</div>
-                    </div>
-                    <div class="references__item-text">
-                      <div class="p regular" data-x-id="name" contenteditable="true">Trưởng phòng Marketing, Công ty TNHH JobOKO<br>Điện thoại: 0988998899</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Anh Nguyễn Văn A</div>
                     </div>
                   </div>
                 </div>
@@ -280,8 +277,21 @@
                 <div class="skill-ta content" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <div class="p bold inline" contenteditable="true" data-x-id="name">Tiếng Anh</div>
-                      <div class="p regular inline" contenteditable="true" data-x-id="des">Tiếng Anh</div>
+                      <div class="p regular" contenteditable="true" data-x-id="name">Tiếng Anh</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="full-width__item" data-x-name="item" data-x-id="skill_th">
+                <div class="heading" data-x-name="head">
+                  <div class="heading__title">
+                    <div class="h4 bold uppercase" data-x-id="tit" contenteditable="true">phần mềm</div>
+                  </div>
+                </div>
+                <div class="skill-ta content" data-x-name="list-item">
+                  <div class="skill-ta__item" data-x-name="sub-item">
+                    <div class="skill-ta__item-title">
+                      <div class="p regular" contenteditable="true" data-x-id="name">Tiếng Anh</div>
                     </div>
                   </div>
                 </div>
@@ -312,8 +322,7 @@
                 <div class="advantage content" data-x-name="list-item">
                   <div class="advantage__item" data-x-name="sub-item">
                     <div class="advantage__item-title">
-                      <div class="p bold inline" data-x-id="name" contenteditable="true">Thể thao</div>
-                      <div class="p regular inline" data-x-id="des" contenteditable="true">Thể thao</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
                     </div>
                   </div>
                 </div>

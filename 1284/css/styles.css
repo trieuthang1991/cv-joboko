@@ -24,6 +24,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .icon-cer{display:block;width:1.4em;height:1.6em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-more{display:block;width:1.7em;height:1.7em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-skill-ta{display:block;width:1.6em;height:1.6em;background-repeat:no-repeat;background-size:contain}
+#cv-document .icon-skill-th{display:block;width:1.6em;height:1.6em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-advantage{display:block;width:1.4em;height:1.2em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-cletter{display:block;width:1.4em;height:1.4em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-pro{display:block;width:1.6em;height:1.6em;background-repeat:no-repeat;background-size:contain}
@@ -62,16 +63,13 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .skill__item{position:relative;margin-bottom:.3em;padding-left:2.6em}
 #cv-document .skill__item::before{content:"";position:absolute;top:.6em;left:.4em;width:.6em;height:.6em}
 #cv-document .skill__item:last-child{margin-bottom:0}
-#cv-document .skill__item *{display:inline}
+#cv-document .skill__item-text *{display:inline}
 #cv-document .skill__item [contenteditable=true]:empty{display:inline-block}
 #cv-document .skill__item-title{margin-bottom:.3em}
 #cv-document .skill__item-title>div::after{content:": "}
 #cv-document .skill-ta__item{position:relative;margin-bottom:.3em;padding-left:2.6em}
 #cv-document .skill-ta__item::before{content:"";position:absolute;top:.6em;left:.4em;width:.6em;height:.6em}
 #cv-document .skill-ta__item:last-child{margin-bottom:0}
-#cv-document .skill-ta__item-title>div:first-child::after{content:": "}
-#cv-document .skill-ta__item-title *{display:inline}
-#cv-document .skill-ta__item-title [contenteditable=true]:empty{display:inline-block}
 #cv-document .cvo-skillrate{display:flex;align-items:center}
 #cv-document .cvo-skillrate>span{margin-left:.7em;width:1.2em;height:1.2em;border-radius:50%}
 #cv-document .cvo-skillrate-radial{position:relative;width:5.6em;height:5.6em;text-align:center;border-radius:50%}
@@ -145,9 +143,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 .advantage__item{position:relative;margin-bottom:.3em;padding-left:2.6em}
 .advantage__item::before{content:"";position:absolute;top:.6em;left:.4em;width:.6em;height:.6em}
 .advantage__item:last-child{margin-bottom:0}
-.advantage__item-title>div:first-child::after{content:": "}
-.advantage__item-title *{display:inline}
-.advantage__item-title [contenteditable=true]:empty{display:inline-block}
 .award__item{margin-bottom:1em;display:flex;justify-content:space-between}
 @media screen and (max-width:767px){
 .award__item{display:block}

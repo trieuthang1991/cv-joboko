@@ -47,7 +47,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .full-width{padding:4em 1.2em 0}
 }
-#cv-document .full-width__left{width:calc(100% - 30.6em);padding-right:7em}
+#cv-document .full-width__left{width:calc(100% - 30.6em);padding-right:4.6em}
 @media screen and (max-width:767px){
 #cv-document .full-width__left{padding-right:0;order:1;width:100%}
 }
@@ -104,7 +104,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .info-detail__item{align-items:flex-start;display:flex;margin-bottom:.7em}
 #cv-document .info-detail__item:last-child{margin-bottom:0}
 #cv-document .info-detail__item-icon{position:relative;flex-shrink:0;justify-content:center;align-items:center;display:flex;margin-right:2.2em;border-radius:.5em;width:3em;height:3em;text-align:center}
-#cv-document .info-detail__item-title{padding:.4em 0}
+#cv-document .info-detail__item-title{padding:.6em 0 0}
 #cv-document .skill__item{position:relative;margin-bottom:.8em;padding-left:1.8em}
 #cv-document .skill__item::before{content:"";position:absolute;top:.7em;left:.1em;border-radius:50%;width:.6em;height:.6em}
 #cv-document .skill__item:last-child{margin-bottom:0}
@@ -112,15 +112,9 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .skill-ta__item{position:relative;margin-bottom:.8em;padding-left:1.8em}
 #cv-document .skill-ta__item::before{content:"";position:absolute;top:.7em;left:.1em;border-radius:50%;width:.6em;height:.6em}
 #cv-document .skill-ta__item:last-child{margin-bottom:0}
-#cv-document .skill-ta__item-title>div:first-child::after{content:": "}
-#cv-document .skill-ta__item-title *{display:inline}
-#cv-document .skill-ta__item-title [contenteditable=true]:empty{display:inline-block}
 #cv-document .skill-th__item{position:relative;margin-bottom:.8em;padding-left:1.8em}
 #cv-document .skill-th__item::before{content:"";position:absolute;top:.7em;left:.1em;border-radius:50%;width:.6em;height:.6em}
 #cv-document .skill-th__item:last-child{margin-bottom:0}
-#cv-document .skill-th__item-title>div:first-child::after{content:": "}
-#cv-document .skill-th__item-title *{display:inline}
-#cv-document .skill-th__item-title [contenteditable=true]:empty{display:inline-block}
 #cv-document .cvo-skillrate{display:flex;align-items:center}
 #cv-document .cvo-skillrate>span{margin-left:.7em;width:1.2em;height:1.2em;border-radius:50%}
 #cv-document .cvo-skillrate-radial{position:relative;width:5.6em;height:5.6em;text-align:center;border-radius:50%}
@@ -160,7 +154,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .hobby__item-icon{flex-shrink:0;justify-content:center;align-items:center;display:flex;margin-right:1.2em;width:3.5em;height:3.5em}
 #cv-document .references__item{margin-bottom:.8em}
 #cv-document .references__item:last-child{margin-bottom:0}
-#cv-document .references__item-title{margin-bottom:.2em}
 #cv-document .target{padding:0 1.4em}
 @media screen and (max-width:767px){
 #cv-document .target{padding:0}
@@ -188,7 +181,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .more__item-title{margin-bottom:.3em}
 .advantage__item{margin-bottom:.4em}
 .advantage__item:last-child{margin-bottom:0}
-.advantage__item-title>div:first-of-type::after{content:": "}
 .award__item{margin-bottom:1em}
 .award__item:last-child{margin-bottom:0}
 .award__item-title{margin-bottom:.7em}

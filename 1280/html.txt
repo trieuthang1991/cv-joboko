@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1280&color=58b88c&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675234486198">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1280&color=58b88c&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675234486199">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -193,8 +193,7 @@
                 <div class="advantage" data-x-name="list-item">
                   <div class="advantage__item" data-x-name="sub-item">
                     <div class="advantage__item-title">
-                      <div class="p bold inline" data-x-id="name" contenteditable="true">Thể thao</div>
-                      <div class="p regular inline" data-x-id="des" contenteditable="true">Thể thao</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
                     </div>
                   </div>
                 </div>
@@ -208,8 +207,7 @@
                 <div class="skill-ta" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <div class="p bold inline" contenteditable="true" data-x-id="name">Tiếng Anh</div>
-                      <div class="p regular inline" contenteditable="true" data-x-id="des">Tiếng Anh</div>
+                      <div class="p regular" contenteditable="true" data-x-id="name">Tiếng Anh</div>
                     </div>
                   </div>
                 </div>
@@ -324,8 +322,7 @@
                 <div class="skill-th" data-x-name="list-item">
                   <div class="skill-th__item" data-x-name="sub-item">
                     <div class="skill-th__item-title">
-                      <div class="p bold inline" contenteditable="true" data-x-id="name">Word</div>
-                      <div class="p regular inline" contenteditable="true" data-x-id="des">Word</div>
+                      <div class="p regular" contenteditable="true" data-x-id="name">Word</div>
                     </div>
                   </div>
                 </div>

@@ -346,9 +346,8 @@
                   <div class="more" data-x-name="list-item">
                     <div class="more__item" data-x-name="sub-item">
                       <div class="more__item-title">
-                        <div class="p bold" data-x-id="name" contenteditable="true">Thể thao</div>
+                        <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
                       </div>
-                      <div class="p regular" data-x-id="des" contenteditable="true">Thể thao</div>
                     </div>
                   </div>
                 </div>

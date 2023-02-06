@@ -25,7 +25,7 @@
             <div class="height-curent">
                 <div id="sortable">
                     <div>
-                        <div class="block cvo-block box-contact ui-sortable-handle" data-x-id="info" data-x-name="item">
+                        <div class="block cvo-block box-contact " data-x-id="info" data-x-name="item">
                             <p class="h3 head"><span contenteditable="true" data-x-id="tit">Thông tin liên hệ</span></p>
                             <p class="icoweb" data-x-rel="dob"><label data-x-label="info.dob">Ngày sinh</label><span data-x-id="dob" contenteditable="true">19/05/1992</span></p>
                             <p class="icoweb hide" data-x-rel="gen"><label data-x-label="info.gen">Giới tính</label><span data-x-id="gen" contenteditable="true">Nam</span></p>
@@ -36,13 +36,13 @@
                         </div>
                     </div>
                     <div data-x-name="group-item">
-                        <div class="block cvo-block ui-sortable-handle" data-x-name="item" data-x-id="tar">
+                        <div class="block cvo-block " data-x-name="item" data-x-id="tar">
                             <p class="h3 head"><span id="cv-boxtitle" cv-form-field="true" contenteditable="true" data-x-id="tit" class="box-title">Mục tiêu nghề nghiệp</span></p>
                             <div  data-x-name="list-item">
                             <div class="box-content" data-x-id="name" contenteditable="true"></div>
                             </div>
                         </div>
-                        <div class="block cvo-block box-skills ui-sortable-handle " data-x-name="item" data-x-id="skill">
+                        <div class="block cvo-block box-skills  " data-x-name="item" data-x-id="skill">
 
                             <p class="h3 head"><span id="cv-boxtitle" contenteditable="true" data-x-id="tit" class="box-title">Kỹ năng</span></p>
                             <div class="exp content-edit skill" data-x-name="list-item">
@@ -53,7 +53,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="block cvo-block ui-sortable-handle" data-x-id="award" data-x-name="item">
+                        <div class="block cvo-block " data-x-id="award" data-x-name="item">
                             <p class="h3 head"><span id="cv-boxtitle"  contenteditable="true" data-x-id="tit" class="box-title">Giải Thưởng</span></p>
                             <div data-x-name="list-item">
                                 <div data-x-name="sub-item">
@@ -64,7 +64,7 @@
                             </div>
                             <div class="clearfix"></div>
                         </div>
-						<div class="block cvo-block ui-sortable-handle" data-x-id="cer" data-x-name="item">
+						<div class="block cvo-block " data-x-id="cer" data-x-name="item">
                             <p class="h3 head"><span id="cv-boxtitle"  contenteditable="true" data-x-id="tit" class="box-title">Chứng chỉ</span></p>
                             <div data-x-name="list-item">
                                 <div data-x-name="sub-item">
@@ -75,7 +75,7 @@
                             </div>
                             <div class="clearfix"></div>
                         </div>
-                        <div class="block cvo-block ui-sortable-handle" data-x-id="more" data-x-name="item">
+                        <div class="block cvo-block " data-x-id="more" data-x-name="item">
                             <p class="h3 head"><span id="cv-boxtitle" contenteditable="true" data-x-id="tit" dat class="box-title">Thông tin thêm</span></p>
                             <div data-x-name="list-item">
                             <div class="box-content" data-x-id="name" contenteditable="true"></div>
@@ -89,7 +89,7 @@
         <div class="cv-content" data-x-name="col-parrent" data-x-col="2">
                 <div class="height-curent">
             <div class="ir ui-sortable" id="sort_block" data-x-name="group-item">
-                <div class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="edu">
+                <div class="cvo-block " data-x-name="item" data-x-id="edu">
                     <p class="head">
                         <span class="block-title" data-x-id="tit" contenteditable="true">Học vấn</span>
                     </p>
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="exp">
+                <div class="cvo-block " data-x-name="item" data-x-id="exp">
                     <p class="head">
                         <span class="block-title" data-x-id="tit" contenteditable="true">Kinh nghiệm làm việc</span>
                     </p>
@@ -123,7 +123,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cvo-block ui-sortable-handle" data-x-name="item" data-x-id="act">
+                <div class="cvo-block " data-x-name="item" data-x-id="act">
                     <p class="head">
                         <span class="block-title" data-x-id="tit" contenteditable="true">Hoạt động</span>
                     </p>
@@ -140,7 +140,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cvo-block ui-sortable-handle" data-x-id="ref" data-x-name="item">
+                <div class="cvo-block " data-x-id="ref" data-x-name="item">
                     <p class="head">
                         <span data-x-id="tit" class="block-title" contenteditable="true">Người tham chiếu</span>
                     </p>
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-				<div class="cvo-block ui-sortable-handle" data-x-id="hob" data-x-name="item">
+				<div class="cvo-block " data-x-id="hob" data-x-name="item">
                     <p class="head">
                         <span data-x-id="tit" class="block-title" contenteditable="true">Sở thích</span>
                     </p>

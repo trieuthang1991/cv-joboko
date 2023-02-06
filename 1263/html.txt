@@ -126,10 +126,10 @@
                                 <div class="experience" data-x-name="list-item">
                                     <div class="experience__item" data-x-name="sub-item">
                                         <div class="experience__item-date">
-                                            <div class="p2 bold js-exp-start-date" contenteditable="true"
-                                                data-x-id="start">10/2016</div>
                                             <div class="p2 bold js-exp-end-date" contenteditable="true" data-x-id="end">
                                                 03/2018</div>
+                                            <div class="p2 bold js-exp-start-date" contenteditable="true"
+                                                data-x-id="start">10/2016</div>
                                         </div>
                                         <div class="experience__item-content">
                                             <div class="experience__item-title">
@@ -189,8 +189,8 @@
                                 <div class="education" data-x-name="list-item">
                                     <div class="education__item" data-x-name="sub-item">
                                         <div class="education__item-date">
-                                            <div class="p2 bold" data-x-id="start" contenteditable="true">10/2016</div>
                                             <div class="p2 bold" data-x-id="end" contenteditable="true">03/2018</div>
+                                            <div class="p2 bold" data-x-id="start" contenteditable="true">10/2016</div>
                                         </div>
                                         <div class="education__item-content">
                                             <div class="education__item-title">

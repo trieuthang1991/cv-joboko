@@ -20,7 +20,7 @@
             <div class="two-up__left-group">
               <div class="avatar" data-x-name="item" data-x-id="info">
                 <img data-x-id="ava" style="display:none" src="/upload/images/avatars/no_avatar.jpg" alt="" />
-                <img data-x-id="ava_vertical" src="/upload/images/avatars/no_avatar.jpg" alt="" />
+                <img data-x-id="ava_vertical" src="/upload/images/avatars/no_avatar.jpg" alt="" data-width="276" data-height="345" data-x-img="true"/>
               </div>
               <div data-x-name="item" data-x-id="info">
                 <div class="info-detail">

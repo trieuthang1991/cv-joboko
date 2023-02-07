@@ -65,12 +65,12 @@ body.page-preview, body.page-view, body.page-viewdemo {
 .col_top .h-curent> .info2_col_top{
 	position: absolute;
     top: 60px;
-    left: 50px;
-    width: 240px;
+    left: 65px;
+    width: 210px;
 }
 .col_top .avatar .image_ava{
-	max-width: 240px;
-	width: 240px;
+	max-width: 210px;
+	width: 210px;
 	height: auto;
 	border-radius: 50%;
 }

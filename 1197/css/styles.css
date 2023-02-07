@@ -51,7 +51,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .two-up__left-item::after{right:0}
 }
 #cv-document .two-up__left-item:last-child::after{content:none}
-#cv-document .two-up__left-item:first-child{padding-top:2.7em}
+/*#cv-document .two-up__left-item:first-child{padding-top:2.7em}*/
 #cv-document .two-up__right{width:calc(100% - 34em)}
 @media screen and (max-width:767px){
 #cv-document .two-up__right{width:100%}
@@ -74,7 +74,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .two-up__right-item::after{left:0}
 }
 #cv-document .two-up__right-item:last-child::after{content:none}
-#cv-document .two-up__right-item:first-child{padding-top:2.7em}
+/*#cv-document .two-up__right-item:first-child{padding-top:2.7em}*/
 #cv-document .h1,#cv-document .h2,#cv-document .h3,#cv-document h1,#cv-document h2,#cv-document h3,#cv-document p{margin:0}
 #cv-document .cvo-skillrate-radial::after{font-weight:400}
 #cv-document .cvo-skillrate-progress::after{font-weight:700}
@@ -182,3 +182,4 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 .height-curent>[data-x-name=group-item]{padding-bottom:3em}
 #cv-document .page[page="1"] .two-up:last-child .two-up__left{background-image:none}
 .template-special .x_hide{display:flex !important}
+[data-x-name="group-item"]{padding-top:2.7em}

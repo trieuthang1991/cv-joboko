@@ -6,7 +6,7 @@
 <link rel="stylesheet" id="cv-spacing-css" href="https://i-vn0.joboko.com/MyCv/templates/1076/spacing/spacing_normal.css?v=5.3">
 <link rel="stylesheet" id="cv-scheme-css" href="https://i-vn0.joboko.com/MyCv/templates/1076/colors/ac0443.css?v=4.1">
 -->
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1076&color=ac0443&font=default&size=font_normal&spacing=spacing_normal&more=cv-css&v=230110">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1076&color=ac0443&font=default&size=font_normal&spacing=spacing_normal&more=cv-css&v=230206">
 <div id="form-cv" data-x-name="parrent">
 	<div page='1' class="page pageCV" fix='true'>
 		<div id="cv_top">

@@ -316,8 +316,8 @@
                         </div>
                         <div class="project__item-time">
                           <div class="p medium inline-block" data-x-id="start" contenteditable="true">2016</div>
-                          <div class="p regular inline-block">-</div>
-                          <div class="p regular inline-block" data-x-id="end" contenteditable="true">2018</div>
+                          <div class="p medium inline-block">-</div>
+                          <div class="p medium inline-block" data-x-id="end" contenteditable="true">2018</div>
                         </div>
                       </div>
                       <div class="project__item-table">

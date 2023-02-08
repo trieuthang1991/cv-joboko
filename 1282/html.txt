@@ -13,7 +13,7 @@
         <div data-x-name="col-parrent" data-x-col="1" class="two-up__left">
           <div class="height-curent">
             <div class="avatar" data-x-name="item" data-x-id="info">
-              <img data-x-id="ava" style="display:none" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
+              <img data-x-id="ava" style="display:none" src="../Upload/images/avatars/no_avatar.jpg" alt="" data-width="210" data-height="262" data-x-img="true" />
               <img data-x-id="ava_vertical" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
             </div>
             <div class="two-up__left-item" data-x-name="item" data-x-id="info">
@@ -61,6 +61,14 @@
                   </div>
                   <div class="info-detail__item-title">
                     <div class="p2 regular inline-block" contenteditable="true" data-x-id="add">Nghĩa Đô, Cầu Giấy, Hà Nội 1</div>
+                  </div>
+                </div>
+                <div style="display: none;" class="info-detail__item" data-x-rel="gen">
+                  <div class="info-detail__item-icon">
+                    <i class="icon-gender"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="p2 regular inline-block" contenteditable="true" data-x-id="gen">Nam</div>
                   </div>
                 </div>
               </div>

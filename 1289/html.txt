@@ -15,7 +15,7 @@
               <div class="full-width__left">
                 <div class="avatar" data-x-name="item" data-x-id="info">
                   <img data-x-id="ava" style="display:none" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-                  <img data-x-id="ava_vertical" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
+                  <img data-x-id="ava_vertical" src="../Upload/images/avatars/no_avatar.jpg" alt="" data-width="418" data-height="522" data-x-img="true" />
                 </div>
               </div>
               <div class="full-width__right">
@@ -234,8 +234,6 @@
                         <div class="h3 medium uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                       </div>
                       <div class="education__item-pos" data-x-rel="cat">
-                        <div class="h4 medium italic inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                        <div class="h4 medium italic inline-block">:</div>
                         <div class="h4 medium italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="education__item-date">
@@ -265,8 +263,6 @@
                         <div class="h3 medium uppercase" contenteditable="true" data-x-id="name">Front-End Developer</div>
                       </div>
                       <div class="experience__item-pos">
-                        <div class="h4 medium italic inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                        <div class="h4 medium italic inline-block">:</div>
                         <div class="h4 medium italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="experience__item-date">

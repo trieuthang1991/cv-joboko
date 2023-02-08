@@ -17,7 +17,7 @@
                   <div class="avatar__wrapper">
                     <div class="avatar__inner">
                       <img data-x-id="ava" style="display:none" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-                      <img data-x-id="ava_vertical" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
+                      <img data-x-id="ava_vertical" src="../Upload/images/avatars/no_avatar.jpg" alt="" data-width="345" data-height="628" data-x-img="true" />
                     </div>
                   </div>
                 </div>
@@ -45,6 +45,8 @@
                     <div class="info-detail__item" data-x-rel="add">
                       <div class="p regular inline-block" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
                     </div>
+                    <div style="display: none;" class="info-detail__item" data-x-rel="gen">
+                      <div class="p regular inline-block" contenteditable="true" data-x-id="gen">Nam</div>
                   </div>
                 </div>
               </div>
@@ -204,8 +206,6 @@
                       </div>
                       <div class="education__item-wrap">
                         <div class="education__item-pos" data-x-rel="cat">
-                          <div class="h4 medium italic inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                          <div class="h4 medium italic inline-block">:</div>
                           <div class="h4 medium italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                         </div>
                         <div class="education__item-date">

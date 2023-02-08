@@ -54,6 +54,22 @@
                     <div class="p2 regular inline-block" contenteditable="true" data-x-id="add">Nghĩa Đô, Cầu Giấy, Hà Nội 1</div>
                   </div>
                 </div>
+                <div style="display: none;" class="info-detail__item" data-x-rel="gen">
+                  <div class="info-detail__item-icon">
+                    <i class="icon-gender"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="p2 regular inline-block" contenteditable="true" data-x-id="gen">Nam</div>
+                  </div>
+                </div>
+                <div style="display: none;" class="info-detail__item" data-x-rel="dob">
+                  <div class="info-detail__item-icon">
+                    <i class="icon-birthday"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="p2 regular inline-block" contenteditable="true" data-x-id="dob">1999</div>
+                  </div>
+                </div>
               </div>
             </div>
             <div data-x-name="group-item">

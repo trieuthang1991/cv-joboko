@@ -27,6 +27,7 @@
             <div class="avatar" data-x-name="item" data-x-id="info">
               <div class="avatar__inner">
                 <img data-x-id="ava" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
+                <img data-x-id="ava_vertical" style="display: none;" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
               </div>
             </div>
           </div>

@@ -47,6 +47,7 @@
                     </div>
                     <div style="display: none;" class="info-detail__item" data-x-rel="gen">
                       <div class="p regular inline-block" contenteditable="true" data-x-id="gen">Nam</div>
+                    </div>
                   </div>
                 </div>
               </div>

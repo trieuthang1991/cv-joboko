@@ -110,11 +110,12 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .experience__item-title{margin-bottom:.3em}
 #cv-document .experience__item-pos{margin-bottom:.3em}
 #cv-document .hobby{flex-wrap:wrap;display:flex;gap:2.3em}
-#cv-document .hobby__item{border-width:.2em;border-style:solid;width:calc(33% - 1.5em);padding:.7em .5em .3em;text-align:center}
+#cv-document .hobby__item{border-width:.1em;border-style:solid;width:calc(33% - 1.5em);padding:.7em .5em .3em;text-align:center}
 @media screen and (max-width:767px){
 #cv-document .hobby__item{width:100%}
 }
 #cv-document .hobby__item-icon{justify-content:center;align-items:center;display:flex;margin:0 auto .8em;width:3.6em;height:3.6em}
+#cv-document .hobby__item-icon .xicon{width: 3.6em !important;;height:3.6em !important}
 #cv-document .references__item{margin-bottom:.6em}
 #cv-document .references__item:last-child{margin-bottom:0}
 #cv-document .target{position:relative;z-index:2;padding:1.5em 3.6em 0 0}

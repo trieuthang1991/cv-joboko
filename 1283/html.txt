@@ -250,7 +250,7 @@
                 <div class="references" data-x-name="list-item">
                   <div class="references__item" data-x-name="sub-item">
                     <div class="references__item-title">
-                      <div class="p bold" data-x-id="name" contenteditable="true">Ông Mai Hữu Tùng</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Ông Mai Hữu Tùng</div>
                     </div>
                   </div>
                 </div>

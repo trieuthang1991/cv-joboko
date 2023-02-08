@@ -86,7 +86,7 @@
                 <div class="hobby" data-x-name="list-item">
                   <div class="hobby__item" data-x-name="sub-item">
                     <div class="hobby__item-title">
-                      <div class="p bold" data-x-id="name" contenteditable="true">Đá bóng</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Đá bóng</div>
                     </div>
                   </div>
                 </div>
@@ -175,7 +175,7 @@
                 <div class="h1 uppercase bold" contenteditable="true" data-x-id="name">Trần Thảo Trang</div>
               </div>
               <div class="info-main__text">
-                <div class="h3 bold italic" contenteditable="true" data-x-id="job">Nhân viên kinh doanh</div>
+                <div class="h3 regular italic" contenteditable="true" data-x-id="job">Nhân viên kinh doanh</div>
               </div>
             </div>
             <div data-x-name="group-item">

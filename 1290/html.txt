@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1290&color=1d3856&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675490604125">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1290&color=1d3856&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675490604128">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -173,6 +173,23 @@
                     </div>
                   </div>
                 </div>
+                <div class="two-up__left-item" data-x-name="item" data-x-id="skill_ta">
+                  <div class="heading" data-x-name="head">
+                    <div class="heading__icon">
+                      <i class="icon-skill-ta"></i>
+                    </div>
+                    <div class="heading__title">
+                      <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">tiếng anh</div>
+                    </div>
+                  </div>
+                  <div class="skill-th" data-x-name="list-item">
+                    <div class="skill-th__item" data-x-name="sub-item">
+                      <div class="skill-th__item-title">
+                        <div class="p medium" contenteditable="true" data-x-id="name">Word</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div class="two-up__left-item" data-x-name="item" data-x-id="award">
                   <div class="heading" data-x-name="head">
                     <div class="heading__icon">
@@ -315,6 +332,38 @@
                             <li>- Chịu trách nhiệm làm việc với nhiều dự án cùng lúc, thiết kế các trang web hấp dẫn, tương tác hàng ngày với các bạn thiết kế đồ họa, back-end developer và nhóm tiếp thị.</li>
                             <li>- Phát triển và duy trì chức năng front-end của các trang web.</li>
                             <li>- Tham gia thảo luận với khách hàng để làm rõ những gì họ muốn.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="two-up__right-item" data-x-name="item" data-x-id="act">
+                  <div class="heading" data-x-name="head">
+                    <div class="heading__icon">
+                      <i class="icon-act"></i>
+                    </div>
+                    <div class="heading__title">
+                      <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">hoạt động</div>
+                    </div>
+                  </div>
+                  <div class="education" data-x-name="list-item">
+                    <div class="education__item" data-x-name="sub-item">
+                      <div class="education__item-title">
+                        <div class="h3 medium uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
+                      </div>
+                      <div class="education__item-pos" data-x-rel="pos">
+                        <div class="h4 medium italic inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
+                      </div>
+                      <div class="education__item-date">
+                        <div class="p medium inline-block" data-x-id="start" contenteditable="true">10/2016</div>
+                        <div class="p medium inline-block">-</div>
+                        <div class="p medium inline-block" data-x-id="end" contenteditable="true">03/2018</div>
+                      </div>
+                      <div class="education__item-text">
+                        <div class="h4 regular" data-x-id="des" contenteditable="true">
+                          <ul>
+                            <li>Tốt nghiệp loại khá giỏi, điểm trung bình 8.3</li>
                           </ul>
                         </div>
                       </div>

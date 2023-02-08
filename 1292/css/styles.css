@@ -98,8 +98,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .skill-ta__item{display:flex;align-items:center;width:46.6%;margin-top:1.6em;margin-bottom:.8em}
 #cv-document .skill-ta__item-title{margin-left:1.3em}
 #cv-document .skill-th{flex-wrap:wrap;display:flex}
-#cv-document .skill-th__item{width:50%;margin-bottom:.4em}
-#cv-document .skill-th__item:nth-child(even){padding-left:2em;text-align:right}
+#cv-document .skill-th__item{margin-bottom:.4em}
 .xicon{display:inline-block;width:3.9em;height:3.9em;background-repeat:no-repeat;background-size:contain!important;background-position:center;vertical-align:middle}
 #cv-document .action__item{margin-bottom:1.8em}
 #cv-document .action__item:last-child{margin-bottom:0}

@@ -186,7 +186,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .cletter{padding:1.3em 1.7em 1.6em}
 #cv-document .cletter br{content:"";display:block;margin-top:.2857142857em}
 #cv-document .cletter>*{line-height:1.428}
-#cv-document .border{border-image-slice:10;border-image-width:15;border-image-outset:1;border-image-repeat:round;border-width:1px;border-style:solid;border-radius:1.5em}
+#cv-document .border{border-width:1px;border-style:solid;border-radius:1.5em}
 #cv-document [contentEditable] *{font-size:1em!important}
 [contenteditable]:focus{outline:1pt dashed #77a5cc!important;cursor:text}
 [contentEditable=true]:empty{outline:1pt dashed #fc4b08!important}

@@ -39,6 +39,9 @@
                     <div class="info-detail__item" data-x-rel="email">
                       <div class="p regular inline-block" contenteditable="true" data-x-id="email">hotro.goodcv@gmail.com</div>
                     </div>
+                    <div class="info-detail__item" data-x-rel="web">
+                      <div class="p regular inline-block" contenteditable="true" data-x-id="web">fb.com/jobokofanpage</div>
+                    </div>
                     <div class="info-detail__item" data-x-rel="add">
                       <div class="p regular inline-block" contenteditable="true" data-x-id="add">139 Nghĩa Đô, Cầu Giấy, Hà Nội</div>
                     </div>

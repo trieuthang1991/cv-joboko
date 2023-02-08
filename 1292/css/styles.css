@@ -94,19 +94,17 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .skill__item:last-child{margin-bottom:0}
 #cv-document .skill__item-title{margin-right:1em}
 #cv-document .skill__item-title>div:first-child::after{content:": "}
-#cv-document .skill-ta{display:flex;flex-wrap:wrap;justify-content:space-between}
-#cv-document .skill-ta__item{display:flex;align-items:center;width:46.6%;margin-top:1.6em;margin-bottom:.8em}
-#cv-document .skill-ta__item-title{margin-left:1.3em}
+#cv-document .skill-ta__item{margin-bottom:.4em}
+#cv-document .skill-ta__item:last-child{margin-bottom:0}
 #cv-document .skill-th{flex-wrap:wrap;display:flex}
 #cv-document .skill-th__item{margin-bottom:.4em}
 .xicon{display:inline-block;width:3.9em;height:3.9em;background-repeat:no-repeat;background-size:contain!important;background-position:center;vertical-align:middle}
 #cv-document .action__item{margin-bottom:1.8em}
 #cv-document .action__item:last-child{margin-bottom:0}
-#cv-document .action__item-title{position:relative;margin-bottom:.5em;padding-left:1.8em}
-#cv-document .action__item-title::before{content:"";position:absolute;top:.4em;left:0;width:.8em;height:.8em;border-radius:50%}
-#cv-document .action__item-pos{margin-bottom:.5em}
-#cv-document .action__item-date{margin-bottom:1em}
-#cv-document .action__item-text br{content:"";display:block;margin-top:.4285714286em}
+#cv-document .action__item-wrap{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.5em}
+#cv-document .action__item-title{max-width:27.3em}
+#cv-document .action__item-title>*{line-height:1.375}
+#cv-document .action__item-date{margin-left:1em;flex-shrink:0}
 #cv-document .certification__item{margin-bottom:.7em}
 #cv-document .certification__item:last-child{margin-bottom:0}
 #cv-document .education__item{margin-bottom:1.8em}
@@ -150,18 +148,24 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .target__content::after{content:"";position:absolute;right:-.3em;bottom:.9em;width:6.8em;height:.5em}
 #cv-document .project__item{margin-bottom:2em}
 #cv-document .project__item:last-child{margin-bottom:0}
-#cv-document .project__item-head{margin-bottom:.8em}
+#cv-document .project__item-head{margin-bottom:.2em;display:flex;justify-content:space-between;align-items:flex-start}
 #cv-document .project__item-title{margin-bottom:4px}
 #cv-document .project__item-table{position:relative;width:100%;border-collapse:collapse}
-#cv-document .project__item-table::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;border-width:1px;border-radius:.5em;border-style:solid;pointer-events:none}
+#cv-document .project__item-table::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;border-width:1px;border-style:solid;pointer-events:none}
 #cv-document .project__item-table .tr{display:flex}
-#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-width:1px 1px 0 1px;border-style:dashed;padding:.9em 2.1em;vertical-align:top}
-#cv-document .project__item-table .th{border-right:none;border-left:none;width:34.5%}
-#cv-document .project__item-table .td{border-right:none;width:65.5%;padding-left:1.5em}
+#cv-document .project__item-table .td,#cv-document .project__item-table .th{border-width:1px 1px 0 1px;border-style:dashed;padding:1em 1.1em;vertical-align:top}
+#cv-document .project__item-table .th{border-right:none;border-left:none;width:26.5%}
+@media screen and (max-width:767px){
+#cv-document .project__item-table .th{width:35%}
+}
+#cv-document .project__item-table .td{border-right:none;width:73.5%}
+@media screen and (max-width:767px){
+#cv-document .project__item-table .td{width:65%}
+}
 #cv-document .project__item-table .tr:first-child .td,#cv-document .project__item-table .tr:first-child .th{border-top:none}
 #cv-document .project__item-table .tr:last-child .td,#cv-document .project__item-table .tr:last-child .th{border-bottom:none;border-bottom-width:1px}
-#cv-document .more__item{position:relative;padding-left:1em}
-#cv-document .more__item::before{content:"";position:absolute;top:.7em;left:0;border-radius:50%;width:.4em;height:.4em}
+#cv-document .more__item{position:relative;margin-bottom:.7em;padding-left:1.2em}
+#cv-document .more__item::before{content:"";position:absolute;top:.8em;left:0;border-radius:50%;width:.4em;height:.4em}
 #cv-document .more__item:last-child{margin-bottom:0}
 .advantage__item{margin-bottom:4px}
 .advantage__item:last-child{margin-bottom:0}

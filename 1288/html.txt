@@ -194,9 +194,8 @@
                 <div class="more content" data-x-name="list-item">
                   <div class="more__item" data-x-name="sub-item">
                     <div class="more__item-title">
-                      <div class="p medium" data-x-id="name" contenteditable="true">Thể thao</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
                     </div>
-                    <div class="p regular" data-x-id="des" contenteditable="true">Thể thao</div>
                   </div>
                 </div>
               </div>
@@ -234,6 +233,11 @@
                     <div class="action__item-pos">
                       <div class="p medium italic" data-x-id="pos" contenteditable="true">Tình nguyện viên</div>
                     </div>
+                    <div class="education__item-date">
+                      <div class="p medium inline-block" data-x-id="start" contenteditable="true">10/2016</div>
+                      <div class="p medium inline-block">-</div>
+                      <div class="p medium inline-block" data-x-id="end" contenteditable="true">03/2018</div>
+                    </div>
                     <div class="action__item-text">
                       <div class="p regular" data-x-id="des" contenteditable="true">
                         <ul>
@@ -241,11 +245,6 @@
                           <li>Vận động quyên góp, ủng hộ cho trẻ em nghèo</li>
                         </ul>
                       </div>
-                    </div>
-                    <div class="action__item-date">
-                      <div class="p medium inline-block" data-x-id="start" contenteditable="true">10/2016</div>
-                      <div class="p medium inline-block">-</div>
-                      <div class="p medium inline-block" data-x-id="end" contenteditable="true">03/2018</div>
                     </div>
                   </div>
                 </div>

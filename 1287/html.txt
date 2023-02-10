@@ -27,6 +27,7 @@
             <div class="avatar" data-x-name="item" data-x-id="info">
               <div class="avatar__inner">
                 <img data-x-id="ava" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
+                <img data-x-id="ava_vertical" style="display: none;" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -327,21 +328,6 @@
                   </div>
                 </div>
               </div>
-              <div class="full-width__item" data-x-name="item" data-x-id="skill_th">
-                <div class="heading" data-x-name="head">
-                  <div class="heading__title">
-                    <div class="h4 bold uppercase" data-x-id="tit" contenteditable="true">phần mềm</div>
-                  </div>
-                </div>
-                <div class="skill-th content" data-x-name="list-item">
-                  <div class="skill-th__item" data-x-name="sub-item">
-                    <div class="skill-th__item-title">
-                      <div class="p bold inline" contenteditable="true" data-x-id="name">Word</div>
-                      <div class="p regular inline" contenteditable="true" data-x-id="des">Word</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div class="full-width__item" data-x-name="item" data-x-id="more">
                 <div class="heading" data-x-name="head">
                   <div class="heading__title">
@@ -351,9 +337,8 @@
                 <div class="more content" data-x-name="list-item">
                   <div class="more__item" data-x-name="sub-item">
                     <div class="more__item-title">
-                      <div class="p bold" data-x-id="name" contenteditable="true">Thể thao</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
                     </div>
-                    <div class="p regular" data-x-id="des" contenteditable="true">Thể thao</div>
                   </div>
                 </div>
               </div>

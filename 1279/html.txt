@@ -14,6 +14,7 @@
           <div class="height-curent">
             <div class="avatar" data-x-name="item" data-x-id="info">
               <img data-x-id="ava" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
+              <img data-x-id="ava_vertical" style="display: none;" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
             </div>
             <div class="two-up__left-item" data-x-name="item" data-x-id="info">
               <div class="info-detail">
@@ -57,6 +58,14 @@
                     <div class="p2 regular inline-block" contenteditable="true" data-x-id="add">Nghĩa Đô, Cầu Giấy, Hà Nội 1</div>
                   </div>
                 </div>
+                <div style="display: none;" class="info-detail__item" data-x-rel="gen">
+                  <div class="info-detail__item-icon">
+                    <i class="icon-gender"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="p2 regular inline-block" contenteditable="true" data-x-id="gen">Nam</div>
+                  </div>
+                </div>
               </div>
             </div>
             <div data-x-name="group-item">
@@ -86,7 +95,7 @@
                 <div class="hobby" data-x-name="list-item">
                   <div class="hobby__item" data-x-name="sub-item">
                     <div class="hobby__item-title">
-                      <div class="p bold" data-x-id="name" contenteditable="true">Đá bóng</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Đá bóng</div>
                     </div>
                   </div>
                 </div>
@@ -175,7 +184,7 @@
                 <div class="h1 uppercase bold" contenteditable="true" data-x-id="name">Trần Thảo Trang</div>
               </div>
               <div class="info-main__text">
-                <div class="h3 bold italic" contenteditable="true" data-x-id="job">Nhân viên kinh doanh</div>
+                <div class="h3 regular italic" contenteditable="true" data-x-id="job">Nhân viên kinh doanh</div>
               </div>
             </div>
             <div data-x-name="group-item">

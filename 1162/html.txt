@@ -118,8 +118,8 @@
                   <div class="experience__item" data-x-name="sub-item">
                     <div class="experience__item-head">
                       <p class="experience__item-date">
-                        <span class="p3 regular inline-block" contenteditable="true" data-x-id="start">10/2016</span>
                         <span class="p3 regular inline-block" contenteditable="true" data-x-id="end">03/2018</span>
+                        <span class="p3 regular inline-block" contenteditable="true" data-x-id="start">10/2016</span>
                       </p>
                     </div>
                     <div class="experience__item-content">
@@ -150,8 +150,8 @@
                   <div class="education__item" data-x-name="sub-item">
                     <div class="education__item-head">
                       <div class="education__item-date">
-                        <span class="p3 regular inline-block" data-x-id="start" contenteditable="true">10/2016</span>
                         <span class="p3 regular inline-block" data-x-id="end" contenteditable="true">03/2018</span>
+                        <span class="p3 regular inline-block" data-x-id="start" contenteditable="true">10/2016</span>
                       </div>
                     </div>
                     <div class="education__item-content">
@@ -177,8 +177,8 @@
                   <div class="experience__item" data-x-name="sub-item">
                     <div class="experience__item-head">
                       <p class="experience__item-date">
-                        <span class="p3 regular inline-block" contenteditable="true" data-x-id="start">10/2016</span>
                         <span class="p3 regular inline-block" contenteditable="true" data-x-id="end">03/2018</span>
+                        <span class="p3 regular inline-block" contenteditable="true" data-x-id="start">10/2016</span>
                       </p>
                     </div>
                     <div class="experience__item-content">
@@ -273,8 +273,7 @@
                 <div class="content skill-ta" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <div class="p2 regular" contenteditable="true" data-x-id="name">Nghe</div>
-					  <div class="p2 light" contenteditable="true" data-x-id="des"></div>
+                      <div class="p2 light" contenteditable="true" data-x-id="name">Nghe</div>
                     </div>
                   </div>
                 </div>
@@ -316,8 +315,7 @@
                 <div class="content skill-ta" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <div class="p2 regular" contenteditable="true" data-x-id="name">Excel</div>
-					  <div class="p2 light" contenteditable="true" data-x-id="des"></div>
+                      <div class="p2 light" contenteditable="true" data-x-id="name">Excel</div>
                     </div>
                   </div>
                 </div>

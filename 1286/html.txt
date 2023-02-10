@@ -26,6 +26,7 @@
                 <div class="avatar" data-x-name="item" data-x-id="info">
                   <div class="avatar__inner">
                     <img data-x-id="ava" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
+                    <img data-x-id="ava_vertical" style="display: none;" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -73,6 +74,14 @@
                       </div>
                       <div class="info-detail__item-title">
                         <div class="p regular inline-block" contenteditable="true" data-x-id="add">Nghĩa Đô, Cầu Giấy, Hà Nội 1</div>
+                      </div>
+                    </div>
+                    <div style="display: none;" class="info-detail__item" data-x-rel="gen">
+                      <div class="info-detail__item-icon">
+                        <i class="icon-gender"></i>
+                      </div>
+                      <div class="info-detail__item-title">
+                        <div class="p regular inline-block" contenteditable="true" data-x-id="gen">Nam</div>
                       </div>
                     </div>
                   </div>

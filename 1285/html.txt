@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1285&color=bb274b&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675233963030">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1285&color=bb274b&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675233963032">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -14,7 +14,8 @@
             <div class="two-up">
               <div class="two-up__left">
                 <div class="avatar" data-x-name="item" data-x-id="info">
-                  <img data-x-id="ava" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
+                  <img data-x-id="ava" src="../Upload/images/avatars/no_avatar.jpg" alt="" data-width="246" data-height="246" data-x-img="true" />
+                  <img data-x-id="ava_vertical" style="display: none;" src="../Upload/images/avatars/no_avatar.jpg" alt="" />
                 </div>
               </div>
               <div class="two-up__right">
@@ -78,6 +79,14 @@
                   </div>
                   <div class="info-detail__item-title">
                     <div class="h5 regular inline-block" contenteditable="true" data-x-id="add">Nghĩa Đô, Cầu Giấy, Hà Nội 1</div>
+                  </div>
+                </div>
+                <div style="display: none;" class="info-detail__item" data-x-rel="gen">
+                  <div class="info-detail__item-icon">
+                    <i class="icon-gender"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="h5 regular inline-block" contenteditable="true" data-x-id="gen">Nam</div>
                   </div>
                 </div>
               </div>
@@ -183,10 +192,7 @@
                 <div class="references border" data-x-name="list-item">
                   <div class="references__item" data-x-name="sub-item">
                     <div class="references__item-title">
-                      <div class="h4 bold" data-x-id="name" contenteditable="true">Anh Nguyễn Văn A</div>
-                    </div>
-                    <div class="references__item-text">
-                      <div class="p regular" data-x-id="name" contenteditable="true">Trưởng phòng Marketing, Công ty TNHH JobOKO<br>Điện thoại: 0988998899</div>
+                      <div class="h4 regular" data-x-id="name" contenteditable="true">Anh Nguyễn Văn A</div>
                     </div>
                   </div>
                 </div>
@@ -298,9 +304,8 @@
                 <div class="more border" data-x-name="list-item">
                   <div class="more__item" data-x-name="sub-item">
                     <div class="more__item-title">
-                      <div class="h4 bold" data-x-id="name" contenteditable="true">Thể thao</div>
+                      <div class="h4 regular" data-x-id="name" contenteditable="true">Thể thao</div>
                     </div>
-                    <div class="p regular" data-x-id="des" contenteditable="true">Thể thao</div>
                   </div>
                 </div>
               </div>

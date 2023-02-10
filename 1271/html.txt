@@ -29,7 +29,7 @@
                 <div class="h2 semi-bold inline-block" contenteditable="true" data-x-id="job">Chuyên viên truyền thông</div>
               </div>
             </div>
-            <div data-x-name="item" data-x-id="info" data-x-modal="true">
+            <div data-x-name="item" data-x-id="info" data-x-modal="true" data-x-wait-show-modal="1">
               <div class="info-detail">
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">

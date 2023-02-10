@@ -64,7 +64,7 @@ h1{
 .cv-content{
 	width: 60%;
 	height: auto;
-	float: left;
+	float: right;
 	position: relative;
 	border-left:2px solid #ddd;
 }

@@ -3,9 +3,9 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document{font-size:10px}
 #cv-document *{box-sizing:border-box}
 #cv-document #cv-watermark a:after{content:"Joboko.com"}
-#cv-document .page:last-child #cv-watermark{position:absolute;left:4em;bottom:1.4em}
+#cv-document .page:last-child #cv-watermark{position:absolute;left:1em;bottom:0.9em}
 @media screen and (max-width:767px){
-#cv-document .page:last-child #cv-watermark{left:1.2em;bottom:.5em}
+#cv-document .page:last-child #cv-watermark{left:1.2em;}
 }
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
@@ -62,12 +62,13 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .heading{margin-bottom:.9em}
 #cv-document .avatar{position:relative;z-index:2;width:34.5em}
 @media screen and (max-width:767px){
-#cv-document .avatar{width:24em}
+#cv-document .avatar{width:24em;margin: 0 auto;}
 }
 #cv-document .avatar::before{content:"";position:absolute;top:-11em;right:43%;bottom:14.4em;left:-4.5em;border-width:0 .2em .2em 0;border-style:solid}
 #cv-document .avatar::after{content:"";position:absolute;top:-1.7em;right:-1.4em;border-width:.2em;border-style:solid;border-radius:17em 17em 0 0;width:32.4em;height:67em}
 @media screen and (max-width:767px){
-#cv-document .avatar::after{width:24em;height:32em}
+#cv-document .avatar::after{width:24em;height:43.6em}
+#cv-document .avatar::before{content:none;}
 }
 #cv-document .avatar__wrapper{position:relative;z-index:3;border-bottom-width:4em;border-bottom-style:solid}
 #cv-document .avatar__wrapper::after{content:"";position:absolute;bottom:-9.7em;right:43%;width:.2em;height:5.7em}
@@ -77,11 +78,11 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .avatar span{position:absolute;bottom:-5.7em;left:200px;width:.2em;height:7em}
 #cv-document .avatar__inner{position:relative;z-index:3;justify-content:center;align-items:center;display:flex;overflow:hidden;border-width:.2em;border-style:solid;border-radius:17em 17em 0 0;width:34.5em;height:62.8em}
 @media screen and (max-width:767px){
-#cv-document .avatar__inner{width:24em;height:32em}
+#cv-document .avatar__inner{width:24em;height:43.6em}
 }
 #cv-document .avatar img{width:34.5em;height:62.8em}
 @media screen and (max-width:767px){
-#cv-document .avatar img{width:24em;height:32em}
+#cv-document .avatar img{width:24em;height:43.6em}
 }
 #cv-document .info-main{margin-bottom:2.2em}
 #cv-document .info-main-bottom{margin-top:auto;padding:1.5em 4em}
@@ -142,8 +143,10 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .target__head>*{transform:none;-ms-writing-mode:initial;writing-mode:initial;text-orientation:initial}
 }
 #cv-document .target__content{position:relative;flex-grow:1;padding:1.9em 0 1.9em 2.6em}
+#cv-document .target__content-inner{max-height: 19em;overflow: hidden;}
 @media screen and (max-width:767px){
 #cv-document .target__content{padding:2em 0}
+#cv-document .target__content-inner{max-height: 31.8em;}
 }
 #cv-document .target__content::after{content:"";position:absolute;right:-.3em;bottom:.9em;width:6.8em;height:.5em}
 #cv-document .project__item{margin-bottom:2em}
@@ -165,7 +168,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .project__item-table .tr:first-child .td,#cv-document .project__item-table .tr:first-child .th{border-top:none}
 #cv-document .project__item-table .tr:last-child .td,#cv-document .project__item-table .tr:last-child .th{border-bottom:none;border-bottom-width:1px}
 #cv-document .more__item{position:relative;margin-bottom:.7em;padding-left:1.2em}
-#cv-document .more__item::before{content:"";position:absolute;top:.8em;left:0;border-radius:50%;width:.4em;height:.4em}
+#cv-document .more__item::before{content:"";position:absolute;top:.8em;left:0;border-radius:50%;width:.4em;height:.4em;background-color: #221f20;}
 #cv-document .more__item:last-child{margin-bottom:0}
 .advantage__item{margin-bottom:4px}
 .advantage__item:last-child{margin-bottom:0}

@@ -3,7 +3,10 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document{font-size:10px}
 #cv-document *{box-sizing:border-box}
 #cv-document #cv-watermark a:after{content:"Joboko.com"}
-#cv-document .page:last-child #cv-watermark{position:absolute;right:1em;bottom:2em}
+#cv-document .page:last-child #cv-watermark{position:absolute;right:3em;bottom:1em}
+@media screen and (max-width:767px){
+#cv-document .page:last-child #cv-watermark{right:1em;}
+}
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
 #cv-document .inline{display:inline}
@@ -20,6 +23,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .full-width__left{width:calc(100% - 48.8em);padding:0 .2em 0 3.4em}
 @media screen and (max-width:767px){
 #cv-document .full-width__left{width:100%;padding:0 1.2em}
+#cv-document .page--background:first-child .page__inner{background-size: 53.6em 51.5em,16.7em 10.8em;}
 }
 #cv-document .full-width__left-item{margin-bottom:2.1em}
 #cv-document .full-width__right{width:48.8em;padding:0 4.1em 0 2.4em}

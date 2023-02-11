@@ -3,7 +3,10 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document{font-size:10px}
 #cv-document *{box-sizing:border-box}
 #cv-document #cv-watermark a:after{content:"Joboko.com"}
-#cv-document .page:last-child #cv-watermark{position:absolute;right:1em;bottom:2em}
+#cv-document .page:last-child #cv-watermark{position:absolute;right:2.5em;bottom:2em}
+@media screen and (max-width:767px){
+#cv-document .page:last-child #cv-watermark{right:1em}
+}
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
 #cv-document .inline{display:inline}
@@ -64,7 +67,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .heading{margin-bottom:1.4em;border-bottom-width:1px;border-bottom-style:solid;letter-spacing:0.2em;padding-bottom:.4em}
 #cv-document .avatar{position:relative;z-index:2;display:flex;justify-content:center;align-items:center;width:41.8em;height:52.2em;margin-left:1.2em}
 @media screen and (max-width:767px){
-#cv-document .avatar{width:21.8em;height:32.2em}
+#cv-document .avatar{width:21.8em;height:27.2em;margin: 0 auto 1em;}
 }
 #cv-document .avatar::before{content:"";position:absolute;top:0;left:-1.2em;width:1.2em;height:34.2em}
 @media screen and (max-width:767px){
@@ -72,7 +75,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 }
 #cv-document .avatar img{width:41.8em;height:52.2em}
 @media screen and (max-width:767px){
-#cv-document .avatar img{width:21.8em;height:32.2em}
+#cv-document .avatar img{width:21.8em;height:27.2em}
 }
 #cv-document .info-main{height:43em}
 @media screen and (max-width:767px){
@@ -148,7 +151,10 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .target::after,#cv-document .target::before{content:"";position:absolute;width:1.7em;height:1.5em}
 #cv-document .target::before{top:1.1em;left:1.1em}
 #cv-document .target::after{right:1.4em;bottom:1.4em}
-#cv-document .target__inner{padding:2.1em 3.5em}
+#cv-document .target__inner{padding:2.1em 3.5em;max-height:20em;overflow: hidden;}
+@media screen and (max-width:767px){
+#cv-document .target__inner{max-height:44em;}
+}
 #cv-document .project__item{margin-bottom:2em}
 #cv-document .project__item:last-child{margin-bottom:0}
 #cv-document .project__item-head{margin-bottom:.8em}

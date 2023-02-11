@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1292&color=043f35&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675865690756">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1292&color=043f35&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675865690763">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -59,8 +59,10 @@
                     <div class="p bold uppercase" data-x-id="tit" contenteditable="true">mục tiêu nghề nghiệp</div>
                   </div>
                   <div class="target__content">
-                    <div class="h4 regular" contenteditable="true" data-x-id="name">
-                      Áp dụng những kiến thức Marketing, Sale đã học, tích lũy vào môi trường làm việc thực tế
+                    <div class="target__content-inner">
+                      <div class="h4 regular" contenteditable="true" data-x-id="name">
+                        Áp dụng những kiến thức Marketing, Sale đã học, tích lũy vào môi trường làm việc thực tế
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -234,8 +236,8 @@
                         <div class="h3 medium uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                       </div>
                       <div class="education__item-wrap">
-                        <div class="education__item-pos" data-x-rel="cat">
-                          <div class="h4 medium italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
+                        <div class="education__item-pos">
+                          <div class="h4 medium italic inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
                         </div>
                         <div class="education__item-date">
                           <div class="p medium inline-block" data-x-id="start" contenteditable="true">10/2016</div>
@@ -266,9 +268,7 @@
                       </div>
                       <div class="experience__item-wrap">
                         <div class="experience__item-pos">
-                          <div class="h4 medium italic inline-block" data-x-label="edu.cat">Chuyên ngành</div>
-                          <div class="h4 medium italic inline-block">:</div>
-                          <div class="h4 medium italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
+                          <div class="h4 medium italic inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
                         </div>
                         <div class="experience__item-date">
                           <div class="p medium inline-block" contenteditable="true" data-x-id="start">10/2016</div>

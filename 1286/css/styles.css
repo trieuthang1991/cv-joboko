@@ -3,7 +3,10 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document{font-size:10px}
 #cv-document *{box-sizing:border-box}
 #cv-document #cv-watermark a:after{content:"Joboko.com"}
-#cv-document .page:last-child #cv-watermark{position:absolute;right:1em;bottom:2em}
+#cv-document .page:last-child #cv-watermark{position:absolute;right:2.5em;bottom:2em}
+@media screen and (max-width:767px){
+#cv-document .page:last-child #cv-watermark{right:1em;bottom:1em}
+}
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
 #cv-document .inline{display:inline}
@@ -85,7 +88,8 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .avatar::before{content:"";position:absolute;top:-5.4em;left:-7.2em;width:17.6em;height:17.6em;background-repeat:no-repeat;background-position:center;background-size:contain}
 #cv-document .avatar__inner{position:relative;z-index:2;justify-content:center;align-items:center;display:flex;border-radius:50%;width:30.6em;height:30.6em}
 @media screen and (max-width:767px){
-#cv-document .avatar__inner{width:20.6em;height:20.6em}
+#cv-document .avatar__inner{width:20.6em;height:20.6em;margin:0 auto 2em}
+#cv-document .page--background:first-child{background-position-x: center;}
 }
 #cv-document .avatar__inner img{border-radius:50%;width:29.8em;height:29.8em}
 @media screen and (max-width:767px){

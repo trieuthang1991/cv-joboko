@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1286&color=dcb572&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675233847845">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1286&color=dcb572&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675233847846">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -428,7 +428,9 @@
                           <div class="h4 bold inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
                         </div>
                         <div class="project__item-time">
-                          <div class="p italic inline-block" data-x-id="time" contenteditable="true">2019</div>
+                          <div class="p italic inline-block" data-x-id="start" contenteditable="true">10/2016</div>
+                          <div class="p italic inline-block">-</div>
+                          <div class="p italic inline-block" data-x-id="end" contenteditable="true">03/2018</div>
                         </div>
                       </div>
                       <div class="project__item-table">

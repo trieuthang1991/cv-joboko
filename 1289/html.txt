@@ -19,14 +19,14 @@
                 </div>
               </div>
               <div class="full-width__right">
-                <div class="info-main" data-x-name="item" data-x-id="info">
+                <div class="info-main" data-x-name="item" data-x-id="info" data-x-modal="true" data-x-wait-show-modal="1">
                   <div class="info-main__title">
                     <div class="h1 uppercase black" contenteditable="true" data-x-id="name">Trần Thảo Trang</div>
                   </div>
                 </div>
               </div>
             </div>
-            <div data-x-name="item" data-x-id="info">
+            <div data-x-name="item" data-x-id="info" data-x-modal="true" data-x-wait-show-modal="1">
               <div class="info-detail">
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="p regular inline-block" data-x-label="info.tel">Số điện thoại:</div>

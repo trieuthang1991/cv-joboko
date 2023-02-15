@@ -78,7 +78,7 @@ body {
     }
 
 .col_right {
-    float: left;
+    float: right;
     width: 540px;
     background: #fff;
     padding: 40px 15px;

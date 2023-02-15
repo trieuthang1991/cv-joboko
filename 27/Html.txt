@@ -1,8 +1,7 @@
 
-<link id="cv-scheme-css"  rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/27/colors/ffa96a.css?v=2.1">
+<link id="cv-scheme-css"  rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/27/colors/ffa96a.css?v=2.2">
 <link  media="print"  rel="stylesheet" href="https://i-vn1.joboko.com/MyCV/templates/27/print.css">
-
-    <div class="row">
+    <div class="row_">
         <div class="col-sm-12 col-md-12 col-lg-12" data-x-name="parrent" style='padding:0'>
             <!-- Wrap -->
             <div class="cv_wrap  page" page='1' >

@@ -192,7 +192,7 @@
                 <div class="references border" data-x-name="list-item">
                   <div class="references__item" data-x-name="sub-item">
                     <div class="references__item-title">
-                      <div class="h4 regular" data-x-id="name" contenteditable="true">Anh Nguyễn Văn A</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Anh Nguyễn Văn A</div>
                     </div>
                   </div>
                 </div>
@@ -212,7 +212,7 @@
                       <i class="xicon sport"></i>
                     </div>
                     <div class="hobby__item-title">
-                      <div class="h5 regular" data-x-id="name" contenteditable="true">Đá bóng</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Đá bóng</div>
                     </div>
                   </div>
                 </div>
@@ -304,7 +304,7 @@
                 <div class="more border" data-x-name="list-item">
                   <div class="more__item" data-x-name="sub-item">
                     <div class="more__item-title">
-                      <div class="h4 regular" data-x-id="name" contenteditable="true">Thể thao</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
                     </div>
                   </div>
                 </div>
@@ -321,7 +321,7 @@
                 <div class="skill-ta border" data-x-name="list-item">
                   <div class="skill-ta__item" data-x-name="sub-item">
                     <div class="skill-ta__item-title">
-                      <div class="h4 regular" contenteditable="true" data-x-id="name">Tiếng Anh</div>
+                      <div class="p regular" contenteditable="true" data-x-id="name">Tiếng Anh</div>
                     </div>
                   </div>
                 </div>
@@ -358,7 +358,7 @@
                 <div class="advantage border" data-x-name="list-item">
                   <div class="advantage__item" data-x-name="sub-item">
                     <div class="advantage__item-title">
-                      <div class="h4 regular" data-x-id="name" contenteditable="true">Thể thao</div>
+                      <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
                     </div>
                   </div>
                 </div>
@@ -375,7 +375,7 @@
                 <div class="skill-th border" data-x-name="list-item">
                   <div class="skill-th__item" data-x-name="sub-item">
                     <div class="skill-th__item-title">
-                      <div class="h4 regular" contenteditable="true" data-x-id="name">Word</div>
+                      <div class="p regular" contenteditable="true" data-x-id="name">Word</div>
                     </div>
                   </div>
                 </div>

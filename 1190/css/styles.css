@@ -69,8 +69,8 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .title-rounded::before{content:"";position:absolute;z-index:1;right:2em;bottom:0;left:2em;height:.2em;pointer-events:none}
 #cv-document .title-rounded>span{pointer-events:none}
 #cv-document .title-rounded>span:first-of-type{position:absolute;top:0;bottom:0;left:0;overflow:hidden;width:2em}
-#cv-document .title-rounded>span:first-of-type::before{content:"";position:absolute;z-index:1;top:0;bottom:0;left:0;border-width:.2em;border-style:solid;border-radius:2em;width:100vw}
-#cv-document .title-rounded>span:last-of-type{position:absolute;top:0;right:0;bottom:0;left:4.5em;overflow:hidden}
+#cv-document .title-rounded>span:first-of-type::before{content:"";position:absolute;z-index:1;top:0;bottom:0;left:0;border-width:.2em;border-style:solid;border-radius:2em;width:4em}
+#cv-document .title-rounded>span:last-of-type{position:absolute;top:0;right:0;bottom:0;left:2em;overflow:hidden}
 #cv-document .title-rounded>span:last-of-type::before{content:"";position:absolute;z-index:1;top:0;right:0;bottom:0;border-width:.2em;border-style:solid;border-radius:2em;width:100vw}
 #cv-document .content{position:relative;border-width:0 1px 1px 1px;border-style:solid;border-radius:0 0 1.7em 0;padding:1.3em 1.6em}
 #cv-document .content>span{position:absolute;z-index:2;bottom:-1px;left:-2.2em;overflow:hidden;border-bottom-width:1px;border-bottom-style:solid;width:2.2em;height:2.2em}

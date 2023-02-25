@@ -283,8 +283,8 @@
                       <div class="education__item-title">
                         <div class="h3 medium uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                       </div>
-                      <div class="education__item-pos" data-x-rel="cat">
-                        <div class="h4 medium italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
+                      <div class="education__item-pos">
+                        <div class="h4 medium italic inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="education__item-date">
                         <div class="p medium inline-block" data-x-id="start" contenteditable="true">10/2016</div>

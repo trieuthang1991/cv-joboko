@@ -154,13 +154,14 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .project__item:last-child{margin-bottom:0}
 #cv-document .project__item-head{position:relative;margin-top:1.6em;margin-bottom:.9em;padding-left:2.2em}
 #cv-document .project__item-head::before{content:"";position:absolute;top:.6em;left:0;border-radius:50%;width:.7em;height:.7em}
-#cv-document .project__item-table{width:100%;border-collapse:collapse}
+#cv-document .project__item-table{width:100%;border-collapse:collapse;position: relative;}
+#cv-document .project__item-table::after{content:'';position: absolute;top: 0;right: 0;left: 0;bottom: 0;border: 1px solid #292929;pointer-events:none}
 #cv-document .project__item-table .tr{display:flex}
 #cv-document .project__item-table .td,#cv-document .project__item-table .th{border-width:1px 1px 0 1px;border-style:dashed;padding:.8em .9em;vertical-align:top}
-#cv-document .project__item-table .th{border-right:none;border-left-style:solid;width:26%}
-#cv-document .project__item-table .td{border-right-style:solid;width:74%}
-#cv-document .project__item-table .tr:first-child .td,#cv-document .project__item-table .tr:first-child .th{border-top-style:solid}
-#cv-document .project__item-table .tr:last-child .td,#cv-document .project__item-table .tr:last-child .th{border-bottom-width:1px;border-bottom-style:solid}
+#cv-document .project__item-table .th{border-right:none;border-left: none;width:26%}
+#cv-document .project__item-table .td{border-right: none;width:74%}
+#cv-document .project__item-table .tr:first-child .td,#cv-document .project__item-table .tr:first-child .th{border-top: none}
+#cv-document .project__item-table .tr:last-child .td,#cv-document .project__item-table .tr:last-child .th{border-bottom-width:1px;border-bottom: none}
 #cv-document .more__item{position:relative;margin-bottom:.2em;padding-left:1.8em}
 #cv-document .more__item:last-child{margin-bottom:0}
 #cv-document .more__item::before{content:"";position:absolute;top:.6em;left:0;width:.7em;height:.7em;border-radius:50%}

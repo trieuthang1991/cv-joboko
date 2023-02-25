@@ -1,11 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1274/font-sizes/font_normal.css?v=1673408426673">
-<link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1274/spacing/spacing_normal.css?v=1673408426673">
-<link rel="stylesheet" id="cv-font" href="/MyCv/templates/1274/fonts/default.css?v=1673408426673">
-<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1274/colors/39b54a.css?v=1673408426673">
-<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1274/css/styles.css?v=1673408426673">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1274&color=39b54a&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675506439250">
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
@@ -114,8 +110,8 @@
                   <div class="h4 bold uppercase" data-x-id="name" contenteditable="true">Trường đại học Kinh tế Quốc dân</div>
                 </div>
                 <div class="education__item-wrapper">
-                  <div class="education__item-pos" data-x-rel="cat">
-                    <div class="p2 bold italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
+                  <div class="education__item-pos">
+                    <div class="p2 bold italic inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
                   </div>
                   <div class="education__item-date">
                     <div class="p bold italic inline-block" data-x-id="start" contenteditable="true">08/2018</div>
@@ -264,6 +260,62 @@
               </div>
             </div>
           </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="skill_ta">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Tiếng anh</div>
+              </div>
+            </div>
+            <div class="advantage" data-x-name="list-item">
+              <div class="advantage__item" data-x-name="sub-item">
+                <div class="advantage__item-title">
+                  <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="skill_th">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">PHẦN MỀM</div>
+              </div>
+            </div>
+            <div class="advantage" data-x-name="list-item">
+              <div class="advantage__item" data-x-name="sub-item">
+                <div class="advantage__item-title">
+                  <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="hob">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">Sở thích</div>
+              </div>
+            </div>
+            <div class="advantage" data-x-name="list-item">
+              <div class="advantage__item" data-x-name="sub-item">
+                <div class="advantage__item-title">
+                  <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="full-width__item" data-x-name="item" data-x-id="more">
+            <div class="heading" data-x-name="head">
+              <div class="heading__title">
+                <div class="h2 bold uppercase" data-x-id="tit" contenteditable="true">THÔNG TIN KHÁC</div>
+              </div>
+            </div>
+            <div class="advantage" data-x-name="list-item">
+              <div class="advantage__item" data-x-name="sub-item">
+                <div class="advantage__item-title">
+                  <div class="p regular" data-x-id="name" contenteditable="true">Thể thao</div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="full-width__item" data-x-name="item" data-x-id="skill">
             <div class="heading" data-x-name="head">
               <div class="heading__title">
@@ -326,7 +378,7 @@
                   </div>
                 </div>
                 <div class="project__item-table">
-                  <div class="tr">
+                  <div class="tr" data-x-rel="cus">
                     <div class="th">
                       <div class="p bold inline-block" data-x-label="pro.cus">Khách hàng</div>
                     </div>
@@ -334,7 +386,7 @@
                       <div class="p regular" data-x-id="cus" contenteditable="true">ANZ Technology</div>
                     </div>
                   </div>
-                  <div class="tr">
+                  <div class="tr" data-x-rel="des">
                     <div class="th">
                       <div class="p bold inline-block" data-x-label="pro.des">Mô tả về dự án</div>
                     </div>
@@ -342,7 +394,7 @@
                       <div class="p regular" data-x-id="des" contenteditable="true">Ứng dụng website giúp mọi người đặt vé nhanh chóng, bất kỳ lúc nào, bất kỳ đâu</div>
                     </div>
                   </div>
-                  <div class="tr">
+                  <div class="tr" data-x-rel="mem">
                     <div class="th">
                       <div class="p bold inline-block" data-x-label="pro.mem">Thành viên</div>
                     </div>
@@ -350,7 +402,7 @@
                       <div class="p regular" data-x-id="mem" contenteditable="true">8</div>
                     </div>
                   </div>
-                  <div class="tr">
+                  <div class="tr" data-x-rel="pos">
                     <div class="th">
                       <div class="p bold inline-block" data-x-label="pro.pos">Vị trí</div>
                     </div>
@@ -358,7 +410,7 @@
                       <div class="p regular" data-x-id="pos" contenteditable="true">Lập trình viên</div>
                     </div>
                   </div>
-                  <div class="tr">
+                  <div class="tr" data-x-rel="role">
                     <div class="th">
                       <div class="p bold inline-block" data-x-label="pro.role">Vai trò</div>
                     </div>
@@ -371,7 +423,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="tr">
+                  <div class="tr" data-x-rel="tech">
                     <div class="th">
                       <div class="p bold inline-block" data-x-label="pro.tech">Công nghệ</div>
                     </div>

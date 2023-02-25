@@ -103,19 +103,20 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .project__item:last-child{margin-bottom:0}
 #cv-document .project__item-head{display:flex;flex-wrap:wrap;margin-bottom:.5em}
 #cv-document .project__item-time{flex-shrink:0;margin-right:2.7em}
-#cv-document .project__item-table{width:100%;border-collapse:collapse}
+#cv-document .project__item-table{width:100%;border-collapse:collapse;position: relative;}
+#cv-document .project__item-table::after{content:'';position: absolute;top: 0;right: 0;bottom: 0;left: 0;pointer-events:none;border: 1px solid #8698ad;}
 #cv-document .project__item-table .tr{display:flex}
 #cv-document .project__item-table .td,#cv-document .project__item-table .th{border-width:1px 1px 0 1px;border-style:dashed;padding:.9em 1em;vertical-align:top}
-#cv-document .project__item-table .th{width:18.5%;border-right:none;border-left-style:solid}
+#cv-document .project__item-table .th{width:18.5%;border-right:none;border-left:none}
 @media screen and (max-width:767px){
 #cv-document .project__item-table .th{width:35%}
 }
-#cv-document .project__item-table .td{width:81.5%;border-right-style:solid;padding-left:1.7em}
+#cv-document .project__item-table .td{width:81.5%;border-right:none;padding-left:1.7em}
 @media screen and (max-width:767px){
 #cv-document .project__item-table .td{width:65%}
 }
-#cv-document .project__item-table .tr:first-child .td,#cv-document .project__item-table .tr:first-child .th{border-top-style:solid}
-#cv-document .project__item-table .tr:last-child .td,#cv-document .project__item-table .tr:last-child .th{border-bottom-width:1px;border-bottom-style:solid}
+#cv-document .project__item-table .tr:first-child .td,#cv-document .project__item-table .tr:first-child .th{border-top:none}
+#cv-document .project__item-table .tr:last-child .td,#cv-document .project__item-table .tr:last-child .th{border-bottom-width:1px;border-bottom:none}
 #cv-document .more__item{position:relative;margin-bottom:.4em;padding-left:1.8em}
 #cv-document .more__item:last-child{margin-bottom:0}
 #cv-document .more__item::before{content:"";position:absolute;top:.7em;left:0;width:.5em;height:.5em;border-radius:50%}

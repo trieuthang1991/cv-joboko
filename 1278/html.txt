@@ -1,11 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="cv-font-size-css" href="/MyCv/templates/1278/font-sizes/font_normal.css?v=1673409262566">
-<link rel="stylesheet" id="cv-spacing-css" href="/MyCv/templates/1278/spacing/spacing_normal.css?v=1673409262566">
-<link rel="stylesheet" id="cv-font" href="/MyCv/templates/1278/fonts/default.css?v=1673409262566">
-<link rel="stylesheet" id="cv-scheme-css" href="/MyCv/templates/1278/colors/009345.css?v=1673409262566">
-<link rel="stylesheet" id="cv-css" href="/MyCv/templates/1278/css/styles.css?v=1673409262566">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1278&color=009345&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675506439250">
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
@@ -77,7 +73,7 @@
               </div>
             </div>
             <div data-x-name="item" data-x-id="tar">
-              <div data-x-id="tit" style="display:none"></div>
+              <div data-x-id="tit" style="display:none">Mục tiêu</div>
               <div class="target">
                 <div class="p light" contenteditable="true" data-x-id="name">
                   Tôi mong muốn ứng tuyển vào vị trí Content Marketing tại công ty X-Alpha. Là một người chăm chỉ, sáng tạo, yêu viết lách, tôi có niềm đam mê sâu sắc với công việc Marketing. Với 2 năm kinh nghiệm làm việc ở vị trí Nhân viên Content Marketing, tôi đã tích lũy được những kỹ năng nhất định về biên tập và sáng tạo nội dung, rất hy vọng tôi có cơ hội được làm việc và cống hiến tại công ty. Tôi sẽ cố gắng nỗ lực học hỏi các nghiệp vụ chuyên sâu về mảng nội dung để phát triển năng lực, hướng đến vị trí Content Team Leader trong 3 năm tới.
@@ -102,8 +98,8 @@
                       <div class="education__item-title">
                         <div class="p2 bold uppercase" data-x-id="name" contenteditable="true">Trường đại học Kinh tế Quốc dân</div>
                       </div>
-                      <div class="education__item-pos" data-x-rel="cat">
-                        <div class="p2 bold" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
+                      <div class="education__item-pos">
+                        <div class="p2 bold" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="education__item-text">
                         <div class="p light" data-x-id="des" contenteditable="true">
@@ -340,7 +336,7 @@
                       </div>
                     </div>
                     <div class="project__item-table">
-                      <div class="tr">
+                      <div class="tr" data-x-rel="cus">
                         <div class="th">
                           <div class="p bold inline-block" data-x-label="pro.cus">Khách hàng</div>
                         </div>
@@ -348,7 +344,7 @@
                           <div class="p light" data-x-id="cus" contenteditable="true">ANZ Technology</div>
                         </div>
                       </div>
-                      <div class="tr">
+                      <div class="tr" data-x-rel="des">
                         <div class="th">
                           <div class="p bold inline-block" data-x-label="pro.des">Mô tả về dự án</div>
                         </div>
@@ -356,7 +352,7 @@
                           <div class="p light" data-x-id="des" contenteditable="true">Ứng dụng website giúp mọi người đặt vé nhanh chóng, bất kỳ lúc nào, bất kỳ đâu</div>
                         </div>
                       </div>
-                      <div class="tr">
+                      <div class="tr" data-x-rel="mem">
                         <div class="th">
                           <div class="p bold inline-block" data-x-label="pro.mem">Thành viên</div>
                         </div>
@@ -364,7 +360,7 @@
                           <div class="p light" data-x-id="mem" contenteditable="true">8</div>
                         </div>
                       </div>
-                      <div class="tr">
+                      <div class="tr" data-x-rel="pos">
                         <div class="th">
                           <div class="p bold inline-block" data-x-label="pro.pos">Vị trí</div>
                         </div>
@@ -372,7 +368,7 @@
                           <div class="p light" data-x-id="pos" contenteditable="true">Lập trình viên</div>
                         </div>
                       </div>
-                      <div class="tr">
+                      <div class="tr" data-x-rel="role">
                         <div class="th">
                           <div class="p bold inline-block" data-x-label="pro.role">Vai trò</div>
                         </div>
@@ -385,7 +381,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="tr">
+                      <div class="tr" data-x-rel="tech">
                         <div class="th">
                           <div class="p bold inline-block" data-x-label="pro.tech">Công nghệ</div>
                         </div>

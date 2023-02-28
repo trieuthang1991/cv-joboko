@@ -67,7 +67,6 @@
                     <i class="icon-gender"></i>
                   </div>
                   <div class="info-detail__item-title">
-                    <div class="p2 light inline-block" data-x-label="info.gen">Giới tính:</div>
                     <div class="p2 light inline-block" contenteditable="true" data-x-id="gen">Nam</div>
                   </div>
                 </div>
@@ -117,7 +116,7 @@
                     </div>
                     <div class="education__item-wrap">
                       <div class="education__item-pos">
-                        <div class="h4 regular italic inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
+                        <div class="h4 regular italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="education__item-date">
                         <div class="p italic inline-block" data-x-id="start" contenteditable="true">10/2016</div>

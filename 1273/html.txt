@@ -101,7 +101,7 @@
                       <div class="h4 medium uppercase" data-x-id="name" contenteditable="true">Trường đại học Kinh tế Quốc dân</div>
                     </div>
                     <div class="education__item-pos">
-                      <div class="p regular inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
+                      <div class="p regular inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                     </div>
                     <div class="education__item-text">
                       <div class="p light bullet-dot" data-x-id="des" contenteditable="true">

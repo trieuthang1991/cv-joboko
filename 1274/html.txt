@@ -111,7 +111,7 @@
                 </div>
                 <div class="education__item-wrapper">
                   <div class="education__item-pos">
-                    <div class="p2 bold italic inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
+                    <div class="p2 bold italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                   </div>
                   <div class="education__item-date">
                     <div class="p bold italic inline-block" data-x-id="start" contenteditable="true">08/2018</div>

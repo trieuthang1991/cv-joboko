@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1277&color=00a69c&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675506439250">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1277&color=00a69c&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675506439251">
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
 <div id="form-cv" data-x-name="parrent">
@@ -106,7 +106,7 @@
                     </div>
                     <div class="education__item-wrapper">
                       <div class="education__item-pos">
-                        <div class="h3 italic inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
+                        <div class="h3 italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="education__item-date">
                         <div class="p medium inline-block" data-x-id="start" contenteditable="true">08/2018</div>
@@ -173,7 +173,7 @@
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
                       <div class="p bold inline" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
-                      <div class="p regular inline-block" contenteditable="true" data-x-id="des">HTML5 & CSS3</div>
+                      <div class="p regular inline" contenteditable="true" data-x-id="des">HTML5 & CSS3</div>
                     </div>
                   </div>
                 </div>

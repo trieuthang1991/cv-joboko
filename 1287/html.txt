@@ -115,7 +115,7 @@
                     </div>
                     <div class="education__item-wrap">
                       <div class="education__item-pos">
-                        <div class="h4 italic inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
+                        <div class="h4 italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                       </div>
                       <div class="education__item-date">
                         <div class="p italic inline-block" data-x-id="start" contenteditable="true">10/2016</div>
@@ -373,7 +373,9 @@
                         <div class="h3 bold inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
                       </div>
                       <div class="project__item-time">
-                        <div class="p italic inline-block" data-x-id="time" contenteditable="true">2019</div>
+                        <div class="p italic inline-block" data-x-id="start" contenteditable="true">08/2016</div>
+                        <div class="p italic inline-block">-</div>
+                        <div class="p italic inline-block" data-x-id="end" contenteditable="true">04/2021</div>
                       </div>
                     </div>
                     <div class="project__item-table">

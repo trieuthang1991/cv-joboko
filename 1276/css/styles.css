@@ -84,6 +84,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .skill__item-title div:first-of-type::before{content:"-";margin-right:1em;display:inline-block}
 #cv-document .skill__item-title div:first-of-type::after{content:": "}
 #cv-document .skill__item-title .inline{vertical-align:top}
+#cv-document .skill__item-title .inline:last-child p{display: inline;}
 #cv-document .skill-ta__item-title div::before{content:"-";margin-right:1em;display:inline-block}
 #cv-document .skill-th__item-title div::before{content:"-";margin-right:1em;display:inline-block}
 #cv-document .cvo-skillrate{display:flex;align-items:center}

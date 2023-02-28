@@ -115,6 +115,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .skill__item:last-child{margin-bottom:0}
 #cv-document .skill__item-title{margin-right:1em}
 #cv-document .skill__item-title>div:first-child::after{content:": "}
+#cv-document .skill__item-title .inline:last-child p{display: inline;}
 #cv-document .skill-ta{display:flex;flex-wrap:wrap;justify-content:space-between}
 #cv-document .skill-ta__item{display:flex;align-items:center;width:46.6%;margin-top:1.6em;margin-bottom:.8em}
 #cv-document .skill-ta__item-title{margin-left:1.3em}
@@ -156,6 +157,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 }
 #cv-document .target::before{content:"";position:absolute;top:-1.5em;left:2.8em;width:4.2em;height:2.1em;border-radius:10em 10em 0 0;pointer-events:none}
 #cv-document .target::after{content:"";position:absolute;right:2.8em;bottom:1.5em;width:2em;height:2em;pointer-events:none}
+#cv-document .target__inner{height:19.2em;overflow-x: hidden;overflow-y: auto;}
 #cv-document .target__title{margin-bottom:.7em}
 #cv-document .project__item{margin-bottom:2em}
 #cv-document .project__item:last-child{margin-bottom:0}

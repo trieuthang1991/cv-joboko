@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1291&color=6b705c&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675497827741">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1291&color=6b705c&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675497827743">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -115,7 +115,7 @@
                   <div class="skill__item" data-x-name="sub-item">
                     <div class="skill__item-title">
                       <div class="p bold inline" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
-                      <div class="p regular inline-block" contenteditable="true" data-x-id="des">HTML5 & CSS3</div>
+                      <div class="p regular inline" contenteditable="true" data-x-id="des">HTML5 & CSS3</div>
                     </div>
                   </div>
                 </div>
@@ -260,7 +260,7 @@
                       <div class="h3 medium uppercase" data-x-id="name" contenteditable="true">Đại học RMIT</div>
                     </div>
                     <div class="education__item-pos">
-                      <div class="h4 medium italic inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
+                      <div class="h4 medium italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
                     </div>
                     <div class="education__item-date">
                       <div class="p medium inline-block" data-x-id="start" contenteditable="true">10/2016</div>
@@ -289,7 +289,7 @@
                       <div class="h3 medium uppercase" contenteditable="true" data-x-id="name">Front-End Developer</div>
                     </div>
                     <div class="experience__item-pos">
-                      <div class="h4 medium italic inline-block" data-x-id="cat" contenteditable="true">Hệ thống thông tin</div>
+                      <div class="h4 medium italic inline-block" data-x-id="pos" contenteditable="true">Hệ thống thông tin</div>
                     </div>
                     <div class="experience__item-date">
                       <div class="p medium inline-block" contenteditable="true" data-x-id="start">10/2016</div>

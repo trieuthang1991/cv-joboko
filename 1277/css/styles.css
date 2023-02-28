@@ -78,6 +78,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .skill__item-title{padding:1em 1.4em;border-radius:.2em}
 #cv-document .skill__item-title div:first-of-type::after{content:": "}
 #cv-document .skill .inline{vertical-align:top}
+#cv-document .skill__item-title .inline:last-child p{display: inline;}
 #cv-document .skill-ta__item{position:relative;padding-left:1.8em}
 #cv-document .skill-ta__item::before{content:"";position:absolute;top:.8em;left:0;width:.4em;height:.4em}
 #cv-document .skill-th__item{position:relative;padding-left:1.8em}

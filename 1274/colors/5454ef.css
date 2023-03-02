@@ -1,6 +1,6 @@
 #cv-document .page--background{background:#171777}
 #cv-document .page__inner{background:#fff;color:#000}
-#cv-document .heading{border-bottom-color:#231f20;color:#231f20}
+#cv-document .heading{border-bottom-color:#b9b9b9;color:#231f20}
 #cv-document .heading__title::before{background-color:#231f20}
 #cv-document .avatar::before{background-color:#5454ef}
 #cv-document .avatar__inner{background-color:#fff}

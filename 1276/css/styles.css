@@ -82,7 +82,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .info-detail__item-icon::after{content:"";position:absolute;top:.2em;right:-1px;display:block;background-repeat:no-repeat;background-size:contain;background-position:center;width:2.6em;height:2.6em;pointer-events:none}
 #cv-document .info-detail__item-content{width:calc(100% - 2.4em);padding-top:.6em;padding-left:1.2em}
 #cv-document .skill__item-title div:first-of-type::before{content:"-";margin-right:1em;display:inline-block}
-#cv-document .skill__item-title div:first-of-type::after{content:": "}
+#cv-document .skill__item-title div:first-of-type:not(:empty)::after{content:": "}
 #cv-document .skill__item-title .inline{vertical-align:top}
 #cv-document .skill__item-title .inline:last-child p{display: inline;}
 #cv-document .skill-ta__item-title div::before{content:"-";margin-right:1em;display:inline-block}

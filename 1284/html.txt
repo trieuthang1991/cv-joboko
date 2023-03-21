@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1284&color=231f20&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675234129999">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1284&color=231f20&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1675234130001">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -22,6 +22,22 @@
             </div>
             <div data-x-name="item" data-x-id="info">
               <div class="info-detail">
+                <div style="display: none;" class="info-detail__item" data-x-rel="gen">
+                  <div class="info-detail__item-icon">
+                    <i class="icon-gender"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="p2 regular inline-block" contenteditable="true" data-x-id="gen">Nam</div>
+                  </div>
+                </div>
+                <div style="display: none;" class="info-detail__item" data-x-rel="dob">
+                  <div class="info-detail__item-icon">
+                    <i class="icon-birthday"></i>
+                  </div>
+                  <div class="info-detail__item-title">
+                    <div class="p2 regular inline-block" contenteditable="true" data-x-id="dob">1999</div>
+                  </div>
+                </div>
                 <div class="info-detail__item" data-x-rel="tel">
                   <div class="info-detail__item-icon">
                     <i class="icon-phone"></i>
@@ -52,22 +68,6 @@
                   </div>
                   <div class="info-detail__item-title">
                     <div class="p2 regular inline-block" contenteditable="true" data-x-id="add">Nghĩa Đô, Cầu Giấy, Hà Nội 1</div>
-                  </div>
-                </div>
-                <div style="display: none;" class="info-detail__item" data-x-rel="gen">
-                  <div class="info-detail__item-icon">
-                    <i class="icon-gender"></i>
-                  </div>
-                  <div class="info-detail__item-title">
-                    <div class="p2 regular inline-block" contenteditable="true" data-x-id="gen">Nam</div>
-                  </div>
-                </div>
-                <div style="display: none;" class="info-detail__item" data-x-rel="dob">
-                  <div class="info-detail__item-icon">
-                    <i class="icon-birthday"></i>
-                  </div>
-                  <div class="info-detail__item-title">
-                    <div class="p2 regular inline-block" contenteditable="true" data-x-id="dob">1999</div>
                   </div>
                 </div>
               </div>
@@ -169,10 +169,8 @@
                 </div>
                 <div class="skill" data-x-name="list-item">
                   <div class="skill__item" data-x-name="sub-item">
-                    <div class="skill__item-title inline">
-                      <div class="p bold inline" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
-                    </div>
-                    <div class="skill__item-text inline">
+                    <div class="skill__item-title">
+                      <div class="p bold haicham inline-block" contenteditable="true" data-x-id="name">HTML5 & CSS3</div>
                       <div class="p regular inline" contenteditable="true" data-x-id="des">HTML5 & CSS3</div>
                     </div>
                   </div>
@@ -260,9 +258,7 @@
                       <div class="h4 bold" data-x-id="name" contenteditable="true">Nhân viên xuất sắc năm 2021</div>
                     </div>
                     <div class="award__item-date">
-                      <div class="p bold inline-block" data-x-id="start" contenteditable="true">10/2016</div>
-                      <div class="p bold inline-block">-</div>
-                      <div class="p bold inline-block" data-x-id="end" contenteditable="true">03/2018</div>
+                      <div class="p bold" data-x-id="time" contenteditable="true">2019</div>
                     </div>
                   </div>
                 </div>
@@ -282,9 +278,7 @@
                       <div class="h4 bold" data-x-id="name" contenteditable="true">Viết nội dung thu hút trên MXH</div>
                     </div>
                     <div class="certification__item-date">
-                      <div class="p bold inline-block" data-x-id="start" contenteditable="true">10/2016</div>
-                      <div class="p bold inline-block">-</div>
-                      <div class="p bold inline-block" data-x-id="end" contenteditable="true">03/2018</div>
+                      <div class="p bold" data-x-id="time" contenteditable="true">2019</div>
                     </div>
                   </div>
                 </div>

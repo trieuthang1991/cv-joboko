@@ -65,8 +65,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .skill__item:last-child{margin-bottom:0}
 #cv-document .skill__item-text *{display:inline}
 #cv-document .skill__item [contenteditable=true]:empty{display:inline-block}
-#cv-document .skill__item-title{margin-bottom:.3em}
-#cv-document .skill__item-title>div::after{content:": "}
+#cv-document .skill__item-title .inline > p {display: inline;}
 #cv-document .skill-ta__item{position:relative;margin-bottom:.3em;padding-left:2.6em}
 #cv-document .skill-ta__item::before{content:"";position:absolute;top:.6em;left:.4em;width:.6em;height:.6em}
 #cv-document .skill-ta__item:last-child{margin-bottom:0}
@@ -160,3 +159,4 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 [contenteditable=true]:empty:before{content:attr(placeholder)!important}
 #cv-document span.x_add.fa.fa-plus-circle,#cv-document span.x_del.fa.fa-remove{width:70px!important}
 #cv-document .height-curent>[data-x-name=group-item]{padding-bottom:3em}
+#cv-document .haicham:not(:empty):after{content:":"}

@@ -26,7 +26,8 @@ body.page-preview, body.page-view, body.page-viewdemo {
 .container-main {
     width: 100%;
     cursor: text;
-    display: table;
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     white-space: normal;
     background-color: #fff;
@@ -131,9 +132,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 
 
 .container-main .main {
-    display: table-cell;
     width: 65%;
-    float: right;
     min-height:295mm;
 }
 
@@ -143,10 +142,6 @@ body.page-preview, body.page-view, body.page-viewdemo {
 
 .container-main .side {
     width: 35%;
-    display: table-cell;
-    position: absolute;
-    min-height: inherit;
-    height: 100%;
 }
 
 .container-main-1 .side, .container-main-2 .side, .container-main-3 .side, .container-main-4 .side, .container-main-5 .side, .container-main-6 .side, .container-main-7 .side, .container-main-8 .side, .container-main-9 .side {

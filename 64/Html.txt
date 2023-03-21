@@ -1,9 +1,9 @@
 <!--
 <link id="cv-css" href="https://i-vn0.joboko.com/MyCv/templates/64/css/cv.css?v=3.4" rel="stylesheet" />
 <link id="cv-scheme-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/64/colors/04756F.css?v=24" />
-<link id="cv-font" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/64/fonts/default.css?v=131" />
-<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/64/font-sizes/font_normal.css?v=1321" />
-<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/64/spacing/spacing_normal.css?v=1321" />
+<link id="cv-font" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/64/fonts/default.css?v=1322" />
+<link id="cv-font-size-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/64/font-sizes/font_normal.css?v=1322" />
+<link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/64/spacing/spacing_normal.css?v=1322" />
 -->
 <link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=64&color=04756F&font=default&size=font_normal&spacing=spacing_normal&more=cv&v=230110">
 <div id="form-cv" class="text-size line-size">

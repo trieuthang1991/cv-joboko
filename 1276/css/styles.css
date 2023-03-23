@@ -119,7 +119,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .education__item{position:relative;padding-bottom:1.8em}
 #cv-document .education__item:last-child{padding-bottom:0}
 #cv-document .education__item-title{margin-bottom:.3em}
-#cv-document .education__item-wrapper{display:flex;justify-content:space-between;align-items:center;border-bottom-width:1px;border-style:dashed;padding-bottom:10px;margin-bottom:10px}
+#cv-document .education__item-wrapper{display:flex;justify-content:space-between;align-items:center;border-bottom-width:1px;border-bottom-style:dashed;padding-bottom:10px;margin-bottom:10px}
 #cv-document .education__item-date{flex-shrink:0;margin-left:1.5em}
 #cv-document .experience__item{position:relative;padding-bottom:1.8em}
 #cv-document .experience__item:last-child{padding-bottom:0}

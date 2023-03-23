@@ -2,6 +2,10 @@
 	font-family: 'Arial',sans-serif;
 }
 
-#form-cv *[contenteditable] {
-    font-family: 'Arial',sans-serif !important;
+#cv-document .regular {
+	font-weight: 600 !important;
+}
+
+#cv-document .black {
+	font-weight: 700 !important;
 }

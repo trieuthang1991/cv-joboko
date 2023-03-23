@@ -1,14 +1,10 @@
 ﻿{
-  "langs": [ "vi","en","ja","ko","zh"],
-  "colors": [ "4f84a6","77b353","805f02","b81819"],
+  "langs": ["vi","en","ja","ko","zh"],
+  "colors": [ "5a84a3", "3b7554", "257c71", "84323c", "184c6b" ],
   "fonts": {
-    "default": "Roboto",
+    "default":"Roboto",
     "arial": "Arial",
-    "tahoma": "Tahoma",
-	"yahei":"Microsoft Yahei",
-	"mincho":"MS Mincho",
-	"gulimche":"Gulimche"
-
+    "tahoma": "Tahoma"
   },
   "fontsizes": [ "small", "normal", "large" ],
   "spacings": [ "small", "normal", "large" ]

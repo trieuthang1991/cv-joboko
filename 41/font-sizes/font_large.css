@@ -1,21 +1,7 @@
-#form-cv{	
-	font-size: 15px
-}
-.box-01{
-	font-size: 14px
-}
-#cv-content .head{
-	font-size: 22px
-}
-#cv-right .h3{
-	font-size: 19px
-}
-#cv-content h3{
-	font-size: 17px
-}
-#cv-top h2{
-	font-size: 19px
-}
-#cv-top h1{
-	font-size: 38px
-}
+#cv-document .h1{font-size:2.9em}
+#cv-document .h2{font-size:1.9em}
+#cv-document .h3{font-size:1.8em}
+#cv-document .h4{font-size:1.7em}
+#cv-document .p{font-size:1.5em}
+#cv-document .p2{font-size:1.4em}
+#cv-document .cvo-skillrate-radial::after{font-size:1.5em}

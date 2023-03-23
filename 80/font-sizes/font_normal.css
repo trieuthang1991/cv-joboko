@@ -1,39 +1,7 @@
-.bd-title  {
-    font-size: 20px !important;
-    /* font-weight: bold; */
-    
-}
-
-#cv-document .txt1 {
-    font-size: 17px;
-    
-}
-
-#cv-document .txt4{
-    font-size: 15px;    
-}
-
-#cv-document .txt3{
-    font-size: 17px !important;    
-}
-#cv-document .txt-content{
-    font-size: 15px;
-}
-
-#cv-document .txt-job{
-    font-size: 18px;
-}
-#cv-document .txt-name{
-    font-size: 28px;
-}
-
-#cv-document .txt2{
-   width: 30%;
-   font-size:13px;
-   max-width: initial;
-}
-@media only screen and (max-width: 600px) {
-  #cv-document .txt2{
-    width: 100%;
-}
-}
+#cv-document .h1{font-size:2.8em}
+#cv-document .h2{font-size:2em}
+#cv-document .h3{font-size:1.6em}
+#cv-document .h4{font-size:1.5em}
+#cv-document .p{font-size:1.4em}
+#cv-document .p2{font-size:1.3em}
+#cv-document .cvo-skillrate-radial::after{font-size:1.4em}

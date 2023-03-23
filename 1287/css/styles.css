@@ -3,7 +3,10 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document{font-size:10px}
 #cv-document *{box-sizing:border-box}
 #cv-document #cv-watermark a:after{content:"Joboko.com"}
-#cv-document .page:last-child #cv-watermark{position:absolute;right:1em;bottom:2em}
+#cv-document .page:last-child #cv-watermark{position:absolute;right:5em;bottom:2em}
+@media screen and (max-width:767px){
+  #cv-document .page:last-child #cv-watermark{right:1.5em;}
+}
 #cv-document .relative{position:relative}
 #cv-document .inline-block{display:inline-block}
 #cv-document .inline{display:inline}
@@ -16,14 +19,15 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .icon-facebook{display:block;width:1.5em;height:1.5em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-mark{display:block;width:1.2em;height:1.7em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-gender{display:block;width:1.4em;height:1.4em;background-repeat:no-repeat;background-size:contain}
-#cv-document .page__inner{padding:4.2em 0 0}
+#cv-document .page{display: flex;}
+#cv-document .page__inner{padding:4.2em 0 0;display: flex;flex-direction:column}
 #cv-document .page--background:first-child .page__inner{padding:0}
-#cv-document .full-width{position:relative;padding:0 14em 0 4em}
+#cv-document .full-width{position:relative;padding:0 14em 0 4em;width: 100%;flex-grow:1}
 @media screen and (max-width:767px){
 #cv-document .full-width{padding:0 1.5em 0 0}
 }
 #cv-document .full-width__item{display:flex;align-items:flex-start;margin-bottom:3.4em}
-#cv-document .two-up{flex-wrap:wrap;align-items:flex-end;display:flex;margin-bottom:2em;padding:0 2.6em 0 5.6em}
+#cv-document .two-up{width: 100%;flex-shrink:0;flex-wrap:wrap;align-items:flex-end;display:flex;margin-bottom:2em;padding:0 2.6em 0 5.6em}
 @media screen and (max-width:767px){
 #cv-document .two-up{padding:0 1.5em}
 }

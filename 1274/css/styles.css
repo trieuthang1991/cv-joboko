@@ -15,11 +15,11 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .icon-facebook{display:block;width:.6em;height:1em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-mark{display:block;width:.9em;height:1.2em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-gender{display:block;width:1em;height:1.1em;background-repeat:no-repeat;background-size:contain}
-#cv-document .page{padding:1.8em 2.1em}
+#cv-document .page{padding:1.8em 2.1em;display: flex;}
 @media screen and (max-width:767px){
 #cv-document .page{padding-right:1.5em;padding-left:1.5em}
 }
-#cv-document .page__inner{padding:2.3em 0 0}
+#cv-document .page__inner{padding:2.3em 0 0;width: 100%;}
 #cv-document .two-up{flex-wrap:wrap;align-items:center;display:flex;margin-bottom:.1em}
 @media screen and (max-width:767px){
 #cv-document .two-up{margin-bottom:2em}

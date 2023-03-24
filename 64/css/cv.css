@@ -26,8 +26,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 .container-main {
     width: 100%;
     cursor: text;
-    display: flex;
-    flex-wrap: wrap;
+    display: table;
     position: relative;
     white-space: normal;
     background-color: #fff;
@@ -132,7 +131,9 @@ body.page-preview, body.page-view, body.page-viewdemo {
 
 
 .container-main .main {
+    display: table-cell;
     width: 65%;
+    float: right;
     min-height:295mm;
 }
 
@@ -142,6 +143,10 @@ body.page-preview, body.page-view, body.page-viewdemo {
 
 .container-main .side {
     width: 35%;
+    display: table-cell;
+    position: absolute;
+    min-height: inherit;
+    height: 100%;
 }
 
 .container-main-1 .side, .container-main-2 .side, .container-main-3 .side, .container-main-4 .side, .container-main-5 .side, .container-main-6 .side, .container-main-7 .side, .container-main-8 .side, .container-main-9 .side {
@@ -503,7 +508,7 @@ h4.parentheses, .cert-received-date {
 }
 
 
-.fa-suitcase, .fa-pie-chart, .fa-graduation-cap, .fa-child, .fa-users, .fa-certificate, .fa-language, .fa-file-text-o, .fa-trophy, .fa-gratipay {
+.fa-suitcase, .fa-pie-chart, .fa-graduation-cap, .fa-child, .fa-users, .fa-certificate, .fa-language, .fa-file-text-o, .fa-trophy, .fa-gratipay, .fa-paper-plane, .fa-heart, .fa-laptop, .fa-thumbs-up {
     position: absolute;
     top: 5px;
     right: 40px;

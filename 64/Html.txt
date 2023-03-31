@@ -5,7 +5,7 @@
 <link id="cv-font-size-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/64/font-sizes/font_normal.css?v=1325" />
 <link id="cv-spacing-css" rel="stylesheet" href="https://i-vn0.joboko.com/MyCv/templates/64/spacing/spacing_normal.css?v=1325" />
 -->
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=64&color=04756F&font=default&size=font_normal&spacing=spacing_normal&more=cv&v=230112">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=64&color=04756F&font=default&size=font_normal&spacing=spacing_normal&more=cv&v=230115">
 <div id="form-cv" class="text-size line-size">
     <div id="cv-main" class="container-main-container container-mains " data-x-name="parrent">
         <div class="container-main container-main-0 page" page=1>
@@ -290,29 +290,76 @@
                                 <i class="fa fa-file-text-o bg-primary "></i>
                                 <h2 class="cvs-header font-size-2" data-x-id="tit" contenteditable="true">Dự án</h2>
                             </div>
-                            <div class="projects-cvss" data-x-name="list-item">
-                                <div class="sub-cvs " data-x-name="sub-item">
-                                    <div class="content-project">
-                                        <div class="project-name-period">
-                                            <h4 data-x-id="name"
-                                                class="input-field name  project-name text-primary font-size-3   "
-                                                contenteditable="true"></h4>
-                                            <div class="project-period">
-                                                <div data-x-id="start"
-                                                    class="input-field   project-from details-field-input font-size-5   "
-                                                    contenteditable="true"></div>
-                                                <div class="duration-hyphen font-size-5">-</div>
-                                                <div data-x-id="end"
-                                                    class="input-field   project-to details-field-input font-size-5   "
-                                                    contenteditable="true"></div>
-                                            </div>
-                                        </div>
-                                        <div class="project-info">
-                                            <div class="details-wrapper js-text-field text-field  project-details details-field-input font-size-5  "
-                                                data-x-id="des" contenteditable="true"></div>
-                                        </div>
-                                    </div>
+                            <div class="project content" data-x-name="list-item">
+                              <div class="sub-cvs project__item" data-x-name="sub-item">
+                                <div class="project__item-head">
+                                  <div class="project__item-title">
+                                    <div class="input-field name project-name text-primary font-size-3 inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
+                                  </div>
+                                  <div class="project__item-time">
+                                    <div class="input-field project-from details-field-input font-size-5 inline-block" data-x-id="start" contenteditable="true">08/2016</div>
+                                    <div class="input-field project-from details-field-input font-size-5 inline-block">-</div>
+                                    <div class="input-field project-to details-field-input font-size-5 inline-block" data-x-id="end" contenteditable="true">04/2021</div>
+                                  </div>
                                 </div>
+                                <div class="project__item-table">
+                                  <div class="tr" data-x-rel="cus">
+                                    <div class="th">
+                                      <div class="text-field project-details details-field-input font-size-5 bold inline-block" data-x-label="pro.cus">Khách hàng</div>
+                                    </div>
+                                    <div class="td">
+                                      <div class="text-field project-details details-field-input font-size-5" data-x-id="cus" contenteditable="true">ANZ Technology</div>
+                                    </div>
+                                  </div>
+                                  <div class="tr" data-x-rel="des">
+                                    <div class="th">
+                                      <div class="text-field project-details details-field-input font-size-5 bold inline-block" data-x-label="pro.des">Mô tả về dự án</div>
+                                    </div>
+                                    <div class="td">
+                                      <div class="text-field project-details details-field-input font-size-5" data-x-id="des" contenteditable="true">Ứng dụng website giúp mọi người đặt vé nhanh chóng, bất kỳ lúc nào, bất kỳ đâu</div>
+                                    </div>
+                                  </div>
+                                  <div class="tr" data-x-rel="mem">
+                                    <div class="th">
+                                      <div class="text-field project-details details-field-input font-size-5 bold inline-block" data-x-label="pro.mem">Thành viên</div>
+                                    </div>
+                                    <div class="td">
+                                      <div class="text-field project-details details-field-input font-size-5" data-x-id="mem" contenteditable="true">8</div>
+                                    </div>
+                                  </div>
+                                  <div class="tr" data-x-rel="pos">
+                                    <div class="th">
+                                      <div class="text-field project-details details-field-input font-size-5 bold inline-block" data-x-label="pro.pos">Vị trí</div>
+                                    </div>
+                                    <div class="td">
+                                      <div class="text-field project-details details-field-input font-size-5" data-x-id="pos" contenteditable="true">Lập trình viên</div>
+                                    </div>
+                                  </div>
+                                  <div class="tr" data-x-rel="role">
+                                    <div class="th">
+                                      <div class="text-field project-details details-field-input font-size-5 bold inline-block" data-x-label="pro.role">Vai trò</div>
+                                    </div>
+                                    <div class="td">
+                                      <div class="text-field project-details details-field-input font-size-5" data-x-id="role" contenteditable="true">
+                                        <p>Phân tích và thiết kế hệ thống</p>
+                                        <p>Phát triển module</p>
+                                        <p>Tối ưu code</p>
+                                        <p>Sửa lỗi</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="tr" data-x-rel="tech">
+                                    <div class="th">
+                                      <div class="text-field project-details details-field-input font-size-5 bold inline-block" data-x-label="pro.tech">Công nghệ</div>
+                                    </div>
+                                    <div class="td">
+                                      <div class="text-field project-details details-field-input font-size-5" data-x-id="tech" contenteditable="true">
+                                        Công nghệ mới nhất
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                         </div>
                         <div class="content-field content-languages index-0 last-index cvs editable " data-x-name="item"
@@ -321,13 +368,10 @@
                                 <h2 class="cvs-header font-size-2" data-x-id="tit" contenteditable="true">Ngôn ngữ</h2>
                                 <i class="fa fa-language bg-primary"></i>
                             </div>
-                            <div class="languages-cvss" data-x-name="list-item">
+                            <div class="references-cvss" data-x-name="list-item">
                                 <div class="sub-cvs " data-x-name="sub-item">
-                                    <div class="content-language">
-                                        <h4 data-x-id="name" class="input-field name  language font-size-3   "
-                                            contenteditable="true"></h4>
-                                        <div class="bar-exp cvo-skillrate-bar cv-progress-bar"><span data-x-id="val"
-                                                class="cvo-skillrate-value" value="3"></span></div>
+                                    <div class="content-reference">
+                                        <div data-x-id="name" class="input-field contact_phone  details-references font-size-5" contenteditable="true"></div>
                                     </div>
                                 </div>
                             </div>

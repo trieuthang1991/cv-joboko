@@ -786,6 +786,28 @@ h4.parentheses, .cert-received-date {
 .project-period *{
     float:left;
 }
+.inline-block{display:inline-block}
+.project__item{margin-bottom:1.4em}
+.project__item-head{flex-wrap:wrap;justify-content:space-between;display:flex;margin-top:.4em;align-items:center;}
+.project__item-title{position:relative;margin-right:2em;padding:0 2.1em 0 0}
+.project__item-title::before{top:.8em;left:.2em}
+.project__item-title::after{content:"";position:absolute;top:1px;right:0;bottom:1px;width:1px}
+.project__item-time{flex-shrink:0}
+.project__item-table{position:relative;width:100%;border-collapse:collapse}
+.project__item-table::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;border-width:1px;border-style:solid;pointer-events:none}
+.project__item-table .tr{display:flex}
+.project__item-table .td,.project__item-table .th{border-width:1px 1px 0 1px;border-style:dashed;padding:9px 15px;vertical-align:top}
+.project__item-table .th{border-right:none;border-left:none;width:30%}
+@media screen and (max-width:767px){
+.project__item-table .th{width:35%}
+}
+.project__item-table .td{border-right:none;width:70%}
+@media screen and (max-width:767px){
+.project__item-table .td{width:65%}
+}
+.project__item-table .tr:first-child .td,.project__item-table .tr:first-child .th{border-top:none}
+.project__item-table .tr:last-child .td,.project__item-table .tr:last-child .th{border-bottom:none;border-bottom-width:1px}
+
 .height-curent{
     padding-bottom: 20px;
 }

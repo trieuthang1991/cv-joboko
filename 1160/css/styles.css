@@ -99,7 +99,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .action__item-title{position:relative;margin-bottom:.4em}
 #cv-document .action__item-wrap{justify-content:space-between;display:flex;margin-bottom:.7em}
 /*#cv-document .action__item-text br{content:"";display:block;margin-top:.4em}*/
-#cv-document .avatar{position:relative;z-index:2;justify-content:center;align-items:center;display:flex;overflow:hidden;margin:1.5em;border-radius:50%;width:22.6em;height:22.6em}
+#cv-document .avatar{position:relative;z-index:2;justify-content:center;align-items:center;display:flex;overflow:hidden;margin:1.5em;border-radius:50%;width:22.6em;height:22.6em; margin-top: 5em;}
 #cv-document .avatar img{border-radius:50%;width:20.4em;height:20.4em}
 #cv-document .cvo-skillrate-bar{flex-shrink:0}
 #cv-document .cvo-skillrate-radial{position:relative;border-radius:50%;width:6.6em;height:6.6em;text-align:center}

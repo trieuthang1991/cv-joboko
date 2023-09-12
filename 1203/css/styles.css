@@ -31,7 +31,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .bottom{width:100%}
 #cv-document .bottom__item{margin-bottom:10em}
 #cv-document .page__inner{position:relative;padding:3em 0 0}
-#cv-document .full-width{position:relative;z-index:5;flex-wrap:wrap;display:flex;margin-top:-3em;margin-bottom:2.4em;padding:4.4em 0 .2em}
+#cv-document .full-width{position:relative;z-index:5;flex-wrap:wrap;display:flex;margin-top:-3em;margin-bottom:2.4em;padding:5em 0 .2em}
 @media screen and (max-width:767px){
 #cv-document .full-width{padding-bottom:3em;margin-bottom:1em}
 }

@@ -18,6 +18,9 @@ body.page-preview, body.page-view, body.page-viewdemo {
     left: 10px;
 }
 
+.column-0 {
+    padding-top: 3em;
+}
 
 #cv-watermark a:after{
     content: "Joboko.com";

@@ -38,7 +38,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .two-up__left{margin-bottom:2em;width:100%}
 }
 #cv-document .two-up__left::before{content:"";position:absolute;top:0;right:0;bottom:0;border-right-width:1px;border-right-style:dashed}
-#cv-document .two-up__left-group{padding:4em 2.8em 3.2em 3.5em}
+#cv-document .two-up__left-group{padding:5em 2.8em 3.2em 3.5em}
 @media screen and (max-width:767px){
 #cv-document .two-up__left-group{padding:2em}
 }

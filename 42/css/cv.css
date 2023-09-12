@@ -43,6 +43,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 	position: relative;
 	border-left: solid 5px #7c7a79;
 	padding-left: 5px;
+	padding-top: 2em;
 }
 .cv-content .cvo-block {
     position: relative;
@@ -53,6 +54,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 	display:table-cell;
 	background: #fff;
 	position: relative;
+	padding-top: 2em;
 }
 
 .cv-left .cv-box-content {

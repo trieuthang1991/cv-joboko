@@ -29,7 +29,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .icon-more{display:block;width:1.8em;height:1.8em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-cletter{display:block;width:1.7em;height:1.6em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-pro{display:block;width:1.6em;height:1.6em;background-repeat:no-repeat;background-size:contain}
-#cv-document .page__inner{padding:5.3em 0 0}
+#cv-document .page__inner{padding:6.3em 0 0}
 #cv-document .full-width{padding:0 4em 0 7.1em}
 @media screen and (max-width:767px){
 #cv-document .full-width{padding:0 1.5em 0 3em}

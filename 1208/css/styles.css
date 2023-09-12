@@ -19,7 +19,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:575px){
 #cv-document .page{background-size:2em 100%,81em 82.8em}
 }
-#cv-document .page__inner{padding:4em 5.4em 0 7em}
+#cv-document .page__inner{padding:4.5em 5.4em 0 7em}
 @media screen and (max-width:575px){
 #cv-document .page__inner{overflow:hidden;padding-right:2em;padding-left:4em}
 }

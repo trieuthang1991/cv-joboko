@@ -46,7 +46,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .heading::after{content:"";flex-grow:1;opacity:.5;margin-bottom:.5em;margin-left:2.3em;height:.2em}
 #cv-document .heading__title{flex-shrink:0;max-width:85%;letter-spacing:1px}
 #cv-document .heading__symbol{margin-right:.4545454545em}
-#cv-document .avatar{position:relative;z-index:2;justify-content:center;align-items:center;display:flex;overflow:hidden;border-width:3px;border-style:solid;width:16.4em;height:20.4em}
+#cv-document .avatar{position:relative;z-index:2;justify-content:center;align-items:center;display:flex;overflow:hidden;border-width:3px;border-style:solid;width:16.4em;height:20.4em;margin-top: 3em;}
 @media screen and (max-width:767px){
 #cv-document .avatar{margin:0 auto}
 }

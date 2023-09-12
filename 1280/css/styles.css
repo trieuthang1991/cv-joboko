@@ -15,7 +15,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .icon-facebook{display:block;width:1.2em;height:1.2em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-mark{display:block;width:.9em;height:1.2em;background-repeat:no-repeat;background-size:contain}
 #cv-document .page__inner{padding:2.4em 0 0}
-#cv-document .full-width{display:flex;flex-wrap:wrap;border-bottom-width:1px;border-bottom-style:solid;margin-top:-2.4em;padding-top:2em;padding-bottom:2.5em}
+#cv-document .full-width{display:flex;flex-wrap:wrap;border-bottom-width:1px;border-bottom-style:solid;margin-top:-2.4em;padding-top:4.5em;padding-bottom:2.5em}
 #cv-document .full-width__left{width:21.2em;padding:0 2.5em}
 @media screen and (max-width:767px){
 #cv-document .full-width__left{width:100%;margin-bottom:2em;padding:0 1.2em}

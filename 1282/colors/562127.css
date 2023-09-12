@@ -2,7 +2,7 @@
 @media screen and (max-width:767px){
 #cv-document .page--background{background:#fff}
 }
-#cv-document .page--background:first-child{background-position:left 3em top 3em}
+#cv-document .page--background:first-child{background-position:left 3em top 5em}
 @media screen and (max-width:767px){
 #cv-document .page--background:first-child{background:linear-gradient(to bottom,#fff6ee 5em,#fff 0) no-repeat,#fff}
 }

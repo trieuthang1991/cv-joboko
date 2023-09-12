@@ -24,7 +24,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .full-width{padding-right:2em;padding-left:2em}
 }
-#cv-document .full-width--top{justify-content:center;align-items:center;display:flex;margin-top:-3em;margin-bottom:1.9em;border-bottom-width:.6em;border-bottom-style:solid;padding:2.7em 2em 2.5em}
+#cv-document .full-width--top{justify-content:center;align-items:center;display:flex;margin-top:-3em;margin-bottom:1.9em;border-bottom-width:.6em;border-bottom-style:solid;padding:5em 2em 2.5em}
 @media screen and (max-width:767px){
 #cv-document .full-width--top{flex-wrap:wrap}
 }

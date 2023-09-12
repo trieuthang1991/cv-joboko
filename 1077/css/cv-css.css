@@ -20,6 +20,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 	padding: 30px 65px;
 	min-height: 180px;
 	position: relative;
+	padding-top: 5em;
 }
 .col_bottom {
 	max-width: 100%;
@@ -29,7 +30,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 	display: none;
 }
 .col_top .info1_col_top{
-	min-height: 120px;
+	min-height: 100px;
 	color: #fff;
 }
 .col_top .info1_col_top .namerel-info{
@@ -64,7 +65,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 }
 .col_top .h-curent> .info2_col_top{
 	position: absolute;
-    top: 60px;
+    top: 85px;
     left: 65px;
     width: 210px;
 }

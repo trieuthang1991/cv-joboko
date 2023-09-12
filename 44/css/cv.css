@@ -65,7 +65,7 @@ h1{color:#fff}
 }
 .box-name{	
 	display: block;
-    padding-top: 34px;
+    padding-top: 5em;
     padding-left: 40px;
 }
 .cv-content p{
@@ -109,7 +109,7 @@ h1{color:#fff}
 	float: right;
 	border:2px solid #fff;	
 	padding:1px;
-	margin-top: 20px;
+	margin-top: 4em;
 	margin-right: 40px;border-radius:50%	
 }
 #cv-box-ava img{

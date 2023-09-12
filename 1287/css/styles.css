@@ -36,6 +36,8 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .two-up__left{order:1;width:100%;padding-right:0}
 }
 #cv-document .two-up__right{width:23.4em}
+#cv-document .height-curent{padding-top: 2em;}
+
 @media screen and (max-width:767px){
 #cv-document .two-up__right{margin:0 auto 3em;width:100%}
 }

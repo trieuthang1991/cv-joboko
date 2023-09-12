@@ -8,7 +8,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .inline-block{display:inline-block}
 #cv-document .icon-dot{position:relative;padding-left:1.6em}
 #cv-document .icon-dot::before{content:"";position:absolute;z-index:2;top:1em;left:.4em;border-radius:50%;width:.6em;height:.6em}
-#cv-document .page--background{display:flex;padding:2.5em 2.4em 0}
+#cv-document .page--background{display:flex;padding:4em 2.4em 0}
 @media screen and (max-width:767px){
 #cv-document .page--background{padding:2.5em 1.5em 0}
 }

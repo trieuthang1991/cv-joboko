@@ -11,7 +11,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 #cv-document .education__item-text, #cv-document .experience__item-text, #cv-document .action__item-text, #cv-document .target, #cv-document .more, #cv-document .cletter {
     line-height: 24px
 }
-#cv-document .page__inner{padding:4.2em 0 0}
+#cv-document .page__inner{padding:5em 0 0}
 #cv-document .two-up{display:flex;flex-wrap:wrap}
 #cv-document .two-up--center{align-items:center}
 #cv-document .two-up__left{width:28em}

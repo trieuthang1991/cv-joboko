@@ -12,7 +12,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 @media screen and (max-width:767px){
 #cv-document .page__inner{padding-right:2em;padding-left:2em}
 }
-#cv-document .two-up{position:relative;display:flex;flex-wrap:wrap;align-items:center;margin-top:-2.5em;padding:4.1em 0 3.4em;overflow:hidden}
+#cv-document .two-up{position:relative;display:flex;flex-wrap:wrap;align-items:center;margin-top:-2.5em;padding:5em 0 3.4em;overflow:hidden}
 #cv-document .two-up__left{width:60%}
 @media screen and (max-width:575px){
 #cv-document .two-up__left{margin-bottom:2em;width:100%}

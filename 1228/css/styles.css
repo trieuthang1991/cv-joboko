@@ -26,7 +26,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .two-up__right{width:100%;padding:0 2em}
 }
-#cv-document .two-up__right-inner{position:relative;height:100%;padding:3.2em 2em 0}
+#cv-document .two-up__right-inner{position:relative;height:100%;padding:4.5em 2em 0}
 #cv-document .two-up__right-inner::before{content:"";position:absolute;z-index:5;top:0;right:0;bottom:0;left:0}
 #cv-document .h1,#cv-document .h2,#cv-document .h3,#cv-document .h4,#cv-document .h5,#cv-document .h6,#cv-document h1,#cv-document h2,#cv-document h3,#cv-document h4,#cv-document h5,#cv-document h6,#cv-document p{margin:0}
 #cv-document .regular{font-weight:400}

@@ -1,4 +1,4 @@
-#cv-document .page--background{background:linear-gradient(to bottom,#00a79d 28.2em,transparent 0) no-repeat left top/100% 50%,linear-gradient(to top,#292929 28em,transparent 0) no-repeat left bottom/100% 50%,#fff;color:#010101}
+#cv-document .page--background{background:linear-gradient(to bottom,#00a79d 29.7em,transparent 0) no-repeat left top/100% 50%,linear-gradient(to top,#292929 28em,transparent 0) no-repeat left bottom/100% 50%,#fff;color:#010101}
 #cv-document .page--background:last-child .page__inner{background:linear-gradient(to top,#292929 2.5em,#f9f9fa 0)}
 @media print{
 #cv-document .page--background:last-child .page__inner{background:linear-gradient(to top,#292929 5em,#f9f9fa 0)}

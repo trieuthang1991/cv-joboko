@@ -56,9 +56,9 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .heading{margin-bottom:1.5em;border-bottom-width:1px;border-bottom-style:solid;padding-bottom:.7em}
 #cv-document .heading__title{position:relative;display:inline-block}
 #cv-document .heading__title::after{content:"";position:absolute;right:0;bottom:-.9em;left:-1px;border-radius:.2em;height:.3em}
-#cv-document .avatar{position:relative;z-index:10;justify-content:center;align-items:center;display:flex;overflow:hidden;margin:3.7em auto 0;border-radius:50%;width:16.8em;height:16.8em}
+#cv-document .avatar{position:relative;z-index:10;justify-content:center;align-items:center;display:flex;overflow:hidden;margin:5em auto 0;border-radius:50%;width:16.8em;height:16.8em}
 #cv-document .avatar img{border-radius:50%;width:15.8em;height:15.8em}
-#cv-document .info-main{position:relative;margin-bottom:1.6em;padding:4em 12em 2em 0}
+#cv-document .info-main{position:relative;margin-bottom:1.6em;padding:5em 12em 2em 0}
 @media screen and (max-width:767px){
 #cv-document .info-main{padding:3em 10em 3em 2em}
 }

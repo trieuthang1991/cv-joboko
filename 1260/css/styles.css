@@ -26,7 +26,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .full-width{margin:0}
 }
-#cv-document .full-width__wrapper{display:flex;border-bottom-width:1px;border-bottom-style:solid;padding:2.2em 0 .9em}
+#cv-document .full-width__wrapper{display:flex;border-bottom-width:1px;border-bottom-style:solid;padding:4em 0 .9em}
 @media screen and (max-width:767px){
 #cv-document .full-width__wrapper{display:none}
 }

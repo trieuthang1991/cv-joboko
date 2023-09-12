@@ -49,7 +49,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .avatar{margin-bottom:0}
 }
 #cv-document .avatar img{border-radius:50%;width:13.6em;height:13.6em}
-#cv-document .info-main{margin:0 -5em;padding:2.8em 0 4.4em;text-align:center}
+#cv-document .info-main{margin:0 -5em;padding:5em 0 4.4em;text-align:center}
 @media screen and (max-width:767px){
 #cv-document .info-main{margin-right:-2em;margin-left:-2em}
 }

@@ -29,7 +29,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;width:150px;height:150px;backgrou
 }
 #cv-document .two-up__right-item{margin-bottom:1.8em}
 #cv-document .full-width{position:relative;margin-bottom:2em;padding:2.5em 3em}
-#cv-document .full-width--top{justify-content:center;align-items:center;display:flex;margin-top:-3em;margin-bottom:0;border-bottom-width:.6em;border-bottom-style:solid;padding-top:2.7em}
+#cv-document .full-width--top{justify-content:center;align-items:center;display:flex;margin-top:-3em;margin-bottom:0;border-bottom-width:.6em;border-bottom-style:solid;padding-top:4em}
 @media screen and (max-width:767px){
 #cv-document .full-width--top{flex-wrap:wrap}
 }

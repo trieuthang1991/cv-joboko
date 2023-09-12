@@ -10,7 +10,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .no-outline{outline:0}
 #cv-document .no-outline:hover{box-shadow:none;outline:0}
 #cv-document .content{margin-left:14.2em}
-#cv-document .page__inner{padding:3.7em 0 0}
+#cv-document .page__inner{padding:5em 0 0}
 #cv-document .full-width{padding:0 3.6em}
 @media screen and (max-width:767px){
 #cv-document .full-width{padding:0 1.5em}

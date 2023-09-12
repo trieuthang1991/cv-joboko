@@ -23,7 +23,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 }
 #cv-document .datetime{margin-bottom:14px}
 #cv-document .job-position{margin-top:.2631578947em}
-#cv-document .page__inner{padding:4em 0 0}
+#cv-document .page__inner{padding:5em 0 0}
 @media screen and (max-width:767px){
 #cv-document .page__inner{overflow:hidden}
 }

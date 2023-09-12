@@ -18,7 +18,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .title{align-items:center;display:flex;margin-bottom:1em}
 #cv-document .title::after{content:"";flex-grow:1;display:block;border-radius:99.9em;height:.3em}
 #cv-document .title__text{flex-shrink:0;margin-right:.8em;max-width:85%}
-#cv-document .page__inner{padding:4.2em 0 0}
+#cv-document .page__inner{padding:5em 0 0}
 #cv-document .full-width{position:relative;margin-bottom:1.6em;padding:1.4em 0 2.2em}
 @media screen and (max-width:767px){
 #cv-document .full-width{margin-bottom:0;padding-bottom:3em}

@@ -66,7 +66,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 .bot1 .text1 .img-cal { position: absolute; left: -35px; font-size: 25px;}
 .bot1 .text2 { font-size: 12px; }
 .text3 {font-size: 13px}
-.bot1-inner { display: flex; justify-content: space-between;}
+.bot1-inner { display: flex; justify-content: space-between;height: 100%;}
 .col-inner { /*max-width: 490px;*/ padding: 15px 45px 30px 25px;}
 .mgb-40 { margin-bottom: 40px;}
 .mgb-30 { margin-bottom: 30px;}

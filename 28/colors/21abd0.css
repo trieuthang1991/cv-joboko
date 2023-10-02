@@ -326,8 +326,12 @@ body {
 }
 
 [page="1"] .col_left{
-	height: 940px;
+	height: 100%;
 }
+.page{
+	overflow: hidden;
+}
+
 .col_left{
 	height: 1122px
 }

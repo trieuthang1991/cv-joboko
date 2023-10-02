@@ -54,6 +54,7 @@ body.page-preview .xbgcv.xbgcv1{
 	max-width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	height: 100%;
 }
 .cv_main .h-curent{
 	width: 100%;

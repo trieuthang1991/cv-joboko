@@ -79,6 +79,7 @@ body.page-preview, body.page-view, body.page-viewdemo {
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 100%;
+	
 }
 .pageCV:nth-child(1) .col_left .h-curent {
 	padding-bottom: 20px;

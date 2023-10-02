@@ -2,7 +2,7 @@
 <link  id="cv-scheme-css" href="https://i-vn1.joboko.com/MyCV/templates/35/colors/3F9599.css?v=2.6"  rel="stylesheet" type="text/css">
 
     <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12" data-x-name="parrent">
+        <div class="col-sm-12 col-md-12 col-lg-12" >
             <!-- Wrap -->
             <div class="cv_wrap  page"  page="1">
 <div data-x-name="item" data-x-id="info">

@@ -18,7 +18,7 @@ body.page-preview .xbgcv.xbgcv1 {
 *{box-sizing:border-box;}
 .pagemax {max-width:793px; margin: 0px auto;  position: relative;}
 .bgpage {padding:0; background:#fff;}
-.page:first-child .flexbox {min-height: 716px; display: -webkit-flex; display: -ms-flexbox; display: flex; overflow: hidden;background-color: #fff;}
+.page:first-child .flexbox {min-height: 716px; height: 100% ;display: -webkit-flex; display: -ms-flexbox; display: flex; overflow: hidden;background-color: #fff;}
 .page .flexbox {min-height: 1122px; display: -webkit-flex; display: -ms-flexbox; display: flex; overflow: hidden;background-color: #fff;}
 .page:first-child .flexbox .col:nth-child(1) {-webkit-order: 0; -ms-flex-order: 0; order: 0; width:280px; padding: 30px 10px 30px 35px; /*min-height: 600px;*/ margin:0px 0 10px 10px; position: relative;}
 .page .flexbox .col:nth-child(1) {-webkit-order: 0; -ms-flex-order: 0; order: 0; width:280px; padding: 30px 10px 30px 35px; /*min-height: 1102px;*/ margin:10px 0 10px 10px; position: relative;}

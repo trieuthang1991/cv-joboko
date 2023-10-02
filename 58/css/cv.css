@@ -7,9 +7,9 @@ span[contenteditable],em[contenteditable]{display:inline-block}
 #group-left .cvo-block{margin-bottom: 30px}
 .cv-main{display:table;width:100%}
 #cv-top{color: #fff}
-.cv-content{width: 65.4%;position: relative;background: #ded0b5;color: #252525;padding-top:20px}
+.cv-content{width: 65.4%;position: relative;background: #ded0b5;color: #252525;padding-top:4em}
 .cv-content .cvo-block {position: relative;padding: 5px 10px}
-.cv-left{width: 34.6%;	position: relative;color: #fff;padding-top:20px}
+.cv-left{width: 34.6%;	position: relative;color: #fff;padding-top:4em}
 .cv-left .box-contact span{display: block}
 .cv-left .cv-box-item {padding-bottom:0;margin:0}
 .cv-left .h3{text-align:center;border-bottom:solid 2px #fff;line-height:24px}

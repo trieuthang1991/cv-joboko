@@ -19,7 +19,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .page{padding-right:1.5em;padding-left:1.5em}
 }
-#cv-document .page__inner{padding:2.3em 0 0;width: 100%;}
+#cv-document .page__inner{padding:4.5em 0 0;width: 100%;}
 #cv-document .two-up{flex-wrap:wrap;align-items:center;display:flex;margin-bottom:.1em}
 @media screen and (max-width:767px){
 #cv-document .two-up{margin-bottom:2em}
@@ -32,7 +32,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .two-up__right{margin:0 auto}
 }
-#cv-document .full-width{padding:0 2.9em .5em}
+#cv-document .full-width{padding:0 2.9em .5em;height: 100%;}
 @media screen and (max-width:767px){
 #cv-document .full-width{padding-right:1.5em;padding-left:1.5em}
 }
@@ -52,12 +52,12 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .heading__title{letter-spacing:2.5px}
 #cv-document .heading__title::before{content:"";position:absolute;bottom:-2px;left:0;width:7em;height:.3em}
 #cv-document .avatar{position:relative;z-index:5}
-#cv-document .avatar::before{content:"";position:absolute;top:-3em;right:1.9em;bottom:50%;left:1.9em}
+#cv-document .avatar::before{content:"";position:absolute;top:-5em;right:1.9em;bottom:50%;left:1.9em}
 @media screen and (max-width:767px){
 #cv-document .avatar{margin:0 auto 2em}
 }
 #cv-document .avatar__inner{position:relative;z-index:1;justify-content:center;align-items:center;display:flex;border-radius:50%;width:13em;height:13em}
-#cv-document .avatar__inner::after,#cv-document .avatar__inner::before{content:"";position:absolute;top:-3em;width:1.4em;height:.7em}
+#cv-document .avatar__inner::after,#cv-document .avatar__inner::before{content:"";position:absolute;top:-5.2em;width:1.4em;height:.7em}
 #cv-document .avatar__inner::before{left:.5em}
 #cv-document .avatar__inner::after{right:.5em}
 #cv-document .avatar img{border-radius:50%;width:11.4em;height:11.4em}

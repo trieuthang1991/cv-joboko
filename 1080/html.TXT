@@ -36,7 +36,7 @@
             <div data-x-name="item" data-x-id="info">
               <div data-x-id="gen" style='display:none' contenteditable="true" class="telInfo txt-content"></div>
           <img style="display:none" data-x-id="ava_vertical" src="/Upload/images/avatars/no_avatar.jpg" alt="" />
-              <div class="avabx">
+              <div class="avabx" style='margin-top:20px'>
                 <p class="cimg">
                   <img data-x-id="ava" src="images/anh-the-3x4.jpg">
                 </p>
@@ -138,7 +138,7 @@
         <div class="height-curent">
           <div data-x-name="content" class="height_content">
             <!-- Content col2 -->
-            <div data-x-name="group-item">
+            <div data-x-name="group-item"  style='padding-top:20px'>
               <!-- end bxitem -->
               <div class="bxitem" data-x-name="item" data-x-id="tar">
                 <p class="htitle10" data-x-name="head">

@@ -295,7 +295,7 @@
                                     <span class="txtpos1" contenteditable="true" data-x-id="tit">DỰ ÁN</span>
                                     <span class="posp1"></span>
                                 </div>
-                                <div class="mrt-10 project" contenteditable="true" data-x-name="list-item">
+                                <div class="mrt-10 project" data-x-name="list-item">
                                     <div class="sub-cvs project__item" data-x-name="sub-item">
                                         <div class="project__item-head">
                                           <div class="project__item-title">

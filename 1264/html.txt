@@ -113,7 +113,7 @@
                                 <div class="skill" data-x-name="list-item">
                                     <div class="skill__item" data-x-name="sub-item">
                                         <div class="skill__item-title">
-                                            <div class="p inline-block bold haicham" contenteditable="true" data-x-id="name">
+                                            <div class="p  bold haicham" contenteditable="true" data-x-id="name">
                                                 Giải quyết
                                                 vấn đề</div>
                                             

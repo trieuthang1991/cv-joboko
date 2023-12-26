@@ -167,7 +167,7 @@
                                 <div class="skill" data-x-name="list-item">
                                     <div class="skill__item" data-x-name="sub-item">
                                         <div class="skill__item-title">
-                                            <div class="p bold inline-block haicham" contenteditable="true" data-x-id="name">Giải quyết
+                                            <div class="p bold  haicham" contenteditable="true" data-x-id="name">Giải quyết
                                                 vấn đề</div>
                                         
                                             <div class="p regular inline-block" contenteditable="true" data-x-id="des">Tốt</div>

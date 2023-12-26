@@ -138,7 +138,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .project__item-table .tr:last-child .td,#cv-document .project__item-table .tr:last-child .th{border-bottom-width:1px;border-bottom-style:solid}
 .award__item{position:relative;margin-bottom:.5em}
 .award__item:last-child{margin-bottom:0}
-.award__item-title>div::before{content:"- "}
+
 #cv-document .advantage__item{margin-bottom:1em;padding-left:2.2em}
 #cv-document .advantage__item::before{content:"";position:absolute;top:.2em;left:-.3em;width:1.8em;height:1.7em}
 #cv-document .advantage__item:last-child{margin-bottom:0}

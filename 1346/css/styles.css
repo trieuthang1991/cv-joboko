@@ -31,9 +31,11 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .icon-pro{display:block;width:1.5em;height:1.5em;background-repeat:no-repeat;background-size:contain}
 #cv-document .page__inner{position:relative;padding:5.8em 0 0}
 #cv-document .two-up{display:flex;flex-wrap:wrap}
-#cv-document .two-up__left{border-right:1px solid #8b8b8b;width:31em;padding-right:3em;padding-left:3em;text-align:right}
+#cv-document .two-up__left{width:31em;padding-right:3em;padding-left:3em;text-align:right;position:relative;}
+#cv-document .two-up__left::after{content:'';position: absolute;top: 0;right: 0;width: 1px;bottom: 6em;background-color: #8b8b8b;}
 @media screen and (max-width:767px){
 #cv-document .two-up__left{width:100%;padding-right:1.2em;padding-left:1.2em}
+#cv-document .two-up__left::after{content:none;}
 }
 #cv-document .two-up__left-item{margin-bottom:2.6em}
 #cv-document .two-up__right{width:calc(100% - 31em);padding-right:3em;padding-left:3em}

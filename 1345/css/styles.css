@@ -35,12 +35,12 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .two-up__left{width:100%;margin-bottom:2em;padding-right:1.2em;padding-left:1.2em}
 }
-#cv-document .two-up__left-item{margin-bottom:2.3em}
+#cv-document .two-up__left-item{margin-bottom:3em}
 #cv-document .two-up__right{width:calc(100% - 32.2em);padding-right:4.8em;padding-left:3.2em}
 @media screen and (max-width:767px){
 #cv-document .two-up__right{width:100%;padding-right:1.2em;padding-left:1.2em}
 }
-#cv-document .two-up__right-item{margin-bottom:2.5em}
+#cv-document .two-up__right-item{margin-bottom:3em}
 #cv-document .page--background:not(:first-child) .two-up__left{margin-top:4.8em}
 #cv-document .h1,#cv-document .h2,#cv-document .h3,#cv-document .h4,#cv-document .h5,#cv-document .h6,#cv-document h1,#cv-document h2,#cv-document h3,#cv-document h4,#cv-document h5,#cv-document h6,#cv-document p{margin:0}
 #cv-document .cvo-skillrate-radial::after{font-weight:500}
@@ -75,7 +75,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .info-main__title{position:relative;padding-bottom:1.1em;letter-spacing:.7px}
 #cv-document .info-main__title::after{content:"";position:absolute;bottom:-.7em;left:-1.8em;width:42em;height:2.8em}
 #cv-document .info-main__text{letter-spacing:.35px}
-#cv-document .info-detail{position:relative;margin-bottom:3.2em}
+#cv-document .info-detail{position:relative;margin-bottom:3em}
 #cv-document .info-detail__item{position:relative;z-index:1;display:flex;align-items:flex-start;margin-bottom:1.35em}
 #cv-document .info-detail__item-icon{position:relative;display:flex;flex-shrink:0;justify-content:center;min-width:1.4em;margin-right:.7em;top:.1em;text-align:center}
 #cv-document .skill__item{margin-bottom:.6em}
@@ -107,7 +107,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 #cv-document .hobby__item-icon .xicon{width:2.8em;height:2.8em}
 #cv-document .references__item{margin-bottom:.7em}
 #cv-document .references__item:last-child{margin-bottom:0}
-#cv-document .target{margin-bottom:2.8em}
+#cv-document .target{margin-bottom:3em}
 #cv-document .project__item{margin-bottom:2em}
 #cv-document .project__item:last-child{margin-bottom:0}
 #cv-document .project__item-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;margin-bottom:.8em}

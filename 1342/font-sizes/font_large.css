@@ -1,7 +1,7 @@
-#cv-document .h1{font-size:3em}
-#cv-document .h2{font-size:1.9em}
-#cv-document .h3{font-size:1.7em}
-#cv-document .h4{font-size:1.6em}
-#cv-document .p{font-size:1.5em}
-#cv-document .p2{font-size:1.4em}
-#cv-document .cvo-skillrate-radial::after{font-size:1.5em}
+#cv-document .h1{font-size:calc(3em + var(--plus-size))}
+#cv-document .h2{font-size:calc(1.9em + var(--plus-size))}
+#cv-document .h3{font-size:calc(1.7em + var(--plus-size))}
+#cv-document .h4{font-size:calc(1.6em + var(--plus-size))}
+#cv-document .p{font-size:calc(1.5em + var(--plus-size))}
+#cv-document .p2{font-size:calc(1.4em + var(--plus-size))}
+#cv-document .cvo-skillrate-radial::after{font-size:calc(1.5em + var(--plus-size))}

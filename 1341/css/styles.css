@@ -36,7 +36,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .two-up__left{width:100%;padding-right:1.2em;padding-left:1.2em}
 }
-#cv-document .two-up__left-item{padding-right:2.2em;margin-bottom:2.7em}
+#cv-document .two-up__left-item{padding-right:2.2em;margin-bottom:3em}
 @media screen and (max-width:767px){
 #cv-document .two-up__left-item{padding-right:0}
 }
@@ -44,7 +44,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .two-up__right{width:100%;padding-right:1.2em;padding-left:1.2em}
 }
-#cv-document .two-up__right-item{margin-bottom:2.5em}
+#cv-document .two-up__right-item{margin-bottom:3em}
 #cv-document .h1,#cv-document .h2,#cv-document .h3,#cv-document .h4,#cv-document .h5,#cv-document .h6,#cv-document h1,#cv-document h2,#cv-document h3,#cv-document h4,#cv-document h5,#cv-document h6,#cv-document p{margin:0}
 #cv-document .cvo-skillrate-radial::after{font-weight:500}
 #cv-document .regular{font-weight:400}
@@ -88,7 +88,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;z-index:99;right:0;bottom:0;width
 @media screen and (max-width:767px){
 #cv-document .info-main__text{margin-bottom:-1em}
 }
-#cv-document .info-detail{position:relative;padding:3em 0 0;margin-bottom:2.9em}
+#cv-document .info-detail{position:relative;padding:3em 0 0;margin-bottom:3em}
 #cv-document .info-detail__item{position:relative;z-index:1;display:flex;align-items:flex-start;margin-bottom:1.4em}
 #cv-document .info-detail__item-icon{position:relative;display:flex;flex-shrink:0;justify-content:center;min-width:1.4em;margin-right:.7em;top:.1em;text-align:center}
 #cv-document .skill__item{margin-bottom:.6em}

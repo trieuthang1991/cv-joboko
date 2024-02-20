@@ -14,7 +14,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .content{width:100%;padding-left:0;min-height:auto}
 }
 #cv-document .icon-phone{display:block;width:1.1em;height:1.1em;background-repeat:no-repeat;background-size:contain}
-#cv-document .icon-birthday{display:block;width:1.2em;height:1.2em;background-repeat:no-repeat;background-size:contain}
+#cv-document .icon-birthday{display:block;width:1.2em;height:1.2em;background-repeat:no-repeat;background-size:contain;position: relative;top:-1px;}
 #cv-document .icon-email{display:block;width:1.2em;height:.9em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-facebook{display:block;width:1.3em;height:1.3em;background-repeat:no-repeat;background-size:contain}
 #cv-document .icon-mark{display:block;width:1em;height:1.4em;background-repeat:no-repeat;background-size:contain}

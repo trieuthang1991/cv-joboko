@@ -372,6 +372,7 @@
                     <div class="hobby__item-icon" data-x-id="icon">
                       <i class="xicon sport" aria-hidden="true"></i>
                     </div>
+					<div class="p bold hide" data-x-id="name" contenteditable="true"></div>
                   </div>
                 </div>
               </div>

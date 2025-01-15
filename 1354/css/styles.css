@@ -82,38 +82,38 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .skill-th .item::before{content:"";position:absolute;top:.8em;left:0;border-radius:50%;width:.4em;height:.4em;background-color:var(--text-color)}
 #cv-document .skill-th .item:last-child{margin-bottom:0}
 .xicon{display:inline-block;width:4.4em;height:4.4em;background-repeat:no-repeat;background-size:contain!important;background-position:center;vertical-align:middle}
-.xicon.sport{background-image:var(--xicon-sport)}
-.xicon.gym{background-image:var(--xicon-gym)}
-.xicon.football{background-image:var(--xicon-football)}
-.xicon.yoga{background-image:var(--xicon-yoga)}
-.xicon.cook{background-image:var(--xicon-cook)}
-.xicon.climb{background-image:var(--xicon-climb)}
-.xicon.swim{background-image:var(--xicon-swim)}
-.xicon.book{background-image:var(--xicon-book)}
-.xicon.music{background-image:var(--xicon-music)}
-.xicon.movie{background-image:var(--xicon-movie)}
-.xicon.game{background-image:var(--xicon-game)}
-.xicon.travel{background-image:var(--xicon-travel)}
-.xicon.puzzle{background-image:var(--xicon-puzzle)}
-.xicon.camera{background-image:var(--xicon-camera)}
-.xicon.word{background-image:var(--xicon-word)}
-.xicon.excel{background-image:var(--xicon-excel)}
-.xicon.powerpoint{background-image:var(--xicon-powerpoint)}
-.xicon.outlook{background-image:var(--xicon-outlook)}
-.xicon.illustrator{background-image:var(--xicon-illustrator)}
-.xicon.uiux{background-image:var(--xicon-uiux)}
-.xicon.indesign{background-image:var(--xicon-indesign)}
-.xicon.organizational{background-image:var(--xicon-organizational)}
-.xicon.search{background-image:var(--xicon-search)}
-.xicon.dataanalysis{background-image:var(--xicon-dataanalysis)}
-.xicon.report{background-image:var(--xicon-report)}
-.xicon.management{background-image:var(--xicon-management)}
-.xicon.communicate{background-image:var(--xicon-communicate)}
-.xicon.plan{background-image:var(--xicon-plan)}
-.xicon.talk{background-image:var(--xicon-talk)}
-.xicon.photoshop{background-image:var(--xicon-photoshop)}
-.xicon.canva{background-image:var(--xicon-canva)}
-.xicon.wordpress{background-image:var(--xicon-wordpress)}
+.xicon.sport{background-image:var(--xicon-sport)!important}
+.xicon.gym{background-image:var(--xicon-gym)!important}
+.xicon.football{background-image:var(--xicon-football)!important}
+.xicon.yoga{background-image:var(--xicon-yoga)!important}
+.xicon.cook{background-image:var(--xicon-cook)!important}
+.xicon.climb{background-image:var(--xicon-climb)!important}
+.xicon.swim{background-image:var(--xicon-swim)!important}
+.xicon.book{background-image:var(--xicon-book)!important}
+.xicon.music{background-image:var(--xicon-music)!important}
+.xicon.movie{background-image:var(--xicon-movie)!important}
+.xicon.game{background-image:var(--xicon-game)!important}
+.xicon.travel{background-image:var(--xicon-travel)!important}
+.xicon.puzzle{background-image:var(--xicon-puzzle)!important}
+.xicon.camera{background-image:var(--xicon-camera)!important}
+.xicon.word{background-image:var(--xicon-word)!important}
+.xicon.excel{background-image:var(--xicon-excel)!important}
+.xicon.powerpoint{background-image:var(--xicon-powerpoint)!important}
+.xicon.outlook{background-image:var(--xicon-outlook)!important}
+.xicon.illustrator{background-image:var(--xicon-illustrator)!important}
+.xicon.uiux{background-image:var(--xicon-uiux)!important}
+.xicon.indesign{background-image:var(--xicon-indesign)!important}
+.xicon.organizational{background-image:var(--xicon-organizational)!important}
+.xicon.search{background-image:var(--xicon-search)!important}
+.xicon.dataanalysis{background-image:var(--xicon-dataanalysis)!important}
+.xicon.report{background-image:var(--xicon-report)!important}
+.xicon.management{background-image:var(--xicon-management)!important}
+.xicon.communicate{background-image:var(--xicon-communicate)!important}
+.xicon.plan{background-image:var(--xicon-plan)!important}
+.xicon.talk{background-image:var(--xicon-talk)!important}
+.xicon.photoshop{background-image:var(--xicon-photoshop)!important}
+.xicon.canva{background-image:var(--xicon-canva)!important}
+.xicon.wordpress{background-image:var(--xicon-wordpress)!important}
 #cv-document .column-left .action .item{margin-bottom:2em}
 #cv-document .column-left .action .item:last-child{margin-bottom:0}
 #cv-document .column-left .action .item-title{margin-bottom:.2em}
@@ -156,3 +156,6 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document span.x_add.fa.fa-plus-circle,#cv-document span.x_del.fa.fa-remove{width:70px!important}
 #cv-document .height-curent>[data-x-name=group-item]{padding-bottom:3em}
 #cv-document .haicham:not(:empty):after{content:":"}
+#cv-document .cletter {text-align:justify}
+#cv-document .skill .item-title [contenteditable="true"] [data-placeholder] {display:inline}
+#cv-document [contenteditable] ol, #cv-document [contenteditable] ul{margin-left: 0!important}

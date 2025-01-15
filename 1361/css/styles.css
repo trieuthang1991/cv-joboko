@@ -124,7 +124,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .experience .item-text ul li::before{content:"";position:absolute;top:6px;left:0;border-radius:50%;width:6px;height:6px;background-color:var(--text-color)}
 #cv-document .hobby .item{margin-bottom:.3em}
 #cv-document .hobby .item:last-child{margin-bottom:0}
-#cv-document .target{position:relative;z-index:3;min-height:10em;text-align:justify}
+#cv-document .target{position:relative;z-index:3;text-align:justify}
 #cv-document .project .item{margin-bottom:2em}
 #cv-document .project .item:last-child{margin-bottom:0}
 #cv-document .project .item-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;margin-top:.8em;margin-bottom:.8em}
@@ -151,3 +151,9 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document span.x_add.fa.fa-plus-circle,#cv-document span.x_del.fa.fa-remove{width:70px!important}
 #cv-document .height-curent>[data-x-name=group-item]{padding-bottom:3em}
 #cv-document .haicham:not(:empty):after{content:":"}
+#cv-document .cletter {text-align:justify}
+#cv-document .skill .item-title [contenteditable="true"] [data-placeholder] {display:inline}
+#cv-document [contenteditable] ol, #cv-document [contenteditable] ul{margin-left: 0!important}
+#cv-document .more .item, #cv-document .references .item{margin-bottom: 1em;}
+#cv-document .more .item:last-child, #cv-document .references .item:last-child{margin-bottom: 0;}
+#cv-document .project {padding-bottom: 0.5em}

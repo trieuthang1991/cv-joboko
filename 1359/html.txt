@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1359&color=231f20&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1736694256583">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1359&color=231f20&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1736694256688">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -279,7 +279,7 @@
                 <div class="award" data-x-name="list-item">
                   <div class="item flex-box" data-x-name="sub-item">
                     <div class="item-date">
-                      <div class="fz-14 lh-1-428 fw-italic" data-x-id="time" contenteditable="true">2019</div>
+                      <div class="fz-14 lh-1-428 fs-italic" data-x-id="time" contenteditable="true">2019</div>
                     </div>
                     <div class="item-content">
                       <div class="item-title">
@@ -325,7 +325,7 @@
       <i class="xicon puzzle" aria-hidden="true"></i>
     </div> -->
                     <div class="item-title">
-                      <div class="fz-14 lh-1" data-x-id="name" contenteditable="true">Chụp ảnh</div>
+                      <div class="fz-14 lh-1-428" data-x-id="name" contenteditable="true">Chụp ảnh</div>
                     </div>
                   </div>
                 </div>
@@ -456,7 +456,7 @@
                   <!-- <div class="heading-icon">
     <i class="icon-ref"></i>
   </div> -->
-                  <div class="heading-title">
+                  <div class="heading-title" style="max-width: 108px;">
                     <div class="fz-20 lh-1-2 fw-bold text-uppercase" data-x-id="tit" contenteditable="true">Người tham chiếu</div>
                   </div>
                 </div>

@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1360&color=231f20&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1736697097844">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1360&color=231f20&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1736697097889">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -292,7 +292,7 @@
                       <div class="fz-14 lh-1-428" data-x-id="name" contenteditable="true">Nhân viên xuất sắc năm 2021</div>
                     </div>
                     <div class="item-date">
-                      <div class="fz-14 lh-1-428 fw-bold fw-italic" data-x-id="time" contenteditable="true">2019</div>
+                      <div class="fz-14 lh-1-428 fw-bold fs-italic" data-x-id="time" contenteditable="true">2019</div>
                     </div>
                   </div>
                 </div>

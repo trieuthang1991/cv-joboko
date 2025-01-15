@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1348&color=f3722a&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1736659653529">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1348&color=f3722a&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1736659653555">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -201,7 +201,7 @@
                       <div class="fz-14 lh-1-428" data-x-id="name" contenteditable="true">Nhân viên xuất sắc năm 2021</div>
                     </div>
                     <div class="item-date">
-                      <div class="fz-14 lh-1-428 fw-italic" data-x-id="time" contenteditable="true">2019</div>
+                      <div class="fz-14 lh-1-428 fs-italic" data-x-id="time" contenteditable="true">2019</div>
                     </div>
                   </div>
                 </div>
@@ -299,15 +299,13 @@
                   </div>
                 </div>
 
-                <div class="experience content" data-x-name="list-item">
-                  <div class="item" data-x-name="sub-item">
+                <div class="experience" data-x-name="list-item">
+                  <div class="item content" data-x-name="sub-item">
                     <div class="item-title">
                       <div class="fz-16 lh-1-375 fw-bold text-uppercase" data-x-id="name" contenteditable="true">Front-End Developer</div>
                     </div>
                     <div class="item-wrap">
                       <div class="item-position">
-                        <div class="fz-15 lh-1-333 fs-italic inline-block" data-x-label="edu.cat">Ngành học</div>
-                        <div class="fz-15 lh-1-333 fs-italic inline-block">:</div>
                         <div class="fz-15 lh-1-333 fs-italic inline-block" data-x-id="pos" contenteditable="true">Marketing</div>
                       </div>
                       <div class="item-date">
@@ -374,8 +372,8 @@
                   </div>
                 </div>
 
-                <div class="project content" data-x-name="list-item">
-                  <div class="item" data-x-name="sub-item">
+                <div class="project" data-x-name="list-item">
+                  <div class="item content" data-x-name="sub-item">
                     <div class="item-head">
                       <div class="item-title">
                         <div class="fz-14 lh-1-428 fw-bold inline-block" data-x-id="name" contenteditable="true">RAINWAY GROUP</div>
@@ -457,8 +455,8 @@
                   </div>
                 </div>
 
-                <div class="action content" data-x-name="list-item">
-                  <div class="item" data-x-name="sub-item">
+                <div class="action" data-x-name="list-item">
+                  <div class="item content" data-x-name="sub-item">
                     <div class="item-title">
                       <div class="fz-14 lh-1-428 fw-bold text-uppercase" data-x-id="name" contenteditable="true">Chiến dịch "ÁO ẤM CHO EM"</div>
                     </div>

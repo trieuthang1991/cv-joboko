@@ -92,7 +92,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .column-left .heading-title{letter-spacing:1px}
 #cv-document .column-left .heading-icon{position:relative;top:-.2em;display:flex;flex-shrink:0;align-items:center;margin-right:1.4em}
 #cv-document .column-right .heading{position:relative;display:flex;align-items:center;border-bottom:1px dashed var(--text-color);margin-bottom:1.9em;padding-bottom:.6em;color:var(--heading-color)}
-#cv-document .column-right .heading::before{content:"";position:absolute;bottom:-.2em;left:-2.5em;width:5.6em;height:.3em;background-color:var(--heading-color)}
+#cv-document .column-right .heading::before{content:"";position:absolute;bottom:-0.25em;left:-2.5em;width:5.6em;height:.4em;background-color:var(--heading-color)}
 @media screen and (max-width:767px){
 #cv-document .column-right .heading::before{width:3.8em;right:auto;left:-1.2em}
 }
@@ -147,70 +147,70 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .skill-th .item:last-child{margin-bottom:0}
 #cv-document .column-left .skill-th .item::before{background-color:var(--text-white-color)}
 .xicon{display:inline-block;width:4.4em;height:4.4em;background-repeat:no-repeat;background-size:contain!important;background-position:center;vertical-align:middle}
-.xicon.sport{background-image:var(--xicon-sport)}
-.column-left .xicon.sport{background-image:var(--xicon-w-sport)}
-.xicon.gym{background-image:var(--xicon-gym)}
-.column-left .xicon.gym{background-image:var(--xicon-w-gym)}
-.xicon.football{background-image:var(--xicon-football)}
-.column-left .xicon.football{background-image:var(--xicon-w-football)}
-.xicon.yoga{background-image:var(--xicon-yoga)}
-.column-left .xicon.yoga{background-image:var(--xicon-w-yoga)}
-.xicon.cook{background-image:var(--xicon-cook)}
-.column-left .xicon.cook{background-image:var(--xicon-w-cook)}
-.xicon.climb{background-image:var(--xicon-climb)}
-.column-left .xicon.climb{background-image:var(--xicon-w-climb)}
-.xicon.swim{background-image:var(--xicon-swim)}
-.column-left .xicon.swim{background-image:var(--xicon-w-swim)}
-.xicon.book{background-image:var(--xicon-book)}
-.column-left .xicon.book{background-image:var(--xicon-w-book)}
-.xicon.music{background-image:var(--xicon-music)}
-.column-left .xicon.music{background-image:var(--xicon-w-music)}
-.xicon.movie{background-image:var(--xicon-movie)}
-.column-left .xicon.movie{background-image:var(--xicon-w-movie)}
-.xicon.game{background-image:var(--xicon-game)}
-.column-left .xicon.game{background-image:var(--xicon-w-game)}
-.xicon.travel{background-image:var(--xicon-travel)}
-.column-left .xicon.travel{background-image:var(--xicon-w-travel)}
-.xicon.puzzle{background-image:var(--xicon-puzzle)}
-.column-left .xicon.puzzle{background-image:var(--xicon-w-puzzle)}
-.xicon.camera{background-image:var(--xicon-camera)}
-.column-left .xicon.camera{background-image:var(--xicon-w-camera)}
-.xicon.word{background-image:var(--xicon-word)}
-.column-left .xicon.word{background-image:var(--xicon-w-word)}
-.xicon.excel{background-image:var(--xicon-excel)}
-.column-left .xicon.excel{background-image:var(--xicon-w-excel)}
-.xicon.powerpoint{background-image:var(--xicon-powerpoint)}
-.column-left .xicon.powerpoint{background-image:var(--xicon-w-powerpoint)}
-.xicon.outlook{background-image:var(--xicon-outlook)}
-.column-left .xicon.outlook{background-image:var(--xicon-w-outlook)}
-.xicon.illustrator{background-image:var(--xicon-illustrator)}
-.column-left .xicon.illustrator{background-image:var(--xicon-w-illustrator)}
-.xicon.uiux{background-image:var(--xicon-uiux)}
-.column-left .xicon.uiux{background-image:var(--xicon-w-uiux)}
-.xicon.indesign{background-image:var(--xicon-indesign)}
-.column-left .xicon.indesign{background-image:var(--xicon-w-indesign)}
-.xicon.organizational{background-image:var(--xicon-organizational)}
-.column-left .xicon.organizational{background-image:var(--xicon-w-organizational)}
-.xicon.search{background-image:var(--xicon-search)}
-.column-left .xicon.search{background-image:var(--xicon-w-search)}
-.xicon.dataanalysis{background-image:var(--xicon-dataanalysis)}
-.column-left .xicon.dataanalysis{background-image:var(--xicon-w-dataanalysis)}
-.xicon.report{background-image:var(--xicon-report)}
-.column-left .xicon.report{background-image:var(--xicon-w-report)}
-.xicon.management{background-image:var(--xicon-management)}
-.column-left .xicon.management{background-image:var(--xicon-w-management)}
-.xicon.communicate{background-image:var(--xicon-communicate)}
-.column-left .xicon.communicate{background-image:var(--xicon-w-communicate)}
-.xicon.plan{background-image:var(--xicon-plan)}
-.column-left .xicon.plan{background-image:var(--xicon-w-plan)}
-.xicon.talk{background-image:var(--xicon-talk)}
-.column-left .xicon.talk{background-image:var(--xicon-w-talk)}
-.xicon.photoshop{background-image:var(--xicon-photoshop)}
-.column-left .xicon.photoshop{background-image:var(--xicon-w-photoshop)}
-.xicon.canva{background-image:var(--xicon-canva)}
-.column-left .xicon.canva{background-image:var(--xicon-w-canva)}
-.xicon.wordpress{background-image:var(--xicon-wordpress)}
-.column-left .xicon.wordpress{background-image:var(--xicon-w-wordpress)}
+.xicon.sport{background-image:var(--xicon-sport) !important}
+.column-left .xicon.sport{background-image:var(--xicon-w-sport) !important}
+.xicon.gym{background-image:var(--xicon-gym) !important}
+.column-left .xicon.gym{background-image:var(--xicon-w-gym) !important}
+.xicon.football{background-image:var(--xicon-football) !important}
+.column-left .xicon.football{background-image:var(--xicon-w-football) !important}
+.xicon.yoga{background-image:var(--xicon-yoga) !important}
+.column-left .xicon.yoga{background-image:var(--xicon-w-yoga) !important}
+.xicon.cook{background-image:var(--xicon-cook) !important}
+.column-left .xicon.cook{background-image:var(--xicon-w-cook) !important}
+.xicon.climb{background-image:var(--xicon-climb) !important}
+.column-left .xicon.climb{background-image:var(--xicon-w-climb) !important}
+.xicon.swim{background-image:var(--xicon-swim) !important}
+.column-left .xicon.swim{background-image:var(--xicon-w-swim) !important}
+.xicon.book{background-image:var(--xicon-book) !important}
+.column-left .xicon.book{background-image:var(--xicon-w-book) !important}
+.xicon.music{background-image:var(--xicon-music) !important}
+.column-left .xicon.music{background-image:var(--xicon-w-music) !important}
+.xicon.movie{background-image:var(--xicon-movie) !important}
+.column-left .xicon.movie{background-image:var(--xicon-w-movie) !important}
+.xicon.game{background-image:var(--xicon-game) !important}
+.column-left .xicon.game{background-image:var(--xicon-w-game) !important}
+.xicon.travel{background-image:var(--xicon-travel) !important}
+.column-left .xicon.travel{background-image:var(--xicon-w-travel) !important}
+.xicon.puzzle{background-image:var(--xicon-puzzle) !important}
+.column-left .xicon.puzzle{background-image:var(--xicon-w-puzzle) !important}
+.xicon.camera{background-image:var(--xicon-camera) !important}
+.column-left .xicon.camera{background-image:var(--xicon-w-camera) !important}
+.xicon.word{background-image:var(--xicon-word) !important}
+.column-left .xicon.word{background-image:var(--xicon-w-word) !important}
+.xicon.excel{background-image:var(--xicon-excel) !important}
+.column-left .xicon.excel{background-image:var(--xicon-w-excel) !important}
+.xicon.powerpoint{background-image:var(--xicon-powerpoint) !important}
+.column-left .xicon.powerpoint{background-image:var(--xicon-w-powerpoint) !important}
+.xicon.outlook{background-image:var(--xicon-outlook) !important}
+.column-left .xicon.outlook{background-image:var(--xicon-w-outlook) !important}
+.xicon.illustrator{background-image:var(--xicon-illustrator) !important}
+.column-left .xicon.illustrator{background-image:var(--xicon-w-illustrator) !important}
+.xicon.uiux{background-image:var(--xicon-uiux) !important}
+.column-left .xicon.uiux{background-image:var(--xicon-w-uiux) !important}
+.xicon.indesign{background-image:var(--xicon-indesign) !important}
+.column-left .xicon.indesign{background-image:var(--xicon-w-indesign) !important}
+.xicon.organizational{background-image:var(--xicon-organizational) !important}
+.column-left .xicon.organizational{background-image:var(--xicon-w-organizational) !important}
+.xicon.search{background-image:var(--xicon-search) !important}
+.column-left .xicon.search{background-image:var(--xicon-w-search) !important}
+.xicon.dataanalysis{background-image:var(--xicon-dataanalysis) !important}
+.column-left .xicon.dataanalysis{background-image:var(--xicon-w-dataanalysis) !important}
+.xicon.report{background-image:var(--xicon-report) !important}
+.column-left .xicon.report{background-image:var(--xicon-w-report) !important}
+.xicon.management{background-image:var(--xicon-management) !important}
+.column-left .xicon.management{background-image:var(--xicon-w-management) !important}
+.xicon.communicate{background-image:var(--xicon-communicate) !important}
+.column-left .xicon.communicate{background-image:var(--xicon-w-communicate) !important}
+.xicon.plan{background-image:var(--xicon-plan) !important}
+.column-left .xicon.plan{background-image:var(--xicon-w-plan) !important}
+.xicon.talk{background-image:var(--xicon-talk) !important}
+.column-left .xicon.talk{background-image:var(--xicon-w-talk) !important}
+.xicon.photoshop{background-image:var(--xicon-photoshop) !important}
+.column-left .xicon.photoshop{background-image:var(--xicon-w-photoshop) !important}
+.xicon.canva{background-image:var(--xicon-canva) !important}
+.column-left .xicon.canva{background-image:var(--xicon-w-canva) !important}
+.xicon.wordpress{background-image:var(--xicon-wordpress) !important}
+.column-left .xicon.wordpress{background-image:var(--xicon-w-wordpress) !important}
 #cv-document .column-right .action .item{margin-bottom:2em}
 #cv-document .column-right .action .item:last-child{margin-bottom:0}
 #cv-document .column-right .action .item-title{margin-bottom:.2em}
@@ -268,3 +268,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document span.x_add.fa.fa-plus-circle,#cv-document span.x_del.fa.fa-remove{width:70px!important}
 #cv-document .height-curent>[data-x-name=group-item]{padding-bottom:3em}
 #cv-document .haicham:not(:empty):after{content:":"}
+#cv-document .cletter {text-align:justify}
+#cv-document .column-left .award .item-date {color: var(--text-white-color)}
+#cv-document [contenteditable] ol, #cv-document [contenteditable] ul{margin-left: 0!important}
+#cv-document .skill .item-title [contenteditable="true"] [data-placeholder] {display:inline}

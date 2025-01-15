@@ -159,7 +159,7 @@
                       <i class="xicon puzzle" aria-hidden="true"></i>
                     </div>
                     <div class="item-title">
-                      <div class="fz-14 lh-1" data-x-id="name" contenteditable="true">Chụp ảnh</div>
+                      <div class="fz-14 lh-1-428" data-x-id="name" contenteditable="true">Chụp ảnh</div>
                     </div>
                   </div>
                 </div>

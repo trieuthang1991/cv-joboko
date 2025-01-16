@@ -155,7 +155,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .height-curent>[data-x-name=group-item]{padding-bottom:3em}
 #cv-document .haicham:not(:empty):after{content:":"}
 #cv-document .cletter {text-align:justify}
-#cv-document .skill .item-title [contenteditable="true"] [data-placeholder] {display:inline}
 #cv-document [contenteditable] ol, #cv-document [contenteditable] ul{margin-left: 0!important}
 #cv-document .more .item, #cv-document .references .item{margin-bottom: 1em;}
-#cv-document .more .item:last-child, #cv-document .references .item:last-child{margin-bottom: 0;}
+#cv-document .skill .item{margin-bottom: 0.3em;}
+#cv-document .skill .item:last-child, #cv-document .more .item:last-child, #cv-document .references .item:last-child{margin-bottom: 0;}

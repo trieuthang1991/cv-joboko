@@ -42,11 +42,11 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .text-uppercase{text-transform:uppercase}
 #cv-document .text-capitalize{text-transform:capitalize}
 #cv-document .heading{position:relative;border-bottom:1px solid var(--text-color);margin-bottom:.6em;padding-bottom:.5em;color:var(--heading-color)}
-#cv-document .avatar{position:relative;z-index:5;display:flex;justify-content:center;align-items:center;width:11em;height:11em;margin-bottom:-3.5em;background-color:var(--avatar-background-color)}
+#cv-document .avatar{position:relative;z-index:5;display:flex;justify-content:center;align-items:center;width:11em;height:11em;margin-bottom:-3.5em;background-color:var(--avatar-background-color);border:3px solid var(--avatar-background-color)}
 @media screen and (max-width:767px){
 #cv-document .avatar{margin-bottom:1em}
 }
-#cv-document .avatar img{width:10.5em;height:10.5em;margin:0}
+#cv-document .avatar img{width:100%;height:100%;margin:0}
 #cv-document .info-main{position:relative;z-index:2;margin-top:.4em;margin-bottom:1.7em}
 #cv-document .info-main .item-title{color:var(--info-main-title-color)}
 #cv-document .info-detail{position:relative;display:flex;flex-wrap:wrap}
@@ -161,8 +161,8 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .height-curent>[data-x-name=group-item]{padding-bottom:3em}
 #cv-document .haicham:not(:empty):after{content:":"}
 #cv-document .cletter {text-align:justify}
-#cv-document .skill .item-title [contenteditable="true"] [data-placeholder] {display:inline}
 #cv-document [contenteditable] ol, #cv-document [contenteditable] ul{margin-left: 0!important}
 #cv-document .more .item, #cv-document .references .item{margin-bottom: 1em;}
-#cv-document .more .item:last-child, #cv-document .references .item:last-child{margin-bottom: 0;}
+#cv-document .skill .item{margin-bottom: 0.3em;}
+#cv-document .skill .item:last-child, #cv-document .more .item:last-child, #cv-document .references .item:last-child{margin-bottom: 0;}
 #cv-document .project {padding-bottom: 0.5em}

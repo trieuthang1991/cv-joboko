@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1356&color=584299&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1736658622165">
+<link rel="stylesheet" id="xcv-css" href="/css3/stylecv?tid=1356&color=584299&font=default&size=font_normal&spacing=spacing_normal&more=styles&v=1736658622166">
 
 
 <!-- data-x-name="parrent" Được thêm vào thẻ chứa toàn bộ nội dung của mẫu CV-->
@@ -373,8 +373,8 @@
                 <div class="skill content" data-x-name="list-item">
                   <div class="item" data-x-name="sub-item">
                     <div class="item-title">
-                      <div class="fz-14 lh-1-428 fw-bold haicham inline" contenteditable="true" data-x-id="name">Giải quyết vấn đề</div>
-                      <div class="fz-14 lh-1-428 inline" contenteditable="true" data-x-id="des">Viết tốt các nhóm chủ đề Tour du lịch, Giới thiệu sản phẩm.</div>
+                      <div class="fz-14 lh-1-428 fw-bold haicham" contenteditable="true" data-x-id="name">Giải quyết vấn đề</div>
+                      <div class="fz-14 lh-1-428" contenteditable="true" data-x-id="des">Viết tốt các nhóm chủ đề Tour du lịch, Giới thiệu sản phẩm.</div>
                     </div>
                   </div>
                 </div>

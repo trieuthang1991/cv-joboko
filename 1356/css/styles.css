@@ -140,7 +140,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .hobby .item:last-child{margin-bottom:0}
 #cv-document .hobby .item-icon{display:flex;justify-content:center;margin-bottom:1em}
 #cv-document .hobby .item-icon .xicon{width:3.8em;height:3.8em}
-#cv-document .target{position:relative;z-index:3;min-height:20.8em;margin-bottom:2em;text-align:justify}
+#cv-document .target{position:relative;z-index:3;min-height:21em;margin-bottom:2em;text-align:justify}
 #cv-document .project .item{margin-bottom:2em}
 #cv-document .project .item:last-child{margin-bottom:0}
 #cv-document .project .item-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;margin-bottom:.6em}

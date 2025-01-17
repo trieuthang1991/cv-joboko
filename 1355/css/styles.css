@@ -87,6 +87,8 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .info-detail .item-text{position:relative;z-index:2;width:calc(100% - 1.4em);padding:0 0 0 .6em}
 #cv-document .skill .item{margin-bottom:.3em}
 #cv-document .skill .item:last-child{margin-bottom:0}
+#cv-document .skill-ta .item{margin-bottom:.6em}
+#cv-document .skill-ta .item:last-child{margin-bottom:0}
 #cv-document .skill-th .item{position:relative;display:flex;margin-bottom:.6em;padding-left:.9em}
 #cv-document .skill-th .item:last-child{margin-bottom:0}
 #cv-document .skill-th .item::before{content:"";position:absolute;top:.8em;left:0;border-radius:50%;width:.4em;height:.4em;background-color:var(--text-color)}
@@ -124,7 +126,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 .xicon.photoshop{background-image:var(--xicon-photoshop)!important}
 .xicon.canva{background-image:var(--xicon-canva)!important}
 .xicon.wordpress{background-image:var(--xicon-wordpress)!important}
-#cv-document .column-left .action .item{margin-bottom:2em}
+#cv-document .column-left .action .item{margin-bottom:1.3em}
 #cv-document .column-left .action .item:last-child{margin-bottom:0}
 #cv-document .column-left .action .item-title{margin-bottom:.1em}
 #cv-document .column-left .action .item-wrap{display:flex;justify-content:space-between;align-items:center}
@@ -182,7 +184,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .project .item-table .td ul{list-style:none;margin-left:0}
 #cv-document .project .item-table .tr:first-child .td,#cv-document .project .item-table .tr:first-child .th{border-top:none}
 #cv-document .project .item-table .tr:last-child .td,#cv-document .project .item-table .tr:last-child .th{border-bottom:none;border-bottom-width:1px}
-#cv-document .advantage .item{position:relative;display:flex;padding-left:.9em}
+#cv-document .advantage .item{position:relative;display:flex;padding-left:.9em;margin-bottom: .6em;}
 #cv-document .advantage .item::before{content:"";position:absolute;top:.8em;left:0;border-radius:50%;width:.3em;height:.3em;background-color:var(--text-color)}
 #cv-document .advantage .item:last-child{margin-bottom:0}
 #cv-document .award .item{margin-bottom:.5em}
@@ -199,6 +201,7 @@ body.page-preview .xbgcv.xbgcv1{position:fixed;right:0;bottom:0;z-index:99;width
 #cv-document .cletter {text-align:justify}
 #cv-document [contenteditable] ol, #cv-document [contenteditable] ul{margin-left: 0!important}
 #cv-document .more .item, #cv-document .references .item{margin-bottom: 1em;}
-#cv-document .skill .item{margin-bottom: 0.3em;}
+#cv-document .skill .item{margin-bottom: 0.6em;}
 #cv-document .skill .item:last-child, #cv-document .more .item:last-child, #cv-document .references .item:last-child{margin-bottom: 0;}
-#cv-document .hobby .item-icon .xicon{filter: brightness(0) saturate(100%)}
+.xicon{filter: brightness(0) saturate(100%)}
+#cv-document [contentEditable] br:first-child, #cv-document [contentEditable] br:last-child{display:none;}
